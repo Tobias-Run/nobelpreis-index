@@ -35,3 +35,11 @@ Voraussetzungen sind die technische Eignung der bestehenden Anlage, Übertragung
 **Nächster Schritt:** aktuelle und historische Tarife desselben Anbieters für identisches Objekt, Alarmkriterien, Meldeweg und Reaktionsplan sichern. Installation, Bereitschaft, Schlüsselhandling, Einsatzfahrten und Fehlalarme ausdrücklich abgrenzen. **Keine Indexfreigabe.**
 
 Abruf aller Quellen: 16.10.2026. Historische PDF-Prüfsumme, Belegarten und Unsicherheiten stehen in den [strukturierten Daten](../../data/research/weitere-produkte-2026-10-16.json). Es wurden keine Anbieter kontaktiert; keine fremden PDF-Kopien werden veröffentlicht.
+
+## Historienprüfung und Zeitreihen-PoC · 16.10.2026
+
+**Historischer Tarif 2022, keine passende Fortsetzung.** 2022: Securando/Securitas privat 20 EUR/Monat brutto.
+
+Aktuelle Ab-Preise anderer Anbieter oder Zusatzpakete sind keine Fortsetzung. Vertragsumfang und historische widersprüchliche Enddaten bleiben sichtbar.
+
+[Zusätzlicher Prüfbeleg](https://www.securando.de/wp-content/uploads/Securando_Securitas-Monitoring-Preisliste_2022.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).

@@ -43,3 +43,7 @@ Auch weitere Ansätze für Sylt und das E-Bike lösen die bisherigen Lücken nic
 Die [erste Recherchedatei](../data/research/erste-fuenf-2026-10-16.json), die [Datei der sechs weiteren Kandidaten](../data/research/weitere-produkte-2026-10-16.json) und die [Ergänzung Gastronomie/Hotellerie](../data/research/gastronomie-hotellerie-2026-10-16.json) trennen Beobachtungen, abgeleitete Rechnungen, Hinweise und Ablehnungsgründe. Das [Produktregister](../data/research/produktregister.json) verknüpft alle dreizehn Dossiers und Datenquellen, einschließlich ihres Auswahlstatus.
 
 Öffentliche Lesbarkeit ist kein pauschales Weiterverwendungsrecht. Vollständige fremde PDFs, Karten und Bilder werden nicht veröffentlicht. Es wurden keine Anbieter kontaktiert oder Buchungen ausgelöst. Die Website verwendet weiterhin synthetische Produktdaten; keine dieser Recherchen wird ohne Freigabe in den Demoindex geladen.
+
+## Ergänzung: historische Preise und Zeitreihen-PoC
+
+Die [Historienprüfung aller 13 Positionen](historische-preise-und-poc-2026-10-16.md) ergänzt sieben Preis-/Gebührenbeobachtungen und dokumentiert verbleibende Lücken. Ein separater, nicht als Konsumindex freigegebener Zweier-Pilot zeigt die Rechenkette mit offizieller monatlicher Bundesbank-Referenz.

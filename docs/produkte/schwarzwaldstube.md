@@ -29,3 +29,11 @@ Eine Reservierung ist erforderlich; eine feste Wartedauer ist nicht belegt. Der 
 Abruf aller Quellen: 16.10.2026. Die aktuelle PDF wurde im Webwerkzeug gelesen und visuell geprüft; ein separater direkter Download lieferte HTTP 403. Deshalb wird keine lokale PDF-Prüfsumme behauptet. Der Sekundärbeleg wurde samt Standdatum und nummerierten Gängen gelesen.
 
 **Nächster Schritt:** historische Originalkarten und einen dokumentierten Leistungsabgleich sichern. Vollständige fremde Speisekarten und Rezeptbeschreibungen werden nicht ins Repository kopiert. [Strukturierte Daten](../../data/research/gastronomie-hotellerie-2026-10-16.json).
+
+## Historienprüfung und Zeitreihen-PoC · 16.10.2026
+
+**Menü-Belege 2023–2026, Leistungswechsel.** Sieben Gänge: 2023 295 / 2024 325 / 2025 325 / 2026 385 EUR.
+
+2023 nur großes Menü, historische Bezeichnung II offen und Artikel nachträglich geändert. 2025 Foto der Karte; 2024 Portalstand. Speisen, Steuerregime und Inhalte verändern sich; keine qualitätsbereinigte Inflation.
+
+[Zusätzlicher Prüfbeleg](https://diningwithfrankie.com/2025/04/28/restaurant-schwarzwaldstubeupdate-baiersbronn-3-16-25/). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).

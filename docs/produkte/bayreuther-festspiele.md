@@ -29,3 +29,11 @@ Gleiches Werk und gleiche Kategorie begrenzen Unterschiede, beseitigen aber nich
 **Gut geeigneter Kulturkandidat**, sofern Kategorie und Leistungsumfang fortgeführt werden können. Frühere Spielzeiten, gegebenenfalls pandemiebedingte Ausfälle und neue Inszenierungen gesondert recherchieren. Kein unbelegter Schwarzmarktaufschlag. Die kulturelle Bedeutung ist kein statistischer Nachweis für Konsum deutscher 1%-Haushalte.
 
 Abruf aller Quellen: 16.10.2026. PDF-Prüfsummen und Einzelbeträge stehen in den [strukturierten Daten](../../data/research/weitere-produkte-2026-10-16.json). Keine vollständigen Programmhefte oder Sitzpläne werden weiterveröffentlicht. **Noch keine Indexfreigabe.**
+
+## Historienprüfung und Zeitreihen-PoC · 16.10.2026
+
+**Vergleichbare Tarife 2024–2026.** 2024 / 2025 / 2026 jeweils 352 EUR + 6 EUR Pflichtgebühr = 358 EUR.
+
+2024-Broschüre nur als archiviertes Original auf Vereinsserver erreichbar. Festspieltarif ist kein Ganzjahresdurchschnitt; Steuer-Zweitprüfung bleibt offen.
+
+[Zusätzlicher Prüfbeleg](https://cerclewagneria.cat/ewExternalFiles/saisonal-overview-2024-EN.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).

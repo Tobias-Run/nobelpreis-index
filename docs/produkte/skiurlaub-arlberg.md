@@ -31,3 +31,11 @@ Ein Hotel-Download wurde im Suchtreffer noch als 2025/26 beschrieben, verlinkte 
 Buchbarkeit hängt von Hotel, Zeitpunkt und Kapazität ab. Keine belegte generelle Warteliste. **Nächster Schritt:** Standardhotel und Reisewoche festlegen sowie archivierte Preislisten oder datierte, vergleichbare Angebote sichern. Ohne diese bleibt die Position „Skiurlaub“ für den Index gesperrt.
 
 Abruf aller Quellen: 16.10.2026. Der offizielle Ticket Guide wurde lokal gelesen und gehasht; die Tarifübersicht zusätzlich im Webwerkzeug geprüft. [Strukturierte Daten](../../data/research/weitere-produkte-2026-10-16.json). Keine vollständigen Broschüren werden veröffentlicht.
+
+## Historienprüfung und Zeitreihen-PoC · 16.10.2026
+
+**Nur abgelaufene Saison 2025/26 und Zukunftstarif.** 2025/26: 450 EUR (Sekundärbeleg). 2026/27: 468 EUR, angekündigt, noch keine historische Saisonbeobachtung.
+
+2024/25-Schätzungen und widersprüchliche Onlineangaben nicht übernommen. Betreiber-Original älterer Saison fehlt. Gesamturlaub ohne Hotelpreis.
+
+[Zusätzlicher Prüfbeleg](https://findpowder.com/de/resort/lech/lift-pass). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).

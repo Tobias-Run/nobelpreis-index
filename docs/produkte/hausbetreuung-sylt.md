@@ -40,3 +40,11 @@ Dies ist eine vorbereitete Recherchevorlage, **keine versendete Anfrage**. Es wu
 **Als Recherchekandidat behalten, für den Index gesperrt.** Nächster benötigter Beleg ist ein datiertes Angebot oder eine Rechnung für die definierte Leistung; weitere allgemeine Anbieterbeschreibungen lösen die Preislücke nicht.
 
 Abruf aller Quellen: 16.10.2026. [Strukturierter Rechercheeintrag ohne Preisbeobachtung](../../data/research/weitere-produkte-2026-10-16.json). Quellenrechte sind offen; im Repository stehen eigene Zusammenfassungen und Links.
+
+## Historienprüfung und Zeitreihen-PoC · 16.10.2026
+
+**Aktuelle und historische Beträge fehlen.** Keine öffentliche standardisierte Preisbeobachtung gefunden. Fehlend bedeutet nicht kostenlos.
+
+Vergleichbare datierte Angebote oder Rechnungen zum definierten Kontrollpaket erforderlich; keine Anbieter kontaktiert.
+
+[Zusätzlicher Prüfbeleg](https://www.hausbetreuung-enkelmann.de/preise). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
