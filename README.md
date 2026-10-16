@@ -62,6 +62,8 @@ Jede Position besitzt sechs explizite synthetische Jahreswerte von 2020 bis 2025
 
 Die Oberfläche orientiert sich an der ruhigen Anmutung klassischer Grandhotels: große Serifenschrift, zentrierte Wortmarke, viel Freiraum und dezente Goldakzente. Die konkrete Umsetzung und Referenz sind in [docs/gestaltung.md](docs/gestaltung.md) dokumentiert.
 
+Der [UX-Vergleich vom 16.10.2026](docs/ux-audit-2026-10-16.md) dokumentiert Vergleichsangebote, konkrete Bedienungslücken und priorisierte nächste Schritte.
+
 ## Projektstruktur
 
 ```text
