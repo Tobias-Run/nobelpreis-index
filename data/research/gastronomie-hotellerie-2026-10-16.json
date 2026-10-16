@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0-recherche",
+  "stand": "2026-10-16",
+  "zweck": "Zusätzliche Gastronomie- und Hotellerie-Recherchevorschläge; keine Rekonstruktion fehlender ursprünglicher Namen",
+  "indexfreigabe": false,
+  "basisjahr": null,
+  "quellen": [
+    {
+      "id": "schwarzwald-offiziell",
+      "titel": "Schwarzwaldstube Restaurant",
+      "url": "https://www.traube-tonbach.de/kulinarik/schwarzwaldstube/",
+      "quellentyp": "anbieter",
+      "fundstelle": "Link zur aktuellen Karte und Beschreibung der Menüarten",
+      "abgerufen_am": "2026-10-16",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständigen Fremdbelege veröffentlicht"
+    },
+    {
+      "id": "schwarzwald-karte",
+      "titel": "Schwarzwaldstube aktuelle Speisekarte",
+      "url": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+      "quellentyp": "anbieter",
+      "fundstelle": "PDF-Seite 1, Degustationsmenü II, sieben Menüpositionen und Betrag 385 EUR",
+      "abgerufen_am": "2026-10-16",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständigen Fremdbelege veröffentlicht",
+      "hinweise": "Im Webwerkzeug gelesen und visuell geprüft; direkter Download HTTP 403, daher keine lokale Prüfsumme. PDF-Titel mit Hinweis auf August 2026 ist kein Gültigkeitsdatum."
+    },
+    {
+      "id": "schwarzwald-2024",
+      "titel": "Speisekarte.de Schwarzwaldstube",
+      "url": "https://www.speisekarte.de/baiersbronn/restaurant/schwarzwaldstube_hotel_traube_tonbach/speisekarte",
+      "quellentyp": "sekundärquelle",
+      "fundstelle": "Bearbeitungsstand 11.11.2024; Menü II mit sieben nummerierten Gängen",
+      "abgerufen_am": "2026-10-16",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständigen Fremdbelege veröffentlicht"
+    },
+    {
+      "id": "schwarzwald-veraltet",
+      "titel": "Restaurant Ranglisten Schwarzwaldstube",
+      "url": "https://www.restaurant-ranglisten.de/restaurants/details/schwarzwaldstube/",
+      "quellentyp": "sekundärquelle",
+      "fundstelle": "Abweichender Menüpreis; nicht als aktueller Tarif übernommen",
+      "abgerufen_am": "2026-10-16",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständigen Fremdbelege veröffentlicht"
+    },
+    {
+      "id": "adlon-zimmer",
+      "titel": "Adlon Deluxe Zimmer",
+      "url": "https://www.kempinski.com/de/hotel-adlon/zimmer-suiten/zimmer/deluxe-zimmer",
+      "quellentyp": "anbieter",
+      "fundstelle": "40 m², Hauptgebäude, Straßen- oder Innenhofblick",
+      "abgerufen_am": "2026-10-16",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständigen Fremdbelege veröffentlicht"
+    },
+    {
+      "id": "adlon-undatiert",
+      "titel": "Ghorfa Adlon-Tarifblatt",
+      "url": "https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf",
+      "quellentyp": "tarifblatt_auf_drittseite",
+      "fundstelle": "Deluxe Room und Fußnoten zu Steuern und Frühstück",
+      "abgerufen_am": "2026-10-16",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständigen Fremdbelege veröffentlicht",
+      "sha256": "93abc1dfc6b50d0cf4991139d2c3b44ef55040380b2e60a43d441443ce44294d",
+      "hinweise": "Undatierter Tarif, Verfügbarkeit auf Anfrage; kein allgemeiner aktueller Endkundentarif bestätigt"
+    },
+    {
+      "id": "adlon-vorauszahlung",
+      "titel": "Adlon Vorauszahlungsangebot",
+      "url": "https://www.kempinski.com/de/hotel-adlon/ueberblick/angebote/im-voraus-zahlen-mit-preisvorteil",
+      "quellentyp": "anbieter",
+      "fundstelle": "Keine kostenfreie Stornierung; prozentualer Nachlass ohne fixen Grundpreis",
+      "abgerufen_am": "2026-10-16",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständigen Fremdbelege veröffentlicht"
+    }
+  ],
+  "produkte": [
+    {
+      "id": "schwarzwaldstube-menue-ii",
+      "name": "Schwarzwaldstube Degustationsmenü II",
+      "auswahlstatus": "zusätzlicher Recherchevorschlag; ursprünglicher Auswahlname nicht rekonstruiert",
+      "dossier": "docs/produkte/schwarzwaldstube.md",
+      "definition": "Sieben Gänge, Menü II, pro Person ohne Getränke, Hotel oder Trinkgeld",
+      "kategorie": "Gastronomie",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche; weitere redaktionelle Prüfung und Leistungsabgleich offen",
+      "zugang": "Reservierung nötig; feste Wartedauer nicht belegt",
+      "offene_punkte": [
+        "Historische Originalkarte fehlt",
+        "Speisen und Leistungsumfang geändert",
+        "Beginn der Preisgültigkeit offen",
+        "Steuerbehandlung des älteren Belegs bestätigen"
+      ],
+      "beobachtungen": [
+        {
+          "id": "schwarzwald-2024-menue",
+          "betrag": 325,
+          "einheit": "Menü pro Person",
+          "preisart": "Veröffentlichter Menüpreis",
+          "quelle_id": "schwarzwald-2024",
+          "abgerufen_am": "2026-10-16",
+          "preisdatum": "2024-11-11",
+          "datumstyp": "Bearbeitungsstand der Sekundärquelle",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "Nicht ausdrücklich im älteren Beleg bestätigt",
+          "belegqualität": "Sekundärbeleg; Datum nur Portal-Bearbeitungsstand",
+          "prüfstatus": "Quelle gelesen; Vergleichbarkeit nicht freigegeben",
+          "indexfreigabe": false
+        },
+        {
+          "id": "schwarzwald-2026-menue",
+          "betrag": 385,
+          "einheit": "Menü pro Person",
+          "preisart": "Veröffentlichter Menüpreis",
+          "quelle_id": "schwarzwald-karte",
+          "abgerufen_am": "2026-10-16",
+          "preisdatum": "2026-10-16",
+          "datumstyp": "Beobachtungsdatum",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "umsatzsteuer": "inklusive MwSt. laut offizieller Karte",
+          "belegqualität": "Primärbeleg; Preisgültigkeitsbeginn unbekannt",
+          "prüfstatus": "Quelle gelesen; Vergleichbarkeit nicht freigegeben",
+          "indexfreigabe": false
+        }
+      ],
+      "ableitungen": [],
+      "nicht_übernommene_hinweise": [
+        {
+          "quelle_id": "schwarzwald-veraltet",
+          "grund": "Abweichender Betrag ohne gesicherten Preiszeitpunkt; kein zweiter aktueller Preis"
+        },
+        {
+          "url": "https://www.traube-tonbach.de/site/assets/files/22043/schwarzwaldstube_web_d.pdf",
+          "grund": "Leitet auf Hotelstartseite; kein historischer Originalbeleg"
+        }
+      ]
+    },
+    {
+      "id": "hotel-adlon-deluxe",
+      "name": "Hotel Adlon Deluxe Zimmer",
+      "auswahlstatus": "zusätzlicher Recherchevorschlag; ursprünglicher Auswahlname nicht rekonstruiert",
+      "dossier": "docs/produkte/hotel-adlon.md",
+      "definition": "Eine Nacht, zwei Erwachsene, Deluxe Hauptgebäude, ohne Frühstück, flexible öffentliche Direktbuchungsrate; Reisetag und Vorlauf noch festzulegen",
+      "kategorie": "Hotellerie",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "indexfreigabe": false,
+      "prüfstatus": "Kein gültiger vergleichbarer Preisbeleg",
+      "zugang": "Datums- und tarifabhängige Verfügbarkeit",
+      "offene_punkte": [
+        "Standardregel für Reisezeit und Buchungsvorlauf fehlt",
+        "Kein vollständig datiertes Angebot mit Steuer- und Stornobedingungen",
+        "Keine historische Reihe"
+      ],
+      "beobachtungen": [],
+      "ableitungen": [],
+      "nicht_übernommene_hinweise": [
+        {
+          "quelle_id": "adlon-undatiert",
+          "betrag": 265,
+          "währung": "EUR",
+          "einheit": "Zimmer und Nacht",
+          "preisart": "Undatierter Sondertarif auf Anfrage",
+          "umsatzsteuer": "inklusive VAT, City Tax und Servicegebühren laut Blatt; ohne Frühstück",
+          "grund": "Kein Gültigkeits- oder Reisedatum, keine gesicherte allgemeine Buchbarkeit und keine vollständigen Stornobedingungen. Nicht als Beobachtung übernommen."
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,8 @@ Ein kuratierter Preisindex für gehobenen Konsum in Deutschland.
 
 ## Aktueller Stand
 
+Der [vollständige Warenkorb-Prüfstand](docs/warenkorb-pruefstand-2026-10-16.md) führt alle elf dokumentierten Kandidaten und zwei zusätzliche Recherchevorschläge mit eigenen Dossiers, Datenstatus und offenen Belegen zusammen.
+
 Das Repository enthält einen bedienbaren Website-Prototyp. **Alle Produktpreise und der Premium-Warenkorb sind synthetische Demonstrationsdaten. Die VPI-Referenz verwendet dagegen offizielle Jahresdurchschnitte aus dem Statistikangebot der Deutschen Bundesbank (Ursprungsquelle: Statistisches Bundesamt).** Aus dem Demo-Warenkorb und seinem Abstand zum VPI lassen sich keine Aussagen über tatsächliche Preisentwicklungen gehobenen Konsums ableiten.
 
 Der erste fachliche Meilenstein ist ein **belegbarer Testwarenkorb**, bevor ein realer Index veröffentlicht wird. Das Projekt beansprucht keine Repräsentativität für das reichste Prozent und ist weder amtliche Statistik noch Anlageberatung. Es besteht keine Verbindung zu CPI Reserve; Name, Gestaltung und Umsetzung sind eigenständig. „Nobelpreis“ ist ein Arbeitstitel.
