@@ -58,6 +58,10 @@ Abstand (Prozentpunkte) = Warenkorbveränderung (%) − Vergleichsveränderung (
 
 Jede Position besitzt sechs explizite synthetische Jahreswerte von 2020 bis 2025. Die Beispiele sind keine recherchierten Beobachtungen; auch die graue Vergleichsreihe ist **keine echte Destatis-Zeitreihe**. Das Jahr 2020 ist eine Prototypannahme. Im Frontend findet keine verdeckte Interpolation statt.
 
+## Gestaltung
+
+Die Oberfläche orientiert sich an der ruhigen Anmutung klassischer Grandhotels: große Serifenschrift, zentrierte Wortmarke, viel Freiraum und dezente Goldakzente. Die konkrete Umsetzung und Referenz sind in [docs/gestaltung.md](docs/gestaltung.md) dokumentiert.
+
 ## Projektstruktur
 
 ```text
@@ -89,6 +93,6 @@ Beiträge und Preisrecherchen sind willkommen; die Anforderungen stehen in [CONT
 
 ## Prüfung und Veröffentlichung
 
-JavaScript-Syntax, Datenumfang und Basisnormierung wurden beim Erstellen des Prototyps geprüft. Eine Browser- und Mobilprüfung steht aus. Das Repository veröffentlicht derzeit keine Website; `dist/` kann statisch bereitgestellt werden. Sites-spezifische Hosting-Metadaten sind nicht Bestandteil dieses Repositories.
+JavaScript-Syntax, Datenumfang und Basisnormierung wurden beim Erstellen des Prototyps geprüft. Der aktuelle Gestaltungsstand wurde in Chromium bei 390 × 844 und 1440 × 1000 Pixeln einschließlich Menü, Zeitraumwahl, Suche und Produktdialog geprüft. Tests auf realen Mobilgeräten und eine vollständige Barrierefreiheitsprüfung stehen aus. Das Repository veröffentlicht derzeit keine Website; `dist/` kann statisch bereitgestellt werden. Sites-spezifische Hosting-Metadaten sind nicht Bestandteil dieses Repositories.
 
 Eine Open-Source-Lizenz ist derzeit nicht festgelegt. Die öffentliche Einsehbarkeit stellt keine pauschale Nutzungserlaubnis dar.
