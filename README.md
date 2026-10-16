@@ -24,6 +24,8 @@ Der erste fachliche Meilenstein ist ein **belegbarer Testwarenkorb**, bevor ein 
 
 Die [Recherche der ersten fünf Positionen](docs/produktrecherche-2026-10-16.md) dokumentiert Cayenne, Salem, Saxonia Thin, Kelly und Lanserhof Sylt mit belegten Einzelpreisen, Quellen und offenen Vergleichbarkeitsfragen. Die [strukturierten Forschungsdaten](data/research/erste-fuenf-2026-10-16.json) sind noch nicht für den Index freigegeben und werden nicht in die Demo geladen.
 
+Die [Würdigung und Abgrenzung gegenüber Julius Bär](docs/abgrenzung-julius-baer.md) erläutert die Überschneidungen, unseren angestrebten Mehrwert und die Voraussetzungen, um ihn einzulösen.
+
 ## Lokal starten
 
 Voraussetzung: Python 3. Es sind keine Installation und kein Build erforderlich.
