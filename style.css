@@ -205,3 +205,9 @@ dialog .close { min-height: 44px; min-width: 44px; }
 }
 .menu-toggle > span:nth-child(1) { grid-column: 1; grid-row: 1; }
 .menu-toggle > span:nth-child(2) { grid-column: 1; grid-row: 2; }
+.reference-source { padding: 0 0 24px; }
+.reference-source p { font-size: 11px; line-height: 1.8; color: #60695b; overflow-wrap: anywhere; }
+.reference-source a { text-decoration: underline; text-underline-offset: 3px; }
+.reference-source details { padding: 10px 0; }
+.reference-source summary { font-size: 12px; }
+.reference-source caption { text-align: left; padding: 16px 10px; font-size: 11px; color: #60695b; }
