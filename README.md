@@ -24,6 +24,8 @@ Der erste fachliche Meilenstein ist ein **belegbarer Testwarenkorb**, bevor ein 
 
 Die [Recherche der ersten fünf Positionen](docs/produktrecherche-2026-10-16.md) dokumentiert Cayenne, Salem, Saxonia Thin, Kelly und Lanserhof Sylt mit belegten Einzelpreisen, Quellen und offenen Vergleichbarkeitsfragen. Die [strukturierten Forschungsdaten](data/research/erste-fuenf-2026-10-16.json) sind noch nicht für den Index freigegeben und werden nicht in die Demo geladen.
 
+Für die [weiteren sechs Kandidaten](docs/produktrecherche-rest-2026-10-16.md) gibt es eigene Dossiers: E-Bike, Bayreuther Festspiele, Bodensee-Liegeplatz, Skiurlaub, Alarmaufschaltung und Sylt-Hausbetreuung. Sie unterscheiden belegte Preise, Teilpreise, künftige Tarife und offene Datenlücken; die zugehörigen [strukturierten Daten](data/research/weitere-produkte-2026-10-16.json) bleiben ebenfalls außerhalb des Demoindex.
+
 Die [Würdigung und Abgrenzung gegenüber Julius Bär](docs/abgrenzung-julius-baer.md) erläutert die Überschneidungen, unseren angestrebten Mehrwert und die Voraussetzungen, um ihn einzulösen.
 
 Die [Recherche weiterer Vergleichsangebote](docs/vergleichsangebote-luxuspreise-2026-10-16.md) ergänzt sieben Beispiele für Luxuswarenkörbe und spezialisierte Preistracker mit methodischen Konsequenzen für Nobelpreis.

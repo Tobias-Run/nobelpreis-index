@@ -1,0 +1,756 @@
+{
+  "schema_version": "1.0-recherche",
+  "stand": "2026-10-16",
+  "zweck": "Weitere ausgewählte Kandidaten; getrennt von synthetischen Website-Daten",
+  "indexfreigabe": false,
+  "basisjahr": null,
+  "auswahlhinweis": "Sechs rekonstruierbare offene Kandidaten. Zwei weitere Namen der ursprünglichen Siebenerauswahl fehlen im Repository und wurden nachgefragt.",
+  "methodische_grenzen": [
+    "Keine Repräsentativität für das deutsche oberste Prozent belegt",
+    "Österreichische Zielortpreise ausdrücklich separat gekennzeichnet",
+    "Keine Interpolation",
+    "Unterschiedliche Anbieter, Varianten und Preisarten nicht verkettet",
+    "Preisdatum null bedeutet: nur der Belegzeitraum ist bekannt"
+  ],
+  "quellen": [
+    {
+      "id": "rm-aktuell",
+      "titel": "Riese & Müller Charger5 vario",
+      "url": "https://www.r-m.de/de/bikes/charger5/charger5-vario/",
+      "quellentyp": "hersteller",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Deutsche Konfiguration, Basis- und Gesamtpreis",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "d6122c18777d9df71e24e8819960e0ed3d74599126f35b1c14754b39b1043357",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "lenz-hinweis",
+      "titel": "Lenz: Charger5",
+      "url": "https://www.lenz-ebikes.de/riese-und-mueller-charger-5",
+      "quellentyp": "händler",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Modellübersicht und Einführung; kein historisch datierter Preisbeleg",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "aff1207b8f0b301306fa169495b2ceb2ea7d79d2f56e4aaf3a14aa5852f2b522",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "bayreuth-preise-2025",
+      "titel": "Bayreuth Preistabelle 2025",
+      "url": "https://www.bayreuther-festspiele.de/wp-content/uploads/2025/05/bayreuther-festspiele-saalplan-preise-2025-de.pdf",
+      "quellentyp": "veranstalter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "A1, Parsifal ohne AR; 2025 PDF-Seite 1, 2026 PDF-Seite 72",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "4a948c27b554c0750325f0704c406c20f66a1e66944e0bd4d2b7b5fec93a1792",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "bayreuth-agb-2025",
+      "titel": "Bayreuth AGB 2025",
+      "url": "https://ticketshop.bayreuther-festspiele.de/static/files/AGB_2025_DE.pdf",
+      "quellentyp": "veranstalter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "§ 2.2: Gebühr je verkauftem Platz",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "59123cd83cb62f058300d118cd4fdc92f7ff8dac3464a5f0cc590dcd92237648",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "bayreuth-preise-2026",
+      "titel": "Bayreuth Preistabelle 2026",
+      "url": "https://www.bayreuther-festspiele.de/wp-content/uploads/2025/07/bayreuther-festspiele-magazin-2026-en-small.pdf",
+      "quellentyp": "veranstalter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "A1, Parsifal ohne AR; 2025 PDF-Seite 1, 2026 PDF-Seite 72",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "59e5d536499ff2a5e5bdd91b203ea66ddcc60cb629f34525c4a5d642b794936b",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "bayreuth-agb-2026",
+      "titel": "Bayreuth AGB 2026",
+      "url": "https://ticketshop.bayreuther-festspiele.de/static/files/AGB_2026_DE.pdf",
+      "quellentyp": "veranstalter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "§ 2.2: Gebühr je verkauftem Platz",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "f6c822c7e95c6095a1860f28b5b471f056aa58787c51d22a3df52e98704b244e",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "ycl-2025",
+      "titel": "YCL Gebührenordnung 2025",
+      "url": "https://ycla.de/wp-content/uploads/2025/08/2025-Gebuehrenordnung-Mitglied-Wasser-unterschrieben.pdf",
+      "quellentyp": "verein",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Seite 1, §§ 1–3; gültig ab 10.05.2025",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "a499b7d5353bae65aa7368e125dee21a2708c88bce2b35cf60974f68866f74db",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "ycl-2026",
+      "titel": "YCL Gebührenordnung 2026",
+      "url": "https://ycla.de/wp-content/uploads/2026/05/2026-Gebuehrenordnung-Verein-Liegeplaetze.pdf",
+      "quellentyp": "verein",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Seite 1, §§ 1–3; gültig ab 20.04.2026",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "b93ed4cb02a9e0d1b099bc2d96d1aef7bac65e767dac14994e9e7a6f6c80deeb",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "ycl-umlage",
+      "titel": "YCL Clubhaus-Umlage 2026",
+      "url": "https://ycla.de/wp-content/uploads/2026/05/2026-Umlage-Clubhaus.pdf",
+      "quellentyp": "verein",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Seite 1; freiwillig und widersprechbar",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "6b017d264e83d786e8f3e8c115a726a12a8e1381d4788ef3e3b0cb518fad44fc",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "ycl-hafen",
+      "titel": "YCL Hafenordnung 2026",
+      "url": "https://ycla.de/wp-content/uploads/2026/05/Hafenordnung_2026-03-05.pdf",
+      "quellentyp": "verein",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "§§ 1, 5, 7, 8: Saison, Anspruch und Warteliste",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "02aef7d99a1df436435b2b632eea0be090224a893b4d3816aa7c633ba0142458",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "ski-aktuell",
+      "titel": "Ski Arlberg Tarife 2026/27",
+      "url": "https://www.skiarlberg.at/de/tickets-saisonzeiten/preise-tickets-winter",
+      "quellentyp": "betreiber",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Hauptsaison, 6 Tage Erwachsene; Steuer- und Depotbestimmungen",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "df1e95accfc7766a9ac56aac790908274afde25bad8dc73904baa9681553b16a",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "ski-guide",
+      "titel": "Ski Arlberg Ticket Guide 2026/27",
+      "url": "https://www.skiarlberg.at/api/backend/download/de/asset?id=73561",
+      "quellentyp": "betreiber",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Tariftabelle Hauptsaison; vorläufiger Stand August 2026",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "deaedaa393a1c65fe3630da168e78f8911ac20a14efa23c41a78394f504e8ebd",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "ski-bergfex",
+      "titel": "Bergfex Ski Arlberg 2025/26",
+      "url": "https://www.bergfex.at/skiregionen/ski-arlberg-ticket/preise/",
+      "quellentyp": "sekundärquelle",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Tabelle Hauptsaison 2025/26, Zeile 6 Tage",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht"
+    },
+    {
+      "id": "ski-hotelansatz",
+      "titel": "Burg Vital Resort Winterangebote",
+      "url": "https://www.burgvitalresort.com/de/angebote/winterpauschalen/",
+      "quellentyp": "hotel",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Rechercheansatz; kein vergleichbarer Gesamtpreis gesichert",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht"
+    },
+    {
+      "id": "alarm-2022",
+      "titel": "Securando/Securitas Sondertarif 2022",
+      "url": "https://www.securando.de/wp-content/uploads/Securando_Securitas-Monitoring-Preisliste_2022.pdf",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Seite 1, rechte Spalte privat; Gültigkeitswiderspruch Seite 2",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht",
+      "sha256": "5004183b19b614b72bf84e5414ab0364a00ddf37d1d82f3defcf0cdd11db4688",
+      "belegprüfung": "Direkter Download lokal gelesen; PDF-Tabellen bei Bedarf visuell geprüft"
+    },
+    {
+      "id": "alarm-live",
+      "titel": "Livealarm monatliche Kosten",
+      "url": "https://www.livealarm.de/blog/monatliche-kosten-einer-alarmanlage/",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Privater Ab-Preis; Seite als KI-generiert gekennzeichnet",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht"
+    },
+    {
+      "id": "alarm-secutrust",
+      "titel": "SecuTrust Revierstreife und Alarmaufschaltung",
+      "url": "https://secu-trust.de/revierstreife/",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Ergänzung Alarmaufschaltung; Endpreis inklusive MwSt.; Einsatzfahrt separat",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht"
+    },
+    {
+      "id": "alarm-hb",
+      "titel": "Hauschildt & Blunck Sicherheitstechnik",
+      "url": "https://www.hauschildtundblunck.de/sicherheitstechnik/",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Orientierungsspanne, kein definierter historischer Tarif",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht"
+    },
+    {
+      "id": "sylt-enkelmann",
+      "titel": "Enkelmann Preise",
+      "url": "https://www.hausbetreuung-enkelmann.de/preise",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Individuelle Pauschale; kein Betrag",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht"
+    },
+    {
+      "id": "sylt-haushand",
+      "titel": "Haus & Hand FAQ",
+      "url": "https://www.haus-hand.de/faq/",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Preise und Abos; kein Betrag",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht"
+    },
+    {
+      "id": "sylt-da",
+      "titel": "D&A Hausbetreuung",
+      "url": "https://www.dua-objektservice.de/hausbetreuung/",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Leistungsbeschreibung; kein verwendbarer Preisbeleg",
+      "weiterverwendungsrechte": "nicht geklärt; keine vollständige Fremdquelle veröffentlicht"
+    }
+  ],
+  "produkte": [
+    {
+      "id": "rm-charger5",
+      "name": "Riese & Müller Charger5 vario",
+      "definition": "Pedelec, Diamant L, pine, 800 Wh, Kiox 500, keine zusätzlichen Kits",
+      "kategorie": "Mobilität",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "dossier": "docs/produkte/riese-mueller-charger5.md",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "zugang": "Öffentlicher Konfigurator; Lieferbarkeit unbekannt",
+      "offene_punkte": [
+        "Steuerangabe und Pflichtnebenkosten bestätigen",
+        "Historische identische Konfiguration fehlt",
+        "Generationswechsel nicht verkettet"
+      ],
+      "beobachtungen": [
+        {
+          "id": "rm-2026",
+          "betrag": 6499,
+          "einheit": "Fahrrad",
+          "preisart": "Hersteller-UVP Basiskonfiguration",
+          "quelle_id": "rm-aktuell",
+          "umsatzsteuer": "Im konkreten Beleg nicht ausdrücklich gefunden; vor Freigabe bestätigen",
+          "preisdatum": "2026-10-16",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Nur Beobachtungsdatum; Beginn Preisgültigkeit und Modelljahr offen",
+            "Widersprüchliches Feld Zusatzausstattung nicht zusätzlich addiert"
+          ]
+        }
+      ],
+      "ableitungen": [],
+      "nicht_übernommene_hinweise": [
+        {
+          "quelle_id": "lenz-hinweis",
+          "grund": "Kein gesicherter historischer Preiszeitpunkt und keine identische Konfiguration"
+        }
+      ]
+    },
+    {
+      "id": "bayreuth-parsifal",
+      "name": "Bayreuther Festspiele Parsifal A1",
+      "definition": "Ein reguläres Ticket, Parkett Mitte A1 ohne AR, online bestellt und digital",
+      "kategorie": "Kultur",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "dossier": "docs/produkte/bayreuther-festspiele.md",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "zugang": "Vergabe und Sofortkauf nach AGB; keine garantierte Verfügbarkeit",
+      "offene_punkte": [
+        "Weitere Spielzeiten fehlen",
+        "Sitzplatzkategorie und Leistungsumfang prüfen",
+        "Steuerbehandlung von Eintritt und Gebühr gesondert bestätigen"
+      ],
+      "beobachtungen": [
+        {
+          "id": "bayreuth-ticket-2025",
+          "betrag": 352,
+          "einheit": "Ticket",
+          "preisart": "Veröffentlichter Kartenpreis",
+          "quelle_id": "bayreuth-preise-2025",
+          "umsatzsteuer": "Endbetrag; Steuerbehandlung nicht abschließend dokumentiert",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "Festspielsaison 2025"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        },
+        {
+          "id": "bayreuth-gebühr-2025",
+          "betrag": 6,
+          "einheit": "Platz",
+          "preisart": "Pflichtgebühr je verkauftem Platz",
+          "quelle_id": "bayreuth-agb-2025",
+          "umsatzsteuer": "Steuerbehandlung der Gebühr offen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "Festspielsaison 2025"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        },
+        {
+          "id": "bayreuth-ticket-2026",
+          "betrag": 352,
+          "einheit": "Ticket",
+          "preisart": "Veröffentlichter Kartenpreis",
+          "quelle_id": "bayreuth-preise-2026",
+          "umsatzsteuer": "Endbetrag; Steuerbehandlung nicht abschließend dokumentiert",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "Festspielsaison 2026"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        },
+        {
+          "id": "bayreuth-gebühr-2026",
+          "betrag": 6,
+          "einheit": "Platz",
+          "preisart": "Pflichtgebühr je verkauftem Platz",
+          "quelle_id": "bayreuth-agb-2026",
+          "umsatzsteuer": "Steuerbehandlung der Gebühr offen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "Festspielsaison 2026"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        }
+      ],
+      "ableitungen": [
+        {
+          "id": "bayreuth-gesamt-2025",
+          "betrag": 358,
+          "einheit": "Ticket einschließlich Platzgebühr",
+          "typ": "eigene Rechnung; kein beobachteter Transaktionspreis",
+          "eingaben": [
+            "bayreuth-ticket-2025",
+            "bayreuth-gebühr-2025"
+          ],
+          "formel": "352 + 6",
+          "annahmen": [
+            "Online-Bestellung, digitales Ticket; keine Post- oder schriftliche Bestellgebühr"
+          ],
+          "indexfreigabe": false
+        },
+        {
+          "id": "bayreuth-gesamt-2026",
+          "betrag": 358,
+          "einheit": "Ticket einschließlich Platzgebühr",
+          "typ": "eigene Rechnung; kein beobachteter Transaktionspreis",
+          "eingaben": [
+            "bayreuth-ticket-2026",
+            "bayreuth-gebühr-2026"
+          ],
+          "formel": "352 + 6",
+          "annahmen": [
+            "Online-Bestellung, digitales Ticket; keine Post- oder schriftliche Bestellgebühr"
+          ],
+          "indexfreigabe": false
+        }
+      ]
+    },
+    {
+      "id": "liegeplatz-ycl",
+      "name": "Bodensee-Liegeplatz beim Yacht-Club Langenargen",
+      "definition": "Sommer-Wasserliegeplatz für Segelboot; reguläres Vollmitglied 40 Jahre; Anbieter als Recherchekonvention",
+      "kategorie": "Segeln",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "dossier": "docs/produkte/liegeplatz-langenargen.md",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "zugang": "Warteliste und passender freier Platz; Anspruch beim Bootsverkauf grundsätzlich erloschen",
+      "offene_punkte": [
+        "Verbindliche Flächenberechnung offen",
+        "Historische Bedingungen und frühere Jahre fehlen",
+        "Keine Gleichsetzung mit kommerziellem BMK-Hafentarif",
+        "Beschlüsse gelten erst innerhalb des jeweiligen Jahres"
+      ],
+      "beobachtungen": [
+        {
+          "id": "ycl-fläche-2025",
+          "betrag": 96,
+          "einheit": "m² und Sommersaison",
+          "preisart": "Veröffentlichte Flächengebühr",
+          "quelle_id": "ycl-2025",
+          "umsatzsteuer": "brutto inklusive 7 % MwSt.",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2025",
+            "von": "2025-05-10"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        },
+        {
+          "id": "ycl-verwaltung-2025",
+          "betrag": 26,
+          "einheit": "Sommerliegeplatz",
+          "preisart": "Verwaltungsgebühr",
+          "quelle_id": "ycl-2025",
+          "umsatzsteuer": "Als Bruttogebühr; Steuersatz nicht gesondert ausgewiesen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2025",
+            "von": "2025-05-10"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        },
+        {
+          "id": "ycl-mitglied-2025",
+          "betrag": 205,
+          "einheit": "Mitglied und Jahr",
+          "preisart": "Beitrag einschließlich Verbands-/Fremdenverkehrsabgabe",
+          "quelle_id": "ycl-2025",
+          "umsatzsteuer": "Beitragsbetrag; keine pauschale Steuersatzannahme",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2025",
+            "von": "2025-05-10"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        },
+        {
+          "id": "ycl-fläche-2026",
+          "betrag": 96.5,
+          "einheit": "m² und Sommersaison",
+          "preisart": "Veröffentlichte Flächengebühr",
+          "quelle_id": "ycl-2026",
+          "umsatzsteuer": "brutto inklusive 7 % MwSt.",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2026",
+            "von": "2026-04-20"
+          },
+          "zeitstatus": "aktuell_beobachtet",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        },
+        {
+          "id": "ycl-verwaltung-2026",
+          "betrag": 26,
+          "einheit": "Sommerliegeplatz",
+          "preisart": "Verwaltungsgebühr",
+          "quelle_id": "ycl-2026",
+          "umsatzsteuer": "Als Bruttogebühr; Steuersatz nicht gesondert ausgewiesen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2026",
+            "von": "2026-04-20"
+          },
+          "zeitstatus": "aktuell_beobachtet",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        },
+        {
+          "id": "ycl-mitglied-2026",
+          "betrag": 205,
+          "einheit": "Mitglied und Jahr",
+          "preisart": "Beitrag einschließlich Verbands-/Fremdenverkehrsabgabe",
+          "quelle_id": "ycl-2026",
+          "umsatzsteuer": "Beitragsbetrag; keine pauschale Steuersatzannahme",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2026",
+            "von": "2026-04-20"
+          },
+          "zeitstatus": "aktuell_beobachtet",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        }
+      ],
+      "ableitungen": [
+        {
+          "id": "ycl-szenario-2025",
+          "betrag": 3111,
+          "einheit": "Saisonbeispiel einschließlich Mitgliedschaft",
+          "typ": "eigene Rechnung; kein beobachteter Transaktionspreis",
+          "eingaben": [
+            "ycl-fläche-2025",
+            "ycl-verwaltung-2025",
+            "ycl-mitglied-2025"
+          ],
+          "formel": "30 * 96 + 26 + 205",
+          "annahmen": [
+            "Nur Szenario mit 30 abrechenbaren m²; kein tatsächlich angebotenes Bootspaket",
+            "Arbeitsdienst erfüllt; keine Aufnahmegebühr, freiwillige Umlage oder Winterleistung"
+          ],
+          "indexfreigabe": false
+        },
+        {
+          "id": "ycl-szenario-2026",
+          "betrag": 3126.0,
+          "einheit": "Saisonbeispiel einschließlich Mitgliedschaft",
+          "typ": "eigene Rechnung; kein beobachteter Transaktionspreis",
+          "eingaben": [
+            "ycl-fläche-2026",
+            "ycl-verwaltung-2026",
+            "ycl-mitglied-2026"
+          ],
+          "formel": "30 * 96.5 + 26 + 205",
+          "annahmen": [
+            "Nur Szenario mit 30 abrechenbaren m²; kein tatsächlich angebotenes Bootspaket",
+            "Arbeitsdienst erfüllt; keine Aufnahmegebühr, freiwillige Umlage oder Winterleistung"
+          ],
+          "indexfreigabe": false
+        }
+      ],
+      "belegkonflikt": "Webvorschau wich vom direkten Download ab; maßgeblich sind lokale visuell geprüfte PDF-Fassungen mit SHA-256.",
+      "zusätzliche_quellen": [
+        "ycl-umlage",
+        "ycl-hafen"
+      ]
+    },
+    {
+      "id": "skiurlaub-arlberg",
+      "name": "Skiurlaub Lech/Zürs – Teilpreis Ski Arlberg",
+      "definition": "Ziel Gesamturlaub; bisher nur 6 unmittelbar aufeinanderfolgende Skipasstage, Erwachsener, Hauptsaison",
+      "kategorie": "Reisen",
+      "markt": "Österreich; Eurotarif am Reiseziel, kein deutscher Inlandspreis",
+      "währung": "EUR",
+      "dossier": "docs/produkte/skiurlaub-arlberg.md",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "zugang": "Skipass öffentlich tarifiert; Hotelbuchbarkeit nicht geprüft",
+      "offene_punkte": [
+        "Hotel, Woche, Zimmer und Verpflegung definieren",
+        "Älteren Betreiberbeleg sichern",
+        "Räumlichen Leistungsumfang prüfen",
+        "Gesamturlaub noch ohne Preis"
+      ],
+      "beobachtungen": [
+        {
+          "id": "ski-2025",
+          "betrag": 450,
+          "einheit": "6-Tage-Skipass",
+          "preisart": "Veröffentlichter Saisontarif",
+          "quelle_id": "ski-bergfex",
+          "umsatzsteuer": "Steuerangabe im historischen Original noch nicht verifiziert",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2025/26",
+            "von": "2025-12-20",
+            "bis": "2026-04-06"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Sekundärbeleg; offizielles Original fehlt",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false
+        },
+        {
+          "id": "ski-2026",
+          "betrag": 468,
+          "einheit": "6-Tage-Skipass",
+          "preisart": "Angekündigter vorläufiger Saisontarif",
+          "quelle_id": "ski-guide",
+          "umsatzsteuer": "inklusive USt.; rückzahlbares Chipkartenpfand separat",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2026/27",
+            "von": "2026-12-19",
+            "bis": "2027-04-02"
+          },
+          "zeitstatus": "angekündigt_zukünftig",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Kalkulationsstand August 2026; Änderungsvorbehalt",
+            "Keine Zahl für einen Gesamturlaub"
+          ]
+        }
+      ],
+      "ableitungen": [],
+      "zusätzliche_quellen": [
+        "ski-aktuell",
+        "ski-hotelansatz"
+      ]
+    },
+    {
+      "id": "alarmaufschaltung",
+      "name": "Alarmaufschaltung Privathaus",
+      "definition": "Ziel: bestehende private EMA, definierter Übertragungsweg und Reaktionsplan, laufende Überwachung",
+      "kategorie": "Wohnen und Sicherheit",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "dossier": "docs/produkte/alarmaufschaltung.md",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "zugang": "Technische Eignung, Region und Vertrag; keine belegte Warteliste",
+      "offene_punkte": [
+        "Aktueller gleicher Anbietertarif fehlt",
+        "Inhalte und Laufzeiten unterscheiden sich",
+        "Keine Preisreihe über Anbieterwechsel bilden"
+      ],
+      "beobachtungen": [
+        {
+          "id": "alarm-securando-2022",
+          "betrag": 20,
+          "einheit": "Monat",
+          "preisart": "Securando/Securitas privat, monatlicher Grundpreis",
+          "quelle_id": "alarm-2022",
+          "umsatzsteuer": "brutto inklusive 19 % MwSt.",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2022; widersprüchliche Enddaten im Dokument"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Seite 1 bis 31.12.2022; Seite 2 andere Enddaten einschließlich ungültigem Datum",
+            "Mindestlaufzeit 24 Monate",
+            "Keine Schlüsselverwahrung oder Bereitschaft mobiler Einsatzkräfte im Privatpaket; optionale SIM separat"
+          ]
+        },
+        {
+          "id": "alarm-live-2026",
+          "betrag": 35,
+          "einheit": "Monat",
+          "preisart": "Privater Ab-Preis; Paket nicht abschließend definiert",
+          "quelle_id": "alarm-live",
+          "umsatzsteuer": "Nicht eindeutig ausgewiesen",
+          "preisdatum": "2026-10-16",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "belegqualität": "Unvollständiger Anbieterhinweis; ausdrücklich KI-generierter Inhalt",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Nur Recherchehinweis, kein freigegebener Referenztarif"
+          ]
+        },
+        {
+          "id": "alarm-secutrust-2026",
+          "betrag": 49,
+          "einheit": "Monat",
+          "preisart": "Zusatzoption Alarmaufschaltung im Revierstreifenangebot",
+          "quelle_id": "alarm-secutrust",
+          "umsatzsteuer": "Endpreis inklusive MwSt.",
+          "preisdatum": "2026-10-16",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-16",
+          "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Keine bestätigte alleinige Buchbarkeit; Grundprodukt und Einsatzkosten separat",
+            "Kein aktueller Preis des Securando-2022-Pakets"
+          ]
+        }
+      ],
+      "ableitungen": [
+        {
+          "id": "alarm-securando-jahr",
+          "betrag": 240,
+          "einheit": "12 Monatsraten",
+          "typ": "eigene Rechnung; kein beobachteter Transaktionspreis",
+          "eingaben": [
+            "alarm-securando-2022"
+          ],
+          "formel": "12 * 20",
+          "annahmen": [
+            "Kein eigenständiger Jahresvertrag und keine Behauptung einer nur zwölfmonatigen Mindestbindung"
+          ],
+          "indexfreigabe": false
+        }
+      ],
+      "zusätzliche_quellen": [
+        "alarm-hb"
+      ]
+    },
+    {
+      "id": "hausbetreuung-sylt",
+      "name": "Hausbetreuung privater Zweitwohnsitz Sylt",
+      "definition": "Ziel: 24 Kontrollgänge/Jahr, Schlüsselverwahrung, Heizung/Wasser/Schadenssichtung und Anfahrt; keine Vermietung oder Pflegearbeiten",
+      "kategorie": "Wohnen und Service",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "dossier": "docs/produkte/hausbetreuung-sylt.md",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "zugang": "Individuelle Angebote erforderlich; keine Anbieter kontaktiert",
+      "offene_punkte": [
+        "Kein verwendbarer öffentlicher Betrag",
+        "Standardobjekt 150 m² Westerland nur Recherchevorschlag",
+        "Aktuelle und historische vergleichbare Belege nötig"
+      ],
+      "beobachtungen": [],
+      "ableitungen": [],
+      "preisstatus": "nicht_veröffentlicht; fehlend, nicht null Euro",
+      "zusätzliche_quellen": [
+        "sylt-enkelmann",
+        "sylt-haushand",
+        "sylt-da"
+      ]
+    }
+  ]
+}
