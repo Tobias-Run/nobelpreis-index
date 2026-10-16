@@ -30,3 +30,11 @@ Eine [Händlerseite von Lenz](https://www.lenz-ebikes.de/riese-und-mueller-charg
 ## Belegpflege
 
 Abrufdatum aller Quellen: 16.10.2026. Die lokal gelesene Hersteller-HTML-Fassung ist durch SHA-256 in den [strukturierten Daten](../../data/research/weitere-produkte-2026-10-16.json) identifiziert. Keine vollständige fremde Seite wird im Repository veröffentlicht; Weiterverwendungsrechte sind nicht geklärt.
+
+## Historienprüfung und Zeitreihen-PoC · 16.10.2026
+
+**Modell erst seit 2025.** Aktuelle konfigurierte UVP 6.499 EUR; kein datierter identischer Tarif aus 2025 gefunden.
+
+Charger5 wurde am 24.06.2025 vorgestellt. Charger4 oder ältere Generationen ergeben keine rückwirkende Charger5-Preisreihe.
+
+[Zusätzlicher Prüfbeleg](https://www.r-m.de/de-at/presse/presse-copy/riese-muller-stellt-das-neue-charger5-vor/). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).

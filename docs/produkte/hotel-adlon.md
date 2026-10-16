@@ -26,3 +26,11 @@ Buchungsportale zeigten weitere Ab-Preise und Dollarbeträge ohne vollständig p
 Verfügbarkeit ist datumsabhängig; keine belegte generelle Warteliste. **Vorerst für den Index gesperrt.** Benötigt werden datierte Angebotsergebnisse desselben Zimmers mit allen Pflichtsteuern und Gebühren sowie vergleichbare historische Belege. Eine alternative Hotelposition mit veröffentlichten saisonalen Preislisten kann bei der Daten-Machbarkeit geeigneter sein.
 
 Abruf aller Quellen: 16.10.2026. Das Tarifblatt wurde lokal gelesen und mit SHA-256 identifiziert. Es wird nicht vollständig weiterveröffentlicht. [Strukturierter Eintrag mit verworfenem Tarif](../../data/research/gastronomie-hotellerie-2026-10-16.json).
+
+## Historienprüfung und Zeitreihen-PoC · 16.10.2026
+
+**Keine datierte vergleichbare Tarifhistorie.** Undatierter Ghorfa-Sondertarif 265 EUR bleibt verworfen.
+
+Pauschalreisen, Preis-ab-Portale und Firmenraten erfüllen die definierte öffentliche flexible Direktbuchung nicht. Datum, Vorlauf, Steuern und Stornierung müssen übereinstimmen.
+
+[Zusätzlicher Prüfbeleg](https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).

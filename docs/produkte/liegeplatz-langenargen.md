@@ -34,3 +34,11 @@ Die Saison reicht laut Hafenordnung vom 01.04. bis 31.10.; die Gebührenbeschlü
 **Guter Kandidat für das Thema Preis und Zugang**, aber kein belegter „Preis des reichsten Prozents“. Prestige ist eine redaktionelle Einordnung, keine gemessene Eigenschaft des Tarifs.
 
 Wichtig für die Reproduzierbarkeit: Die Webwerkzeug-Vorschau zeigte beim Abruf abweichende Gebühren. Maßgeblich sind hier die direkt heruntergeladenen, lokal visuell geprüften PDF-Fassungen mit [gespeicherten SHA-256-Prüfsummen](../../data/research/weitere-produkte-2026-10-16.json), Abruf 16.10.2026. Keine fremden PDF-Kopien im Repository. **Noch keine Indexfreigabe.**
+
+## Historienprüfung und Zeitreihen-PoC · 16.10.2026
+
+**Vergleichbare Teilgebühr 2025–2026.** Sommer-Flächentarif: 96,00 → 96,50 EUR je m²; +0,520833 %.
+
+Kein überprüfbarer 2024-Tarif gefunden. Mitgliedsbeitrag, Verwaltung, Arbeitsdienst, Aufnahme und optionaler Clubhausbeitrag separat. Flächenregel offen, daher kein erfundener Gesamtliegeplatzpreis.
+
+[Zusätzlicher Prüfbeleg](https://ycla.de/wp-content/uploads/2025/08/2025-Gebuehrenordnung-Mitglied-Wasser-unterschrieben.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).

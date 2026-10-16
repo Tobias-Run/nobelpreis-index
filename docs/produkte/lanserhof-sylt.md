@@ -15,3 +15,11 @@ Ziel ist ein standardisierter Aufenthalt von sieben Nächten für eine Person, m
 **Nicht zu einer Reihe verketten:** Classic und Classic Plus sind verschiedene Leistungen; auch gleichnamige Programme ändern ihren Umfang. Unterkunft, Verpflegung und die Behandlung der verbindlichen Bereitschaftspauschale sind vollständig zu klären. Eine saisonale Zimmer-Ab-Rate ersetzt keinen vergleichbaren Gesamtpreis. Die Bedingungen sehen eine Warteliste für ausgebuchte Anreisetermine vor.
 
 [Ausführliche Primärbelege und methodische Hinweise](../produktrecherche-2026-10-16.md#5-lanserhof-sylt) · [Daten und Belegprüfsummen](../../data/research/erste-fuenf-2026-10-16.json). Diese Seite übernimmt den vorhandenen Recherchestand ohne Behauptung eines erneuten Abrufs. **Keine Indexfreigabe.**
+
+## Historienprüfung und Zeitreihen-PoC · 16.10.2026
+
+**Programmpreise 2023–2026, kein Gesamtaufenthalt.** Classic: 2024 2.890 / 2025 2.980 / 2026 2.940 EUR. Classic Plus: 2023 4.125 / 2025 4.046 / 2026 3.990 EUR.
+
+Programme getrennt halten. Inhalte verändern sich; Zimmer und verpflichtende Nebenkosten fehlen. Keine reine Inflationsrate aus Paketpreisen ableiten.
+
+[Zusätzlicher Prüfbeleg](https://api.lanserhof.com/wp-content/uploads/2024/12/2025_LHS_Hotelpreisliste_DE_MitPreise.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
