@@ -1,4 +1,8 @@
-# OBERWERT – Konzeptprototyp
+# Nobelpreis
+
+**Was das gute Leben kostet.**
+
+Konzeptprototyp für einen deutschen Preisindex gehobenen Konsums.
 
 Eigenständiger deutschsprachiger statischer Website-Entwurf. Sämtliche Preise und die VPI-Vergleichsreihe sind synthetisch und in der Oberfläche als solche gekennzeichnet. Keine belastbare Indexveröffentlichung.
 
@@ -20,4 +24,4 @@ Quellenbasierte Machbarkeitsprüfung von zehn Kandidaten; belegter Testwarenkorb
 
 ## Verifikation
 
-JavaScript-Syntax erfolgreich geprüft. Datenumfang, sechs Werte pro Position und Basisnormierung geprüft. Kein Browser-QA erfolgt. Deployment nicht erfolgt: Sites-Skripte insbesondere `site-workflow.mjs` sind in dieser Umgebung nicht installiert. Site-ID ist in `.openai/hosting.json` für eine spätere Fortsetzung gespeichert. Registrierung allein stellt keine veröffentlichte Site bereit.
+JavaScript-Syntax erfolgreich geprüft. Datenumfang, sechs Werte pro Position und Basisnormierung geprüft. Kein Browser-QA erfolgt. Deployment nicht erfolgt: Sites-Skripte insbesondere `site-workflow.mjs` sind in dieser Umgebung nicht installiert. Sites-Hosting-Metadaten sind nicht Bestandteil dieses Repositories.
