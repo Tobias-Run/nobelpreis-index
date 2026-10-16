@@ -1,27 +1,94 @@
+<div align="center">
+
 # Nobelpreis
+### Was das gute Leben kostet.
 
-**Was das gute Leben kostet.**
+Ein kuratierter Preisindex für gehobenen Konsum in Deutschland.
 
-Konzeptprototyp für einen deutschen Preisindex gehobenen Konsums.
+![Status: Prototyp](https://img.shields.io/badge/Status-Prototyp-467253)
+![Daten: synthetisch](https://img.shields.io/badge/Daten-synthetisch-b89a57)
+![Projektsprache: Deutsch](https://img.shields.io/badge/Projektsprache-Deutsch-19291f)
 
-Eigenständiger deutschsprachiger statischer Website-Entwurf. Sämtliche Preise und die VPI-Vergleichsreihe sind synthetisch und in der Oberfläche als solche gekennzeichnet. Keine belastbare Indexveröffentlichung.
+</div>
 
-## Start
+**Wie stark verteuert sich gehobener Konsum – und wie unterscheidet sich das von der allgemeinen Inflation?** Nobelpreis soll diese Frage mit einem nachvollziehbaren deutschen Warenkorb, Europreisen und einem Vergleich zum Verbraucherpreisindex beantworten.
 
-Im Projektverzeichnis: `python3 -m http.server 8000 --directory dist`, dann http://localhost:8000 öffnen.
+*Nobelpreis is an independent German-market project comparing price changes in a curated premium consumption basket with general consumer inflation, inspired by [CPI Reserve](https://cpireserve.com/).*
 
-## Enthalten
+## Aktueller Stand
 
-Responsive Dashboard, drei gemeinsame Vergleichszeiträume, 16 synthetische Positionen in fünf Kategorien, Suche und Filter, zugängliche Produktdialoge mit Hash-Links, Preisverläufe als Jahrestabellen, kumulierte und annualisierte Veränderung, hypothetischer Vergleichspreis, JSON-Export, Methodik und Quellenstatus.
+Das Repository enthält einen bedienbaren Website-Prototyp. **Alle Produktpreise und die VPI-Vergleichsreihe sind synthetische Demonstrationsdaten.** Sie sind in der Oberfläche gekennzeichnet und erlauben keine Aussagen über tatsächliche Preisentwicklungen.
 
-## Rechenmodell
+Der erste fachliche Meilenstein ist ein **belegbarer Testwarenkorb**, bevor ein realer Index veröffentlicht wird. Das Projekt beansprucht keine Repräsentativität für das reichste Prozent und ist weder amtliche Statistik noch Anlageberatung. Es besteht keine Verbindung zu CPI Reserve; Name, Gestaltung und Umsetzung sind eigenständig. „Nobelpreis“ ist ein Arbeitstitel.
 
-Gleichgewichtetes arithmetisches Mittel von Preisverhältnissen, jeweils auf das ausgewählte Startjahr normiert. Jede Position hat sechs explizite synthetische Jahreswerte. Kein automatisiertes Scraping, keine versteckte Interpolation im Frontend. Keine bestätigten historischen Beobachtungen.
+## Lokal starten
 
-## Vor echtem Start erforderlich
+Voraussetzung: Python 3. Es sind keine Installation und kein Build erforderlich.
 
-Quellenbasierte Machbarkeitsprüfung von zehn Kandidaten; belegter Testwarenkorb; begründete Varianten und Gewichtung; Prüfung eines gemeinsamen Basisjahrs; tatsächliche Destatis-Referenz; Quellenrechte; persistierter redaktioneller Freigabe- und Korrekturprozess; vorgerenderte eigenständige Produktseiten statt Prototypdialogen; Browser-/Mobilprüfung; rechtliche und markenrechtliche Prüfung des Arbeitstitels.
+```bash
+git clone https://github.com/Tobias-Run/nobelpreis-index.git
+cd nobelpreis-index
+python3 -m http.server 8000 --directory dist
+```
 
-## Verifikation
+Anschließend **http://localhost:8000** öffnen. Optional lässt sich die JavaScript-Syntax mit Node.js prüfen:
 
-JavaScript-Syntax erfolgreich geprüft. Datenumfang, sechs Werte pro Position und Basisnormierung geprüft. Kein Browser-QA erfolgt. Deployment nicht erfolgt: Sites-Skripte insbesondere `site-workflow.mjs` sind in dieser Umgebung nicht installiert. Sites-Hosting-Metadaten sind nicht Bestandteil dieses Repositories.
+```bash
+node --check dist/app.js
+```
+
+## Funktionen
+
+- Indexvergleich mit drei gemeinsamen Vergleichszeiträumen und gleicher Basisnormierung.
+- 16 Beispielpositionen in fünf Kategorien, mit Suche und Filtern.
+- Produktdetails mit Jahrespreisen, kumulierter und annualisierter Veränderung sowie hypothetischem Vergleichspreis.
+- JSON-Export der Demodaten einschließlich Prüfstatus.
+- Responsive Darstellung sowie sichtbare Methodik- und Quellenhinweise.
+
+## Berechnung im Prototyp
+
+Der Warenkorb ist gleich gewichtet. Für das gewählte Basisjahr **b** und Vergleichsjahr **t** gilt:
+
+```text
+Index(t) = 100 × (1 / n) × Σ [Preisᵢ(t) / Preisᵢ(b)]
+Kumulierte Veränderung (%) = [Index(t) / 100 − 1] × 100
+Annualisierte Veränderung (%) = [(Preis(t) / Preis(b))^(1 / Jahre) − 1] × 100
+Abstand (Prozentpunkte) = Warenkorbveränderung (%) − Vergleichsveränderung (%)
+```
+
+Jede Position besitzt sechs explizite synthetische Jahreswerte von 2020 bis 2025. Die Beispiele sind keine recherchierten Beobachtungen; auch die graue Vergleichsreihe ist **keine echte Destatis-Zeitreihe**. Das Jahr 2020 ist eine Prototypannahme. Im Frontend findet keine verdeckte Interpolation statt.
+
+## Projektstruktur
+
+```text
+dist/
+  index.html     Seitenstruktur und Methodiktexte
+  style.css      Gestaltung und responsive Darstellung
+  app.js         Demodaten, Berechnung und Interaktionen
+.github/
+  ISSUE_TEMPLATE/ Vorlagen für Fehler und Preisrecherchen
+CONTRIBUTING.md  Zusammenarbeit und Quellenanforderungen
+```
+
+## Nächste Meilensteine
+
+- [ ] Zehn Kandidaten auf historische Daten, Vergleichbarkeit und Quellenrechte prüfen.
+- [ ] Belegten Testwarenkorb, gemeinsames Basisjahr und Auswahlregeln festlegen.
+- [ ] Deutsche Destatis-Zeitreihe technisch und methodisch einbinden.
+- [ ] Strukturiertes Datenmodell mit Quellen, Belegen und Prüfstatus auslagern.
+- [ ] Versionierte Indexstände und einen redaktionellen Freigabe- und Korrekturprozess umsetzen.
+- [ ] Eigenständige Produktseiten, Browser- und Mobilprüfung sowie rechtliche Prüfung abschließen.
+
+Für den späteren MVP sind 15–25 belegte Positionen aus 4–6 Kategorien vorgesehen. Datenqualität bestimmt den tatsächlichen Umfang.
+
+## Mitwirken
+
+**Projektsprache ist Deutsch:** Dokumentation, Issues, Pull Requests und redaktionelle Texte werden auf Deutsch verfasst. Technische Bezeichner können etablierte englische Begriffe verwenden.
+
+Beiträge und Preisrecherchen sind willkommen; die Anforderungen stehen in [CONTRIBUTING.md](CONTRIBUTING.md). Fehler und Recherchekandidaten können über die [Issue-Vorlagen](https://github.com/Tobias-Run/nobelpreis-index/issues/new/choose) eingereicht werden.
+
+## Prüfung und Veröffentlichung
+
+JavaScript-Syntax, Datenumfang und Basisnormierung wurden beim Erstellen des Prototyps geprüft. Eine Browser- und Mobilprüfung steht aus. Das Repository veröffentlicht derzeit keine Website; `dist/` kann statisch bereitgestellt werden. Sites-spezifische Hosting-Metadaten sind nicht Bestandteil dieses Repositories.
+
+Eine Open-Source-Lizenz ist derzeit nicht festgelegt. Die öffentliche Einsehbarkeit stellt keine pauschale Nutzungserlaubnis dar.
