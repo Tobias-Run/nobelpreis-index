@@ -6,7 +6,8 @@
 Ein kuratierter Preisindex für gehobenen Konsum in Deutschland.
 
 ![Status: Prototyp](https://img.shields.io/badge/Status-Prototyp-467253)
-![Daten: synthetisch](https://img.shields.io/badge/Daten-synthetisch-b89a57)
+![Warenkorb: Demo](https://img.shields.io/badge/Warenkorb-Demo-b89a57)
+![Referenz: Bundesbank](https://img.shields.io/badge/Referenz-Bundesbank-467253)
 ![Projektsprache: Deutsch](https://img.shields.io/badge/Projektsprache-Deutsch-19291f)
 
 </div>
@@ -17,7 +18,7 @@ Ein kuratierter Preisindex für gehobenen Konsum in Deutschland.
 
 ## Aktueller Stand
 
-Das Repository enthält einen bedienbaren Website-Prototyp. **Alle Produktpreise und die VPI-Vergleichsreihe sind synthetische Demonstrationsdaten.** Sie sind in der Oberfläche gekennzeichnet und erlauben keine Aussagen über tatsächliche Preisentwicklungen.
+Das Repository enthält einen bedienbaren Website-Prototyp. **Alle Produktpreise und der Premium-Warenkorb sind synthetische Demonstrationsdaten. Die VPI-Referenz verwendet dagegen offizielle Jahresdurchschnitte aus dem Statistikangebot der Deutschen Bundesbank (Ursprungsquelle: Statistisches Bundesamt).** Aus dem Demo-Warenkorb und seinem Abstand zum VPI lassen sich keine Aussagen über tatsächliche Preisentwicklungen gehobenen Konsums ableiten.
 
 Der erste fachliche Meilenstein ist ein **belegbarer Testwarenkorb**, bevor ein realer Index veröffentlicht wird. Das Projekt beansprucht keine Repräsentativität für das reichste Prozent und ist weder amtliche Statistik noch Anlageberatung. Es besteht keine Verbindung zu CPI Reserve; Name, Gestaltung und Umsetzung sind eigenständig. „Nobelpreis“ ist ein Arbeitstitel.
 
@@ -42,7 +43,7 @@ node --check dist/app.js
 - Indexvergleich mit drei gemeinsamen Vergleichszeiträumen und gleicher Basisnormierung.
 - 16 Beispielpositionen in fünf Kategorien, mit Suche und Filtern.
 - Produktdetails mit Jahrespreisen, kumulierter und annualisierter Veränderung sowie hypothetischem Vergleichspreis.
-- JSON-Export der Demodaten einschließlich Prüfstatus.
+- JSON-Export mit Demopreisen, Prüfstatus und vollständigen Metadaten der offiziellen VPI-Referenz.
 - Responsive Darstellung sowie sichtbare Methodik- und Quellenhinweise.
 
 ## Berechnung im Prototyp
@@ -56,7 +57,18 @@ Annualisierte Veränderung (%) = [(Preis(t) / Preis(b))^(1 / Jahre) − 1] × 10
 Abstand (Prozentpunkte) = Warenkorbveränderung (%) − Vergleichsveränderung (%)
 ```
 
-Jede Position besitzt sechs explizite synthetische Jahreswerte von 2020 bis 2025. Die Beispiele sind keine recherchierten Beobachtungen; auch die graue Vergleichsreihe ist **keine echte Destatis-Zeitreihe**. Das Jahr 2020 ist eine Prototypannahme. Im Frontend findet keine verdeckte Interpolation statt.
+Jede Warenkorbposition besitzt sechs explizite synthetische Jahreswerte von 2020 bis 2025. Diese Beispiele sind keine recherchierten Beobachtungen. Das gemeinsame Basisjahr bleibt für den späteren realen Warenkorb zu prüfen.
+
+Die graue Vergleichsreihe ist der **offizielle deutsche Gesamt-VPI, Jahresdurchschnitte, Ursprungswerte, 2020 = 100**. Quelle: Deutsche Bundesbank; Ursprungsquelle: Statistisches Bundesamt, Wiesbaden. Zeitreihe: `BBDP1.A.DE.N.VPI.C.A00000.I20.A`. Die Werte von 2020 bis 2025 lauten **100,0 / 103,1 / 110,2 / 116,7 / 119,3 / 121,9**. Bei Wahl eines anderen Startjahres wird der VPI entsprechend umbasiert; jährliche Inflationsraten werden nicht addiert.
+
+[Offizielle Zeitreihe](https://statistiken.bundesbank.de/statistiken-de/zeitreihen/BBDP1/A.DE.N.VPI.C.A00000.I20.A) · [Dokumentation und Quellenstand](docs/bundesbank-referenz.md)
+
+Die importierte Referenz und unveränderte CSV-Belege sind versioniert. Es gibt keine verdeckte Interpolation oder Live-Abhängigkeit vom Bundesbank-Server. Der Import lässt sich lokal reproduzieren:
+
+```bash
+python3 scripts/import-bundesbank-vpi.py
+node --test tests/reference.test.cjs
+```
 
 ## Gestaltung
 
@@ -80,7 +92,7 @@ CONTRIBUTING.md  Zusammenarbeit und Quellenanforderungen
 
 - [ ] Zehn Kandidaten auf historische Daten, Vergleichbarkeit und Quellenrechte prüfen.
 - [ ] Belegten Testwarenkorb, gemeinsames Basisjahr und Auswahlregeln festlegen.
-- [ ] Deutsche Destatis-Zeitreihe technisch und methodisch einbinden.
+- [x] Offizielle deutsche VPI-Jahreswerte über die Bundesbank einbinden und die Destatis-Ursprungsquelle ausweisen.
 - [ ] Strukturiertes Datenmodell mit Quellen, Belegen und Prüfstatus auslagern.
 - [ ] Versionierte Indexstände und einen redaktionellen Freigabe- und Korrekturprozess umsetzen.
 - [ ] Eigenständige Produktseiten, Browser- und Mobilprüfung sowie rechtliche Prüfung abschließen.
@@ -95,6 +107,6 @@ Beiträge und Preisrecherchen sind willkommen; die Anforderungen stehen in [CONT
 
 ## Prüfung und Veröffentlichung
 
-JavaScript-Syntax, Datenumfang und Basisnormierung wurden beim Erstellen des Prototyps geprüft. Der aktuelle Gestaltungsstand wurde in Chromium bei 390 × 844 und 1440 × 1000 Pixeln einschließlich Menü, Zeitraumwahl, Suche und Produktdialog geprüft. Tests auf realen Mobilgeräten und eine vollständige Barrierefreiheitsprüfung stehen aus. Für GitHub Pages enthält der Branch `gh-pages` die statischen Dateien aus `dist/`. Die Aktivierung erfolgt unter **Settings → Pages → Build and deployment → Deploy from a branch → gh-pages → / (root)**. Die erwartete Adresse nach erfolgreicher Bereitstellung ist https://tobias-run.github.io/nobelpreis-index/. Die Aktivierung ist noch nicht bestätigt. Bei Änderungen an `dist/` muss der Veröffentlichungsbranch ebenfalls aktualisiert werden. Sites-spezifische Hosting-Metadaten sind nicht Bestandteil dieses Repositories.
+JavaScript-Syntax, Datenumfang und Basisnormierung wurden beim Erstellen des Prototyps geprüft. Der aktuelle Gestaltungsstand wurde in Chromium bei 390 × 844 und 1440 × 1000 Pixeln einschließlich Menü, Zeitraumwahl, Suche und Produktdialog geprüft. Tests auf realen Mobilgeräten und eine vollständige Barrierefreiheitsprüfung stehen aus. Für GitHub Pages enthält der Branch `gh-pages` die statischen Dateien aus `dist/`. Die Aktivierung erfolgt unter **Settings → Pages → Build and deployment → Deploy from a branch → gh-pages → / (root)**. Die erwartete Adresse nach erfolgreicher Bereitstellung ist https://tobias-run.github.io/nobelpreis-index/. Die Website war beim Abruf am 16.10.2026 erreichbar. Bei Änderungen an `dist/` muss der Veröffentlichungsbranch ebenfalls aktualisiert werden. Sites-spezifische Hosting-Metadaten sind nicht Bestandteil dieses Repositories.
 
 Eine Open-Source-Lizenz ist derzeit nicht festgelegt. Die öffentliche Einsehbarkeit stellt keine pauschale Nutzungserlaubnis dar.

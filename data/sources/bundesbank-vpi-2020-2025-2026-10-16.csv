@@ -1,0 +1,8 @@
+﻿DATAFLOW;BBK_STD_FREQ;BBK_STD_AREA;BBK_STD_ADJUSTMENT;BBK_DOPR_CONCEPT;BBK_DOPR_CLASSIFICATION;BBK_DOPR_CLASSIFICATION_DETAIL;BBK_DO_BASIS;BBK_DO_SUFFIX;TIME_PERIOD;OBS_VALUE;TIME_FORMAT;BBK_DECIMALS;BBK_ID;BBK_UNIT;BBK_UNIT_MULT;BBK_TITLE;BBK_COMM_SRC;WEB_CATEGORY
+BBK:BBDP1(1.0);A;DE;N;VPI;C;A00000;I20;A;2020;100.0;P1Y;1;BBDP1.A.DE.N.VPI.C.A00000.I20.A;2020=100;0;Verbraucherpreisindex / Deutschland / Ursprungswerte Insgesamt;Statistisches Bundesamt, Wiesbaden.;KPEV
+BBK:BBDP1(1.0);A;DE;N;VPI;C;A00000;I20;A;2021;103.1;P1Y;1;BBDP1.A.DE.N.VPI.C.A00000.I20.A;2020=100;0;Verbraucherpreisindex / Deutschland / Ursprungswerte Insgesamt;Statistisches Bundesamt, Wiesbaden.;KPEV
+BBK:BBDP1(1.0);A;DE;N;VPI;C;A00000;I20;A;2022;110.2;P1Y;1;BBDP1.A.DE.N.VPI.C.A00000.I20.A;2020=100;0;Verbraucherpreisindex / Deutschland / Ursprungswerte Insgesamt;Statistisches Bundesamt, Wiesbaden.;KPEV
+BBK:BBDP1(1.0);A;DE;N;VPI;C;A00000;I20;A;2023;116.7;P1Y;1;BBDP1.A.DE.N.VPI.C.A00000.I20.A;2020=100;0;Verbraucherpreisindex / Deutschland / Ursprungswerte Insgesamt;Statistisches Bundesamt, Wiesbaden.;KPEV
+BBK:BBDP1(1.0);A;DE;N;VPI;C;A00000;I20;A;2024;119.3;P1Y;1;BBDP1.A.DE.N.VPI.C.A00000.I20.A;2020=100;0;Verbraucherpreisindex / Deutschland / Ursprungswerte Insgesamt;Statistisches Bundesamt, Wiesbaden.;KPEV
+BBK:BBDP1(1.0);A;DE;N;VPI;C;A00000;I20;A;2025;121.9;P1Y;1;BBDP1.A.DE.N.VPI.C.A00000.I20.A;2020=100;0;Verbraucherpreisindex / Deutschland / Ursprungswerte Insgesamt;Statistisches Bundesamt, Wiesbaden.;KPEV
+
