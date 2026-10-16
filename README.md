@@ -22,6 +22,8 @@ Das Repository enthält einen bedienbaren Website-Prototyp. **Alle Produktpreise
 
 Der erste fachliche Meilenstein ist ein **belegbarer Testwarenkorb**, bevor ein realer Index veröffentlicht wird. Das Projekt beansprucht keine Repräsentativität für das reichste Prozent und ist weder amtliche Statistik noch Anlageberatung. Es besteht keine Verbindung zu CPI Reserve; Name, Gestaltung und Umsetzung sind eigenständig. „Nobelpreis“ ist ein Arbeitstitel.
 
+Die [Recherche der ersten fünf Positionen](docs/produktrecherche-2026-10-16.md) dokumentiert Cayenne, Salem, Saxonia Thin, Kelly und Lanserhof Sylt mit belegten Einzelpreisen, Quellen und offenen Vergleichbarkeitsfragen. Die [strukturierten Forschungsdaten](data/research/erste-fuenf-2026-10-16.json) sind noch nicht für den Index freigegeben und werden nicht in die Demo geladen.
+
 ## Lokal starten
 
 Voraussetzung: Python 3. Es sind keine Installation und kein Build erforderlich.

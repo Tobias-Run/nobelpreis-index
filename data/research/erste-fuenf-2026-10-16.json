@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0-recherche",
+  "stand": "2026-10-16",
+  "zweck": "Machbarkeitsprüfung; getrennt von synthetischen Website-Daten",
+  "basisjahr": null,
+  "indexfreigabe": false,
+  "methodische_grenzen": [
+    "Keine Repräsentativität für das reichste Prozent belegt",
+    "Keine Interpolation",
+    "Preisdatum null: nur Zeitraum der Broschüre beziehungsweise des Gebührenblatts belegt",
+    "Preisbeobachtung und Zweitprüfung sind getrennte Schritte"
+  ],
+  "quellen": [
+    {
+      "id": "porsche-2023",
+      "titel": "Porsche Newsroom: Cayenne, 18.04.2023",
+      "url": "https://newsroom.porsche.com/cs/ppdb/2023/04/vce-luxusu-vce-vkonu-porsche-pedstavuje-nov-model-cayenne.html",
+      "quellentyp": "hersteller",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Abschnitt Preise: ausdrücklich Deutschland, inkl. DPH/MwSt.",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht"
+    },
+    {
+      "id": "porsche-aktuell",
+      "titel": "Porsche Deutschland: Cayenne",
+      "url": "https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+      "quellentyp": "hersteller",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Cayenne Basis-Benziner, Modelljahr 2027",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht"
+    },
+    {
+      "id": "salem-2026",
+      "titel": "Salem Schul- und Internatsgeld 2026/27",
+      "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2026_2027.pdf",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Seite 1, Klassen 5–10 und 10PLUS",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht",
+      "sha256": "414267ba85efc8cdbde94866cedb9c07d87cab72fb64c7465f937f7bc58474b4"
+    },
+    {
+      "id": "salem-2027",
+      "titel": "Salem Schul- und Internatsgeld 2027/28",
+      "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2027_2028.pdf",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Seite 1, Klassen 5–10 und 10PLUS",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht",
+      "sha256": "6b83cdc4c3893b7bb9629278b6be3f1b6fbcdade6857ab080edd4619b0f715cc"
+    },
+    {
+      "id": "lange-definition",
+      "titel": "A. Lange & Söhne: Saxonia Thin 201.027",
+      "url": "https://www.alange-soehne.com/eu-de/timepieces/saxonia/saxonia-thin/saxonia-thin-in-750-white-gold-201-027",
+      "quellentyp": "hersteller",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Produktbeschreibung; Preis nur auf Anfrage",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht"
+    },
+    {
+      "id": "wempe-aktuell",
+      "titel": "Wempe: Saxonia Thin",
+      "url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "quellentyp": "händler",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Produktpreis; Wempe LB100063, Herstellerreferenz 201.027-LB",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht"
+    },
+    {
+      "id": "lange-2016-verworfen",
+      "titel": "Time and Watches, 02.06.2016",
+      "url": "https://www.timeandwatches.com/2016/06/a-lange-sohne-saxonia-thin-37-mm.html",
+      "quellentyp": "sekundärquelle",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Schlussabsatz: 12.500 Euro ausdrücklich Rotgold 201.033",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht"
+    },
+    {
+      "id": "hermes-definition",
+      "titel": "Hermès Deutschland: Kelly",
+      "url": "https://www.hermes.com/de/de/content/106196-kelly/",
+      "quellentyp": "hersteller",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Produktfamilie, kein verwendbarer Preis der Zielvariante",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht"
+    },
+    {
+      "id": "saclab-verworfen",
+      "titel": "SACLÀB: Kelly 28 Togo Schwarz",
+      "url": "https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+      "quellentyp": "wiederverkäufer",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Ausverkauft; kein eigener Angebotspreis; getragen; Stempel Y ist Herstellungsjahr",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht"
+    },
+    {
+      "id": "lanserhof-2023",
+      "titel": "Lanserhof Sylt Broschüre 2023",
+      "url": "https://api.lanserhof.com/wp-content/uploads/2023/10/2023_LHS_Hotelpreisliste_DE_OHNEPREISE.pdf",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Seite 3, Classic Plus 7–8 Nächte",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht",
+      "sha256": "bf80669e2d6ec248afe307c8a1df01fa581b00559fe2176cec827ad7c114ba5d"
+    },
+    {
+      "id": "lanserhof-2024",
+      "titel": "Lanserhof Sylt Broschüre 2024",
+      "url": "https://api.lanserhof.com/wp-content/uploads/2023/12/2024_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Seite 3, Classic 7–8 Nächte",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht",
+      "sha256": "47781d1964246cf137f96fdc879fd0096087d9a1cfcdfca7887466f2fe58f20a"
+    },
+    {
+      "id": "lanserhof-2026",
+      "titel": "Lanserhof Sylt Preisliste 2026",
+      "url": "https://files.lanserhof.com/preisbroschure/2026_lhs_preisliste_de.pdf",
+      "quellentyp": "anbieter",
+      "abgerufen_am": "2026-10-16",
+      "fundstelle": "Seiten 3–4; Umsatzsteuer Seite 21; Gültigkeit Seite 24",
+      "weiterverwendungsrechte": "nicht_geklärt; nur ausgewählte Preisfakten und eigene Zusammenfassung veröffentlicht"
+    }
+  ],
+  "produkte": [
+    {
+      "id": "porsche-cayenne",
+      "name": "Porsche Cayenne",
+      "definition": "Basis-Benziner SUV, 3,0-l V6, Allrad, Automatik, deutsche Serie ohne Extras",
+      "kategorie": "Mobilität",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "zugang": "Öffentlicher Listen-Grundpreis; Lieferzeit nicht belegt",
+      "offene_punkte": [
+        "Serienausstattung 2023/heute abgleichen",
+        "Jährliche Zwischenbelege fehlen",
+        "Überführung und Zulassung separat prüfen"
+      ],
+      "beobachtungen": [
+        {
+          "id": "cayenne-2023",
+          "betrag": 89097,
+          "einheit": "Fahrzeug",
+          "variante": "260 kW/353 PS, Facelift 2023",
+          "preisart": "Hersteller-Listen-Grundpreis ab",
+          "quelle_id": "porsche-2023",
+          "abgerufen_am": "2026-10-16",
+          "umsatzsteuer": "inklusive MwSt.",
+          "preisdatum": "2023-04-18",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "prüfstatus": "in Quelle gelesen; nicht für Index freigegeben",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Bestellstart laut Veröffentlichung; Auslieferung Europa ab Juli 2023",
+            "Tschechischer Herstellertext nennt ausdrücklich den deutschen Marktpreis"
+          ]
+        },
+        {
+          "id": "cayenne-2026",
+          "betrag": 102700,
+          "einheit": "Fahrzeug",
+          "variante": "260 kW/353 PS, Modelljahr 2027",
+          "preisart": "Hersteller-Listen-Grundpreis ab",
+          "quelle_id": "porsche-aktuell",
+          "abgerufen_am": "2026-10-16",
+          "umsatzsteuer": "inklusive MwSt.",
+          "preisdatum": "2026-10-16",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "prüfstatus": "in Quelle gelesen; nicht für Index freigegeben",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Beobachtungsdatum; Beginn Preisgültigkeit unbekannt",
+            "Modelljahr 2027 ist kein zukünftiges Preisbeobachtungsdatum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salem",
+      "name": "Schule Schloss Salem",
+      "definition": "Klasse 8, wiederkehrendes Schul- und Internatsgeld, regulärer Tarif aus zwölf Monatsraten",
+      "kategorie": "Bildung",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "zugang": "Aufnahmeverfahren und Platzverfügbarkeit",
+      "offene_punkte": [
+        "Historische Gebührenblätter bis 2025/26 fehlen",
+        "Konstanz der enthaltenen Leistungen prüfen",
+        "Einmalgebühren, Kaution und Extras separat"
+      ],
+      "beobachtungen": [
+        {
+          "id": "salem-2026",
+          "betrag": 53400,
+          "einheit": "Schuljahr",
+          "variante": "Klasse 8; regulärer Tarif",
+          "preisart": "Offizielle wiederkehrende Gebühr",
+          "quelle_id": "salem-2026",
+          "abgerufen_am": "2026-10-16",
+          "umsatzsteuer": "Zahlbetrag; USt. nicht gesondert ausgewiesen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "von": "2026-09-01",
+            "bis": "2027-08-31",
+            "bezeichnung": "2026/2027"
+          },
+          "zeitstatus": "aktuell_beobachtet",
+          "prüfstatus": "in Quelle gelesen; nicht für Index freigegeben",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Monatsrate 4450 EUR; Jahresbetrag entspricht zwölf Monatsraten",
+            "Keine Rabatte oder rückzahlbare Kaution enthalten"
+          ]
+        },
+        {
+          "id": "salem-2027",
+          "betrag": 56160,
+          "einheit": "Schuljahr",
+          "variante": "Klasse 8; regulärer Tarif",
+          "preisart": "Offizielle wiederkehrende Gebühr",
+          "quelle_id": "salem-2027",
+          "abgerufen_am": "2026-10-16",
+          "umsatzsteuer": "Zahlbetrag; USt. nicht gesondert ausgewiesen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "von": "2027-09-01",
+            "bis": "2028-08-31",
+            "bezeichnung": "2027/2028"
+          },
+          "zeitstatus": "angekündigt_zukünftig",
+          "prüfstatus": "in Quelle gelesen; nicht für Index freigegeben",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Monatsrate 4680 EUR; Jahresbetrag entspricht zwölf Monatsraten",
+            "Keine Rabatte oder rückzahlbare Kaution enthalten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saxonia-thin",
+      "name": "A. Lange & Söhne Saxonia Thin",
+      "definition": "201.027, Weißgold 37 mm, silbernes Zifferblatt, schwarzes Alligatorband und Weißgold-Stiftschließe, neu",
+      "kategorie": "Uhren",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "zugang": "Wempe zeigt Verfügbar; Niederlassungsprüfung; keine garantierte Lieferzeit",
+      "offene_punkte": [
+        "Zusatz 201.027-LB beim Händler klären",
+        "Historische deutsche Neupreise fehlen",
+        "Hersteller veröffentlicht keinen Betrag"
+      ],
+      "beobachtungen": [
+        {
+          "id": "saxonia-wempe-2026",
+          "betrag": 27000,
+          "einheit": "Uhr",
+          "variante": "Wempe Herstellerreferenz 201.027-LB, Artikel LB100063",
+          "preisart": "Händler-Neupreis; keine bestätigte Hersteller-UVP",
+          "quelle_id": "wempe-aktuell",
+          "abgerufen_am": "2026-10-16",
+          "umsatzsteuer": "inklusive MwSt.",
+          "preisdatum": "2026-10-16",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "prüfstatus": "in Quelle gelesen; nicht für Index freigegeben",
+          "indexfreigabe": false
+        }
+      ]
+    },
+    {
+      "id": "hermes-kelly",
+      "name": "Hermès Kelly",
+      "definition": "Recherchekonvention: 28 Retourné, Togo, Noir, goldfarbene Beschläge, ungetragen, vollständiges Zubehör",
+      "kategorie": "Lederwaren",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "zugang": "Zuteilungsregel und Wartedauer für die konkrete Variante nicht belegt",
+      "offene_punkte": [
+        "Kein verifizierter deutscher Boutique-Preis",
+        "Kein passender aktueller Sekundärmarktbeleg mit Preis",
+        "Gebühren, Zustand und Marktbezug vor Aufschlagsberechnung klären"
+      ],
+      "beobachtungen": [],
+      "verworfene_belege": [
+        {
+          "quelle_id": "saclab-verworfen",
+          "grund": "Kein eigener Preis und abweichender Zustand; Herstellungsjahr nicht Preisdatum"
+        }
+      ]
+    },
+    {
+      "id": "lanserhof-sylt",
+      "name": "Lanserhof Sylt",
+      "definition": "Ziel: sieben Nächte, eine Person, feste Saison und Zimmerkategorie, identisches Programm und alle Pflichtkosten",
+      "kategorie": "Gesundheit und Reisen",
+      "markt": "Deutschland",
+      "währung": "EUR",
+      "indexfreigabe": false,
+      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "zugang": "Mindestaufenthalt; Warteliste bei ausgebuchtem Anreisetermin laut Bedingungen",
+      "offene_punkte": [
+        "Nur Programmpreise erfasst, kein Gesamtaufenthalt",
+        "Classic und Classic Plus getrennt halten",
+        "Leistungsänderungen innerhalb Classic prüfen",
+        "Pflichtverpflegung, Bereitschaftspauschale, Zimmer und Tarif standardisieren"
+      ],
+      "beobachtungen": [
+        {
+          "id": "lanserhof-2023-classic-plus",
+          "betrag": 4125,
+          "einheit": "Person und Programm für 7–8 Nächte",
+          "variante": "Classic Plus",
+          "preisart": "Programmpreis ohne Unterkunft",
+          "quelle_id": "lanserhof-2023",
+          "abgerufen_am": "2026-10-16",
+          "umsatzsteuer": "inklusive gesetzlicher MwSt. laut allgemeinen Bedingungen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2023"
+          },
+          "zeitstatus": "historisch",
+          "prüfstatus": "in Quelle gelesen; nicht für Index freigegeben",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Kein Gesamtpreis; keine Berechnung einer vergleichbaren Inflationsrate"
+          ]
+        },
+        {
+          "id": "lanserhof-2024-classic",
+          "betrag": 2890,
+          "einheit": "Person und Programm für 7–8 Nächte",
+          "variante": "Classic",
+          "preisart": "Programmpreis ohne Unterkunft",
+          "quelle_id": "lanserhof-2024",
+          "abgerufen_am": "2026-10-16",
+          "umsatzsteuer": "inklusive gesetzlicher MwSt. laut allgemeinen Bedingungen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2024"
+          },
+          "zeitstatus": "historisch",
+          "prüfstatus": "in Quelle gelesen; nicht für Index freigegeben",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Kein Gesamtpreis; keine Berechnung einer vergleichbaren Inflationsrate"
+          ]
+        },
+        {
+          "id": "lanserhof-2026-classic",
+          "betrag": 2940,
+          "einheit": "Person und Programm für 7–8 Nächte",
+          "variante": "Classic",
+          "preisart": "Programmpreis ohne Unterkunft",
+          "quelle_id": "lanserhof-2026",
+          "abgerufen_am": "2026-10-16",
+          "umsatzsteuer": "inklusive gesetzlicher MwSt. laut allgemeinen Bedingungen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2026",
+            "von": "2026-01-01",
+            "bis": "2026-12-31"
+          },
+          "zeitstatus": "aktuell_beobachtet",
+          "prüfstatus": "in Quelle gelesen; nicht für Index freigegeben",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Kein Gesamtpreis; keine Berechnung einer vergleichbaren Inflationsrate"
+          ]
+        },
+        {
+          "id": "lanserhof-2026-classic-plus",
+          "betrag": 3990,
+          "einheit": "Person und Programm für 7–8 Nächte",
+          "variante": "Classic Plus",
+          "preisart": "Programmpreis ohne Unterkunft",
+          "quelle_id": "lanserhof-2026",
+          "abgerufen_am": "2026-10-16",
+          "umsatzsteuer": "inklusive gesetzlicher MwSt. laut allgemeinen Bedingungen",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "2026",
+            "von": "2026-01-01",
+            "bis": "2026-12-31"
+          },
+          "zeitstatus": "aktuell_beobachtet",
+          "prüfstatus": "in Quelle gelesen; nicht für Index freigegeben",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Kein Gesamtpreis; keine Berechnung einer vergleichbaren Inflationsrate"
+          ]
+        }
+      ]
+    }
+  ],
+  "verworfene_hinweise": [
+    {
+      "quelle_id": "lange-2016-verworfen",
+      "grund": "12.500 EUR gilt für Rotgold 201.033, nicht Weißgold 201.027"
+    },
+    {
+      "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf",
+      "grund": "Überschriebene generische Datei; Suchtreffer zu 2025/26 nicht bestätigt"
+    }
+  ]
+}
