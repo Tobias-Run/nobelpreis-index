@@ -26,6 +26,8 @@ Die [Recherche der ersten fünf Positionen](docs/produktrecherche-2026-10-16.md)
 
 Die [Würdigung und Abgrenzung gegenüber Julius Bär](docs/abgrenzung-julius-baer.md) erläutert die Überschneidungen, unseren angestrebten Mehrwert und die Voraussetzungen, um ihn einzulösen.
 
+Die [Recherche weiterer Vergleichsangebote](docs/vergleichsangebote-luxuspreise-2026-10-16.md) ergänzt sieben Beispiele für Luxuswarenkörbe und spezialisierte Preistracker mit methodischen Konsequenzen für Nobelpreis.
+
 ## Lokal starten
 
 Voraussetzung: Python 3. Es sind keine Installation und kein Build erforderlich.

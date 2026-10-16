@@ -2,6 +2,8 @@
 
 Stand: 16.10.2026. Grundlage sind die unten verlinkten offiziellen Veröffentlichungen. Methodische Details aus 2025 werden ausdrücklich diesem Berichtsjahr zugeordnet und nicht ungeprüft auf 2026 übertragen.
 
+Die ergänzende [Recherche zu sieben weiteren Vergleichsangeboten](vergleichsangebote-luxuspreise-2026-10-16.md) ordnet Forbes, Coutts, Hurun sowie Spezialanbieter für Uhren, Taschen und Sammlermärkte ein.
+
 ## Einordnung
 
 Der Julius Bär Global Wealth and Lifestyle Report ist ein relevantes Vergleichsangebot für Nobelpreis. Er untersucht bereits die Kosten gehobenen Konsums und deren Veränderung. Die Grundidee „Inflation für Wohlhabende“ ist deshalb keine eigenständige Abgrenzung.
