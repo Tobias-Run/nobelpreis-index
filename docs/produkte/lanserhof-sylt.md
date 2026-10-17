@@ -23,3 +23,11 @@ Ziel ist ein standardisierter Aufenthalt von sieben Nächten für eine Person, m
 Programme getrennt halten. Inhalte verändern sich; Zimmer und verpflichtende Nebenkosten fehlen. Keine reine Inflationsrate aus Paketpreisen ableiten.
 
 [Zusätzlicher Prüfbeleg](https://api.lanserhof.com/wp-content/uploads/2024/12/2025_LHS_Hotelpreisliste_DE_MitPreise.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: leistungswechsel belegt.** Classic 2024/2025/2026 inhaltlich verglichen: Massagen/Detox, Telefontermine, Diagnostik und Untersuchungsdauer ändern sich. 2026 nennt 42 EUR pro Nacht verpflichtende Bereitschaftspauschale.
+
+Programmreihe nicht als unveränderte Kur verketten. Sieben Nächte: Gebührenkomponente 7×42=294 EUR; unklar ob im Programm enthalten. Unterkunft/Verpflegung und identischer Gesamttarif fehlen.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

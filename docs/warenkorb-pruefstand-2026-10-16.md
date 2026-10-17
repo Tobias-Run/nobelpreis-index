@@ -51,3 +51,7 @@ Die [Historienprüfung aller 13 Positionen](historische-preise-und-poc-2026-10-1
 ## Ergänzung: Internet Archive · 17.10.2026
 
 Die [Archivrecherche](archivrecherche-2026-10-17.md) ergänzt 19 Preisbeobachtungen für sieben Positionen. Der aktuelle Recherchebestand enthält 53 Beobachtungen. Mehrere vormals offene Beleglücken (insbesondere Salem, Saxonia und Cayenne 2025) sind geschlossen; Leistungsabgleich und Indexfreigabe bleiben offen. Die frühere Übersicht oben beschreibt den Stand vom 16.10.2026.
+
+## Ergänzung: Leistungsprüfung und Gewichtung
+
+Die [vertiefte Prüfrunde](rechercheabschluss-und-gewichtung-2026-10-17.md) dokumentiert eine Entscheidung zu allen 13 Positionen, Originalnachweis Ski Arlberg 2025/26, konkrete Leistungswechsel und Anbieterbeleg-Anforderungen. Aktuell 54 Recherchebeobachtungen; Pilot unverändert. Die Julius-Bär-Gewichtung ist [gesondert geprüft](methodik-gewichtung-2026-10-17.md).

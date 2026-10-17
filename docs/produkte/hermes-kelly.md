@@ -26,3 +26,11 @@ Europa-Tabellen, andere Leder/Modelle, Herstellungsjahre und verkaufte Angebote 
 Kein Boutique-Preis oder realisierter Verkauf. Retourné-Bezeichnung und deutsches Steuer-/Versandszenario offen. Ausverkaufte Grade-2-Angebote nicht als Vergleich verwenden.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20240806042500/https://saclab.com/de/bags/hermes-kelly-28-togo-black-8/) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: anbieterbeleg noetig.** Boutique, verfügbarer Sekundärmarkt und ausverkaufte/gebrauchte Angebote bleiben getrennt. Das Angebot 2024 ist dokumentiert; Vergleichskriterien und Beleganforderung konkretisiert.
+
+Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Versandkosten fehlen; kein Markup berechenbar.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

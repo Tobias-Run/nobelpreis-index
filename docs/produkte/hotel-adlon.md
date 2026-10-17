@@ -42,3 +42,11 @@ Pauschalreisen, Preis-ab-Portale und Firmenraten erfüllen die definierte öffen
 Keine 250→265-Inflationsreihe: Sonderkonditionen, City-Tax-Behandlung und Stornierung sind nicht identisch belegt.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20241007204523/https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: anbieterbeleg noetig.** Offizielle Zimmerdefinition ca. 40 m² im Haupthaus bestätigt; öffentliche flexible Rate und Ghorfa-Sondertarif getrennt. Berliner City Tax ab 2025 7,5 % statt 5 % gesondert zu erfassen.
+
+Datiertes öffentliches Angebot ohne Frühstück und mit Steuer-/Stornobedingungen fehlt. Erhebungsprotokoll für Reisezeit, Vorlauf und Belegung festgelegt.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

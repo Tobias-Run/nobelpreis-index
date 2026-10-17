@@ -59,5 +59,26 @@ test('Archivstand ersetzt keine Tarifgültigkeit und kein neuerliches VPI-Abrufd
  const salem=obs.find(o=>o.id==='salem-archiv-2025');assert.equal(salem.betrag,50400);
  assert.ok(data.quellen.find(s=>s.id===salem.quelle_id).archiv_timestamp.startsWith('2024'));
  const kelly=obs.find(o=>o.id==='kelly-saclab-archiv-2024');assert.equal(kelly.betrag,21800);assert.match(kelly.preisart,/Sekundärmarkt/);assert.equal(kelly.indexfreigabe,false);
- assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),53);
+ assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),54);
+});
+
+test('Julius-Bär-Schema: 20 Komponenten und exakte 20/10/70-Verteilung',()=>{
+ const g=data.gewichtungspruefung;assert.equal(g.julius_baer.komponenten.length,20);
+ let sum=0;for(const k of g.julius_baer.komponenten){const f=k.anteil_bruch;sum+=180*f.zaehler/f.nenner;}
+ assert.equal(sum,180);
+ close(g.julius_baer.komponenten.find(k=>k.id==='car').gewicht_prozent,10);
+ close(g.julius_baer.komponenten.find(k=>k.id==='residential_property').gewicht_prozent,20);
+ const others=g.julius_baer.komponenten.filter(k=>!['car','residential_property'].includes(k.id));assert.equal(others.length,18);for(const k of others)close(k.gewicht_prozent,70/18);
+ assert.deepEqual(g.julius_baer.preisveraenderung_2026_ausgenommen,['healthcare','sports_equipment']);
+ close(g.rechenbeispiel_nur_methodik.auto_prozent+18*g.rechenbeispiel_nur_methodik.jede_der_18_anderen_prozent,100);
+ assert.equal(g.nobelpreis.produktiver_gesamtindex_freigegeben,false);
+ assert.deepEqual(g.nobelpreis.pilot_gewichte.map(w=>w.anteil),[0.5,0.5]);
+});
+test('Alle Produktfragen entschieden; bessere Quellen erzeugen keine doppelten Saisonpreise',()=>{
+ assert.equal(data.abschlusspruefung.positionen.length,13);
+ assert.equal(new Set(data.abschlusspruefung.positionen.map(p=>p.produkt_id)).size,13);
+ for(const p of data.abschlusspruefung.positionen){assert.ok(p.erledigt);assert.ok(p.restnachweis);assert.equal(p.indexfreigabe,false);}
+ const ski=data.produkte.find(p=>p.id==='skiurlaub-arlberg').beobachtungen.find(o=>o.id==='ski-2025');assert.equal(ski.betrag,450);assert.equal(ski.vorherige_quelle_id,'ski-bergfex');assert.match(ski.quelle_id,/ski2025-original/);assert.match(ski.umsatzsteuer,/inklusive USt/);
+ const alarm=data.produkte.find(p=>p.id==='alarmaufschaltung').beobachtungen.find(o=>o.id==='alarm-securando-ab-2026');assert.match(alarm.preisart,/Ab-Preis/);assert.equal(alarm.indexfreigabe,false);
+ assert.deepEqual(data.pilot_reihen.map(r=>r.id),['bayreuth-parsifal','liegeplatz-ycl']);
 });

@@ -29,3 +29,11 @@ Kein belastbarer Preis 2025. Die mutable ADAC-Adresse liefert aktuell April 2026
 Die alte ADAC-Suchdatierung bleibt unbrauchbar; neuer unabhängiger Wayback-Beleg. Ausstattung und Pflichtnebenkosten vor einer Indexfreigabe abgleichen.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20250729050323/https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: teilpreis abgegrenzt.** Listen-Grundpreisreihe 2023–2026 belegt; 260 kW/353 PS, Basis-Benziner SUV. Überführung, Zulassung und Sonderausstattung sind nicht im beobachteten Grundpreis.
+
+Keine Vollkosten-/qualitätsbereinigte Inflationsreihe. Komplette datierte Serienausstattungslisten und Pflichtnebenkosten je Modelljahr fehlen.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

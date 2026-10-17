@@ -7,7 +7,8 @@ import math
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 SRC=ROOT/'data/sources/bundesbank-vpi-monatlich-2024-2026-2026-10-16.csv'
-RESEARCH=ROOT/'data/research/historische-preise-2026-10-17.json'
+RESEARCH=ROOT/'data/research/produktpruefung-2026-10-17.json'
+WEIGHTS=ROOT/'data/methodik/gewichtung-2026-10-17.json'
 REFERENCE_RETRIEVED_AT='2026-10-16' # Rohbeleg nicht erneut abgerufen; unabhängig vom Recherchestand.
 x=json.loads(RESEARCH.read_text())
 rows=list(csv.DictReader(SRC.read_text(encoding='utf-8-sig').splitlines(),delimiter=';'))
@@ -33,6 +34,6 @@ for o in allobs.values():
  assert o['quelle_id'] in ids and math.isfinite(o['betrag']) and o['betrag']>0
 for p in x['produkte']:assert not p['indexfreigabe']
 ref={'titel':'Deutscher Gesamt-VPI · Monatswerte · Ursprungswerte','anbieter':'Deutsche Bundesbank','ursprungsquelle':rows[0]['BBK_COMM_SRC'],'reihe':rows[0]['BBK_ID'],'einheit':'2020=100','download_url':'https://api.statistiken.bundesbank.de/rest/data/BBDP1/M.DE.N.VPI.C.A00000.I20.A?startPeriod=2024-01&endPeriod=2026-09','url':'https://statistiken.bundesbank.de/statistiken-de/zeitreihen/BBDP1/M.DE.N.VPI.C.A00000.I20.A','abgerufen_am':REFERENCE_RETRIEVED_AT,'sha256':hashlib.sha256(SRC.read_bytes()).hexdigest(),'methodenhinweis':rows[0]['BBK_COMM_METH'],'vergleichsmonat':'August','beobachtungen':[{'monat':r['TIME_PERIOD'],'wert':float(r['OBS_VALUE'])} for r in rows]}
-payload={**x,'version':'poc-0.1.1','recherche_sha256':hashlib.sha256(RESEARCH.read_bytes()).hexdigest(),'indexfreigabe':False,'pilot_reihen':series,'referenz':ref,'methodik':{'formel':'I(t) = 100 / n × Σ[p_i(t) / p_i(b)]','gewichtung':'Gleiche Gewichte für Preisverhältnisse; kein Ausgabenindex','zusammensetzung':'Fest über den ganzen Zeitraum; nur Bayreuth und YCL-Tarifeinheit im Zweier-Pilot','zeitbezug':'Saison-/Festspieltarife; August-VPI desselben Jahres als saisonaler Anker. Keine Jahresdurchschnitte oder exakten Transaktionszeitpunkte.','fehlende_daten':'Keine Interpolation, Fortschreibung, Rückdatierung oder wechselnde Zusammensetzung','status':'Recherche-PoC, keine redaktionelle Indexfreigabe, keine Repräsentativität für das reichste Prozent'}}
+payload={**x,'gewichtungspruefung':json.loads(WEIGHTS.read_text()),'version':'poc-0.1.2','recherche_sha256':hashlib.sha256(RESEARCH.read_bytes()).hexdigest(),'indexfreigabe':False,'pilot_reihen':series,'referenz':ref,'methodik':{'formel':'I(t) = 100 / n × Σ[p_i(t) / p_i(b)]','gewichtung':'Gleiche Gewichte für Preisverhältnisse; kein Ausgabenindex','zusammensetzung':'Fest über den ganzen Zeitraum; nur Bayreuth und YCL-Tarifeinheit im Zweier-Pilot','zeitbezug':'Saison-/Festspieltarife; August-VPI desselben Jahres als saisonaler Anker. Keine Jahresdurchschnitte oder exakten Transaktionszeitpunkte.','fehlende_daten':'Keine Interpolation, Fortschreibung, Rückdatierung oder wechselnde Zusammensetzung','status':'Recherche-PoC, keine redaktionelle Indexfreigabe, keine Repräsentativität für das reichste Prozent'}}
 (ROOT/'dist/zeitreihe/daten.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(x["produkte"])} Positionen, {len(allobs)} Einzelbeobachtungen, {len(series)} Pilot-Teilreihen, {len(rows)} VPI-Monate validiert.')

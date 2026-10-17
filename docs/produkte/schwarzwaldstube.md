@@ -37,3 +37,11 @@ Abruf aller Quellen: 16.10.2026. Die aktuelle PDF wurde im Webwerkzeug gelesen u
 2023 nur großes Menü, historische Bezeichnung II offen und Artikel nachträglich geändert. 2025 Foto der Karte; 2024 Portalstand. Speisen, Steuerregime und Inhalte verändern sich; keine qualitätsbereinigte Inflation.
 
 [Zusätzlicher Prüfbeleg](https://diningwithfrankie.com/2025/04/28/restaurant-schwarzwaldstubeupdate-baiersbronn-3-16-25/). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: leistungswechsel belegt.** Aktuelles Original-PDF direkt gesichert; sieben Gänge Menü II und Preis 385 EUR inkl. MwSt. bestätigt. Historische Karte 2025 enthält andere Speisen. Steuerwechsel 19→7 % ab 01.01.2026 dokumentiert.
+
+Keine qualitätsbereinigte Menüinflation; sieben Gänge allein garantieren keine identische Leistung. Keine rückwirkende Netto-Preisreihe ohne genaue Steuerbelege.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
