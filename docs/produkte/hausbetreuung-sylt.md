@@ -56,3 +56,11 @@ Vergleichbare datierte Angebote oder Rechnungen zum definierten Kontrollpaket er
 Individuelle datierte Angebote oder Rechnungen nötig. Fehlender Treffer bei einer URL beweist nicht das Fehlen aller Archivbestände; keine Anbieter kontaktiert.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20230315185056/https://www.hausbetreuung-enkelmann.de/preise) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: anbieterbeleg noetig.** Enkelmann und zusätzlicher Anbieter Gartenkunst geprüft. Anbieter nennen individuelle Monatspauschalen nach Objekt/Leistung. Referenzprofil konkretisiert: 150 m² Westerland, 24 dokumentierte Kontrollen/Jahr.
+
+Standardbetrag sowie passende historische Angebote/Rechnungen fehlen. Material, Handwerkerkoordination und Vermietung bleiben getrennt; konkreter Recherche-Anfragetext liegt vor.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

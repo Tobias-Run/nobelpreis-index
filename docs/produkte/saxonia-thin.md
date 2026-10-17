@@ -28,3 +28,11 @@ Auktionsschätzungen und gebrauchte Privatangebote gehören in eigene Preisarten
 Einzelne Archivstichtage, keine Jahresmittel. Wechsel 201.027/LA100063 zu 201.027-LB/LB100063 ab 2024 noch prüfen. Umsatzsteuer- und Verfügbarkeitsänderungen sichtbar halten.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20251027072022/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: reihenbruch festgelegt.** Historische Beschreibung 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe, L093.1 abgeglichen. Zwei Segmente: 2019–2023 201.027/LA100063; 2024–2026 201.027-LB/LB100063.
+
+Bedeutung von -LB nicht aus Herstellerquelle geklärt; die Segmente werden nicht ungekennzeichnet verbunden. Neupreis, keine Transaktion oder bestätigte UVP.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

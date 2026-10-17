@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1-historienrecherche",
+  "schema_version": "1.2-produktpruefung",
   "stand": "2026-10-17",
   "indexfreigabe": false,
   "zweck": "Historische Nachrecherche aller 13 Positionen; Teilreihen und Lücken, kein freigegebener Konsumindex",
@@ -1000,6 +1000,247 @@
       "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
       "cdx_digest": "JJH45QMMYZVEUN2CQPWHH2OIQ5EYUTTX",
       "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "pruefung-salem-avb-alt-1",
+      "titel": "Salem AVB, Fassung 30.03.2020, archiviert 19.04.2022",
+      "url": "https://web.archive.org/web/20220419222022/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB.pdf",
+      "fundstelle": "Abschnitte V a (Leistungen), VI (Gebühren) und VII (Nebenkosten); mit aktuell bereitgestellter Fassung verglichen.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "e1bb6635b1e1c3e42855d6999a489e216a3f65e6b6ca38d32e605d977cdf916a",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20220419222022id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB.pdf",
+      "memento_datetime": "Tue, 19 Apr 2022 22:20:22 GMT"
+    },
+    {
+      "id": "pruefung-salem-avb-current",
+      "titel": "Salem: aktuell bereitgestellte AVB, Fassung 30.03.2020",
+      "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Allgemeine_Vertragsbedingungen_DE.pdf",
+      "fundstelle": "Abschnitte V a und VII nach Whitespace-Normalisierung textgleich mit der archivierten 2022-Fassung; Anhänge teilweise geändert. Keine Behauptung identischer faktischer Unterrichtsqualität.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "f69ba7eb39db57829083ebe11e92a2025084bc601fc9aa394dc2eac607249bbd",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-rm2025-okt",
+      "titel": "Riese & Müller: Modell-/Komponententabelle Oktober 2025",
+      "url": "https://web.archive.org/web/20251016003952/https://www.r-m.de/de/bikes/charger5/",
+      "fundstelle": "Charger5 vario: SR Suntour Mobie 34, Enviolo Heavy Duty, PowerTube 800 Wh, Kiox 500; Modell-Ab-Preis 6.199 EUR. Spezifikationstabelle umfasst auch Optionen.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "56a5a0b5c727b74a9e50dcf2c137f3a80c35706e045d8b6e24d9a19244c7dcd1",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20251016003952id_/https://www.r-m.de/de/bikes/charger5/",
+      "memento_datetime": "Thu, 16 Oct 2025 00:39:52 GMT"
+    },
+    {
+      "id": "pruefung-rm2026-komponenten",
+      "titel": "Riese & Müller: aktuelle Modell-/Komponententabelle",
+      "url": "https://www.r-m.de/de/bikes/charger5/",
+      "fundstelle": "Charger5 vario: Fox AWL 34, Enviolo Utility V1, PowerTube 800 Wh, Kiox 500; Modell-Ab-Preis 6.499 EUR. Dokumentierter Ausstattungswechsel, keine unveränderte Reihe.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "759ea63941fee4858065562b3daeb7c60d5edbe90ae404e1b965cbdf48d5ba23",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-ski2025-original",
+      "titel": "Ski Arlberg: Original-Ticketguide Winter 2025/26",
+      "url": "https://www.albonanova.at/files/bilder/downloads/ticketguide-skipass-arlberg-2025.pdf",
+      "fundstelle": "Hauptsaison 20.12.2025–06.04.2026, sechs aufeinanderfolgende Tage Erwachsene 450 EUR inkl. USt., 5 EUR Kartendepot separat. Kalkulationsstand August 2025; Original-PDF auf Hotelserver.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "2a4e726ea7bbb6368e72ac77c69672dab5c4e4329f393f53a430add42fef1a6e",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-ycl2024-okt",
+      "titel": "YCL: Downloadverzeichnis archiviert 03.10.2024",
+      "url": "https://web.archive.org/web/20241003114253/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+      "fundstelle": "Verlinkt Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf. Belegt die Existenz/Adresse, nicht den Tarifbetrag. PDF nicht abrufbar.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "1a21ff6acf83e50a83b4814f7f6d15e59b2ad42246743405f464dada64239a25",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20241003114253id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+      "memento_datetime": "Thu, 03 Oct 2024 11:42:53 GMT"
+    },
+    {
+      "id": "pruefung-ycl2024-formulare",
+      "titel": "YCL: Downloadverzeichnis archiviert 03.03.2024",
+      "url": "https://web.archive.org/web/20240303001040/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+      "fundstelle": "Verlinkt 2023_Gebuehrenordnung_Verein_unterschrieben.pdf. Belegt die Existenz/Adresse, nicht den Tarifbetrag. PDF nicht abrufbar.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "89112691dea5fc1da3b3e6a81772c1b1095d2c284b66b9344cf99052d9fbb630",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20240303001040id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+      "memento_datetime": "Sun, 03 Mar 2024 00:10:40 GMT"
+    },
+    {
+      "id": "pruefung-ycl-fragebogen-wp",
+      "titel": "YCL Fragebogen Liegeplatzvergabe",
+      "url": "https://ycla.de/wp-content/uploads/2025/04/2023_Fragebogen_zum_Liegeplatzantrag_.pdf",
+      "fundstelle": "Erfragt Länge, Breite und Tiefgang; keine verbindliche Formel zur gebührenpflichtigen Fläche. Bootsabmessungen sind kein Beleg für die Berechnung der Tariffläche.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "e5e1781c9e09a9ce87e736a34378a056dd908d991c5342b5cc6de051c05b61e6",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-ycl-hafen2022",
+      "titel": "YCL Hafenordnung 2022, archiviert 02.03.2024",
+      "url": "https://web.archive.org/web/20240302233750/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/hafenordnung_2022_final.pdf",
+      "fundstelle": "Abschnitt 6.2 beschreibt zulässige Bootsgrößen und Stellplatzzuweisung, nicht eine belastbare Gebühren-Flächenformel.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "640ed77f471b8e6d83ff590c30327a4b439b8a8718c4a1f57595a60ff8f3e021",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20240302233750id_/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/hafenordnung_2022_final.pdf",
+      "memento_datetime": "Sat, 02 Mar 2024 23:37:50 GMT"
+    },
+    {
+      "id": "pruefung-securando-ajax",
+      "titel": "Securando: öffentliches Angebot zur Securitas-Aufschaltung",
+      "url": "https://www.securando.de/ajax-alarmanlage-testen/",
+      "fundstelle": "FAQ nennt Aufschaltung ab 20 EUR pro Monat. Aktueller Ab-Preis, kein vollständiges und datiertes identisches Privat-Tarifblatt.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "c32c8458248e00e695901a0d878b1dec7d825ca3407a5b503ceaabc68c4b5b5a",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-lanserhof2024",
+      "titel": "Lanserhof Sylt: Broschüre 2024",
+      "url": "https://api.lanserhof.com/wp-content/uploads/2023/12/2024_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+      "fundstelle": "Classic 7–8 Nächte: u.a. Fußreflexzonenmassage, klassische Massage, Drainage, Heu und Fußbad; Abschlussuntersuchung 30 Minuten.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "47781d1964246cf137f96fdc879fd0096087d9a1cfcdfca7887466f2fe58f20a",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-lanserhof2025",
+      "titel": "Lanserhof Sylt: Broschüre 2025",
+      "url": "https://api.lanserhof.com/wp-content/uploads/2024/12/2025_LHS_Hotelpreisliste_DE_MitPreise.pdf",
+      "fundstelle": "Classic 7–8 Nächte: telefonisches Erst-/Nachgespräch und Fettlebermessung; Abschluss 40 Minuten. Mehrere 2024-Anwendungen nicht in dieser Classic-Liste enthalten.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "a4f8eb6b357951cd293d05a76b3ff4aa644a75c334ce4dc98f5a95cad7e712d5",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-lanserhof2026",
+      "titel": "Lanserhof Sylt: Broschüre 2026",
+      "url": "https://files.lanserhof.com/preisbroschure/2026_lhs_preisliste_de.pdf",
+      "fundstelle": "Classic-Seite 3: 2.940 EUR ohne Unterkunft; Massage-/Detox-Anwendungen, Befundbesprechungen; verbindlicher Bereitschaftsdienst 42 EUR/Nacht. Text unter Classic überschreibt Arrangement teils als Classic Plus: Rückfrage nötig, keine ungeprüfte Summierung.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "bc0d7ad568acab582aa5e80dfcba70f679d75e3134292cd2d2d846161de8d88f",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-schwarzwald2026",
+      "titel": "Schwarzwaldstube: aktuelle Originalkarte",
+      "url": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+      "fundstelle": "Menü II sieben Gänge 385 EUR inkl. MwSt.; Original-PDF jetzt direkt verfügbar und gehasht. Mit Menüfoto 16.03.2025 verglichen; Speisen ändern sich.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "cca024ce53309649441d7894fcdd5cf151b7669014ea9a404dfbaafec48424b1",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-berlin-citytax",
+      "titel": "Land Berlin: FAQ Übernachtungsteuer",
+      "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+      "fundstelle": "Ab 01.01.2025 7,5 % statt zuvor 5 % der Bemessungsgrundlage. City Tax beim Hotelvergleich gesondert erfassen, nicht mit Umsatzsteuer verwechseln.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "a5912e5906d54ee039188e9f2fc052c6066b5cce0b6dd4498713c27a39eb46a4",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-adlon-zimmer",
+      "titel": "Adlon: offizielle Deluxe-Zimmerdefinition",
+      "url": "https://www.kempinski.com/de/hotel-adlon/zimmer-suiten/zimmer/deluxe-zimmer",
+      "fundstelle": "Ca. 40 m² im Haupthaus, Straßen-/Innenhofblick. Keine datierte vollständige öffentliche flexible Rate in dieser Zimmerbeschreibung.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "c7b775c0bfa493644969500731666ab8470c73dd99ea634e31bf1f2a6ab2de9c",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-enkelmann-preise",
+      "titel": "Enkelmann: Preis- und Leistungsmodell Hausbetreuung Sylt",
+      "url": "https://www.hausbetreuung-enkelmann.de/preise",
+      "fundstelle": "Monatspauschale nach individuellem Umfang und Besichtigung; Zusatzleistungen nach Zeitaufwand. Kein öffentlicher Standardbetrag.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "35edad639b80b8352a0964ea2a7072eedc63221cb3365421b60a891097488bf8",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-sylt-gartenkunst",
+      "titel": "Gartenkunst Sylt: Hausmeisterservice",
+      "url": "https://gartenkunst-sylt.de/leistungen/hausmeisterservice-sylt",
+      "fundstelle": "Zusätzlicher Anbieter geprüft; individuell wöchentliche/monatliche Betreuung, kein veröffentlichter Preis des festgelegten Kontrollpakets.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "2a40ae18d3bdce08b55cb35c548911f812d2c193d07de3a7c8d65cae0c9b04ff",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-porsche2026",
+      "titel": "Porsche Deutschland: Cayenne Basis-Benziner",
+      "url": "https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+      "fundstelle": "Aktuelle deutsche Modellseite, Cayenne Benzin 260 kW/353 PS. Kein vollständiger belegter Abgleich aller Serienpositionen und Nebenkosten je Modelljahr.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "7f1ddeadb7f8055ba7dda1df963e8bfbc0a50997ad3c4b4dd40716125140cca4",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "jb2026-methodik",
+      "titel": "Julius Bär Global Wealth and Lifestyle Report 2026",
+      "url": "https://www.juliusbaer.com/fileadmin/publications/julius-baer-global-wealth-and-lifestyle-report-2026.pdf",
+      "fundstelle": "Gedruckte S. 42–43 Methodology, S. 44 Komponenten. 20 % Immobilien, 10 % Auto, 70 % gleichmäßig auf übrige 18; Healthcare/Sports Equipment im Preisänderungsvergleich wegen Methodenwechsel ausgenommen.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Offizieller Bericht / Behördenveröffentlichung",
+      "belegsicherung": "Im Webwerkzeug gelesen; Direktdownload scheiterte, deshalb keine lokale Original-Prüfsumme behauptet",
+      "weiterverwendungsrechte": "Nur Fakten und eigene Zusammenfassung, keine fremden Volltexte oder Rohpreisbestände"
+    },
+    {
+      "id": "jb2025-methodik",
+      "titel": "Julius Bär Global Wealth and Lifestyle Report 2025",
+      "url": "https://www.juliusbaer.com/fileadmin/publications/julius-baer-global-wealth-and-lifestyle-report-2025.pdf",
+      "fundstelle": "Gedruckte S. 52–53: Gewichtung ebenfalls 20/10/70. Jahresbezug getrennt vom Bericht 2026.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Offizieller Bericht / Behördenveröffentlichung",
+      "belegsicherung": "Im Webwerkzeug gelesen; Direktdownload scheiterte, deshalb keine lokale Original-Prüfsumme behauptet",
+      "weiterverwendungsrechte": "Nur Fakten und eigene Zusammenfassung, keine fremden Volltexte oder Rohpreisbestände"
+    },
+    {
+      "id": "bmf-gastro2026",
+      "titel": "Bundesfinanzministerium: Steueränderungen 2026",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2026.html",
+      "fundstelle": "Offizieller Suchauszug nennt Restaurant-/Verpflegungsleistungen ohne Getränke ab 01.01.2026 mit 7 % statt 19 %. Volltextabruf lieferte 503; geltendes Recht zusätzlich anhand § 12 Abs. 2 Nr. 15 UStG geprüft.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Offizieller Bericht / Behördenveröffentlichung",
+      "belegsicherung": "BMF nur als offizieller Suchauszug zugänglich, nicht als gelesener Volltext; HTTP 503. Keine Original-Prüfsumme.",
+      "weiterverwendungsrechte": "Nur Fakten und eigene Zusammenfassung, keine fremden Volltexte oder Rohpreisbestände"
+    },
+    {
+      "id": "gesetz-ustg12",
+      "titel": "§ 12 Abs. 2 Nr. 15 UStG, amtlicher Gesetzestext",
+      "url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+      "fundstelle": "Absatz 2: ermäßigter Satz 7 %; Nr. 15 Restaurant-/Verpflegungsdienstleistungen ausgenommen Getränke",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Amtliche Rechtsquelle",
+      "belegsicherung": "Volltext im Webwerkzeug gelesen",
+      "weiterverwendungsrechte": "Gesetzesfakten und eigene Auswertung",
+      "sha256": "e8753b36595e445e776716ce43ec8d01633d9c548aec77d776105ae9484d09d0"
     }
   ],
   "produkte": [
@@ -1011,12 +1252,10 @@
       "markt": "Deutschland",
       "währung": "EUR",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Öffentlicher Listen-Grundpreis; Lieferzeit nicht belegt",
       "offene_punkte": [
-        "Serienausstattung 2023–2026 abgleichen",
-        "Überführung und Zulassung separat prüfen",
-        "Jahreswerte sind einzelne Preisstände, keine Durchschnitte"
+        "Keine Vollkosten-/qualitätsbereinigte Inflationsreihe. Komplette datierte Serienausstattungslisten und Pflichtnebenkosten je Modelljahr fehlen."
       ],
       "beobachtungen": [
         {
@@ -1060,10 +1299,10 @@
       ],
       "dossier": "docs/produkte/porsche-cayenne.md",
       "historienprüfung": {
-        "status": "Belegfolge 2023 / 2024 / 2025 / 2026",
-        "ergebnis": "2025-Lücke geschlossen: 29.07.2025 deutscher Hersteller-Grundpreis 101.500 EUR inkl. MwSt., 260 kW/353 PS.",
-        "grenze": "Die alte ADAC-Suchdatierung bleibt unbrauchbar; neuer unabhängiger Wayback-Beleg. Ausstattung und Pflichtnebenkosten vor einer Indexfreigabe abgleichen.",
-        "quelle_id": "ia-porsche-20250729",
+        "status": "teilpreis abgegrenzt",
+        "ergebnis": "Listen-Grundpreisreihe 2023–2026 belegt; 260 kW/353 PS, Basis-Benziner SUV. Überführung, Zulassung und Sonderausstattung sind nicht im beobachteten Grundpreis.",
+        "grenze": "Keine Vollkosten-/qualitätsbereinigte Inflationsreihe. Komplette datierte Serienausstattungslisten und Pflichtnebenkosten je Modelljahr fehlen.",
+        "quelle_id": "pruefung-porsche2026",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -1103,7 +1342,17 @@
             "Schließt die 2025-Beleglücke. Serienausstattung und Pflichtnebenkosten noch abgleichen."
           ]
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "porsche-cayenne",
+        "status": "teilpreis_abgegrenzt",
+        "erledigt": "Listen-Grundpreisreihe 2023–2026 belegt; 260 kW/353 PS, Basis-Benziner SUV. Überführung, Zulassung und Sonderausstattung sind nicht im beobachteten Grundpreis.",
+        "restnachweis": "Keine Vollkosten-/qualitätsbereinigte Inflationsreihe. Komplette datierte Serienausstattungslisten und Pflichtnebenkosten je Modelljahr fehlen.",
+        "quelle_ids": [
+          "pruefung-porsche2026"
+        ],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "salem",
@@ -1113,12 +1362,10 @@
       "markt": "Deutschland",
       "währung": "EUR",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Aufnahmeverfahren und Platzverfügbarkeit",
       "offene_punkte": [
-        "Konstanz der enthaltenen Leistungen 2021/22–2026/27 prüfen",
-        "Einmalgebühren, Deposit und Extras separat",
-        "Keine automatische Indexfreigabe durch vorhandene Gebührenfolge"
+        "Gebührenreihe als abgegrenzte Tarifreihe nutzbar. Faktische Lehrqualität und individuelle Zusatzkosten sind nicht gemessen; keine vollständigen Ausbildungskosten."
       ],
       "beobachtungen": [
         {
@@ -1170,10 +1417,10 @@
       ],
       "dossier": "docs/produkte/schloss-salem.md",
       "historienprüfung": {
-        "status": "Geschlossene Gebührenfolge 2021/22–2026/27",
-        "ergebnis": "Reguläres Schul- und Internatsgeld Klasse 8: 43.500 / 44.820 / 46.200 / 48.960 / 50.400 / 53.400 EUR.",
-        "grenze": "Keine Jahresdurchschnitte; festes Klassenprofil statt mitwachsendem Schüler. Rabatte, Einmalgebühren und Extras separat; Leistungsabgleich und Zweitprüfung offen.",
-        "quelle_id": "ia-salem-20240912",
+        "status": "tarifrahmen geprueft",
+        "ergebnis": "Leistungsabschnitt V a und Nebenkosten VII im archivierten Vertrag 2022 und der aktuell bereitgestellten Fassung textgleich (beide Vertragsfassung 30.03.2020). Klasse 8 und zwölf reguläre Raten bleiben das Profil.",
+        "grenze": "Gebührenreihe als abgegrenzte Tarifreihe nutzbar. Faktische Lehrqualität und individuelle Zusatzkosten sind nicht gemessen; keine vollständigen Ausbildungskosten.",
+        "quelle_id": "pruefung-salem-avb-alt-1",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -1295,7 +1542,18 @@
             "Archiviert teils bereits vor Beginn des Schuljahrs; Jahrzuordnung aus der Preistabelle, nicht aus dem Capture-Datum."
           ]
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "salem",
+        "status": "tarifrahmen_geprueft",
+        "erledigt": "Leistungsabschnitt V a und Nebenkosten VII im archivierten Vertrag 2022 und der aktuell bereitgestellten Fassung textgleich (beide Vertragsfassung 30.03.2020). Klasse 8 und zwölf reguläre Raten bleiben das Profil.",
+        "restnachweis": "Gebührenreihe als abgegrenzte Tarifreihe nutzbar. Faktische Lehrqualität und individuelle Zusatzkosten sind nicht gemessen; keine vollständigen Ausbildungskosten.",
+        "quelle_ids": [
+          "pruefung-salem-avb-alt-1",
+          "pruefung-salem-avb-current"
+        ],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "saxonia-thin",
@@ -1305,12 +1563,10 @@
       "markt": "Deutschland",
       "währung": "EUR",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Wempe zeigt Verfügbar; Niederlassungsprüfung; keine garantierte Lieferzeit",
       "offene_punkte": [
-        "Referenz-/Artikelwechsel 201.027 / LA100063 zu 201.027-LB / LB100063 ab dem belegten Stand 2024 klären",
-        "Vergleichbarkeit der Verfügbarkeit und Steuerbehandlung prüfen",
-        "Kein bestätigter Hersteller-UVP-Verlauf"
+        "Bedeutung von -LB nicht aus Herstellerquelle geklärt; die Segmente werden nicht ungekennzeichnet verbunden. Neupreis, keine Transaktion oder bestätigte UVP."
       ],
       "beobachtungen": [
         {
@@ -1331,9 +1587,9 @@
       ],
       "dossier": "docs/produkte/saxonia-thin.md",
       "historienprüfung": {
-        "status": "Deutsche Händler-Neupreise 2019–2025 archiviert",
-        "ergebnis": "2019 15.500 / 2020 15.100 / 2021 17.300 / 2022 21.000 / 2023 24.500 / 2024 24.500 / 2025 25.600 EUR; aktueller 2026-Beleg 27.000 EUR.",
-        "grenze": "Einzelne Archivstichtage, keine Jahresmittel. Wechsel 201.027/LA100063 zu 201.027-LB/LB100063 ab 2024 noch prüfen. Umsatzsteuer- und Verfügbarkeitsänderungen sichtbar halten.",
+        "status": "reihenbruch festgelegt",
+        "ergebnis": "Historische Beschreibung 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe, L093.1 abgeglichen. Zwei Segmente: 2019–2023 201.027/LA100063; 2024–2026 201.027-LB/LB100063.",
+        "grenze": "Bedeutung von -LB nicht aus Herstellerquelle geklärt; die Segmente werden nicht ungekennzeichnet verbunden. Neupreis, keine Transaktion oder bestätigte UVP.",
         "quelle_id": "ia-wempe-2025",
         "geprüft_am": "2026-10-17"
       },
@@ -1479,7 +1735,15 @@
             "Referenz-/Artikelwechsel von 201.027 / LA100063 zu 201.027-LB / LB100063 ab dem belegten Stand 2024; Gleichwertigkeit vor Verkettung klären."
           ]
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "saxonia-thin",
+        "status": "reihenbruch_festgelegt",
+        "erledigt": "Historische Beschreibung 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe, L093.1 abgeglichen. Zwei Segmente: 2019–2023 201.027/LA100063; 2024–2026 201.027-LB/LB100063.",
+        "restnachweis": "Bedeutung von -LB nicht aus Herstellerquelle geklärt; die Segmente werden nicht ungekennzeichnet verbunden. Neupreis, keine Transaktion oder bestätigte UVP.",
+        "quelle_ids": [],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "hermes-kelly",
@@ -1489,13 +1753,10 @@
       "markt": "Deutschland",
       "währung": "EUR",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Zuteilungsregel und Wartedauer für die konkrete Variante nicht belegt",
       "offene_punkte": [
-        "Deutscher Boutique-Preis fehlt",
-        "Aktuelles vergleichbares Sekundärmarktangebot fehlt; historischer verfügbarer Angebotspreis 2024 jetzt belegt",
-        "Retourné-Bezeichnung und deutsches Steuer-/Versandszenario des Archivangebots bestätigen",
-        "Keine Markup-Berechnung ohne passende Boutique-Referenz"
+        "Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Versandkosten fehlen; kein Markup berechenbar."
       ],
       "beobachtungen": [],
       "verworfene_belege": [
@@ -1506,9 +1767,9 @@
       ],
       "dossier": "docs/produkte/hermes-kelly.md",
       "historienprüfung": {
-        "status": "Verfügbares historisches Sekundärmarktangebot gefunden",
-        "ergebnis": "06.08.2024: Kelly 28 Togo Noir, goldfarbene Hardware, ungetragen, Zubehör, 21.800 EUR; archiviert als Jetzt kaufen / 1 vorrätig.",
-        "grenze": "Kein Boutique-Preis oder realisierter Verkauf. Retourné-Bezeichnung und deutsches Steuer-/Versandszenario offen. Ausverkaufte Grade-2-Angebote nicht als Vergleich verwenden.",
+        "status": "anbieterbeleg noetig",
+        "ergebnis": "Boutique, verfügbarer Sekundärmarkt und ausverkaufte/gebrauchte Angebote bleiben getrennt. Das Angebot 2024 ist dokumentiert; Vergleichskriterien und Beleganforderung konkretisiert.",
+        "grenze": "Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Versandkosten fehlen; kein Markup berechenbar.",
         "quelle_id": "ia-kelly-8",
         "geprüft_am": "2026-10-17"
       },
@@ -1534,7 +1795,15 @@
             "Kein deutscher Boutique-Preis und daher kein berechenbarer Sekundärmarktaufschlag."
           ]
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "hermes-kelly",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Boutique, verfügbarer Sekundärmarkt und ausverkaufte/gebrauchte Angebote bleiben getrennt. Das Angebot 2024 ist dokumentiert; Vergleichskriterien und Beleganforderung konkretisiert.",
+        "restnachweis": "Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Versandkosten fehlen; kein Markup berechenbar.",
+        "quelle_ids": [],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "lanserhof-sylt",
@@ -1544,13 +1813,10 @@
       "markt": "Deutschland",
       "währung": "EUR",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche; redaktionelle Zweitprüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Mindestaufenthalt; Warteliste bei ausgebuchtem Anreisetermin laut Bedingungen",
       "offene_punkte": [
-        "Nur Programmpreise erfasst, kein Gesamtaufenthalt",
-        "Classic und Classic Plus getrennt halten",
-        "Leistungsänderungen innerhalb Classic prüfen",
-        "Pflichtverpflegung, Bereitschaftspauschale, Zimmer und Tarif standardisieren"
+        "Programmreihe nicht als unveränderte Kur verketten. Sieben Nächte: Gebührenkomponente 7×42=294 EUR; unklar ob im Programm enthalten. Unterkunft/Verpflegung und identischer Gesamttarif fehlen."
       ],
       "beobachtungen": [
         {
@@ -1640,11 +1906,11 @@
       ],
       "dossier": "docs/produkte/lanserhof-sylt.md",
       "historienprüfung": {
-        "status": "Programmpreise 2023–2026, kein Gesamtaufenthalt",
-        "ergebnis": "Classic: 2024 2.890 / 2025 2.980 / 2026 2.940 EUR. Classic Plus: 2023 4.125 / 2025 4.046 / 2026 3.990 EUR.",
-        "grenze": "Programme getrennt halten. Inhalte verändern sich; Zimmer und verpflichtende Nebenkosten fehlen. Keine reine Inflationsrate aus Paketpreisen ableiten.",
-        "quelle_id": "lanserhof-2025",
-        "geprüft_am": "2026-10-16"
+        "status": "leistungswechsel belegt",
+        "ergebnis": "Classic 2024/2025/2026 inhaltlich verglichen: Massagen/Detox, Telefontermine, Diagnostik und Untersuchungsdauer ändern sich. 2026 nennt 42 EUR pro Nacht verpflichtende Bereitschaftspauschale.",
+        "grenze": "Programmreihe nicht als unveränderte Kur verketten. Sieben Nächte: Gebührenkomponente 7×42=294 EUR; unklar ob im Programm enthalten. Unterkunft/Verpflegung und identischer Gesamttarif fehlen.",
+        "quelle_id": "pruefung-lanserhof2024",
+        "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
         {
@@ -1681,7 +1947,19 @@
           "prüfstatus": "Quelle gelesen; redaktionelle Zweitprüfung und Vergleichbarkeit offen",
           "variante": "Classic Plus"
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "lanserhof-sylt",
+        "status": "leistungswechsel_belegt",
+        "erledigt": "Classic 2024/2025/2026 inhaltlich verglichen: Massagen/Detox, Telefontermine, Diagnostik und Untersuchungsdauer ändern sich. 2026 nennt 42 EUR pro Nacht verpflichtende Bereitschaftspauschale.",
+        "restnachweis": "Programmreihe nicht als unveränderte Kur verketten. Sieben Nächte: Gebührenkomponente 7×42=294 EUR; unklar ob im Programm enthalten. Unterkunft/Verpflegung und identischer Gesamttarif fehlen.",
+        "quelle_ids": [
+          "pruefung-lanserhof2024",
+          "pruefung-lanserhof2025",
+          "pruefung-lanserhof2026"
+        ],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "rm-charger5",
@@ -1692,12 +1970,10 @@
       "währung": "EUR",
       "dossier": "docs/produkte/riese-mueller-charger5.md",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Öffentlicher Konfigurator; Lieferbarkeit unbekannt",
       "offene_punkte": [
-        "Steuerangabe und Pflichtnebenkosten bestätigen",
-        "Historische identische Konfiguration fehlt",
-        "Generationswechsel nicht verkettet"
+        "6.199→6.499 EUR nicht als reine Inflation ausweisen. Historische Endkonfiguration und Bewertung des Ausstattungswechsels fehlen."
       ],
       "beobachtungen": [
         {
@@ -1728,10 +2004,10 @@
         }
       ],
       "historienprüfung": {
-        "status": "Hersteller-Ab-Preis aus August 2025 gefunden",
-        "ergebnis": "Charger5 vario mit 800 Wh und Kiox 500 am 09.08.2025 ab 6.199 EUR.",
-        "grenze": "Kein abschließend nachgewiesener Endpreis der festgelegten Farbe pine/Rahmengröße L; daher keine ungeprüfte Inflationsrate gegenüber 6.499 EUR. CORE und HS nicht vermischen.",
-        "quelle_id": "ia-rm-20250809",
+        "status": "leistungswechsel belegt",
+        "ergebnis": "2025: SR Suntour Mobie 34 und Enviolo Heavy Duty; 2026: Fox AWL 34 und Enviolo Utility V1. 800 Wh/Kiox 500 gleich. Gleicher Modellname garantiert keine gleiche Ausstattung.",
+        "grenze": "6.199→6.499 EUR nicht als reine Inflation ausweisen. Historische Endkonfiguration und Bewertung des Ausstattungswechsels fehlen.",
+        "quelle_id": "pruefung-rm2025-okt",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -1755,7 +2031,18 @@
             "Konfigurations- und Steuerabgleich offen."
           ]
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "rm-charger5",
+        "status": "leistungswechsel_belegt",
+        "erledigt": "2025: SR Suntour Mobie 34 und Enviolo Heavy Duty; 2026: Fox AWL 34 und Enviolo Utility V1. 800 Wh/Kiox 500 gleich. Gleicher Modellname garantiert keine gleiche Ausstattung.",
+        "restnachweis": "6.199→6.499 EUR nicht als reine Inflation ausweisen. Historische Endkonfiguration und Bewertung des Ausstattungswechsels fehlen.",
+        "quelle_ids": [
+          "pruefung-rm2025-okt",
+          "pruefung-rm2026-komponenten"
+        ],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "bayreuth-parsifal",
@@ -1766,12 +2053,10 @@
       "währung": "EUR",
       "dossier": "docs/produkte/bayreuther-festspiele.md",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Vergabe und Sofortkauf nach AGB; keine garantierte Verfügbarkeit",
       "offene_punkte": [
-        "Weitere Spielzeiten fehlen",
-        "Sitzplatzkategorie und Leistungsumfang prüfen",
-        "Steuerbehandlung von Eintritt und Gebühr gesondert bestätigen"
+        "Gesetzlichen Einzel-Steuersatz nicht aus Endbetrag erfinden. Bestehende Pilot-Teilreihe unverändert; keine Aussage über freie Verfügbarkeit."
       ],
       "beobachtungen": [
         {
@@ -1876,11 +2161,11 @@
         }
       ],
       "historienprüfung": {
-        "status": "Vergleichbare Tarife 2024–2026",
-        "ergebnis": "2024 / 2025 / 2026 jeweils 352 EUR + 6 EUR Pflichtgebühr = 358 EUR.",
-        "grenze": "2024-Broschüre nur als archiviertes Original auf Vereinsserver erreichbar. Festspieltarif ist kein Ganzjahresdurchschnitt; Steuer-Zweitprüfung bleibt offen.",
+        "status": "teilpreis abgegrenzt",
+        "ergebnis": "A1 Parsifal ohne AR, online/digital: 352 EUR plus 6 EUR Pflichtgebühr. Zusätzliche schriftliche Bearbeitung und Postversand ausgeschlossen; Ticket-/Gebührenbelege verknüpft.",
+        "grenze": "Gesetzlichen Einzel-Steuersatz nicht aus Endbetrag erfinden. Bestehende Pilot-Teilreihe unverändert; keine Aussage über freie Verfügbarkeit.",
         "quelle_id": "bayreuth-2024-archiv",
-        "geprüft_am": "2026-10-16"
+        "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
         {
@@ -1915,7 +2200,15 @@
           "indexfreigabe": false,
           "prüfstatus": "Quelle gelesen; redaktionelle Zweitprüfung und Vergleichbarkeit offen"
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "bayreuth-parsifal",
+        "status": "teilpreis_abgegrenzt",
+        "erledigt": "A1 Parsifal ohne AR, online/digital: 352 EUR plus 6 EUR Pflichtgebühr. Zusätzliche schriftliche Bearbeitung und Postversand ausgeschlossen; Ticket-/Gebührenbelege verknüpft.",
+        "restnachweis": "Gesetzlichen Einzel-Steuersatz nicht aus Endbetrag erfinden. Bestehende Pilot-Teilreihe unverändert; keine Aussage über freie Verfügbarkeit.",
+        "quelle_ids": [],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "liegeplatz-ycl",
@@ -1926,14 +2219,10 @@
       "währung": "EUR",
       "dossier": "docs/produkte/liegeplatz-langenargen.md",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Warteliste und passender freier Platz; Anspruch beim Bootsverkauf grundsätzlich erloschen",
       "offene_punkte": [
-        "Verbindliche Flächenberechnung offen",
-        "Originaltarife 2023 und 2024 fehlen",
-        "Tarif-/Mitgliedsstrukturwechsel 2021/2022 klären",
-        "Keine Gleichsetzung mit kommerziellem BMK-Hafentarif",
-        "Beschlüsse gelten erst innerhalb des jeweiligen Jahres"
+        "2023_Gebuehrenordnung_Verein_unterschrieben.pdf und Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf sind nicht abrufbar. Aus dem bloßen Link keine Preise ableiten; Fläche/Strukturwechsel bleiben anfragepflichtig."
       ],
       "beobachtungen": [
         {
@@ -2087,10 +2376,10 @@
         "ycl-hafen"
       ],
       "historienprüfung": {
-        "status": "Original-Gebührenordnungen 2021 und 2022 archiviert",
-        "ergebnis": "2021 allgemeiner Sommer-Wassertarif 89 EUR/m²; ab 14.05.2022 Segelboottarif 74,50 EUR/m² brutto inkl. 7 % MwSt.",
-        "grenze": "Die 2022-Liste wurde 2023 archiviert. Fehlende Jahreswerte 2023/2024 werden nicht aufgefüllt. 2021/2022 Tarifstrukturwechsel prüfen; weiter nur Teilpreise, kein Gesamtliegeplatzpreis.",
-        "quelle_id": "ia-ycl-2023",
+        "status": "anbieterbeleg noetig",
+        "ergebnis": "Archivierte Downloadverzeichnisse liefern die konkreten Originaldateinamen 2023 und 2024. Hafenordnung und Antragsbogen nennen Bootsdimensionen, aber keine verbindliche Gebühren-Flächenformel.",
+        "grenze": "2023_Gebuehrenordnung_Verein_unterschrieben.pdf und Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf sind nicht abrufbar. Aus dem bloßen Link keine Preise ableiten; Fläche/Strukturwechsel bleiben anfragepflichtig.",
+        "quelle_id": "pruefung-ycl2024-formulare",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -2140,7 +2429,20 @@
             "2021 und 2022 unterscheiden sich in Mitglieds- und Tarifstruktur; kein ungeprüfter Preisindex über die Umstellung."
           ]
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "liegeplatz-ycl",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Archivierte Downloadverzeichnisse liefern die konkreten Originaldateinamen 2023 und 2024. Hafenordnung und Antragsbogen nennen Bootsdimensionen, aber keine verbindliche Gebühren-Flächenformel.",
+        "restnachweis": "2023_Gebuehrenordnung_Verein_unterschrieben.pdf und Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf sind nicht abrufbar. Aus dem bloßen Link keine Preise ableiten; Fläche/Strukturwechsel bleiben anfragepflichtig.",
+        "quelle_ids": [
+          "pruefung-ycl2024-formulare",
+          "pruefung-ycl2024-okt",
+          "pruefung-ycl-fragebogen-wp",
+          "pruefung-ycl-hafen2022"
+        ],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "skiurlaub-arlberg",
@@ -2151,13 +2453,10 @@
       "währung": "EUR",
       "dossier": "docs/produkte/skiurlaub-arlberg.md",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Skipass öffentlich tarifiert; Hotelbuchbarkeit nicht geprüft",
       "offene_punkte": [
-        "Hotel, Woche, Zimmer und Verpflegung definieren",
-        "Betreiber-Original 2025/26 fehlt; 2023/24 und 2024/25 jetzt belegt",
-        "Räumlichen Leistungsumfang über die Saisons prüfen",
-        "Gesamturlaub noch ohne Preis"
+        "Definierte Tarifleistung statt Gesamturlaub. Konkrete Hotelwoche/Zimmer/Verpflegung und vollständiger Aufenthaltspreis bleiben unbelegt; keine Vermischung mit angekündigtem 2026/27."
       ],
       "beobachtungen": [
         {
@@ -2165,8 +2464,8 @@
           "betrag": 450,
           "einheit": "6-Tage-Skipass",
           "preisart": "Veröffentlichter Saisontarif",
-          "quelle_id": "ski-bergfex",
-          "umsatzsteuer": "Steuerangabe im historischen Original noch nicht verifiziert",
+          "quelle_id": "pruefung-ski2025-original",
+          "umsatzsteuer": "inklusive USt.; rückzahlbares Kartendepot separat",
           "preisdatum": null,
           "gültigkeit": {
             "bezeichnung": "2025/26",
@@ -2174,10 +2473,14 @@
             "bis": "2026-04-06"
           },
           "zeitstatus": "historisch",
-          "belegqualität": "Sekundärbeleg; offizielles Original fehlt",
-          "abgerufen_am": "2026-10-16",
+          "belegqualität": "Original-Tarifblatt auf Hotelserver",
+          "abgerufen_am": "2026-10-17",
           "prüfstatus": "Quelle gelesen; keine Indexfreigabe",
-          "indexfreigabe": false
+          "indexfreigabe": false,
+          "vorherige_quelle_id": "ski-bergfex",
+          "hinweise": [
+            "450 EUR unverändert; Primärdokument ersetzt Bergfex als tragenden Beleg. Vorläufiger veröffentlichter Tarif, kein Transaktionsbeleg."
+          ]
         },
         {
           "id": "ski-2026",
@@ -2209,10 +2512,10 @@
         "ski-hotelansatz"
       ],
       "historienprüfung": {
-        "status": "Historische Tarifbelege 2023/24 und 2024/25 gesichert",
-        "ergebnis": "6-Tage-Erwachsenenpass Hauptsaison: 2023/24 401 / 2024/25 423 / 2025/26 450 EUR. 2026/27 468 EUR bleibt angekündigter Zukunftstarif.",
-        "grenze": "Vorläufige Katalogtarife, keine Transaktionspreise. Gebietsumfang prüfen; Hotelanteil fehlt. 2025/26 weiterhin nur Sekundärbeleg.",
-        "quelle_id": "ia-ski-202324",
+        "status": "originalnachweis ergänzt",
+        "ergebnis": "Original-Ticketguide 2025/26 gesichert: sechs Tage Erwachsene Hauptsaison 450 EUR inkl. USt., Kartendepot separat. Historische Tariffolge 401/423/450 EUR nun mit Originaldokumenten.",
+        "grenze": "Definierte Tarifleistung statt Gesamturlaub. Konkrete Hotelwoche/Zimmer/Verpflegung und vollständiger Aufenthaltspreis bleiben unbelegt; keine Vermischung mit angekündigtem 2026/27.",
+        "quelle_id": "pruefung-ski2025-original",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -2264,7 +2567,17 @@
             "Nicht mehr auf die zuvor verworfene Find-Powder-Schätzung angewiesen."
           ]
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "skiurlaub-arlberg",
+        "status": "originalnachweis_ergänzt",
+        "erledigt": "Original-Ticketguide 2025/26 gesichert: sechs Tage Erwachsene Hauptsaison 450 EUR inkl. USt., Kartendepot separat. Historische Tariffolge 401/423/450 EUR nun mit Originaldokumenten.",
+        "restnachweis": "Definierte Tarifleistung statt Gesamturlaub. Konkrete Hotelwoche/Zimmer/Verpflegung und vollständiger Aufenthaltspreis bleiben unbelegt; keine Vermischung mit angekündigtem 2026/27.",
+        "quelle_ids": [
+          "pruefung-ski2025-original"
+        ],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "alarmaufschaltung",
@@ -2275,12 +2588,10 @@
       "währung": "EUR",
       "dossier": "docs/produkte/alarmaufschaltung.md",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Technische Eignung, Region und Vertrag; keine belegte Warteliste",
       "offene_punkte": [
-        "Aktueller gleicher Anbietertarif fehlt",
-        "Inhalte und Laufzeiten unterscheiden sich",
-        "Keine Preisreihe über Anbieterwechsel bilden"
+        "Leistung, Übertragungsweg, Laufzeit, Einrichtung, inklusive Ereignisse und Pflichtgebühren müssen in einem aktuellen Tarifblatt bestätigt werden."
       ],
       "beobachtungen": [
         {
@@ -2341,6 +2652,21 @@
             "Keine bestätigte alleinige Buchbarkeit; Grundprodukt und Einsatzkosten separat",
             "Kein aktueller Preis des Securando-2022-Pakets"
           ]
+        },
+        {
+          "id": "alarm-securando-ab-2026",
+          "betrag": 20,
+          "einheit": "Monat",
+          "variante": "Securando/Securitas, Ab-Angebot ohne vollständige Tarifdefinition",
+          "preisart": "Aktueller Ab-Preis; nicht als Fortsetzung des Privat-Tarifs freigegeben",
+          "quelle_id": "pruefung-securando-ajax",
+          "preisdatum": "2026-10-17",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "umsatzsteuer": "Im FAQ-Angebot nicht gesondert ausgewiesen; nicht aus dem 2022-Tarif übernehmen",
+          "abgerufen_am": "2026-10-17",
+          "indexfreigabe": false,
+          "prüfstatus": "Recherchebeobachtung; Umfang, Einrichtung, Laufzeit und Pflichtgebühren offen"
         }
       ],
       "ableitungen": [
@@ -2363,13 +2689,23 @@
         "alarm-hb"
       ],
       "historienprüfung": {
-        "status": "2022-Preis durch zeitgenössischen Archivbeleg gestützt",
-        "ergebnis": "Archiv 24.05.2022: Securando/Securitas privat 20 EUR/Monat inkl. 19 % MwSt., gültig bis 30.06.2022.",
-        "grenze": "Kein zusätzliches Preisjahr; aktuelle identische Anbieterleistung fehlt. Abweichende Gültigkeitsdaten im anderen bereits gespeicherten Dokument bleiben als Versionskonflikt bestehen.",
-        "quelle_id": "ia-securando-preise-20220524",
+        "status": "anbieterbeleg noetig",
+        "ergebnis": "Aktuelles Securando-Angebot nennt weiterhin Securitas-Aufschaltung ab 20 EUR/Monat. Das ist eine Preisuntergrenze, keine bestätigte vollständige Fortsetzung des 2022-Privattarifs.",
+        "grenze": "Leistung, Übertragungsweg, Laufzeit, Einrichtung, inklusive Ereignisse und Pflichtgebühren müssen in einem aktuellen Tarifblatt bestätigt werden.",
+        "quelle_id": "pruefung-securando-ajax",
         "geprüft_am": "2026-10-17"
       },
-      "zusätzliche_historische_beobachtungen": []
+      "zusätzliche_historische_beobachtungen": [],
+      "abschlusspruefung": {
+        "produkt_id": "alarmaufschaltung",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Aktuelles Securando-Angebot nennt weiterhin Securitas-Aufschaltung ab 20 EUR/Monat. Das ist eine Preisuntergrenze, keine bestätigte vollständige Fortsetzung des 2022-Privattarifs.",
+        "restnachweis": "Leistung, Übertragungsweg, Laufzeit, Einrichtung, inklusive Ereignisse und Pflichtgebühren müssen in einem aktuellen Tarifblatt bestätigt werden.",
+        "quelle_ids": [
+          "pruefung-securando-ajax"
+        ],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "hausbetreuung-sylt",
@@ -2380,12 +2716,10 @@
       "währung": "EUR",
       "dossier": "docs/produkte/hausbetreuung-sylt.md",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche abgeschlossen; weitere redaktionelle Prüfung offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Individuelle Angebote erforderlich; keine Anbieter kontaktiert",
       "offene_punkte": [
-        "Kein verwendbarer öffentlicher Betrag",
-        "Standardobjekt 150 m² Westerland nur Recherchevorschlag",
-        "Aktuelle und historische vergleichbare Belege nötig"
+        "Standardbetrag sowie passende historische Angebote/Rechnungen fehlen. Material, Handwerkerkoordination und Vermietung bleiben getrennt; konkreter Recherche-Anfragetext liegt vor."
       ],
       "beobachtungen": [],
       "ableitungen": [],
@@ -2396,13 +2730,24 @@
         "sylt-da"
       ],
       "historienprüfung": {
-        "status": "Auch historische Anbieterstände ohne Standardbetrag",
-        "ergebnis": "Enkelmann-Preisseite 2023 und D&A-Seite 2024 geprüft; kein belegbarer Preis des definierten Kontrollpakets.",
-        "grenze": "Individuelle datierte Angebote oder Rechnungen nötig. Fehlender Treffer bei einer URL beweist nicht das Fehlen aller Archivbestände; keine Anbieter kontaktiert.",
-        "quelle_id": "ia-sylt-enkelmann-preise",
+        "status": "anbieterbeleg noetig",
+        "ergebnis": "Enkelmann und zusätzlicher Anbieter Gartenkunst geprüft. Anbieter nennen individuelle Monatspauschalen nach Objekt/Leistung. Referenzprofil konkretisiert: 150 m² Westerland, 24 dokumentierte Kontrollen/Jahr.",
+        "grenze": "Standardbetrag sowie passende historische Angebote/Rechnungen fehlen. Material, Handwerkerkoordination und Vermietung bleiben getrennt; konkreter Recherche-Anfragetext liegt vor.",
+        "quelle_id": "pruefung-enkelmann-preise",
         "geprüft_am": "2026-10-17"
       },
-      "zusätzliche_historische_beobachtungen": []
+      "zusätzliche_historische_beobachtungen": [],
+      "abschlusspruefung": {
+        "produkt_id": "hausbetreuung-sylt",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Enkelmann und zusätzlicher Anbieter Gartenkunst geprüft. Anbieter nennen individuelle Monatspauschalen nach Objekt/Leistung. Referenzprofil konkretisiert: 150 m² Westerland, 24 dokumentierte Kontrollen/Jahr.",
+        "restnachweis": "Standardbetrag sowie passende historische Angebote/Rechnungen fehlen. Material, Handwerkerkoordination und Vermietung bleiben getrennt; konkreter Recherche-Anfragetext liegt vor.",
+        "quelle_ids": [
+          "pruefung-enkelmann-preise",
+          "pruefung-sylt-gartenkunst"
+        ],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "schwarzwaldstube-menue-ii",
@@ -2414,13 +2759,10 @@
       "markt": "Deutschland",
       "währung": "EUR",
       "indexfreigabe": false,
-      "prüfstatus": "Recherche; weitere redaktionelle Prüfung und Leistungsabgleich offen",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Reservierung nötig; feste Wartedauer nicht belegt",
       "offene_punkte": [
-        "Historische Originalkarte fehlt",
-        "Speisen und Leistungsumfang geändert",
-        "Beginn der Preisgültigkeit offen",
-        "Steuerbehandlung des älteren Belegs bestätigen"
+        "Keine qualitätsbereinigte Menüinflation; sieben Gänge allein garantieren keine identische Leistung. Keine rückwirkende Netto-Preisreihe ohne genaue Steuerbelege."
       ],
       "beobachtungen": [
         {
@@ -2468,11 +2810,11 @@
         }
       ],
       "historienprüfung": {
-        "status": "Menü-Belege 2023–2026, Leistungswechsel",
-        "ergebnis": "Sieben Gänge: 2023 295 / 2024 325 / 2025 325 / 2026 385 EUR.",
-        "grenze": "2023 nur großes Menü, historische Bezeichnung II offen und Artikel nachträglich geändert. 2025 Foto der Karte; 2024 Portalstand. Speisen, Steuerregime und Inhalte verändern sich; keine qualitätsbereinigte Inflation.",
-        "quelle_id": "schwarzwald-2025-foto",
-        "geprüft_am": "2026-10-16"
+        "status": "leistungswechsel belegt",
+        "ergebnis": "Aktuelles Original-PDF direkt gesichert; sieben Gänge Menü II und Preis 385 EUR inkl. MwSt. bestätigt. Historische Karte 2025 enthält andere Speisen. Steuerwechsel 19→7 % ab 01.01.2026 dokumentiert.",
+        "grenze": "Keine qualitätsbereinigte Menüinflation; sieben Gänge allein garantieren keine identische Leistung. Keine rückwirkende Netto-Preisreihe ohne genaue Steuerbelege.",
+        "quelle_id": "pruefung-schwarzwald2026",
+        "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
         {
@@ -2509,7 +2851,19 @@
           "prüfstatus": "Quelle gelesen; redaktionelle Zweitprüfung und Vergleichbarkeit offen",
           "variante": "Menü II, sieben Gänge"
         }
-      ]
+      ],
+      "abschlusspruefung": {
+        "produkt_id": "schwarzwaldstube-menue-ii",
+        "status": "leistungswechsel_belegt",
+        "erledigt": "Aktuelles Original-PDF direkt gesichert; sieben Gänge Menü II und Preis 385 EUR inkl. MwSt. bestätigt. Historische Karte 2025 enthält andere Speisen. Steuerwechsel 19→7 % ab 01.01.2026 dokumentiert.",
+        "restnachweis": "Keine qualitätsbereinigte Menüinflation; sieben Gänge allein garantieren keine identische Leistung. Keine rückwirkende Netto-Preisreihe ohne genaue Steuerbelege.",
+        "quelle_ids": [
+          "pruefung-schwarzwald2026",
+          "bmf-gastro2026",
+          "gesetz-ustg12"
+        ],
+        "indexfreigabe": false
+      }
     },
     {
       "id": "hotel-adlon-deluxe",
@@ -2521,12 +2875,10 @@
       "markt": "Deutschland",
       "währung": "EUR",
       "indexfreigabe": false,
-      "prüfstatus": "Kein gültiger vergleichbarer Preisbeleg",
+      "prüfstatus": "Vertiefte Quellen-/Leistungsprüfung dokumentiert; keine Indexfreigabe",
       "zugang": "Datums- und tarifabhängige Verfügbarkeit",
       "offene_punkte": [
-        "Standardregel für Reisezeit und Buchungsvorlauf fehlt",
-        "Kein vollständig datiertes Angebot mit Steuer- und Stornobedingungen",
-        "Keine historische Reihe"
+        "Datiertes öffentliches Angebot ohne Frühstück und mit Steuer-/Stornobedingungen fehlt. Erhebungsprotokoll für Reisezeit, Vorlauf und Belegung festgelegt."
       ],
       "beobachtungen": [],
       "ableitungen": [],
@@ -2542,24 +2894,424 @@
         }
       ],
       "historienprüfung": {
-        "status": "Historischer Sondertarif datiert, Standardtarif bleibt offen",
-        "ergebnis": "GHORFA Rates 2024: Deluxe 250 EUR. Archiv 2025 zeigt 265 EUR, aber kein Tarifjahr. Beide Sondertarife bleiben außerhalb der definierten öffentlichen Standardrate.",
-        "grenze": "Keine 250→265-Inflationsreihe: Sonderkonditionen, City-Tax-Behandlung und Stornierung sind nicht identisch belegt.",
-        "quelle_id": "ia-adlon-ghorfa-20241007",
+        "status": "anbieterbeleg noetig",
+        "ergebnis": "Offizielle Zimmerdefinition ca. 40 m² im Haupthaus bestätigt; öffentliche flexible Rate und Ghorfa-Sondertarif getrennt. Berliner City Tax ab 2025 7,5 % statt 5 % gesondert zu erfassen.",
+        "grenze": "Datiertes öffentliches Angebot ohne Frühstück und mit Steuer-/Stornobedingungen fehlt. Erhebungsprotokoll für Reisezeit, Vorlauf und Belegung festgelegt.",
+        "quelle_id": "pruefung-adlon-zimmer",
         "geprüft_am": "2026-10-17"
       },
-      "zusätzliche_historische_beobachtungen": []
+      "zusätzliche_historische_beobachtungen": [],
+      "abschlusspruefung": {
+        "produkt_id": "hotel-adlon-deluxe",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Offizielle Zimmerdefinition ca. 40 m² im Haupthaus bestätigt; öffentliche flexible Rate und Ghorfa-Sondertarif getrennt. Berliner City Tax ab 2025 7,5 % statt 5 % gesondert zu erfassen.",
+        "restnachweis": "Datiertes öffentliches Angebot ohne Frühstück und mit Steuer-/Stornobedingungen fehlt. Erhebungsprotokoll für Reisezeit, Vorlauf und Belegung festgelegt.",
+        "quelle_ids": [
+          "pruefung-adlon-zimmer",
+          "pruefung-berlin-citytax"
+        ],
+        "indexfreigabe": false
+      }
     }
   ],
-  "vorgaenger": "data/research/historische-preise-2026-10-16.json",
+  "vorgaenger": "data/research/historische-preise-2026-10-17.json",
   "archivprotokoll": "data/research/internetarchive-protokoll-2026-10-17.json",
   "ergänzung_2026_10_17": {
     "neue_einzelbeobachtungen": 19,
     "neue_quellen": 27,
     "archivhinweis": "Archivzeitpunkt, Gültigkeitsjahr und heutiges Abrufdatum getrennt. Keine Änderung der Pilotzusammensetzung oder Freigabe weiterer Positionen."
   },
-  "version": "poc-0.1.1",
-  "recherche_sha256": "cb868dd8a0709a2da3b94a894121f7180654f727c2ab46e5055ecf8f006d38c2",
+  "abschlusspruefung": {
+    "stand": "2026-10-17",
+    "bericht": "docs/rechercheabschluss-und-gewichtung-2026-10-17.md",
+    "anbieteranfragen": "docs/anbieteranfragen-2026-10-17.md",
+    "gewichtung": "data/methodik/gewichtung-2026-10-17.json",
+    "positionen": [
+      {
+        "produkt_id": "porsche-cayenne",
+        "status": "teilpreis_abgegrenzt",
+        "erledigt": "Listen-Grundpreisreihe 2023–2026 belegt; 260 kW/353 PS, Basis-Benziner SUV. Überführung, Zulassung und Sonderausstattung sind nicht im beobachteten Grundpreis.",
+        "restnachweis": "Keine Vollkosten-/qualitätsbereinigte Inflationsreihe. Komplette datierte Serienausstattungslisten und Pflichtnebenkosten je Modelljahr fehlen.",
+        "quelle_ids": [
+          "pruefung-porsche2026"
+        ],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "salem",
+        "status": "tarifrahmen_geprueft",
+        "erledigt": "Leistungsabschnitt V a und Nebenkosten VII im archivierten Vertrag 2022 und der aktuell bereitgestellten Fassung textgleich (beide Vertragsfassung 30.03.2020). Klasse 8 und zwölf reguläre Raten bleiben das Profil.",
+        "restnachweis": "Gebührenreihe als abgegrenzte Tarifreihe nutzbar. Faktische Lehrqualität und individuelle Zusatzkosten sind nicht gemessen; keine vollständigen Ausbildungskosten.",
+        "quelle_ids": [
+          "pruefung-salem-avb-alt-1",
+          "pruefung-salem-avb-current"
+        ],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "saxonia-thin",
+        "status": "reihenbruch_festgelegt",
+        "erledigt": "Historische Beschreibung 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe, L093.1 abgeglichen. Zwei Segmente: 2019–2023 201.027/LA100063; 2024–2026 201.027-LB/LB100063.",
+        "restnachweis": "Bedeutung von -LB nicht aus Herstellerquelle geklärt; die Segmente werden nicht ungekennzeichnet verbunden. Neupreis, keine Transaktion oder bestätigte UVP.",
+        "quelle_ids": [],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "hermes-kelly",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Boutique, verfügbarer Sekundärmarkt und ausverkaufte/gebrauchte Angebote bleiben getrennt. Das Angebot 2024 ist dokumentiert; Vergleichskriterien und Beleganforderung konkretisiert.",
+        "restnachweis": "Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Versandkosten fehlen; kein Markup berechenbar.",
+        "quelle_ids": [],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "lanserhof-sylt",
+        "status": "leistungswechsel_belegt",
+        "erledigt": "Classic 2024/2025/2026 inhaltlich verglichen: Massagen/Detox, Telefontermine, Diagnostik und Untersuchungsdauer ändern sich. 2026 nennt 42 EUR pro Nacht verpflichtende Bereitschaftspauschale.",
+        "restnachweis": "Programmreihe nicht als unveränderte Kur verketten. Sieben Nächte: Gebührenkomponente 7×42=294 EUR; unklar ob im Programm enthalten. Unterkunft/Verpflegung und identischer Gesamttarif fehlen.",
+        "quelle_ids": [
+          "pruefung-lanserhof2024",
+          "pruefung-lanserhof2025",
+          "pruefung-lanserhof2026"
+        ],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "rm-charger5",
+        "status": "leistungswechsel_belegt",
+        "erledigt": "2025: SR Suntour Mobie 34 und Enviolo Heavy Duty; 2026: Fox AWL 34 und Enviolo Utility V1. 800 Wh/Kiox 500 gleich. Gleicher Modellname garantiert keine gleiche Ausstattung.",
+        "restnachweis": "6.199→6.499 EUR nicht als reine Inflation ausweisen. Historische Endkonfiguration und Bewertung des Ausstattungswechsels fehlen.",
+        "quelle_ids": [
+          "pruefung-rm2025-okt",
+          "pruefung-rm2026-komponenten"
+        ],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "bayreuth-parsifal",
+        "status": "teilpreis_abgegrenzt",
+        "erledigt": "A1 Parsifal ohne AR, online/digital: 352 EUR plus 6 EUR Pflichtgebühr. Zusätzliche schriftliche Bearbeitung und Postversand ausgeschlossen; Ticket-/Gebührenbelege verknüpft.",
+        "restnachweis": "Gesetzlichen Einzel-Steuersatz nicht aus Endbetrag erfinden. Bestehende Pilot-Teilreihe unverändert; keine Aussage über freie Verfügbarkeit.",
+        "quelle_ids": [],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "liegeplatz-ycl",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Archivierte Downloadverzeichnisse liefern die konkreten Originaldateinamen 2023 und 2024. Hafenordnung und Antragsbogen nennen Bootsdimensionen, aber keine verbindliche Gebühren-Flächenformel.",
+        "restnachweis": "2023_Gebuehrenordnung_Verein_unterschrieben.pdf und Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf sind nicht abrufbar. Aus dem bloßen Link keine Preise ableiten; Fläche/Strukturwechsel bleiben anfragepflichtig.",
+        "quelle_ids": [
+          "pruefung-ycl2024-formulare",
+          "pruefung-ycl2024-okt",
+          "pruefung-ycl-fragebogen-wp",
+          "pruefung-ycl-hafen2022"
+        ],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "skiurlaub-arlberg",
+        "status": "originalnachweis_ergänzt",
+        "erledigt": "Original-Ticketguide 2025/26 gesichert: sechs Tage Erwachsene Hauptsaison 450 EUR inkl. USt., Kartendepot separat. Historische Tariffolge 401/423/450 EUR nun mit Originaldokumenten.",
+        "restnachweis": "Definierte Tarifleistung statt Gesamturlaub. Konkrete Hotelwoche/Zimmer/Verpflegung und vollständiger Aufenthaltspreis bleiben unbelegt; keine Vermischung mit angekündigtem 2026/27.",
+        "quelle_ids": [
+          "pruefung-ski2025-original"
+        ],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "alarmaufschaltung",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Aktuelles Securando-Angebot nennt weiterhin Securitas-Aufschaltung ab 20 EUR/Monat. Das ist eine Preisuntergrenze, keine bestätigte vollständige Fortsetzung des 2022-Privattarifs.",
+        "restnachweis": "Leistung, Übertragungsweg, Laufzeit, Einrichtung, inklusive Ereignisse und Pflichtgebühren müssen in einem aktuellen Tarifblatt bestätigt werden.",
+        "quelle_ids": [
+          "pruefung-securando-ajax"
+        ],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "hausbetreuung-sylt",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Enkelmann und zusätzlicher Anbieter Gartenkunst geprüft. Anbieter nennen individuelle Monatspauschalen nach Objekt/Leistung. Referenzprofil konkretisiert: 150 m² Westerland, 24 dokumentierte Kontrollen/Jahr.",
+        "restnachweis": "Standardbetrag sowie passende historische Angebote/Rechnungen fehlen. Material, Handwerkerkoordination und Vermietung bleiben getrennt; konkreter Recherche-Anfragetext liegt vor.",
+        "quelle_ids": [
+          "pruefung-enkelmann-preise",
+          "pruefung-sylt-gartenkunst"
+        ],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "schwarzwaldstube-menue-ii",
+        "status": "leistungswechsel_belegt",
+        "erledigt": "Aktuelles Original-PDF direkt gesichert; sieben Gänge Menü II und Preis 385 EUR inkl. MwSt. bestätigt. Historische Karte 2025 enthält andere Speisen. Steuerwechsel 19→7 % ab 01.01.2026 dokumentiert.",
+        "restnachweis": "Keine qualitätsbereinigte Menüinflation; sieben Gänge allein garantieren keine identische Leistung. Keine rückwirkende Netto-Preisreihe ohne genaue Steuerbelege.",
+        "quelle_ids": [
+          "pruefung-schwarzwald2026",
+          "bmf-gastro2026",
+          "gesetz-ustg12"
+        ],
+        "indexfreigabe": false
+      },
+      {
+        "produkt_id": "hotel-adlon-deluxe",
+        "status": "anbieterbeleg_noetig",
+        "erledigt": "Offizielle Zimmerdefinition ca. 40 m² im Haupthaus bestätigt; öffentliche flexible Rate und Ghorfa-Sondertarif getrennt. Berliner City Tax ab 2025 7,5 % statt 5 % gesondert zu erfassen.",
+        "restnachweis": "Datiertes öffentliches Angebot ohne Frühstück und mit Steuer-/Stornobedingungen fehlt. Erhebungsprotokoll für Reisezeit, Vorlauf und Belegung festgelegt.",
+        "quelle_ids": [
+          "pruefung-adlon-zimmer",
+          "pruefung-berlin-citytax"
+        ],
+        "indexfreigabe": false
+      }
+    ],
+    "datenkorrekturen": [
+      {
+        "beobachtung_id": "ski-2025",
+        "vorher": "Bergfex als tragender Preisbeleg; Steuer im Original offen",
+        "nachher": "Original-Ticketguide inkl. USt.; Betrag unverändert 450 EUR",
+        "grund": "Original-PDF 2025/26 jetzt heruntergeladen und gelesen"
+      },
+      {
+        "beobachtung_id": "alarm-securando-ab-2026",
+        "nachher": "Zusätzlicher aktueller Ab-Preis 20 EUR; keine unveränderte Tarifreihe",
+        "grund": "Gleiches Vermittler-/Leitstellenumfeld, aber kein vollständiger Tarifnachweis"
+      }
+    ]
+  },
+  "gewichtungspruefung": {
+    "schema_version": "1.0-gewichtungspruefung",
+    "stand": "2026-10-17",
+    "julius_baer": {
+      "berichtsjahr": 2026,
+      "quelle_url": "https://www.juliusbaer.com/fileadmin/publications/julius-baer-global-wealth-and-lifestyle-report-2026.pdf",
+      "fundstelle": "Gedruckte S. 42–43 Methodik; S. 44 Komponenten",
+      "abgerufen_am": "2026-10-17",
+      "art": "Nominelle Indexgewichte, keine veröffentlichten Ausgabenanteile deutscher 1%-Haushalte",
+      "anzahl_komponenten": 20,
+      "grundregel": "Wohnimmobilie 20 %, Auto 10 %, übrige 18 Positionen gleichmäßig zusammen 70 %",
+      "komponenten": [
+        {
+          "id": "bicycle",
+          "komponente": "Fahrrad",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "car",
+          "komponente": "Auto",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 10
+          },
+          "gewicht_prozent": 10.0
+        },
+        {
+          "id": "champagne",
+          "komponente": "Champagner",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "jewellery",
+          "komponente": "Schmuck",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "mens_suit",
+          "komponente": "Herrenanzug",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "residential_property",
+          "komponente": "Wohnimmobilie",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 5
+          },
+          "gewicht_prozent": 20.0
+        },
+        {
+          "id": "sports_equipment",
+          "komponente": "Sportausrüstung",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "technology_package",
+          "komponente": "Technikpaket",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "watch",
+          "komponente": "Uhr",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "womens_handbag",
+          "komponente": "Damenhandtasche",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "womens_shoes",
+          "komponente": "Damenschuhe",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "business_class_flight",
+          "komponente": "Business-Class-Flug",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "fine_dining",
+          "komponente": "Gehobene Gastronomie",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "healthcare",
+          "komponente": "Gesundheit",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "hotel_suite",
+          "komponente": "Hotelsuite",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "lasik",
+          "komponente": "Augenlaserbehandlung",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "lawyer",
+          "komponente": "Rechtsberatung",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "mba",
+          "komponente": "MBA",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "private_school",
+          "komponente": "Privatschule",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        },
+        {
+          "id": "spa",
+          "komponente": "Spa",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 180
+          },
+          "gewicht_prozent": 3.888888888888889
+        }
+      ],
+      "preisveraenderung_2026_ausgenommen": [
+        "healthcare",
+        "sports_equipment"
+      ],
+      "vergleich_2025": "20/10/70-Regel im Bericht 2025, S. 52–53, ebenfalls belegt. Keine ungeprüfte Gleichsetzung der zugrunde liegenden Produkte oder Jahresraten.",
+      "grenzen": [
+        "Stadtranking basiert laut Bericht auf gewichteter USD-Preissumme; kein vollständig offener Einzelpreis-/Rechenbestand",
+        "Wie die Gewichte der wegen Methodenwechsel ausgeschlossenen Positionen im publizierten Änderungsaggregat behandelt werden, ist in der gelesenen Kurzmethodik nicht vollständig spezifiziert",
+        "Die rechnerisch abgeleiteten 70/18 Prozent sind keine aus Befragung gemessenen deutschen Konsumanteile"
+      ]
+    },
+    "nobelpreis": {
+      "entscheidung": "Gleichgewichtung des bestehenden Zweier-Piloten beibehalten. Keine Übernahme von Immobiliengewicht oder unbelegten Ausgabengewichten.",
+      "pilot_gewichte": [
+        {
+          "produkt_id": "bayreuth-parsifal",
+          "anteil": 0.5
+        },
+        {
+          "produkt_id": "liegeplatz-ycl",
+          "anteil": 0.5
+        }
+      ],
+      "produktiver_gesamtindex_freigegeben": false,
+      "regeln": [
+        "Gewichte beziehen sich auf normierte Preisverhältnisse, nicht Addition von Eurobeträgen verschiedener Einheiten",
+        "Zusammensetzung und Gewichte bleiben über den ganzen ausgewiesenen Vergleichszeitraum konstant",
+        "Fehlende Preise ergeben keine Gewichte von null oder jährliche Neunormierung",
+        "Kategorienzahl und Warenkorbauswahl sind redaktionelle Entscheidungen und dürfen nicht als gemessene Haushaltsanteile ausgegeben werden",
+        "Änderungen an Auswahl/Gewichten erfordern neue Indexversion und dokumentierte Sensitivitätsprüfung",
+        "Immobilienkaufpreise bleiben außerhalb des Konsumindex; Alarm/Sylt-Service erhalten nicht das Immobiliengewicht von Julius Bär"
+      ]
+    },
+    "rechenbeispiel_nur_methodik": {
+      "beschreibung": "Entfernt man ausschließlich Wohnimmobilien aus dem originalen 20er-Schema und normiert die übrigen ursprünglichen Gewichte auf 100 %, verbleiben 19 Positionen. Dies ist KEIN Nobelpreis-Gewichtungsvorschlag.",
+      "anzahl_positionen": 19,
+      "auto_prozent": 12.5,
+      "jede_der_18_anderen_prozent": 4.861111111111111
+    }
+  },
+  "version": "poc-0.1.2",
+  "recherche_sha256": "e4593c944d242d33edf2564d37cbeb7230c88cc743826a46126008dbe850f9b5",
   "pilot_reihen": [
     {
       "id": "bayreuth-parsifal",

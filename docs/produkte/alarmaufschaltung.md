@@ -51,3 +51,11 @@ Aktuelle Ab-Preise anderer Anbieter oder Zusatzpakete sind keine Fortsetzung. Ve
 Kein zusätzliches Preisjahr; aktuelle identische Anbieterleistung fehlt. Abweichende Gültigkeitsdaten im anderen bereits gespeicherten Dokument bleiben als Versionskonflikt bestehen.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20220524153608/https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: anbieterbeleg noetig.** Aktuelles Securando-Angebot nennt weiterhin Securitas-Aufschaltung ab 20 EUR/Monat. Das ist eine Preisuntergrenze, keine bestätigte vollständige Fortsetzung des 2022-Privattarifs.
+
+Leistung, Übertragungsweg, Laufzeit, Einrichtung, inklusive Ereignisse und Pflichtgebühren müssen in einem aktuellen Tarifblatt bestätigt werden.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

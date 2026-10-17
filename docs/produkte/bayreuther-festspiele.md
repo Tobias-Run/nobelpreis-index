@@ -37,3 +37,11 @@ Abruf aller Quellen: 16.10.2026. PDF-Prüfsummen und Einzelbeträge stehen in de
 2024-Broschüre nur als archiviertes Original auf Vereinsserver erreichbar. Festspieltarif ist kein Ganzjahresdurchschnitt; Steuer-Zweitprüfung bleibt offen.
 
 [Zusätzlicher Prüfbeleg](https://cerclewagneria.cat/ewExternalFiles/saisonal-overview-2024-EN.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: teilpreis abgegrenzt.** A1 Parsifal ohne AR, online/digital: 352 EUR plus 6 EUR Pflichtgebühr. Zusätzliche schriftliche Bearbeitung und Postversand ausgeschlossen; Ticket-/Gebührenbelege verknüpft.
+
+Gesetzlichen Einzel-Steuersatz nicht aus Endbetrag erfinden. Bestehende Pilot-Teilreihe unverändert; keine Aussage über freie Verfügbarkeit.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

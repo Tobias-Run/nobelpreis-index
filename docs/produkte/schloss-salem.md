@@ -29,3 +29,11 @@ Historische Spannen lassen die konkrete Klassenstufe offen. Das generische Aufna
 Keine Jahresdurchschnitte; festes Klassenprofil statt mitwachsendem Schüler. Rabatte, Einmalgebühren und Extras separat; Leistungsabgleich und Zweitprüfung offen.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20240912170039/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: tarifrahmen geprueft.** Leistungsabschnitt V a und Nebenkosten VII im archivierten Vertrag 2022 und der aktuell bereitgestellten Fassung textgleich (beide Vertragsfassung 30.03.2020). Klasse 8 und zwölf reguläre Raten bleiben das Profil.
+
+Gebührenreihe als abgegrenzte Tarifreihe nutzbar. Faktische Lehrqualität und individuelle Zusatzkosten sind nicht gemessen; keine vollständigen Ausbildungskosten.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

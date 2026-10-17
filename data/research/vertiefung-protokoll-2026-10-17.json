@@ -1,0 +1,875 @@
+{
+  "stand": "2026-10-17",
+  "quellen": [
+    {
+      "id": "pruefung-salem-avb-alt-1",
+      "titel": "Salem AVB, Fassung 30.03.2020, archiviert 19.04.2022",
+      "url": "https://web.archive.org/web/20220419222022/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB.pdf",
+      "fundstelle": "Abschnitte V a (Leistungen), VI (Gebühren) und VII (Nebenkosten); mit aktuell bereitgestellter Fassung verglichen.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "e1bb6635b1e1c3e42855d6999a489e216a3f65e6b6ca38d32e605d977cdf916a",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20220419222022id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB.pdf",
+      "memento_datetime": "Tue, 19 Apr 2022 22:20:22 GMT"
+    },
+    {
+      "id": "pruefung-salem-avb-current",
+      "titel": "Salem: aktuell bereitgestellte AVB, Fassung 30.03.2020",
+      "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Allgemeine_Vertragsbedingungen_DE.pdf",
+      "fundstelle": "Abschnitte V a und VII nach Whitespace-Normalisierung textgleich mit der archivierten 2022-Fassung; Anhänge teilweise geändert. Keine Behauptung identischer faktischer Unterrichtsqualität.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "f69ba7eb39db57829083ebe11e92a2025084bc601fc9aa394dc2eac607249bbd",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-rm2025-okt",
+      "titel": "Riese & Müller: Modell-/Komponententabelle Oktober 2025",
+      "url": "https://web.archive.org/web/20251016003952/https://www.r-m.de/de/bikes/charger5/",
+      "fundstelle": "Charger5 vario: SR Suntour Mobie 34, Enviolo Heavy Duty, PowerTube 800 Wh, Kiox 500; Modell-Ab-Preis 6.199 EUR. Spezifikationstabelle umfasst auch Optionen.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "56a5a0b5c727b74a9e50dcf2c137f3a80c35706e045d8b6e24d9a19244c7dcd1",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20251016003952id_/https://www.r-m.de/de/bikes/charger5/",
+      "memento_datetime": "Thu, 16 Oct 2025 00:39:52 GMT"
+    },
+    {
+      "id": "pruefung-rm2026-komponenten",
+      "titel": "Riese & Müller: aktuelle Modell-/Komponententabelle",
+      "url": "https://www.r-m.de/de/bikes/charger5/",
+      "fundstelle": "Charger5 vario: Fox AWL 34, Enviolo Utility V1, PowerTube 800 Wh, Kiox 500; Modell-Ab-Preis 6.499 EUR. Dokumentierter Ausstattungswechsel, keine unveränderte Reihe.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "759ea63941fee4858065562b3daeb7c60d5edbe90ae404e1b965cbdf48d5ba23",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-ski2025-original",
+      "titel": "Ski Arlberg: Original-Ticketguide Winter 2025/26",
+      "url": "https://www.albonanova.at/files/bilder/downloads/ticketguide-skipass-arlberg-2025.pdf",
+      "fundstelle": "Hauptsaison 20.12.2025–06.04.2026, sechs aufeinanderfolgende Tage Erwachsene 450 EUR inkl. USt., 5 EUR Kartendepot separat. Kalkulationsstand August 2025; Original-PDF auf Hotelserver.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "2a4e726ea7bbb6368e72ac77c69672dab5c4e4329f393f53a430add42fef1a6e",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-ycl2024-okt",
+      "titel": "YCL: Downloadverzeichnis archiviert 03.10.2024",
+      "url": "https://web.archive.org/web/20241003114253/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+      "fundstelle": "Verlinkt Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf. Belegt die Existenz/Adresse, nicht den Tarifbetrag. PDF nicht abrufbar.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "1a21ff6acf83e50a83b4814f7f6d15e59b2ad42246743405f464dada64239a25",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20241003114253id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+      "memento_datetime": "Thu, 03 Oct 2024 11:42:53 GMT"
+    },
+    {
+      "id": "pruefung-ycl2024-formulare",
+      "titel": "YCL: Downloadverzeichnis archiviert 03.03.2024",
+      "url": "https://web.archive.org/web/20240303001040/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+      "fundstelle": "Verlinkt 2023_Gebuehrenordnung_Verein_unterschrieben.pdf. Belegt die Existenz/Adresse, nicht den Tarifbetrag. PDF nicht abrufbar.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "89112691dea5fc1da3b3e6a81772c1b1095d2c284b66b9344cf99052d9fbb630",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20240303001040id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+      "memento_datetime": "Sun, 03 Mar 2024 00:10:40 GMT"
+    },
+    {
+      "id": "pruefung-ycl-fragebogen-wp",
+      "titel": "YCL Fragebogen Liegeplatzvergabe",
+      "url": "https://ycla.de/wp-content/uploads/2025/04/2023_Fragebogen_zum_Liegeplatzantrag_.pdf",
+      "fundstelle": "Erfragt Länge, Breite und Tiefgang; keine verbindliche Formel zur gebührenpflichtigen Fläche. Bootsabmessungen sind kein Beleg für die Berechnung der Tariffläche.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "e5e1781c9e09a9ce87e736a34378a056dd908d991c5342b5cc6de051c05b61e6",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-ycl-hafen2022",
+      "titel": "YCL Hafenordnung 2022, archiviert 02.03.2024",
+      "url": "https://web.archive.org/web/20240302233750/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/hafenordnung_2022_final.pdf",
+      "fundstelle": "Abschnitt 6.2 beschreibt zulässige Bootsgrößen und Stellplatzzuweisung, nicht eine belastbare Gebühren-Flächenformel.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg; archiviert",
+      "sha256": "640ed77f471b8e6d83ff590c30327a4b439b8a8718c4a1f57595a60ff8f3e021",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung",
+      "rohbeleg_url": "https://web.archive.org/web/20240302233750id_/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/hafenordnung_2022_final.pdf",
+      "memento_datetime": "Sat, 02 Mar 2024 23:37:50 GMT"
+    },
+    {
+      "id": "pruefung-securando-ajax",
+      "titel": "Securando: öffentliches Angebot zur Securitas-Aufschaltung",
+      "url": "https://www.securando.de/ajax-alarmanlage-testen/",
+      "fundstelle": "FAQ nennt Aufschaltung ab 20 EUR pro Monat. Aktueller Ab-Preis, kein vollständiges und datiertes identisches Privat-Tarifblatt.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "c32c8458248e00e695901a0d878b1dec7d825ca3407a5b503ceaabc68c4b5b5a",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-lanserhof2024",
+      "titel": "Lanserhof Sylt: Broschüre 2024",
+      "url": "https://api.lanserhof.com/wp-content/uploads/2023/12/2024_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+      "fundstelle": "Classic 7–8 Nächte: u.a. Fußreflexzonenmassage, klassische Massage, Drainage, Heu und Fußbad; Abschlussuntersuchung 30 Minuten.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "47781d1964246cf137f96fdc879fd0096087d9a1cfcdfca7887466f2fe58f20a",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-lanserhof2025",
+      "titel": "Lanserhof Sylt: Broschüre 2025",
+      "url": "https://api.lanserhof.com/wp-content/uploads/2024/12/2025_LHS_Hotelpreisliste_DE_MitPreise.pdf",
+      "fundstelle": "Classic 7–8 Nächte: telefonisches Erst-/Nachgespräch und Fettlebermessung; Abschluss 40 Minuten. Mehrere 2024-Anwendungen nicht in dieser Classic-Liste enthalten.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "a4f8eb6b357951cd293d05a76b3ff4aa644a75c334ce4dc98f5a95cad7e712d5",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-lanserhof2026",
+      "titel": "Lanserhof Sylt: Broschüre 2026",
+      "url": "https://files.lanserhof.com/preisbroschure/2026_lhs_preisliste_de.pdf",
+      "fundstelle": "Classic-Seite 3: 2.940 EUR ohne Unterkunft; Massage-/Detox-Anwendungen, Befundbesprechungen; verbindlicher Bereitschaftsdienst 42 EUR/Nacht. Text unter Classic überschreibt Arrangement teils als Classic Plus: Rückfrage nötig, keine ungeprüfte Summierung.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "bc0d7ad568acab582aa5e80dfcba70f679d75e3134292cd2d2d846161de8d88f",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-schwarzwald2026",
+      "titel": "Schwarzwaldstube: aktuelle Originalkarte",
+      "url": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+      "fundstelle": "Menü II sieben Gänge 385 EUR inkl. MwSt.; Original-PDF jetzt direkt verfügbar und gehasht. Mit Menüfoto 16.03.2025 verglichen; Speisen ändern sich.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "cca024ce53309649441d7894fcdd5cf151b7669014ea9a404dfbaafec48424b1",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-berlin-citytax",
+      "titel": "Land Berlin: FAQ Übernachtungsteuer",
+      "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+      "fundstelle": "Ab 01.01.2025 7,5 % statt zuvor 5 % der Bemessungsgrundlage. City Tax beim Hotelvergleich gesondert erfassen, nicht mit Umsatzsteuer verwechseln.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "a5912e5906d54ee039188e9f2fc052c6066b5cce0b6dd4498713c27a39eb46a4",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-adlon-zimmer",
+      "titel": "Adlon: offizielle Deluxe-Zimmerdefinition",
+      "url": "https://www.kempinski.com/de/hotel-adlon/zimmer-suiten/zimmer/deluxe-zimmer",
+      "fundstelle": "Ca. 40 m² im Haupthaus, Straßen-/Innenhofblick. Keine datierte vollständige öffentliche flexible Rate in dieser Zimmerbeschreibung.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "c7b775c0bfa493644969500731666ab8470c73dd99ea634e31bf1f2a6ab2de9c",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-enkelmann-preise",
+      "titel": "Enkelmann: Preis- und Leistungsmodell Hausbetreuung Sylt",
+      "url": "https://www.hausbetreuung-enkelmann.de/preise",
+      "fundstelle": "Monatspauschale nach individuellem Umfang und Besichtigung; Zusatzleistungen nach Zeitaufwand. Kein öffentlicher Standardbetrag.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "35edad639b80b8352a0964ea2a7072eedc63221cb3365421b60a891097488bf8",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-sylt-gartenkunst",
+      "titel": "Gartenkunst Sylt: Hausmeisterservice",
+      "url": "https://gartenkunst-sylt.de/leistungen/hausmeisterservice-sylt",
+      "fundstelle": "Zusätzlicher Anbieter geprüft; individuell wöchentliche/monatliche Betreuung, kein veröffentlichter Preis des festgelegten Kontrollpakets.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "2a40ae18d3bdce08b55cb35c548911f812d2c193d07de3a7c8d65cae0c9b04ff",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "pruefung-porsche2026",
+      "titel": "Porsche Deutschland: Cayenne Basis-Benziner",
+      "url": "https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+      "fundstelle": "Aktuelle deutsche Modellseite, Cayenne Benzin 260 kW/353 PS. Kein vollständiger belegter Abgleich aller Serienpositionen und Nebenkosten je Modelljahr.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Anbieter-/Behördenbeleg",
+      "sha256": "7f1ddeadb7f8055ba7dda1df963e8bfbc0a50997ad3c4b4dd40716125140cca4",
+      "weiterverwendungsrechte": "Keine Volltext- oder Bildveröffentlichung; ausgewählte Fakten und eigene Auswertung"
+    },
+    {
+      "id": "jb2026-methodik",
+      "titel": "Julius Bär Global Wealth and Lifestyle Report 2026",
+      "url": "https://www.juliusbaer.com/fileadmin/publications/julius-baer-global-wealth-and-lifestyle-report-2026.pdf",
+      "fundstelle": "Gedruckte S. 42–43 Methodology, S. 44 Komponenten. 20 % Immobilien, 10 % Auto, 70 % gleichmäßig auf übrige 18; Healthcare/Sports Equipment im Preisänderungsvergleich wegen Methodenwechsel ausgenommen.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Offizieller Bericht / Behördenveröffentlichung",
+      "belegsicherung": "Im Webwerkzeug gelesen; Direktdownload scheiterte, deshalb keine lokale Original-Prüfsumme behauptet",
+      "weiterverwendungsrechte": "Nur Fakten und eigene Zusammenfassung, keine fremden Volltexte oder Rohpreisbestände"
+    },
+    {
+      "id": "jb2025-methodik",
+      "titel": "Julius Bär Global Wealth and Lifestyle Report 2025",
+      "url": "https://www.juliusbaer.com/fileadmin/publications/julius-baer-global-wealth-and-lifestyle-report-2025.pdf",
+      "fundstelle": "Gedruckte S. 52–53: Gewichtung ebenfalls 20/10/70. Jahresbezug getrennt vom Bericht 2026.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Offizieller Bericht / Behördenveröffentlichung",
+      "belegsicherung": "Im Webwerkzeug gelesen; Direktdownload scheiterte, deshalb keine lokale Original-Prüfsumme behauptet",
+      "weiterverwendungsrechte": "Nur Fakten und eigene Zusammenfassung, keine fremden Volltexte oder Rohpreisbestände"
+    },
+    {
+      "id": "bmf-gastro2026",
+      "titel": "Bundesfinanzministerium: Steueränderungen 2026",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2026.html",
+      "fundstelle": "Offizieller Suchauszug nennt Restaurant-/Verpflegungsleistungen ohne Getränke ab 01.01.2026 mit 7 % statt 19 %. Volltextabruf lieferte 503; geltendes Recht zusätzlich anhand § 12 Abs. 2 Nr. 15 UStG geprüft.",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Offizieller Bericht / Behördenveröffentlichung",
+      "belegsicherung": "BMF nur als offizieller Suchauszug zugänglich, nicht als gelesener Volltext; HTTP 503. Keine Original-Prüfsumme.",
+      "weiterverwendungsrechte": "Nur Fakten und eigene Zusammenfassung, keine fremden Volltexte oder Rohpreisbestände"
+    },
+    {
+      "id": "gesetz-ustg12",
+      "titel": "§ 12 Abs. 2 Nr. 15 UStG, amtlicher Gesetzestext",
+      "url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+      "fundstelle": "Absatz 2: ermäßigter Satz 7 %; Nr. 15 Restaurant-/Verpflegungsdienstleistungen ausgenommen Getränke",
+      "abgerufen_am": "2026-10-17",
+      "quellentyp": "Amtliche Rechtsquelle",
+      "belegsicherung": "Volltext im Webwerkzeug gelesen",
+      "weiterverwendungsrechte": "Gesetzesfakten und eigene Auswertung",
+      "sha256": "e8753b36595e445e776716ce43ec8d01633d9c548aec77d776105ae9484d09d0"
+    }
+  ],
+  "protokolle": [
+    {
+      "datei": "archiv-start-log.json",
+      "abfragen": [
+        {
+          "id": "jb2026-archive",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.juliusbaer.com%2Ffileadmin%2Fpublications%2Fjulius-baer-global-wealth-and-lifestyle-report-2026.pdf&timestamp=20261001",
+          "antwort": {
+            "url": "https://www.juliusbaer.com/fileadmin/publications/julius-baer-global-wealth-and-lifestyle-report-2026.pdf",
+            "archived_snapshots": {},
+            "timestamp": "20261001"
+          }
+        },
+        {
+          "id": "ycl2024-html",
+          "url": "https://web.archive.org/cdx/search/cdx?url=ycla.de%2F%2A&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&from=2024&to=2024&collapse=urlkey&output=json&limit=300",
+          "antwort": {
+            "anzahl": 300,
+            "erste": [
+              [
+                "de,ycla)/?id=163",
+                "20240224121853",
+                "https://www.ycla.de/?id=163",
+                "text/html",
+                "200",
+                "KYEBRMA4KRUS7WUNX3PHFHKCBCWSNHPR",
+                "3379"
+              ],
+              [
+                "de,ycla)/?id=3",
+                "20240415122512",
+                "https://www.ycla.de?id=3",
+                "text/html",
+                "200",
+                "UE73IO6H4U4KDDMYCXPVYL6LBNDL3DGJ",
+                "7401"
+              ],
+              [
+                "de,ycla)/?id=334&l=942",
+                "20240805031643",
+                "https://www.ycla.de?id=334&L=942",
+                "text/html",
+                "200",
+                "E7TY3O77MXHCXYTEJ3NJCHX3WV7AM54Y",
+                "4229"
+              ],
+              [
+                "de,ycla)/aktuelles/aktuelles",
+                "20240420041058",
+                "https://www.ycla.de/aktuelles/aktuelles",
+                "text/html",
+                "200",
+                "I5I3TVBJZQRVWJZYWHG5MKRF5MBZ2PDB",
+                "7255"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rmvario2025",
+          "url": "https://web.archive.org/cdx/search/cdx?url=r-m.de%2Fde%2Fbikes%2Fcharger5%2Fcharger5-vario%2F%2A&filter=statuscode%3A200&from=2025&to=2025&collapse=digest&output=json&limit=100",
+          "antwort": {
+            "anzahl": 0,
+            "erste": []
+          }
+        },
+        {
+          "id": "alarm-privat",
+          "url": "https://web.archive.org/cdx/search/cdx?url=securando.de%2F%2A&filter=statuscode%3A200&filter=urlkey%3A.%2A%28securitas%7Caufschalt%7Cmonitoring%29.%2A&from=2022&to=2026&collapse=urlkey&output=json&limit=100",
+          "antwort": {
+            "anzahl": 1,
+            "erste": [
+              [
+                "de,securando)/wp-content/uploads/securando_monitoring-preisliste_gu%cc%88ltigkeit-3-0062022.pdf",
+                "20220524153608",
+                "https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+                "application/pdf",
+                "200",
+                "JQJQJHQLI3DAL634HVRIA4UNBGEPNV7N",
+                "60151"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "datei": "ycl-erweitert-log.json",
+      "abfragen": [
+        {
+          "id": "ycl-2024-formular-versions",
+          "url": "https://web.archive.org/cdx/search/cdx?url=www.ycla.de%2Fclub%2Fdokumente%2Fantraege-formulare-1&from=2023&to=2024&filter=statuscode%3A200&collapse=digest&output=json",
+          "antwort": [
+            [
+              "urlkey",
+              "timestamp",
+              "original",
+              "mimetype",
+              "statuscode",
+              "digest",
+              "length"
+            ],
+            [
+              "de,ycla)/club/dokumente/antraege-formulare-1",
+              "20230328030739",
+              "https://www.ycla.de/club/dokumente/antraege-formulare-1",
+              "text/html",
+              "200",
+              "MUFEAIGYT4IUMTU33VEIMPOFALBZ36FK",
+              "4771"
+            ],
+            [
+              "de,ycla)/club/dokumente/antraege-formulare-1",
+              "20230506112705",
+              "https://www.ycla.de/club/dokumente/antraege-formulare-1",
+              "text/html",
+              "200",
+              "TDCTQ26MW3FEMTGXQPTRIWCQW7O7B5SC",
+              "5166"
+            ],
+            [
+              "de,ycla)/club/dokumente/antraege-formulare-1",
+              "20231005032042",
+              "https://www.ycla.de/club/dokumente/antraege-formulare-1",
+              "text/html",
+              "200",
+              "BKMHIZ4KHOG2FKOGKIHPXW5H2MKPLDLP",
+              "4921"
+            ],
+            [
+              "de,ycla)/club/dokumente/antraege-formulare-1",
+              "20240303001040",
+              "https://www.ycla.de/club/dokumente/antraege-formulare-1",
+              "text/html",
+              "200",
+              "5IUIEK66OZNX5YZFYAU5ZKJNVOB6MGGC",
+              "5443"
+            ],
+            [
+              "de,ycla)/club/dokumente/antraege-formulare-1",
+              "20240721171442",
+              "https://www.ycla.de/club/dokumente/antraege-formulare-1",
+              "text/html",
+              "200",
+              "WLCUFGVBE3I2NVPE6HGCFKK2GOLLA7GE",
+              "5686"
+            ],
+            [
+              "de,ycla)/club/dokumente/antraege-formulare-1",
+              "20240913071257",
+              "https://www.ycla.de/club/dokumente/antraege-formulare-1",
+              "text/html",
+              "200",
+              "L2D3TKZUAPMNYSJRNDHO4K3UCFDHM66E",
+              "6043"
+            ],
+            [
+              "de,ycla)/club/dokumente/antraege-formulare-1",
+              "20241003114253",
+              "https://www.ycla.de/club/dokumente/antraege-formulare-1",
+              "text/html",
+              "200",
+              "XKKMUTJEAJTM3BFD535B2ZDFVZBJVKEA",
+              "5716"
+            ]
+          ]
+        },
+        {
+          "id": "ycl-2023-geb-available",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.ycla.de%2Ffileadmin%2Fredakteure%2FAntraege__Statuten%2F2023_Gebuehrenordnung_Verein_unterschrieben.pdf&timestamp=20240501",
+          "antwort": {
+            "url": "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2023_Gebuehrenordnung_Verein_unterschrieben.pdf",
+            "archived_snapshots": {},
+            "timestamp": "20240501"
+          }
+        },
+        {
+          "id": "ycl-2024-geb-available",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.ycla.de%2Ffileadmin%2Fredakteure%2FAntraege__Statuten%2F2024_Gebuehrenordnung_Verein_unterschrieben.pdf&timestamp=20241001",
+          "antwort": {
+            "url": "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2024_Gebuehrenordnung_Verein_unterschrieben.pdf",
+            "archived_snapshots": {},
+            "timestamp": "20241001"
+          }
+        }
+      ]
+    },
+    {
+      "datei": "zusatz-log.json",
+      "abfragen": [
+        {
+          "id": "salem-avb-current",
+          "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Allgemeine_Vertragsbedingungen_DE.pdf",
+          "final": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Allgemeine_Vertragsbedingungen_DE.pdf",
+          "status": 200,
+          "size": 9725276
+        },
+        {
+          "id": "salem-avb-2021",
+          "url": "https://web.archive.org/cdx/search/cdx?url=schule-schloss-salem.de%2Ffileadmin%2F02_Aufnahme_und_Stipendien%2FAufnahme%2FAVB%2A&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&collapse=digest&output=json&from=2020&to=2022&limit=30",
+          "final": "https://web.archive.org/cdx/search/cdx?url=schule-schloss-salem.de%2Ffileadmin%2F02_Aufnahme_und_Stipendien%2FAufnahme%2FAVB%2A&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&collapse=digest&output=json&from=2020&to=2022&limit=30",
+          "status": 200,
+          "size": 900,
+          "anzahl": 4,
+          "auszug": [
+            [
+              "de,schule-schloss-salem)/fileadmin/02_aufnahme_und_stipendien/aufnahme/avb.pdf",
+              "20220116102213",
+              "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB.pdf",
+              "application/pdf",
+              "200",
+              "6NF6NZU3RZ2YPAMBXZN3HKYUHO2M3XQX",
+              "1005257"
+            ],
+            [
+              "de,schule-schloss-salem)/fileadmin/02_aufnahme_und_stipendien/aufnahme/avb.pdf",
+              "20220419222022",
+              "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB.pdf",
+              "application/pdf",
+              "200",
+              "UBTYHS7TUDANDF26QAFB4UDHUJWBVZQA",
+              "5449251"
+            ]
+          ]
+        },
+        {
+          "id": "saxonia-manufacturer",
+          "url": "https://www.alange-soehne.com/eu-de/timepieces/saxonia/saxonia-thin/saxonia-thin-in-750-white-gold-201-027",
+          "final": "https://www.alange-soehne.com/eu-de/timepieces/saxonia/saxonia-thin/saxonia-thin-in-750-white-gold-201-027",
+          "status": 200,
+          "size": 790018
+        },
+        {
+          "id": "securando-current",
+          "url": "https://www.securando.de/wp-content/uploads/Securando_Securitas-Monitoring-Preisliste_2022.pdf",
+          "final": "https://www.securando.de/wp-content/uploads/Securando_Securitas-Monitoring-Preisliste_2022.pdf",
+          "status": 200,
+          "size": 129970
+        },
+        {
+          "id": "yclwp-all",
+          "url": "https://ycla.de/wp-json/wp/v2/media?search=Geb&per_page=100",
+          "final": "https://ycla.de/wp-json/wp/v2/media?search=Geb&per_page=100",
+          "status": 200,
+          "size": 9028,
+          "anzahl": 5,
+          "auszug": [
+            "https://ycla.de/wp-content/uploads/2026/05/2026-Gebuehrenordnung-Verein-Liegeplaetze.pdf",
+            "https://ycla.de/wp-content/uploads/2026/05/2026-Gebuehrenordnung-Bootslager.pdf",
+            "https://ycla.de/wp-content/uploads/2025/08/2025-Gebuehrenordnung-Bootslager-unterschrieben.pdf",
+            "https://ycla.de/wp-content/uploads/2025/08/2025-Gebuehrenordnung-Mitglied-Wasser-unterschrieben.pdf",
+            "https://ycla.de/wp-content/uploads/2025/04/2023_Fragebogen_zum_Liegeplatzantrag_.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "datei": "jobs1-ergebnis.json",
+      "abrufe": [
+        {
+          "id": "ycl2024-dokumente",
+          "requested": "https://web.archive.org/web/20240420031500id_/https://www.ycla.de/club/dokumente",
+          "final_url": "https://web.archive.org/web/20240420031500id_/https://www.ycla.de/club/dokumente",
+          "status": 200,
+          "size": 24933,
+          "pdf": false,
+          "sha256": "22d13e2d6dceb96bf7e79fc12f4ea2223704148505e272ad9a101340237067c5",
+          "payload_sha256": "22d13e2d6dceb96bf7e79fc12f4ea2223704148505e272ad9a101340237067c5",
+          "memento_datetime": "Sat, 20 Apr 2024 03:15:00 GMT",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "id": "ycl2024-hafen-winterlager",
+          "requested": "https://web.archive.org/web/20240523024805id_/https://www.ycla.de/club/dokumente/hafen-winterlager",
+          "final_url": "https://web.archive.org/web/20240523024805id_/https://www.ycla.de/club/dokumente/hafen-winterlager",
+          "status": 200,
+          "size": 28647,
+          "pdf": false,
+          "sha256": "23d1bba1d50662dbdf467c582c6dec3510158466ef85d7b3eb69bdea28fe2007",
+          "payload_sha256": "23d1bba1d50662dbdf467c582c6dec3510158466ef85d7b3eb69bdea28fe2007",
+          "memento_datetime": "Thu, 23 May 2024 02:48:05 GMT",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "id": "ycl2024-statuten",
+          "requested": "https://web.archive.org/web/20240302231315id_/https://www.ycla.de/club/dokumente/statuten",
+          "final_url": "https://web.archive.org/web/20240302231315id_/https://www.ycla.de/club/dokumente/statuten",
+          "status": 200,
+          "size": 24594,
+          "pdf": false,
+          "sha256": "3e51f58a5e760699fbb69799d20535a0a0b79db7a8185d24772da9d572733a7a",
+          "payload_sha256": "3e51f58a5e760699fbb69799d20535a0a0b79db7a8185d24772da9d572733a7a",
+          "memento_datetime": "Sat, 02 Mar 2024 23:13:15 GMT",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "datei": "jobs2-ergebnis.json",
+      "abrufe": [
+        {
+          "id": "salem-avb-alt-0",
+          "requested": "https://web.archive.org/web/20220116102213id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB.pdf",
+          "error": "Command '['pdftotext', '-layout', '/tmp/nobelpreis-vertiefung-20261017/salem-avb-alt-0.pdf', '/tmp/nobelpreis-vertiefung-20261017/salem-avb-alt-0.txt']' returned non-zero exit status 99."
+        },
+        {
+          "id": "salem-avb-alt-1",
+          "requested": "https://web.archive.org/web/20220419222022id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB.pdf",
+          "final_url": "https://web.archive.org/web/20220419222022id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB.pdf",
+          "status": 200,
+          "size": 5791006,
+          "pdf": true,
+          "sha256": "e1bb6635b1e1c3e42855d6999a489e216a3f65e6b6ca38d32e605d977cdf916a",
+          "payload_sha256": "e1bb6635b1e1c3e42855d6999a489e216a3f65e6b6ca38d32e605d977cdf916a",
+          "memento_datetime": "Tue, 19 Apr 2022 22:20:22 GMT",
+          "content_type": "application/pdf"
+        },
+        {
+          "id": "salem-avb-alt-2",
+          "requested": "https://web.archive.org/web/20200924184411id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/AVB_Deutsch_April2020.pdf",
+          "error": "Command '['pdftotext', '-layout', '/tmp/nobelpreis-vertiefung-20261017/salem-avb-alt-2.pdf', '/tmp/nobelpreis-vertiefung-20261017/salem-avb-alt-2.txt']' returned non-zero exit status 99."
+        },
+        {
+          "id": "rm2025-okt",
+          "requested": "https://web.archive.org/web/20251016003952id_/https://www.r-m.de/de/bikes/charger5/",
+          "final_url": "https://web.archive.org/web/20251016003952id_/https://www.r-m.de/de/bikes/charger5/",
+          "status": 200,
+          "size": 2033372,
+          "pdf": false,
+          "sha256": "56a5a0b5c727b74a9e50dcf2c137f3a80c35706e045d8b6e24d9a19244c7dcd1",
+          "payload_sha256": "56a5a0b5c727b74a9e50dcf2c137f3a80c35706e045d8b6e24d9a19244c7dcd1",
+          "memento_datetime": "Thu, 16 Oct 2025 00:39:52 GMT",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "id": "rm2026-komponenten",
+          "requested": "https://www.r-m.de/de/bikes/charger5/",
+          "final_url": "https://www.r-m.de/de/bikes/charger5/",
+          "status": 200,
+          "size": 488097,
+          "pdf": false,
+          "sha256": "759ea63941fee4858065562b3daeb7c60d5edbe90ae404e1b965cbdf48d5ba23",
+          "payload_sha256": "759ea63941fee4858065562b3daeb7c60d5edbe90ae404e1b965cbdf48d5ba23",
+          "memento_datetime": null,
+          "content_type": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "datei": "jobs3-ergebnis.json",
+      "abrufe": [
+        {
+          "id": "ycl2024-formulare",
+          "requested": "https://web.archive.org/web/20240303001040id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+          "final_url": "https://web.archive.org/web/20240303001040id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+          "status": 200,
+          "size": 36077,
+          "pdf": false,
+          "sha256": "89112691dea5fc1da3b3e6a81772c1b1095d2c284b66b9344cf99052d9fbb630",
+          "payload_sha256": "89112691dea5fc1da3b3e6a81772c1b1095d2c284b66b9344cf99052d9fbb630",
+          "memento_datetime": "Sun, 03 Mar 2024 00:10:40 GMT",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "id": "ycl-hafen2022",
+          "requested": "https://web.archive.org/web/20240302233750id_/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/hafenordnung_2022_final.pdf",
+          "final_url": "https://web.archive.org/web/20240302233750id_/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/hafenordnung_2022_final.pdf",
+          "status": 200,
+          "size": 86350,
+          "pdf": true,
+          "sha256": "640ed77f471b8e6d83ff590c30327a4b439b8a8718c4a1f57595a60ff8f3e021",
+          "payload_sha256": "640ed77f471b8e6d83ff590c30327a4b439b8a8718c4a1f57595a60ff8f3e021",
+          "memento_datetime": "Sat, 02 Mar 2024 23:37:50 GMT",
+          "content_type": "application/pdf"
+        },
+        {
+          "id": "ski2025-original",
+          "requested": "https://www.albonanova.at/files/bilder/downloads/ticketguide-skipass-arlberg-2025.pdf",
+          "final_url": "https://www.albonanova.at/files/bilder/downloads/ticketguide-skipass-arlberg-2025.pdf",
+          "status": 200,
+          "size": 146067,
+          "pdf": true,
+          "sha256": "2a4e726ea7bbb6368e72ac77c69672dab5c4e4329f393f53a430add42fef1a6e",
+          "payload_sha256": "2a4e726ea7bbb6368e72ac77c69672dab5c4e4329f393f53a430add42fef1a6e",
+          "memento_datetime": null,
+          "content_type": "application/pdf"
+        },
+        {
+          "id": "securando-ajax",
+          "requested": "https://www.securando.de/ajax-alarmanlage-testen/",
+          "final_url": "https://www.securando.de/ajax-alarmanlage-testen/",
+          "status": 200,
+          "size": 137767,
+          "pdf": false,
+          "sha256": "c32c8458248e00e695901a0d878b1dec7d825ca3407a5b503ceaabc68c4b5b5a",
+          "payload_sha256": "c32c8458248e00e695901a0d878b1dec7d825ca3407a5b503ceaabc68c4b5b5a",
+          "memento_datetime": null,
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "datei": "jobs4-ergebnis.json",
+      "abrufe": [
+        {
+          "id": "ycl-geb2023-live",
+          "requested": "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2023_Gebuehrenordnung_Verein_unterschrieben.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "id": "ycl-geb2024-live",
+          "requested": "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2024_Gebuehrenordnung_Verein_unterschrieben.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "id": "ycl-bootsantrag",
+          "requested": "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2023_Fragebogen_zum_Liegeplatzantrag_.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "datei": "jobs5-ergebnis.json",
+      "abrufe": [
+        {
+          "id": "ycl2024-juli",
+          "requested": "https://web.archive.org/web/20240721171442id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+          "final_url": "https://web.archive.org/web/20240721171442id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+          "status": 200,
+          "size": 36536,
+          "pdf": false,
+          "sha256": "1a15ebcf1a42082a7e7e5aaf809253afe52d3511a2327428799958d56b05edb2",
+          "payload_sha256": "1a15ebcf1a42082a7e7e5aaf809253afe52d3511a2327428799958d56b05edb2",
+          "memento_datetime": "Sun, 21 Jul 2024 17:14:42 GMT",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "id": "ycl2024-okt",
+          "requested": "https://web.archive.org/web/20241003114253id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+          "final_url": "https://web.archive.org/web/20241003114253id_/https://www.ycla.de/club/dokumente/antraege-formulare-1",
+          "status": 200,
+          "size": 36920,
+          "pdf": false,
+          "sha256": "1a21ff6acf83e50a83b4814f7f6d15e59b2ad42246743405f464dada64239a25",
+          "payload_sha256": "1a21ff6acf83e50a83b4814f7f6d15e59b2ad42246743405f464dada64239a25",
+          "memento_datetime": "Thu, 03 Oct 2024 11:42:53 GMT",
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "id": "alarm-preise-aktuell",
+          "requested": "https://www.securando.de/ratgeber/sicherheitsdienst-preise/",
+          "final_url": "https://www.securando.de/ratgeber/sicherheitsdienst-preise/",
+          "status": 200,
+          "size": 90523,
+          "pdf": false,
+          "sha256": "25ff3a7cd1bbe7c1e293548d2d8b3fac86ae366642986bbf2f0c232e786e9ba0",
+          "payload_sha256": "25ff3a7cd1bbe7c1e293548d2d8b3fac86ae366642986bbf2f0c232e786e9ba0",
+          "memento_datetime": null,
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "datei": "jobs6-ergebnis.json",
+      "abrufe": [
+        {
+          "id": "lanserhof2026",
+          "requested": "https://files.lanserhof.com/preisbroschure/2026_lhs_preisliste_de.pdf",
+          "final_url": "https://files.lanserhof.com/preisbroschure/2026_lhs_preisliste_de.pdf",
+          "status": 200,
+          "size": 7483633,
+          "pdf": true,
+          "sha256": "bc0d7ad568acab582aa5e80dfcba70f679d75e3134292cd2d2d846161de8d88f",
+          "payload_sha256": "bc0d7ad568acab582aa5e80dfcba70f679d75e3134292cd2d2d846161de8d88f",
+          "memento_datetime": null,
+          "content_type": "application/pdf"
+        },
+        {
+          "id": "lanserhof2024",
+          "requested": "https://api.lanserhof.com/wp-content/uploads/2023/12/2024_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+          "final_url": "https://api.lanserhof.com/wp-content/uploads/2023/12/2024_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+          "status": 200,
+          "size": 538629,
+          "pdf": true,
+          "sha256": "47781d1964246cf137f96fdc879fd0096087d9a1cfcdfca7887466f2fe58f20a",
+          "payload_sha256": "47781d1964246cf137f96fdc879fd0096087d9a1cfcdfca7887466f2fe58f20a",
+          "memento_datetime": null,
+          "content_type": "application/pdf"
+        },
+        {
+          "id": "lanserhof2025",
+          "requested": "https://api.lanserhof.com/wp-content/uploads/2024/12/2025_LHS_Hotelpreisliste_DE_MitPreise.pdf",
+          "final_url": "https://api.lanserhof.com/wp-content/uploads/2024/12/2025_LHS_Hotelpreisliste_DE_MitPreise.pdf",
+          "status": 200,
+          "size": 673840,
+          "pdf": true,
+          "sha256": "a4f8eb6b357951cd293d05a76b3ff4aa644a75c334ce4dc98f5a95cad7e712d5",
+          "payload_sha256": "a4f8eb6b357951cd293d05a76b3ff4aa644a75c334ce4dc98f5a95cad7e712d5",
+          "memento_datetime": null,
+          "content_type": "application/pdf"
+        },
+        {
+          "id": "schwarzwald2026",
+          "requested": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+          "final_url": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+          "status": 200,
+          "size": 521984,
+          "pdf": true,
+          "sha256": "cca024ce53309649441d7894fcdd5cf151b7669014ea9a404dfbaafec48424b1",
+          "payload_sha256": "cca024ce53309649441d7894fcdd5cf151b7669014ea9a404dfbaafec48424b1",
+          "memento_datetime": null,
+          "content_type": "application/pdf"
+        },
+        {
+          "id": "sylt-gartenkunst",
+          "requested": "https://gartenkunst-sylt.de/leistungen/hausmeisterservice-sylt",
+          "final_url": "https://gartenkunst-sylt.de/leistungen/hausmeisterservice-sylt",
+          "status": 200,
+          "size": 382157,
+          "pdf": false,
+          "sha256": "2a40ae18d3bdce08b55cb35c548911f812d2c193d07de3a7c8d65cae0c9b04ff",
+          "payload_sha256": "2a40ae18d3bdce08b55cb35c548911f812d2c193d07de3a7c8d65cae0c9b04ff",
+          "memento_datetime": null,
+          "content_type": "text/html; charset=UTF-8"
+        },
+        {
+          "id": "berlin-citytax",
+          "requested": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+          "final_url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+          "status": 200,
+          "size": 52814,
+          "pdf": false,
+          "sha256": "a5912e5906d54ee039188e9f2fc052c6066b5cce0b6dd4498713c27a39eb46a4",
+          "payload_sha256": "a5912e5906d54ee039188e9f2fc052c6066b5cce0b6dd4498713c27a39eb46a4",
+          "memento_datetime": null,
+          "content_type": "text/html; charset=UTF-8"
+        },
+        {
+          "id": "gastronomie-bmf",
+          "requested": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2026.html",
+          "error": "HTTP Error 503: Service Unavailable"
+        }
+      ]
+    },
+    {
+      "datei": "jobs7-ergebnis.json",
+      "abrufe": [
+        {
+          "id": "ycl2024-geb-lokal",
+          "requested": "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "id": "ycl2024-geb-archive",
+          "requested": "https://web.archive.org/web/20241003114253id_/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "id": "ycl2024-geb-wp",
+          "requested": "https://ycla.de/wp-content/uploads/2025/04/2024_Gebuehrenordnung_Verein.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "id": "ycl2023-geb-wp",
+          "requested": "https://ycla.de/wp-content/uploads/2025/04/2023_Gebuehrenordnung_Verein_unterschrieben.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "id": "ycl-fragebogen-wp",
+          "requested": "https://ycla.de/wp-content/uploads/2025/04/2023_Fragebogen_zum_Liegeplatzantrag_.pdf",
+          "final_url": "https://ycla.de/wp-content/uploads/2025/04/2023_Fragebogen_zum_Liegeplatzantrag_.pdf",
+          "status": 200,
+          "size": 18617,
+          "pdf": true,
+          "sha256": "e5e1781c9e09a9ce87e736a34378a056dd908d991c5342b5cc6de051c05b61e6",
+          "payload_sha256": "e5e1781c9e09a9ce87e736a34378a056dd908d991c5342b5cc6de051c05b61e6",
+          "memento_datetime": null,
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "datei": "jobs8-ergebnis.json",
+      "abrufe": [
+        {
+          "id": "porsche2026",
+          "requested": "https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+          "final_url": "https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+          "status": 200,
+          "size": 1111128,
+          "pdf": false,
+          "sha256": "7f1ddeadb7f8055ba7dda1df963e8bfbc0a50997ad3c4b4dd40716125140cca4",
+          "payload_sha256": "7f1ddeadb7f8055ba7dda1df963e8bfbc0a50997ad3c4b4dd40716125140cca4",
+          "memento_datetime": null,
+          "content_type": "text/html"
+        },
+        {
+          "id": "porsche2023",
+          "requested": "https://newsroom.porsche.com/de/2023/produkte/porsche-cayenne-weltpremiere-auto-shanghai-31955.html",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "id": "adlon-zimmer",
+          "requested": "https://www.kempinski.com/de/hotel-adlon/zimmer-suiten/zimmer/deluxe-zimmer",
+          "final_url": "https://www.kempinski.com/de/hotel-adlon/zimmer-suiten/zimmer/deluxe-zimmer",
+          "status": 200,
+          "size": 130905,
+          "pdf": false,
+          "sha256": "c7b775c0bfa493644969500731666ab8470c73dd99ea634e31bf1f2a6ab2de9c",
+          "payload_sha256": "c7b775c0bfa493644969500731666ab8470c73dd99ea634e31bf1f2a6ab2de9c",
+          "memento_datetime": null,
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "id": "enkelmann-preise",
+          "requested": "https://www.hausbetreuung-enkelmann.de/preise",
+          "final_url": "https://www.hausbetreuung-enkelmann.de/preise",
+          "status": 200,
+          "size": 1042163,
+          "pdf": false,
+          "sha256": "35edad639b80b8352a0964ea2a7072eedc63221cb3365421b60a891097488bf8",
+          "payload_sha256": "35edad639b80b8352a0964ea2a7072eedc63221cb3365421b60a891097488bf8",
+          "memento_datetime": null,
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    }
+  ],
+  "grenze": "Ergebnis der konkret geprüften öffentlichen Quellen, keine Vollständigkeitsbehauptung. Keine Anbieter kontaktiert."
+}

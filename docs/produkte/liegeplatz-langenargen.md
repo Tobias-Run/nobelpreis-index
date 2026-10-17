@@ -50,3 +50,11 @@ Kein überprüfbarer 2024-Tarif gefunden. Mitgliedsbeitrag, Verwaltung, Arbeitsd
 Die 2022-Liste wurde 2023 archiviert. Fehlende Jahreswerte 2023/2024 werden nicht aufgefüllt. 2021/2022 Tarifstrukturwechsel prüfen; weiter nur Teilpreise, kein Gesamtliegeplatzpreis.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20230506113321/https://www.ycla.de/fileadmin/redakteure/Bilder_und_PDF_2022/PDF_2022/2022_Gebuehrenordnung_Verein_und_Liegeplaetze.pdf) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: anbieterbeleg noetig.** Archivierte Downloadverzeichnisse liefern die konkreten Originaldateinamen 2023 und 2024. Hafenordnung und Antragsbogen nennen Bootsdimensionen, aber keine verbindliche Gebühren-Flächenformel.
+
+2023_Gebuehrenordnung_Verein_unterschrieben.pdf und Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf sind nicht abrufbar. Aus dem bloßen Link keine Preise ableiten; Fläche/Strukturwechsel bleiben anfragepflichtig.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

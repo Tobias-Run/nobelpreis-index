@@ -47,3 +47,11 @@ Abruf aller Quellen: 16.10.2026. Der offizielle Ticket Guide wurde lokal gelesen
 Vorläufige Katalogtarife, keine Transaktionspreise. Gebietsumfang prüfen; Hotelanteil fehlt. 2025/26 weiterhin nur Sekundärbeleg.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20231128234730/https://www.vorarlberg-alpenregion.at/media/ktal/Tarifblatt-Ski-Arlberg-Winter-202324.pdf) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: originalnachweis ergänzt.** Original-Ticketguide 2025/26 gesichert: sechs Tage Erwachsene Hauptsaison 450 EUR inkl. USt., Kartendepot separat. Historische Tariffolge 401/423/450 EUR nun mit Originaldokumenten.
+
+Definierte Tarifleistung statt Gesamturlaub. Konkrete Hotelwoche/Zimmer/Verpflegung und vollständiger Aufenthaltspreis bleiben unbelegt; keine Vermischung mit angekündigtem 2026/27.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.

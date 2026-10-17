@@ -46,3 +46,11 @@ Charger5 wurde am 24.06.2025 vorgestellt. Charger4 oder ältere Generationen erg
 Kein abschließend nachgewiesener Endpreis der festgelegten Farbe pine/Rahmengröße L; daher keine ungeprüfte Inflationsrate gegenüber 6.499 EUR. CORE und HS nicht vermischen.
 
 [Archiv-/Originalbeleg](https://web.archive.org/web/20250809091213/https://www.r-m.de/de/bikes/charger5/) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
+
+## Vertiefte Leistungs- und Quellenprüfung · 17.10.2026
+
+**Entscheidung: leistungswechsel belegt.** 2025: SR Suntour Mobie 34 und Enviolo Heavy Duty; 2026: Fox AWL 34 und Enviolo Utility V1. 800 Wh/Kiox 500 gleich. Gleicher Modellname garantiert keine gleiche Ausstattung.
+
+6.199→6.499 EUR nicht als reine Inflation ausweisen. Historische Endkonfiguration und Bewertung des Ausstattungswechsels fehlen.
+
+[Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
