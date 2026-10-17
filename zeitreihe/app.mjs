@@ -73,7 +73,7 @@ function download(name,text,type){const url=URL.createObjectURL(new Blob([type.s
 function exportCSV(){
  const head=['Produkt-ID','Produkt','Beobachtung-ID','Betrag EUR','Einheit','Preisdatum','Gültigkeit','Zeitstatus','Preisart','Umsatzsteuer','Quelle','Abruf','Indexfreigabe'];
  const rows=data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen].map(o=>[p.id,p.name,o.id,String(o.betrag).replace('.',','),o.einheit,o.preisdatum||'',o.gültigkeit?.bezeichnung||'',o.zeitstatus,o.preisart,o.umsatzsteuer,sourceMap.get(o.quelle_id)?.url||'',o.abgerufen_am||data.stand,'nein']));
- download('nobelpreis-preisbeobachtungen-2026-10-16.csv',[head,...rows].map(r=>r.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(';')).join('\r\n'),'text/csv;charset=utf-8');
+ download(`nobelpreis-preisbeobachtungen-${data.stand}.csv`,[head,...rows].map(r=>r.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(';')).join('\r\n'),'text/csv;charset=utf-8');
 }
 try{
  const response=await fetch('./daten.json');if(!response.ok)throw new Error('Daten nicht verfügbar.');data=await response.json();sourceMap=new Map(data.quellen.map(s=>[s.id,s]));restore();
@@ -81,7 +81,7 @@ try{
  $('zeitraum').addEventListener('change',()=>{render();writeURL();});
  $('suche').addEventListener('input',()=>{renderResearch();writeURL(false);});
  $('punktwahl').addEventListener('click',e=>{const y=e.target.closest('[data-year]')?.dataset.year;if(y){showPoint(Number(y));writeURL();}});
- $('json').addEventListener('click',()=>download('nobelpreis-forschung-2026-10-16.json',JSON.stringify({...data,aktuelle_auswertung:result,auswahl:selected.map(s=>s.id)},null,2),'application/json;charset=utf-8'));
+ $('json').addEventListener('click',()=>download(`nobelpreis-forschung-${data.stand}.json`,JSON.stringify({...data,aktuelle_auswertung:result,auswahl:selected.map(s=>s.id)},null,2),'application/json;charset=utf-8'));
  $('csv').addEventListener('click',exportCSV);
  $('link').addEventListener('click',async()=>{writeURL(false);try{await navigator.clipboard.writeText(location.href);$('status').textContent='Vergleichslink kopiert.';}catch{$('status').textContent='Der Vergleich ist in der Adresszeile gespeichert.';}});
  window.addEventListener('popstate',restore);new ResizeObserver(drawChart).observe($('chart'));
