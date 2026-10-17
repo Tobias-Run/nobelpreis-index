@@ -47,3 +47,7 @@ Die [erste Recherchedatei](../data/research/erste-fuenf-2026-10-16.json), die [D
 ## Ergänzung: historische Preise und Zeitreihen-PoC
 
 Die [Historienprüfung aller 13 Positionen](historische-preise-und-poc-2026-10-16.md) ergänzt sieben Preis-/Gebührenbeobachtungen und dokumentiert verbleibende Lücken. Ein separater, nicht als Konsumindex freigegebener Zweier-Pilot zeigt die Rechenkette mit offizieller monatlicher Bundesbank-Referenz.
+
+## Ergänzung: Internet Archive · 17.10.2026
+
+Die [Archivrecherche](archivrecherche-2026-10-17.md) ergänzt 19 Preisbeobachtungen für sieben Positionen. Der aktuelle Recherchebestand enthält 53 Beobachtungen. Mehrere vormals offene Beleglücken (insbesondere Salem, Saxonia und Cayenne 2025) sind geschlossen; Leistungsabgleich und Indexfreigabe bleiben offen. Die frühere Übersicht oben beschreibt den Stand vom 16.10.2026.

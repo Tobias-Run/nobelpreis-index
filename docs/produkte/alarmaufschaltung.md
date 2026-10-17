@@ -43,3 +43,11 @@ Abruf aller Quellen: 16.10.2026. Historische PDF-Prüfsumme, Belegarten und Unsi
 Aktuelle Ab-Preise anderer Anbieter oder Zusatzpakete sind keine Fortsetzung. Vertragsumfang und historische widersprüchliche Enddaten bleiben sichtbar.
 
 [Zusätzlicher Prüfbeleg](https://www.securando.de/wp-content/uploads/Securando_Securitas-Monitoring-Preisliste_2022.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Internet-Archive-Nachrecherche · 17.10.2026
+
+**2022-Preis durch zeitgenössischen Archivbeleg gestützt.** Archiv 24.05.2022: Securando/Securitas privat 20 EUR/Monat inkl. 19 % MwSt., gültig bis 30.06.2022.
+
+Kein zusätzliches Preisjahr; aktuelle identische Anbieterleistung fehlt. Abweichende Gültigkeitsdaten im anderen bereits gespeicherten Dokument bleiben als Versionskonflikt bestehen.
+
+[Archiv-/Originalbeleg](https://web.archive.org/web/20220524153608/https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.

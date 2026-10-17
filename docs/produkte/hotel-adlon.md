@@ -34,3 +34,11 @@ Abruf aller Quellen: 16.10.2026. Das Tarifblatt wurde lokal gelesen und mit SHA-
 Pauschalreisen, Preis-ab-Portale und Firmenraten erfüllen die definierte öffentliche flexible Direktbuchung nicht. Datum, Vorlauf, Steuern und Stornierung müssen übereinstimmen.
 
 [Zusätzlicher Prüfbeleg](https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Internet-Archive-Nachrecherche · 17.10.2026
+
+**Historischer Sondertarif datiert, Standardtarif bleibt offen.** GHORFA Rates 2024: Deluxe 250 EUR. Archiv 2025 zeigt 265 EUR, aber kein Tarifjahr. Beide Sondertarife bleiben außerhalb der definierten öffentlichen Standardrate.
+
+Keine 250→265-Inflationsreihe: Sonderkonditionen, City-Tax-Behandlung und Stornierung sind nicht identisch belegt.
+
+[Archiv-/Originalbeleg](https://web.archive.org/web/20241007204523/https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.

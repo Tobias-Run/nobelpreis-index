@@ -42,3 +42,11 @@ Wichtig für die Reproduzierbarkeit: Die Webwerkzeug-Vorschau zeigte beim Abruf 
 Kein überprüfbarer 2024-Tarif gefunden. Mitgliedsbeitrag, Verwaltung, Arbeitsdienst, Aufnahme und optionaler Clubhausbeitrag separat. Flächenregel offen, daher kein erfundener Gesamtliegeplatzpreis.
 
 [Zusätzlicher Prüfbeleg](https://ycla.de/wp-content/uploads/2025/08/2025-Gebuehrenordnung-Mitglied-Wasser-unterschrieben.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Internet-Archive-Nachrecherche · 17.10.2026
+
+**Original-Gebührenordnungen 2021 und 2022 archiviert.** 2021 allgemeiner Sommer-Wassertarif 89 EUR/m²; ab 14.05.2022 Segelboottarif 74,50 EUR/m² brutto inkl. 7 % MwSt.
+
+Die 2022-Liste wurde 2023 archiviert. Fehlende Jahreswerte 2023/2024 werden nicht aufgefüllt. 2021/2022 Tarifstrukturwechsel prüfen; weiter nur Teilpreise, kein Gesamtliegeplatzpreis.
+
+[Archiv-/Originalbeleg](https://web.archive.org/web/20230506113321/https://www.ycla.de/fileadmin/redakteure/Bilder_und_PDF_2022/PDF_2022/2022_Gebuehrenordnung_Verein_und_Liegeplaetze.pdf) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.

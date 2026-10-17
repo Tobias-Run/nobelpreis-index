@@ -39,3 +39,11 @@ Abruf aller Quellen: 16.10.2026. Der offizielle Ticket Guide wurde lokal gelesen
 2024/25-Schätzungen und widersprüchliche Onlineangaben nicht übernommen. Betreiber-Original älterer Saison fehlt. Gesamturlaub ohne Hotelpreis.
 
 [Zusätzlicher Prüfbeleg](https://findpowder.com/de/resort/lech/lift-pass). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Internet-Archive-Nachrecherche · 17.10.2026
+
+**Historische Tarifbelege 2023/24 und 2024/25 gesichert.** 6-Tage-Erwachsenenpass Hauptsaison: 2023/24 401 / 2024/25 423 / 2025/26 450 EUR. 2026/27 468 EUR bleibt angekündigter Zukunftstarif.
+
+Vorläufige Katalogtarife, keine Transaktionspreise. Gebietsumfang prüfen; Hotelanteil fehlt. 2025/26 weiterhin nur Sekundärbeleg.
+
+[Archiv-/Originalbeleg](https://web.archive.org/web/20231128234730/https://www.vorarlberg-alpenregion.at/media/ktal/Tarifblatt-Ski-Arlberg-Winter-202324.pdf) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.

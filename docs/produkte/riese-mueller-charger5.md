@@ -38,3 +38,11 @@ Abrufdatum aller Quellen: 16.10.2026. Die lokal gelesene Hersteller-HTML-Fassung
 Charger5 wurde am 24.06.2025 vorgestellt. Charger4 oder ältere Generationen ergeben keine rückwirkende Charger5-Preisreihe.
 
 [Zusätzlicher Prüfbeleg](https://www.r-m.de/de-at/presse/presse-copy/riese-muller-stellt-das-neue-charger5-vor/). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Internet-Archive-Nachrecherche · 17.10.2026
+
+**Hersteller-Ab-Preis aus August 2025 gefunden.** Charger5 vario mit 800 Wh und Kiox 500 am 09.08.2025 ab 6.199 EUR.
+
+Kein abschließend nachgewiesener Endpreis der festgelegten Farbe pine/Rahmengröße L; daher keine ungeprüfte Inflationsrate gegenüber 6.499 EUR. CORE und HS nicht vermischen.
+
+[Archiv-/Originalbeleg](https://web.archive.org/web/20250809091213/https://www.r-m.de/de/bikes/charger5/) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
