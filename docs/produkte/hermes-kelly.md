@@ -18,3 +18,11 @@ Ein Produktionsstempel ist kein historisches Preisdatum. Beträge anderer Tasche
 Europa-Tabellen, andere Leder/Modelle, Herstellungsjahre und verkaufte Angebote ohne Preis ergeben keinen deutschen Boutique- oder Sekundärmarktaufschlag.
 
 [Zusätzlicher Prüfbeleg](https://themonogram.co/handbag-analytics/hermes). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Internet-Archive-Nachrecherche · 17.10.2026
+
+**Verfügbares historisches Sekundärmarktangebot gefunden.** 06.08.2024: Kelly 28 Togo Noir, goldfarbene Hardware, ungetragen, Zubehör, 21.800 EUR; archiviert als Jetzt kaufen / 1 vorrätig.
+
+Kein Boutique-Preis oder realisierter Verkauf. Retourné-Bezeichnung und deutsches Steuer-/Versandszenario offen. Ausverkaufte Grade-2-Angebote nicht als Vergleich verwenden.
+
+[Archiv-/Originalbeleg](https://web.archive.org/web/20240806042500/https://saclab.com/de/bags/hermes-kelly-28-togo-black-8/) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.

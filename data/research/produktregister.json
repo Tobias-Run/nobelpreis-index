@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "stand": "2026-10-16",
+  "stand": "2026-10-17",
   "hinweis": "Elf rekonstruierbare Kandidaten plus zwei zusätzliche Vorschläge; keine Rekonstruktion der zwei fehlenden ursprünglichen Namen.",
   "produkte": [
     {
@@ -8,8 +8,8 @@
       "name": "Porsche Cayenne",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/porsche-cayenne.md",
-      "datendatei": "data/research/erste-fuenf-2026-10-16.json",
-      "anzahl_beobachtungen": 2,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 4,
       "indexfreigabe": false
     },
     {
@@ -17,8 +17,8 @@
       "name": "Schule Schloss Salem",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/schloss-salem.md",
-      "datendatei": "data/research/erste-fuenf-2026-10-16.json",
-      "anzahl_beobachtungen": 2,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 7,
       "indexfreigabe": false
     },
     {
@@ -26,8 +26,8 @@
       "name": "A. Lange & Söhne Saxonia Thin",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/saxonia-thin.md",
-      "datendatei": "data/research/erste-fuenf-2026-10-16.json",
-      "anzahl_beobachtungen": 1,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 8,
       "indexfreigabe": false
     },
     {
@@ -35,8 +35,8 @@
       "name": "Hermès Kelly",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/hermes-kelly.md",
-      "datendatei": "data/research/erste-fuenf-2026-10-16.json",
-      "anzahl_beobachtungen": 0,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 1,
       "indexfreigabe": false
     },
     {
@@ -44,8 +44,8 @@
       "name": "Lanserhof Sylt",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/lanserhof-sylt.md",
-      "datendatei": "data/research/erste-fuenf-2026-10-16.json",
-      "anzahl_beobachtungen": 4,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 6,
       "indexfreigabe": false
     },
     {
@@ -53,8 +53,8 @@
       "name": "Riese & Müller Charger5 vario",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/riese-mueller-charger5.md",
-      "datendatei": "data/research/weitere-produkte-2026-10-16.json",
-      "anzahl_beobachtungen": 1,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 2,
       "indexfreigabe": false
     },
     {
@@ -62,8 +62,8 @@
       "name": "Bayreuther Festspiele Parsifal A1",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/bayreuther-festspiele.md",
-      "datendatei": "data/research/weitere-produkte-2026-10-16.json",
-      "anzahl_beobachtungen": 4,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 6,
       "indexfreigabe": false
     },
     {
@@ -71,8 +71,8 @@
       "name": "Bodensee-Liegeplatz beim Yacht-Club Langenargen",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/liegeplatz-langenargen.md",
-      "datendatei": "data/research/weitere-produkte-2026-10-16.json",
-      "anzahl_beobachtungen": 6,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 8,
       "indexfreigabe": false
     },
     {
@@ -80,8 +80,8 @@
       "name": "Skiurlaub Lech/Zürs – Teilpreis Ski Arlberg",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/skiurlaub-arlberg.md",
-      "datendatei": "data/research/weitere-produkte-2026-10-16.json",
-      "anzahl_beobachtungen": 2,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 4,
       "indexfreigabe": false
     },
     {
@@ -89,7 +89,7 @@
       "name": "Alarmaufschaltung Privathaus",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/alarmaufschaltung.md",
-      "datendatei": "data/research/weitere-produkte-2026-10-16.json",
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
       "anzahl_beobachtungen": 3,
       "indexfreigabe": false
     },
@@ -98,7 +98,7 @@
       "name": "Hausbetreuung privater Zweitwohnsitz Sylt",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/hausbetreuung-sylt.md",
-      "datendatei": "data/research/weitere-produkte-2026-10-16.json",
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
       "anzahl_beobachtungen": 0,
       "indexfreigabe": false
     },
@@ -107,8 +107,8 @@
       "name": "Schwarzwaldstube Degustationsmenü II",
       "auswahlstatus": "zusätzlicher_recherchevorschlag",
       "dossier": "docs/produkte/schwarzwaldstube.md",
-      "datendatei": "data/research/gastronomie-hotellerie-2026-10-16.json",
-      "anzahl_beobachtungen": 2,
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
+      "anzahl_beobachtungen": 4,
       "indexfreigabe": false
     },
     {
@@ -116,9 +116,10 @@
       "name": "Hotel Adlon Deluxe Zimmer",
       "auswahlstatus": "zusätzlicher_recherchevorschlag",
       "dossier": "docs/produkte/hotel-adlon.md",
-      "datendatei": "data/research/gastronomie-hotellerie-2026-10-16.json",
+      "datendatei": "data/research/historische-preise-2026-10-17.json",
       "anzahl_beobachtungen": 0,
       "indexfreigabe": false
     }
-  ]
+  ],
+  "zählregel": "beobachtungen plus zusätzliche_historische_beobachtungen; Komponenten und verschiedene Preisarten, keine Zahl freigegebener Indexwerte"
 }

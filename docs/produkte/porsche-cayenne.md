@@ -21,3 +21,11 @@ Die vollständige Quellenprüfung und Links zu beiden Herstellerbelegen stehen i
 Kein belastbarer Preis 2025. Die mutable ADAC-Adresse liefert aktuell April 2026, obwohl der Suchindex 2025 anzeigt.
 
 [Zusätzlicher Prüfbeleg](https://assets.adac.de/Autodatenbank/Autokosten/E-AutosVergleich_18.pdf). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Internet-Archive-Nachrecherche · 17.10.2026
+
+**Belegfolge 2023 / 2024 / 2025 / 2026.** 2025-Lücke geschlossen: 29.07.2025 deutscher Hersteller-Grundpreis 101.500 EUR inkl. MwSt., 260 kW/353 PS.
+
+Die alte ADAC-Suchdatierung bleibt unbrauchbar; neuer unabhängiger Wayback-Beleg. Ausstattung und Pflichtnebenkosten vor einer Indexfreigabe abgleichen.
+
+[Archiv-/Originalbeleg](https://web.archive.org/web/20250729050323/https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.

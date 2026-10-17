@@ -18,9 +18,9 @@ Ein kuratierter Preisindex für gehobenen Konsum in Deutschland.
 
 ## Historische Preise und Forschungs-PoC
 
-[**Echte Zeitreihen ansehen**](https://tobias-run.github.io/nobelpreis-index/zeitreihe/) · [Historienprüfung aller 13 Positionen](docs/historische-preise-und-poc-2026-10-16.md)
+[**Echte Zeitreihen ansehen**](https://tobias-run.github.io/nobelpreis-index/zeitreihe/) · [Historienprüfung aller 13 Positionen](docs/historische-preise-und-poc-2026-10-16.md) · [19 neue Preisbelege aus der Archivrecherche](docs/archivrecherche-2026-10-17.md)
 
-Die separate Forschungsansicht enthält 34 recherchierte Einzelbeobachtungen einschließlich Komponenten und Zukunftstarifen. Ein fester Zweier-Pilot vergleicht Bayreuth und eine Liegeplatz-Tarifeinheit 2025–2026 mit dem offiziellen monatlichen Bundesbank-VPI. Keine redaktionelle Indexfreigabe. Historische Lücken und Leistungswechsel bleiben sichtbar; keine Auffüllung. Die bisherige Startseite bleibt eine klar gekennzeichnete Design-Demo mit synthetischen Produktpreisen.
+Die separate Forschungsansicht enthält 53 recherchierte Einzelbeobachtungen einschließlich Komponenten und Zukunftstarifen. Ein fester Zweier-Pilot vergleicht Bayreuth und eine Liegeplatz-Tarifeinheit 2025–2026 mit dem offiziellen monatlichen Bundesbank-VPI. Keine redaktionelle Indexfreigabe. Historische Lücken und Leistungswechsel bleiben sichtbar; keine Auffüllung. Die bisherige Startseite bleibt eine klar gekennzeichnete Design-Demo mit synthetischen Produktpreisen.
 
 ```bash
 python3 scripts/build-zeitreihe.py

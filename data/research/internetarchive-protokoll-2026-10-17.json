@@ -1,0 +1,988 @@
+{
+  "stand": "2026-10-17",
+  "hinweis": "CDX/Availability dienen der Suche; Preisaufnahme erst nach Lesen des archivierten Inhalts. Availability-Leerantwort ist keine vollständige Bestandsaussage.",
+  "abfragen": [
+    {
+      "datei": "zugang.json",
+      "abfragen": [
+        {
+          "id": "cdx-salem",
+          "url": "https://web.archive.org/cdx/search/cdx?url=schule-schloss-salem.de/*&output=json&filter=mimetype:application/pdf&filter=urlkey:.*[Ss]alem.*&filter=statuscode:200&collapse=digest&filter=timestamp:202[0-5].*&limit=300",
+          "status": 200,
+          "treffer": 300,
+          "hinweis": "Vorabfrage; spätere gezielte CDX-Abfragen sind separat protokolliert. Ergebnis bis zum gesetzten Limit."
+        },
+        {
+          "id": "available-salem",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.schule-schloss-salem.de%2Ffileadmin%2F02_Aufnahme_und_Stipendien%2FAufnahme%2FSalem-Aufnahme.pdf&timestamp=20241001",
+          "status": 200,
+          "antwort": {
+            "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf",
+            "archived_snapshots": {
+              "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20240912170039/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf",
+                "timestamp": "20240912170039"
+              }
+            },
+            "timestamp": "20241001"
+          }
+        },
+        {
+          "id": "cdx-ycl",
+          "url": "https://web.archive.org/cdx/search/cdx?url=ycla.de/*&output=json&filter=mimetype:application/pdf&filter=statuscode:200&collapse=urlkey&limit=300",
+          "status": 200,
+          "treffer": 115,
+          "hinweis": "Vorabfrage; spätere gezielte CDX-Abfragen sind separat protokolliert. Ergebnis bis zum gesetzten Limit."
+        },
+        {
+          "id": "available-wempe",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.wempe.com%2Fde-de%2Fuhren%2Fa-lange-soehne%2Fsaxonia%2Fsaxonia-thin-201-027&timestamp=20220101",
+          "status": 200,
+          "antwort": {
+            "url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+            "archived_snapshots": {},
+            "timestamp": "20220101"
+          }
+        },
+        {
+          "id": "available-porsche",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.porsche.com%2Fgermany%2Fmodels%2Fcayenne%2Fcayenne-models%2Fcayenne%2F&timestamp=20250801",
+          "status": 200,
+          "antwort": {
+            "url": "https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+            "archived_snapshots": {
+              "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20250729050323/https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+                "timestamp": "20250729050323"
+              }
+            },
+            "timestamp": "20250801"
+          }
+        }
+      ]
+    },
+    {
+      "datei": "cdx-protokoll.json",
+      "abfragen": [
+        {
+          "id": "salem-fees",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=schule-schloss-salem.de%2Ffileadmin%2F02_Aufnahme_und_Stipendien%2FAufnahme%2F%2A&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&filter=urlkey%3A.%2A%28internat%7Cboarding%7Caufnahme%29.%2A&collapse=digest&from=2018&to=2025&output=json&limit=500",
+          "status": 200,
+          "treffer": 49,
+          "auszug": [
+            [
+              "de,schule-schloss-salem)/fileadmin/02_aufnahme_und_stipendien/aufnahme/allgemeine_vertragsbedingungen_de.pdf",
+              "20231202025627",
+              "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Allgemeine_Vertragsbedingungen_DE.pdf",
+              "application/pdf",
+              "200",
+              "7KZUWJK73CPS7T2I2SCFHIUUBGDQYUPW",
+              "1016123"
+            ],
+            [
+              "de,schule-schloss-salem)/fileadmin/02_aufnahme_und_stipendien/aufnahme/allgemeine_vertragsbedingungen_de.pdf",
+              "20240405230445",
+              "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Allgemeine_Vertragsbedingungen_DE.pdf",
+              "application/pdf",
+              "200",
+              "DVLP5OABN2VOTOZR2DNNQFBHBHFNHBAM",
+              "5408272"
+            ],
+            [
+              "de,schule-schloss-salem)/fileadmin/02_aufnahme_und_stipendien/aufnahme/allgemeine_vertragsbedingungen_de_20230804.pdf",
+              "20230923183913",
+              "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Allgemeine_Vertragsbedingungen_DE_20230804.pdf",
+              "application/pdf",
+              "200",
+              "7KZUWJK73CPS7T2I2SCFHIUUBGDQYUPW",
+              "1016139"
+            ]
+          ]
+        },
+        {
+          "id": "ycl-fees",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=ycla.de%2F%2A&filter=statuscode%3A200&filter=urlkey%3A.%2A%28gebuehr%7Cliegeplaetz%7Chafenordnung%29.%2A&collapse=digest&from=2018&to=2025&output=json&limit=500",
+          "status": 200,
+          "treffer": 11,
+          "auszug": [
+            [
+              "de,ycla)/fileadmin/redakteure/antraege__statuten/2021_gebuehrenordnung-vereinsbeitraege_u._liegeplaetze.pdf",
+              "20211127023602",
+              "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2021_Gebuehrenordnung-Vereinsbeitraege_u._Liegeplaetze.pdf",
+              "application/pdf",
+              "200",
+              "3E77LMUWUHVQB36Y24Y6LSH2M3T5VC2R",
+              "159838"
+            ],
+            [
+              "de,ycla)/fileadmin/redakteure/antraege__statuten/gebuehrenordnung-winterlager-ycl2021.pdf",
+              "20211127030046",
+              "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/Gebuehrenordnung-Winterlager-YCL2021.pdf",
+              "application/pdf",
+              "200",
+              "A44V45JLUFCSC6R5OQ4SBJK4EUWEUVYR",
+              "139460"
+            ],
+            [
+              "de,ycla)/fileadmin/redakteure/antraege__statuten/hafenordnung-schae2013_kor.pdf",
+              "20211127025827",
+              "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/Hafenordnung-schae2013_kor.pdf",
+              "application/pdf",
+              "200",
+              "2RPHQSYBRTOZ3GOYSVBDBMKAWV3Q7CQJ",
+              "288697"
+            ]
+          ]
+        },
+        {
+          "id": "wempe-thin",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=wempe.com%2Fde-de%2Fuhren%2Fa-lange-soehne%2F%2A&filter=statuscode%3A200&filter=urlkey%3A.%2A201.027.%2A&collapse=digest&from=2018&to=2025&output=json&limit=500",
+          "status": 200,
+          "treffer": 22,
+          "auszug": [
+            [
+              "com,wempe)/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+              "20191207074647",
+              "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+              "text/html",
+              "200",
+              "Q62CRK42ZZQGX2FZFAQMMAWMJJH6OTYM",
+              "29578"
+            ],
+            [
+              "com,wempe)/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+              "20191210115212",
+              "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+              "text/html",
+              "200",
+              "AQIYT5JGG6CFB4CVTTQ6J3OEILCUVE3N",
+              "29577"
+            ],
+            [
+              "com,wempe)/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+              "20201027041238",
+              "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+              "text/html",
+              "200",
+              "DL52CFJ6XAY2Y2BR3DY55T4A4OC57I3X",
+              "29982"
+            ]
+          ]
+        },
+        {
+          "id": "rm-2025",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=r-m.de%2Fde%2Fbikes%2Fcharger5%2F%2A&filter=statuscode%3A200&collapse=digest&from=2025&to=2025&output=json&limit=500",
+          "status": 200,
+          "treffer": 7,
+          "auszug": [
+            [
+              "de,r-m)/de/bikes/charger5",
+              "20250809091213",
+              "https://www.r-m.de/de/bikes/charger5/",
+              "text/html",
+              "200",
+              "ENRN2XYP2X4EEDJ3FKYOIVLRLUMUIRJI",
+              "119503"
+            ],
+            [
+              "de,r-m)/de/bikes/charger5",
+              "20251016003952",
+              "https://www.r-m.de/de/bikes/charger5/",
+              "text/html",
+              "200",
+              "DQVESMCTVLIVZ7YB6QWE5JLCSL7POEYJ",
+              "118361"
+            ],
+            [
+              "de,r-m)/de/bikes/charger5",
+              "20251107165734",
+              "https://www.r-m.de/de/bikes/charger5/",
+              "text/html",
+              "200",
+              "LMQCDOWOXU24Y35UBXQTDWKNHTOB2JPU",
+              "28476"
+            ]
+          ]
+        },
+        {
+          "id": "securando-preise",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=securando.de%2F%2A&filter=statuscode%3A200&filter=urlkey%3A.%2A%28preisliste%7Cmonitoring%29.%2A&collapse=digest&from=2018&to=2025&output=json&limit=500",
+          "status": 200,
+          "treffer": 1,
+          "auszug": [
+            [
+              "de,securando)/wp-content/uploads/securando_monitoring-preisliste_gu%cc%88ltigkeit-3-0062022.pdf",
+              "20220524153608",
+              "https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+              "application/pdf",
+              "200",
+              "JQJQJHQLI3DAL634HVRIA4UNBGEPNV7N",
+              "60151"
+            ]
+          ]
+        },
+        {
+          "id": "schwarzwald-karte",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=traube-tonbach.de%2Fassets%2Flocal%2Fmedia%2Fbrand%2FSpeisekarten%2FSchwarzwaldstube%2F%2A&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&collapse=digest&from=2018&to=2025&output=json&limit=500",
+          "error": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "id": "adlon-ghorfa",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=ghorfa.de%2Fwp-content%2Fuploads%2FGhorfaRates_adlon.pdf&filter=statuscode%3A200&collapse=digest&from=2018&to=2025&output=json&limit=500",
+          "status": 200,
+          "treffer": 2,
+          "auszug": [
+            [
+              "de,ghorfa)/wp-content/uploads/ghorfarates_adlon.pdf",
+              "20241007204523",
+              "https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf",
+              "application/pdf",
+              "200",
+              "H4UT5YPTC2Q6MOM5YRGXY4Z3INK2HECP",
+              "333378"
+            ],
+            [
+              "de,ghorfa)/wp-content/uploads/ghorfarates_adlon.pdf",
+              "20250804191450",
+              "https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf",
+              "application/pdf",
+              "200",
+              "G3EEPKTK4QSIODWFK3DNQ4TZ653ODDBU",
+              "307519"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "datei": "cdx-extra-protokoll.json",
+      "abfragen": [
+        {
+          "id": "ski-hotel-cdx",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=oberlechtalerhof.com%2Fwp-content%2Fuploads%2F%2A&filter=statuscode%3A200&filter=urlkey%3A.%2A%28ticketguide%7Cski-arlberg%29.%2A&collapse=digest&from=2022&to=2025&output=json&limit=100",
+          "fehler": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "id": "ski-tourism-cdx",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=vorarlberg-alpenregion.at%2Fmedia%2F%2A&filter=statuscode%3A200&filter=urlkey%3A.%2A%28ski-arlberg%7Cskiarlberg%29.%2A&collapse=digest&from=2022&to=2025&output=json&limit=100",
+          "status": 200,
+          "treffer": 2,
+          "auszug": [
+            [
+              "at,vorarlberg-alpenregion)/media/ktal/tarifblatt-ski-arlberg-winter-202324.pdf",
+              "20231128234730",
+              "https://www.vorarlberg-alpenregion.at/media/ktal/Tarifblatt-Ski-Arlberg-Winter-202324.pdf",
+              "application/pdf",
+              "200",
+              "WAMEQDKI2CH5PNB4TGN4EPBLDTMEWVKP",
+              "475255"
+            ],
+            [
+              "at,vorarlberg-alpenregion)/media/teaser/ski-arlberg-11.02.15-050-3.jpg",
+              "20220108114036",
+              "https://www.vorarlberg-alpenregion.at/media/teaser/ski-arlberg-11.02.15-050-3.jpg",
+              "image/jpeg",
+              "200",
+              "IGDQCEFLZNYXA566NMWL5LTSBJ3C63VT",
+              "18559"
+            ]
+          ]
+        },
+        {
+          "id": "kelly-saclab",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=saclab.com%2Fde%2Fbags%2F%2A&filter=statuscode%3A200&filter=urlkey%3A.%2Akelly.%2A%28schwarz%7Cnoir%7Cblack%29.%2A&collapse=urlkey&from=2019&to=2025&output=json&limit=100",
+          "status": 200,
+          "treffer": 96,
+          "auszug": [
+            [
+              "com,saclab)/de/bags/hermes-kelly-15-box-black",
+              "20220811145644",
+              "https://saclab.com/de/bags/hermes-kelly-15-box-black/",
+              "text/html",
+              "200",
+              "DFITNHHUTGNYAX62MNQI4DHDKVMHQC4K",
+              "30081"
+            ],
+            [
+              "com,saclab)/de/bags/hermes-kelly-20-matte-alligator-black",
+              "20231002111611",
+              "https://saclab.com/de/bags/hermes-kelly-20-matte-alligator-black/",
+              "text/html",
+              "200",
+              "AIAHDOZOZBKUQBSQ3EYEMYY2BDRPYPCF",
+              "39126"
+            ],
+            [
+              "com,saclab)/de/bags/hermes-kelly-25-box-black-4",
+              "20240624235043",
+              "https://saclab.com/de/bags/hermes-kelly-25-box-black-4/",
+              "text/html",
+              "200",
+              "BTHWHENC3BUZB7MJYJJZGD5KRRXNYJ5F",
+              "32602"
+            ],
+            [
+              "com,saclab)/de/bags/hermes-kelly-25-epsom-black-7",
+              "20250212170955",
+              "https://saclab.com/de/bags/hermes-kelly-25-epsom-black-7/",
+              "text/html",
+              "200",
+              "VFJS6GB45WYHBVCBO7KHD4LDHUADNQNH",
+              "46757"
+            ],
+            [
+              "com,saclab)/de/bags/hermes-kelly-25-matte-alligator-black",
+              "20240713185942",
+              "https://saclab.com/de/bags/hermes-kelly-25-matte-alligator-black/",
+              "text/html",
+              "200",
+              "ZBV427WWF7WDI2LFICEMLTCGAACWBTS6",
+              "31759"
+            ],
+            [
+              "com,saclab)/de/bags/hermes-kelly-25-matte-alligator-black-2",
+              "20240422184040",
+              "https://saclab.com/de/bags/hermes-kelly-25-matte-alligator-black-2/",
+              "text/html",
+              "200",
+              "H45A76YZJ4S5732Y2SNZF2ENZ2SKTKUJ",
+              "32118"
+            ],
+            [
+              "com,saclab)/de/bags/hermes-kelly-25-ostrich-black-2",
+              "20240422194232",
+              "https://saclab.com/de/bags/hermes-kelly-25-ostrich-black-2/",
+              "text/html",
+              "200",
+              "YQW3DLUB3VUAK6KHWGLSUB4TZ4KODBS3",
+              "32254"
+            ]
+          ]
+        },
+        {
+          "id": "schwarzwald-pdf-retry",
+          "abfrage": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fassets%2Flocal%2Fmedia%2Fbrand%2FSpeisekarten%2FSchwarzwaldstube%2FSchwarzwaldstube_Speisekarte_DE.pdf&filter=statuscode%3A200&collapse=digest&from=2018&to=2025&output=json&limit=100",
+          "status": 200,
+          "treffer": 0,
+          "auszug": []
+        }
+      ]
+    },
+    {
+      "datei": "availability2.json",
+      "abfragen": [
+        {
+          "id": "ski-202425-original",
+          "abfrage": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.vorarlberg-alpenregion.at%2Fmedia%2Fktal%2FTarifblatt-Ski-Arlberg-Winter-202425.pdf&timestamp=20241201",
+          "antwort": {
+            "url": "https://www.vorarlberg-alpenregion.at/media/ktal/Tarifblatt-Ski-Arlberg-Winter-202425.pdf",
+            "archived_snapshots": {},
+            "timestamp": "20241201"
+          }
+        },
+        {
+          "id": "ski-202425-hotel",
+          "abfrage": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.oberlechtalerhof.com%2Fwp-content%2Fuploads%2FTicketguide-Ski-Arlberg-%25E2%2580%2593-Winter-2024-25.pdf&timestamp=20241201",
+          "antwort": {
+            "url": "https://www.oberlechtalerhof.com/wp-content/uploads/Ticketguide-Ski-Arlberg-%E2%80%93-Winter-2024-25.pdf",
+            "archived_snapshots": {},
+            "timestamp": "20241201"
+          }
+        },
+        {
+          "id": "ski-202324-hotel",
+          "abfrage": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.oberlechtalerhof.com%2Fwp-content%2Fuploads%2FTicketguide-Ski-Arlberg-%25E2%2580%2593-Winter-2023-24.pdf&timestamp=20231201",
+          "antwort": {
+            "url": "https://www.oberlechtalerhof.com/wp-content/uploads/Ticketguide-Ski-Arlberg-%E2%80%93-Winter-2023-24.pdf",
+            "archived_snapshots": {},
+            "timestamp": "20231201"
+          }
+        },
+        {
+          "id": "schwarzwald-2024",
+          "abfrage": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.traube-tonbach.de%2Fassets%2Flocal%2Fmedia%2Fbrand%2FSpeisekarten%2FSchwarzwaldstube%2FSchwarzwaldstube_Speisekarte_DE.pdf&timestamp=20241201",
+          "antwort": {
+            "url": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+            "archived_snapshots": {},
+            "timestamp": "20241201"
+          }
+        },
+        {
+          "id": "sylt-enkelmann",
+          "abfrage": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.hausbetreuung-sylt.de%2F&timestamp=20241201",
+          "antwort": {
+            "url": "https://www.hausbetreuung-sylt.de/",
+            "archived_snapshots": {},
+            "timestamp": "20241201"
+          }
+        }
+      ]
+    },
+    {
+      "datei": "availability-sylt-kelly.json",
+      "abfragen": [
+        {
+          "id": "sylt-enkelmann-preise",
+          "abfrage": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.hausbetreuung-enkelmann.de%2Fpreise&timestamp=20241201",
+          "antwort": {
+            "url": "https://www.hausbetreuung-enkelmann.de/preise",
+            "archived_snapshots": {
+              "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20230315185056/https://www.hausbetreuung-enkelmann.de/preise",
+                "timestamp": "20230315185056"
+              }
+            },
+            "timestamp": "20241201"
+          }
+        },
+        {
+          "id": "sylt-haushand-faq",
+          "abfrage": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.haus-hand.de%2Ffaq%2F&timestamp=20241201",
+          "antwort": {
+            "url": "https://www.haus-hand.de/faq/",
+            "archived_snapshots": {},
+            "timestamp": "20241201"
+          }
+        },
+        {
+          "id": "sylt-dua",
+          "abfrage": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.dua-objektservice.de%2Fhausbetreuung%2F&timestamp=20241201",
+          "antwort": {
+            "url": "https://www.dua-objektservice.de/hausbetreuung/",
+            "archived_snapshots": {
+              "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20241114110621/https://www.dua-objektservice.de/hausbetreuung/",
+                "timestamp": "20241114110621"
+              }
+            },
+            "timestamp": "20241201"
+          }
+        },
+        {
+          "id": "kelly-exakt",
+          "abfrage": "https://archive.org/wayback/available?url=https%3A%2F%2Fsaclab.com%2Fde%2Fbags%2Fhermes-kelly-28-togo-black-10%2F&timestamp=20241201",
+          "antwort": {
+            "url": "https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+            "archived_snapshots": {
+              "closest": {
+                "status": "200",
+                "available": true,
+                "url": "http://web.archive.org/web/20241212203657/https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+                "timestamp": "20241212203657"
+              }
+            },
+            "timestamp": "20241201"
+          }
+        }
+      ]
+    }
+  ],
+  "belege": [
+    {
+      "id": "ia-salem-21",
+      "titel": "Salem: Schul- und Internatsgeld 2021/2022 im Internet Archive",
+      "url": "https://web.archive.org/web/20201201052722/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2021_2022_final.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Tabelle Klassen 5–10 und 10PLUS: regulärer Jahresbetrag und Monatsrate; ohne Skonto, Rabatte, Deposit und Einmalgebühren",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "3799d97438786a8d5d1fe533bdd365d690c055b95f0ce1690fcc375f39aef318",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20201201052722",
+      "archiv_datum_utc": "2020-12-01T05:27:22Z",
+      "original_url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2021_2022_final.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20201201052722id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2021_2022_final.pdf",
+      "memento_datetime": "Tue, 01 Dec 2020 05:27:22 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "EW54GOB5EP4DJCJBLTLYKSLYPORH5U5C",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-salem-22",
+      "titel": "Salem: Schul- und Internatsgeld 2022/2023 im Internet Archive",
+      "url": "https://web.archive.org/web/20220420045042/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2022_2023.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Tabelle Klassen 5–10 und 10PLUS: regulärer Jahresbetrag und Monatsrate; ohne Skonto, Rabatte, Deposit und Einmalgebühren",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "8199bbc92c98796cc7f21b3f46492e69185dd70e47e97b9dbd1e8275c38c2bd9",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20220420045042",
+      "archiv_datum_utc": "2022-04-20T04:50:42Z",
+      "original_url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2022_2023.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20220420045042id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2022_2023.pdf",
+      "memento_datetime": "Wed, 20 Apr 2022 04:50:42 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "OADQYCQR55TLTMD3MAJHOT2GGTDGRNGP",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-salem-23",
+      "titel": "Salem: Schul- und Internatsgeld 2023/2024 im Internet Archive",
+      "url": "https://web.archive.org/web/20221004140943/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Schul-und-Internatsgeld-2023-2024.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Tabelle Klassen 5–10 und 10PLUS: regulärer Jahresbetrag und Monatsrate; ohne Skonto, Rabatte, Deposit und Einmalgebühren",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "5ad0c5bab0a61961eae7eb8aa9a6fd07bb09529ed2c4e4d6266117f01e8d2512",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20221004140943",
+      "archiv_datum_utc": "2022-10-04T14:09:43Z",
+      "original_url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Schul-und-Internatsgeld-2023-2024.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20221004140943id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Schul-und-Internatsgeld-2023-2024.pdf",
+      "memento_datetime": "Tue, 04 Oct 2022 14:09:43 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "Y5GGK43SO54YVTIS2DXBRG63FSXLVEKL",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-salem-24",
+      "titel": "Salem: Schul- und Internatsgeld 2024/2025 im Internet Archive",
+      "url": "https://web.archive.org/web/20230923171122/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2024_2025.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Tabelle Klassen 5–10 und 10PLUS: regulärer Jahresbetrag und Monatsrate; ohne Skonto, Rabatte, Deposit und Einmalgebühren",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "cd60d7ee6ce47efff05d62c42a44bf4169d8352cd3aec47e50d3eeb270733c53",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20230923171122",
+      "archiv_datum_utc": "2023-09-23T17:11:22Z",
+      "original_url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2024_2025.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20230923171122id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2024_2025.pdf",
+      "memento_datetime": "Sat, 23 Sep 2023 17:11:22 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "KYCYW4RY2DKYXBKKCRKLHGC3PPSFZL5D",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-salem-20240912",
+      "titel": "Salem: Schul- und Internatsgeld 2025/2026 im Internet Archive",
+      "url": "https://web.archive.org/web/20240912170039/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Tabelle Klassen 5–10 und 10PLUS: regulärer Jahresbetrag und Monatsrate; ohne Skonto, Rabatte, Deposit und Einmalgebühren",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "c55327f4e61b5c5f74b86c171a170bfd864ece5f21a877865e9bad929049402c",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20240912170039",
+      "archiv_datum_utc": "2024-09-12T17:00:39Z",
+      "original_url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20240912170039id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf",
+      "memento_datetime": "Thu, 12 Sep 2024 17:00:39 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "F644KBNHLTLAM2IR7C23AA3HTBEMGLQ4",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-wempe-2019",
+      "titel": "Wempe Deutschland: Saxonia Thin, Archivstand 2019-12-10",
+      "url": "https://web.archive.org/web/20191210115212/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "quellentyp": "Archivierte Händler-Produktseite",
+      "fundstelle": "Produkt-Hauptpreis und gespeichertes Produktdatenfeld stimmen überein; EUR inklusive MwSt.; 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe; Herstellerreferenz 201.027",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "0b06d906f2596dc1bdbddb2a6807485e7b87c68172821ea82fef2125b8ec7913",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20191210115212",
+      "archiv_datum_utc": "2019-12-10T11:52:12Z",
+      "original_url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "rohbeleg_url": "https://web.archive.org/web/20191210115212id_/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "memento_datetime": "Tue, 10 Dec 2019 11:52:12 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "AQIYT5JGG6CFB4CVTTQ6J3OEILCUVE3N",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-wempe-2020",
+      "titel": "Wempe Deutschland: Saxonia Thin, Archivstand 2020-10-27",
+      "url": "https://web.archive.org/web/20201027041238/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "quellentyp": "Archivierte Händler-Produktseite",
+      "fundstelle": "Produkt-Hauptpreis und gespeichertes Produktdatenfeld stimmen überein; EUR inklusive MwSt.; 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe; Herstellerreferenz 201.027",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "1bc5e631f8490970541d6eac5564c090683cf1d965c96833da12cd3aac1d3820",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20201027041238",
+      "archiv_datum_utc": "2020-10-27T04:12:38Z",
+      "original_url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "rohbeleg_url": "https://web.archive.org/web/20201027041238id_/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "memento_datetime": "Tue, 27 Oct 2020 04:12:38 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "DL52CFJ6XAY2Y2BR3DY55T4A4OC57I3X",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-wempe-2021",
+      "titel": "Wempe Deutschland: Saxonia Thin, Archivstand 2021-07-27",
+      "url": "https://web.archive.org/web/20210727160854/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "quellentyp": "Archivierte Händler-Produktseite",
+      "fundstelle": "Produkt-Hauptpreis und gespeichertes Produktdatenfeld stimmen überein; EUR inklusive MwSt.; 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe; Herstellerreferenz 201.027",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "52536e46a3e30a211928aa899823a515e5fc6caafd6cfd5a1a5d29542707a0af",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20210727160854",
+      "archiv_datum_utc": "2021-07-27T16:08:54Z",
+      "original_url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "rohbeleg_url": "https://web.archive.org/web/20210727160854id_/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "memento_datetime": "Tue, 27 Jul 2021 16:08:54 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "E3T5W5YGK6RMGJJTBOMADNLSXHWNDXUV",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-wempe-2022",
+      "titel": "Wempe Deutschland: Saxonia Thin, Archivstand 2022-05-19",
+      "url": "https://web.archive.org/web/20220519130233/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "quellentyp": "Archivierte Händler-Produktseite",
+      "fundstelle": "Produkt-Hauptpreis und gespeichertes Produktdatenfeld stimmen überein; EUR inklusive MwSt.; 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe; Herstellerreferenz 201.027",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "bf86e0f843fb0beac3c95a27d8b5c14f09064addd7194584d10843348497bd56",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20220519130233",
+      "archiv_datum_utc": "2022-05-19T13:02:33Z",
+      "original_url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "rohbeleg_url": "https://web.archive.org/web/20220519130233id_/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "memento_datetime": "Thu, 19 May 2022 13:02:33 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "ACQCTKEN72HMDOYI72YZMM3BD4ZPT2LL",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-wempe-2023",
+      "titel": "Wempe Deutschland: Saxonia Thin, Archivstand 2023-09-26",
+      "url": "https://web.archive.org/web/20230926101435/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "quellentyp": "Archivierte Händler-Produktseite",
+      "fundstelle": "Produkt-Hauptpreis und gespeichertes Produktdatenfeld stimmen überein; EUR inklusive MwSt.; 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe; Herstellerreferenz 201.027",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "63b5d3dd0524be725e93e72e0e614b5f3ba44d0b0c798fc9173ece75335c5ef9",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20230926101435",
+      "archiv_datum_utc": "2023-09-26T10:14:35Z",
+      "original_url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "rohbeleg_url": "https://web.archive.org/web/20230926101435id_/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "memento_datetime": "Tue, 26 Sep 2023 10:14:35 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "YP3UKOAPWNV7YG2JG4EDHXR57EOWHSRS",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-wempe-2024",
+      "titel": "Wempe Deutschland: Saxonia Thin, Archivstand 2024-07-19",
+      "url": "https://web.archive.org/web/20240719191137/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "quellentyp": "Archivierte Händler-Produktseite",
+      "fundstelle": "Produkt-Hauptpreis und gespeichertes Produktdatenfeld stimmen überein; EUR inklusive MwSt.; 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe; Herstellerreferenz 201.027-LB",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "9f7f242594a11dfbda0835cf187ca12e6cb3fe8bd6082b463f7bd362c5a71d27",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20240719191137",
+      "archiv_datum_utc": "2024-07-19T19:11:37Z",
+      "original_url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "rohbeleg_url": "https://web.archive.org/web/20240719191137id_/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "memento_datetime": "Fri, 19 Jul 2024 19:11:37 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "3V5NDUCEXHKXXDXVRY4LUUQQBD5EK6QD",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-wempe-2025",
+      "titel": "Wempe Deutschland: Saxonia Thin, Archivstand 2025-10-27",
+      "url": "https://web.archive.org/web/20251027072022/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "quellentyp": "Archivierte Händler-Produktseite",
+      "fundstelle": "Produkt-Hauptpreis und gespeichertes Produktdatenfeld stimmen überein; EUR inklusive MwSt.; 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe; Herstellerreferenz 201.027-LB",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "715e5f2b8fcd4e5e738c99b0f3d628bb9f7a67cfbcff9061d2478e01078ff26a",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20251027072022",
+      "archiv_datum_utc": "2025-10-27T07:20:22Z",
+      "original_url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "rohbeleg_url": "https://web.archive.org/web/20251027072022id_/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "memento_datetime": "Mon, 27 Oct 2025 07:20:22 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "I66YVJGMHKL7FNCHNXZMD4KC674GAPBO",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-porsche-20250729",
+      "titel": "Porsche Deutschland: Cayenne, Archivstand 29.07.2025",
+      "url": "https://web.archive.org/web/20250729050323/https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+      "quellentyp": "Archivierte Hersteller-Produktseite",
+      "fundstelle": "Im archivierten HTML eingebettete Hauptproduktdaten: Cayenne, Benzin, 260 kW / 353 PS, Grundpreis ab 101.500 EUR inklusive MwSt. Keine live nachgeladene Konfiguratorantwort.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "abedf6905ee40e94902630b36eda5ea3763e86faf706f23e628a91401c231e8e",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20250729050323",
+      "archiv_datum_utc": "2025-07-29T05:03:23Z",
+      "original_url": "https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+      "rohbeleg_url": "https://web.archive.org/web/20250729050323id_/https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+      "memento_datetime": "Tue, 29 Jul 2025 05:03:23 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit."
+    },
+    {
+      "id": "ia-rm-20250809",
+      "titel": "Riese & Müller Deutschland: Charger5, Archivstand 09.08.2025",
+      "url": "https://web.archive.org/web/20250809091213/https://www.r-m.de/de/bikes/charger5/",
+      "quellentyp": "Archivierte Hersteller-Produktseite",
+      "fundstelle": "Modellblock Charger5 vario, nicht CORE/HS/automatic: ab 6.199 EUR, PowerTube 800 Wh und Kiox 500. Pine als Farboption genannt; identischer konfigurierter Endpreis für pine/L nicht nachgewiesen.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "300e8546df72d78def9af3520fe1f5e8bb8e26b37727c0cd9945b4490253e31b",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20250809091213",
+      "archiv_datum_utc": "2025-08-09T09:12:13Z",
+      "original_url": "https://www.r-m.de/de/bikes/charger5/",
+      "rohbeleg_url": "https://web.archive.org/web/20250809091213id_/https://www.r-m.de/de/bikes/charger5/",
+      "memento_datetime": "Sat, 09 Aug 2025 09:12:13 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "ENRN2XYP2X4EEDJ3FKYOIVLRLUMUIRJI",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-ycl-2021",
+      "titel": "YCL Gebührenordnung ab 2021 im Internet Archive",
+      "url": "https://web.archive.org/web/20211127023602/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2021_Gebuehrenordnung-Vereinsbeitraege_u._Liegeplaetze.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Seite 1, Abschnitt 3: Sommer-Flächentarif und Verwaltungsgebühr. Gültigkeitsdatum am Seitenende. Keine Gleichsetzung mit der späteren Segelboot-Preiskategorie.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "d9c2e98a74596c04f1c47ded903a53f4d1cdc96108690b29be7b7579789fb36b",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20211127023602",
+      "archiv_datum_utc": "2021-11-27T02:36:02Z",
+      "original_url": "https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2021_Gebuehrenordnung-Vereinsbeitraege_u._Liegeplaetze.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20211127023602id_/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2021_Gebuehrenordnung-Vereinsbeitraege_u._Liegeplaetze.pdf",
+      "memento_datetime": "Sat, 27 Nov 2021 02:36:02 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "3E77LMUWUHVQB36Y24Y6LSH2M3T5VC2R",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-ycl-2023",
+      "titel": "YCL Gebührenordnung ab 2022 im Internet Archive",
+      "url": "https://web.archive.org/web/20230506113321/https://www.ycla.de/fileadmin/redakteure/Bilder_und_PDF_2022/PDF_2022/2022_Gebuehrenordnung_Verein_und_Liegeplaetze.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Seite 1, Abschnitt 3: Sommer-Flächentarif und Verwaltungsgebühr. Gültigkeitsdatum am Seitenende. Gescanntes Original per OCR erschlossen und anschließend visuell gelesen; Capture 2023 enthält ausdrücklich Gebührenordnung ab 2022.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "d1240dc1ff4dc861effd15795dd0ac7feb7383503c664a32d54ed49f3537f976",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20230506113321",
+      "archiv_datum_utc": "2023-05-06T11:33:21Z",
+      "original_url": "https://www.ycla.de/fileadmin/redakteure/Bilder_und_PDF_2022/PDF_2022/2022_Gebuehrenordnung_Verein_und_Liegeplaetze.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20230506113321id_/https://www.ycla.de/fileadmin/redakteure/Bilder_und_PDF_2022/PDF_2022/2022_Gebuehrenordnung_Verein_und_Liegeplaetze.pdf",
+      "memento_datetime": "Sat, 06 May 2023 11:33:21 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "M2AF7FEJ2YIUNCB7SYMQUBXFRYNV46IN",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-ski-202324",
+      "titel": "Ski Arlberg: Tarifblatt 2023/24 im Internet Archive",
+      "url": "https://web.archive.org/web/20231128234730/https://www.vorarlberg-alpenregion.at/media/ktal/Tarifblatt-Ski-Arlberg-Winter-202324.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Preise Hauptsaison 23.12.2023–01.04.2024, sechs aufeinanderfolgende Tage Erwachsene 401 EUR; inkl. USt., 5 EUR rückzahlbares Kartendepot separat. Vorläufiger Kalkulationsstand 21.06.2023.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "40974c19c1edc62776e2e689abae1a76775eabac3d5e77f617500db3b206d831",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20231128234730",
+      "archiv_datum_utc": "2023-11-28T23:47:30Z",
+      "original_url": "https://www.vorarlberg-alpenregion.at/media/ktal/Tarifblatt-Ski-Arlberg-Winter-202324.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20231128234730id_/https://www.vorarlberg-alpenregion.at/media/ktal/Tarifblatt-Ski-Arlberg-Winter-202324.pdf",
+      "memento_datetime": "Tue, 28 Nov 2023 23:47:30 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "WAMEQDKI2CH5PNB4TGN4EPBLDTMEWVKP",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ski202425-albona",
+      "titel": "Ski Arlberg: Ticketguide 2024/25, Anbieterdokument auf Hotelserver",
+      "url": "https://www.albonanova.at/files/bilder/downloads/ticketguide-ski-arlberg.pdf",
+      "quellentyp": "Anbieterdokument auf Hotelserver",
+      "fundstelle": "Original-Ticketguide, Hauptsaison 21.12.2024–04.04.2025, sechs Tage Erwachsene 423 EUR, inkl. USt., 5 EUR Kartendepot separat. Stand September 2024. Vollständiges PDF heruntergeladen, nicht nur Suchauszug.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "6729791870b07310647d13e52e3ea009bfa654e274de986ce80863d565718a6a",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder"
+    },
+    {
+      "id": "ia-kelly-8",
+      "titel": "SACLÀB: Kelly 28 Togo Schwarz, Archivstand 06.08.2024",
+      "url": "https://web.archive.org/web/20240806042500/https://saclab.com/de/bags/hermes-kelly-28-togo-black-8/",
+      "quellentyp": "Archivierte Sekundärmarkt-Angebotsseite",
+      "fundstelle": "Produktcode 4768, 21.800 EUR, Jetzt kaufen / 1 vorrätig; schwarz, vergoldete Hardware, ungetragen Grade 1, Box, Staubbeutel, Rechnung, Schloss, Schlüssel, Clochette, Schulterriemen, Booklet und Filzschutz.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "f1e7d2b9887024671be1e38959c2212ea1ac2aa37af7f9fa4f1c14e0f25e21d1",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20240806042500",
+      "archiv_datum_utc": "2024-08-06T04:25:00Z",
+      "original_url": "https://saclab.com/de/bags/hermes-kelly-28-togo-black-8/",
+      "rohbeleg_url": "https://web.archive.org/web/20240806042500id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-8/",
+      "memento_datetime": "Tue, 06 Aug 2024 04:25:00 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "2X7XGHK4OV47ZQIGRJEO7BYJBMAGAPIU",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-securando-preise-20220524",
+      "titel": "Securando/Securitas: Monitoring-Preisliste, Archiv 24.05.2022",
+      "url": "https://web.archive.org/web/20220524153608/https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Privat 20 EUR/Monat brutto, gültig bis 30.06.2022. Bestätigt die bereits vorhandene 2022-Beobachtung; kein zusätzlicher Jahreswert.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "79b3781c85aad0bf12daad9d0aebd9dad48f82895c842cf2dd674818ddfcec76",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20220524153608",
+      "archiv_datum_utc": "2022-05-24T15:36:08Z",
+      "original_url": "https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20220524153608id_/https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+      "memento_datetime": "Tue, 24 May 2022 15:36:08 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "JQJQJHQLI3DAL634HVRIA4UNBGEPNV7N",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-adlon-ghorfa-20241007",
+      "titel": "Adlon: GHORFA Rates 2024, Archiv 07.10.2024",
+      "url": "https://web.archive.org/web/20241007204523/https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Deluxe 250 EUR, inkl. VAT und Servicegebühren, ohne Frühstück, Sondertarif auf Anfrage. City Tax nicht ausdrücklich enthalten. Kein öffentlicher flexibler Standardtarif.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "9c3acb7f615ebe0aae01e00added6779b850c21b97ccc60762943316d54aae2e",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20241007204523",
+      "archiv_datum_utc": "2024-10-07T20:45:23Z",
+      "original_url": "https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20241007204523id_/https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf",
+      "memento_datetime": "Mon, 07 Oct 2024 20:45:23 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "H4UT5YPTC2Q6MOM5YRGXY4Z3INK2HECP",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-adlon-ghorfa-20250804",
+      "titel": "Adlon: GHORFA-Sondertarif, Archiv 04.08.2025",
+      "url": "https://web.archive.org/web/20250804191450/https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Deluxe 265 EUR, inkl. VAT/City Tax/Service, ohne Frühstück. Tarifjahr weiterhin nicht im Dokument; Archivdatum allein beweist keine Preisgültigkeit 2025.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "cdd435e34d2b438f762bda9d9bbe457b6fbae39094fdd87e651c58a7dd352e0a",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20250804191450",
+      "archiv_datum_utc": "2025-08-04T19:14:50Z",
+      "original_url": "https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20250804191450id_/https://www.ghorfa.de/wp-content/uploads/GhorfaRates_adlon.pdf",
+      "memento_datetime": "Mon, 04 Aug 2025 19:14:50 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "G3EEPKTK4QSIODWFK3DNQ4TZ653ODDBU",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-sylt-enkelmann-preise",
+      "titel": "Enkelmann Preise: Archiv 15.03.2023",
+      "url": "https://web.archive.org/web/20230315185056/https://www.hausbetreuung-enkelmann.de/preise",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Seite Preise & Angebote verweist auf individuelle Wünsche und Besichtigung; kein Betrag für das standardisierte Kontrollpaket.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "000311fc6a31c67e02a6dc4b41167b742277358cfa0a35e48ac9e8d0374d9f4e",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20230315185056",
+      "archiv_datum_utc": "2023-03-15T18:50:56Z",
+      "original_url": "https://www.hausbetreuung-enkelmann.de/preise",
+      "rohbeleg_url": "https://web.archive.org/web/20230315185056id_/https://www.hausbetreuung-enkelmann.de/preise",
+      "memento_datetime": "Wed, 15 Mar 2023 18:50:56 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit."
+    },
+    {
+      "id": "ia-sylt-dua",
+      "titel": "D&A Hausbetreuung: Archiv 14.11.2024",
+      "url": "https://web.archive.org/web/20241114110621/https://www.dua-objektservice.de/hausbetreuung/",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Archivierter Seitenabruf; kein standardisierter Preisbetrag im gespeicherten HTML nachweisbar.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "fca6927f475c4005fc5dbe50c9fc799abe610f454adaf8fc10ab15168f649092",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20241114110621",
+      "archiv_datum_utc": "2024-11-14T11:06:21Z",
+      "original_url": "https://www.dua-objektservice.de/hausbetreuung/",
+      "rohbeleg_url": "https://web.archive.org/web/20241114110621id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "memento_datetime": "Thu, 14 Nov 2024 11:06:21 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit."
+    },
+    {
+      "id": "ia-kelly-2",
+      "titel": "SACLÀB: Kelly-Angebot, Archiv 02.02.2023",
+      "url": "https://web.archive.org/web/20230202210503/https://saclab.com/de/bags/hermes-kelly-28-togo-black-2/",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "14.120 EUR, ausverkauft, Grade 1; Hardware nicht hinreichend beschrieben. Kein aktuelles verfügbares Angebot oder bestätigter Verkauf.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "8b05c7c5d927edc1fe186f56f853d209b00bd04dbb5be1502e225db0d22a0274",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20230202210503",
+      "archiv_datum_utc": "2023-02-02T21:05:03Z",
+      "original_url": "https://saclab.com/de/bags/hermes-kelly-28-togo-black-2/",
+      "rohbeleg_url": "https://web.archive.org/web/20230202210503id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-2/",
+      "memento_datetime": "Thu, 02 Feb 2023 21:05:03 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "7PK6JMWCOKFWSBJO4MY45YYFW2RDSJ2A",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-kelly-6",
+      "titel": "SACLÀB: Kelly-Angebot, Archiv 05.06.2023",
+      "url": "https://web.archive.org/web/20230605223530/https://saclab.com/de/bags/hermes-kelly-28-togo-black-6/",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "15.230 EUR, ausverkauft, Grade 2, Palladium-Hardware. Abweichende Variante, Zustand und Zugang; verworfen.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "e3f8d7355eb8d2f69ad1541cf0b272819d2ec4647549bfcdb5274f268781761c",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20230605223530",
+      "archiv_datum_utc": "2023-06-05T22:35:30Z",
+      "original_url": "https://saclab.com/de/bags/hermes-kelly-28-togo-black-6/",
+      "rohbeleg_url": "https://web.archive.org/web/20230605223530id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-6/",
+      "memento_datetime": "Mon, 05 Jun 2023 22:35:30 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "HKMSBJ3SQ4SL37BV4NAPO3DRRWQZCMCX",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    },
+    {
+      "id": "ia-kelly-exakt",
+      "titel": "SACLÀB: ursprüngliches Rechercheangebot, Archiv 12.12.2024",
+      "url": "https://web.archive.org/web/20241212203657/https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+      "quellentyp": "Archiviertes Anbieterdokument",
+      "fundstelle": "Produktcode 5252, Grade 2, kein eigener verifizierter Preis; ähnliche Artikel nicht dem Produkt zurechnen.",
+      "abgerufen_am": "2026-10-17",
+      "sha256": "0cfde5e4660fbade1b220e8fcbf36a6bac5a44a7485142d3923534c602edc145",
+      "weiterverwendungsrechte": "Ungeklärt; nur Preisfakten und eigene Zusammenfassung, keine Veröffentlichung fremder Volltexte oder Bilder",
+      "archiv": "Internet Archive / Wayback Machine",
+      "archiv_timestamp": "20241212203657",
+      "archiv_datum_utc": "2024-12-12T20:36:57Z",
+      "original_url": "https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+      "rohbeleg_url": "https://web.archive.org/web/20241212203657id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+      "memento_datetime": "Thu, 12 Dec 2024 20:36:57 GMT",
+      "datumsregel": "Archivzeitpunkt belegt den gespeicherten Stand, nicht automatisch den Beginn oder das Jahr der Tarifgültigkeit.",
+      "cdx_digest": "JJH45QMMYZVEUN2CQPWHH2OIQ5EYUTTX",
+      "cdx_digest_prüfung": "SHA-1/Base32 des gelesenen Dokuments stimmt mit CDX überein"
+    }
+  ]
+}

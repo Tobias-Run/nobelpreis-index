@@ -49,3 +49,15 @@ test('Alle 13 recherchiert; Quellen auflösbar und Zukunft bleibt außerhalb des
  assert.equal(data.referenz.reihe,'BBDP1.M.DE.N.VPI.C.A00000.I20.A');
  assert.equal(data.referenz.beobachtungen.length,33);
 });
+
+test('Archivstand ersetzt keine Tarifgültigkeit und kein neuerliches VPI-Abrufdatum',()=>{
+ assert.equal(data.stand,'2026-10-17');assert.equal(data.referenz.abgerufen_am,'2026-10-16');
+ const obs=data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
+ const ycl=obs.find(o=>o.id==='ycl-archiv-fläche-2022');
+ assert.equal(ycl.gültigkeit.von,'2022-05-14');assert.equal(ycl.betrag,74.5);assert.equal(ycl.preisdatum,null);
+ const src=data.quellen.find(s=>s.id===ycl.quelle_id);assert.ok(src.archiv_timestamp.startsWith('2023'));
+ const salem=obs.find(o=>o.id==='salem-archiv-2025');assert.equal(salem.betrag,50400);
+ assert.ok(data.quellen.find(s=>s.id===salem.quelle_id).archiv_timestamp.startsWith('2024'));
+ const kelly=obs.find(o=>o.id==='kelly-saclab-archiv-2024');assert.equal(kelly.betrag,21800);assert.match(kelly.preisart,/Sekundärmarkt/);assert.equal(kelly.indexfreigabe,false);
+ assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),53);
+});

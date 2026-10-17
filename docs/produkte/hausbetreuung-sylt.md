@@ -48,3 +48,11 @@ Abruf aller Quellen: 16.10.2026. [Strukturierter Rechercheeintrag ohne Preisbeob
 Vergleichbare datierte Angebote oder Rechnungen zum definierten Kontrollpaket erforderlich; keine Anbieter kontaktiert.
 
 [Zusätzlicher Prüfbeleg](https://www.hausbetreuung-enkelmann.de/preise). Alle bisherigen und neuen Einzelbeobachtungen einschließlich Preisart, Datierung, Steuerangabe und Prüfstatus stehen im [versionierten Historienbestand](../../data/research/historische-preise-2026-10-16.json). [Gemeinsame Auswertung und Methodik](../historische-preise-und-poc-2026-10-16.md).
+
+## Internet-Archive-Nachrecherche · 17.10.2026
+
+**Auch historische Anbieterstände ohne Standardbetrag.** Enkelmann-Preisseite 2023 und D&A-Seite 2024 geprüft; kein belegbarer Preis des definierten Kontrollpakets.
+
+Individuelle datierte Angebote oder Rechnungen nötig. Fehlender Treffer bei einer URL beweist nicht das Fehlen aller Archivbestände; keine Anbieter kontaktiert.
+
+[Archiv-/Originalbeleg](https://web.archive.org/web/20230315185056/https://www.hausbetreuung-enkelmann.de/preise) · [Recherchebericht mit Tabellen und Quellen](../archivrecherche-2026-10-17.md) · [Versionierter Datenstand](../../data/research/historische-preise-2026-10-17.json). Der Prüfstand vom 16.10.2026 bleibt als früherer Recherchezeitpunkt erhalten.
