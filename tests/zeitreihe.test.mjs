@@ -4,6 +4,39 @@ import {readFileSync} from 'node:fs';
 import {berechne} from '../dist/zeitreihe/berechnung.mjs';
 const data=JSON.parse(readFileSync(new URL('../dist/zeitreihe/daten.json',import.meta.url),'utf8'));
 const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} ≠ ${b}`);
+test('Gewichtungsszenarien: vollständige feste Gewichte, richtige 13er-Adaption und keine Auffüllung',()=>{
+ const x=data.gewichtungsszenarien;
+ assert.equal(x.stand,'2026-10-18');assert.equal(x.szenarien.length,3);
+ const ids=data.produkte.map(p=>p.id).sort();
+ for(const s of x.szenarien){
+  assert.deepEqual(s.gewichte.map(w=>w.produkt_id).sort(),ids);
+  const exact=w=>w.anteil_bruch.zaehler/w.anteil_bruch.nenner;
+  close(s.gewichte.reduce((n,w)=>n+exact(w),0),1);
+  for(const w of s.gewichte){assert.ok(exact(w)>0);close(w.gewicht_prozent,100*exact(w));}
+  close(s.pilot_abdeckung_prozent+s.fehlendes_gewicht_prozent,100);
+  close(s.pilot_abdeckung_prozent,s.gewichte.filter(w=>x.pilot_positionen.includes(w.produkt_id)).reduce((n,w)=>n+w.gewicht_prozent,0));
+  assert.equal(s.gesamtindex,null);
+  const car=s.gewichte.find(w=>w.produkt_id==='porsche-cayenne');
+  close(s.synthetischer_autoimpuls_prozentpunkte,10*exact(car));
+ }
+ const [eq,jb,cat]=x.szenarien;
+ close(eq.pilot_abdeckung_prozent,200/13);close(jb.pilot_abdeckung_prozent,700/51);close(cat.pilot_abdeckung_prozent,12.5);
+ for(const w of jb.gewichte)close(w.gewicht_prozent,w.produkt_id==='porsche-cayenne'?300/17:700/102);
+ close(eq.zweier_test_2025_2026_prozent,100*(96.5/96-1)/2);
+ close(jb.zweier_test_2025_2026_prozent,eq.zweier_test_2025_2026_prozent);
+ close(cat.zweier_test_2025_2026_prozent,100*(96.5/96-1)/3);
+ assert.equal(berechne(data.pilot_reihen,[2025,2026],data.referenz).beitraege[0].gewicht,.5);
+});
+test('Komponentenabgleich: 6 Kategorien, 2 bedingt, 11 Lücken, 1 bewusster Ausschluss, 5 eigene Themen',()=>{
+ const x=data.gewichtungsszenarien;
+ assert.equal(x.abgleich_julius_baer.length,20);
+ assert.equal(new Set(x.abgleich_julius_baer.map(c=>c.komponente_id)).size,20);
+ for(const [status,n] of Object.entries({kategorisch:6,bedingt:2,nicht_abgedeckt:11,bewusst_ausgeschlossen:1}))assert.equal(x.abgleich_julius_baer.filter(c=>c.status===status).length,n);
+ assert.equal(x.abgleich_julius_baer.find(c=>c.status==='bewusst_ausgeschlossen').komponente_id,'residential_property');
+ assert.equal(x.zusaetzliche_positionen.length,5);
+ assert.deepEqual(Object.values(x.gruppen).flat().sort(),data.produkte.map(p=>p.id).sort());
+ assert.deepEqual(JSON.parse(readFileSync(new URL('../data/methodik/gewichtungsszenarien-2026-10-18.json',import.meta.url),'utf8')),x);
+});
 test('Pilot: Preisverhältnisse statt Addition ungleicher Euro-Einheiten',()=>{
  const r=berechne(data.pilot_reihen,[2025,2026],data.referenz);
  close(r.anstieg,100*((358/358+96.5/96)/2-1));

@@ -1,0 +1,518 @@
+{
+  "schema_version": "1.0-szenarien",
+  "stand": "2026-10-18",
+  "status": "Experimentelle redaktionelle Gewichte, keine Indexfreigabe oder gemessenen Ausgabenanteile",
+  "universum": "Alle 13 Recherchepositionen einschließlich zweier zusätzlicher Vorschläge; keine beschlossene MVP-Auswahl",
+  "formel": "I(t) = 100 × Σ[w_i × p_i(t)/p_i(b)], Σw_i = 1; feste Zusammensetzung und Gewichte",
+  "basis": "gewichtung-2026-10-17.json; Produktregister und Recherche vom 2026-10-17",
+  "gruppen": {
+    "Mobilität": [
+      "porsche-cayenne",
+      "rm-charger5"
+    ],
+    "Persönlicher Luxus": [
+      "saxonia-thin",
+      "hermes-kelly"
+    ],
+    "Reisen und Freizeit": [
+      "lanserhof-sylt",
+      "skiurlaub-arlberg",
+      "liegeplatz-ycl",
+      "hotel-adlon-deluxe"
+    ],
+    "Genuss und Kultur": [
+      "schwarzwaldstube-menue-ii",
+      "bayreuth-parsifal"
+    ],
+    "Bildung": [
+      "salem"
+    ],
+    "Wohnen und Service": [
+      "alarmaufschaltung",
+      "hausbetreuung-sylt"
+    ]
+  },
+  "abgleich_julius_baer": [
+    {
+      "komponente_id": "bicycle",
+      "komponente": "Fahrrad",
+      "produkt_id": "rm-charger5",
+      "status": "kategorisch"
+    },
+    {
+      "komponente_id": "car",
+      "komponente": "Auto",
+      "produkt_id": "porsche-cayenne",
+      "status": "kategorisch"
+    },
+    {
+      "komponente_id": "champagne",
+      "komponente": "Champagner",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "jewellery",
+      "komponente": "Schmuck",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "mens_suit",
+      "komponente": "Herrenanzug",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "residential_property",
+      "komponente": "Wohnimmobilie",
+      "produkt_id": null,
+      "status": "bewusst_ausgeschlossen"
+    },
+    {
+      "komponente_id": "sports_equipment",
+      "komponente": "Sportausrüstung",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "technology_package",
+      "komponente": "Technikpaket",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "watch",
+      "komponente": "Uhr",
+      "produkt_id": "saxonia-thin",
+      "status": "kategorisch"
+    },
+    {
+      "komponente_id": "womens_handbag",
+      "komponente": "Damenhandtasche",
+      "produkt_id": "hermes-kelly",
+      "status": "kategorisch"
+    },
+    {
+      "komponente_id": "womens_shoes",
+      "komponente": "Damenschuhe",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "business_class_flight",
+      "komponente": "Business-Class-Flug",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "fine_dining",
+      "komponente": "Gehobene Gastronomie",
+      "produkt_id": "schwarzwaldstube-menue-ii",
+      "status": "kategorisch"
+    },
+    {
+      "komponente_id": "healthcare",
+      "komponente": "Gesundheit",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "hotel_suite",
+      "komponente": "Hotelsuite",
+      "produkt_id": "hotel-adlon-deluxe",
+      "status": "bedingt"
+    },
+    {
+      "komponente_id": "lasik",
+      "komponente": "Augenlaserbehandlung",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "lawyer",
+      "komponente": "Rechtsberatung",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "mba",
+      "komponente": "MBA",
+      "produkt_id": null,
+      "status": "nicht_abgedeckt"
+    },
+    {
+      "komponente_id": "private_school",
+      "komponente": "Privatschule",
+      "produkt_id": "salem",
+      "status": "kategorisch"
+    },
+    {
+      "komponente_id": "spa",
+      "komponente": "Spa",
+      "produkt_id": "lanserhof-sylt",
+      "status": "bedingt"
+    }
+  ],
+  "zusaetzliche_positionen": [
+    "bayreuth-parsifal",
+    "liegeplatz-ycl",
+    "skiurlaub-arlberg",
+    "alarmaufschaltung",
+    "hausbetreuung-sylt"
+  ],
+  "pilot_positionen": [
+    "bayreuth-parsifal",
+    "liegeplatz-ycl"
+  ],
+  "szenarien": [
+    {
+      "id": "gleich",
+      "name": "Gleiche Produktgewichte",
+      "gewichte": [
+        {
+          "produkt_id": "porsche-cayenne",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "salem",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "saxonia-thin",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "hermes-kelly",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "lanserhof-sylt",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "rm-charger5",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "bayreuth-parsifal",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "liegeplatz-ycl",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "skiurlaub-arlberg",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "alarmaufschaltung",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "hausbetreuung-sylt",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "schwarzwaldstube-menue-ii",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        },
+        {
+          "produkt_id": "hotel-adlon-deluxe",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 13
+          },
+          "gewicht_prozent": 7.6923076923076925
+        }
+      ],
+      "pilot_abdeckung_prozent": 15.384615384615385,
+      "fehlendes_gewicht_prozent": 84.61538461538461,
+      "gesamtindex": null,
+      "zweier_test_2025_2026_prozent": 0.2604166666666667,
+      "synthetischer_autoimpuls_prozentpunkte": 0.7692307692307693
+    },
+    {
+      "id": "jb-relativ",
+      "name": "Julius-Bär-relativ",
+      "gewichte": [
+        {
+          "produkt_id": "porsche-cayenne",
+          "anteil_bruch": {
+            "zaehler": 3,
+            "nenner": 17
+          },
+          "gewicht_prozent": 17.647058823529413
+        },
+        {
+          "produkt_id": "salem",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "saxonia-thin",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "hermes-kelly",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "lanserhof-sylt",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "rm-charger5",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "bayreuth-parsifal",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "liegeplatz-ycl",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "skiurlaub-arlberg",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "alarmaufschaltung",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "hausbetreuung-sylt",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "schwarzwaldstube-menue-ii",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        },
+        {
+          "produkt_id": "hotel-adlon-deluxe",
+          "anteil_bruch": {
+            "zaehler": 7,
+            "nenner": 102
+          },
+          "gewicht_prozent": 6.862745098039215
+        }
+      ],
+      "pilot_abdeckung_prozent": 13.72549019607843,
+      "fehlendes_gewicht_prozent": 86.27450980392157,
+      "gesamtindex": null,
+      "zweier_test_2025_2026_prozent": 0.2604166666666667,
+      "synthetischer_autoimpuls_prozentpunkte": 1.7647058823529411
+    },
+    {
+      "id": "kategorien",
+      "name": "Gleiche Kategoriegewichte",
+      "gewichte": [
+        {
+          "produkt_id": "porsche-cayenne",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 12
+          },
+          "gewicht_prozent": 8.333333333333334
+        },
+        {
+          "produkt_id": "rm-charger5",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 12
+          },
+          "gewicht_prozent": 8.333333333333334
+        },
+        {
+          "produkt_id": "saxonia-thin",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 12
+          },
+          "gewicht_prozent": 8.333333333333334
+        },
+        {
+          "produkt_id": "hermes-kelly",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 12
+          },
+          "gewicht_prozent": 8.333333333333334
+        },
+        {
+          "produkt_id": "lanserhof-sylt",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 24
+          },
+          "gewicht_prozent": 4.166666666666667
+        },
+        {
+          "produkt_id": "skiurlaub-arlberg",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 24
+          },
+          "gewicht_prozent": 4.166666666666667
+        },
+        {
+          "produkt_id": "liegeplatz-ycl",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 24
+          },
+          "gewicht_prozent": 4.166666666666667
+        },
+        {
+          "produkt_id": "hotel-adlon-deluxe",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 24
+          },
+          "gewicht_prozent": 4.166666666666667
+        },
+        {
+          "produkt_id": "schwarzwaldstube-menue-ii",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 12
+          },
+          "gewicht_prozent": 8.333333333333334
+        },
+        {
+          "produkt_id": "bayreuth-parsifal",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 12
+          },
+          "gewicht_prozent": 8.333333333333334
+        },
+        {
+          "produkt_id": "salem",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 6
+          },
+          "gewicht_prozent": 16.666666666666668
+        },
+        {
+          "produkt_id": "alarmaufschaltung",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 12
+          },
+          "gewicht_prozent": 8.333333333333334
+        },
+        {
+          "produkt_id": "hausbetreuung-sylt",
+          "anteil_bruch": {
+            "zaehler": 1,
+            "nenner": 12
+          },
+          "gewicht_prozent": 8.333333333333334
+        }
+      ],
+      "pilot_abdeckung_prozent": 12.5,
+      "fehlendes_gewicht_prozent": 87.5,
+      "gesamtindex": null,
+      "zweier_test_2025_2026_prozent": 0.1736111111111111,
+      "synthetischer_autoimpuls_prozentpunkte": 0.8333333333333334
+    }
+  ],
+  "testhinweis": "Zweier-Test: Gewichte ausschließlich für Bayreuth/YCL bedingt neu normiert. Kein Ergebnis des vollständigen Warenkorbs. Der bestehende Pilot bleibt 50/50.",
+  "impulshinweis": "Rein synthetisch: Cayenne +10 %, alle anderen Preise unverändert. Keine historische Beobachtung oder Prognose.",
+  "lueckenhinweis": "Pilotabdeckung bezeichnet geplantes Gewicht der zwei vorhandenen Teilreihen, keine redaktionelle Freigabe oder Vollpreisabdeckung. Fehlende Gewichte werden im Gesamtindex nicht umverteilt."
+}

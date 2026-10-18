@@ -70,3 +70,7 @@ Vor Veröffentlichung eines größeren Korbs sollen mindestens gleiche Positions
 - [Julius Bär Global Wealth and Lifestyle Report 2025](https://www.juliusbaer.com/fileadmin/publications/julius-baer-global-wealth-and-lifestyle-report-2025.pdf), gedruckte S. 52–53, Abruf 17.10.2026.
 
 Beide vollständigen Berichte waren im Webwerkzeug lesbar. Direkte PDF-Downloads lieferten HTTP 403; es wird deshalb keine lokale Original-Prüfsumme behauptet. Es wurden keine privaten Rohdaten angefordert oder importiert. Die Tabelle enthält Methodenfakten und eigene rechnerische Ableitungen, keine übernommenen Einzelpreise. Die frühere [Würdigung und Abgrenzung](abgrenzung-julius-baer.md) wird durch diese Prüfung für 2026 ergänzt.
+
+## Ergänzung vom 18. Oktober 2026
+
+Der [Gewichtungsversuch mit drei Modellen und Lückenanalyse](gewichtungsversuch-und-luecken-2026-10-18.md) setzt die Adaption jetzt als reproduzierbares Szenario um. Er ersetzt keine historischen Befunde oder den bestehenden 50/50-Pilot und ist keine produktive Indexfreigabe.

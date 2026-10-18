@@ -1,5 +1,6 @@
 .openai/
 .DS_Store
 node_modules/
+__pycache__/
 .env
 .env.*
