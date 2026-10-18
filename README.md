@@ -18,6 +18,8 @@ Ein kuratierter Preisindex für gehobenen Konsum in Deutschland.
 
 ## Historische Preise und Forschungs-PoC
 
+[**Gewichtungsversuch und Lückenanalyse · 18.10.2026**](docs/gewichtungsversuch-und-luecken-2026-10-18.md): Drei reproduzierbare Modelle für 13 Recherchepositionen. Vorhandene Pilot-Teilreihen decken je nach Modell nur 12,5–15,4 % des geplanten Gewichts ab; ein vollständiger Index bleibt offen. [Szenarien auf der Website](https://tobias-run.github.io/nobelpreis-index/zeitreihe/#szenarien).
+
 [**Vertiefte Prüfung aller 13 Positionen**](docs/rechercheabschluss-und-gewichtung-2026-10-17.md) · [Julius-Bär-Gewichtung aller Komponenten](docs/methodik-gewichtung-2026-10-17.md) · [Konkrete Beleganforderungen](docs/anbieteranfragen-2026-10-17.md)
 
 [**Echte Zeitreihen ansehen**](https://tobias-run.github.io/nobelpreis-index/zeitreihe/) · [Historienprüfung aller 13 Positionen](docs/historische-preise-und-poc-2026-10-16.md) · [19 neue Preisbelege aus der Archivrecherche](docs/archivrecherche-2026-10-17.md)

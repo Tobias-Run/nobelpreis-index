@@ -70,13 +70,29 @@ function renderResearch(){
  }).join('');
 }
 function download(name,text,type){const url=URL.createObjectURL(new Blob([type.startsWith('text/csv')?'\ufeff'+text:text],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function renderWeights(){
+ const x=data.gewichtungsszenarien, models=x.szenarien;
+ $('szenariotabelle').innerHTML=models.map(s=>{
+  const car=s.gewichte.find(w=>w.produkt_id==='porsche-cayenne').gewicht_prozent;
+  return `<tr><th scope="row">${esc(s.name)}</th><td>${fmt(car)} %</td><td>${fmt(s.pilot_abdeckung_prozent)} %</td><td>${fmt(s.fehlendes_gewicht_prozent)} %</td><td>${fmt(s.synthetischer_autoimpuls_prozentpunkte)} Pp.</td></tr>`;
+ }).join('');
+ $('gewichtmodell').innerHTML=models.map(s=>`<option value="${esc(s.id)}">${esc(s.name)}</option>`).join('');
+ const update=()=>{
+  const s=models.find(s=>s.id===$('gewichtmodell').value);
+  $('produktgewichte').innerHTML=s.gewichte.map(w=>`<tr><th scope="row">${esc(data.produkte.find(p=>p.id===w.produkt_id).name)}</th><td>${fmt(w.gewicht_prozent,4)} %</td></tr>`).join('');
+  $('zweiertest').textContent=`Bedingter Zweier-Test 2025–2026: +${fmt(s.zweier_test_2025_2026_prozent,4)} %. Dafür werden nur die Gewichte von Bayreuth und YCL neu normiert. ${fmt(s.fehlendes_gewicht_prozent)} % des geplanten Warenkorbs fehlen; daraus entsteht kein Gesamtindex. Der bestehende 50/50-Pilot oben bleibt unverändert.`;
+ };
+ $('gewichtmodell').addEventListener('change',update);update();
+ const labels={kategorisch:'Kategorie vorhanden',bedingt:'Nur bedingt vergleichbar',bewusst_ausgeschlossen:'Bewusst ausgeschlossen',nicht_abgedeckt:'Nicht abgedeckt'};
+ $('abgleich').innerHTML=x.abgleich_julius_baer.map(c=>`<tr><th scope="row">${esc(c.komponente)}</th><td>${esc(labels[c.status])}</td><td>${c.produkt_id?esc(data.produkte.find(p=>p.id===c.produkt_id).name):'—'}</td></tr>`).join('');
+}
 function exportCSV(){
  const head=['Produkt-ID','Produkt','Beobachtung-ID','Betrag EUR','Einheit','Preisdatum','Gültigkeit','Zeitstatus','Preisart','Umsatzsteuer','Quelle','Abruf','Indexfreigabe'];
  const rows=data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen].map(o=>[p.id,p.name,o.id,String(o.betrag).replace('.',','),o.einheit,o.preisdatum||'',o.gültigkeit?.bezeichnung||'',o.zeitstatus,o.preisart,o.umsatzsteuer,sourceMap.get(o.quelle_id)?.url||'',o.abgerufen_am||data.stand,'nein']));
  download(`nobelpreis-preisbeobachtungen-${data.stand}.csv`,[head,...rows].map(r=>r.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(';')).join('\r\n'),'text/csv;charset=utf-8');
 }
 try{
- const response=await fetch('./daten.json');if(!response.ok)throw new Error('Daten nicht verfügbar.');data=await response.json();sourceMap=new Map(data.quellen.map(s=>[s.id,s]));restore();
+ const response=await fetch('./daten.json');if(!response.ok)throw new Error('Daten nicht verfügbar.');data=await response.json();sourceMap=new Map(data.quellen.map(s=>[s.id,s]));restore();renderWeights();
  $('auswahl').addEventListener('change',()=>{fillPeriods($('zeitraum').value);render();writeURL();});
  $('zeitraum').addEventListener('change',()=>{render();writeURL();});
  $('suche').addEventListener('input',()=>{renderResearch();writeURL(false);});

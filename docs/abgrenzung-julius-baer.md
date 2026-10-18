@@ -68,3 +68,7 @@ Nobelpreis soll ein unabhängiges, deutschsprachiges Recherchewerkzeug für die 
 ## Ergänzung: Gewichtung auch für 2026 geprüft
 
 Die [vertiefte Gewichtungsprüfung vom 17.10.2026](methodik-gewichtung-2026-10-17.md) bestätigt 20 % Wohnimmobilien, 10 % Auto und je 70/18 % für die übrigen Komponenten auch im Bericht 2026. Sie dokumentiert alle 20 Positionen, den Unterschied zwischen nominellen Gewichten und Änderungsaggregat sowie die Entscheidung, die Gewichte nicht ungeprüft auf unseren anderen Konsumwarenkorb zu übertragen.
+
+## Ergänzung vom 18. Oktober 2026
+
+Der [Gewichtungsversuch mit drei Modellen und Lückenanalyse](gewichtungsversuch-und-luecken-2026-10-18.md) setzt die Adaption jetzt als reproduzierbares Szenario um. Er ersetzt keine historischen Befunde oder den bestehenden 50/50-Pilot und ist keine produktive Indexfreigabe.
