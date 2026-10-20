@@ -3828,7 +3828,7 @@
     "impulshinweis": "Rein synthetisch: Cayenne +10 %, alle anderen Preise unverändert. Keine historische Beobachtung oder Prognose.",
     "lueckenhinweis": "Pilotabdeckung bezeichnet geplantes Gewicht der zwei vorhandenen Teilreihen, keine redaktionelle Freigabe oder Vollpreisabdeckung. Fehlende Gewichte werden im Gesamtindex nicht umverteilt."
   },
-  "version": "poc-0.2.0",
+  "version": "poc-0.3.0",
   "recherche_sha256": "e4593c944d242d33edf2564d37cbeb7230c88cc743826a46126008dbe850f9b5",
   "pilot_reihen": [
     {
@@ -4059,5 +4059,733 @@
     "zeitbezug": "Saison-/Festspieltarife; August-VPI desselben Jahres als saisonaler Anker. Keine Jahresdurchschnitte oder exakten Transaktionszeitpunkte.",
     "fehlende_daten": "Keine Interpolation, Fortschreibung, Rückdatierung oder wechselnde Zusammensetzung",
     "status": "Recherche-PoC, keine redaktionelle Indexfreigabe, keine Repräsentativität für das reichste Prozent"
+  },
+  "ansicht_stand": "2026-10-20",
+  "einzel_reihen": [
+    {
+      "id": "salem-grundtarif",
+      "produkt_id": "salem",
+      "kurzname": "Salem · Schul- und Internatsgeld",
+      "einheit": "EUR je Schuljahr (zwölf Monatsraten)",
+      "punkte": [
+        {
+          "jahr": 2021,
+          "label": "Schuljahr 2021/22",
+          "betrag": 43500,
+          "referenzmonat": "2021-09",
+          "zeitachse": "2021-09-01",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "Schuljahr 2021/2022",
+            "von": "2021-09-01",
+            "bis": "2022-08-31"
+          },
+          "beobachtung_ids": [
+            "salem-archiv-2021"
+          ],
+          "quelle_ids": [
+            "ia-salem-21"
+          ]
+        },
+        {
+          "jahr": 2022,
+          "label": "Schuljahr 2022/23",
+          "betrag": 44820,
+          "referenzmonat": "2022-09",
+          "zeitachse": "2022-09-01",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "Schuljahr 2022/2023",
+            "von": "2022-09-01",
+            "bis": "2023-08-31"
+          },
+          "beobachtung_ids": [
+            "salem-archiv-2022"
+          ],
+          "quelle_ids": [
+            "ia-salem-22"
+          ]
+        },
+        {
+          "jahr": 2023,
+          "label": "Schuljahr 2023/24",
+          "betrag": 46200,
+          "referenzmonat": "2023-09",
+          "zeitachse": "2023-09-01",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "Schuljahr 2023/2024",
+            "von": "2023-09-01",
+            "bis": "2024-08-31"
+          },
+          "beobachtung_ids": [
+            "salem-archiv-2023"
+          ],
+          "quelle_ids": [
+            "ia-salem-23"
+          ]
+        },
+        {
+          "jahr": 2024,
+          "label": "Schuljahr 2024/25",
+          "betrag": 48960,
+          "referenzmonat": "2024-09",
+          "zeitachse": "2024-09-01",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "Schuljahr 2024/2025",
+            "von": "2024-09-01",
+            "bis": "2025-08-31"
+          },
+          "beobachtung_ids": [
+            "salem-archiv-2024"
+          ],
+          "quelle_ids": [
+            "ia-salem-24"
+          ]
+        },
+        {
+          "jahr": 2025,
+          "label": "Schuljahr 2025/26",
+          "betrag": 50400,
+          "referenzmonat": "2025-09",
+          "zeitachse": "2025-09-01",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "Schuljahr 2025/2026"
+          },
+          "beobachtung_ids": [
+            "salem-archiv-2025"
+          ],
+          "quelle_ids": [
+            "ia-salem-20240912"
+          ]
+        },
+        {
+          "jahr": 2026,
+          "label": "Schuljahr 2026/27",
+          "betrag": 53400,
+          "referenzmonat": "2026-09",
+          "zeitachse": "2026-09-01",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "von": "2026-09-01",
+            "bis": "2027-08-31",
+            "bezeichnung": "2026/2027"
+          },
+          "beobachtung_ids": [
+            "salem-2026"
+          ],
+          "quelle_ids": [
+            "salem-2026"
+          ]
+        }
+      ],
+      "definition": "Klasse 8, regulärer Schul- und Internatstarif ohne Rabatte, Kaution, Aufnahmegebühr und zusätzliche Leistungen.",
+      "zeitbezug": "VPI: September im Beginnjahr des Schuljahres. Jahresmarken bezeichnen Schuljahre, keine Kalenderjahreskosten. Die Datumsachse verwendet den Schuljahresanker 1. September, keinen behaupteten Abruf- oder Transaktionstag.",
+      "grenze": "Tarifrahmen anhand der Vertragsbedingungen geprüft. Keine Messung der tatsächlichen Bildungsqualität oder sämtlicher Haushaltsausgaben. 2027/28 ist angekündigt und ausgeschlossen.",
+      "indexfreigabe": false
+    },
+    {
+      "id": "arlberg-skipass",
+      "produkt_id": "skiurlaub-arlberg",
+      "kurzname": "Arlberg · Sechstage-Skipass",
+      "einheit": "EUR je erwachsener Person und Sechstagepass",
+      "punkte": [
+        {
+          "jahr": 2023,
+          "label": "Saison 2023/24",
+          "betrag": 401,
+          "referenzmonat": "2023-12",
+          "zeitachse": "2023-12-23",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "Saison 2023/24",
+            "von": "2023-12-23",
+            "bis": "2024-04-01"
+          },
+          "beobachtung_ids": [
+            "ski-archiv-2023"
+          ],
+          "quelle_ids": [
+            "ia-ski-202324"
+          ]
+        },
+        {
+          "jahr": 2024,
+          "label": "Saison 2024/25",
+          "betrag": 423,
+          "referenzmonat": "2024-12",
+          "zeitachse": "2024-12-21",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "Saison 2024/25",
+            "von": "2024-12-21",
+            "bis": "2025-04-04"
+          },
+          "beobachtung_ids": [
+            "ski-beleg-2024"
+          ],
+          "quelle_ids": [
+            "ski202425-albona"
+          ]
+        },
+        {
+          "jahr": 2025,
+          "label": "Saison 2025/26",
+          "betrag": 450,
+          "referenzmonat": "2025-12",
+          "zeitachse": "2025-12-20",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "2025/26",
+            "von": "2025-12-20",
+            "bis": "2026-04-06"
+          },
+          "beobachtung_ids": [
+            "ski-2025"
+          ],
+          "quelle_ids": [
+            "pruefung-ski2025-original"
+          ]
+        }
+      ],
+      "definition": "Sechs unmittelbar aufeinanderfolgende Tage, Erwachsener, Hauptsaison, inklusive USt.; rückzahlbares Kartendepot separat.",
+      "zeitbezug": "VPI: Dezember im Beginnjahr der Wintersaison, entsprechend dem dokumentierten Beginn der Hauptsaison. Jahresmarken bezeichnen die Saison, keine vollständigen Kalenderjahre.",
+      "grenze": "Nur Skipass, kein Skiurlaub: ohne Hotel, Anreise, Verpflegung und Ausrüstung. Keine Annahme unveränderter Pistenkilometer oder Liftzahl. Veröffentlichte teils vorläufige Tarife, keine Transaktionen. 2026/27 ist angekündigt und ausgeschlossen.",
+      "indexfreigabe": false
+    },
+    {
+      "id": "saxonia-2019-2023",
+      "produkt_id": "saxonia-thin",
+      "kurzname": "Saxonia Thin · 201.027 / LA100063",
+      "einheit": "EUR je neuer Uhr inklusive MwSt.",
+      "punkte": [
+        {
+          "jahr": 2019,
+          "label": "10.12.2019",
+          "betrag": 15500,
+          "referenzmonat": "2019-12",
+          "zeitachse": "2019-12-10",
+          "preisdatum": "2019-12-10",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "saxonia-wempe-archiv-2019"
+          ],
+          "quelle_ids": [
+            "ia-wempe-2019"
+          ]
+        },
+        {
+          "jahr": 2020,
+          "label": "27.10.2020",
+          "betrag": 15100,
+          "referenzmonat": "2020-10",
+          "zeitachse": "2020-10-27",
+          "preisdatum": "2020-10-27",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "saxonia-wempe-archiv-2020"
+          ],
+          "quelle_ids": [
+            "ia-wempe-2020"
+          ]
+        },
+        {
+          "jahr": 2021,
+          "label": "27.07.2021",
+          "betrag": 17300,
+          "referenzmonat": "2021-07",
+          "zeitachse": "2021-07-27",
+          "preisdatum": "2021-07-27",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "saxonia-wempe-archiv-2021"
+          ],
+          "quelle_ids": [
+            "ia-wempe-2021"
+          ]
+        },
+        {
+          "jahr": 2022,
+          "label": "19.05.2022",
+          "betrag": 21000,
+          "referenzmonat": "2022-05",
+          "zeitachse": "2022-05-19",
+          "preisdatum": "2022-05-19",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "saxonia-wempe-archiv-2022"
+          ],
+          "quelle_ids": [
+            "ia-wempe-2022"
+          ]
+        },
+        {
+          "jahr": 2023,
+          "label": "26.09.2023",
+          "betrag": 24500,
+          "referenzmonat": "2023-09",
+          "zeitachse": "2023-09-26",
+          "preisdatum": "2023-09-26",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "saxonia-wempe-archiv-2023"
+          ],
+          "quelle_ids": [
+            "ia-wempe-2023"
+          ]
+        }
+      ],
+      "definition": "Wempe-Händlerangebot, Weißgold 37 mm, schwarzes Alligatorband, Stiftschließe. Referenz 201.027 / LA100063. Keine bestätigte Hersteller-UVP oder Transaktion.",
+      "zeitbezug": "VPI: tatsächlicher Monat des datierten Angebotsstands. Ungleiche Beobachtungsabstände, keine Jahresdurchschnitte. Ein noch nicht veröffentlichter VPI-Monat bleibt leer; kein Ersatz durch den Vormonat.",
+      "grenze": "Die Referenzen 201.027 und 201.027-LB werden nicht verkettet. Bedeutung des LB-Zusatzes bleibt offen. 2020 enthält den Zeitraum der deutschen Mehrwertsteuersenkung; keine reine Netto-Preisänderung. Zwischen den Belegen ist der tatsächliche Preisverlauf unbekannt.",
+      "indexfreigabe": false
+    },
+    {
+      "id": "saxonia-2024-2026",
+      "produkt_id": "saxonia-thin",
+      "kurzname": "Saxonia Thin · 201.027-LB / LB100063",
+      "einheit": "EUR je neuer Uhr inklusive MwSt.",
+      "punkte": [
+        {
+          "jahr": 2024,
+          "label": "19.07.2024",
+          "betrag": 24500,
+          "referenzmonat": "2024-07",
+          "zeitachse": "2024-07-19",
+          "preisdatum": "2024-07-19",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "saxonia-wempe-archiv-2024"
+          ],
+          "quelle_ids": [
+            "ia-wempe-2024"
+          ]
+        },
+        {
+          "jahr": 2025,
+          "label": "27.10.2025",
+          "betrag": 25600,
+          "referenzmonat": "2025-10",
+          "zeitachse": "2025-10-27",
+          "preisdatum": "2025-10-27",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "saxonia-wempe-archiv-2025"
+          ],
+          "quelle_ids": [
+            "ia-wempe-2025"
+          ]
+        },
+        {
+          "jahr": 2026,
+          "label": "16.10.2026",
+          "betrag": 27000,
+          "referenzmonat": "2026-10",
+          "zeitachse": "2026-10-16",
+          "preisdatum": "2026-10-16",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "saxonia-wempe-2026"
+          ],
+          "quelle_ids": [
+            "wempe-aktuell"
+          ]
+        }
+      ],
+      "definition": "Wempe-Händlerangebot, Weißgold 37 mm, schwarzes Alligatorband, Stiftschließe. Referenz 201.027-LB / LB100063. Keine bestätigte Hersteller-UVP oder Transaktion.",
+      "zeitbezug": "VPI: tatsächlicher Monat des datierten Angebotsstands. Ungleiche Beobachtungsabstände, keine Jahresdurchschnitte. Ein noch nicht veröffentlichter VPI-Monat bleibt leer; kein Ersatz durch den Vormonat.",
+      "grenze": "Die Referenzen 201.027 und 201.027-LB werden nicht verkettet. Bedeutung des LB-Zusatzes bleibt offen. 2020 enthält den Zeitraum der deutschen Mehrwertsteuersenkung; keine reine Netto-Preisänderung. Zwischen den Belegen ist der tatsächliche Preisverlauf unbekannt.",
+      "indexfreigabe": false
+    }
+  ],
+  "einzel_referenz": {
+    "titel": "Deutscher Gesamt-VPI · Monatswerte · Ursprungswerte",
+    "anbieter": "Deutsche Bundesbank",
+    "ursprungsquelle": "Statistisches Bundesamt, Wiesbaden.",
+    "reihe": "BBDP1.M.DE.N.VPI.C.A00000.I20.A",
+    "einheit": "2020=100",
+    "download_url": "https://api.statistiken.bundesbank.de/rest/data/BBDP1/M.DE.N.VPI.C.A00000.I20.A?startPeriod=2019-01&endPeriod=2026-10",
+    "url": "https://statistiken.bundesbank.de/statistiken-de/zeitreihen/BBDP1/M.DE.N.VPI.C.A00000.I20.A",
+    "abgerufen_am": "2026-10-20",
+    "sha256": "b0f3f692007959a54585d21b06c2748cfee5fe2c27d75016ca263730fe00d018",
+    "methodenhinweis": "Angaben für Deutschland insgesamt. Letzter Datenpunkt basiert zeitweise auf eigenen Schätzungen der Deutschen Bundesbank.",
+    "vergleichsmonat": "Je Reihe: September, Dezember oder tatsächlicher Beobachtungsmonat",
+    "beobachtungen": [
+      {
+        "monat": "2019-01",
+        "wert": 97.7
+      },
+      {
+        "monat": "2019-02",
+        "wert": 98.1
+      },
+      {
+        "monat": "2019-03",
+        "wert": 98.5
+      },
+      {
+        "monat": "2019-04",
+        "wert": 99.4
+      },
+      {
+        "monat": "2019-05",
+        "wert": 99.6
+      },
+      {
+        "monat": "2019-06",
+        "wert": 99.9
+      },
+      {
+        "monat": "2019-07",
+        "wert": 100.3
+      },
+      {
+        "monat": "2019-08",
+        "wert": 100.2
+      },
+      {
+        "monat": "2019-09",
+        "wert": 100.2
+      },
+      {
+        "monat": "2019-10",
+        "wert": 100.2
+      },
+      {
+        "monat": "2019-11",
+        "wert": 99.5
+      },
+      {
+        "monat": "2019-12",
+        "wert": 100.0
+      },
+      {
+        "monat": "2020-01",
+        "wert": 99.8
+      },
+      {
+        "monat": "2020-02",
+        "wert": 100.1
+      },
+      {
+        "monat": "2020-03",
+        "wert": 100.3
+      },
+      {
+        "monat": "2020-04",
+        "wert": 100.4
+      },
+      {
+        "monat": "2020-05",
+        "wert": 100.4
+      },
+      {
+        "monat": "2020-06",
+        "wert": 100.5
+      },
+      {
+        "monat": "2020-07",
+        "wert": 99.7
+      },
+      {
+        "monat": "2020-08",
+        "wert": 99.7
+      },
+      {
+        "monat": "2020-09",
+        "wert": 99.7
+      },
+      {
+        "monat": "2020-10",
+        "wert": 99.9
+      },
+      {
+        "monat": "2020-11",
+        "wert": 99.7
+      },
+      {
+        "monat": "2020-12",
+        "wert": 99.8
+      },
+      {
+        "monat": "2021-01",
+        "wert": 101.0
+      },
+      {
+        "monat": "2021-02",
+        "wert": 101.6
+      },
+      {
+        "monat": "2021-03",
+        "wert": 102.1
+      },
+      {
+        "monat": "2021-04",
+        "wert": 102.4
+      },
+      {
+        "monat": "2021-05",
+        "wert": 102.6
+      },
+      {
+        "monat": "2021-06",
+        "wert": 102.9
+      },
+      {
+        "monat": "2021-07",
+        "wert": 103.4
+      },
+      {
+        "monat": "2021-08",
+        "wert": 103.5
+      },
+      {
+        "monat": "2021-09",
+        "wert": 103.8
+      },
+      {
+        "monat": "2021-10",
+        "wert": 104.3
+      },
+      {
+        "monat": "2021-11",
+        "wert": 104.5
+      },
+      {
+        "monat": "2021-12",
+        "wert": 104.7
+      },
+      {
+        "monat": "2022-01",
+        "wert": 105.2
+      },
+      {
+        "monat": "2022-02",
+        "wert": 106.0
+      },
+      {
+        "monat": "2022-03",
+        "wert": 108.1
+      },
+      {
+        "monat": "2022-04",
+        "wert": 108.8
+      },
+      {
+        "monat": "2022-05",
+        "wert": 109.8
+      },
+      {
+        "monat": "2022-06",
+        "wert": 109.8
+      },
+      {
+        "monat": "2022-07",
+        "wert": 110.3
+      },
+      {
+        "monat": "2022-08",
+        "wert": 110.7
+      },
+      {
+        "monat": "2022-09",
+        "wert": 112.7
+      },
+      {
+        "monat": "2022-10",
+        "wert": 113.5
+      },
+      {
+        "monat": "2022-11",
+        "wert": 113.7
+      },
+      {
+        "monat": "2022-12",
+        "wert": 113.2
+      },
+      {
+        "monat": "2023-01",
+        "wert": 114.3
+      },
+      {
+        "monat": "2023-02",
+        "wert": 115.2
+      },
+      {
+        "monat": "2023-03",
+        "wert": 116.1
+      },
+      {
+        "monat": "2023-04",
+        "wert": 116.6
+      },
+      {
+        "monat": "2023-05",
+        "wert": 116.5
+      },
+      {
+        "monat": "2023-06",
+        "wert": 116.8
+      },
+      {
+        "monat": "2023-07",
+        "wert": 117.1
+      },
+      {
+        "monat": "2023-08",
+        "wert": 117.5
+      },
+      {
+        "monat": "2023-09",
+        "wert": 117.8
+      },
+      {
+        "monat": "2023-10",
+        "wert": 117.8
+      },
+      {
+        "monat": "2023-11",
+        "wert": 117.3
+      },
+      {
+        "monat": "2023-12",
+        "wert": 117.4
+      },
+      {
+        "monat": "2024-01",
+        "wert": 117.6
+      },
+      {
+        "monat": "2024-02",
+        "wert": 118.1
+      },
+      {
+        "monat": "2024-03",
+        "wert": 118.6
+      },
+      {
+        "monat": "2024-04",
+        "wert": 119.2
+      },
+      {
+        "monat": "2024-05",
+        "wert": 119.3
+      },
+      {
+        "monat": "2024-06",
+        "wert": 119.4
+      },
+      {
+        "monat": "2024-07",
+        "wert": 119.8
+      },
+      {
+        "monat": "2024-08",
+        "wert": 119.7
+      },
+      {
+        "monat": "2024-09",
+        "wert": 119.7
+      },
+      {
+        "monat": "2024-10",
+        "wert": 120.2
+      },
+      {
+        "monat": "2024-11",
+        "wert": 119.9
+      },
+      {
+        "monat": "2024-12",
+        "wert": 120.5
+      },
+      {
+        "monat": "2025-01",
+        "wert": 120.3
+      },
+      {
+        "monat": "2025-02",
+        "wert": 120.8
+      },
+      {
+        "monat": "2025-03",
+        "wert": 121.2
+      },
+      {
+        "monat": "2025-04",
+        "wert": 121.7
+      },
+      {
+        "monat": "2025-05",
+        "wert": 121.8
+      },
+      {
+        "monat": "2025-06",
+        "wert": 121.8
+      },
+      {
+        "monat": "2025-07",
+        "wert": 122.2
+      },
+      {
+        "monat": "2025-08",
+        "wert": 122.3
+      },
+      {
+        "monat": "2025-09",
+        "wert": 122.6
+      },
+      {
+        "monat": "2025-10",
+        "wert": 123.0
+      },
+      {
+        "monat": "2025-11",
+        "wert": 122.7
+      },
+      {
+        "monat": "2025-12",
+        "wert": 122.7
+      },
+      {
+        "monat": "2026-01",
+        "wert": 122.8
+      },
+      {
+        "monat": "2026-02",
+        "wert": 123.1
+      },
+      {
+        "monat": "2026-03",
+        "wert": 124.5
+      },
+      {
+        "monat": "2026-04",
+        "wert": 125.2
+      },
+      {
+        "monat": "2026-05",
+        "wert": 125.0
+      },
+      {
+        "monat": "2026-06",
+        "wert": 124.6
+      },
+      {
+        "monat": "2026-07",
+        "wert": 125.6
+      },
+      {
+        "monat": "2026-08",
+        "wert": 125.8
+      },
+      {
+        "monat": "2026-09",
+        "wert": 126.6
+      }
+    ],
+    "quelldatei": "data/sources/bundesbank-vpi-monatlich-2019-2026-2026-10-20.csv"
   }
 }

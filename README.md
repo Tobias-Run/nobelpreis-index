@@ -18,6 +18,8 @@ Ein kuratierter Preisindex für gehobenen Konsum in Deutschland.
 
 ## Historische Preise und Forschungs-PoC
 
+[**Zeitreihen erweitert · 20.10.2026**](docs/zeitreihen-erweiterung-2026-10-20.md): Neu sind Salem ab 2021/22, der Arlberg-Skipass ab 2023/24 und zwei getrennte Saxonia-Referenzen ab 2019 beziehungsweise 2024. Insgesamt fünf Positionen grafisch untersuchbar. Zusätzliche Bundesbank-Referenz: 93 Monatswerte ab 2019; fehlender Oktober-VPI bleibt leer. Der gemeinsame Zweier-Pilot bleibt unverändert.
+
 [**Gewichtungsversuch und Lückenanalyse · 18.10.2026**](docs/gewichtungsversuch-und-luecken-2026-10-18.md): Drei reproduzierbare Modelle für 13 Recherchepositionen. Vorhandene Pilot-Teilreihen decken je nach Modell nur 12,5–15,4 % des geplanten Gewichts ab; ein vollständiger Index bleibt offen. [Szenarien auf der Website](https://tobias-run.github.io/nobelpreis-index/zeitreihe/#szenarien).
 
 [**Vertiefte Prüfung aller 13 Positionen**](docs/rechercheabschluss-und-gewichtung-2026-10-17.md) · [Julius-Bär-Gewichtung aller Komponenten](docs/methodik-gewichtung-2026-10-17.md) · [Konkrete Beleganforderungen](docs/anbieteranfragen-2026-10-17.md)

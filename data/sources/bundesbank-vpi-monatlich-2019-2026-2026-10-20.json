@@ -1,0 +1,14 @@
+{
+  "abgerufen_am": "2026-10-20",
+  "url": "https://api.statistiken.bundesbank.de/rest/data/BBDP1/M.DE.N.VPI.C.A00000.I20.A?startPeriod=2019-01&endPeriod=2026-10",
+  "accept": "text/csv",
+  "content_type": "text/csv",
+  "last_modified": null,
+  "sha256": "b0f3f692007959a54585d21b06c2748cfee5fe2c27d75016ca263730fe00d018",
+  "reihe": "BBDP1.M.DE.N.VPI.C.A00000.I20.A",
+  "anzahl_monate": 93,
+  "von": "2019-01",
+  "bis": "2026-09",
+  "hinweis": "Angaben für Deutschland insgesamt. Letzter Datenpunkt basiert zeitweise auf eigenen Schätzungen der Deutschen Bundesbank.",
+  "angefragt_bis": "2026-10"
+}

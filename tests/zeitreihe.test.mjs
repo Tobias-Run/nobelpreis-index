@@ -1,9 +1,68 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {berechne} from '../dist/zeitreihe/berechnung.mjs';
+import {berechne,berechneEinzelreihe} from '../dist/zeitreihe/berechnung.mjs';
 const data=JSON.parse(readFileSync(new URL('../dist/zeitreihe/daten.json',import.meta.url),'utf8'));
 const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} ≠ ${b}`);
+test('Zusätzliche Zeitreihen: 17 Originalbelege, keine Zukunftstarife oder Referenzverkettung',()=>{
+ assert.equal(data.einzel_reihen.length,4);
+ const obs=new Map(data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]).map(o=>[o.id,o]));
+ assert.equal(data.einzel_reihen.flatMap(s=>s.punkte).length,17);
+ for(const s of data.einzel_reihen){
+  assert.equal(s.indexfreigabe,false);
+  for(const p of s.punkte){
+   const o=obs.get(p.beobachtung_ids[0]);assert.ok(o);assert.equal(p.betrag,o.betrag);
+   assert.deepEqual(p.quelle_ids,[o.quelle_id]);assert.ok(!/angek|zukünftig/.test(o.zeitstatus));
+  }
+ }
+ const salem=data.einzel_reihen.find(s=>s.id==='salem-grundtarif');
+ assert.deepEqual(salem.punkte.map(p=>p.betrag),[43500,44820,46200,48960,50400,53400]);
+ assert.deepEqual(salem.punkte.map(p=>p.referenzmonat),[2021,2022,2023,2024,2025,2026].map(y=>`${y}-09`));
+ close(berechneEinzelreihe(salem,2021,data.einzel_referenz).anstieg,100*(53400/43500-1));
+ const ski=data.einzel_reihen.find(s=>s.id==='arlberg-skipass');
+ assert.deepEqual(ski.punkte.map(p=>p.betrag),[401,423,450]);
+ assert.deepEqual(ski.punkte.map(p=>p.referenzmonat),['2023-12','2024-12','2025-12']);
+ close(berechneEinzelreihe(ski,2023,data.einzel_referenz).anstieg,100*(450/401-1));
+ const alt=data.einzel_reihen.find(s=>s.id==='saxonia-2019-2023');
+ const neu=data.einzel_reihen.find(s=>s.id==='saxonia-2024-2026');
+ assert.deepEqual(alt.punkte.map(p=>p.jahr),[2019,2020,2021,2022,2023]);
+ assert.deepEqual(neu.punkte.map(p=>p.jahr),[2024,2025,2026]);
+ for(const s of [alt,neu])for(const p of s.punkte)assert.equal(p.referenzmonat,p.preisdatum.slice(0,7));
+});
+test('Fehlender Oktober-VPI bleibt leer; letzte Preisbeobachtung wird weder gelöscht noch mit September verglichen',()=>{
+ const s=data.einzel_reihen.find(s=>s.id==='saxonia-2024-2026');
+ const r=berechneEinzelreihe(s,2024,data.einzel_referenz);
+ close(r.anstieg,100*(27000/24500-1));
+ assert.equal(r.werte.at(-1).betrag,27000);
+ assert.equal(r.werte.at(-1).referenzmonat,'2026-10');
+ assert.equal(r.werte.at(-1).vpi,null);assert.equal(r.werte.at(-1).vpi_original,null);
+ assert.equal(r.vpiAnstieg,null);assert.equal(r.abstand,null);
+ assert.ok(r.werte[1].vpi>100);
+ const rebased=berechneEinzelreihe(s,2025,data.einzel_referenz);
+ close(rebased.werte[0].index,100);close(rebased.werte[0].vpi,100);
+ close(rebased.anstieg,100*(27000/25600-1));
+});
+test('Einzelzeitreihen weisen unzulässige Preise, Perioden und doppelte VPI-Werte ab',()=>{
+ const s=data.einzel_reihen[0], ref=data.einzel_referenz;
+ assert.throws(()=>berechneEinzelreihe(s,2020,ref));
+ assert.throws(()=>berechneEinzelreihe(s,2026,ref));
+ assert.throws(()=>berechneEinzelreihe({...s,punkte:[...s.punkte,s.punkte[0]]},2021,ref));
+ for(const bad of [0,-1,NaN,Infinity])assert.throws(()=>berechneEinzelreihe({...s,punkte:s.punkte.map((p,i)=>i? p:{...p,betrag:bad})},2021,ref));
+ assert.throws(()=>berechneEinzelreihe({...s,punkte:s.punkte.map((p,i)=>i?p:{...p,referenzmonat:'2021-13'})},2021,ref));
+ assert.throws(()=>berechneEinzelreihe(s,2021,{beobachtungen:[...ref.beobachtungen,ref.beobachtungen.find(p=>p.monat==='2021-09')]}));
+ const missingBase=berechneEinzelreihe(s,2021,{beobachtungen:ref.beobachtungen.filter(p=>p.monat!=='2021-09')});
+ assert.ok(missingBase.werte.every(p=>p.vpi===null));assert.equal(missingBase.abstand,null);
+});
+test('Erweiterter VPI-Beleg: 93 Monatswerte ab 2019, alter Pilot-Beleg unverändert',()=>{
+ assert.equal(data.einzel_referenz.beobachtungen.length,93);
+ assert.equal(data.einzel_referenz.abgerufen_am,'2026-10-20');
+ assert.equal(data.einzel_referenz.beobachtungen[0].monat,'2019-01');
+ assert.equal(data.einzel_referenz.beobachtungen.at(-1).monat,'2026-09');
+ const all=new Map(data.einzel_referenz.beobachtungen.map(p=>[p.monat,p.wert]));
+ assert.equal(all.size,93);
+ for(const p of data.referenz.beobachtungen)assert.equal(all.get(p.monat),p.wert);
+ assert.equal(data.referenz.abgerufen_am,'2026-10-16');assert.equal(data.referenz.beobachtungen.length,33);
+});
 test('Gewichtungsszenarien: vollständige feste Gewichte, richtige 13er-Adaption und keine Auffüllung',()=>{
  const x=data.gewichtungsszenarien;
  assert.equal(x.stand,'2026-10-18');assert.equal(x.szenarien.length,3);
