@@ -1,4 +1,22 @@
 /** Preisverhältnisse mit fester Zusammensetzung, ohne Auffüllen fehlender Werte. */
+export function berechneEinzelreihe(reihe, start, referenz) {
+  const alle=reihe.punkte;
+  if(!alle.length || new Set(alle.map(p=>p.jahr)).size!==alle.length || alle.some((p,i)=>!Number.isInteger(p.jahr)||(i&&p.jahr<=alle[i-1].jahr))) throw new Error('Ungültige Einzelreihe.');
+  if(!alle.some(p=>p.jahr===start)) throw new Error('Ungültiger Beginn.');
+  const punkte=alle.filter(p=>p.jahr>=start);
+  if(punkte.length<2) throw new Error('Mindestens zwei belegte Preise erforderlich.');
+  if(punkte.some(p=>!Number.isFinite(p.betrag)||p.betrag<=0||!/^\d{4}-(0[1-9]|1[0-2])$/.test(p.referenzmonat)||!Number.isFinite(Date.parse(p.zeitachse)))) throw new Error('Ungültiger Preis oder Zeitbezug.');
+  const original=punkte.map(p=>{
+    const found=referenz.beobachtungen.filter(o=>o.monat===p.referenzmonat);
+    if(found.length>1 || found.some(o=>!Number.isFinite(o.wert)||o.wert<=0)) throw new Error('Ungültiger VPI.');
+    return found[0]?.wert??null;
+  });
+  const basis=original[0];
+  const werte=punkte.map((p,i)=>({...p,index:100*p.betrag/punkte[0].betrag,vpi:basis!==null&&original[i]!==null?100*original[i]/basis:null,vpi_original:original[i]}));
+  const ende=werte.at(-1), anstieg=ende.index-100, vpiAnstieg=ende.vpi===null?null:ende.vpi-100;
+  return {basisjahr:werte[0].jahr,endjahr:ende.jahr,anzahl:1,werte,anstieg,vpiAnstieg,abstand:vpiAnstieg===null?null:anstieg-vpiAnstieg,beitraege:[{id:reihe.id,name:reihe.kurzname,veraenderung:anstieg,prozentpunkte:anstieg,gewicht:1}]};
+}
+
 export function berechne(reihen, jahre, referenz) {
   if (!reihen.length || !jahre.length || new Set(jahre).size !== jahre.length || jahre.some((y,i)=>!Number.isInteger(y)||(i&&y!==jahre[i-1]+1))) throw new Error('Leere Auswahl oder ungültiger Zeitraum.');
   if (new Set(reihen.map(r=>r.id)).size!==reihen.length) throw new Error('Doppelte Position.');
