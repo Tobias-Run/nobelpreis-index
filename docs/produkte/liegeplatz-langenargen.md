@@ -58,3 +58,9 @@ Die 2022-Liste wurde 2023 archiviert. Fehlende Jahreswerte 2023/2024 werden nich
 2023_Gebuehrenordnung_Verein_unterschrieben.pdf und Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf sind nicht abrufbar. Aus dem bloßen Link keine Preise ableiten; Fläche/Strukturwechsel bleiben anfragepflichtig.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+## Weitere Archivrecherche · 21.10.2026
+
+Domain- und exakte PDF-Abfragen erneut geprüft; Gebührenordnungen 2023/2024 weiterhin nicht abrufbar. Satzung und Vergabekriterien ersetzen keine Tarife. Keine Preise aus Linknamen oder benachbarten Jahren abgeleitet.
+
+[Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.

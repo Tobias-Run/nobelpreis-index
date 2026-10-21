@@ -34,3 +34,9 @@ Kein Boutique-Preis oder realisierter Verkauf. Retourné-Bezeichnung und deutsch
 Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Versandkosten fehlen; kein Markup berechenbar.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+## Weitere Archivrecherche · 21.10.2026
+
+Drei weitere archivierte SACLÀB-Angebote 2023/2024 gelesen und wegen ausverkauftem Status und/oder abweichendem Zustand bzw. Beschlägen ausgeschlossen. Keine zweite passende verfügbare Beobachtung und kein deutscher Boutique-Beleg.
+
+[Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.

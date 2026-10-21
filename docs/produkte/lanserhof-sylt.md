@@ -31,3 +31,9 @@ Programme getrennt halten. Inhalte verändern sich; Zimmer und verpflichtende Ne
 Programmreihe nicht als unveränderte Kur verketten. Sieben Nächte: Gebührenkomponente 7×42=294 EUR; unklar ob im Programm enthalten. Unterkunft/Verpflegung und identischer Gesamttarif fehlen.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+## Weitere Archivrecherche · 21.10.2026
+
+Zwei historische Zimmerkomponenten aufgenommen: Village, Zimmer mit Loggia 29 m², 1 Person, jeweils 649 EUR in Broschüren 2024 und 2025. Der 2024er Tarif wurde erst 2025 archiviert. Zeiteinheit ist in der Tabelle nicht ausdrücklich ausgewiesen; nur mit medizinischem Programm buchbar. Keine Multiplikation mit sieben Nächten oder vollständige Kurinflation.
+
+[Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
