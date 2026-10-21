@@ -9,7 +9,7 @@ from gewichtungsszenarien import erstellen
 from einzelzeitreihen import erstellen as einzelreihen_erstellen
 ROOT=Path(__file__).resolve().parents[1]
 SRC=ROOT/'data/sources/bundesbank-vpi-monatlich-2024-2026-2026-10-16.csv'
-RESEARCH=ROOT/'data/research/archivnachrecherche-2026-10-21.json'
+RESEARCH=ROOT/'data/research/archiverweiterung-2026-10-21.json'
 WEIGHTS=ROOT/'data/methodik/gewichtung-2026-10-17.json'
 REFERENCE_RETRIEVED_AT='2026-10-16' # Rohbeleg nicht erneut abgerufen; unabhängig vom Recherchestand.
 x=json.loads(RESEARCH.read_text())
@@ -50,7 +50,7 @@ for r in new_rows:
  assert math.isfinite(float(r['OBS_VALUE'])) and float(r['OBS_VALUE'])>0
 new_ref={**ref,'abgerufen_am':meta['abgerufen_am'],'download_url':meta['url'],'sha256':meta['sha256'],'vergleichsmonat':'Je Reihe: September, Dezember oder tatsächlicher Beobachtungsmonat','methodenhinweis':meta['hinweis'],'quelldatei':str(NEW_SRC.relative_to(ROOT)),'beobachtungen':[{'monat':r['TIME_PERIOD'],'wert':float(r['OBS_VALUE'])} for r in new_rows]}
 extra=einzelreihen_erstellen(allobs)
-payload.update({'version':'poc-0.3.1','ansicht_stand':'2026-10-21','einzel_reihen':extra,'einzel_referenz':new_ref})
+payload.update({'version':'poc-0.3.2','ansicht_stand':'2026-10-21','einzel_reihen':extra,'einzel_referenz':new_ref})
 (ROOT/'dist/zeitreihe/daten.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(x["produkte"])} Positionen, {len(allobs)} Einzelbeobachtungen, {len(series)} Pilot-Teilreihen, {len(rows)} VPI-Monate validiert.')
 print(f'Erweiterung: {len(extra)} Einzelreihen, {sum(len(s["punkte"]) for s in extra)} belegte Punkte, {len(new_rows)} zusätzliche Referenzmonate.')

@@ -1,0 +1,377 @@
+{
+  "stand": "2026-10-21",
+  "abfragen": [
+    {
+      "id": "cc-indizes",
+      "url": "https://index.commoncrawl.org/collinfo.json",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://index.commoncrawl.org/collinfo.json",
+      "sha256": "a683312f4448cdda63b38f40c7289853fa82eb1e7e3cd5a3674e46142b01891a",
+      "zeilen": 128
+    },
+    {
+      "id": "arquivo-ycl2023",
+      "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.ycla.de%2Ffileadmin%2Fredakteure%2FAntraege__Statuten%2F2023_Gebuehrenordnung_Verein_unterschrieben.pdf&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.ycla.de%2Ffileadmin%2Fredakteure%2FAntraege__Statuten%2F2023_Gebuehrenordnung_Verein_unterschrieben.pdf&maxItems=50",
+      "sha256": "6ddd374ba78996aa822d698ec18dffbf3b026cb1b13fa0c9193c55cca1c98f41",
+      "estimated_nr_results": 0,
+      "items": 0
+    },
+    {
+      "id": "arquivo-ycl2024",
+      "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.ycla.de%2Ffileadmin%2Fredakteure%2FAntraege__Statuten%2FGebuehrenordnungen%2F2024_Gebuehrenordnung_Verein.pdf&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.ycla.de%2Ffileadmin%2Fredakteure%2FAntraege__Statuten%2FGebuehrenordnungen%2F2024_Gebuehrenordnung_Verein.pdf&maxItems=50",
+      "sha256": "abe42aa52e32aed6dee457859df20d3e423217efead4b9e67db1c1942c31e91c",
+      "estimated_nr_results": 0,
+      "items": 0
+    },
+    {
+      "id": "arquivo-menue-alt",
+      "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22043%2Fschwarzwaldstube_web_d.pdf&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22043%2Fschwarzwaldstube_web_d.pdf&maxItems=50",
+      "sha256": "f555f438476a15b0cc8ab4da02cd0f9605273d9ae35be642efd5cd4c0fd06276",
+      "estimated_nr_results": 0,
+      "items": 0
+    },
+    {
+      "id": "arquivo-sylt",
+      "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.hausbetreuung-enkelmann.de%2Fpreise&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.hausbetreuung-enkelmann.de%2Fpreise&maxItems=50",
+      "sha256": "18e74571fd4a0245ab03485dc427f24c08beb8aa1acbfb2044025a896126729c",
+      "estimated_nr_results": 0,
+      "items": 0
+    },
+    {
+      "id": "arquivo-adlon",
+      "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.kempinski.com%2Fde%2Fhotel-adlon%2Fzimmer-suiten%2Fzimmer%2Fdeluxe-zimmer&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.kempinski.com%2Fde%2Fhotel-adlon%2Fzimmer-suiten%2Fzimmer%2Fdeluxe-zimmer&maxItems=50",
+      "sha256": "87f49a915c51d8c36b3db30f400494d35dae6e6f3d32bd4b5d4b2082bd4091dd",
+      "estimated_nr_results": 0,
+      "items": 0
+    },
+    {
+      "id": "cc-ycl-2023",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2023-50-index?url=%2A.ycla.de%2F%2A&output=json&filter=status%3A200",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "cc-ycl-2024",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2024-51-index?url=%2A.ycla.de%2F%2A&output=json&filter=status%3A200",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "text/x-ndjson",
+      "final_url": "https://index.commoncrawl.org/CC-MAIN-2024-51-index?url=%2A.ycla.de%2F%2A&output=json&filter=status%3A200",
+      "sha256": "0c7c53a5953dcbe30c66dfda40c2bea4117e0a3f14630e184bf36aa192ded5ba",
+      "bytes": 34762,
+      "zeilen": 69
+    },
+    {
+      "id": "cc-ycl-2025",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2025-47-index?url=%2A.ycla.de%2F%2A&output=json&filter=status%3A200",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 504: Gateway Timeout"
+    },
+    {
+      "id": "cc-menue-alt",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2024-51-index?url=https%3A%2F%2Fwww.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22043%2Fschwarzwaldstube_web_d.pdf&output=json&filter=status%3A200",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "cc-gourmed-2024",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2024-51-index?url=https%3A%2F%2Fgour-med.de%2Ffiles%2Ffolder.165%2Fgour-med-3-4-2024.pdf&output=json&filter=status%3A200",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "gourmed-archive",
+      "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fgour-med.de%2Ffiles%2Ffolder.165%2Fgour-med-3-4-2024.pdf&output=json&filter=statuscode%3A200&collapse=digest&limit=40",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fgour-med.de%2Ffiles%2Ffolder.165%2Fgour-med-3-4-2024.pdf&output=json&filter=statuscode%3A200&collapse=digest&limit=40",
+      "sha256": "7b502ef3810a50d78cb704f7d2dac06abf82f8a54e1f513b6d63004a613bb87c",
+      "zeilen": 1
+    },
+    {
+      "id": "menue-alt-archive",
+      "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22043%2Fschwarzwaldstube_web_d.pdf&output=json&filter=statuscode%3A200&collapse=digest&limit=40",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22043%2Fschwarzwaldstube_web_d.pdf&output=json&filter=statuscode%3A200&collapse=digest&limit=40",
+      "sha256": "370749574ef5ff88933fbfa236f68bcf548cd354858232522b986c10340c19b6",
+      "zeilen": 1
+    },
+    {
+      "id": "arquivo-cdx-ycl",
+      "url": "https://arquivo.pt/wayback/cdx?url=ycla.de%2F%2A&output=json&filter=statuscode%3A200&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "text/x-ndjson",
+      "final_url": "https://arquivo.pt/wayback/cdx?url=ycla.de%2F%2A&output=json&filter=statuscode%3A200&limit=100",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "zeilen": 0
+    },
+    {
+      "id": "arquivo-cdx-menu",
+      "url": "https://arquivo.pt/wayback/cdx?url=traube-tonbach.de%2F%2A&output=json&filter=statuscode%3A200&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "content_type": "text/x-ndjson",
+      "final_url": "https://arquivo.pt/wayback/cdx?url=traube-tonbach.de%2F%2A&output=json&filter=statuscode%3A200&limit=100",
+      "sha256": "75169627c5d62721b66b82fc234e4a0cb273a03337d026c778096d5a54c3ed97",
+      "bytes": 44045,
+      "zeilen": 100
+    },
+    {
+      "id": "arquivo-pdf-traube",
+      "url": "https://arquivo.pt/wayback/cdx?url=traube-tonbach.de%2F%2A&output=json&filter=mime%3Aapplication%2Fpdf&limit=1000",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "sha256": "1d0bd1df125121c1a9444ad0b07b2e89e733652200e412e89418a1759670be80",
+      "treffer": 47,
+      "limit": 1000,
+      "zeilen": 47,
+      "einschraenkung": "Antwort enthält text/html und is_fuzzy=1 trotz PDF-Filter; keine PDF-Trefferliste und kein Beweis für fehlende PDFs."
+    },
+    {
+      "id": "arquivo-pdf-ycl",
+      "url": "https://arquivo.pt/wayback/cdx?url=ycla.de%2F%2A&output=json&filter=mime%3Aapplication%2Fpdf&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treffer": 0,
+      "limit": 100,
+      "zeilen": 0
+    },
+    {
+      "id": "arquivo-pdf-gourmed",
+      "url": "https://arquivo.pt/wayback/cdx?url=gour-med.de%2Ffiles%2Ffolder.165%2Fgour-med-3-4-2024.pdf&output=json&limit=20",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treffer": 0,
+      "limit": 20,
+      "zeilen": 0
+    },
+    {
+      "id": "arquivo-volltext-menue",
+      "url": "https://arquivo.pt/textsearch?q=Schwarzwaldstube&siteSearch=traube-tonbach.de&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "estimated_nr_results": 85,
+      "items": 35,
+      "sha256": "6c86eb6dae94a9cce25bd0890171e04906fbef5ae5ef94c054108b5715b3b207"
+    },
+    {
+      "id": "arquivo-volltext-ycl",
+      "url": "https://arquivo.pt/textsearch?q=Geb%C3%BChrenordnung&siteSearch=ycla.de&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "estimated_nr_results": 0,
+      "items": 0,
+      "sha256": "23886969628c3db892d53396dccf11adba401d4f43a389f3ef5e5251dff2a163"
+    },
+    {
+      "id": "arquivo-menue-prefix",
+      "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "estimated_nr_results": 0,
+      "items": 0,
+      "sha256": "50f17e9f47fdcedcd951def4796bf65e7331ecdc6aa6aa89b92c72c3546b6b77"
+    },
+    {
+      "id": "arquivo-linked-2024",
+      "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Ftraube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F20960%2Fschwarzwaldstube_web_d-1.pdf&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "sha256": "b2038e63ee14f5e02123f81b5acecbdc20d3cbb4e758d7a481e6804aee7f6062",
+      "estimated_nr_results": 0,
+      "items": 0
+    },
+    {
+      "id": "ia-linked-2024",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F20960%2Fschwarzwaldstube_web_d-1.pdf&output=json&filter=statuscode%3A200&collapse=digest&limit=30",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "zeilen": 0
+    },
+    {
+      "id": "arquivo-linked-2021",
+      "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Ftraube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F4874%2Fspeisekarte_deutsch.pdf&maxItems=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "sha256": "e71a1cfd98ea07fd86bfe469e8b84a22c5c59c64b905b28cbb4f8840ebe7aff5",
+      "estimated_nr_results": 0,
+      "items": 0
+    },
+    {
+      "id": "ia-linked-2021",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F4874%2Fspeisekarte_deutsch.pdf&output=json&filter=statuscode%3A200&collapse=digest&limit=30",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "sha256": "db88ead51bbff698a6750aad5ecf62a68471031d88002df771be1571a5984760",
+      "zeilen": 1
+    }
+  ],
+  "inhaltsabrufe": [
+    {
+      "id": "cc-warc-ycl-hafenmeister",
+      "url": "https://data.commoncrawl.org/crawl-data/CC-MAIN-2024-51/segments/1733066110042.43/warc/CC-MAIN-20241212155226-20241212185226-00092.warc.gz",
+      "range": "bytes=952304040-952308489",
+      "original_url": "https://www.ycla.de/hafen/hafenmeister",
+      "timestamp": "20241212160815",
+      "abgerufen_am": "2026-10-21",
+      "index_record": {
+        "urlkey": "de,ycla)/hafen/hafenmeister",
+        "timestamp": "20241212160815",
+        "url": "https://www.ycla.de/hafen/hafenmeister",
+        "mime": "text/html",
+        "mime-detected": "text/html",
+        "status": "200",
+        "digest": "E2MW6YUHOR3NTYJRPQ2ZF6Z4EAW4MD6T",
+        "length": "4450",
+        "offset": "952304040",
+        "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066110042.43/warc/CC-MAIN-20241212155226-20241212185226-00092.warc.gz",
+        "languages": "deu,eng",
+        "encoding": "UTF-8"
+      },
+      "http_status": 206,
+      "warc_gzip_sha256": "2307fe3a7802416df4a9318bae3a2e1fc27e00f4fc245cfe134105b57ea9309f",
+      "payload_sha256": "01ba6ab9ff37affcd9eeebbc15b559387b0e5b0b533514041756ebd86dc850c7",
+      "payload_sha1_base32": "E2MW6YUHOR3NTYJRPQ2ZF6Z4EAW4MD6T"
+    },
+    {
+      "id": "gourmed-live",
+      "angefragt": "https://gour-med.de/files/folder.165/gour-med-3-4-2024.pdf",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://gour-med.de/hefte",
+      "content_type": "text/html",
+      "memento_datetime": null,
+      "transport_sha256": "cfb628dcbeb4862c8d9bb6d6088bb7c920fedc0cd55603bb3f8bd73612ce99e0",
+      "sha256": "cfb628dcbeb4862c8d9bb6d6088bb7c920fedc0cd55603bb3f8bd73612ce99e0",
+      "bytes": 23797
+    },
+    {
+      "id": "menu-old-live",
+      "angefragt": "https://www.traube-tonbach.de/site/assets/files/22043/schwarzwaldstube_web_d.pdf",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://www.traube-tonbach.de/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": null,
+      "transport_sha256": "e3ad478b7292640f71f9a32dd72ffdbe1ecf487f34ba846108b929c143558389",
+      "sha256": "e3ad478b7292640f71f9a32dd72ffdbe1ecf487f34ba846108b929c143558389",
+      "bytes": 377830
+    },
+    {
+      "id": "menu2023-scribd",
+      "angefragt": "https://de.scribd.com/document/669502694/schwarzwaldstube-d-03-2023-web-menu",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://de.scribd.com/document/669502694/schwarzwaldstube-d-03-2023-web-menu",
+      "content_type": "text/html; charset=utf-8",
+      "memento_datetime": null,
+      "transport_sha256": "b162c3678ded2af7ba745a26afe5ee8f8d34c9472912cfaf3020f1a83e1a524e",
+      "sha256": "b162c3678ded2af7ba745a26afe5ee8f8d34c9472912cfaf3020f1a83e1a524e",
+      "bytes": 1232824
+    },
+    {
+      "id": "menue-2024-original",
+      "angefragt": "https://web.archive.org/web/20241121050023id_/https://www.traube-tonbach.de/site/assets/files/22043/schwarzwaldstube_web_d.pdf",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20241121050023id_/https://www.traube-tonbach.de/site/assets/files/22043/schwarzwaldstube_web_d.pdf",
+      "content_type": "application/pdf",
+      "memento_datetime": "Thu, 21 Nov 2024 05:00:23 GMT",
+      "transport_sha256": "a39068d4e551792b996dc3f022239628f8fff3ecd5fcfaa842ca4fe3023e788f",
+      "sha256": "a39068d4e551792b996dc3f022239628f8fff3ecd5fcfaa842ca4fe3023e788f",
+      "bytes": 18955
+    },
+    {
+      "id": "gourmed-2024-archiv",
+      "angefragt": "https://web.archive.org/web/20251128001233id_/https://gour-med.de/files/folder.165/gour-med-3-4-2024.pdf",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20251128001233id_/https://gour-med.de/files/folder.165/gour-med-3-4-2024.pdf",
+      "content_type": "application/pdf",
+      "memento_datetime": "Fri, 28 Nov 2025 00:12:33 GMT",
+      "transport_sha256": "8d5755f14e225ec442aebd0e0ca4cfc2c07f3139e704757cf5a72babcf7cb727",
+      "sha256": "8d5755f14e225ec442aebd0e0ca4cfc2c07f3139e704757cf5a72babcf7cb727",
+      "bytes": 12427952
+    },
+    {
+      "id": "arquivo-restaurant-2024",
+      "angefragt": "https://arquivo.pt/wayback/20240812145855id_/https://traube-tonbach.de/restaurants-bar/schwarzwaldstube",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://arquivo.pt/wayback/20240812145855id_/https://traube-tonbach.de/restaurants-bar/schwarzwaldstube/",
+      "content_type": "text/html",
+      "memento_datetime": "Mon, 12 Aug 2024 14:58:55 GMT",
+      "transport_sha256": "e8819f5050bd89daf21c035599097f9a0047cac7081964552ba80f2f58e64ec6",
+      "sha256": "e8819f5050bd89daf21c035599097f9a0047cac7081964552ba80f2f58e64ec6",
+      "bytes": 223869
+    },
+    {
+      "id": "arquivo-restaurant-2021",
+      "angefragt": "https://arquivo.pt/wayback/20210916192005id_/https://traube-tonbach.de/restaurants-bar/schwarzwaldstube",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://arquivo.pt/wayback/20210916192005id_/https://traube-tonbach.de/restaurants-bar/schwarzwaldstube/",
+      "content_type": "text/html; charset=utf-8",
+      "memento_datetime": "Thu, 16 Sep 2021 19:20:05 GMT",
+      "transport_sha256": "80786503f7b0c1bb602c2983997fae20d775f009809df83bd9abd7622c7f3600",
+      "sha256": "80786503f7b0c1bb602c2983997fae20d775f009809df83bd9abd7622c7f3600",
+      "bytes": 188310
+    },
+    {
+      "id": "archive-today-ycl",
+      "angefragt": "https://archive.ph/https://www.ycla.de/fileadmin/redakteure/Antraege__Statuten/2023_Gebuehrenordnung_Verein_unterschrieben.pdf",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "menue-2021-original",
+      "angefragt": "https://web.archive.org/web/20211024192526id_/https://www.traube-tonbach.de/site/assets/files/4874/speisekarte_deutsch.pdf",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20211024192526id_/https://www.traube-tonbach.de/site/assets/files/4874/speisekarte_deutsch.pdf",
+      "content_type": "application/pdf",
+      "memento_datetime": "Sun, 24 Oct 2021 19:25:26 GMT",
+      "transport_sha256": "3c35e40bba048e94ce125a8292dd24ecf6b08c4e2151736da461789cd78239ff",
+      "sha256": "3c35e40bba048e94ce125a8292dd24ecf6b08c4e2151736da461789cd78239ff",
+      "bytes": 24534
+    }
+  ],
+  "grenzen": [
+    "Nur konkret geprüfte Archive/Indizes; keine Vollständigkeitsbehauptung.",
+    "Arquivo.pt kann unscharfe is_fuzzy-Antworten liefern. Inhaltstypen und Original-URLs wurden geprüft, keine Anzahl als Preisbeleg übernommen.",
+    "Common Crawl: 69 YCL-Einträge in CC-MAIN-2024-51; ein WARC-Datensatz tatsächlich gelesen und sein SHA-1 mit dem Index verglichen. Keine Tarif-PDFs unter diesen Treffern.",
+    "Archiv-HTTP-Fehler, Root-Redirects und Suchsnippets sind keine Preisbelege.",
+    "Scribd-Titel allein datiert keine Originalkarte; kein zusätzlicher 2023er Preis übernommen.",
+    "Keine Archivierung neu angefordert, keine Captcha-/Zugriffssperren umgangen, keine Anbieter kontaktiert."
+  ]
+}

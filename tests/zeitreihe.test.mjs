@@ -4,7 +4,24 @@ import {readFileSync} from 'node:fs';
 import {berechne,berechneEinzelreihe} from '../dist/zeitreihe/berechnung.mjs';
 const data=JSON.parse(readFileSync(new URL('../dist/zeitreihe/daten.json',import.meta.url),'utf8'));
 const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} ≠ ${b}`);
-test('Archivrecherche: sieben neue Fakten, alte Beobachtungen und Quellen unverändert',()=>{
+test('Weitere Archive: Originalkarten korrekt datiert, 61 alte Beobachtungen erhalten und kein erfundener 2022er Wert',()=>{
+ const before=JSON.parse(readFileSync(new URL('../data/research/archivnachrecherche-2026-10-21.json',import.meta.url),'utf8'));
+ const flatten=d=>d.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
+ const current=new Map(flatten(data).map(o=>[o.id,o]));
+ for(const o of flatten(before))assert.deepEqual(current.get(o.id),o);
+ assert.equal(flatten(data).length-flatten(before).length,2);
+ for(const [year,amount,date] of [[2021,265,'2021-10-24'],[2024,325,'2024-11-21']]){
+  const o=current.get(`schwarzwald-original-archiv-${year}`);
+  assert.equal(o.betrag,amount);assert.equal(o.preisdatum,date);assert.match(o.datumstyp,/Archivierter Angebotsstand/);
+  assert.match(o.umsatzsteuer,/Inklusive MwSt/);assert.equal(o.indexfreigabe,false);
+  const s=data.quellen.find(s=>s.id===o.quelle_id);assert.equal(s.archiv_timestamp.slice(0,8),date.replaceAll('-',''));
+ }
+ assert.equal(current.get('schwarzwald-2024-menue').preisdatum,'2024-11-11');
+ const s=data.produkte.find(p=>p.id==='schwarzwaldstube-menue-ii');
+ assert.ok(![...s.beobachtungen,...s.zusätzliche_historische_beobachtungen].some(o=>o.preisdatum?.startsWith('2022')));
+ assert.equal(data.weitere_archive.gesamt_beobachtungen,63);
+});
+test('Archivrecherchen: neun neue Fakten seit 17.10., alte Beobachtungen und Quellen unverändert',()=>{
  const previous=JSON.parse(readFileSync(new URL('../data/research/produktpruefung-2026-10-17.json',import.meta.url),'utf8'));
  const flatten=d=>d.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
  const obs=new Map(flatten(data).map(o=>[o.id,o]));
@@ -12,7 +29,7 @@ test('Archivrecherche: sieben neue Fakten, alte Beobachtungen und Quellen unver�
  for(const s of previous.quellen)assert.deepEqual(data.quellen.find(q=>q.id===s.id),s);
  assert.equal(data.archivnachrecherche.neue_beobachtungen,7);
  assert.equal(data.archivnachrecherche.neue_beobachtung_ids.length,7);
- assert.equal(flatten(data).length-flatten(previous).length,7);
+ assert.equal(flatten(data).length-flatten(previous).length,9);
  const tariff=obs.get('alarm-securando-archiv-20220524');
  assert.equal(tariff.betrag,20);assert.equal(tariff.gültigkeit.bis,'2022-06-30');assert.match(tariff.umsatzsteuer,/19/);
  for(const year of [2023,2024,2025,2026]){
@@ -28,7 +45,7 @@ test('Archivrecherche: sieben neue Fakten, alte Beobachtungen und Quellen unver�
  const allowed=new Set(data.archivnachrecherche.neue_beobachtung_ids);
  assert.ok([...data.pilot_reihen,...data.einzel_reihen].flatMap(s=>s.punkte).every(p=>p.beobachtung_ids.every(id=>!allowed.has(id))));
  const registry=JSON.parse(readFileSync(new URL('../data/research/produktregister.json',import.meta.url),'utf8'));
- assert.equal(registry.produkte.reduce((n,p)=>n+p.anzahl_beobachtungen,0),61);
+ assert.equal(registry.produkte.reduce((n,p)=>n+p.anzahl_beobachtungen,0),63);
 });
 test('Zusätzliche Zeitreihen: 17 Originalbelege, keine Zukunftstarife oder Referenzverkettung',()=>{
  assert.equal(data.einzel_reihen.length,4);
@@ -177,7 +194,7 @@ test('Archivstand ersetzt keine Tarifgültigkeit und kein neuerliches VPI-Abrufd
  const salem=obs.find(o=>o.id==='salem-archiv-2025');assert.equal(salem.betrag,50400);
  assert.ok(data.quellen.find(s=>s.id===salem.quelle_id).archiv_timestamp.startsWith('2024'));
  const kelly=obs.find(o=>o.id==='kelly-saclab-archiv-2024');assert.equal(kelly.betrag,21800);assert.match(kelly.preisart,/Sekundärmarkt/);assert.equal(kelly.indexfreigabe,false);
- assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),61);
+ assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),63);
 });
 
 test('Julius-Bär-Schema: 20 Komponenten und exakte 20/10/70-Verteilung',()=>{
