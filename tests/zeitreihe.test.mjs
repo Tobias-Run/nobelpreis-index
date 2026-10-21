@@ -4,6 +4,32 @@ import {readFileSync} from 'node:fs';
 import {berechne,berechneEinzelreihe} from '../dist/zeitreihe/berechnung.mjs';
 const data=JSON.parse(readFileSync(new URL('../dist/zeitreihe/daten.json',import.meta.url),'utf8'));
 const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} ≠ ${b}`);
+test('Pragmatischer Neuner-Vergleich: feste Auswahl, höhere Grundvarianten, nur echte Belege',()=>{
+ const choice=data.pragmatische_auswahl;
+ assert.equal(choice.positionen.length,9);assert.equal(data.praxis_reihen.length,9);
+ const chosen=new Set(choice.positionen.map(p=>p.produkt_id));
+ const outside=new Set(choice.nicht_im_vergleich.map(p=>p.produkt_id));
+ assert.equal(chosen.size,9);assert.equal(outside.size,4);
+ assert.equal([...chosen].filter(id=>outside.has(id)).length,0);
+ assert.deepEqual([...chosen,...outside].sort(),data.produkte.map(p=>p.id).sort());
+ const all=new Map(data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]).map(o=>[o.id,o]));
+ for(const r of data.praxis_reihen){
+  assert.ok(chosen.has(r.id));assert.deepEqual(r.punkte.map(p=>p.jahr),[2025,2026]);
+  for(const p of r.punkte){
+   close(p.betrag,p.beobachtung_ids.reduce((n,id)=>n+all.get(id).betrag,0));
+   for(const id of p.beobachtung_ids)assert.ok(!/angek|zukünftig/.test(all.get(id).zeitstatus));
+  }
+ }
+ const r=berechne(data.praxis_reihen,[2025,2026],data.referenz);
+ close(r.anstieg,4.6026838528764324);close(r.vpiAnstieg,100*(125.8/122.3-1));
+ close(r.beitraege.reduce((n,b)=>n+b.prozentpunkte,0),r.anstieg);
+ for(const b of r.beitraege)close(b.gewicht,1/9);
+ const lan=data.praxis_reihen.find(r=>r.id==='lanserhof-sylt');assert.deepEqual(lan.punkte.map(p=>p.betrag),[4046,3990]);
+ assert.ok(lan.punkte.every(p=>p.beobachtung_ids.every(id=>/plus/.test(id))));
+ assert.deepEqual(data.praxis_reihen.find(r=>r.id==='skiurlaub-arlberg').punkte.map(p=>p.betrag),[423,450]);
+ assert.deepEqual(data.praxis_reihen.find(r=>r.id==='bayreuth-parsifal').punkte.map(p=>p.betrag),[358,358]);
+ assert.ok(!chosen.has('alarmaufschaltung'));assert.ok(!chosen.has('hermes-kelly'));
+});
 test('Weitere Archive: Originalkarten korrekt datiert, 61 alte Beobachtungen erhalten und kein erfundener 2022er Wert',()=>{
  const before=JSON.parse(readFileSync(new URL('../data/research/archivnachrecherche-2026-10-21.json',import.meta.url),'utf8'));
  const flatten=d=>d.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
@@ -47,10 +73,10 @@ test('Archivrecherchen: neun neue Fakten seit 17.10., alte Beobachtungen und Que
  const registry=JSON.parse(readFileSync(new URL('../data/research/produktregister.json',import.meta.url),'utf8'));
  assert.equal(registry.produkte.reduce((n,p)=>n+p.anzahl_beobachtungen,0),63);
 });
-test('Zusätzliche Zeitreihen: 17 Originalbelege, keine Zukunftstarife oder Referenzverkettung',()=>{
- assert.equal(data.einzel_reihen.length,4);
+test('Zusätzliche Zeitreihen: 28 Originalbelege, keine Zukunftstarife oder Referenzverkettung',()=>{
+ assert.equal(data.einzel_reihen.length,8);
  const obs=new Map(data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]).map(o=>[o.id,o]));
- assert.equal(data.einzel_reihen.flatMap(s=>s.punkte).length,17);
+ assert.equal(data.einzel_reihen.flatMap(s=>s.punkte).length,28);
  for(const s of data.einzel_reihen){
   assert.equal(s.indexfreigabe,false);
   for(const p of s.punkte){

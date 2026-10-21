@@ -25,7 +25,7 @@ allobs={o['id']:o for o in observations}
 assert len(allobs)==len(observations), 'Doppelte Beobachtungs-ID'
 def point(year,ids):
  os=[allobs[i] for i in ids]
- assert all(o['zeitstatus']!='angekündigt' for o in os)
+ assert all(not any(k in o['zeitstatus'] for k in ('angek','zukünftig')) for o in os)
  return {'jahr':year,'betrag':sum(o['betrag'] for o in os),'beobachtung_ids':ids,'quelle_ids':list(dict.fromkeys(o['quelle_id'] for o in os))}
 series=[
  {'id':'bayreuth-parsifal','kurzname':'Bayreuth · Parsifal','einheit':'EUR je Ticket inklusive Pflichtgebühr','definition':'A1 Parkett Mitte, Parsifal ohne AR, online und digital; 352 EUR + 6 EUR je Platz.','punkte':[point(y,[f'bayreuth-ticket-{y}',f'bayreuth-gebühr-{y}']) for y in [2024,2025,2026]],'grenze':'Nur Festspieltarif, keine garantierte Verfügbarkeit. 2024 archiviertes Original; Steuer-Zweitprüfung offen.'},
@@ -50,7 +50,24 @@ for r in new_rows:
  assert math.isfinite(float(r['OBS_VALUE'])) and float(r['OBS_VALUE'])>0
 new_ref={**ref,'abgerufen_am':meta['abgerufen_am'],'download_url':meta['url'],'sha256':meta['sha256'],'vergleichsmonat':'Je Reihe: September, Dezember oder tatsächlicher Beobachtungsmonat','methodenhinweis':meta['hinweis'],'quelldatei':str(NEW_SRC.relative_to(ROOT)),'beobachtungen':[{'monat':r['TIME_PERIOD'],'wert':float(r['OBS_VALUE'])} for r in new_rows]}
 extra=einzelreihen_erstellen(allobs)
-payload.update({'version':'poc-0.3.2','ansicht_stand':'2026-10-21','einzel_reihen':extra,'einzel_referenz':new_ref})
+praxis=json.loads((ROOT/'data/methodik/pragmatische-auswahl-2026-10-21.json').read_text())
+praxis_reihen=[]
+assert len(praxis['positionen'])==9 and len({p['produkt_id'] for p in praxis['positionen']})==9
+assert {p['produkt_id'] for p in praxis['positionen']} | {p['produkt_id'] for p in praxis['nicht_im_vergleich']} == {p['id'] for p in x['produkte']}
+for p in praxis['positionen']:
+ assert p['gewicht_bruch']=={'zaehler':1,'nenner':9}
+ produkt=next(q for q in x['produkte'] if q['id']==p['produkt_id'])
+ produkt_ids={o['id'] for o in produkt['beobachtungen']+produkt['zusätzliche_historische_beobachtungen']}
+ assert all(oid in produkt_ids for gruppe in p['beobachtung_ids'].values() for oid in gruppe)
+ os=[allobs[p['beobachtung_ids']['2025'][0]]]
+ praxis_reihen.append({'id':p['produkt_id'],'kurzname':p['name'],'einheit':'EUR · '+os[0]['einheit'],'definition':p['referenzentscheidung'],'grenze':p['grenze'],'punkte':[point(y,p['beobachtung_ids'][str(y)]) for y in praxis['jahre']]})
+ for q in praxis_reihen[-1]['punkte']:
+  o=allobs[q['beobachtung_ids'][0]]
+  datum=o.get('preisdatum')
+  text=datum[8:10]+'.'+datum[5:7]+'.'+datum[:4] if datum else (o.get('gültigkeit') or {}).get('bezeichnung','Jahresbeleg')
+  q['label']=str(q['jahr'])+' · '+text
+payload.update({'version':'poc-0.4.0','ansicht_stand':'2026-10-21','einzel_reihen':extra,'einzel_referenz':new_ref,'pragmatische_auswahl':praxis,'praxis_reihen':praxis_reihen})
+payload['methodik']['geltungsbereich']='Dieser Block beschreibt den historischen Zweier-Pilot. Der neue nominale Neuner-Vergleich ist in pragmatische_auswahl mit eigenen Auswahlregeln und Grenzen dokumentiert.'
 (ROOT/'dist/zeitreihe/daten.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(x["produkte"])} Positionen, {len(allobs)} Einzelbeobachtungen, {len(series)} Pilot-Teilreihen, {len(rows)} VPI-Monate validiert.')
 print(f'Erweiterung: {len(extra)} Einzelreihen, {sum(len(s["punkte"]) for s in extra)} belegte Punkte, {len(new_rows)} zusätzliche Referenzmonate.')
