@@ -1451,6 +1451,32 @@
       "sha256": "2a630ff4931441879f04a31dd802fcae9c2228c0a91dd7b0ad388d94e2d95746",
       "memento_datetime": "Sun, 26 Jan 2025 23:54:33 GMT",
       "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "plus21-menue-2021-original",
+      "titel": "Schwarzwaldstube: archivierte Originalkarte, Angebotsstand 2021-10-24",
+      "url": "https://web.archive.org/web/20211024192526/https://www.traube-tonbach.de/site/assets/files/4874/speisekarte_deutsch.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20211024192526id_/https://www.traube-tonbach.de/site/assets/files/4874/speisekarte_deutsch.pdf",
+      "archiv_timestamp": "20211024192526",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierte Originalkarte des Restaurants",
+      "fundstelle": "PDF S. 1, Menüspalte und Preis, sieben getrennte Positionen; Fußzeile Preise in Euro inklusive MwSt. Text und Bild geprüft.",
+      "sha256": "3c35e40bba048e94ce125a8292dd24ecf6b08c4e2151736da461789cd78239ff",
+      "memento_datetime": "Sun, 24 Oct 2021 19:25:26 GMT",
+      "weiterverwendungsrechte": "Nur ausgewählte Preisfakten und Quellenverweise; keine Veröffentlichung der vollständigen Karte oder Bilder."
+    },
+    {
+      "id": "plus21-menue-2024-original",
+      "titel": "Schwarzwaldstube: archivierte Originalkarte, Angebotsstand 2024-11-21",
+      "url": "https://web.archive.org/web/20241121050023/https://www.traube-tonbach.de/site/assets/files/22043/schwarzwaldstube_web_d.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20241121050023id_/https://www.traube-tonbach.de/site/assets/files/22043/schwarzwaldstube_web_d.pdf",
+      "archiv_timestamp": "20241121050023",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierte Originalkarte des Restaurants",
+      "fundstelle": "PDF S. 1, Menüspalte und Preis, sieben getrennte Positionen; Fußzeile Preise in Euro inklusive MwSt. Text und Bild geprüft.",
+      "sha256": "a39068d4e551792b996dc3f022239628f8fff3ecd5fcfaa842ca4fe3023e788f",
+      "memento_datetime": "Thu, 21 Nov 2024 05:00:23 GMT",
+      "weiterverwendungsrechte": "Nur ausgewählte Preisfakten und Quellenverweise; keine Veröffentlichung der vollständigen Karte oder Bilder."
     }
   ],
   "produkte": [
@@ -3205,10 +3231,10 @@
       ],
       "historienprüfung": {
         "status": "leistungswechsel belegt",
-        "ergebnis": "Aktuelles Original-PDF direkt gesichert; sieben Gänge Menü II und Preis 385 EUR inkl. MwSt. bestätigt. Historische Karte 2025 enthält andere Speisen. Steuerwechsel 19→7 % ab 01.01.2026 dokumentiert.",
-        "grenze": "Keine qualitätsbereinigte Menüinflation; sieben Gänge allein garantieren keine identische Leistung. Keine rückwirkende Netto-Preisreihe ohne genaue Steuerbelege.",
-        "quelle_id": "pruefung-schwarzwald2026",
-        "geprüft_am": "2026-10-17"
+        "ergebnis": "Originalkarten gefunden: 24.10.2021 großes Degustationsmenü 265 EUR, 21.11.2024 Menü II 325 EUR, jeweils sieben Positionen und inklusive MwSt. Der 2024er Primärbeleg ergänzt den früheren Portalstand.",
+        "grenze": "Keine identischen Speisen/Qualität über die Jahre; großes Degustationsmenü 2021 nicht automatisch Menü II. Keine Interpolation für 2022, keine automatische Indexfreigabe.",
+        "quelle_id": "plus21-menue-2024-original",
+        "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [
         {
@@ -3244,6 +3270,48 @@
           "indexfreigabe": false,
           "prüfstatus": "Quelle gelesen; redaktionelle Zweitprüfung und Vergleichbarkeit offen",
           "variante": "Menü II, sieben Gänge"
+        },
+        {
+          "id": "schwarzwald-original-archiv-2021",
+          "betrag": 265,
+          "einheit": "Menü pro Person",
+          "variante": "Großes Degustationsmenü, sieben Positionen; nicht als Menü II bezeichnet",
+          "preisart": "Veröffentlichter Menüpreis in archivierter Originalkarte",
+          "quelle_id": "plus21-menue-2021-original",
+          "preisdatum": "2021-10-24",
+          "datumstyp": "Archivierter Angebotsstand; kein belegter Beginn der Preisgültigkeit",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "Inklusive MwSt. laut Fußzeile der Originalkarte",
+          "abgerufen_am": "2026-10-21",
+          "belegqualität": "Archivierte Primärquelle, visuell und als Text gelesen",
+          "prüfstatus": "Historischer Menübeleg; keine Freigabe als qualitätsbereinigte Indexreihe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Gangzahl allein garantiert keine gleiche Leistung über die Jahre. Keine unbemerkte Verkettung oder Interpolation.",
+            "Großes Degustationsmenü ist nicht nachgewiesen identisch mit späterem Menü II; Restaurant-/Leistungsänderungen gesondert prüfen. Kein 2022er Wert gefunden oder ergänzt."
+          ]
+        },
+        {
+          "id": "schwarzwald-original-archiv-2024",
+          "betrag": 325,
+          "einheit": "Menü pro Person",
+          "variante": "Degustationsmenü II, sieben Positionen",
+          "preisart": "Veröffentlichter Menüpreis in archivierter Originalkarte",
+          "quelle_id": "plus21-menue-2024-original",
+          "preisdatum": "2024-11-21",
+          "datumstyp": "Archivierter Angebotsstand; kein belegter Beginn der Preisgültigkeit",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "Inklusive MwSt. laut Fußzeile der Originalkarte",
+          "abgerufen_am": "2026-10-21",
+          "belegqualität": "Archivierte Primärquelle, visuell und als Text gelesen",
+          "prüfstatus": "Historischer Menübeleg; keine Freigabe als qualitätsbereinigte Indexreihe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Gangzahl allein garantiert keine gleiche Leistung über die Jahre. Keine unbemerkte Verkettung oder Interpolation.",
+            "Zusätzlicher Primärbeleg vom 21.11.2024; vorheriger Portalstand vom 11.11.2024 bleibt mit eigener Datierung erhalten. Zwei Beobachtungen im selben Jahr sind keine zwei unabhängigen Jahresraten."
+          ]
         }
       ],
       "abschlusspruefung": {
@@ -3487,6 +3555,18 @@
     "gesamt_beobachtungen": 61,
     "hinweis": "Preisstände, Ab-Preise und Komponenten; keine sieben neu freigegebenen Indexwerte. Historische Ausgangsdateien bleiben unverändert.",
     "bericht": "docs/archivluecken-2026-10-21.md"
+  },
+  "weitere_archive": {
+    "stand": "2026-10-21",
+    "basis": "data/research/archivnachrecherche-2026-10-21.json",
+    "neue_beobachtung_ids": [
+      "schwarzwald-original-archiv-2021",
+      "schwarzwald-original-archiv-2024"
+    ],
+    "gesamt_beobachtungen": 63,
+    "bericht": "docs/weitere-archive-2026-10-21.md",
+    "protokoll": "data/research/weitere-archive-protokoll-2026-10-21.json",
+    "hinweis": "Zwei zusätzliche datierte Originalbeobachtungen, keine zwei freigegebenen Indexwerte. Alle 61 bisherigen Beobachtungen bleiben unverändert."
   },
   "gewichtungspruefung": {
     "schema_version": "1.0-gewichtungspruefung",
@@ -4239,8 +4319,8 @@
     "impulshinweis": "Rein synthetisch: Cayenne +10 %, alle anderen Preise unverändert. Keine historische Beobachtung oder Prognose.",
     "lueckenhinweis": "Pilotabdeckung bezeichnet geplantes Gewicht der zwei vorhandenen Teilreihen, keine redaktionelle Freigabe oder Vollpreisabdeckung. Fehlende Gewichte werden im Gesamtindex nicht umverteilt."
   },
-  "version": "poc-0.3.1",
-  "recherche_sha256": "615d1b37505c1abffd7ae02bad09ad2a4a42383b4b5cb689178cdeae0ce8b5e8",
+  "version": "poc-0.3.2",
+  "recherche_sha256": "37527428a2f38f2f4e3b3a68468a2697a89cf4715fa4bd3620a2142bfc18addb",
   "pilot_reihen": [
     {
       "id": "bayreuth-parsifal",

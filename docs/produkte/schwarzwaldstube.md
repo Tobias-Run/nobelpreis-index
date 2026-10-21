@@ -51,3 +51,9 @@ Keine qualitätsbereinigte Menüinflation; sieben Gänge allein garantieren kein
 Exakte aktuelle Karten-URL ohne CDX-Treffer; breite und zeitlich eingegrenzte PDF-Suchen mit HTTP 503. Keine neue historische Originalkarte aufgenommen; kein Nachweis einer globalen Nichtverfügbarkeit.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+## Alternative Archive und alte Kartenpfade · 21.10.2026
+
+Zwei datierte Originalkarten gefunden und als zusätzliche Beobachtungen aufgenommen: großes Degustationsmenü am 24.10.2021 für 265 EUR und Menü II am 21.11.2024 für 325 EUR, jeweils sieben Positionen und inklusive MwSt. Die PDFs wurden visuell und als Text geprüft. Eine alte Arquivo.pt-Seite erschloss den 2021er Kartenpfad, die PDFs selbst sind bei Wayback abrufbar. Keine Umdeutung als Preisänderungstermin oder qualitätsbereinigte Inflation.
+
+[Fundstellen, Archivabdeckung und Grenzen](../weitere-archive-2026-10-21.md) · [Neuer Datenstand](../../data/research/archiverweiterung-2026-10-21.json).
