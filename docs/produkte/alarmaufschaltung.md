@@ -59,3 +59,9 @@ Kein zusätzliches Preisjahr; aktuelle identische Anbieterleistung fehlt. Abweic
 Leistung, Übertragungsweg, Laufzeit, Einrichtung, inklusive Ereignisse und Pflichtgebühren müssen in einem aktuellen Tarifblatt bestätigt werden.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+## Weitere Archivrecherche · 21.10.2026
+
+Fünf weitere historische Beobachtungen: vier datierte FAQ-Ab-Angebote ab 20 EUR/Monat (2023–April 2026) und eine zusätzliche klar datierte Privat-Tarifversion vom 24.05.2022, gültig bis 30.06.2022. Keine bestätigte Nullinflation eines identischen Komplettpakets.
+
+[Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.

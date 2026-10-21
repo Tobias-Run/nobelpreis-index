@@ -45,3 +45,9 @@ Abruf aller Quellen: 16.10.2026. Die aktuelle PDF wurde im Webwerkzeug gelesen u
 Keine qualitätsbereinigte Menüinflation; sieben Gänge allein garantieren keine identische Leistung. Keine rückwirkende Netto-Preisreihe ohne genaue Steuerbelege.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+## Weitere Archivrecherche · 21.10.2026
+
+Exakte aktuelle Karten-URL ohne CDX-Treffer; breite und zeitlich eingegrenzte PDF-Suchen mit HTTP 503. Keine neue historische Originalkarte aufgenommen; kein Nachweis einer globalen Nichtverfügbarkeit.
+
+[Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.

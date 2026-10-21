@@ -50,3 +50,9 @@ Keine 250→265-Inflationsreihe: Sonderkonditionen, City-Tax-Behandlung und Stor
 Datiertes öffentliches Angebot ohne Frühstück und mit Steuer-/Stornobedingungen fehlt. Erhebungsprotokoll für Reisezeit, Vorlauf und Belegung festgelegt.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+## Weitere Archivrecherche · 21.10.2026
+
+Keine neue passende öffentliche flexible Deluxe-Rate. Breite PDF-Archivsuche lief in einen Timeout, eingegrenzte Suche lieferte teils HTTP 503. Technische Prüflücke bleibt ausdrücklich offen.
+
+[Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.

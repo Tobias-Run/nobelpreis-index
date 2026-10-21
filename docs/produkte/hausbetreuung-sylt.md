@@ -64,3 +64,9 @@ Individuelle datierte Angebote oder Rechnungen nötig. Fehlender Treffer bei ein
 Standardbetrag sowie passende historische Angebote/Rechnungen fehlen. Material, Handwerkerkoordination und Vermietung bleiben getrennt; konkreter Recherche-Anfragetext liegt vor.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+## Weitere Archivrecherche · 21.10.2026
+
+D&A-Archivstände 2019, 2021, 2023 und 2025 gelesen: kein verwendbarer Betrag des definierten Kontrollpakets. Allgemeine Anbieterbeschreibungen ersetzen kein datiertes Angebot.
+
+[Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.

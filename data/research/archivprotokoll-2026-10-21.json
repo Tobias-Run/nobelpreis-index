@@ -1,0 +1,422 @@
+{
+  "stand": "2026-10-21",
+  "hinweis": "CDX ist eine Suchhilfe, keine Preisquelle. HTTP-Fehler/Timeouts und Nulltreffer betreffen nur die konkrete Abfrage. Gefundene CDX-Einträge wurden nur nach Lesen des archivierten Inhalts als Beleg verwendet. Vollständige Quellseiten/PDFs bleiben lokal; keine Anbieter kontaktiert.",
+  "abfragen": [
+    {
+      "id": "ycl-pdf",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=%2A.ycla.de%2F%2A&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&filter=original%3A.%2A%5BGg%5Deb.%2A&collapse=urlkey&limit=500",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 52,
+      "limit": "500",
+      "sha256": "e13ee9db3a0f7d24f0313b1518454befdf89dfe4bf74717be8e93bf11f9b7a81"
+    },
+    {
+      "id": "alarm-pdf",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=securando.de%2F%2A&matchType=domain&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&filter=original%3A.%2A%28%5BMm%5Donitor%7C%5BPp%5Dreis%7C%5BSs%5Decuritas%29.%2A&collapse=urlkey&limit=200",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 1,
+      "limit": "200",
+      "sha256": "ea616a95c5564180c176361a1a9fd9660b815e144bdab8d9a650abec8d341609"
+    },
+    {
+      "id": "kelly-genau",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=saclab.com%2Fde%2Fbags%2Fhermes-kelly-28-togo-black-8%2F&filter=statuscode%3A200&collapse=digest&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 1,
+      "limit": "100",
+      "sha256": "c5db845e0bfcdb077f12ac5c52fad61c3248626b757e0ee89175db1319651219"
+    },
+    {
+      "id": "lanserhof-pdf",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=api.lanserhof.com%2F%2A&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&filter=original%3A.%2A%28LHS%7Clhs%7CSylt%7Csylt%29.%2A&collapse=urlkey&limit=200",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 10,
+      "limit": "200",
+      "sha256": "6f7be755797cb40f4a9213b117b1dbefe07674140ed9d8069e2731f74aeeb1c8"
+    },
+    {
+      "id": "ycl2023-name",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=%2Aycla.de%2F%2A2023%2A&filter=statuscode%3A200&collapse=urlkey&limit=200",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 0,
+      "limit": "200",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "id": "ycl2024-name",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=%2Aycla.de%2F%2A2024%2A&filter=statuscode%3A200&collapse=urlkey&limit=200",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 0,
+      "limit": "200",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "id": "sylt-enkelmann",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=hausbetreuung-enkelmann.de&matchType=domain&filter=statuscode%3A200&filter=original%3A.%2A%28%5BPp%5Dreis%7C%5BAa%5Dngebot%7C%5BPp%5Daket%29.%2A&collapse=digest&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 1,
+      "limit": "100",
+      "sha256": "1deb9c87e4505f636b56c4c2f8cc73c71111548bb9c49577283098c1a314aeb4"
+    },
+    {
+      "id": "sylt-haushand",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=haus-hand.de&matchType=domain&filter=statuscode%3A200&filter=original%3A.%2A%28faq%7C%5BPp%5Dreis%7C%5BPp%5Daket%7C%5BHh%5Dausbetreuung%29.%2A&collapse=urlkey&limit=150",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 0,
+      "limit": "150",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "id": "sylt-dua",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=dua-objektservice.de&matchType=domain&filter=statuscode%3A200&filter=original%3A.%2A%28preis%7Chausbetreuung%7Cangebot%29.%2A&collapse=urlkey&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "adlon-pdf",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=kempinski.com&matchType=domain&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&filter=original%3A.%2A%28%5BAa%5Ddlon%7C%5BBb%5Derlin%29.%2A&collapse=urlkey&limit=150",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "The read operation timed out"
+    },
+    {
+      "id": "schwarzwald-pdf",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=traube-tonbach.de&matchType=domain&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&filter=original%3A.%2A%28%5BSs%5Dchwarzwald%7C%5BSs%5Dpeisekarte%29.%2A&collapse=digest&limit=150",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "alarm-ajax",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=https%3A%2F%2Fwww.securando.de%2Fajax-alarmanlage-testen%2F&filter=statuscode%3A200&collapse=digest&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 12,
+      "limit": "100",
+      "sha256": "1fa1332b8cd30441eb85ba32404f09d5df4ec6d4c3eaf6707796308690abcfdb"
+    },
+    {
+      "id": "kelly-varianten",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=saclab.com%2Fde%2Fbags%2Fhermes-kelly-28-togo-black&matchType=prefix&filter=statuscode%3A200&collapse=urlkey&limit=200",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 4,
+      "limit": "200",
+      "sha256": "80b67b6adb76a0878405410f26c355dfe4560fc17e3eaf76d6b1d92bba1869d3"
+    },
+    {
+      "id": "ycl-ohne-www",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=ycla.de&matchType=domain&filter=statuscode%3A200&filter=original%3A.%2A%282023%7C2024%29.%2A&collapse=urlkey&limit=200",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 149,
+      "limit": "200",
+      "sha256": "83880ddc32247686bf07a50239d1bce46ac167b9f8ffaaeaee93a2a10b6d5b88"
+    },
+    {
+      "id": "schwarzwald-karte-genau",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=https%3A%2F%2Fwww.traube-tonbach.de%2Fassets%2Flocal%2Fmedia%2Fbrand%2FSpeisekarten%2FSchwarzwaldstube%2FSchwarzwaldstube_Speisekarte_DE.pdf&filter=statuscode%3A200&collapse=digest&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 0,
+      "limit": "100",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "id": "alarm-pdf-versionen",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=securando.de&matchType=domain&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&filter=original%3A.%2A%28%5BMm%5Donitor%7C%5BPp%5Dreis%7C%5BSs%5Decuritas%29.%2A&collapse=digest&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 1,
+      "limit": "100",
+      "sha256": "ea616a95c5564180c176361a1a9fd9660b815e144bdab8d9a650abec8d341609"
+    },
+    {
+      "id": "sylt-dua-erneut",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=www.dua-objektservice.de%2Fhausbetreuung%2F&filter=statuscode%3A200&collapse=digest&limit=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 25,
+      "limit": "50",
+      "sha256": "0158fd3c4f069c39f23c5049a595a1fd0c667a108b32b7568aebfde5c4908785"
+    },
+    {
+      "id": "adlon-angebote",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=www.kempinski.com%2Fde%2Fhotel-adlon%2Fangebote&matchType=prefix&filter=statuscode%3A200&collapse=urlkey&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 0,
+      "limit": "100",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "id": "schwarzwald-prefix",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=traube-tonbach.de%2Fassets%2Flocal%2Fmedia%2F&matchType=prefix&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&collapse=urlkey&limit=300",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "adlon-altangebote",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=kempinski.com%2Fde%2Fberlin%2Fhotel-adlon%2Fangebote&matchType=prefix&filter=statuscode%3A200&collapse=urlkey&limit=100",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "lanserhof2023-original",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=https%3A%2F%2Fapi.lanserhof.com%2Fwp-content%2Fuploads%2F2023%2F10%2F2023_LHS_Hotelpreisliste_DE_OHNEPREISE.pdf&filter=statuscode%3A200&collapse=digest&limit=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 0,
+      "limit": "50",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "id": "ycl2023-genau",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=https%3A%2F%2Fwww.ycla.de%2Ffileadmin%2Fredakteure%2FAntraege__Statuten%2F2023_Gebuehrenordnung_Verein_unterschrieben.pdf&filter=statuscode%3A200&collapse=digest&limit=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 0,
+      "limit": "50",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "id": "ycl2024-genau",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=https%3A%2F%2Fwww.ycla.de%2Ffileadmin%2Fredakteure%2FAntraege__Statuten%2FGebuehrenordnungen%2F2024_Gebuehrenordnung_Verein.pdf&filter=statuscode%3A200&collapse=digest&limit=50",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "treffer": 0,
+      "limit": "50",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "id": "schwarzwald-2024",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=www.traube-tonbach.de&matchType=domain&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&filter=timestamp%3A2024.%2A&filter=original%3A.%2A%5BSs%5Dchwarzwald.%2A&collapse=urlkey&limit=80",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "adlon-pdf-2024",
+      "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&url=www.kempinski.com&matchType=domain&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&filter=timestamp%3A2024.%2A&filter=original%3A.%2A%5BAa%5Ddlon.%2A&collapse=urlkey&limit=50",
+      "abgerufen_am": "2026-10-21",
+      "fehler": "HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "abrufe": [
+    {
+      "id": "alarm-html-2023",
+      "angefragt": "https://web.archive.org/web/20230201160929id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20230201160929id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Wed, 01 Feb 2023 16:09:29 GMT",
+      "transport_sha256": "89f1918deb99d221c14749255cc1a907fcaa5269e861ca58ea77a64ccfe5c921",
+      "sha256": "89f1918deb99d221c14749255cc1a907fcaa5269e861ca58ea77a64ccfe5c921",
+      "bytes": 122100
+    },
+    {
+      "id": "alarm-html-2024",
+      "angefragt": "https://web.archive.org/web/20240521040917id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20240521040917id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Tue, 21 May 2024 04:09:17 GMT",
+      "transport_sha256": "e3ddfdcdb760e3e69fb47a719af6942d8bdc946f3fa307d293f7d20a360f55e4",
+      "sha256": "e3ddfdcdb760e3e69fb47a719af6942d8bdc946f3fa307d293f7d20a360f55e4",
+      "bytes": 125605
+    },
+    {
+      "id": "alarm-html-2025",
+      "angefragt": "https://web.archive.org/web/20250126151945id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20250126151945id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "content_type": "text/html; charset=utf-8",
+      "memento_datetime": "Sun, 26 Jan 2025 15:19:45 GMT",
+      "transport_sha256": "db524aee61e5ad1b2c316fa840ad2f7b246fc7d147edc085177c9e1b7bdc7bf2",
+      "sha256": "db524aee61e5ad1b2c316fa840ad2f7b246fc7d147edc085177c9e1b7bdc7bf2",
+      "bytes": 131196
+    },
+    {
+      "id": "alarm-html-2026",
+      "angefragt": "https://web.archive.org/web/20260421103241id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20260421103241id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Tue, 21 Apr 2026 10:32:41 GMT",
+      "transport_sha256": "725aa366c9c22bac4278d3f76b692d5a37596e6c36f5f65bed595ad3fdef79fd",
+      "sha256": "725aa366c9c22bac4278d3f76b692d5a37596e6c36f5f65bed595ad3fdef79fd",
+      "bytes": 130517
+    },
+    {
+      "id": "kelly-2024-10",
+      "angefragt": "https://web.archive.org/web/20241212203657id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20241212203657id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Thu, 12 Dec 2024 20:36:57 GMT",
+      "transport_sha256": "0cfde5e4660fbade1b220e8fcbf36a6bac5a44a7485142d3923534c602edc145",
+      "sha256": "0cfde5e4660fbade1b220e8fcbf36a6bac5a44a7485142d3923534c602edc145",
+      "bytes": 470175
+    },
+    {
+      "id": "kelly-2023-2",
+      "angefragt": "https://web.archive.org/web/20230202210503id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-2/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20230202210503id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-2/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Thu, 02 Feb 2023 21:05:03 GMT",
+      "transport_sha256": "8b05c7c5d927edc1fe186f56f853d209b00bd04dbb5be1502e225db0d22a0274",
+      "sha256": "8b05c7c5d927edc1fe186f56f853d209b00bd04dbb5be1502e225db0d22a0274",
+      "bytes": 181240
+    },
+    {
+      "id": "kelly-2023-6",
+      "angefragt": "https://web.archive.org/web/20230605223530id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-6/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20230605223530id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-6/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Mon, 05 Jun 2023 22:35:30 GMT",
+      "transport_sha256": "e3f8d7355eb8d2f69ad1541cf0b272819d2ec4647549bfcdb5274f268781761c",
+      "sha256": "e3f8d7355eb8d2f69ad1541cf0b272819d2ec4647549bfcdb5274f268781761c",
+      "bytes": 203988
+    },
+    {
+      "id": "sylt-dua-2019",
+      "angefragt": "https://web.archive.org/web/20190721084555id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20190721084555id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Sun, 21 Jul 2019 08:45:55 GMT",
+      "transport_sha256": "61603562a0b2b8495155ca7363930ed5249d4a4e3bd8d6ceb1dad2537e349d1c",
+      "sha256": "61603562a0b2b8495155ca7363930ed5249d4a4e3bd8d6ceb1dad2537e349d1c",
+      "bytes": 23140
+    },
+    {
+      "id": "sylt-dua-2021",
+      "angefragt": "https://web.archive.org/web/20210120094149id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20210120094149id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Wed, 20 Jan 2021 09:41:49 GMT",
+      "transport_sha256": "b8e0e8b39cecc9737624dcf414b5778ee88c7ccc480af6e98c09d1d2f3e9a1b9",
+      "sha256": "b8e0e8b39cecc9737624dcf414b5778ee88c7ccc480af6e98c09d1d2f3e9a1b9",
+      "bytes": 23934
+    },
+    {
+      "id": "sylt-dua-2023",
+      "angefragt": "https://web.archive.org/web/20230323075553id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20230323075553id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Thu, 23 Mar 2023 07:55:53 GMT",
+      "transport_sha256": "d25a0e0c8aff933207823ea0e166da64637f40ae6d05488bcab3436f137fb770",
+      "sha256": "d25a0e0c8aff933207823ea0e166da64637f40ae6d05488bcab3436f137fb770",
+      "bytes": 27518
+    },
+    {
+      "id": "sylt-dua-2025",
+      "angefragt": "https://web.archive.org/web/20250214013418id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20250214013418id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "content_type": "text/html; charset=UTF-8",
+      "memento_datetime": "Fri, 14 Feb 2025 01:34:18 GMT",
+      "transport_sha256": "19cc5613f267199906ea71c331286523c974a81013cd54cb834f4028eba00ed3",
+      "sha256": "19cc5613f267199906ea71c331286523c974a81013cd54cb834f4028eba00ed3",
+      "bytes": 26958
+    },
+    {
+      "id": "alarm-neuer-pfad",
+      "angefragt": "https://web.archive.org/web/20220524153608id_/https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20220524153608id_/https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+      "content_type": "application/pdf",
+      "memento_datetime": "Tue, 24 May 2022 15:36:08 GMT",
+      "transport_sha256": "79b3781c85aad0bf12daad9d0aebd9dad48f82895c842cf2dd674818ddfcec76",
+      "sha256": "79b3781c85aad0bf12daad9d0aebd9dad48f82895c842cf2dd674818ddfcec76",
+      "bytes": 91902
+    },
+    {
+      "id": "lanserhof-en-preise",
+      "angefragt": "https://web.archive.org/web/20250126235433id_/https://api.lanserhof.com/wp-content/uploads/2025/01/LHS_Hotelpreisliste_EN_MitPreise-1.pdf",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20250126235433id_/https://api.lanserhof.com/wp-content/uploads/2025/01/LHS_Hotelpreisliste_EN_MitPreise-1.pdf",
+      "content_type": "application/pdf",
+      "memento_datetime": "Sun, 26 Jan 2025 23:54:33 GMT",
+      "transport_sha256": "2a630ff4931441879f04a31dd802fcae9c2228c0a91dd7b0ad388d94e2d95746",
+      "sha256": "2a630ff4931441879f04a31dd802fcae9c2228c0a91dd7b0ad388d94e2d95746",
+      "bytes": 663313
+    },
+    {
+      "id": "lanserhof-de-2025",
+      "angefragt": "https://web.archive.org/web/20250615021256id_/https://api.lanserhof.com/wp-content/uploads/2025/01/2025_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20250615021256id_/https://api.lanserhof.com/wp-content/uploads/2025/01/2025_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+      "content_type": "application/pdf",
+      "memento_datetime": "Sun, 15 Jun 2025 02:12:56 GMT",
+      "transport_sha256": "94fd0e58ea1c11bfd00fba534007b32c2e4da7b4e2ed854a71bbf33a74ddbf8b",
+      "sha256": "94fd0e58ea1c11bfd00fba534007b32c2e4da7b4e2ed854a71bbf33a74ddbf8b",
+      "bytes": 675097
+    },
+    {
+      "id": "lanserhof-en-2024",
+      "angefragt": "https://web.archive.org/web/20250126235433id_/https://api.lanserhof.com/wp-content/uploads/2025/01/2024_LHS_Hotelpreisliste_EN_OhnePreise.pdf",
+      "abgerufen_am": "2026-10-21",
+      "http_status": 200,
+      "final_url": "https://web.archive.org/web/20250126235433id_/https://api.lanserhof.com/wp-content/uploads/2025/01/2024_LHS_Hotelpreisliste_EN_OhnePreise.pdf",
+      "content_type": "application/pdf",
+      "memento_datetime": "Sun, 26 Jan 2025 23:54:33 GMT",
+      "transport_sha256": "e5858a4318be259d2525a265c93189d8cb1837fecc9ec731225e13d461cf65c5",
+      "sha256": "e5858a4318be259d2525a265c93189d8cb1837fecc9ec731225e13d461cf65c5",
+      "bytes": 672328
+    }
+  ],
+  "ergebnisse": [
+    {
+      "produkt_id": "alarmaufschaltung",
+      "entscheidung": "Vier historische Ab-Angebote ab 20 EUR aufgenommen. Zusätzlicher datierter Privat-Tarif bis 30.06.2022 für 20 EUR brutto aufgenommen. Kein unveränderter Kompletttarif 2022–2026 nachgewiesen."
+    },
+    {
+      "produkt_id": "lanserhof-sylt",
+      "entscheidung": "Je 649 EUR als Zimmer-Tabellenkomponente 2024/2025 aufgenommen, Village 29 m², Belegung 1 Person. Tarifzeiteinheit nicht ausdrücklich ausgewiesen, keine Gesamtkur oder frei buchbare Übernachtung."
+    },
+    {
+      "produkt_id": "hermes-kelly",
+      "entscheidung": "Drei alternative Archivangebote ausgeschlossen: ausverkauft und/oder abweichender Zustand/Beschläge. Sichtbarer Preis oder JSON-Preis eines ausverkauften Artikels ist keine belegte Transaktion."
+    },
+    {
+      "produkt_id": "hausbetreuung-sylt",
+      "entscheidung": "D&A vier Archivstände 2019/2021/2023/2025 ohne verwendbaren Betrag; kein Preis aufgenommen."
+    },
+    {
+      "produkt_id": "liegeplatz-ycl",
+      "entscheidung": "Gesuchte Gebührenordnungen 2023/24 bei Domain-/Exaktabfragen nicht gefunden. Satzung, Liegeplatzvergabe und 2022-Gebührenordnung ersetzen keinen 2023-/2024-Tarif."
+    },
+    {
+      "produkt_id": "hotel-adlon-deluxe",
+      "entscheidung": "Keine passende öffentliche flexible historische Rate gefunden. Breite PDF-Abfrage Timeout; eingegrenzte Abfragen teils HTTP 503. Kein vollständiger Ausschluss weiterer Archivbestände."
+    },
+    {
+      "produkt_id": "schwarzwaldstube-menue-ii",
+      "entscheidung": "Exakte aktuelle PDF-URL ohne CDX-Treffer; breitere/zeitlich eingegrenzte Abfragen HTTP 503. Keine neue historische Originalkarte aufgenommen; technische Prüflücke bleibt offen."
+    }
+  ]
+}

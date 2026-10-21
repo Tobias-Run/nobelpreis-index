@@ -4,6 +4,32 @@ import {readFileSync} from 'node:fs';
 import {berechne,berechneEinzelreihe} from '../dist/zeitreihe/berechnung.mjs';
 const data=JSON.parse(readFileSync(new URL('../dist/zeitreihe/daten.json',import.meta.url),'utf8'));
 const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} ≠ ${b}`);
+test('Archivrecherche: sieben neue Fakten, alte Beobachtungen und Quellen unverändert',()=>{
+ const previous=JSON.parse(readFileSync(new URL('../data/research/produktpruefung-2026-10-17.json',import.meta.url),'utf8'));
+ const flatten=d=>d.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
+ const obs=new Map(flatten(data).map(o=>[o.id,o]));
+ for(const o of flatten(previous))assert.deepEqual(obs.get(o.id),o);
+ for(const s of previous.quellen)assert.deepEqual(data.quellen.find(q=>q.id===s.id),s);
+ assert.equal(data.archivnachrecherche.neue_beobachtungen,7);
+ assert.equal(data.archivnachrecherche.neue_beobachtung_ids.length,7);
+ assert.equal(flatten(data).length-flatten(previous).length,7);
+ const tariff=obs.get('alarm-securando-archiv-20220524');
+ assert.equal(tariff.betrag,20);assert.equal(tariff.gültigkeit.bis,'2022-06-30');assert.match(tariff.umsatzsteuer,/19/);
+ for(const year of [2023,2024,2025,2026]){
+  const o=obs.get(`alarm-securando-ab-archiv-${year}`);assert.equal(o.betrag,20);
+  assert.match(o.preisart,/Ab-Preis/);assert.equal(o.gültigkeit,null);assert.equal(o.indexfreigabe,false);
+ }
+ for(const year of [2024,2025]){
+  const o=obs.get(`lanserhof-zimmer-village-${year}`);assert.equal(o.betrag,649);
+  assert.match(o.einheit,/nicht ausdrücklich/);assert.equal(o.preisdatum,null);assert.equal(o.indexfreigabe,false);
+  assert.ok(o.gültigkeit.bezeichnung.includes(String(year)));
+  const s=data.quellen.find(s=>s.id===o.quelle_id);assert.ok(s.archiv_timestamp.startsWith('2025'));assert.match(s.sha256,/^[a-f0-9]{64}$/);
+ }
+ const allowed=new Set(data.archivnachrecherche.neue_beobachtung_ids);
+ assert.ok([...data.pilot_reihen,...data.einzel_reihen].flatMap(s=>s.punkte).every(p=>p.beobachtung_ids.every(id=>!allowed.has(id))));
+ const registry=JSON.parse(readFileSync(new URL('../data/research/produktregister.json',import.meta.url),'utf8'));
+ assert.equal(registry.produkte.reduce((n,p)=>n+p.anzahl_beobachtungen,0),61);
+});
 test('Zusätzliche Zeitreihen: 17 Originalbelege, keine Zukunftstarife oder Referenzverkettung',()=>{
  assert.equal(data.einzel_reihen.length,4);
  const obs=new Map(data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]).map(o=>[o.id,o]));
@@ -143,7 +169,7 @@ test('Alle 13 recherchiert; Quellen auflösbar und Zukunft bleibt außerhalb des
 });
 
 test('Archivstand ersetzt keine Tarifgültigkeit und kein neuerliches VPI-Abrufdatum',()=>{
- assert.equal(data.stand,'2026-10-17');assert.equal(data.referenz.abgerufen_am,'2026-10-16');
+ assert.equal(data.stand,'2026-10-21');assert.equal(data.referenz.abgerufen_am,'2026-10-16');
  const obs=data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
  const ycl=obs.find(o=>o.id==='ycl-archiv-fläche-2022');
  assert.equal(ycl.gültigkeit.von,'2022-05-14');assert.equal(ycl.betrag,74.5);assert.equal(ycl.preisdatum,null);
@@ -151,7 +177,7 @@ test('Archivstand ersetzt keine Tarifgültigkeit und kein neuerliches VPI-Abrufd
  const salem=obs.find(o=>o.id==='salem-archiv-2025');assert.equal(salem.betrag,50400);
  assert.ok(data.quellen.find(s=>s.id===salem.quelle_id).archiv_timestamp.startsWith('2024'));
  const kelly=obs.find(o=>o.id==='kelly-saclab-archiv-2024');assert.equal(kelly.betrag,21800);assert.match(kelly.preisart,/Sekundärmarkt/);assert.equal(kelly.indexfreigabe,false);
- assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),54);
+ assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),61);
 });
 
 test('Julius-Bär-Schema: 20 Komponenten und exakte 20/10/70-Verteilung',()=>{
