@@ -55,3 +55,7 @@ Die [Archivrecherche](archivrecherche-2026-10-17.md) ergänzt 19 Preisbeobachtun
 ## Ergänzung: Leistungsprüfung und Gewichtung
 
 Die [vertiefte Prüfrunde](rechercheabschluss-und-gewichtung-2026-10-17.md) dokumentiert eine Entscheidung zu allen 13 Positionen, Originalnachweis Ski Arlberg 2025/26, konkrete Leistungswechsel und Anbieterbeleg-Anforderungen. Aktuell 54 Recherchebeobachtungen; Pilot unverändert. Die Julius-Bär-Gewichtung ist [gesondert geprüft](methodik-gewichtung-2026-10-17.md).
+
+## Pragmatische Startentscheidung · 21.10.2026
+
+Der [Startwarenkorb ist jetzt auf neun nominal vergleichbare Positionen festgelegt](pragmatischer-warenkorb-2026-10-21.md). Höhere belegte Varianten werden innerhalb gleicher Leistung und Dauer bevorzugt. Teilpreise und Modell-/Leistungsänderungen sind ausdrücklich benannt. Kelly, Alarm, Adlon und Sylt-Service bleiben außerhalb dieses Neuner-Vergleichs; fehlende Anbieterbelege werden nicht ersetzt. Die damaligen vollständigen Leistungsanforderungen bleiben hier als Backlog dokumentiert. Keine Anbieter kontaktiert.

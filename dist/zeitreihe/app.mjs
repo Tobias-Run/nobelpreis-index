@@ -15,7 +15,7 @@ function writeURL(push=true){
 }
 function restore(){
  const p=new URLSearchParams(location.search);const mode=p.get('auswahl');
- $('auswahl').value=['pilot',...data.pilot_reihen.map(r=>r.id),...data.einzel_reihen.map(r=>r.id)].includes(mode)?mode:'pilot';
+ $('auswahl').value=['praxis9','pilot',...data.pilot_reihen.map(r=>r.id),...data.einzel_reihen.map(r=>r.id)].includes(mode)?mode:'praxis9';
  fillPeriods(p.get('von'));pointYear=Number(p.get('punkt'))||2026;$('suche').value=p.get('suche')||'';render();renderResearch();
 }
 function fillPeriods(wanted){
@@ -26,20 +26,20 @@ function fillPeriods(wanted){
 function sourceLink(id,label){const s=sourceMap.get(id);return s?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(label||s.titel)} ↗</a>`:'Quelle fehlt';}
 function render(){
  try{
-  const s=extra();selected=s?[s]:$('auswahl').value==='pilot'?data.pilot_reihen:data.pilot_reihen.filter(r=>r.id===$('auswahl').value);
+  const s=extra(),praxis=$('auswahl').value==='praxis9';selected=s?[s]:praxis?data.praxis_reihen:$('auswahl').value==='pilot'?data.pilot_reihen:data.pilot_reihen.filter(r=>r.id===$('auswahl').value);
   const start=Number($('zeitraum').value);
   result=s?berechneEinzelreihe(s,start,data.einzel_referenz):berechne(selected,Array.from({length:2026-start+1},(_,i)=>start+i),data.referenz);$('fehler').hidden=true;
   const years=result.werte.map(p=>p.jahr),first=result.werte[0],last=result.werte.at(-1);
   if(!years.includes(pointYear))pointYear=last.jahr;
-  $('umfang').textContent=selected.length===2?'2 von 13 Positionen · feste Zusammensetzung · je 50 % Gewicht · ein Ticketpreis und ein Teilpreis je m².':'Einzelreihe · '+selected[0].definition;
+  $('umfang').textContent=praxis?'9 festgelegte Positionen · je 1/9 Gewicht · nominale Angebots-/Tarifpreise. Teilpreise und Leistungswechsel enthalten. Die Produktbelege stammen aus unterschiedlichen Monaten und Schul-/Wintersaisons; August-VPI ist nur ein grober Vergleichsanker.':selected.length===2?'2 von 13 Positionen · feste Zusammensetzung · je 50 % Gewicht · ein Ticketpreis und ein Teilpreis je m².':'Einzelreihe · '+selected[0].definition;
   const refPeriod=s?month(first.referenzmonat)+' → '+month(last.referenzmonat):'August '+start+' → August 2026';
-  $('metrics').innerHTML=[['Preisvergleich',result.anstieg,'Kumuliert · '+(s?label(first)+' → '+label(last):start+'–2026')],['Deutscher VPI',result.vpiAnstieg,result.vpiAnstieg===null?'Vergleichsmonat '+month(last.referenzmonat)+' fehlt':refPeriod],['Abstand zum VPI',result.abstand,result.abstand===null?'Kein Abstand ohne passenden VPI':'Prozentpunkte · Preise minus VPI']].map(([t,v,sub],i)=>`<article class="metric"><small>${t}</small><strong>${v===null?'—':signed(v)+(i<2?' %':'')}</strong><p>${esc(sub)}</p></article>`).join('');
-  $('basis').textContent=`Beide Reihen: ${start} = 100 · ${selected.length===2?'Zweier-Pilot':selected[0].kurzname}`;
+  $('metrics').innerHTML=[[praxis?'Nominaler Warenkorb':'Preisvergleich',result.anstieg,praxis?'2025er → 2026er Belege':'Kumuliert · '+(s?label(first)+' → '+label(last):start+'–2026')],['Deutscher VPI',result.vpiAnstieg,result.vpiAnstieg===null?'Vergleichsmonat '+month(last.referenzmonat)+' fehlt':refPeriod],['Abstand zum VPI',result.abstand,result.abstand===null?'Kein Abstand ohne passenden VPI':praxis?'Prozentpunkte · grober Jahresanker':'Prozentpunkte · Preise minus VPI']].map(([t,v,sub],i)=>`<article class="metric"><small>${t}</small><strong>${v===null?'—':signed(v)+(i<2?' %':'')}</strong><p>${esc(sub)}</p></article>`).join('');
+  $('basis').textContent=`Beide Reihen: ${start} = 100 · ${praxis?'Nominaler Neuner-Vergleich':selected.length===2?'Zweier-Pilot':selected[0].kurzname}`;
   $('wertetabelle').innerHTML=result.werte.map(v=>`<tr><th scope="row">${esc(label(v))}${v.referenzmonat?`<small>VPI ${month(v.referenzmonat)}</small>`:''}</th><td>${fmt(v.index,3)}</td><td>${v.vpi===null?'Nicht verfügbar':fmt(v.vpi,3)}</td><td>${v.vpi_original===null?'Nicht verfügbar':fmt(v.vpi_original,1)}</td></tr>`).join('');
-  $('treiber').innerHTML=[...result.beitraege].sort((a,b)=>b.prozentpunkte-a.prozentpunkte).map(b=>`<div class="driver"><span>${esc(b.name)}<small>${fmt(b.gewicht*100,0)} % Gewicht · Tarifänderung ${signed(b.veraenderung)} %</small></span><strong>${signed(b.prozentpunkte,3)} Pp.</strong></div>`).join('');
+  $('treiber').innerHTML=[...result.beitraege].sort((a,b)=>b.prozentpunkte-a.prozentpunkte).map(b=>`<div class="driver"><span>${esc(b.name)}<small>${fmt(b.gewicht*100,praxis?2:0)} % Gewicht · Preisänderung ${signed(b.veraenderung)} %</small></span><strong>${signed(b.prozentpunkte,3)} Pp.</strong></div>`).join('');
   $('pilotquellen').innerHTML=selected.map(s=>`<article class="pilot-source"><h4>${esc(s.kurzname)}</h4><p>${esc(s.definition)}</p><ul>${s.punkte.filter(p=>p.jahr>=start).map(p=>`<li><strong>${esc(label(p))}: ${fmt(p.betrag)} ${esc(s.einheit)}</strong><br>${p.quelle_ids.map(id=>sourceLink(id)).join(' · ')}</li>`).join('')}</ul><p>${esc(s.grenze)}</p></article>`).join('');
   $('punktwahl').innerHTML=result.werte.map(p=>`<button type="button" data-year="${p.jahr}" aria-pressed="${p.jahr===pointYear}">${esc(label(p))}</button>`).join('');
-  $('zeitbezug').textContent=s?s.zeitbezug+' Linien verbinden ausschließlich belegte Punkte; der Zwischenverlauf ist unbekannt.':'Linien verbinden belegte Saisonwerte. Sie zeigen keinen Preisverlauf innerhalb eines Jahres. VPI: August-Monatswerte, keine Jahresdurchschnitte.';
+  $('zeitbezug').textContent=praxis?data.pragmatische_auswahl.vpi_anker+' Enthalten sind nominale Modell-/Paketpreise mit Leistungswechseln; kein qualitätsbereinigter oder repräsentativer Haushaltsindex.':s?s.zeitbezug+' Linien verbinden ausschließlich belegte Punkte; der Zwischenverlauf ist unbekannt.':'Linien verbinden belegte Saisonwerte. Sie zeigen keinen Preisverlauf innerhalb eines Jahres. VPI: August-Monatswerte, keine Jahresdurchschnitte.';
   $('vpilegende').textContent=s?'VPI · zugeordneter Monat':'VPI · August';
   const ref=s?data.einzel_referenz:data.referenz;
   $('referenzhinweis').textContent=`Ursprungsquelle: ${ref.ursprungsquelle} Ursprungswerte, 2020 = 100. Abruf: ${ref.abgerufen_am}. ${s?'Referenzmonate stehen in der Tabelle; Monatsdurchschnitte sind keine Tageswerte.':'Saisonaler Vergleichsanker: August; keine taggenaue Entsprechung zu den Tarifbeschlüssen.'}`;
@@ -78,7 +78,9 @@ function renderResearch(){
    const date=o.gültigkeit?.bezeichnung||o.preisdatum||'Datierung offen';
    return `<tr><td>${esc(date)}<small>${o.preisdatum?'Datumsbezug: '+esc(o.preisdatum):'Kein einzelner Preisstichtag belegt'}</small><small class="tag ${future?'future':''}">${future?'ZUKUNFTSTARIF':esc(o.zeitstatus)}</small></td><td><strong>${fmt(o.betrag)} €</strong><small>${esc(o.einheit)}${o.variante?' · '+esc(o.variante):''}</small></td><td>${esc(o.preisart)}<small>${esc(o.umsatzsteuer)}</small></td><td>${sourceLink(o.quelle_id)}<small>Abruf: ${esc(o.abgerufen_am||data.stand)}</small></td></tr>`;
   }).join('');
-  return `<details class="research-card" id="${esc(p.id)}"><summary><div><h3>${esc(p.name)}</h3><p>${esc(p.kategorie)} · ${esc(h.status)}</p></div><span aria-hidden="true">+</span></summary><p class="definition">${esc(p.definition)}</p><p class="finding">${esc(h.ergebnis)}</p><p class="gap">${esc(h.grenze)}</p>${obs.length?`<div class="tablewrap"><table><caption>Einzelbeobachtungen und Komponenten · keine Jahresdurchschnitte · nicht für den Gesamtindex freigegeben</caption><thead><tr><th>Datierung</th><th>Preis / Einheit</th><th>Preisart / Steuer</th><th>Beleg</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<p class="no-data">Keine zulässige Preisbeobachtung vorhanden. Es wird kein Preis geschätzt.</p>'}<p class="fine">Zugang: ${esc(p.zugang)}</p><p class="dossier">${sourceLink(h.quelle_id,'Beleg zur Historienprüfung')} · <a href="https://github.com/Tobias-Run/nobelpreis-index/blob/main/${esc(p.dossier)}">Vollständiges Produktdossier ↗</a></p></details>`;
+  const choice=data.pragmatische_auswahl.positionen.find(c=>c.produkt_id===p.id),outside=data.pragmatische_auswahl.nicht_im_vergleich.find(c=>c.produkt_id===p.id);
+  const decision=choice?'Im nominalen Neuner-Vergleich: '+choice.referenzentscheidung+' '+choice.grenze:'Außerhalb des Neuner-Vergleichs: '+outside.entscheidung+'. '+outside.referenz+' '+outside.rest;
+  return `<details class="research-card" id="${esc(p.id)}"><summary><div><h3>${esc(p.name)}</h3><p>${esc(p.kategorie)} · ${esc(h.status)}</p></div><span aria-hidden="true">+</span></summary><p class="definition">${esc(p.definition)}</p><p class="finding">${esc(h.ergebnis)}</p><p class="gap">${esc(decision)}</p><p class="fine">${esc(h.grenze)}</p>${obs.length?`<div class="tablewrap"><table><caption>Einzelbeobachtungen und Komponenten · keine Jahresdurchschnitte · nicht für den produktiven Gesamtindex freigegeben</caption><thead><tr><th>Datierung</th><th>Preis / Einheit</th><th>Preisart / Steuer</th><th>Beleg</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<p class="no-data">Keine zulässige Preisbeobachtung vorhanden. Es wird kein Preis geschätzt.</p>'}<p class="fine">Zugang: ${esc(p.zugang)}</p><p class="dossier">${sourceLink(h.quelle_id,'Beleg zur Historienprüfung')} · <a href="https://github.com/Tobias-Run/nobelpreis-index/blob/main/${esc(p.dossier)}">Vollständiges Produktdossier ↗</a></p></details>`;
  }).join('');
 }
 function download(name,text,type){const url=URL.createObjectURL(new Blob([type.startsWith('text/csv')?'\ufeff'+text:text],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
@@ -111,7 +113,7 @@ try{
  $('zeitraum').addEventListener('change',()=>{render();writeURL();});
  $('suche').addEventListener('input',()=>{renderResearch();writeURL(false);});
  $('punktwahl').addEventListener('click',e=>{const y=e.target.closest('[data-year]')?.dataset.year;if(y){showPoint(Number(y));writeURL();}});
- $('json').addEventListener('click',()=>download(`nobelpreis-forschung-${data.stand}.json`,JSON.stringify({...data,aktuelle_auswertung:result,auswahl:selected.map(s=>s.id)},null,2),'application/json;charset=utf-8'));
+ $('json').addEventListener('click',()=>download(`nobelpreis-forschung-${data.stand}.json`,JSON.stringify({...data,vergleichsmodus:$('auswahl').value,aktuelle_auswertung:result,auswahl:selected.map(s=>s.id)},null,2),'application/json;charset=utf-8'));
  $('csv').addEventListener('click',exportCSV);
  $('link').addEventListener('click',async()=>{writeURL(false);try{await navigator.clipboard.writeText(location.href);$('status').textContent='Vergleichslink kopiert.';}catch{$('status').textContent='Der Vergleich ist in der Adresszeile gespeichert.';}});
  window.addEventListener('popstate',restore);new ResizeObserver(drawChart).observe($('chart'));

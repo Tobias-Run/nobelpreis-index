@@ -83,3 +83,7 @@ Für den deutschen Basis-Benziner SUV 3,0 l V6, 260 kW/353 PS, suchen wir datier
 Betreff: Historische Menü-II-Karten, Gangumfang und Steuerbehandlung
 
 Bitte um datierte Karten für Menü II mit sieben Gängen 2023–2026, jeweils ohne Getränke. Gesucht sind Beginn der Preisgültigkeit, Endpreis/Steuerangabe und Änderungen von Gangumfang, verpflichtenden Ergänzungen oder eingeschlossenen Leistungen. Im 2023-Sekundärbeleg heißt es nur großes Degustationsmenü. Wir setzen gleiche Gangzahl nicht mit identischer Speisenqualität gleich und veröffentlichen keine Rezept-/Bildvolltexte ohne geklärte Rechte.
+
+## Pragmatische Startentscheidung · 21.10.2026
+
+Der [Startwarenkorb ist jetzt auf neun nominal vergleichbare Positionen festgelegt](pragmatischer-warenkorb-2026-10-21.md). Höhere belegte Varianten werden innerhalb gleicher Leistung und Dauer bevorzugt. Teilpreise und Modell-/Leistungsänderungen sind ausdrücklich benannt. Kelly, Alarm, Adlon und Sylt-Service bleiben außerhalb dieses Neuner-Vergleichs; fehlende Anbieterbelege werden nicht ersetzt. Die damaligen vollständigen Leistungsanforderungen bleiben hier als Backlog dokumentiert. Keine Anbieter kontaktiert.
