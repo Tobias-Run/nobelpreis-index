@@ -107,7 +107,7 @@ function exportCSV(){
 }
 try{
  const response=await fetch('./daten.json');if(!response.ok)throw new Error('Daten nicht verfügbar.');data=await response.json();sourceMap=new Map(data.quellen.map(s=>[s.id,s]));
- $('auswahl').insertAdjacentHTML('beforeend',`<optgroup label="Zusätzliche Einzelreihen · nicht im Pilot">${data.einzel_reihen.map(s=>`<option value="${esc(s.id)}">${esc(s.kurzname)}</option>`).join('')}</optgroup>`);
+ $('auswahl').insertAdjacentHTML('beforeend',`<optgroup label="Einzelreihen · eigener Zeitbezug">${data.einzel_reihen.map(s=>`<option value="${esc(s.id)}">${esc(s.kurzname)}</option>`).join('')}</optgroup>`);
  restore();renderWeights();
  $('auswahl').addEventListener('change',()=>{fillPeriods($('zeitraum').value);render();writeURL();});
  $('zeitraum').addEventListener('change',()=>{render();writeURL();});
