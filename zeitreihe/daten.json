@@ -4319,7 +4319,7 @@
     "impulshinweis": "Rein synthetisch: Cayenne +10 %, alle anderen Preise unverändert. Keine historische Beobachtung oder Prognose.",
     "lueckenhinweis": "Pilotabdeckung bezeichnet geplantes Gewicht der zwei vorhandenen Teilreihen, keine redaktionelle Freigabe oder Vollpreisabdeckung. Fehlende Gewichte werden im Gesamtindex nicht umverteilt."
   },
-  "version": "poc-0.3.2",
+  "version": "poc-0.4.0",
   "recherche_sha256": "37527428a2f38f2f4e3b3a68468a2697a89cf4715fa4bd3620a2142bfc18addb",
   "pilot_reihen": [
     {
@@ -4549,7 +4549,8 @@
     "zusammensetzung": "Fest über den ganzen Zeitraum; nur Bayreuth und YCL-Tarifeinheit im Zweier-Pilot",
     "zeitbezug": "Saison-/Festspieltarife; August-VPI desselben Jahres als saisonaler Anker. Keine Jahresdurchschnitte oder exakten Transaktionszeitpunkte.",
     "fehlende_daten": "Keine Interpolation, Fortschreibung, Rückdatierung oder wechselnde Zusammensetzung",
-    "status": "Recherche-PoC, keine redaktionelle Indexfreigabe, keine Repräsentativität für das reichste Prozent"
+    "status": "Recherche-PoC, keine redaktionelle Indexfreigabe, keine Repräsentativität für das reichste Prozent",
+    "geltungsbereich": "Dieser Block beschreibt den historischen Zweier-Pilot. Der neue nominale Neuner-Vergleich ist in pragmatische_auswahl mit eigenen Auswahlregeln und Grenzen dokumentiert."
   },
   "ansicht_stand": "2026-10-21",
   "einzel_reihen": [
@@ -4888,6 +4889,229 @@
       "definition": "Wempe-Händlerangebot, Weißgold 37 mm, schwarzes Alligatorband, Stiftschließe. Referenz 201.027-LB / LB100063. Keine bestätigte Hersteller-UVP oder Transaktion.",
       "zeitbezug": "VPI: tatsächlicher Monat des datierten Angebotsstands. Ungleiche Beobachtungsabstände, keine Jahresdurchschnitte. Ein noch nicht veröffentlichter VPI-Monat bleibt leer; kein Ersatz durch den Vormonat.",
       "grenze": "Die Referenzen 201.027 und 201.027-LB werden nicht verkettet. Bedeutung des LB-Zusatzes bleibt offen. 2020 enthält den Zeitraum der deutschen Mehrwertsteuersenkung; keine reine Netto-Preisänderung. Zwischen den Belegen ist der tatsächliche Preisverlauf unbekannt.",
+      "indexfreigabe": false
+    },
+    {
+      "id": "cayenne-modellpreis",
+      "produkt_id": "porsche-cayenne",
+      "kurzname": "Cayenne · nominaler Modell-Grundpreis",
+      "einheit": "EUR · Fahrzeug",
+      "punkte": [
+        {
+          "jahr": 2023,
+          "label": "18.04.2023",
+          "betrag": 89097,
+          "referenzmonat": "2023-04",
+          "zeitachse": "2023-04-18",
+          "preisdatum": "2023-04-18",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "cayenne-2023"
+          ],
+          "quelle_ids": [
+            "porsche-2023"
+          ]
+        },
+        {
+          "jahr": 2024,
+          "label": "22.07.2024",
+          "betrag": 99600,
+          "referenzmonat": "2024-07",
+          "zeitachse": "2024-07-22",
+          "preisdatum": "2024-07-22",
+          "gueltigkeit": {
+            "bezeichnung": "Testausgabe 15/2024; Veröffentlichung 22.07.2024"
+          },
+          "beobachtung_ids": [
+            "cayenne-2024"
+          ],
+          "quelle_ids": [
+            "cayenne-az-2024"
+          ]
+        },
+        {
+          "jahr": 2025,
+          "label": "29.07.2025",
+          "betrag": 101500,
+          "referenzmonat": "2025-07",
+          "zeitachse": "2025-07-29",
+          "preisdatum": "2025-07-29",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "cayenne-archiv-2025"
+          ],
+          "quelle_ids": [
+            "ia-porsche-20250729"
+          ]
+        },
+        {
+          "jahr": 2026,
+          "label": "16.10.2026",
+          "betrag": 102700,
+          "referenzmonat": "2026-10",
+          "zeitachse": "2026-10-16",
+          "preisdatum": "2026-10-16",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "cayenne-2026"
+          ],
+          "quelle_ids": [
+            "porsche-aktuell"
+          ]
+        }
+      ],
+      "definition": "Basis-Benziner SUV 260 kW/353 PS, deutscher Modell-Grundpreis ohne Extras.",
+      "grenze": "Nominaler Modellpreis. Serienausstattung und Pflichtnebenkosten nicht qualitätsbereinigt; kein Wechsel zu Turbo/Hybrid.",
+      "zeitbezug": "VPI: tatsächlicher Beobachtungsmonat; bei jahresbezogenen Lanserhof-Broschüren August als ausdrücklich gewählter Jahresanker, kein behaupteter Preisstichtag. Fehlende VPI-Monate bleiben leer.",
+      "indexfreigabe": false
+    },
+    {
+      "id": "charger5-modellpreis",
+      "produkt_id": "rm-charger5",
+      "kurzname": "Charger5 vario · nominaler Modellpreis",
+      "einheit": "EUR · Fahrrad",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "label": "09.08.2025",
+          "betrag": 6199,
+          "referenzmonat": "2025-08",
+          "zeitachse": "2025-08-09",
+          "preisdatum": "2025-08-09",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "rm-archiv-2025-basis"
+          ],
+          "quelle_ids": [
+            "ia-rm-20250809"
+          ]
+        },
+        {
+          "jahr": 2026,
+          "label": "16.10.2026",
+          "betrag": 6499,
+          "referenzmonat": "2026-10",
+          "zeitachse": "2026-10-16",
+          "preisdatum": "2026-10-16",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "rm-2026"
+          ],
+          "quelle_ids": [
+            "rm-aktuell"
+          ]
+        }
+      ],
+      "definition": "Charger5 vario Modell-Ab-Preis, keine erfundene vollständige pine/L-Konfiguration.",
+      "grenze": "Gabel und Nabe ändern sich: SR Suntour/Heavy Duty zu Fox/Utility V1. Modellpreisgeschichte, keine reine Inflation gleicher Ausstattung.",
+      "zeitbezug": "VPI: tatsächlicher Beobachtungsmonat; bei jahresbezogenen Lanserhof-Broschüren August als ausdrücklich gewählter Jahresanker, kein behaupteter Preisstichtag. Fehlende VPI-Monate bleiben leer.",
+      "indexfreigabe": false
+    },
+    {
+      "id": "lanserhof-classic-plus",
+      "produkt_id": "lanserhof-sylt",
+      "kurzname": "Lanserhof · Classic Plus, ohne Zimmer",
+      "einheit": "EUR · Person und Programm für 7–8 Nächte",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "label": "Broschüre 2025",
+          "betrag": 4046,
+          "referenzmonat": "2025-08",
+          "zeitachse": "2025-08-01",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "Broschüre 2025"
+          },
+          "beobachtung_ids": [
+            "lanserhof-2025-plus"
+          ],
+          "quelle_ids": [
+            "lanserhof-2025"
+          ]
+        },
+        {
+          "jahr": 2026,
+          "label": "Broschüre 2026",
+          "betrag": 3990,
+          "referenzmonat": "2026-08",
+          "zeitachse": "2026-08-01",
+          "preisdatum": null,
+          "gueltigkeit": {
+            "bezeichnung": "2026",
+            "von": "2026-01-01",
+            "bis": "2026-12-31"
+          },
+          "beobachtung_ids": [
+            "lanserhof-2026-classic-plus"
+          ],
+          "quelle_ids": [
+            "lanserhof-2026"
+          ]
+        }
+      ],
+      "definition": "Höhere Grundprogramm-Variante Classic Plus, eine Person, 7–8 Nächte, ohne Unterkunft.",
+      "grenze": "Enthaltene Anwendungen ändern sich. Nominaler Paketpreis; keine vollständige Kur oder Qualitätsbereinigung. Keine Auffüllung für 2024.",
+      "zeitbezug": "VPI: tatsächlicher Beobachtungsmonat; bei jahresbezogenen Lanserhof-Broschüren August als ausdrücklich gewählter Jahresanker, kein behaupteter Preisstichtag. Fehlende VPI-Monate bleiben leer.",
+      "indexfreigabe": false
+    },
+    {
+      "id": "schwarzwaldstube-menue-ii",
+      "produkt_id": "schwarzwaldstube-menue-ii",
+      "kurzname": "Schwarzwaldstube · nominaler Menü-II-Preis",
+      "einheit": "EUR · Menü pro Person",
+      "punkte": [
+        {
+          "jahr": 2024,
+          "label": "21.11.2024",
+          "betrag": 325,
+          "referenzmonat": "2024-11",
+          "zeitachse": "2024-11-21",
+          "preisdatum": "2024-11-21",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "schwarzwald-original-archiv-2024"
+          ],
+          "quelle_ids": [
+            "plus21-menue-2024-original"
+          ]
+        },
+        {
+          "jahr": 2025,
+          "label": "16.03.2025",
+          "betrag": 325,
+          "referenzmonat": "2025-03",
+          "zeitachse": "2025-03-16",
+          "preisdatum": "2025-03-16",
+          "gueltigkeit": {
+            "bezeichnung": "Besuch am 16.03.2025"
+          },
+          "beobachtung_ids": [
+            "schwarzwald-2025-menue"
+          ],
+          "quelle_ids": [
+            "schwarzwald-2025-foto"
+          ]
+        },
+        {
+          "jahr": 2026,
+          "label": "16.10.2026",
+          "betrag": 385,
+          "referenzmonat": "2026-10",
+          "zeitachse": "2026-10-16",
+          "preisdatum": "2026-10-16",
+          "gueltigkeit": null,
+          "beobachtung_ids": [
+            "schwarzwald-2026-menue"
+          ],
+          "quelle_ids": [
+            "schwarzwald-karte"
+          ]
+        }
+      ],
+      "definition": "Menü II mit sieben Positionen ohne Getränke; 2024 archivierte Originalkarte, 2025 fotografierte Karte, 2026 Originalkarte.",
+      "grenze": "Gerichte und steuerliche Bedingungen ändern sich. Nominale Menüpreisgeschichte; keine qualitätsbereinigte Gastronomieinflation. Großes Menü 2021 wird nicht angehängt.",
+      "zeitbezug": "VPI: tatsächlicher Beobachtungsmonat; bei jahresbezogenen Lanserhof-Broschüren August als ausdrücklich gewählter Jahresanker, kein behaupteter Preisstichtag. Fehlende VPI-Monate bleiben leer.",
       "indexfreigabe": false
     }
   ],
@@ -5278,5 +5502,496 @@
       }
     ],
     "quelldatei": "data/sources/bundesbank-vpi-monatlich-2019-2026-2026-10-20.csv"
-  }
+  },
+  "pragmatische_auswahl": {
+    "schema_version": "1.0-pragmatische-auswahl",
+    "stand": "2026-10-21",
+    "status": "Experimenteller nominaler Neuner-Vergleich, keine amtliche Inflation oder produktive Indexfreigabe",
+    "quelle_daten": "data/research/archiverweiterung-2026-10-21.json",
+    "nutzerentscheidung": "Datenlücken pragmatisch schließen und im Zweifel höchste Variante wählen.",
+    "auswahlregel": "Höhere belegte Ausführung innerhalb gleicher Leistung, Einheit und Dauer vor der Rechnung festlegen. Keine jährliche Auswahl des höchsten Preises, keine Kombination inkompatibler Varianten, keine erfundenen Preise. Bereits eindeutig festgelegte Referenzmodelle behalten ihre Identität.",
+    "jahre": [
+      2025,
+      2026
+    ],
+    "gewichtung": "Jede der neun vorher festgelegten Positionen erhält 1/9. Vier ausgeschlossene Positionen gehören nicht zur Grundgesamtheit dieses Vergleichs; es wird kein Gewicht eines 13er-Index umverteilt.",
+    "vpi_anker": "August 2025 und August 2026, offizielle Bundesbank-Monatswerte aus dem Beleg vom 16.10.2026. Grober Jahres-/Saisonanker, kein exakt zeitgleicher Vergleich der verschiedenen Produktbeobachtungen. Die monatsgenauen Einzelkurven behalten ihren eigenen Bezug.",
+    "positionen": [
+      {
+        "produkt_id": "porsche-cayenne",
+        "name": "Cayenne · Basis-Modellpreis",
+        "referenzentscheidung": "Basis-Benziner SUV 260 kW/353 PS; keine Umstellung auf Turbo/Hybrid ohne deren passende Historie.",
+        "grenze": "Nominaler deutscher Modell-Grundpreis ohne Extras/Pflichtnebenkosten; Serienausstattung nicht qualitätsbereinigt.",
+        "beobachtung_ids": {
+          "2025": [
+            "cayenne-archiv-2025"
+          ],
+          "2026": [
+            "cayenne-2026"
+          ]
+        },
+        "gewicht_bruch": {
+          "zaehler": 1,
+          "nenner": 9
+        }
+      },
+      {
+        "produkt_id": "salem",
+        "name": "Salem · regulärer Grundtarif",
+        "referenzentscheidung": "Klasse 8, regulärer voller Tarif, keine Ermäßigungen.",
+        "grenze": "Zwölf Monatsraten für Schuljahr 2025/26 beziehungsweise 2026/27; keine tatsächlichen Kalenderjahresausgaben.",
+        "beobachtung_ids": {
+          "2025": [
+            "salem-archiv-2025"
+          ],
+          "2026": [
+            "salem-2026"
+          ]
+        },
+        "gewicht_bruch": {
+          "zaehler": 1,
+          "nenner": 9
+        }
+      },
+      {
+        "produkt_id": "saxonia-thin",
+        "name": "Saxonia Thin · 201.027-LB",
+        "referenzentscheidung": "Neue Händlerreferenz 201.027-LB; alte Referenz wird nicht angehängt.",
+        "grenze": "Händler-Angebotsstände 27.10.2025 und 16.10.2026. Keine Transaktionen; keine bestätigte Hersteller-UVP.",
+        "beobachtung_ids": {
+          "2025": [
+            "saxonia-wempe-archiv-2025"
+          ],
+          "2026": [
+            "saxonia-wempe-2026"
+          ]
+        },
+        "gewicht_bruch": {
+          "zaehler": 1,
+          "nenner": 9
+        }
+      },
+      {
+        "produkt_id": "lanserhof-sylt",
+        "name": "Lanserhof · Classic Plus, ohne Zimmer",
+        "referenzentscheidung": "Classic Plus statt Classic, eine Person, 7–8 Nächte; feste Dauer statt Auswahl des teuersten unterschiedlich langen Aufenthalts.",
+        "grenze": "Programmpreis ohne Unterkunft. Enthaltene Anwendungen ändern sich; keine qualitätsbereinigte Kurinflation, kein Gesamtaufenthalt.",
+        "beobachtung_ids": {
+          "2025": [
+            "lanserhof-2025-plus"
+          ],
+          "2026": [
+            "lanserhof-2026-classic-plus"
+          ]
+        },
+        "gewicht_bruch": {
+          "zaehler": 1,
+          "nenner": 9
+        }
+      },
+      {
+        "produkt_id": "rm-charger5",
+        "name": "Charger5 vario · Modellpreis",
+        "referenzentscheidung": "Charger5 vario Modell-Ab-Preis; keine erfundene Endkonfiguration aus optionalen Kits.",
+        "grenze": "Nominaler Modellpreis mit dokumentiertem Gabel-/Nabenwechsel; kein Preisvergleich identischer Ausstattung.",
+        "beobachtung_ids": {
+          "2025": [
+            "rm-archiv-2025-basis"
+          ],
+          "2026": [
+            "rm-2026"
+          ]
+        },
+        "gewicht_bruch": {
+          "zaehler": 1,
+          "nenner": 9
+        }
+      },
+      {
+        "produkt_id": "bayreuth-parsifal",
+        "name": "Bayreuth · Parsifal A1",
+        "referenzentscheidung": "Höchste belegte Kategorie A1, online/digital ohne AR; Pflichtgebühr je Ticket zusätzlich.",
+        "grenze": "352 EUR plus 6 EUR Pflichtgebühr; Verfügbarkeit und Warteliste bleiben unbepreist.",
+        "beobachtung_ids": {
+          "2025": [
+            "bayreuth-ticket-2025",
+            "bayreuth-gebühr-2025"
+          ],
+          "2026": [
+            "bayreuth-ticket-2026",
+            "bayreuth-gebühr-2026"
+          ]
+        },
+        "gewicht_bruch": {
+          "zaehler": 1,
+          "nenner": 9
+        }
+      },
+      {
+        "produkt_id": "liegeplatz-ycl",
+        "name": "Bodensee · Sommer-Flächentarif",
+        "referenzentscheidung": "Segelboot, Sommersaison, brutto je m²; kein Wechsel zu einem anderen Bootstyp.",
+        "grenze": "Nur Flächentarif, kein Gesamtliegeplatz. Ohne angenommene Bootsfläche oder unbestätigte Pflichtbestandteile; 2023/24 für diesen 2025/26-Vergleich nicht nötig.",
+        "beobachtung_ids": {
+          "2025": [
+            "ycl-fläche-2025"
+          ],
+          "2026": [
+            "ycl-fläche-2026"
+          ]
+        },
+        "gewicht_bruch": {
+          "zaehler": 1,
+          "nenner": 9
+        }
+      },
+      {
+        "produkt_id": "skiurlaub-arlberg",
+        "name": "Arlberg · Hauptsaison-Skipass",
+        "referenzentscheidung": "Erwachsener, sechs aufeinanderfolgende Tage, Hauptsaison statt ermäßigter Saison.",
+        "grenze": "Saison 2024/25 wird dem Endjahr 2025, Saison 2025/26 dem Endjahr 2026 zugeordnet. Nur Skipass, kein Urlaub; 2026/27 ausgeschlossen.",
+        "beobachtung_ids": {
+          "2025": [
+            "ski-beleg-2024"
+          ],
+          "2026": [
+            "ski-2025"
+          ]
+        },
+        "gewicht_bruch": {
+          "zaehler": 1,
+          "nenner": 9
+        }
+      },
+      {
+        "produkt_id": "schwarzwaldstube-menue-ii",
+        "name": "Schwarzwaldstube · Menü II",
+        "referenzentscheidung": "Großes siebenpositioniges Menü II, ohne Getränke; kein Wechsel zum günstigeren vegetarischen Menü.",
+        "grenze": "Nominaler Menüpreis; Speisen/Steuerbedingungen ändern sich. Keine qualitätsbereinigte Gastronomieinflation.",
+        "beobachtung_ids": {
+          "2025": [
+            "schwarzwald-2025-menue"
+          ],
+          "2026": [
+            "schwarzwald-2026-menue"
+          ]
+        },
+        "gewicht_bruch": {
+          "zaehler": 1,
+          "nenner": 9
+        }
+      }
+    ],
+    "nicht_im_vergleich": [
+      {
+        "produkt_id": "hermes-kelly",
+        "entscheidung": "Einpreis-Position",
+        "referenz": "Kelly 28 Togo Noir, Gold, ungetragen; höchster passender tatsächlich verfügbarer belegter Angebotspreis 21.800 EUR am 06.08.2024.",
+        "rest": "Zweiter passender verfügbarer Preis fehlt; kein Boutique-Markup berechenbar. Ausverkaufte oder gebrauchte Angebote werden nicht eingesetzt."
+      },
+      {
+        "produkt_id": "alarmaufschaltung",
+        "entscheidung": "Historische Tarif-/Ab-Angebotsposition",
+        "referenz": "Bei Privat/Pro-Alternative wird das höher ausgestattete Securando-Pro-Paket bevorzugt. Dessen aktueller identischer Tarif ist nicht belegt.",
+        "rest": "Ab 20 EUR, anderer Anbieter ab 35 EUR und zusätzliche Revierstreifenoption 49 EUR ergeben keine gemeinsame Reihe. Kein Nullinflationswert."
+      },
+      {
+        "produkt_id": "hausbetreuung-sylt",
+        "entscheidung": "Backlog bis Preisbeleg",
+        "referenz": "150 m² Westerland, 24 dokumentierte Kontrollgänge/Jahr, Schlüssel und Anfahrt.",
+        "rest": "Kein belegter Pauschalbetrag. Stundenlohn, Reinigung oder Vermietungsgebühr werden nicht als Ersatz verwendet."
+      },
+      {
+        "produkt_id": "hotel-adlon-deluxe",
+        "entscheidung": "Backlog bis datierter Tarif",
+        "referenz": "Adlon Deluxe ca. 40 m², zwei Erwachsene, öffentliche flexible Rate ohne Frühstück. Bei ansonsten identischen Bedingungen höhere belegte Tarifvariante; keine Umstellung auf eine andere Zimmerkategorie ohne deren Historie.",
+        "rest": "Kein passender öffentlicher flexibler Tarif. Undatierter 265-EUR-Sondertarif und 2024er 250-EUR-Sondertarif werden nicht künstlich zu einer öffentlichen Reihe."
+      }
+    ]
+  },
+  "praxis_reihen": [
+    {
+      "id": "porsche-cayenne",
+      "kurzname": "Cayenne · Basis-Modellpreis",
+      "einheit": "EUR · Fahrzeug",
+      "definition": "Basis-Benziner SUV 260 kW/353 PS; keine Umstellung auf Turbo/Hybrid ohne deren passende Historie.",
+      "grenze": "Nominaler deutscher Modell-Grundpreis ohne Extras/Pflichtnebenkosten; Serienausstattung nicht qualitätsbereinigt.",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "betrag": 101500,
+          "beobachtung_ids": [
+            "cayenne-archiv-2025"
+          ],
+          "quelle_ids": [
+            "ia-porsche-20250729"
+          ],
+          "label": "2025 · 29.07.2025"
+        },
+        {
+          "jahr": 2026,
+          "betrag": 102700,
+          "beobachtung_ids": [
+            "cayenne-2026"
+          ],
+          "quelle_ids": [
+            "porsche-aktuell"
+          ],
+          "label": "2026 · 16.10.2026"
+        }
+      ]
+    },
+    {
+      "id": "salem",
+      "kurzname": "Salem · regulärer Grundtarif",
+      "einheit": "EUR · Schuljahr",
+      "definition": "Klasse 8, regulärer voller Tarif, keine Ermäßigungen.",
+      "grenze": "Zwölf Monatsraten für Schuljahr 2025/26 beziehungsweise 2026/27; keine tatsächlichen Kalenderjahresausgaben.",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "betrag": 50400,
+          "beobachtung_ids": [
+            "salem-archiv-2025"
+          ],
+          "quelle_ids": [
+            "ia-salem-20240912"
+          ],
+          "label": "2025 · Schuljahr 2025/2026"
+        },
+        {
+          "jahr": 2026,
+          "betrag": 53400,
+          "beobachtung_ids": [
+            "salem-2026"
+          ],
+          "quelle_ids": [
+            "salem-2026"
+          ],
+          "label": "2026 · 2026/2027"
+        }
+      ]
+    },
+    {
+      "id": "saxonia-thin",
+      "kurzname": "Saxonia Thin · 201.027-LB",
+      "einheit": "EUR · Uhr",
+      "definition": "Neue Händlerreferenz 201.027-LB; alte Referenz wird nicht angehängt.",
+      "grenze": "Händler-Angebotsstände 27.10.2025 und 16.10.2026. Keine Transaktionen; keine bestätigte Hersteller-UVP.",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "betrag": 25600,
+          "beobachtung_ids": [
+            "saxonia-wempe-archiv-2025"
+          ],
+          "quelle_ids": [
+            "ia-wempe-2025"
+          ],
+          "label": "2025 · 27.10.2025"
+        },
+        {
+          "jahr": 2026,
+          "betrag": 27000,
+          "beobachtung_ids": [
+            "saxonia-wempe-2026"
+          ],
+          "quelle_ids": [
+            "wempe-aktuell"
+          ],
+          "label": "2026 · 16.10.2026"
+        }
+      ]
+    },
+    {
+      "id": "lanserhof-sylt",
+      "kurzname": "Lanserhof · Classic Plus, ohne Zimmer",
+      "einheit": "EUR · Person und Programm für 7–8 Nächte",
+      "definition": "Classic Plus statt Classic, eine Person, 7–8 Nächte; feste Dauer statt Auswahl des teuersten unterschiedlich langen Aufenthalts.",
+      "grenze": "Programmpreis ohne Unterkunft. Enthaltene Anwendungen ändern sich; keine qualitätsbereinigte Kurinflation, kein Gesamtaufenthalt.",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "betrag": 4046,
+          "beobachtung_ids": [
+            "lanserhof-2025-plus"
+          ],
+          "quelle_ids": [
+            "lanserhof-2025"
+          ],
+          "label": "2025 · Broschüre 2025"
+        },
+        {
+          "jahr": 2026,
+          "betrag": 3990,
+          "beobachtung_ids": [
+            "lanserhof-2026-classic-plus"
+          ],
+          "quelle_ids": [
+            "lanserhof-2026"
+          ],
+          "label": "2026 · 2026"
+        }
+      ]
+    },
+    {
+      "id": "rm-charger5",
+      "kurzname": "Charger5 vario · Modellpreis",
+      "einheit": "EUR · Fahrrad",
+      "definition": "Charger5 vario Modell-Ab-Preis; keine erfundene Endkonfiguration aus optionalen Kits.",
+      "grenze": "Nominaler Modellpreis mit dokumentiertem Gabel-/Nabenwechsel; kein Preisvergleich identischer Ausstattung.",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "betrag": 6199,
+          "beobachtung_ids": [
+            "rm-archiv-2025-basis"
+          ],
+          "quelle_ids": [
+            "ia-rm-20250809"
+          ],
+          "label": "2025 · 09.08.2025"
+        },
+        {
+          "jahr": 2026,
+          "betrag": 6499,
+          "beobachtung_ids": [
+            "rm-2026"
+          ],
+          "quelle_ids": [
+            "rm-aktuell"
+          ],
+          "label": "2026 · 16.10.2026"
+        }
+      ]
+    },
+    {
+      "id": "bayreuth-parsifal",
+      "kurzname": "Bayreuth · Parsifal A1",
+      "einheit": "EUR · Ticket",
+      "definition": "Höchste belegte Kategorie A1, online/digital ohne AR; Pflichtgebühr je Ticket zusätzlich.",
+      "grenze": "352 EUR plus 6 EUR Pflichtgebühr; Verfügbarkeit und Warteliste bleiben unbepreist.",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "betrag": 358,
+          "beobachtung_ids": [
+            "bayreuth-ticket-2025",
+            "bayreuth-gebühr-2025"
+          ],
+          "quelle_ids": [
+            "bayreuth-preise-2025",
+            "bayreuth-agb-2025"
+          ],
+          "label": "2025 · Festspielsaison 2025"
+        },
+        {
+          "jahr": 2026,
+          "betrag": 358,
+          "beobachtung_ids": [
+            "bayreuth-ticket-2026",
+            "bayreuth-gebühr-2026"
+          ],
+          "quelle_ids": [
+            "bayreuth-preise-2026",
+            "bayreuth-agb-2026"
+          ],
+          "label": "2026 · Festspielsaison 2026"
+        }
+      ]
+    },
+    {
+      "id": "liegeplatz-ycl",
+      "kurzname": "Bodensee · Sommer-Flächentarif",
+      "einheit": "EUR · m² und Sommersaison",
+      "definition": "Segelboot, Sommersaison, brutto je m²; kein Wechsel zu einem anderen Bootstyp.",
+      "grenze": "Nur Flächentarif, kein Gesamtliegeplatz. Ohne angenommene Bootsfläche oder unbestätigte Pflichtbestandteile; 2023/24 für diesen 2025/26-Vergleich nicht nötig.",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "betrag": 96,
+          "beobachtung_ids": [
+            "ycl-fläche-2025"
+          ],
+          "quelle_ids": [
+            "ycl-2025"
+          ],
+          "label": "2025 · 2025"
+        },
+        {
+          "jahr": 2026,
+          "betrag": 96.5,
+          "beobachtung_ids": [
+            "ycl-fläche-2026"
+          ],
+          "quelle_ids": [
+            "ycl-2026"
+          ],
+          "label": "2026 · 2026"
+        }
+      ]
+    },
+    {
+      "id": "skiurlaub-arlberg",
+      "kurzname": "Arlberg · Hauptsaison-Skipass",
+      "einheit": "EUR · 6-Tage-Skipass",
+      "definition": "Erwachsener, sechs aufeinanderfolgende Tage, Hauptsaison statt ermäßigter Saison.",
+      "grenze": "Saison 2024/25 wird dem Endjahr 2025, Saison 2025/26 dem Endjahr 2026 zugeordnet. Nur Skipass, kein Urlaub; 2026/27 ausgeschlossen.",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "betrag": 423,
+          "beobachtung_ids": [
+            "ski-beleg-2024"
+          ],
+          "quelle_ids": [
+            "ski202425-albona"
+          ],
+          "label": "2025 · Saison 2024/25"
+        },
+        {
+          "jahr": 2026,
+          "betrag": 450,
+          "beobachtung_ids": [
+            "ski-2025"
+          ],
+          "quelle_ids": [
+            "pruefung-ski2025-original"
+          ],
+          "label": "2026 · 2025/26"
+        }
+      ]
+    },
+    {
+      "id": "schwarzwaldstube-menue-ii",
+      "kurzname": "Schwarzwaldstube · Menü II",
+      "einheit": "EUR · Menü pro Person",
+      "definition": "Großes siebenpositioniges Menü II, ohne Getränke; kein Wechsel zum günstigeren vegetarischen Menü.",
+      "grenze": "Nominaler Menüpreis; Speisen/Steuerbedingungen ändern sich. Keine qualitätsbereinigte Gastronomieinflation.",
+      "punkte": [
+        {
+          "jahr": 2025,
+          "betrag": 325,
+          "beobachtung_ids": [
+            "schwarzwald-2025-menue"
+          ],
+          "quelle_ids": [
+            "schwarzwald-2025-foto"
+          ],
+          "label": "2025 · 16.03.2025"
+        },
+        {
+          "jahr": 2026,
+          "betrag": 385,
+          "beobachtung_ids": [
+            "schwarzwald-2026-menue"
+          ],
+          "quelle_ids": [
+            "schwarzwald-karte"
+          ],
+          "label": "2026 · 16.10.2026"
+        }
+      ]
+    }
+  ]
 }
