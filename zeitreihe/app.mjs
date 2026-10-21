@@ -74,7 +74,7 @@ function renderResearch(){
   const dateKey=o=>o.preisdatum||o.gültigkeit?.von||o.gültigkeit?.bezeichnung?.match(/20\d{2}/)?.[0]||o.id.match(/20\d{2}/)?.[0]||'';
   const h=p.historienprüfung,obs=[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen].sort((a,b)=>dateKey(a).localeCompare(dateKey(b)));
   const rows=obs.map(o=>{
-   const future=/zukunft|angek|künftig/i.test(o.zeitstatus)||String(o.gültigkeit?.von||'')>'2026-10-16';
+   const future=/zukunft|angek|künftig/i.test(o.zeitstatus)||String(o.gültigkeit?.von||'')>data.stand;
    const date=o.gültigkeit?.bezeichnung||o.preisdatum||'Datierung offen';
    return `<tr><td>${esc(date)}<small>${o.preisdatum?'Datumsbezug: '+esc(o.preisdatum):'Kein einzelner Preisstichtag belegt'}</small><small class="tag ${future?'future':''}">${future?'ZUKUNFTSTARIF':esc(o.zeitstatus)}</small></td><td><strong>${fmt(o.betrag)} €</strong><small>${esc(o.einheit)}${o.variante?' · '+esc(o.variante):''}</small></td><td>${esc(o.preisart)}<small>${esc(o.umsatzsteuer)}</small></td><td>${sourceLink(o.quelle_id)}<small>Abruf: ${esc(o.abgerufen_am||data.stand)}</small></td></tr>`;
   }).join('');

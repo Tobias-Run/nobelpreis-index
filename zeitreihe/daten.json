@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2-produktpruefung",
-  "stand": "2026-10-17",
+  "stand": "2026-10-21",
   "indexfreigabe": false,
   "zweck": "Historische Nachrecherche aller 13 Positionen; Teilreihen und Lücken, kein freigegebener Konsumindex",
   "quellen": [
@@ -1241,6 +1241,216 @@
       "belegsicherung": "Volltext im Webwerkzeug gelesen",
       "weiterverwendungsrechte": "Gesetzesfakten und eigene Auswertung",
       "sha256": "e8753b36595e445e776716ce43ec8d01633d9c548aec77d776105ae9484d09d0"
+    },
+    {
+      "id": "ia21-alarm-html-2023",
+      "titel": "Securando FAQ, archivierter Angebotsstand 2023-02-01",
+      "url": "https://web.archive.org/web/20230201160929/https://www.securando.de/ajax-alarmanlage-testen/",
+      "rohbeleg_url": "https://web.archive.org/web/20230201160929id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "original_url": "https://www.securando.de/ajax-alarmanlage-testen/",
+      "archiv_timestamp": "20230201160929",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "FAQ: Wie viel kostet die Aufschaltung auf einen Sicherheitsdienst?",
+      "sha256": "89f1918deb99d221c14749255cc1a907fcaa5269e861ca58ea77a64ccfe5c921",
+      "memento_datetime": "Wed, 01 Feb 2023 16:09:29 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-alarm-html-2024",
+      "titel": "Securando FAQ, archivierter Angebotsstand 2024-05-21",
+      "url": "https://web.archive.org/web/20240521040917/https://www.securando.de/ajax-alarmanlage-testen/",
+      "rohbeleg_url": "https://web.archive.org/web/20240521040917id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "original_url": "https://www.securando.de/ajax-alarmanlage-testen/",
+      "archiv_timestamp": "20240521040917",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "FAQ: Wie viel kostet die Aufschaltung auf einen Sicherheitsdienst?",
+      "sha256": "e3ddfdcdb760e3e69fb47a719af6942d8bdc946f3fa307d293f7d20a360f55e4",
+      "memento_datetime": "Tue, 21 May 2024 04:09:17 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-alarm-html-2025",
+      "titel": "Securando FAQ, archivierter Angebotsstand 2025-01-26",
+      "url": "https://web.archive.org/web/20250126151945/https://www.securando.de/ajax-alarmanlage-testen/",
+      "rohbeleg_url": "https://web.archive.org/web/20250126151945id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "original_url": "https://www.securando.de/ajax-alarmanlage-testen/",
+      "archiv_timestamp": "20250126151945",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "FAQ: Wie viel kostet die Aufschaltung auf einen Sicherheitsdienst?",
+      "sha256": "db524aee61e5ad1b2c316fa840ad2f7b246fc7d147edc085177c9e1b7bdc7bf2",
+      "memento_datetime": "Sun, 26 Jan 2025 15:19:45 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-alarm-html-2026",
+      "titel": "Securando FAQ, archivierter Angebotsstand 2026-04-21",
+      "url": "https://web.archive.org/web/20260421103241/https://www.securando.de/ajax-alarmanlage-testen/",
+      "rohbeleg_url": "https://web.archive.org/web/20260421103241id_/https://www.securando.de/ajax-alarmanlage-testen/",
+      "original_url": "https://www.securando.de/ajax-alarmanlage-testen/",
+      "archiv_timestamp": "20260421103241",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "FAQ: Wie viel kostet die Aufschaltung auf einen Sicherheitsdienst?",
+      "sha256": "725aa366c9c22bac4278d3f76b692d5a37596e6c36f5f65bed595ad3fdef79fd",
+      "memento_datetime": "Tue, 21 Apr 2026 10:32:41 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-alarm-neuer-pfad",
+      "titel": "Securando/Securitas Sondertarif, archiviert 24.05.2022, gültig bis 30.06.2022",
+      "url": "https://web.archive.org/web/20220524153608/https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20220524153608id_/https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+      "original_url": "https://www.securando.de/wp-content/uploads/Securando_Monitoring-Preisliste_Gu%CC%88ltigkeit-3-0062022.pdf",
+      "archiv_timestamp": "20220524153608",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "PDF S. 1 Privat-Grundpreis; S. 2 Einrichtung inklusive und Mindestlaufzeit 24 Monate; auf beiden Seiten gültig bis 30.06.2022.",
+      "sha256": "79b3781c85aad0bf12daad9d0aebd9dad48f82895c842cf2dd674818ddfcec76",
+      "memento_datetime": "Tue, 24 May 2022 15:36:08 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-lanserhof-en-2024",
+      "titel": "Lanserhof Sylt Preisliste 2024, archivierte Zimmerpreistabelle",
+      "url": "https://web.archive.org/web/20250126235433/https://api.lanserhof.com/wp-content/uploads/2025/01/2024_LHS_Hotelpreisliste_EN_OhnePreise.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20250126235433id_/https://api.lanserhof.com/wp-content/uploads/2025/01/2024_LHS_Hotelpreisliste_EN_OhnePreise.pdf",
+      "original_url": "https://api.lanserhof.com/wp-content/uploads/2025/01/2024_LHS_Hotelpreisliste_EN_OhnePreise.pdf",
+      "archiv_timestamp": "20250126235433",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Gedruckte S. 19 Zimmer mit Loggia, Village, 1 Person: 649; S. 26 Bedingungen und Preise inklusive MwSt. in EUR. Tarifjahr 2024 aus dem Dokument, nicht aus dem Capture-Datum.",
+      "sha256": "e5858a4318be259d2525a265c93189d8cb1837fecc9ec731225e13d461cf65c5",
+      "memento_datetime": "Sun, 26 Jan 2025 23:54:33 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-lanserhof-de-2025",
+      "titel": "Lanserhof Sylt Preisliste 2025, archivierte Zimmerpreistabelle",
+      "url": "https://web.archive.org/web/20250615021256/https://api.lanserhof.com/wp-content/uploads/2025/01/2025_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20250615021256id_/https://api.lanserhof.com/wp-content/uploads/2025/01/2025_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+      "original_url": "https://api.lanserhof.com/wp-content/uploads/2025/01/2025_LHS_Hotelpreisliste_DE_OhnePreise.pdf",
+      "archiv_timestamp": "20250615021256",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Gedruckte S. 19 Zimmer mit Loggia, Village, 1 Person: 649; S. 26 Bedingungen und Preise inklusive MwSt. in EUR. Tarifjahr 2025 aus dem Dokument, nicht aus dem Capture-Datum.",
+      "sha256": "94fd0e58ea1c11bfd00fba534007b32c2e4da7b4e2ed854a71bbf33a74ddbf8b",
+      "memento_datetime": "Sun, 15 Jun 2025 02:12:56 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-sylt-dua-2019",
+      "titel": "sylt-dua-2019 · zusätzlicher geprüfter Archivbeleg",
+      "url": "https://web.archive.org/web/20190721084555/https://www.dua-objektservice.de/hausbetreuung/",
+      "rohbeleg_url": "https://web.archive.org/web/20190721084555id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "original_url": "https://www.dua-objektservice.de/hausbetreuung/",
+      "archiv_timestamp": "20190721084555",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Siehe eigene Auswertung im Bericht und Abrufprotokoll; keine automatische Preisaufnahme.",
+      "sha256": "61603562a0b2b8495155ca7363930ed5249d4a4e3bd8d6ceb1dad2537e349d1c",
+      "memento_datetime": "Sun, 21 Jul 2019 08:45:55 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-sylt-dua-2021",
+      "titel": "sylt-dua-2021 · zusätzlicher geprüfter Archivbeleg",
+      "url": "https://web.archive.org/web/20210120094149/https://www.dua-objektservice.de/hausbetreuung/",
+      "rohbeleg_url": "https://web.archive.org/web/20210120094149id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "original_url": "https://www.dua-objektservice.de/hausbetreuung/",
+      "archiv_timestamp": "20210120094149",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Siehe eigene Auswertung im Bericht und Abrufprotokoll; keine automatische Preisaufnahme.",
+      "sha256": "b8e0e8b39cecc9737624dcf414b5778ee88c7ccc480af6e98c09d1d2f3e9a1b9",
+      "memento_datetime": "Wed, 20 Jan 2021 09:41:49 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-sylt-dua-2023",
+      "titel": "sylt-dua-2023 · zusätzlicher geprüfter Archivbeleg",
+      "url": "https://web.archive.org/web/20230323075553/https://www.dua-objektservice.de/hausbetreuung/",
+      "rohbeleg_url": "https://web.archive.org/web/20230323075553id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "original_url": "https://www.dua-objektservice.de/hausbetreuung/",
+      "archiv_timestamp": "20230323075553",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Siehe eigene Auswertung im Bericht und Abrufprotokoll; keine automatische Preisaufnahme.",
+      "sha256": "d25a0e0c8aff933207823ea0e166da64637f40ae6d05488bcab3436f137fb770",
+      "memento_datetime": "Thu, 23 Mar 2023 07:55:53 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-sylt-dua-2025",
+      "titel": "sylt-dua-2025 · zusätzlicher geprüfter Archivbeleg",
+      "url": "https://web.archive.org/web/20250214013418/https://www.dua-objektservice.de/hausbetreuung/",
+      "rohbeleg_url": "https://web.archive.org/web/20250214013418id_/https://www.dua-objektservice.de/hausbetreuung/",
+      "original_url": "https://www.dua-objektservice.de/hausbetreuung/",
+      "archiv_timestamp": "20250214013418",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Siehe eigene Auswertung im Bericht und Abrufprotokoll; keine automatische Preisaufnahme.",
+      "sha256": "19cc5613f267199906ea71c331286523c974a81013cd54cb834f4028eba00ed3",
+      "memento_datetime": "Fri, 14 Feb 2025 01:34:18 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-kelly-2023-2",
+      "titel": "kelly-2023-2 · zusätzlicher geprüfter Archivbeleg",
+      "url": "https://web.archive.org/web/20230202210503/https://saclab.com/de/bags/hermes-kelly-28-togo-black-2/",
+      "rohbeleg_url": "https://web.archive.org/web/20230202210503id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-2/",
+      "original_url": "https://saclab.com/de/bags/hermes-kelly-28-togo-black-2/",
+      "archiv_timestamp": "20230202210503",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Siehe eigene Auswertung im Bericht und Abrufprotokoll; keine automatische Preisaufnahme.",
+      "sha256": "8b05c7c5d927edc1fe186f56f853d209b00bd04dbb5be1502e225db0d22a0274",
+      "memento_datetime": "Thu, 02 Feb 2023 21:05:03 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-kelly-2023-6",
+      "titel": "kelly-2023-6 · zusätzlicher geprüfter Archivbeleg",
+      "url": "https://web.archive.org/web/20230605223530/https://saclab.com/de/bags/hermes-kelly-28-togo-black-6/",
+      "rohbeleg_url": "https://web.archive.org/web/20230605223530id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-6/",
+      "original_url": "https://saclab.com/de/bags/hermes-kelly-28-togo-black-6/",
+      "archiv_timestamp": "20230605223530",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Siehe eigene Auswertung im Bericht und Abrufprotokoll; keine automatische Preisaufnahme.",
+      "sha256": "e3f8d7355eb8d2f69ad1541cf0b272819d2ec4647549bfcdb5274f268781761c",
+      "memento_datetime": "Mon, 05 Jun 2023 22:35:30 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-kelly-2024-10",
+      "titel": "kelly-2024-10 · zusätzlicher geprüfter Archivbeleg",
+      "url": "https://web.archive.org/web/20241212203657/https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+      "rohbeleg_url": "https://web.archive.org/web/20241212203657id_/https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+      "original_url": "https://saclab.com/de/bags/hermes-kelly-28-togo-black-10/",
+      "archiv_timestamp": "20241212203657",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Siehe eigene Auswertung im Bericht und Abrufprotokoll; keine automatische Preisaufnahme.",
+      "sha256": "0cfde5e4660fbade1b220e8fcbf36a6bac5a44a7485142d3923534c602edc145",
+      "memento_datetime": "Thu, 12 Dec 2024 20:36:57 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
+    },
+    {
+      "id": "ia21-lanserhof-en-preise",
+      "titel": "lanserhof-en-preise · zusätzlicher geprüfter Archivbeleg",
+      "url": "https://web.archive.org/web/20250126235433/https://api.lanserhof.com/wp-content/uploads/2025/01/LHS_Hotelpreisliste_EN_MitPreise-1.pdf",
+      "rohbeleg_url": "https://web.archive.org/web/20250126235433id_/https://api.lanserhof.com/wp-content/uploads/2025/01/LHS_Hotelpreisliste_EN_MitPreise-1.pdf",
+      "original_url": "https://api.lanserhof.com/wp-content/uploads/2025/01/LHS_Hotelpreisliste_EN_MitPreise-1.pdf",
+      "archiv_timestamp": "20250126235433",
+      "abgerufen_am": "2026-10-21",
+      "quellentyp": "Archivierter Anbieterbeleg",
+      "fundstelle": "Siehe eigene Auswertung im Bericht und Abrufprotokoll; keine automatische Preisaufnahme.",
+      "sha256": "2a630ff4931441879f04a31dd802fcae9c2228c0a91dd7b0ad388d94e2d95746",
+      "memento_datetime": "Sun, 26 Jan 2025 23:54:33 GMT",
+      "weiterverwendungsrechte": "Nur Preisfakten, eigene Auswertung und Quellenverweise; keine Veröffentlichung vollständiger PDFs/Seiten oder Fotos."
     }
   ],
   "produkte": [
@@ -1768,10 +1978,10 @@
       "dossier": "docs/produkte/hermes-kelly.md",
       "historienprüfung": {
         "status": "anbieterbeleg noetig",
-        "ergebnis": "Boutique, verfügbarer Sekundärmarkt und ausverkaufte/gebrauchte Angebote bleiben getrennt. Das Angebot 2024 ist dokumentiert; Vergleichskriterien und Beleganforderung konkretisiert.",
-        "grenze": "Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Versandkosten fehlen; kein Markup berechenbar.",
-        "quelle_id": "ia-kelly-8",
-        "geprüft_am": "2026-10-17"
+        "ergebnis": "Drei weitere archivierte Angebote gelesen: ausverkauft und/oder anderer Zustand bzw. Palladium statt Gold. Keine zusätzliche passende verfügbare Vergleichsbeobachtung.",
+        "grenze": "Kein deutscher Boutique-Beleg, keine zweite passende verfügbare Vergleichsbeobachtung; kein Markup berechenbar.",
+        "quelle_id": "ia21-kelly-2024-10",
+        "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [
         {
@@ -1802,6 +2012,12 @@
         "erledigt": "Boutique, verfügbarer Sekundärmarkt und ausverkaufte/gebrauchte Angebote bleiben getrennt. Das Angebot 2024 ist dokumentiert; Vergleichskriterien und Beleganforderung konkretisiert.",
         "restnachweis": "Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Versandkosten fehlen; kein Markup berechenbar.",
         "quelle_ids": [],
+        "indexfreigabe": false
+      },
+      "archivnachrecherche": {
+        "geprüft_am": "2026-10-21",
+        "bericht": "docs/archivluecken-2026-10-21.md",
+        "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
       }
     },
@@ -1907,10 +2123,10 @@
       "dossier": "docs/produkte/lanserhof-sylt.md",
       "historienprüfung": {
         "status": "leistungswechsel belegt",
-        "ergebnis": "Classic 2024/2025/2026 inhaltlich verglichen: Massagen/Detox, Telefontermine, Diagnostik und Untersuchungsdauer ändern sich. 2026 nennt 42 EUR pro Nacht verpflichtende Bereitschaftspauschale.",
-        "grenze": "Programmreihe nicht als unveränderte Kur verketten. Sieben Nächte: Gebührenkomponente 7×42=294 EUR; unklar ob im Programm enthalten. Unterkunft/Verpflegung und identischer Gesamttarif fehlen.",
-        "quelle_id": "pruefung-lanserhof2024",
-        "geprüft_am": "2026-10-17"
+        "ergebnis": "Historische Zimmerkomponenten 2024 und 2025 gefunden: Village, 29 m², Belegung 1 Person, jeweils 649 EUR laut Tabelle. Programmunterschiede bleiben bestehen.",
+        "grenze": "Zimmer nur mit medizinischem Programm; Zeiteinheit in der Tabelle nicht ausdrücklich genannt. Verpflegung, Zuschläge und vollständiger identischer Gesamtpreis weiter offen; keine Gesamtinflationsreihe.",
+        "quelle_id": "ia21-lanserhof-en-2024",
+        "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [
         {
@@ -1946,6 +2162,55 @@
           "indexfreigabe": false,
           "prüfstatus": "Quelle gelesen; redaktionelle Zweitprüfung und Vergleichbarkeit offen",
           "variante": "Classic Plus"
+        },
+        {
+          "id": "lanserhof-zimmer-village-2024",
+          "betrag": 649,
+          "einheit": "Zimmer-Tarif laut Tabelle für 1 Person; Zeiteinheit nicht ausdrücklich ausgewiesen",
+          "variante": "Zimmer mit Loggia, 29 m², Village, Belegung 1 Person",
+          "preisart": "Veröffentlichte Zimmerkomponente; nur zusammen mit medizinischem Programm buchbar",
+          "quelle_id": "ia21-lanserhof-en-2024",
+          "preisdatum": null,
+          "datumstyp": "Tarifjahr aus der Broschüre; kein einzelner Preisstichtag",
+          "gültigkeit": {
+            "bezeichnung": "Broschüre 2024; genaue Datumsgrenzen nicht genannt"
+          },
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "Inklusive gesetzlicher MwSt. in EUR laut allgemeinen Bedingungen",
+          "abgerufen_am": "2026-10-21",
+          "indexfreigabe": false,
+          "prüfstatus": "Archivierte Tabelle und Bedingungen gelesen; keine Freigabe als Gesamtaufenthalt oder Indexreihe",
+          "hinweise": [
+            "Zimmerpreise nur in Verbindung mit dem medizinischen Programm Lanserhof Basic; Mindestaufenthalt sieben Nächte.",
+            "Kein belegter vollständiger Aufenthaltspreis; nicht ungeprüft mit Programm-/Bereitschaftsgebühren addieren oder mit sieben Nächten multiplizieren.",
+            "Die Tabelle benennt keinen ausdrücklichen Nachtbezug. Preiszeiteinheit und enthaltene Verpflegung müssen vor einer Gesamtrechnung geklärt werden.",
+            "2024-Preisliste erst am 26.01.2025 archiviert; Capture-Jahr ersetzt das Tarifjahr nicht."
+          ]
+        },
+        {
+          "id": "lanserhof-zimmer-village-2025",
+          "betrag": 649,
+          "einheit": "Zimmer-Tarif laut Tabelle für 1 Person; Zeiteinheit nicht ausdrücklich ausgewiesen",
+          "variante": "Zimmer mit Loggia, 29 m², Village, Belegung 1 Person",
+          "preisart": "Veröffentlichte Zimmerkomponente; nur zusammen mit medizinischem Programm buchbar",
+          "quelle_id": "ia21-lanserhof-de-2025",
+          "preisdatum": null,
+          "datumstyp": "Tarifjahr aus der Broschüre; kein einzelner Preisstichtag",
+          "gültigkeit": {
+            "bezeichnung": "Broschüre 2025; genaue Datumsgrenzen nicht genannt"
+          },
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "Inklusive gesetzlicher MwSt. in EUR laut allgemeinen Bedingungen",
+          "abgerufen_am": "2026-10-21",
+          "indexfreigabe": false,
+          "prüfstatus": "Archivierte Tabelle und Bedingungen gelesen; keine Freigabe als Gesamtaufenthalt oder Indexreihe",
+          "hinweise": [
+            "Zimmerpreise nur in Verbindung mit dem medizinischen Programm Lanserhof Basic; Mindestaufenthalt sieben Nächte.",
+            "Kein belegter vollständiger Aufenthaltspreis; nicht ungeprüft mit Programm-/Bereitschaftsgebühren addieren oder mit sieben Nächten multiplizieren.",
+            "Die Tabelle benennt keinen ausdrücklichen Nachtbezug. Preiszeiteinheit und enthaltene Verpflegung müssen vor einer Gesamtrechnung geklärt werden.",
+            "2024-Preisliste erst am 26.01.2025 archiviert; Capture-Jahr ersetzt das Tarifjahr nicht.",
+            "Überschrift Einzelzimmer, Beschreibung nennt Doppelzimmer; Kategoriebezeichnung vor einer Verkettung bestätigen."
+          ]
         }
       ],
       "abschlusspruefung": {
@@ -1958,6 +2223,12 @@
           "pruefung-lanserhof2025",
           "pruefung-lanserhof2026"
         ],
+        "indexfreigabe": false
+      },
+      "archivnachrecherche": {
+        "geprüft_am": "2026-10-21",
+        "bericht": "docs/archivluecken-2026-10-21.md",
+        "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
       }
     },
@@ -2377,10 +2648,10 @@
       ],
       "historienprüfung": {
         "status": "anbieterbeleg noetig",
-        "ergebnis": "Archivierte Downloadverzeichnisse liefern die konkreten Originaldateinamen 2023 und 2024. Hafenordnung und Antragsbogen nennen Bootsdimensionen, aber keine verbindliche Gebühren-Flächenformel.",
-        "grenze": "2023_Gebuehrenordnung_Verein_unterschrieben.pdf und Gebuehrenordnungen/2024_Gebuehrenordnung_Verein.pdf sind nicht abrufbar. Aus dem bloßen Link keine Preise ableiten; Fläche/Strukturwechsel bleiben anfragepflichtig.",
-        "quelle_id": "pruefung-ycl2024-formulare",
-        "geprüft_am": "2026-10-17"
+        "ergebnis": "CDX-Domainsuche und exakte Dateipfade erneut geprüft: keine abrufbare Gebührenordnung 2023/24 gefunden; Satzungs- und Vergabedokumente ersetzen die Tarife nicht.",
+        "grenze": "2023/24 und verbindliche Flächenregel bleiben offen. Kein Preis aus verlinkten Dateinamen oder anderen Jahren abgeleitet.",
+        "quelle_id": "ia-ycl-2023",
+        "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [
         {
@@ -2441,6 +2712,12 @@
           "pruefung-ycl-fragebogen-wp",
           "pruefung-ycl-hafen2022"
         ],
+        "indexfreigabe": false
+      },
+      "archivnachrecherche": {
+        "geprüft_am": "2026-10-21",
+        "bericht": "docs/archivluecken-2026-10-21.md",
+        "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
       }
     },
@@ -2690,12 +2967,117 @@
       ],
       "historienprüfung": {
         "status": "anbieterbeleg noetig",
-        "ergebnis": "Aktuelles Securando-Angebot nennt weiterhin Securitas-Aufschaltung ab 20 EUR/Monat. Das ist eine Preisuntergrenze, keine bestätigte vollständige Fortsetzung des 2022-Privattarifs.",
-        "grenze": "Leistung, Übertragungsweg, Laufzeit, Einrichtung, inklusive Ereignisse und Pflichtgebühren müssen in einem aktuellen Tarifblatt bestätigt werden.",
-        "quelle_id": "pruefung-securando-ajax",
-        "geprüft_am": "2026-10-17"
+        "ergebnis": "Archiv 2023/2024/2025 und April 2026 nennt jeweils ab 20 EUR/Monat. Zusätzliche Tarifversion vom 24.05.2022 ist auf beiden Seiten bis 30.06.2022 gültig; Einrichtung inklusive, Mindestlaufzeit 24 Monate.",
+        "grenze": "Ab-Preise sind keine Festpreisreihe und bestätigen keinen unveränderten Leistungsumfang. Aktuelles vollständiges Tarifblatt sowie Pflichtgebühren weiter offen.",
+        "quelle_id": "ia21-alarm-neuer-pfad",
+        "geprüft_am": "2026-10-21"
       },
-      "zusätzliche_historische_beobachtungen": [],
+      "zusätzliche_historische_beobachtungen": [
+        {
+          "id": "alarm-securando-ab-archiv-2023",
+          "betrag": 20,
+          "einheit": "Monat",
+          "variante": "Securando/Securitas, Aufschaltung ab 20 EUR ohne vollständige Tarifdefinition",
+          "preisart": "Historischer Ab-Preis, keine vollständige Festpreis-Tarifreihe",
+          "quelle_id": "ia21-alarm-html-2023",
+          "preisdatum": "2023-02-01",
+          "datumstyp": "Archivierter Angebotsstand; kein nachgewiesener Preisänderungstermin",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "In der FAQ nicht gesondert ausgewiesen; nicht aus der anderen Preisliste übernommen",
+          "abgerufen_am": "2026-10-21",
+          "indexfreigabe": false,
+          "prüfstatus": "Archivinhalt gelesen; aktueller gleicher Leistungsumfang nicht bestätigt",
+          "hinweise": [
+            "Nur beworbene Untergrenze; Einrichtung, Mindestlaufzeit, enthaltene Ereignisse und Pflichtgebühren nicht vollständig belegt.",
+            "Keine Inflationsrate oder Aussage unveränderter Leistung aus gleichen Ab-Preisen ableiten."
+          ]
+        },
+        {
+          "id": "alarm-securando-ab-archiv-2024",
+          "betrag": 20,
+          "einheit": "Monat",
+          "variante": "Securando/Securitas, Aufschaltung ab 20 EUR ohne vollständige Tarifdefinition",
+          "preisart": "Historischer Ab-Preis, keine vollständige Festpreis-Tarifreihe",
+          "quelle_id": "ia21-alarm-html-2024",
+          "preisdatum": "2024-05-21",
+          "datumstyp": "Archivierter Angebotsstand; kein nachgewiesener Preisänderungstermin",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "In der FAQ nicht gesondert ausgewiesen; nicht aus der anderen Preisliste übernommen",
+          "abgerufen_am": "2026-10-21",
+          "indexfreigabe": false,
+          "prüfstatus": "Archivinhalt gelesen; aktueller gleicher Leistungsumfang nicht bestätigt",
+          "hinweise": [
+            "Nur beworbene Untergrenze; Einrichtung, Mindestlaufzeit, enthaltene Ereignisse und Pflichtgebühren nicht vollständig belegt.",
+            "Keine Inflationsrate oder Aussage unveränderter Leistung aus gleichen Ab-Preisen ableiten."
+          ]
+        },
+        {
+          "id": "alarm-securando-ab-archiv-2025",
+          "betrag": 20,
+          "einheit": "Monat",
+          "variante": "Securando/Securitas, Aufschaltung ab 20 EUR ohne vollständige Tarifdefinition",
+          "preisart": "Historischer Ab-Preis, keine vollständige Festpreis-Tarifreihe",
+          "quelle_id": "ia21-alarm-html-2025",
+          "preisdatum": "2025-01-26",
+          "datumstyp": "Archivierter Angebotsstand; kein nachgewiesener Preisänderungstermin",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "In der FAQ nicht gesondert ausgewiesen; nicht aus der anderen Preisliste übernommen",
+          "abgerufen_am": "2026-10-21",
+          "indexfreigabe": false,
+          "prüfstatus": "Archivinhalt gelesen; aktueller gleicher Leistungsumfang nicht bestätigt",
+          "hinweise": [
+            "Nur beworbene Untergrenze; Einrichtung, Mindestlaufzeit, enthaltene Ereignisse und Pflichtgebühren nicht vollständig belegt.",
+            "Keine Inflationsrate oder Aussage unveränderter Leistung aus gleichen Ab-Preisen ableiten."
+          ]
+        },
+        {
+          "id": "alarm-securando-ab-archiv-2026",
+          "betrag": 20,
+          "einheit": "Monat",
+          "variante": "Securando/Securitas, Aufschaltung ab 20 EUR ohne vollständige Tarifdefinition",
+          "preisart": "Historischer Ab-Preis, keine vollständige Festpreis-Tarifreihe",
+          "quelle_id": "ia21-alarm-html-2026",
+          "preisdatum": "2026-04-21",
+          "datumstyp": "Archivierter Angebotsstand; kein nachgewiesener Preisänderungstermin",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "In der FAQ nicht gesondert ausgewiesen; nicht aus der anderen Preisliste übernommen",
+          "abgerufen_am": "2026-10-21",
+          "indexfreigabe": false,
+          "prüfstatus": "Archivinhalt gelesen; aktueller gleicher Leistungsumfang nicht bestätigt",
+          "hinweise": [
+            "Nur beworbene Untergrenze; Einrichtung, Mindestlaufzeit, enthaltene Ereignisse und Pflichtgebühren nicht vollständig belegt.",
+            "Keine Inflationsrate oder Aussage unveränderter Leistung aus gleichen Ab-Preisen ableiten."
+          ]
+        },
+        {
+          "id": "alarm-securando-archiv-20220524",
+          "betrag": 20,
+          "einheit": "Monat",
+          "variante": "Securando privat; zwei tägliche Routinen, ein Vorgang pro Monat enthalten",
+          "preisart": "Historischer monatlicher Grundpreis, vollständig bezeichnete Tarifversion",
+          "quelle_id": "ia21-alarm-neuer-pfad",
+          "preisdatum": "2022-05-24",
+          "datumstyp": "Archivierter Tarifstand; Gültigkeitsende im Dokument gelesen",
+          "gültigkeit": {
+            "bezeichnung": "Gültig bis 30.06.2022; Beginn nicht ausgewiesen",
+            "bis": "2022-06-30"
+          },
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "Brutto inklusive 19 % gesetzlicher MwSt.",
+          "abgerufen_am": "2026-10-21",
+          "indexfreigabe": false,
+          "prüfstatus": "Archivierte Originalpreisliste auf beiden Seiten gelesen; keine Indexfreigabe",
+          "hinweise": [
+            "24 Monate Mindestvertragslaufzeit, Einrichtung und Alarmplan enthalten.",
+            "Zusätzliche Vorgänge 8,29 EUR brutto; SIM optional 10 EUR monatlich. Keine enthaltene Schlüsselverwahrung, mobile Bereitschaft oder Intervention.",
+            "Zusätzlicher datierter Versionsbeleg im selben Jahr, kein zweiter unabhängiger Jahreswert. Der ältere abweichend datierte 2022-Beleg wird nicht umgeschrieben."
+          ]
+        }
+      ],
       "abschlusspruefung": {
         "produkt_id": "alarmaufschaltung",
         "status": "anbieterbeleg_noetig",
@@ -2704,6 +3086,12 @@
         "quelle_ids": [
           "pruefung-securando-ajax"
         ],
+        "indexfreigabe": false
+      },
+      "archivnachrecherche": {
+        "geprüft_am": "2026-10-21",
+        "bericht": "docs/archivluecken-2026-10-21.md",
+        "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
       }
     },
@@ -2731,10 +3119,10 @@
       ],
       "historienprüfung": {
         "status": "anbieterbeleg noetig",
-        "ergebnis": "Enkelmann und zusätzlicher Anbieter Gartenkunst geprüft. Anbieter nennen individuelle Monatspauschalen nach Objekt/Leistung. Referenzprofil konkretisiert: 150 m² Westerland, 24 dokumentierte Kontrollen/Jahr.",
-        "grenze": "Standardbetrag sowie passende historische Angebote/Rechnungen fehlen. Material, Handwerkerkoordination und Vermietung bleiben getrennt; konkreter Recherche-Anfragetext liegt vor.",
-        "quelle_id": "pruefung-enkelmann-preise",
-        "geprüft_am": "2026-10-17"
+        "ergebnis": "D&A-Anbieterseite in Archivständen 2019, 2021, 2023 und 2025 gelesen; weiterhin kein veröffentlichter Betrag des definierten Kontrollpakets.",
+        "grenze": "Keine datierte standardisierte Pauschale oder vergleichbare Rechnung. Vier geprüfte Stände erlauben keine Aussage über alle Archivbestände.",
+        "quelle_id": "ia21-sylt-dua-2025",
+        "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [],
       "abschlusspruefung": {
@@ -2746,6 +3134,12 @@
           "pruefung-enkelmann-preise",
           "pruefung-sylt-gartenkunst"
         ],
+        "indexfreigabe": false
+      },
+      "archivnachrecherche": {
+        "geprüft_am": "2026-10-21",
+        "bericht": "docs/archivluecken-2026-10-21.md",
+        "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
       }
     },
@@ -3076,6 +3470,23 @@
         "grund": "Gleiches Vermittler-/Leitstellenumfeld, aber kein vollständiger Tarifnachweis"
       }
     ]
+  },
+  "archivnachrecherche": {
+    "stand": "2026-10-21",
+    "basis": "data/research/produktpruefung-2026-10-17.json",
+    "neue_beobachtung_ids": [
+      "alarm-securando-ab-archiv-2023",
+      "alarm-securando-ab-archiv-2024",
+      "alarm-securando-ab-archiv-2025",
+      "alarm-securando-ab-archiv-2026",
+      "alarm-securando-archiv-20220524",
+      "lanserhof-zimmer-village-2024",
+      "lanserhof-zimmer-village-2025"
+    ],
+    "neue_beobachtungen": 7,
+    "gesamt_beobachtungen": 61,
+    "hinweis": "Preisstände, Ab-Preise und Komponenten; keine sieben neu freigegebenen Indexwerte. Historische Ausgangsdateien bleiben unverändert.",
+    "bericht": "docs/archivluecken-2026-10-21.md"
   },
   "gewichtungspruefung": {
     "schema_version": "1.0-gewichtungspruefung",
@@ -3828,8 +4239,8 @@
     "impulshinweis": "Rein synthetisch: Cayenne +10 %, alle anderen Preise unverändert. Keine historische Beobachtung oder Prognose.",
     "lueckenhinweis": "Pilotabdeckung bezeichnet geplantes Gewicht der zwei vorhandenen Teilreihen, keine redaktionelle Freigabe oder Vollpreisabdeckung. Fehlende Gewichte werden im Gesamtindex nicht umverteilt."
   },
-  "version": "poc-0.3.0",
-  "recherche_sha256": "e4593c944d242d33edf2564d37cbeb7230c88cc743826a46126008dbe850f9b5",
+  "version": "poc-0.3.1",
+  "recherche_sha256": "615d1b37505c1abffd7ae02bad09ad2a4a42383b4b5cb689178cdeae0ce8b5e8",
   "pilot_reihen": [
     {
       "id": "bayreuth-parsifal",
@@ -4060,7 +4471,7 @@
     "fehlende_daten": "Keine Interpolation, Fortschreibung, Rückdatierung oder wechselnde Zusammensetzung",
     "status": "Recherche-PoC, keine redaktionelle Indexfreigabe, keine Repräsentativität für das reichste Prozent"
   },
-  "ansicht_stand": "2026-10-20",
+  "ansicht_stand": "2026-10-21",
   "einzel_reihen": [
     {
       "id": "salem-grundtarif",
