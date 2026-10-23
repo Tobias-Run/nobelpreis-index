@@ -51,6 +51,7 @@ for r in new_rows:
 new_ref={**ref,'abgerufen_am':meta['abgerufen_am'],'download_url':meta['url'],'sha256':meta['sha256'],'vergleichsmonat':'Je Reihe: September, Dezember oder tatsächlicher Beobachtungsmonat','methodenhinweis':meta['hinweis'],'quelldatei':str(NEW_SRC.relative_to(ROOT)),'beobachtungen':[{'monat':r['TIME_PERIOD'],'wert':float(r['OBS_VALUE'])} for r in new_rows]}
 extra=einzelreihen_erstellen(allobs)
 praxis=json.loads((ROOT/'data/methodik/pragmatische-auswahl-2026-10-21.json').read_text())
+premium=json.loads((ROOT/'data/methodik/premiumvergleich-2026-10-23.json').read_text())
 praxis_reihen=[]
 assert len(praxis['positionen'])==9 and len({p['produkt_id'] for p in praxis['positionen']})==9
 assert {p['produkt_id'] for p in praxis['positionen']} | {p['produkt_id'] for p in praxis['nicht_im_vergleich']} == {p['id'] for p in x['produkte']}
@@ -66,7 +67,13 @@ for p in praxis['positionen']:
   datum=o.get('preisdatum')
   text=datum[8:10]+'.'+datum[5:7]+'.'+datum[:4] if datum else (o.get('gültigkeit') or {}).get('bezeichnung','Jahresbeleg')
   q['label']=str(q['jahr'])+' · '+text
-payload.update({'version':'poc-0.4.0','ansicht_stand':'2026-10-21','einzel_reihen':extra,'einzel_referenz':new_ref,'pragmatische_auswahl':praxis,'praxis_reihen':praxis_reihen})
+for entscheidung in premium['entscheidungen']:
+ reihe=next(r for r in praxis_reihen if r['id']==entscheidung['produkt_id'])
+ assert entscheidung['beobachtung_ids']==[oid for punkt in reihe['punkte'] for oid in punkt['beobachtung_ids']]
+ reihe['premiumauswahl']=entscheidung
+ if reihe['id']=='lanserhof-sylt':
+  reihe['grenze']='Programmpreis ohne Unterkunft. Gleiche Premium-Programmstufe; Anwendungsgleichheit für Classic Plus nicht vollständig geprüft. Keine qualitätsbereinigte Kurinflation, kein Gesamtaufenthalt.'
+payload.update({'version':'poc-0.4.1','ansicht_stand':'2026-10-23','einzel_reihen':extra,'einzel_referenz':new_ref,'pragmatische_auswahl':praxis,'premiumvergleich':premium,'praxis_reihen':praxis_reihen})
 payload['methodik']['geltungsbereich']='Dieser Block beschreibt den historischen Zweier-Pilot. Der neue nominale Neuner-Vergleich ist in pragmatische_auswahl mit eigenen Auswahlregeln und Grenzen dokumentiert.'
 (ROOT/'dist/zeitreihe/daten.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(x["produkte"])} Positionen, {len(allobs)} Einzelbeobachtungen, {len(series)} Pilot-Teilreihen, {len(rows)} VPI-Monate validiert.')

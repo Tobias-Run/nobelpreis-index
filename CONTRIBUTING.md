@@ -25,6 +25,12 @@ Nutze die Vorlage „Preisrecherche“ und erfasse pro Beobachtung:
 
 Priorisiere offizielle deutsche Preislisten und Gebührenverzeichnisse, anschließend historische Kataloge und belastbare Sekundärquellen. Fehlende Angaben bleiben ausdrücklich offen. Listenpreise und Transaktionspreise dürfen nicht vermischt werden.
 
+## Premiumreferenzen bei Modell- und Leistungswechseln
+
+Es gilt die [Auswahlregel vom 23.10.2026](docs/premiumvergleich.md): **Wir verwenden das vergleichbarste belegte Premiummodell beziehungsweise Premiumpaket.** Verwendungszweck, Premiumsegment, Kernausstattung, Leistungsumfang, Dauer, Personenzahl und Einheit bestimmen die Vergleichbarkeit. Bei gleich geeigneten Alternativen bevorzugen wir die höhere Premiumausführung.
+
+Dokumentiere bisherige/neue Referenz, relevante Änderungen und die geprüften Alternativen. Normale Weiterentwicklungen verhindern die nominale Fortführung nicht automatisch; sie werden sichtbar ausgewiesen. Keine Auswahl nach stärkstem Preisanstieg und keine erfundenen Qualitätskorrekturen. Ohne belegten hinreichend vergleichbaren Nachfolger bleibt der Wert offen.
+
 ## Methodische Änderungen und Korrekturen
 
 Änderungen an Auswahl, Basisjahr, Gewichtung oder Berechnung müssen begründet und reproduzierbar sein. Dokumentiere bei Korrekturen betroffene Werte, bisherigen und neuen Stand, Grund und Datum. Behaupte keine Repräsentativität ohne belastbare Grundlage.

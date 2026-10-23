@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "stand": "2026-10-23",
+  "regel": "Bei Modell- oder Leistungswechseln das vergleichbarste belegte Premiummodell beziehungsweise Premiumpaket wählen.",
+  "prioritaeten": [
+    "Gleicher Verwendungszweck und Premiumsegment, möglichst gleiche Modellfamilie oder Programmstufe",
+    "Möglichst vergleichbare Kernausstattung, Leistung, Dauer, Personenzahl und Preiseinheit",
+    "Bei gleicher Vergleichbarkeit die höhere Premiumausführung"
+  ],
+  "fortfuehrung": "Dokumentierte Weiterentwicklungen verhindern die nominale Fortführung nicht automatisch. Keine rechnerische Qualitätsbereinigung; relevante Unterschiede ausweisen.",
+  "luecken": "Ohne belegten hinreichend vergleichbaren Premiumnachfolger keine erfundenen Preise oder stillen Wechsel von Leistungsart, Dauer oder Personenzahl.",
+  "entscheidungen": [
+    {
+      "produkt_id": "rm-charger5",
+      "status": "premiumauswahl_entschieden",
+      "referenz": "Charger5 vario 2025 und 2026",
+      "beobachtung_ids": ["rm-archiv-2025-basis", "rm-2026"],
+      "begruendung": "Gleiche belegte Premium-Modellfamilie und vario-Stufe, 800 Wh und Kiox 500; im vorhandenen Material keine besser vergleichbare Alternative belegt.",
+      "abweichungen": "SR Suntour Mobie 34 / Enviolo Heavy Duty werden durch Fox AWL 34 / Enviolo Utility V1 ersetzt. Vollständig identische pine/L-Endkonfiguration nicht belegt.",
+      "preisdefinition": "Nominaler Modell-Ab-Preis, keine qualitätsbereinigte Änderung identischer Ausstattung"
+    },
+    {
+      "produkt_id": "lanserhof-sylt",
+      "status": "premiumauswahl_entschieden",
+      "referenz": "Classic Plus 2025 und 2026, eine Person, 7–8 Nächte, ohne Unterkunft",
+      "beobachtung_ids": ["lanserhof-2025-plus", "lanserhof-2026-classic-plus"],
+      "begruendung": "Gleiche belegte höhere Programmstufe und Dauer. Die niedrigere Classic-Alternative ist keine nachgewiesen bessere Entsprechung.",
+      "abweichungen": "Anwendungsgleichheit für Classic Plus nicht vollständig geprüft. Der detaillierte ältere Anwendungsabgleich betrifft Classic und wird nicht auf Plus übertragen.",
+      "preisdefinition": "Nominaler Programmpreis ohne Unterkunft, keine vollständigen Kurkosten"
+    }
+  ]
+}

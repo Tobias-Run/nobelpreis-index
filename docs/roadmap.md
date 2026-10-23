@@ -2,6 +2,8 @@
 
 Stand: 23.10.2026. Grundlage: [kritischer Gesamtreview](gesamtreview-2026-10-23.md). Umsetzungstracking: [#26](https://github.com/Tobias-Run/nobelpreis-index/issues/26).
 
+**Entschieden am 23.10.2026:** Bei Modell-/Leistungswechseln nehmen wir das [vergleichbarste belegte Premiummodell oder Premiumpaket](premiumvergleich.md). Dokumentierte Weiterentwicklungen verhindern die nominale Fortführung nicht automatisch. Charger5 vario und Lanserhof Classic Plus werden nach dieser Regel fortgeführt. Die Auswahlregel ist damit festgelegt; die verbleibenden Preis-/Zeit- und Belegprüfungen bleiben eigene Aufgaben.
+
 **Nächstes Produktziel: eine öffentliche Forschungsbeta für neun kuratierte Preisgeschichten.** Der gemeinsame nominale Index ist ein eigener, nachgelagerter Freigabeschritt. Die bestehende Website und Berechnung wurden im Rahmen des Reviews nicht verändert; die folgenden Punkte sind der empfohlene Arbeitsplan.
 
 ## Reihenfolge und Aufwand
@@ -23,8 +25,8 @@ Die fertige Oberfläche aus Phase 2 wird als Forschungsbeta veröffentlicht, sob
 ## Phase 0 · Zuerst das Messversprechen festlegen
 
 - Primärangebot als Preisarchiv/Recherchewerkzeug definieren. Neuner-Rechnung sekundär als Experiment einordnen; keinen prominenten zusätzlichen Inflationsanspruch aus den +1,74 Prozentpunkten ableiten.
-- Pro Position Preisart, Grundvariante, Kernleistung, Einheit, Pflichtbestandteile, Preis-/Gültigkeitsdatum und zeitliche Zuordnung festlegen. Die höhere belegte Variante innerhalb gleicher Dauer und Leistung für künftige Updates fixieren.
-- Regeln für nominale Tarifstufen, konkrete Leistungswechsel, Reihenbrüche, fehlende Daten und saisonale Preise festhalten. Monats-VPI bleibt ein Monatsdurchschnitt, keine tagesgenaue Vergleichsmessung.
+- Pro Position Preisart, Grundvariante, Kernleistung, Einheit, Pflichtbestandteile, Preis-/Gültigkeitsdatum und zeitliche Zuordnung festlegen. Bei Wechseln die entschiedene Premium-Auswahlregel anwenden; bei gleicher Vergleichbarkeit die höhere Ausführung wählen.
+- Die festgelegte Fortführung nominaler Premiumangebote dokumentieren; verbleibende Regeln für Reihenbrüche ohne geeigneten Nachfolger, fehlende Daten und saisonale Preise ergänzen. Monats-VPI bleibt ein Monatsdurchschnitt, keine tagesgenaue Vergleichsmessung.
 - Aktuelle Matrix für alle 13 Positionen erstellen: veröffentlichbare Preisfakten, freigegebene Vergleichspaare, aggregierbare Reihe, nächster erforderlicher Nachweis und zuständige Rolle.
 - Forschungsbeta auf die bestehenden neun Themen begrenzen. Kelly, Alarm, Sylt-Service und Adlon bleiben benannter Backlog. Der Premium-Entwurf erhält künftig einen eigenen Archivplatz.
 
@@ -41,7 +43,7 @@ Die fertige Oberfläche aus Phase 2 wird als Forschungsbeta veröffentlicht, sob
 | 5 | **YCL** | €/m² als eigenständige Tarifeinheit freigeben. Flächenformel/Pflichtkosten nur für einen späteren Gesamtliegeplatzpreis verlangen. |
 | 6 | **Cayenne** | Nominale Modellstufe mit Ausstattungs-/Modellwechselregel festlegen; Pflichtkosten eindeutig abgrenzen. |
 | 7 | **Menü II** | Großes Menü als definierte Tarifstufe entscheiden; zeitlich passende jährliche Belege und Steuer-/Pflichtbestandteile prüfen. Hohen Anstieg offen erklären. |
-| 8 | **Charger5 und Lanserhof** | Konkrete Ausstattungs-/Leistungswechsel nach derselben Policy entscheiden; bis dahin als eingeschränkte Preisgeschichte führen. |
+| 8 | **Charger5 und Lanserhof** | Auswahl entschieden: Charger5 vario beziehungsweise Classic Plus als vergleichbarste belegte Premiumstufe fortführen. Komponenten-/Leistungsunterschiede dokumentieren; Preisdefinition, Pflichtbestandteile und Zeitbezug eigenständig prüfen. |
 
 Parallel einen gemeinsamen Validator für Rohdaten und Auswahlrezept bauen: gültige Daten, Pflichtfelder, Quellzuordnung, Produkt-/Variantenbezug, Verwendbarkeit zum Stichtag und fachlicher Freigabestatus. Zukunftstarife dürfen im Archiv stehen, aber nicht unbemerkt im laufenden Vergleich.
 
@@ -80,7 +82,7 @@ Der gemeinsame Index wird veröffentlicht, wenn **alle** folgenden Bedingungen e
 - Feste Zusammensetzung und Gewichte, dokumentierte Produkt- und Leistungsdefinitionen sowie konsistente Preisarten.
 - Eine begründete gemeinsame Erhebungs-/Zeitkonvention. Ein festes jährliches Erhebungsfenster oder eine konsistente Regel für Saison-/Jahrestarife genügt; identische Kalendertage sind nicht erforderlich. Zulässige Abweichungen werden vorab definiert. Beobachtungsdatum, Gültigkeitszeitraum und saisonaler Anker werden unterschieden; VPI-Fenster passen zur behaupteten Veränderung. Für nicht passende Fenster wird kein gemeinsamer Inflationsabstand ausgegeben.
 - Alle im Index benötigten Preise fachlich freigegeben, vollständiger Zahlbetrag, Pflichtbestandteile und Brutto-/Nettobehandlung geklärt. Offene Steuerdetails blockieren, soweit sie die Vergleichbarkeit berühren. Keine verdeckte Interpolation oder wechselnde Besetzung.
-- Einheitliche Regel für nominale Leistungsstufen, Modellwechsel und Reihenbrüche. Keine vorgetäuschte amtliche Qualitätsbereinigung.
+- Die entschiedene Auswahl des vergleichbarsten Premiummodells/-pakets einheitlich anwenden; Nachfolgerwahl und Unterschiede dokumentieren. Normale Weiterentwicklungen führen nicht automatisch zum Reihenbruch. Keine vorgetäuschte amtliche Qualitätsbereinigung.
 - Beiträge, Sensitivität und Grenzen für den tatsächlich veröffentlichten Korb dokumentiert; keine Repräsentativität für deutsche 1%-Haushalte.
 - Release-/Korrekturprozess und Belegkette funktionieren.
 

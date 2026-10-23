@@ -1,5 +1,7 @@
 # Lanserhof Sylt: Programme sind kein Gesamtaufenthalt
 
+**Aktuelle Auswahlentscheidung · 23.10.2026:** Classic Plus 2025 → 2026, eine Person, 7–8 Nächte, ohne Zimmer, bleibt die vergleichbarste im Material belegte Premium-Programmstufe: 4.046 → 3.990 €. Die [Premium-Auswahlregel](../premiumvergleich.md) erlaubt die nominale Fortführung; vollständige Anwendungsgleichheit wird nicht behauptet. Der detaillierte ältere Anwendungsabgleich betrifft Classic, nicht Classic Plus. Unterkunft und ungeklärte Pflichtbestandteile bleiben getrennt. Die folgenden Abschnitte dokumentieren die früheren Prüfstände.
+
 **Gesundheit & Reisen · Deutschland · Prüfstand 16.10.2026**  
 **Status:** offizielle Programmpreise vorhanden; Gesamtpaket und Leistungsbrücke offen.
 

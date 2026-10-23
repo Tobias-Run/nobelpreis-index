@@ -18,6 +18,8 @@ Ein kuratierter Preisindex für gehobenen Konsum in Deutschland.
 
 ## Kritischer Review und nächster Meilenstein
 
+**Auswahlregel entschieden · 23.10.2026:** Bei Modell- und Leistungswechseln verwenden wir das [vergleichbarste belegte Premiummodell beziehungsweise Premiumpaket](docs/premiumvergleich.md). Bei gleicher Vergleichbarkeit bevorzugen wir die höhere Ausführung. Charger5 vario und Lanserhof Classic Plus werden damit nominal fortgeführt; Unterschiede bleiben sichtbar dokumentiert.
+
 Der [Gesamtreview vom 23.10.2026](docs/gesamtreview-2026-10-23.md) bestätigt die reproduzierbare Berechnung und benennt die wesentliche Grenze: Die neun Preispaare haben unterschiedliche Zeitfenster und teilweise Leistungswechsel. Ihr Abstand zum August-VPI ist deshalb keine belastbare zusätzliche Inflationsrate. Der hohe Menübeitrag und die Sensitivität der Auswahl sind nachrechenbar dokumentiert.
 
 Die [priorisierte Roadmap](docs/roadmap.md) empfiehlt zuerst eine gemeinsame öffentliche Forschungsbeta mit überprüfbaren Produktgeschichten, fachlichen Freigaberegeln und verlässlichem Releaseablauf. Ein gemeinsamer nominaler Index folgt nach eigenem Freigabegate. Die Umsetzung wird in [Issue #26](https://github.com/Tobias-Run/nobelpreis-index/issues/26) verfolgt; dieser Review verändert die bestehende Website und Berechnung noch nicht.
