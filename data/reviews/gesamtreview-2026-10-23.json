@@ -1,0 +1,73 @@
+{
+  "stand": "2026-10-23",
+  "hinweis": "Diagnostische Weglassproben mit Neunormierung, kein Ersatzindex und kein Grund, eine Position wegen ihres Ergebnisses zu entfernen. Zeit- und Leistungsprobleme bleiben bestehen.",
+  "eingaben": [
+    {
+      "datei": "data/methodik/pragmatische-auswahl-2026-10-21.json",
+      "sha256": "9ec6a470f57a0d36e546eb436265c3797da95d41324dacae402290a1999003d1"
+    },
+    {
+      "datei": "data/research/archiverweiterung-2026-10-21.json",
+      "sha256": "37527428a2f38f2f4e3b3a68468a2697a89cf4715fa4bd3620a2142bfc18addb"
+    },
+    {
+      "datei": "data/sources/bundesbank-vpi-monatlich-2019-2026-2026-10-20.csv",
+      "sha256": "b0f3f692007959a54585d21b06c2748cfee5fe2c27d75016ca263730fe00d018"
+    }
+  ],
+  "nominaler_anstieg_prozent": 4.602683852876428,
+  "vpi_august_prozent": 2.861815208503682,
+  "abstand_prozentpunkte": 1.7408686443727461,
+  "menu_beitrag_prozentpunkte": 2.0512820512820515,
+  "menu_anteil_am_nettoanstieg_prozent": 44.567085571174125,
+  "weglassproben": [
+    {
+      "weggelassen": "porsche-cayenne",
+      "mittel_der_ubrigen_prozent": 5.030236083254455
+    },
+    {
+      "weggelassen": "salem",
+      "mittel_der_ubrigen_prozent": 4.4339717154383615
+    },
+    {
+      "weggelassen": "saxonia-thin",
+      "mittel_der_ubrigen_prozent": 4.494425584485981
+    },
+    {
+      "weggelassen": "lanserhof-sylt",
+      "mittel_der_ubrigen_prozent": 5.351029715108818
+    },
+    {
+      "weggelassen": "rm-charger5",
+      "mittel_der_ubrigen_prozent": 4.573083054440813
+    },
+    {
+      "weggelassen": "bayreuth-parsifal",
+      "mittel_der_ubrigen_prozent": 5.178019334485981
+    },
+    {
+      "weggelassen": "liegeplatz-ycl",
+      "mittel_der_ubrigen_prozent": 5.112915167819315
+    },
+    {
+      "weggelassen": "skiurlaub-arlberg",
+      "mittel_der_ubrigen_prozent": 4.38014699406045
+    },
+    {
+      "weggelassen": "schwarzwaldstube-menue-ii",
+      "mittel_der_ubrigen_prozent": 2.870327026793673
+    }
+  ],
+  "referenzfenster_beispiele": [
+    {
+      "von": "2024-12",
+      "bis": "2025-12",
+      "vpi_anstieg_prozent": 1.8257261410788317
+    },
+    {
+      "von": "2025-09",
+      "bis": "2026-09",
+      "vpi_anstieg_prozent": 3.262642740619892
+    }
+  ]
+}

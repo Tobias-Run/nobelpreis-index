@@ -16,6 +16,12 @@ Ein kuratierter Preisindex für gehobenen Konsum in Deutschland.
 
 *Nobelpreis is an independent German-market project comparing price changes in a curated premium consumption basket with general consumer inflation, inspired by [CPI Reserve](https://cpireserve.com/).*
 
+## Kritischer Review und nächster Meilenstein
+
+Der [Gesamtreview vom 23.10.2026](docs/gesamtreview-2026-10-23.md) bestätigt die reproduzierbare Berechnung und benennt die wesentliche Grenze: Die neun Preispaare haben unterschiedliche Zeitfenster und teilweise Leistungswechsel. Ihr Abstand zum August-VPI ist deshalb keine belastbare zusätzliche Inflationsrate. Der hohe Menübeitrag und die Sensitivität der Auswahl sind nachrechenbar dokumentiert.
+
+Die [priorisierte Roadmap](docs/roadmap.md) empfiehlt zuerst eine gemeinsame öffentliche Forschungsbeta mit überprüfbaren Produktgeschichten, fachlichen Freigaberegeln und verlässlichem Releaseablauf. Ein gemeinsamer nominaler Index folgt nach eigenem Freigabegate. Die Umsetzung wird in [Issue #26](https://github.com/Tobias-Run/nobelpreis-index/issues/26) verfolgt; dieser Review verändert die bestehende Website und Berechnung noch nicht.
+
 ## Historische Preise und Forschungs-PoC
 
 [**Pragmatischer Startwarenkorb**](docs/pragmatischer-warenkorb-2026-10-21.md): Neun festgelegte Positionen, höhere belegte Grundvarianten und ausdrücklich benannte Teilpreise. Nominaler Vergleich der 2025er/2026er Belege: **+4,60 %**, Bundesbank-VPI August: **+2,86 %**. Unterschiedliche Beobachtungstermine und Leistungswechsel; keine qualitätsbereinigte Haushaltsinflation. Vier unzureichend belegte Positionen stehen mit festen Referenzen im Backlog.
@@ -43,7 +49,7 @@ node --test tests/reference.test.cjs tests/zeitreihe.test.mjs
 
 Der [vollständige Warenkorb-Prüfstand](docs/warenkorb-pruefstand-2026-10-16.md) führt alle elf dokumentierten Kandidaten und zwei zusätzliche Recherchevorschläge mit eigenen Dossiers, Datenstatus und offenen Belegen zusammen.
 
-Das Repository enthält einen bedienbaren Website-Prototyp. **Alle Produktpreise und der Premium-Warenkorb sind synthetische Demonstrationsdaten. Die VPI-Referenz verwendet dagegen offizielle Jahresdurchschnitte aus dem Statistikangebot der Deutschen Bundesbank (Ursprungsquelle: Statistisches Bundesamt).** Aus dem Demo-Warenkorb und seinem Abstand zum VPI lassen sich keine Aussagen über tatsächliche Preisentwicklungen gehobenen Konsums ableiten.
+Die bisherige Startseite enthält einen bedienbaren Gestaltungsprototyp. **Dessen Produktpreise und Premium-Warenkorb sind synthetische Demonstrationsdaten. Seine VPI-Referenz verwendet dagegen offizielle Jahresdurchschnitte aus dem Statistikangebot der Deutschen Bundesbank (Ursprungsquelle: Statistisches Bundesamt).** Aus dem Demo-Warenkorb und seinem Abstand zum VPI lassen sich keine Aussagen über tatsächliche Preisentwicklungen gehobenen Konsums ableiten. Die separate Forschungsansicht verwendet die oben beschriebenen recherchierten Beobachtungen.
 
 Der erste fachliche Meilenstein ist ein **belegbarer Testwarenkorb**, bevor ein realer Index veröffentlicht wird. Das Projekt beansprucht keine Repräsentativität für das reichste Prozent und ist weder amtliche Statistik noch Anlageberatung. Es besteht keine Verbindung zu CPI Reserve; Name, Gestaltung und Umsetzung sind eigenständig. „Nobelpreis“ ist ein Arbeitstitel.
 
@@ -123,14 +129,15 @@ CONTRIBUTING.md  Zusammenarbeit und Quellenanforderungen
 
 ## Nächste Meilensteine
 
-- [ ] Zehn Kandidaten auf historische Daten, Vergleichbarkeit und Quellenrechte prüfen.
-- [ ] Belegten Testwarenkorb, gemeinsames Basisjahr und Auswahlregeln festlegen.
-- [x] Offizielle deutsche VPI-Jahreswerte über die Bundesbank einbinden und die Destatis-Ursprungsquelle ausweisen.
-- [ ] Strukturiertes Datenmodell mit Quellen, Belegen und Prüfstatus auslagern.
-- [ ] Versionierte Indexstände und einen redaktionellen Freigabe- und Korrekturprozess umsetzen.
-- [ ] Eigenständige Produktseiten, Browser- und Mobilprüfung sowie rechtliche Prüfung abschließen.
+Die [Roadmap vom 23.10.2026](docs/roadmap.md) ersetzt die bisherige Start-Checkliste. Offizielle Bundesbank-Referenzen, strukturierte Forschungsdaten und historische Beobachtungen sind bereits vorhanden. Die nächsten Arbeitspakete sind:
 
-Für den späteren MVP sind 15–25 belegte Positionen aus 4–6 Kategorien vorgesehen. Datenqualität bestimmt den tatsächlichen Umfang.
+1. Messversprechen, Zeitkonvention und fachliche Freigabe je Reihe festlegen.
+2. Vorhandene Kernreihen und Belege prüfen sowie die Eingangsvalidierung vervollständigen.
+3. Eine gemeinsame Forschungsbeta mit Produktlinks und nachrechenbaren Exporten schaffen.
+4. Geprüfte Releases, redaktionelle Zuständigkeiten und Korrekturen etablieren.
+5. Einen gemeinsamen nominalen Index nach eigenem Freigabegate veröffentlichen.
+
+Die ursprünglichen 15–25 Positionen bleiben ein späterer Umfang; zunächst tragen die vorhandenen neun Themen die Forschungsbeta. Datenqualität bestimmt die Erweiterung.
 
 ## Mitwirken
 

@@ -1,0 +1,62 @@
+{
+  "geprueft_am": "2026-10-23",
+  "umfang": "Stichprobe dreier Preispaare, keine Vollfreigabe oder vollständige Quellenprüfung",
+  "belege": [
+    {
+      "id": "salem-2026",
+      "status": 200,
+      "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2026_2027.pdf",
+      "type": "application/pdf",
+      "bytes": 166645,
+      "sha256": "414267ba85efc8cdbde94866cedb9c07d87cab72fb64c7465f937f7bc58474b4",
+      "expected_hash": "414267ba85efc8cdbde94866cedb9c07d87cab72fb64c7465f937f7bc58474b4"
+    },
+    {
+      "id": "schwarzwald-karte",
+      "status": 200,
+      "url": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+      "type": "application/pdf",
+      "bytes": 521984,
+      "sha256": "cca024ce53309649441d7894fcdd5cf151b7669014ea9a404dfbaafec48424b1",
+      "expected_hash": null,
+      "hash_pruefquelle_id": "pruefung-schwarzwald2026",
+      "hash_pruefquelle": "cca024ce53309649441d7894fcdd5cf151b7669014ea9a404dfbaafec48424b1"
+    },
+    {
+      "id": "schwarzwald-2025-foto",
+      "status": 200,
+      "url": "https://i0.wp.com/diningwithfrankie.com/wp-content/uploads/2025/03/IMG_1059.jpeg",
+      "type": "image/jpeg",
+      "bytes": 3069920,
+      "sha256": "2cf76ae892f4785fb3ee9c147be0bcf00684e7a77fb36a08796e22099df92b03",
+      "expected_hash": "2cf76ae892f4785fb3ee9c147be0bcf00684e7a77fb36a08796e22099df92b03"
+    },
+    {
+      "id": "ia-salem-20240912",
+      "status": 200,
+      "url": "https://web.archive.org/web/20240912170039id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf",
+      "type": "application/pdf",
+      "bytes": 321430,
+      "sha256": "c55327f4e61b5c5f74b86c171a170bfd864ece5f21a877865e9bad929049402c",
+      "expected_hash": "c55327f4e61b5c5f74b86c171a170bfd864ece5f21a877865e9bad929049402c"
+    },
+    {
+      "id": "ski202425-albona",
+      "status": 200,
+      "url": "https://www.albonanova.at/files/bilder/downloads/ticketguide-ski-arlberg.pdf",
+      "type": "application/pdf",
+      "bytes": 153658,
+      "sha256": "6729791870b07310647d13e52e3ea009bfa654e274de986ce80863d565718a6a",
+      "expected_hash": "6729791870b07310647d13e52e3ea009bfa654e274de986ce80863d565718a6a"
+    },
+    {
+      "id": "pruefung-ski2025-original",
+      "status": 200,
+      "url": "https://www.albonanova.at/files/bilder/downloads/ticketguide-skipass-arlberg-2025.pdf",
+      "type": "application/pdf",
+      "bytes": 146067,
+      "sha256": "2a4e726ea7bbb6368e72ac77c69672dab5c4e4329f393f53a430add42fef1a6e",
+      "expected_hash": "2a4e726ea7bbb6368e72ac77c69672dab5c4e4329f393f53a430add42fef1a6e"
+    }
+  ]
+}
