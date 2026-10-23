@@ -51,7 +51,7 @@ def erstellen(beobachtungen):
         ('lanserhof-classic-plus', 'lanserhof-sylt', 'Lanserhof · Classic Plus, ohne Zimmer',
          [(2025,'lanserhof-2025-plus'),(2026,'lanserhof-2026-classic-plus')],
          'Höhere Grundprogramm-Variante Classic Plus, eine Person, 7–8 Nächte, ohne Unterkunft.',
-         'Enthaltene Anwendungen ändern sich. Nominaler Paketpreis; keine vollständige Kur oder Qualitätsbereinigung. Keine Auffüllung für 2024.'),
+         'Gleiche Premium-Programmstufe; Anwendungsgleichheit für Classic Plus nicht vollständig geprüft. Nominaler Paketpreis; keine vollständige Kur oder Qualitätsbereinigung. Keine Auffüllung für 2024.'),
         ('schwarzwaldstube-menue-ii', 'schwarzwaldstube-menue-ii', 'Schwarzwaldstube · nominaler Menü-II-Preis',
          [(2024,'schwarzwald-original-archiv-2024'),(2025,'schwarzwald-2025-menue'),(2026,'schwarzwald-2026-menue')],
          'Menü II mit sieben Positionen ohne Getränke; 2024 archivierte Originalkarte, 2025 fotografierte Karte, 2026 Originalkarte.',

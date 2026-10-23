@@ -4,6 +4,8 @@
 
 Die [Roadmap](roadmap.md) übersetzt die Befunde in Arbeitspakete und Abnahmen. Umsetzungstracking: [Issue #26](https://github.com/Tobias-Run/nobelpreis-index/issues/26).
 
+**Nachfolgende Projektentscheidung vom 23.10.2026:** Die in Abschnitt 2 noch offene Auswahlregel ist inzwischen festgelegt: Bei Änderungen wird das [vergleichbarste belegte Premiummodell beziehungsweise Premiumpaket](premiumvergleich.md) verwendet. Charger5 vario und Lanserhof Classic Plus werden nominal fortgeführt; Komponenten- oder Anwendungswechsel allein blockieren das nicht. Der nachfolgende Review hält den zuvor geprüften Stand fest. Präzisierung: Der detaillierte Lanserhof-Anwendungsabgleich betrifft Classic, nicht Classic Plus; für Plus ist Anwendungsgleichheit nicht vollständig geprüft.
+
 ## Grundlage und Grenzen dieses Reviews
 
 - Geprüfter Code: `4052a25`; aktiver Recherche-/Auswahlstand: 21.10.2026, Forschungsdatenversion `poc-0.4.0`.

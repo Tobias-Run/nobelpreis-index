@@ -1,5 +1,7 @@
 # Riese & Müller Charger5 vario
 
+**Aktuelle Auswahlentscheidung · 23.10.2026:** Charger5 vario 2025 → 2026 bleibt das vergleichbarste im Material belegte Premiumangebot derselben Modellfamilie und vario-Stufe, mit 800 Wh und Kiox 500. Die [Premium-Auswahlregel](../premiumvergleich.md) erlaubt die nominale Fortführung trotz dokumentiertem Gabel-/Nabenwechsel. 6.199 → 6.499 € sind Modell-Ab-Preise; die vollständige identische pine/L-Endkonfiguration ist nicht nachgewiesen. Die folgenden Abschnitte dokumentieren die früheren Prüfstände.
+
 **Premium-Mobilität · Deutschland · Recherche vom 16.10.2026**  
 **Status:** aktueller Herstellerpreis belegt; historische Reihe offen. [Rechercheübersicht](../produktrecherche-rest-2026-10-16.md)
 

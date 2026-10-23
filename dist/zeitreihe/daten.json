@@ -4319,7 +4319,7 @@
     "impulshinweis": "Rein synthetisch: Cayenne +10 %, alle anderen Preise unverändert. Keine historische Beobachtung oder Prognose.",
     "lueckenhinweis": "Pilotabdeckung bezeichnet geplantes Gewicht der zwei vorhandenen Teilreihen, keine redaktionelle Freigabe oder Vollpreisabdeckung. Fehlende Gewichte werden im Gesamtindex nicht umverteilt."
   },
-  "version": "poc-0.4.0",
+  "version": "poc-0.4.1",
   "recherche_sha256": "37527428a2f38f2f4e3b3a68468a2697a89cf4715fa4bd3620a2142bfc18addb",
   "pilot_reihen": [
     {
@@ -4552,7 +4552,7 @@
     "status": "Recherche-PoC, keine redaktionelle Indexfreigabe, keine Repräsentativität für das reichste Prozent",
     "geltungsbereich": "Dieser Block beschreibt den historischen Zweier-Pilot. Der neue nominale Neuner-Vergleich ist in pragmatische_auswahl mit eigenen Auswahlregeln und Grenzen dokumentiert."
   },
-  "ansicht_stand": "2026-10-21",
+  "ansicht_stand": "2026-10-23",
   "einzel_reihen": [
     {
       "id": "salem-grundtarif",
@@ -5051,7 +5051,7 @@
         }
       ],
       "definition": "Höhere Grundprogramm-Variante Classic Plus, eine Person, 7–8 Nächte, ohne Unterkunft.",
-      "grenze": "Enthaltene Anwendungen ändern sich. Nominaler Paketpreis; keine vollständige Kur oder Qualitätsbereinigung. Keine Auffüllung für 2024.",
+      "grenze": "Gleiche Premium-Programmstufe; Anwendungsgleichheit für Classic Plus nicht vollständig geprüft. Nominaler Paketpreis; keine vollständige Kur oder Qualitätsbereinigung. Keine Auffüllung für 2024.",
       "zeitbezug": "VPI: tatsächlicher Beobachtungsmonat; bei jahresbezogenen Lanserhof-Broschüren August als ausdrücklich gewählter Jahresanker, kein behaupteter Preisstichtag. Fehlende VPI-Monate bleiben leer.",
       "indexfreigabe": false
     },
@@ -5709,6 +5709,44 @@
       }
     ]
   },
+  "premiumvergleich": {
+    "version": "1.0",
+    "stand": "2026-10-23",
+    "regel": "Bei Modell- oder Leistungswechseln das vergleichbarste belegte Premiummodell beziehungsweise Premiumpaket wählen.",
+    "prioritaeten": [
+      "Gleicher Verwendungszweck und Premiumsegment, möglichst gleiche Modellfamilie oder Programmstufe",
+      "Möglichst vergleichbare Kernausstattung, Leistung, Dauer, Personenzahl und Preiseinheit",
+      "Bei gleicher Vergleichbarkeit die höhere Premiumausführung"
+    ],
+    "fortfuehrung": "Dokumentierte Weiterentwicklungen verhindern die nominale Fortführung nicht automatisch. Keine rechnerische Qualitätsbereinigung; relevante Unterschiede ausweisen.",
+    "luecken": "Ohne belegten hinreichend vergleichbaren Premiumnachfolger keine erfundenen Preise oder stillen Wechsel von Leistungsart, Dauer oder Personenzahl.",
+    "entscheidungen": [
+      {
+        "produkt_id": "rm-charger5",
+        "status": "premiumauswahl_entschieden",
+        "referenz": "Charger5 vario 2025 und 2026",
+        "beobachtung_ids": [
+          "rm-archiv-2025-basis",
+          "rm-2026"
+        ],
+        "begruendung": "Gleiche belegte Premium-Modellfamilie und vario-Stufe, 800 Wh und Kiox 500; im vorhandenen Material keine besser vergleichbare Alternative belegt.",
+        "abweichungen": "SR Suntour Mobie 34 / Enviolo Heavy Duty werden durch Fox AWL 34 / Enviolo Utility V1 ersetzt. Vollständig identische pine/L-Endkonfiguration nicht belegt.",
+        "preisdefinition": "Nominaler Modell-Ab-Preis, keine qualitätsbereinigte Änderung identischer Ausstattung"
+      },
+      {
+        "produkt_id": "lanserhof-sylt",
+        "status": "premiumauswahl_entschieden",
+        "referenz": "Classic Plus 2025 und 2026, eine Person, 7–8 Nächte, ohne Unterkunft",
+        "beobachtung_ids": [
+          "lanserhof-2025-plus",
+          "lanserhof-2026-classic-plus"
+        ],
+        "begruendung": "Gleiche belegte höhere Programmstufe und Dauer. Die niedrigere Classic-Alternative ist keine nachgewiesen bessere Entsprechung.",
+        "abweichungen": "Anwendungsgleichheit für Classic Plus nicht vollständig geprüft. Der detaillierte ältere Anwendungsabgleich betrifft Classic und wird nicht auf Plus übertragen.",
+        "preisdefinition": "Nominaler Programmpreis ohne Unterkunft, keine vollständigen Kurkosten"
+      }
+    ]
+  },
   "praxis_reihen": [
     {
       "id": "porsche-cayenne",
@@ -5808,7 +5846,7 @@
       "kurzname": "Lanserhof · Classic Plus, ohne Zimmer",
       "einheit": "EUR · Person und Programm für 7–8 Nächte",
       "definition": "Classic Plus statt Classic, eine Person, 7–8 Nächte; feste Dauer statt Auswahl des teuersten unterschiedlich langen Aufenthalts.",
-      "grenze": "Programmpreis ohne Unterkunft. Enthaltene Anwendungen ändern sich; keine qualitätsbereinigte Kurinflation, kein Gesamtaufenthalt.",
+      "grenze": "Programmpreis ohne Unterkunft. Gleiche Premium-Programmstufe; Anwendungsgleichheit für Classic Plus nicht vollständig geprüft. Keine qualitätsbereinigte Kurinflation, kein Gesamtaufenthalt.",
       "punkte": [
         {
           "jahr": 2025,
@@ -5832,7 +5870,19 @@
           ],
           "label": "2026 · 2026"
         }
-      ]
+      ],
+      "premiumauswahl": {
+        "produkt_id": "lanserhof-sylt",
+        "status": "premiumauswahl_entschieden",
+        "referenz": "Classic Plus 2025 und 2026, eine Person, 7–8 Nächte, ohne Unterkunft",
+        "beobachtung_ids": [
+          "lanserhof-2025-plus",
+          "lanserhof-2026-classic-plus"
+        ],
+        "begruendung": "Gleiche belegte höhere Programmstufe und Dauer. Die niedrigere Classic-Alternative ist keine nachgewiesen bessere Entsprechung.",
+        "abweichungen": "Anwendungsgleichheit für Classic Plus nicht vollständig geprüft. Der detaillierte ältere Anwendungsabgleich betrifft Classic und wird nicht auf Plus übertragen.",
+        "preisdefinition": "Nominaler Programmpreis ohne Unterkunft, keine vollständigen Kurkosten"
+      }
     },
     {
       "id": "rm-charger5",
@@ -5863,7 +5913,19 @@
           ],
           "label": "2026 · 16.10.2026"
         }
-      ]
+      ],
+      "premiumauswahl": {
+        "produkt_id": "rm-charger5",
+        "status": "premiumauswahl_entschieden",
+        "referenz": "Charger5 vario 2025 und 2026",
+        "beobachtung_ids": [
+          "rm-archiv-2025-basis",
+          "rm-2026"
+        ],
+        "begruendung": "Gleiche belegte Premium-Modellfamilie und vario-Stufe, 800 Wh und Kiox 500; im vorhandenen Material keine besser vergleichbare Alternative belegt.",
+        "abweichungen": "SR Suntour Mobie 34 / Enviolo Heavy Duty werden durch Fox AWL 34 / Enviolo Utility V1 ersetzt. Vollständig identische pine/L-Endkonfiguration nicht belegt.",
+        "preisdefinition": "Nominaler Modell-Ab-Preis, keine qualitätsbereinigte Änderung identischer Ausstattung"
+      }
     },
     {
       "id": "bayreuth-parsifal",
