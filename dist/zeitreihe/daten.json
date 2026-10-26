@@ -1529,6 +1529,285 @@
       "abgerufen_am": "2026-10-26",
       "fundstelle": "Menüspalte, Degustationsmenü II: sieben Positionen; Preis und Fußzeile inklusive MwSt. Visuell und als Text geprüft.",
       "weiterverwendungsrechte": "Ausgewählte Preisfakten und eigene Auswertung; keine Veröffentlichung vollständiger Speisekarten oder Bilder."
+    },
+    {
+      "id": "fenster26-porsche-sept25",
+      "titel": "Porsche Cayenne, archivierter deutscher Herstellerstand 12.09.2025",
+      "url": "https://web.archive.org/web/20250912074139/https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Archivierter Primärbeleg",
+      "fundstelle": "Eingebettete HTML-Komponentendaten: Cayenne Benziner SUV, 260 kW/353 PS, price.prices.value 101500, formattedValue inkl. MwSt. Nicht die teurere Black Edition.",
+      "sha256": "d9132ad7daf8c33bb1d47830248873b202287630a94a7d247c9807cc2dd6e8e3",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet.",
+      "rohbeleg_url": "https://web.archive.org/web/20250912074139id_/https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+      "memento_datetime": "Fri, 12 Sep 2025 07:41:39 GMT",
+      "archiv_timestamp": "20250912074139"
+    },
+    {
+      "id": "fenster26-porsche-aktuell",
+      "titel": "Porsche Cayenne, deutscher Herstellerstand 26.10.2026",
+      "url": "https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Gewählte Modellkarte Cayenne Benzin SUV Modelljahr 2027: 102.700 EUR inkl. MwSt., 260 kW/353 PS; Überführungs-/Zulassungskosten im Leasinghinweis ausdrücklich zusätzlich, hier reiner Modell-Grundpreis.",
+      "sha256": "2d66410a49aad9698c5d2ab6b784ae4aaeeb8e5f1b4926535400991edd01864f",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-pruefung-rm2025-okt",
+      "titel": "Charger5 vario, archivierter deutscher Herstellerstand 16.10.2025",
+      "url": "https://web.archive.org/web/20251016003952/https://www.r-m.de/de/bikes/charger5/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Archivierter Primärbeleg",
+      "fundstelle": "Exakter Abschnitt Charger5 vario, nicht CORE/HS/Pinion: ab 6.199 EUR, 800 Wh, Kiox 500; zugehörige Komponententabelle SR Suntour Mobie 34 und Enviolo Heavy Duty. Tabelle enthält auch Optionen, keine vollständige historische Endkonfiguration.",
+      "sha256": "56a5a0b5c727b74a9e50dcf2c137f3a80c35706e045d8b6e24d9a19244c7dcd1",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet.",
+      "rohbeleg_url": "https://web.archive.org/web/20251016003952id_/https://www.r-m.de/de/bikes/charger5/",
+      "memento_datetime": "Thu, 16 Oct 2025 00:39:52 GMT",
+      "archiv_timestamp": "20251016003952"
+    },
+    {
+      "id": "fenster26-rm-aktuell",
+      "titel": "Charger5 vario, deutscher Herstellerstand 26.10.2026",
+      "url": "https://www.r-m.de/de/bikes/charger5/charger5-vario/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Konfigurationszusammenfassung pine/L, 800 Wh/Kiox 500: Basis- und Gesamtpreis UVP 6.499 EUR; keine Aufschläge gewählt. Zusatzausstattungsfeld widersprüchlich, nicht addiert. Komponententabelle Fox AWL 34 und Enviolo Utility V1.",
+      "sha256": "c1d938ca743ffaa6afe3ec18348abbc9bda6a78714028bd9d23562d5f4902313",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-rm-shopbedingungen",
+      "titel": "Riese & Müller Online-Shop-AGB, Stand 02.07.2026",
+      "url": "https://www.r-m.de/api/term-document/online-store-terms/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "PDF § 5: sämtliche Preise Endpreise einschließlich Versand des Bikes an ausgewählten deutschen Fachhändler und gesetzlicher Mehrwertsteuer. Aktuelle Shop-Regel, keine rückdatierte Bestätigung der historischen Konfiguration.",
+      "sha256": "3f60baeb74c0a760e258b483505d09e69b6807d9fd0e28605429a52d11fe0a3d",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-wempe-aktuell",
+      "titel": "Wempe Saxonia Thin, Händlerstand 26.10.2026",
+      "url": "https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Referenz 201.027-LB / LB100063, 27.000 EUR inkl. MwSt.; Produkt temporär nicht verfügbar. Händler-Preisnotierung, keine verfügbare Transaktion und keine bestätigte Hersteller-UVP.",
+      "sha256": "efa7f2b684bc899f0d831959e79f31437f4e04db9879a30b4c2a7a121f3eac8a",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-lanserhof-2025",
+      "titel": "Lanserhof Sylt Broschüre 2025, erneute Originalprüfung",
+      "url": "https://api.lanserhof.com/wp-content/uploads/2024/12/2025_LHS_Hotelpreisliste_DE_MitPreise.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "PDF S. 7 Classic Plus 7–8 Nächte: 4.046 EUR, ohne Unterkunft; Bereitschafts-/Nachtdienst mit Fußnote Pauschale pro Tag/Nacht. S. 26 inklusive gesetzlicher MwSt. Keine genaue Aufenthaltsabrechnung.",
+      "sha256": "a4f8eb6b357951cd293d05a76b3ff4aa644a75c334ce4dc98f5a95cad7e712d5",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-lanserhof-2026",
+      "titel": "Lanserhof Sylt Broschüre 2026, Classic-Plus-Originalprüfung",
+      "url": "https://files.lanserhof.com/preisbroschure/2026_lhs_preisliste_de.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "PDF S. 4 Classic Plus 7–8 Nächte: 3.990 EUR ohne Unterkunft; Gesamtpreis summiert sich aus Einzelpreisen. Bereitschaftspauschale 42 EUR/Nacht ausdrücklich fester Bestandteil, kein belegter zusätzlicher Aufschlag auf 3.990. S. 21 MwSt. eingeschlossen. Einleitung vertauscht Classic/Plus; Überschrift und Preiszeile für Zuordnung maßgeblich.",
+      "sha256": "bc0d7ad568acab582aa5e80dfcba70f679d75e3134292cd2d2d846161de8d88f",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-alarm-2022",
+      "titel": "Securando/Securitas Monitoring-Preisliste 2022, Pro-Tarif",
+      "url": "https://www.securando.de/wp-content/uploads/Securando_Securitas-Monitoring-Preisliste_2022.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "PDF S. 1: Pro 30 EUR monatlich brutto inkl. 19 % MwSt.; 15 Aktivitäten/Monat, Schlüsselaufbewahrung und mobile Bereitschaft enthalten; Intervention extra. S. 2 widersprüchliche Datumsangaben; kein heutiger Tarif.",
+      "sha256": "5004183b19b614b72bf84e5414ab0364a00ddf37d1d82f3defcf0cdd11db4688",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-securando-preise",
+      "titel": "Securando Sicherheitsdienst-Preise, öffentliche Zugänglichkeit",
+      "url": "https://www.securando.de/ratgeber/sicherheitsdienst-preise/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Abruf HTTP 200, Inhaltsbereich passwortgeschützt. Keine Zugangssperre umgangen, kein aktueller Pro-Tarif aus dieser Seite abgeleitet.",
+      "sha256": "69e6b80f7b072e7296d6dd9939ddb0a432cbfb64c33a1bd27b90d152c8e0238d",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-sylt-enkelmann",
+      "titel": "Hausbetreuung Enkelmann, Preise 26.10.2026",
+      "url": "https://www.hausbetreuung-enkelmann.de/preise",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Regelmäßige Betreuung als individuelle Monatspauschale; Betrag erst nach Gespräch/Besichtigung. Kein öffentlicher Preis für 24 Kontrollen in Westerland.",
+      "sha256": "3b9e09b98e4128253b5f533e2d9a57832b7b3ba99ec1776fdf3fb1eacf0d30bc",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-sylt-haushand",
+      "titel": "Haus & Hand Sylt, FAQ 26.10.2026",
+      "url": "https://www.haus-hand.de/faq/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Abo-/Kontrollpakete nach Art und Umfang, kein Betrag des definierten Referenzobjekts.",
+      "sha256": "290bdd43d2a0aebf1117d9ea3a13b7f5a0605ba338c607423db7fe2a1dfb8189",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-clean-sylt",
+      "titel": "Clean & Green Sylt, Hausbetreuung 26.10.2026",
+      "url": "https://cleanandgreen-sylt.de/wissen/hausbetreuung-ferienhaus-sylt.html",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Individuelles Angebot in 24–48 Stunden; keine veröffentlichte Referenzpauschale. Keine Anfrage abgeschickt.",
+      "sha256": "fb3c910c8a3f24694b3c6f8dbbe1b18724505477e1615f709fa298eeda54374f",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-heer-sylt",
+      "titel": "Silke Heer Sylt, zusätzliche Anbieterprüfung",
+      "url": "https://www.heer-sylt.de",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Leistungsbeschreibung und faire/transparente Preise, kein Betrag für die definierte Betreuung.",
+      "sha256": "b0cd3d150eec2f56a40300fcaa7b14c52e8881b59d2d2dce75f7b51eaef0374d",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-kelly-handbagsense",
+      "titel": "Handbag Sense Berlin, Kelly 28 Schwarz Togo Gold",
+      "url": "https://handbag-sense.com/de/produkt/hermes-kelly-28-schwarz-togo/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Passende Retourné-/Leder-/Farb-/Zustandsbeschreibung mit Zubehör, aber verkauft und ohne eigenen veröffentlichten Preis. Beträge verwandter Produkte werden nicht übernommen.",
+      "sha256": "8856bfe504a7730b55588a0ce6dcf00dc0e901829b33b9937e7b1db0cbf0268d",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-kelly-pursebop",
+      "titel": "PurseBop Kelly Price Guide 2026, Sekundärhinweis",
+      "url": "https://www.pursebop.com/the-hermes-kelly-price-guide-2026/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Sekundärquelle",
+      "fundstelle": "Kelly 28 Togo Retourné 10.100 EUR in einer Europa-Tabelle. Kein deutscher datierter Boutique-Beleg der genauen Variante; nicht als deutsche Preisbeobachtung oder Markup verwendet.",
+      "sha256": "d7113234ec694d61cb8cd013b0e5ea1cce0a8cc54cf6f6c0ad86071bce6be0f6",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-adlon-zimmer",
+      "titel": "Adlon Deluxe, offizielle Zimmerbeschreibung",
+      "url": "https://www.kempinski.com/de/hotel-adlon/zimmer-suiten/zimmer/deluxe-zimmer",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Deluxe-Zimmerdefinition vorhanden, keine vollständige datierte öffentliche flexible Rate mit identischem Reisezeitpunkt/Vorlauf/Steuern. Kein Basispreis aus anderen Zimmern oder Angeboten übernommen.",
+      "sha256": "df301d76c033d2805d48a8e326264bca63d5e789b5c6138f9c7938e721dbf772",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-ski-hotel-offiziell",
+      "titel": "Burg Vital Resort, Winterangebote 26.10.2026",
+      "url": "https://www.burgvitalresort.com/de/angebote/winterpauschalen/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Saison 2026/27: Drei-Nächte-Ab-Pauschalen 1.428/1.825 EUR; zukünftige/abweichende Dauer und keine feste Zimmerhistorie. Kein identischer Sieben-Nächte-Hotelpreis.",
+      "sha256": "4d561185c652a06d37a14a45d7827ac16d74a96ae5cbd9ba4d4331c70ee19dc0",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-salem-vertrag",
+      "titel": "Salem allgemeine Vertragsbedingungen, erneute Originalprüfung",
+      "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Allgemeine_Vertragsbedingungen_DE.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "PDF S. 8 VI.5–6: Jahressatz, monatliche Zahlungen, zwölf Monate; Rabatte, Nebenkosten und Aufnahme separat. Keine tatsächlichen Kalenderjahresausgaben.",
+      "sha256": "f69ba7eb39db57829083ebe11e92a2025084bc601fc9aa394dc2eac607249bbd",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-salem2026",
+      "titel": "Salem Schul- und Internatsgeld 2026/27, Primärprüfung",
+      "url": "https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2026_2027.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "PDF S. 1: Klassen 5–10/10PLUS, 4.450 pro Monat und 53.400 pro Jahr, 01.09.2026–31.08.2027; Kaution/Aufnahme/Administration separat. Deutsche Klasse 8, nicht teurere internationale Klasse.",
+      "sha256": "414267ba85efc8cdbde94866cedb9c07d87cab72fb64c7465f937f7bc58474b4",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-salem25-archiv",
+      "titel": "Salem Aufnahme, Archivstand 12.09.2024 mit Tarif 2025/26",
+      "url": "https://web.archive.org/web/20240912170039/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Archivierter Primärbeleg",
+      "fundstelle": "PDF Gebührenblatt benennt 2025/26: 4.200 monatlich/50.400 jährlich. Archivjahr wird nicht als Leistungsjahr ausgegeben.",
+      "sha256": "c55327f4e61b5c5f74b86c171a170bfd864ece5f21a877865e9bad929049402c",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet.",
+      "rohbeleg_url": "https://web.archive.org/web/20240912170039id_/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf",
+      "memento_datetime": "Thu, 12 Sep 2024 17:00:39 GMT",
+      "archiv_timestamp": "20240912170039"
+    },
+    {
+      "id": "fenster26-bayreuth2025agb",
+      "titel": "Bayreuth AGB 2025, Pflichtgebührenprüfung",
+      "url": "https://ticketshop.bayreuther-festspiele.de/static/files/AGB_2025_DE.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Ziffer 2.2: zusätzlich pro verkauftem Platz 6 EUR, unabhängig vom Bestellweg; weitere schriftliche Bestellgebühr entfällt online, Postversand ausgeschlossen. Kein zusätzlicher pauschaler Steueraufschlag belegt.",
+      "sha256": "59123cd83cb62f058300d118cd4fdc92f7ff8dac3464a5f0cc590dcd92237648",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-bayreuth2026agb",
+      "titel": "Bayreuth AGB 2026, Pflichtgebührenprüfung",
+      "url": "https://ticketshop.bayreuther-festspiele.de/static/files/AGB_2026_DE.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Ziffer 2.2: 6 EUR pro verkauftem Platz; Online-Bestellung/digital ohne schriftliche Bestell-/Postgebühr. Nominaler veröffentlichter Zahlbetrag, einzelner Steuersatz nicht unterstellt.",
+      "sha256": "f6c822c7e95c6095a1860f28b5b471f056aa58787c51d22a3df52e98704b244e",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-bayreuth2026preise",
+      "titel": "Bayreuth Magazin 2026, Parsifal A1",
+      "url": "https://www.bayreuther-festspiele.de/wp-content/uploads/2025/07/bayreuther-festspiele-magazin-2026-en-small.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Tabelle Ticket Prices: A1/PARSIFAL 352 EUR; keine Verwechslung mit anderen Werken, AR-Tarif oder Ring-Zyklus.",
+      "sha256": "59e5d536499ff2a5e5bdd91b203ea66ddcc60cb629f34525c4a5d642b794936b",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-ycl2025",
+      "titel": "YCL Gebührenordnung 2025, erneute Primärprüfung",
+      "url": "https://ycla.de/wp-content/uploads/2025/08/2025-Gebuehrenordnung-Mitglied-Wasser-unterschrieben.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "S. 1 Sommer-Wasserliegeplatz Segelboot 96 EUR/m² inkl. 7 % MwSt.; gültig ab 10.05.2025. Verwaltung/Mitgliedschaft separat; Flächentarif ist ausdrücklich die beobachtete Einheit.",
+      "sha256": "a499b7d5353bae65aa7368e125dee21a2708c88bce2b35cf60974f68866f74db",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-ycl-2026",
+      "titel": "YCL Gebührenordnung 2026, erneute Primärprüfung",
+      "url": "https://ycla.de/wp-content/uploads/2026/05/2026-Gebuehrenordnung-Verein-Liegeplaetze.pdf",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "S. 1 Sommer-Wasserliegeplatz Segelboot 96,50 EUR/m² inkl. 7 % MwSt.; gültig ab 20.04.2026. Keine bestätigte vollständige Bootskostenrechnung.",
+      "sha256": "b93ed4cb02a9e0d1b099bc2d96d1aef7bac65e767dac14994e9e7a6f6c80deeb",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
+    },
+    {
+      "id": "fenster26-ycl-formulare",
+      "titel": "YCL aktuelle Downloadseite und migrierte Dateipfade",
+      "url": "https://ycla.de/ueber-uns/dokumente/antraege-formulare/",
+      "abgerufen_am": "2026-10-26",
+      "quellentyp": "Anbieter-Primärbeleg",
+      "fundstelle": "Aktuelle Gebührenordnung, Bootsantrag und Wartelistenfragebogen verlinkt; kein abrufbarer 2023/24-Gebührenbeleg oder verbindlicher Flächenmultiplikator.",
+      "sha256": "3204a155936fa8ff16307ee3494553bcc5b9577c2da265e31ba1e022f9b9d165",
+      "weiterverwendungsrechte": "Ausgewählte Preisfakten, eigene Auswertung und Quellenlinks; keine vollständigen Fremdseiten, PDFs oder Bilder veröffentlicht. Weitergehende Rechte nicht behauptet."
     }
   ],
   "produkte": [
@@ -1587,10 +1866,10 @@
       ],
       "dossier": "docs/produkte/porsche-cayenne.md",
       "historienprüfung": {
-        "status": "teilpreis abgegrenzt",
-        "ergebnis": "Listen-Grundpreisreihe 2023–2026 belegt; 260 kW/353 PS, Basis-Benziner SUV. Überführung, Zulassung und Sonderausstattung sind nicht im beobachteten Grundpreis.",
-        "grenze": "Keine Vollkosten-/qualitätsbereinigte Inflationsreihe. Komplette datierte Serienausstattungslisten und Pflichtnebenkosten je Modelljahr fehlen.",
-        "quelle_id": "pruefung-porsche2026",
+        "status": "Modell-Grundpreisfolge belegt",
+        "ergebnis": "Herbstbasis 12.09.2025 zu 101.500 EUR gesichert; aktueller 102.700-EUR-Preis erneut bestätigt. Basis-Benziner SUV, 260 kW/353 PS beiderseits abgeglichen. Keine Umstellung auf Black Edition/Hybrid. Beobachtet wird ausdrücklich der Modell-Grundpreis; Extras, Überführung und Zulassung ausgeschlossen.",
+        "grenze": "Komplette Modelljahres-Serienausstattung nicht als identisch behauptet; vollständiger Anschaffungspreis erfordert konkrete Händlerrechnung.",
+        "quelle_id": "fenster26-porsche-sept25",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -1629,6 +1908,45 @@
           "hinweise": [
             "Schließt die 2025-Beleglücke. Serienausstattung und Pflichtnebenkosten noch abgleichen."
           ]
+        },
+        {
+          "id": "cayenne-herbst-2025",
+          "betrag": 101500,
+          "einheit": "Fahrzeug",
+          "variante": "Cayenne Basis-Benziner SUV, 260 kW/353 PS; ohne Überführung/Zulassung und Extras",
+          "preisart": "Hersteller-Listen-Grundpreis ab",
+          "quelle_id": "fenster26-porsche-sept25",
+          "preisdatum": "2025-09-12",
+          "datumstyp": "Beobachtungsdatum",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "inklusive MwSt.",
+          "abgerufen_am": "2026-10-26",
+          "indexfreigabe": false,
+          "prüfstatus": "Original gelesen und gegen Produkt-/Tarifdefinition geprüft; nominale Preisnotierung, keine produktive Gesamtindexfreigabe",
+          "hinweise": [
+            "Schließt die 2025-Beleglücke. Serienausstattung und Pflichtnebenkosten noch abgleichen."
+          ]
+        },
+        {
+          "id": "cayenne-herbst-2026",
+          "betrag": 102700,
+          "einheit": "Fahrzeug",
+          "variante": "Cayenne Basis-Benziner SUV Modelljahr 2027, 260 kW/353 PS; ohne Überführung/Zulassung und Extras",
+          "preisart": "Hersteller-Listen-Grundpreis ab",
+          "quelle_id": "fenster26-porsche-aktuell",
+          "abgerufen_am": "2026-10-26",
+          "umsatzsteuer": "inklusive MwSt.",
+          "preisdatum": "2026-10-26",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "prüfstatus": "Original gelesen und gegen Produkt-/Tarifdefinition geprüft; nominale Preisnotierung, keine produktive Gesamtindexfreigabe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Beobachtungsdatum; Beginn Preisgültigkeit unbekannt",
+            "Modelljahr 2027 ist kein zukünftiges Preisbeobachtungsdatum"
+          ],
+          "datumstyp": "Beobachtungsdatum"
         }
       ],
       "abschlusspruefung": {
@@ -1640,6 +1958,26 @@
           "pruefung-porsche2026"
         ],
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "porsche-cayenne",
+        "belegstatus": "Modell-Grundpreisfolge belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Herbstbasis 12.09.2025 zu 101.500 EUR gesichert; aktueller 102.700-EUR-Preis erneut bestätigt.",
+          "Basis-Benziner SUV, 260 kW/353 PS beiderseits abgeglichen. Keine Umstellung auf Black Edition/Hybrid.",
+          "Beobachtet wird ausdrücklich der Modell-Grundpreis; Extras, Überführung und Zulassung ausgeschlossen."
+        ],
+        "verbleibend": [
+          "Komplette Modelljahres-Serienausstattung nicht als identisch behauptet; vollständiger Anschaffungspreis erfordert konkrete Händlerrechnung."
+        ],
+        "naechste_aktion": "Keine weitere Hürde für die definierte nominale Modellpreisgeschichte. Vollkosten nur bei eigener Erweiterung.",
+        "beleg_ids": [
+          "porsche-sept25",
+          "porsche-aktuell"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -1705,10 +2043,10 @@
       ],
       "dossier": "docs/produkte/schloss-salem.md",
       "historienprüfung": {
-        "status": "tarifrahmen geprueft",
-        "ergebnis": "Leistungsabschnitt V a und Nebenkosten VII im archivierten Vertrag 2022 und der aktuell bereitgestellten Fassung textgleich (beide Vertragsfassung 30.03.2020). Klasse 8 und zwölf reguläre Raten bleiben das Profil.",
-        "grenze": "Gebührenreihe als abgegrenzte Tarifreihe nutzbar. Faktische Lehrqualität und individuelle Zusatzkosten sind nicht gemessen; keine vollständigen Ausbildungskosten.",
-        "quelle_id": "pruefung-salem-avb-alt-1",
+        "status": "Regulärer Jahrestarif belegt",
+        "ergebnis": "Klasse 8 gehört zu Klassen 5–10, 2026/27 4.450 EUR monatlich bzw. 53.400 jährlich. Archivblatt benennt 2025/26 4.200 monatlich bzw. 50.400 jährlich; Archivdatum 2024 nicht als Tarifjahr verwendet. AVB und Gebührenblatt bestätigen zwölf Monate, Schuljahrbeginn September und separate Nebenkosten.",
+        "grenze": "Keine Gesamtbildungsausgaben einschließlich sämtlicher Nebenkosten oder Messung der Bildungsqualität.",
+        "quelle_id": "fenster26-salem-vertrag",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -1841,6 +2179,27 @@
           "pruefung-salem-avb-current"
         ],
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "salem",
+        "belegstatus": "Regulärer Jahrestarif belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Klasse 8 gehört zu Klassen 5–10, 2026/27 4.450 EUR monatlich bzw. 53.400 jährlich.",
+          "Archivblatt benennt 2025/26 4.200 monatlich bzw. 50.400 jährlich; Archivdatum 2024 nicht als Tarifjahr verwendet.",
+          "AVB und Gebührenblatt bestätigen zwölf Monate, Schuljahrbeginn September und separate Nebenkosten."
+        ],
+        "verbleibend": [
+          "Keine Gesamtbildungsausgaben einschließlich sämtlicher Nebenkosten oder Messung der Bildungsqualität."
+        ],
+        "naechste_aktion": "Keine weitere Hürde für regulären Schul-/Internatsgrundtarif.",
+        "beleg_ids": [
+          "salem-vertrag",
+          "salem2026",
+          "salem25-archiv"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -1875,10 +2234,10 @@
       ],
       "dossier": "docs/produkte/saxonia-thin.md",
       "historienprüfung": {
-        "status": "reihenbruch festgelegt",
-        "ergebnis": "Historische Beschreibung 37 mm Weißgold, schwarzes Alligatorband, Stiftschließe, L093.1 abgeglichen. Zwei Segmente: 2019–2023 201.027/LA100063; 2024–2026 201.027-LB/LB100063.",
-        "grenze": "Bedeutung von -LB nicht aus Herstellerquelle geklärt; die Segmente werden nicht ungekennzeichnet verbunden. Neupreis, keine Transaktion oder bestätigte UVP.",
-        "quelle_id": "ia-wempe-2025",
+        "status": "Getrennte Händler-Notierungssegmente belegt",
+        "ergebnis": "201.027-LB/LB100063 2025 und 2026 getrennt vom alten 201.027-Segment. Aktuell 27.000 EUR inkl. MwSt. erneut bestätigt. Temporäre Nichtverfügbarkeit ausdrücklich erfasst; keine Transaktion behauptet.",
+        "grenze": "Herstellerbedeutung des LB-Suffixes unbestätigt; kein Grund, zwei bereits getrennte Referenzen zu verketten.",
+        "quelle_id": "fenster26-wempe-aktuell",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -2022,6 +2381,25 @@
             "Ein datierter Angebotsstand, kein Jahresdurchschnitt und keine bestätigte Transaktion.",
             "Referenz-/Artikelwechsel von 201.027 / LA100063 zu 201.027-LB / LB100063 ab dem belegten Stand 2024; Gleichwertigkeit vor Verkettung klären."
           ]
+        },
+        {
+          "id": "saxonia-herbst-2026",
+          "betrag": 27000,
+          "einheit": "Uhr",
+          "variante": "Wempe Herstellerreferenz 201.027-LB, Artikel LB100063",
+          "preisart": "Händler-Neupreis; keine bestätigte Hersteller-UVP",
+          "quelle_id": "fenster26-wempe-aktuell",
+          "abgerufen_am": "2026-10-26",
+          "umsatzsteuer": "inklusive MwSt.",
+          "preisdatum": "2026-10-26",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "prüfstatus": "Original gelesen und gegen Produkt-/Tarifdefinition geprüft; nominale Preisnotierung, keine produktive Gesamtindexfreigabe",
+          "indexfreigabe": false,
+          "datumstyp": "Beobachtungsdatum",
+          "hinweise": [
+            "Händlernotierung 201.027-LB/LB100063, temporär nicht verfügbar. Kein Transaktionspreis, kein Knappheitsaufschlag."
+          ]
         }
       ],
       "abschlusspruefung": {
@@ -2031,6 +2409,27 @@
         "restnachweis": "Bedeutung von -LB nicht aus Herstellerquelle geklärt; die Segmente werden nicht ungekennzeichnet verbunden. Neupreis, keine Transaktion oder bestätigte UVP.",
         "quelle_ids": [],
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "saxonia-thin",
+        "belegstatus": "Getrennte Händler-Notierungssegmente belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "201.027-LB/LB100063 2025 und 2026 getrennt vom alten 201.027-Segment.",
+          "Aktuell 27.000 EUR inkl. MwSt. erneut bestätigt.",
+          "Temporäre Nichtverfügbarkeit ausdrücklich erfasst; keine Transaktion behauptet."
+        ],
+        "verbleibend": [
+          "Herstellerbedeutung des LB-Suffixes unbestätigt; kein Grund, zwei bereits getrennte Referenzen zu verketten."
+        ],
+        "naechste_aktion": "Keine weitere Hürde für nominale Notierungen derselben LB-Referenz; alte/neue Referenz getrennt halten.",
+        "beleg_ids": [
+          "wempe-2025-okt",
+          "wempe-aktuell",
+          "lange-definition"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -2055,10 +2454,10 @@
       ],
       "dossier": "docs/produkte/hermes-kelly.md",
       "historienprüfung": {
-        "status": "anbieterbeleg noetig",
-        "ergebnis": "Drei weitere archivierte Angebote gelesen: ausverkauft und/oder anderer Zustand bzw. Palladium statt Gold. Keine zusätzliche passende verfügbare Vergleichsbeobachtung.",
-        "grenze": "Kein deutscher Boutique-Beleg, keine zweite passende verfügbare Vergleichsbeobachtung; kein Markup berechenbar.",
-        "quelle_id": "ia21-kelly-2024-10",
+        "status": "Nur eine passende historische verfügbare Preisbeobachtung",
+        "ergebnis": "Zusätzlicher deutscher Händler Handbag Sense: exakte Kelly 28 Retourné Togo Schwarz/Gold, ungetragen und Zubehör, aber verkauft und ohne eigenen Preis. PurseBop nennt 2026 10.100 EUR für Europa. Das bestätigt weder einen deutschen Boutique-Beleg noch exakte deutsche Steuer-/Variantenbedingungen. Aktuelle SACLÀB-Übersicht und frühere Produktadresse geprüft; keine zweite passende verfügbare Preisbeobachtung.",
+        "grenze": "Deutscher datierter Boutique-Beleg und aktuelles verfügbares Zweitmarktangebot derselben Variante fehlen. Kein verifizierter Markup.",
+        "quelle_id": "fenster26-kelly-handbagsense",
         "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -2097,6 +2496,28 @@
         "bericht": "docs/archivluecken-2026-10-21.md",
         "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "hermes-kelly",
+        "belegstatus": "Nur eine passende historische verfügbare Preisbeobachtung",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": false,
+        "abgeschlossen": [
+          "Zusätzlicher deutscher Händler Handbag Sense: exakte Kelly 28 Retourné Togo Schwarz/Gold, ungetragen und Zubehör, aber verkauft und ohne eigenen Preis.",
+          "PurseBop nennt 2026 10.100 EUR für Europa. Das bestätigt weder einen deutschen Boutique-Beleg noch exakte deutsche Steuer-/Variantenbedingungen.",
+          "Aktuelle SACLÀB-Übersicht und frühere Produktadresse geprüft; keine zweite passende verfügbare Preisbeobachtung."
+        ],
+        "verbleibend": [
+          "Deutscher datierter Boutique-Beleg und aktuelles verfügbares Zweitmarktangebot derselben Variante fehlen. Kein verifizierter Markup."
+        ],
+        "naechste_aktion": "Externes Boutique-Kassenblatt bzw. anonymisierte Rechnung und genau passendes verfügbares Angebot benötigt. Bis dahin außerhalb des Warenkorbs.",
+        "beleg_ids": [
+          "kelly-handbagsense",
+          "kelly-pursebop",
+          "saclab-kelly-uebersicht",
+          "saclab-kelly8-aktuell"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -2200,10 +2621,10 @@
       ],
       "dossier": "docs/produkte/lanserhof-sylt.md",
       "historienprüfung": {
-        "status": "leistungswechsel belegt",
-        "ergebnis": "Historische Zimmerkomponenten 2024 und 2025 gefunden: Village, 29 m², Belegung 1 Person, jeweils 649 EUR laut Tabelle. Programmunterschiede bleiben bestehen.",
-        "grenze": "Zimmer nur mit medizinischem Programm; Zeiteinheit in der Tabelle nicht ausdrücklich genannt. Verpflegung, Zuschläge und vollständiger identischer Gesamtpreis weiter offen; keine Gesamtinflationsreihe.",
-        "quelle_id": "ia21-lanserhof-en-2024",
+        "status": "Classic-Plus-Programmbeträge direkt abgeglichen",
+        "ergebnis": "Classic Plus 2025 PDF S. 7 und 2026 S. 4 geprüft, 4.046 → 3.990 EUR, 7–8 Nächte, ohne Unterkunft. 2026 zusätzlich/im Kern: Befundbesprechung Bioimpedanz/Handkraft 40 Min., Detox-Fußbad 30 Min., Facial 60 Min., Vo2Max/Besprechung 20 Min.; Stoffwechselmessung 20 → 30 Min.; telefonisches Dreimonats-Nachgespräch 2025 genannt, 2026 nicht genannt. Bereitschaftsdienst in beiden Programmlisten. 2026 42 EUR/Nacht als fester Bestandteil; Gesamtpreis aus Einzelpreisen. Ohne Nachweis keine zusätzlichen 294 EUR auf 3.990 addieren. Kopftext Classic/Plus widersprüchlich; für Auswahl zählen eindeutige Überschrift und Preiszeile. Gesetzliche MwSt. jeweils am Ende der Broschüre bestätigt.",
+        "grenze": "Aus Broschüren folgt keine identische Gesamtaufenthaltsrechnung; 2025 kein separater Tagesbetrag angegeben. Einbeziehung der Pauschale in tatsächlichen Rechnungen nicht unabhängig bestätigt. Historische Zimmerkomponenten und gegenwärtige Ab-Raten ergeben ohne Saison-/Nachtdefinition keine vollständige Hotelreihe.",
+        "quelle_id": "fenster26-lanserhof-2025",
         "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -2308,6 +2729,29 @@
         "bericht": "docs/archivluecken-2026-10-21.md",
         "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "lanserhof-sylt",
+        "belegstatus": "Classic-Plus-Programmbeträge direkt abgeglichen",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Classic Plus 2025 PDF S. 7 und 2026 S. 4 geprüft, 4.046 → 3.990 EUR, 7–8 Nächte, ohne Unterkunft.",
+          "2026 zusätzlich/im Kern: Befundbesprechung Bioimpedanz/Handkraft 40 Min., Detox-Fußbad 30 Min., Facial 60 Min., Vo2Max/Besprechung 20 Min.; Stoffwechselmessung 20 → 30 Min.; telefonisches Dreimonats-Nachgespräch 2025 genannt, 2026 nicht genannt.",
+          "Bereitschaftsdienst in beiden Programmlisten. 2026 42 EUR/Nacht als fester Bestandteil; Gesamtpreis aus Einzelpreisen. Ohne Nachweis keine zusätzlichen 294 EUR auf 3.990 addieren.",
+          "Kopftext Classic/Plus widersprüchlich; für Auswahl zählen eindeutige Überschrift und Preiszeile. Gesetzliche MwSt. jeweils am Ende der Broschüre bestätigt."
+        ],
+        "verbleibend": [
+          "Aus Broschüren folgt keine identische Gesamtaufenthaltsrechnung; 2025 kein separater Tagesbetrag angegeben. Einbeziehung der Pauschale in tatsächlichen Rechnungen nicht unabhängig bestätigt.",
+          "Historische Zimmerkomponenten und gegenwärtige Ab-Raten ergeben ohne Saison-/Nachtdefinition keine vollständige Hotelreihe."
+        ],
+        "naechste_aktion": "Nominalen veröffentlichten Programmbetrag fortführen. Nur für einen vollständigen Aufenthalt Rechnung/Angebot mit expliziter Pauschalenbehandlung und festem Zimmer verlangen.",
+        "beleg_ids": [
+          "lanserhof-2025",
+          "lanserhof-2026",
+          "lanserhof2024"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -2353,10 +2797,10 @@
         }
       ],
       "historienprüfung": {
-        "status": "leistungswechsel belegt",
-        "ergebnis": "2025: SR Suntour Mobie 34 und Enviolo Heavy Duty; 2026: Fox AWL 34 und Enviolo Utility V1. 800 Wh/Kiox 500 gleich. Gleicher Modellname garantiert keine gleiche Ausstattung.",
-        "grenze": "6.199→6.499 EUR nicht als reine Inflation ausweisen. Historische Endkonfiguration und Bewertung des Ausstattungswechsels fehlen.",
-        "quelle_id": "pruefung-rm2025-okt",
+        "status": "Oktober-Modellpreis und aktuelle Endpreisregel belegt",
+        "ergebnis": "Originalhersteller Oktober 2025: Charger5 vario 6.199 EUR, 800 Wh/Kiox 500; CORE/HS/Pinion ausgeschlossen. Aktueller Modell-/Basiskonfigurationspreis 6.499 EUR bestätigt, ohne optionale Kits. Aktuelle Online-Shop-AGB § 5: gesetzliche MwSt. und Versand zum deutschen Fachhändler enthalten. Stand 02.07.2026 wird nicht rückdatiert. SR Suntour Mobie 34/Enviolo Heavy Duty → Fox AWL 34/Enviolo Utility V1 dokumentiert. Nominale Premiumfortführung beschlossen.",
+        "grenze": "Vollständige historische pine/L-Endkonfiguration und historische Steuer-/Lieferbedingungen nicht separat bestätigt. Komponentenlisten enthalten auch Optionen.",
+        "quelle_id": "fenster26-pruefung-rm2025-okt",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -2379,6 +2823,49 @@
             "Nicht als identisch konfigurierter Endpreis zur bisherigen Beobachtung 6.499 EUR freigegeben.",
             "Konfigurations- und Steuerabgleich offen."
           ]
+        },
+        {
+          "id": "rm-herbst-2025",
+          "betrag": 6199,
+          "einheit": "Fahrrad",
+          "variante": "Charger5 vario Modell-Ab-Preis, 800 Wh/Kiox 500; keine vollständige historische pine/L-Endkonfiguration",
+          "preisart": "Hersteller-Ab-Preis Basismodell",
+          "quelle_id": "fenster26-pruefung-rm2025-okt",
+          "preisdatum": "2025-10-16",
+          "datumstyp": "Archivierter Angebotsstand",
+          "gültigkeit": null,
+          "zeitstatus": "historisch",
+          "umsatzsteuer": "Steuerbehandlung nicht abschließend im Beleg bestätigt",
+          "abgerufen_am": "2026-10-26",
+          "indexfreigabe": false,
+          "prüfstatus": "Original gelesen und gegen Produkt-/Tarifdefinition geprüft; nominale Preisnotierung, keine produktive Gesamtindexfreigabe",
+          "hinweise": [
+            "Exakter vario-Abschnitt gelesen, nicht CORE/HS/Pinion. Zugehörige Tabelle SR Suntour Mobie 34/Enviolo Heavy Duty enthält auch Optionen."
+          ]
+        },
+        {
+          "id": "rm-herbst-2026",
+          "betrag": 6499,
+          "einheit": "Fahrrad",
+          "preisart": "Hersteller-UVP Basiskonfiguration",
+          "quelle_id": "fenster26-rm-aktuell",
+          "umsatzsteuer": "Deutscher Endkundenpreis inklusive gesetzlicher MwSt.; aktuelle Online-Shop-AGB § 5, Versand zum gewählten Fachhändler in Deutschland enthalten",
+          "preisdatum": "2026-10-26",
+          "gültigkeit": null,
+          "zeitstatus": "aktuell_beobachtet",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-26",
+          "prüfstatus": "Original gelesen und gegen Produkt-/Tarifdefinition geprüft; nominale Preisnotierung, keine produktive Gesamtindexfreigabe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "Nur Beobachtungsdatum; Beginn Preisgültigkeit und Modelljahr offen",
+            "Widersprüchliches Feld Zusatzausstattung nicht zusätzlich addiert"
+          ],
+          "datumstyp": "Beobachtungsdatum",
+          "variante": "Charger5 vario Modellpreis, Basiskonfiguration pine/L, 800 Wh/Kiox 500; ohne optionale Kits",
+          "zusatz_quelle_ids": [
+            "fenster26-rm-shopbedingungen"
+          ]
         }
       ],
       "abschlusspruefung": {
@@ -2391,6 +2878,28 @@
           "pruefung-rm2026-komponenten"
         ],
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "rm-charger5",
+        "belegstatus": "Oktober-Modellpreis und aktuelle Endpreisregel belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Originalhersteller Oktober 2025: Charger5 vario 6.199 EUR, 800 Wh/Kiox 500; CORE/HS/Pinion ausgeschlossen.",
+          "Aktueller Modell-/Basiskonfigurationspreis 6.499 EUR bestätigt, ohne optionale Kits.",
+          "Aktuelle Online-Shop-AGB § 5: gesetzliche MwSt. und Versand zum deutschen Fachhändler enthalten. Stand 02.07.2026 wird nicht rückdatiert.",
+          "SR Suntour Mobie 34/Enviolo Heavy Duty → Fox AWL 34/Enviolo Utility V1 dokumentiert. Nominale Premiumfortführung beschlossen."
+        ],
+        "verbleibend": [
+          "Vollständige historische pine/L-Endkonfiguration und historische Steuer-/Lieferbedingungen nicht separat bestätigt. Komponentenlisten enthalten auch Optionen."
+        ],
+        "naechste_aktion": "Modellpreisgeschichte ist verwendbar; identische Endkonfiguration ist nach Nutzerregel keine zusätzliche Voraussetzung. Erweiterte Rechnung nur für Konfigurations-/Vollkostenanspruch.",
+        "beleg_ids": [
+          "pruefung-rm2025-okt",
+          "rm-aktuell",
+          "rm-shopbedingungen"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -2510,10 +3019,10 @@
         }
       ],
       "historienprüfung": {
-        "status": "teilpreis abgegrenzt",
-        "ergebnis": "A1 Parsifal ohne AR, online/digital: 352 EUR plus 6 EUR Pflichtgebühr. Zusätzliche schriftliche Bearbeitung und Postversand ausgeschlossen; Ticket-/Gebührenbelege verknüpft.",
-        "grenze": "Gesetzlichen Einzel-Steuersatz nicht aus Endbetrag erfinden. Bestehende Pilot-Teilreihe unverändert; keine Aussage über freie Verfügbarkeit.",
-        "quelle_id": "bayreuth-2024-archiv",
+        "status": "Tarif und Pflichtgebühr belegt",
+        "ergebnis": "352 EUR Parsifal A1 und 6 EUR je verkauftem Platz in Primärquellen geprüft. Online/digital ohne schriftliche Bestell- oder Postgebühr definiert. 2024–2026 werden als Festspieljahre ausgewiesen.",
+        "grenze": "Verfügbarkeit/Wartezeit unbepreist; kein einzelner Steuersatz ohne expliziten Beleg unterstellt.",
+        "quelle_id": "fenster26-bayreuth2025agb",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -2557,6 +3066,27 @@
         "restnachweis": "Gesetzlichen Einzel-Steuersatz nicht aus Endbetrag erfinden. Bestehende Pilot-Teilreihe unverändert; keine Aussage über freie Verfügbarkeit.",
         "quelle_ids": [],
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "bayreuth-parsifal",
+        "belegstatus": "Tarif und Pflichtgebühr belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "352 EUR Parsifal A1 und 6 EUR je verkauftem Platz in Primärquellen geprüft.",
+          "Online/digital ohne schriftliche Bestell- oder Postgebühr definiert.",
+          "2024–2026 werden als Festspieljahre ausgewiesen."
+        ],
+        "verbleibend": [
+          "Verfügbarkeit/Wartezeit unbepreist; kein einzelner Steuersatz ohne expliziten Beleg unterstellt."
+        ],
+        "naechste_aktion": "Keine weitere Hürde für veröffentlichten 358-EUR-Zahlbetrag; keine bestätigte Verfügbarkeit behaupten.",
+        "beleg_ids": [
+          "bayreuth2025agb",
+          "bayreuth2026agb",
+          "bayreuth2026preise"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -2725,10 +3255,10 @@
         "ycl-hafen"
       ],
       "historienprüfung": {
-        "status": "anbieterbeleg noetig",
-        "ergebnis": "CDX-Domainsuche und exakte Dateipfade erneut geprüft: keine abrufbare Gebührenordnung 2023/24 gefunden; Satzungs- und Vergabedokumente ersetzen die Tarife nicht.",
-        "grenze": "2023/24 und verbindliche Flächenregel bleiben offen. Kein Preis aus verlinkten Dateinamen oder anderen Jahren abgeleitet.",
-        "quelle_id": "ia-ycl-2023",
+        "status": "2025/26-Flächentarif belegt; alte Jahre extern offen",
+        "ergebnis": "96 → 96,50 EUR/m², 7 % MwSt., Beschluss-/Gültigkeitsdaten erneut am Original geprüft. Aktuelles Downloadverzeichnis und gezielte alte/migrierte 2023/24-Pfade geprüft; direkte PDFs 404, CDX-Abfragen ohne passenden Tarif. Hafen-/Wartelistenregeln bleiben getrennt vom nicht belegten Zugangspreis.",
+        "grenze": "Original-Gebührenordnungen 2023/24 und verbindliche Flächenformel nicht gewonnen.",
+        "quelle_id": "fenster26-ycl2025",
         "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -2797,6 +3327,33 @@
         "bericht": "docs/archivluecken-2026-10-21.md",
         "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "liegeplatz-ycl",
+        "belegstatus": "2025/26-Flächentarif belegt; alte Jahre extern offen",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "96 → 96,50 EUR/m², 7 % MwSt., Beschluss-/Gültigkeitsdaten erneut am Original geprüft.",
+          "Aktuelles Downloadverzeichnis und gezielte alte/migrierte 2023/24-Pfade geprüft; direkte PDFs 404, CDX-Abfragen ohne passenden Tarif.",
+          "Hafen-/Wartelistenregeln bleiben getrennt vom nicht belegten Zugangspreis."
+        ],
+        "verbleibend": [
+          "Original-Gebührenordnungen 2023/24 und verbindliche Flächenformel nicht gewonnen."
+        ],
+        "naechste_aktion": "Für die bestehende €/m²-Reihe kein Zusatzbeleg nötig. Für Rückverlängerung/Bootsgesamtpreis Original-PDF bzw. bestätigte Abrechnungsformel beschaffen.",
+        "beleg_ids": [
+          "ycl2025",
+          "ycl-2026",
+          "ycl-formulare",
+          "ycl-hafen",
+          "ycl2023-original",
+          "ycl2024-original",
+          "ycl2024-wp",
+          "cdx-ycl-old",
+          "cdx-ycl-wp"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -2867,10 +3424,10 @@
         "ski-hotelansatz"
       ],
       "historienprüfung": {
-        "status": "originalnachweis ergänzt",
-        "ergebnis": "Original-Ticketguide 2025/26 gesichert: sechs Tage Erwachsene Hauptsaison 450 EUR inkl. USt., Kartendepot separat. Historische Tariffolge 401/423/450 EUR nun mit Originaldokumenten.",
-        "grenze": "Definierte Tarifleistung statt Gesamturlaub. Konkrete Hotelwoche/Zimmer/Verpflegung und vollständiger Aufenthaltspreis bleiben unbelegt; keine Vermischung mit angekündigtem 2026/27.",
-        "quelle_id": "pruefung-ski2025-original",
+        "status": "Sechstage-Skipass belegt; Hotel ist Erweiterung",
+        "ergebnis": "Saisonendjahr jetzt überall gleiche Jahresmarke; Einzel-VPI bleibt Dezember des Saisonbeginns, Jahresrunde nutzt eigenen Herbstanker. 2024/25 423 EUR → 2025/26 450 EUR, Erwachsener/Hauptsaison. Zukunftstarif 2026/27 bleibt ausgeschlossen. Burg Vital aktuell: 3-Nächte-Ab-Pauschalen der Zukunftssaison 2026/27; kein standardisierter Sieben-Nächte-Hotelpreis.",
+        "grenze": "Keine identische Hotel-/Zimmer-/Verpflegungshistorie; bestehender Eintrag misst ausdrücklich Skipass, keinen gesamten Urlaub.",
+        "quelle_id": "fenster26-ski-hotel-offiziell",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -2932,6 +3489,25 @@
           "pruefung-ski2025-original"
         ],
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "skiurlaub-arlberg",
+        "belegstatus": "Sechstage-Skipass belegt; Hotel ist Erweiterung",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Saisonendjahr jetzt überall gleiche Jahresmarke; Einzel-VPI bleibt Dezember des Saisonbeginns, Jahresrunde nutzt eigenen Herbstanker.",
+          "2024/25 423 EUR → 2025/26 450 EUR, Erwachsener/Hauptsaison. Zukunftstarif 2026/27 bleibt ausgeschlossen.",
+          "Burg Vital aktuell: 3-Nächte-Ab-Pauschalen der Zukunftssaison 2026/27; kein standardisierter Sieben-Nächte-Hotelpreis."
+        ],
+        "verbleibend": [
+          "Keine identische Hotel-/Zimmer-/Verpflegungshistorie; bestehender Eintrag misst ausdrücklich Skipass, keinen gesamten Urlaub."
+        ],
+        "naechste_aktion": "Skipass weiterführen. Hotelkomponente als separate Erweiterung mit identischem 7-Nächte-Angebot aufbauen, keine beliebige Ab-Rate hinzufügen.",
+        "beleg_ids": [
+          "ski-hotel-offiziell"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -3044,10 +3620,10 @@
         "alarm-hb"
       ],
       "historienprüfung": {
-        "status": "anbieterbeleg noetig",
-        "ergebnis": "Archiv 2023/2024/2025 und April 2026 nennt jeweils ab 20 EUR/Monat. Zusätzliche Tarifversion vom 24.05.2022 ist auf beiden Seiten bis 30.06.2022 gültig; Einrichtung inklusive, Mindestlaufzeit 24 Monate.",
-        "grenze": "Ab-Preise sind keine Festpreisreihe und bestätigen keinen unveränderten Leistungsumfang. Aktuelles vollständiges Tarifblatt sowie Pflichtgebühren weiter offen.",
-        "quelle_id": "ia21-alarm-neuer-pfad",
+        "status": "Historischer Premiumtarif ergänzt; heutiger Pro-Tarif fehlt",
+        "ergebnis": "Securando pro 2022 30 EUR/Monat brutto statt niedrigeren Privat-Tarif 20 EUR als Premiumreferenz gesichert. Schlüsselverwahrung, mobile Bereitschaft, 15 Aktivitäten monatlich enthalten; Intervention extra. Einrichtung separat im Nebenpreisblatt mit Datumswiderspruch. Aktuelles Ab-Angebot weiterhin kein identisches Pro-Paket. Preise-Ratgeber ist passwortgeschützt; keine Sperre umgangen.",
+        "grenze": "Heutiges identisches vollständiges Pro-Tarifblatt und Pflichtnebenkosten fehlen. Widersprüchliche historische Nebenpreis-Gültigkeit bleibt sichtbar.",
+        "quelle_id": "fenster26-alarm-2022",
         "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [
@@ -3154,6 +3730,29 @@
             "Zusätzliche Vorgänge 8,29 EUR brutto; SIM optional 10 EUR monatlich. Keine enthaltene Schlüsselverwahrung, mobile Bereitschaft oder Intervention.",
             "Zusätzlicher datierter Versionsbeleg im selben Jahr, kein zweiter unabhängiger Jahreswert. Der ältere abweichend datierte 2022-Beleg wird nicht umgeschrieben."
           ]
+        },
+        {
+          "id": "alarm-securando-pro-2022",
+          "betrag": 30,
+          "einheit": "Monat",
+          "preisart": "Veröffentlichter Pro-Grundtarif, kein heutiges Angebot",
+          "quelle_id": "fenster26-alarm-2022",
+          "umsatzsteuer": "brutto inklusive 19 % MwSt.",
+          "preisdatum": null,
+          "gültigkeit": {
+            "bezeichnung": "Grundpreisblatt gültig bis 31.12.2022; Nebenpreisblatt abweichend bis 30.06.2022"
+          },
+          "zeitstatus": "historisch",
+          "belegqualität": "Primärbeleg",
+          "abgerufen_am": "2026-10-26",
+          "prüfstatus": "Original gelesen und gegen Produkt-/Tarifdefinition geprüft; nominale Preisnotierung, keine produktive Gesamtindexfreigabe",
+          "indexfreigabe": false,
+          "hinweise": [
+            "30 EUR/Monat brutto; 360 EUR für zwölf Grundtarifraten als reine Rechnung. Kein aktueller identischer Gegenpreis.",
+            "Widersprüchliche Nebenkosten-Gültigkeit bleibt offen; keine Anwendung auf heute."
+          ],
+          "datumstyp": "Beobachtungsdatum",
+          "variante": "Securando pro: 15 Aktivitäten monatlich, Schlüsselaufbewahrung/mobile Bereitschaft; Intervention extra"
         }
       ],
       "abschlusspruefung": {
@@ -3171,6 +3770,28 @@
         "bericht": "docs/archivluecken-2026-10-21.md",
         "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "alarmaufschaltung",
+        "belegstatus": "Historischer Premiumtarif ergänzt; heutiger Pro-Tarif fehlt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": false,
+        "abgeschlossen": [
+          "Securando pro 2022 30 EUR/Monat brutto statt niedrigeren Privat-Tarif 20 EUR als Premiumreferenz gesichert.",
+          "Schlüsselverwahrung, mobile Bereitschaft, 15 Aktivitäten monatlich enthalten; Intervention extra. Einrichtung separat im Nebenpreisblatt mit Datumswiderspruch.",
+          "Aktuelles Ab-Angebot weiterhin kein identisches Pro-Paket. Preise-Ratgeber ist passwortgeschützt; keine Sperre umgangen."
+        ],
+        "verbleibend": [
+          "Heutiges identisches vollständiges Pro-Tarifblatt und Pflichtnebenkosten fehlen. Widersprüchliche historische Nebenpreis-Gültigkeit bleibt sichtbar."
+        ],
+        "naechste_aktion": "Aktuelles vollständiges Pro-Angebot/Vertragsblatt vom Anbieter bzw. Kundenbeleg nötig; keine Nullinflation aus unverändertem Ab-Preis ableiten.",
+        "beleg_ids": [
+          "alarm-2022",
+          "pruefung-securando-ajax",
+          "securando-preise",
+          "cdx-alarm-neu"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -3196,10 +3817,10 @@
         "sylt-da"
       ],
       "historienprüfung": {
-        "status": "anbieterbeleg noetig",
-        "ergebnis": "D&A-Anbieterseite in Archivständen 2019, 2021, 2023 und 2025 gelesen; weiterhin kein veröffentlichter Betrag des definierten Kontrollpakets.",
-        "grenze": "Keine datierte standardisierte Pauschale oder vergleichbare Rechnung. Vier geprüfte Stände erlauben keine Aussage über alle Archivbestände.",
-        "quelle_id": "ia21-sylt-dua-2025",
+        "status": "Kein öffentlicher Referenzpreis",
+        "ergebnis": "Enkelmann und Haus & Hand erneut geprüft. Zusätzlich Clean & Green, Silke Heer und Mein Haus auf Sylt geprüft. Leistungen und individuelle Angebote, aber keine öffentliche Pauschale für 150 m² Westerland mit 24 Kontrollen/Schlüssel/Anfahrt. Keine Stundenlöhne, Reinigung oder Vermietungsprovision als Ersatz eingetragen.",
+        "grenze": "Datiertes Angebot oder Rechnung für exakt definiertes Kontrollpaket sowie historische Gegenbelege fehlen.",
+        "quelle_id": "fenster26-sylt-enkelmann",
         "geprüft_am": "2026-10-21"
       },
       "zusätzliche_historische_beobachtungen": [],
@@ -3219,6 +3840,29 @@
         "bericht": "docs/archivluecken-2026-10-21.md",
         "protokoll": "data/research/archivprotokoll-2026-10-21.json",
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "hausbetreuung-sylt",
+        "belegstatus": "Kein öffentlicher Referenzpreis",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": false,
+        "abgeschlossen": [
+          "Enkelmann und Haus & Hand erneut geprüft. Zusätzlich Clean & Green, Silke Heer und Mein Haus auf Sylt geprüft.",
+          "Leistungen und individuelle Angebote, aber keine öffentliche Pauschale für 150 m² Westerland mit 24 Kontrollen/Schlüssel/Anfahrt.",
+          "Keine Stundenlöhne, Reinigung oder Vermietungsprovision als Ersatz eingetragen."
+        ],
+        "verbleibend": [
+          "Datiertes Angebot oder Rechnung für exakt definiertes Kontrollpaket sowie historische Gegenbelege fehlen."
+        ],
+        "naechste_aktion": "Zwei vergleichbare anonymisierte Angebote/Rechnungen beschaffen. Keine weitere allgemeine Anbietersuche; bis dahin Backlog.",
+        "beleg_ids": [
+          "sylt-enkelmann",
+          "sylt-haushand",
+          "clean-sylt",
+          "heer-sylt",
+          "sylt-neuer-anbieter"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -3283,9 +3927,9 @@
         }
       ],
       "historienprüfung": {
-        "status": "Premium-Menüstufe und Preiswechsel 2025 belegt",
-        "ergebnis": "Vier neue Originalkarten: Juni/Oktober 2025 Menü II 325 EUR, Dezember 2025 und April 2026 bereits 385 EUR. Die aktuelle Karte wurde am 26.10.2026 mit 385 EUR und unverändertem Hash erneut geprüft.",
-        "grenze": "Gleiche siebenpositionige Premium-Menüstufe, wechselnde Gerichte. Archivstände sind keine Preisgültigkeitsdaten. Keine betriebliche Kostenerklärung oder Kalenderjahresrate aus den Beobachtungen ableiten.",
+        "status": "Recherche bereits abgeschlossen",
+        "ergebnis": "Oktober-2025-Original 325 EUR gegen Oktober-2026-Original 385 EUR passt ins feste Herbstfenster. Gleiche Premiumstufe; saisonale Speisen-/Steueränderungen dokumentiert. Keine erneute Kostenursachenrecherche.",
+        "grenze": "Oktober-2026-VPI im vorhandenen Bundesbank-Beleg noch nicht veröffentlicht.",
         "quelle_id": "sw26-original-2025-12",
         "geprüft_am": "2026-10-26"
       },
@@ -3462,6 +4106,22 @@
           "gesetz-ustg12"
         ],
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "schwarzwaldstube-menue-ii",
+        "belegstatus": "Recherche bereits abgeschlossen",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Oktober-2025-Original 325 EUR gegen Oktober-2026-Original 385 EUR passt ins feste Herbstfenster.",
+          "Gleiche Premiumstufe; saisonale Speisen-/Steueränderungen dokumentiert. Keine erneute Kostenursachenrecherche."
+        ],
+        "verbleibend": [
+          "Oktober-2026-VPI im vorhandenen Bundesbank-Beleg noch nicht veröffentlicht."
+        ],
+        "naechste_aktion": "Auf nächsten offiziellen Referenzmonat warten; kein Anbieterbeleg zu Kostenursachen erforderlich.",
+        "beleg_ids": [],
+        "unabhaengige_zweitredaktion": false
       }
     },
     {
@@ -3493,10 +4153,10 @@
         }
       ],
       "historienprüfung": {
-        "status": "anbieterbeleg noetig",
-        "ergebnis": "Offizielle Zimmerdefinition ca. 40 m² im Haupthaus bestätigt; öffentliche flexible Rate und Ghorfa-Sondertarif getrennt. Berliner City Tax ab 2025 7,5 % statt 5 % gesondert zu erfassen.",
-        "grenze": "Datiertes öffentliches Angebot ohne Frühstück und mit Steuer-/Stornobedingungen fehlt. Erhebungsprotokoll für Reisezeit, Vorlauf und Belegung festgelegt.",
-        "quelle_id": "pruefung-adlon-zimmer",
+        "status": "Keine historische öffentliche flexible Referenzrate",
+        "ergebnis": "Aktuelle Zimmerdefinition und Archivbestand gezielt geprüft. Angeforderter Oktober-2025-Capture leitet auf 16.12.2025 um; tatsächliches Memento erfasst. Zimmerbeschreibung ohne vollständige datierte Rate. August-2024-Capture 503. Ghorfa-Sondertarife bleiben von öffentlicher Direktbuchung getrennt.",
+        "grenze": "Zwei datierte öffentliche flexible Deluxe-King-Angebote mit gleichem Reise-/Vorlauf-/Steuer-/Stornoprofil fehlen.",
+        "quelle_id": "fenster26-adlon-zimmer",
         "geprüft_am": "2026-10-17"
       },
       "zusätzliche_historische_beobachtungen": [],
@@ -3510,6 +4170,28 @@
           "pruefung-berlin-citytax"
         ],
         "indexfreigabe": false
+      },
+      "fachpruefung": {
+        "produkt_id": "hotel-adlon-deluxe",
+        "belegstatus": "Keine historische öffentliche flexible Referenzrate",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": false,
+        "abgeschlossen": [
+          "Aktuelle Zimmerdefinition und Archivbestand gezielt geprüft.",
+          "Angeforderter Oktober-2025-Capture leitet auf 16.12.2025 um; tatsächliches Memento erfasst. Zimmerbeschreibung ohne vollständige datierte Rate. August-2024-Capture 503.",
+          "Ghorfa-Sondertarife bleiben von öffentlicher Direktbuchung getrennt."
+        ],
+        "verbleibend": [
+          "Zwei datierte öffentliche flexible Deluxe-King-Angebote mit gleichem Reise-/Vorlauf-/Steuer-/Stornoprofil fehlen."
+        ],
+        "naechste_aktion": "Festes Erhebungsprofil: zweite März-Woche, Dienstag, eine Nacht, zwei Erwachsene, Deluxe King, ohne Frühstück, 56 Tage Vorlauf, flexible Direktbuchung. Historische Belege müssen dieselben Bedingungen tragen.",
+        "beleg_ids": [
+          "adlon-zimmer",
+          "cdx-adlon-reservierung",
+          "adlon-herbst25-archiv",
+          "adlon-sommer24-archiv"
+        ],
+        "unabhaengige_zweitredaktion": false
       }
     }
   ],
@@ -3720,6 +4402,8 @@
     "dossier": "docs/schwarzwaldstube-preisanstieg-2026-10-26.md",
     "protokoll": "data/research/schwarzwaldstube-protokoll-2026-10-26.json"
   },
+  "vorherige_version": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+  "aenderung_herbst": "Sechs zusätzliche Beobachtungen: Cayenne September 2025/Oktober 2026, Charger5 Oktober 2025/Oktober 2026, Saxonia Oktober 2026, historischer Alarm-Pro-Tarif. Frühere Beobachtungen unverändert; Quellen nachgeprüft, keine fehlenden Marktpreise erfunden.",
   "gewichtungspruefung": {
     "schema_version": "1.0-gewichtungspruefung",
     "stand": "2026-10-17",
@@ -4471,8 +5155,8 @@
     "impulshinweis": "Rein synthetisch: Cayenne +10 %, alle anderen Preise unverändert. Keine historische Beobachtung oder Prognose.",
     "lueckenhinweis": "Pilotabdeckung bezeichnet geplantes Gewicht der zwei vorhandenen Teilreihen, keine redaktionelle Freigabe oder Vollpreisabdeckung. Fehlende Gewichte werden im Gesamtindex nicht umverteilt."
   },
-  "version": "poc-0.6.0",
-  "recherche_sha256": "a79a3eb811fbe77d2713f8653e286f759ed975e74ff4e37241134abfc32a4c90",
+  "version": "poc-0.7.0",
+  "recherche_sha256": "bc3b65b39ab981ddc167d1a6882bf1918da776043d2d34973b6cccf62c7bf241",
   "pilot_reihen": [
     {
       "id": "bayreuth-parsifal",
@@ -4705,7 +5389,7 @@
     "geltungsbereich": "Dieser Block beschreibt den historischen Zweier-Pilot. Der neue nominale Neuner-Vergleich ist in pragmatische_auswahl mit eigenen Auswahlregeln und Grenzen dokumentiert."
   },
   "ansicht_stand": "2026-10-26",
-  "standardansicht": "salem-grundtarif",
+  "standardansicht": "herbst9",
   "einzel_reihen": [
     {
       "id": "salem-grundtarif",
@@ -4838,7 +5522,7 @@
       "einheit": "EUR je erwachsener Person und Sechstagepass",
       "punkte": [
         {
-          "jahr": 2023,
+          "jahr": 2024,
           "label": "Saison 2023/24",
           "betrag": 401,
           "referenzmonat": "2023-12",
@@ -4857,7 +5541,7 @@
           ]
         },
         {
-          "jahr": 2024,
+          "jahr": 2025,
           "label": "Saison 2024/25",
           "betrag": 423,
           "referenzmonat": "2024-12",
@@ -4876,7 +5560,7 @@
           ]
         },
         {
-          "jahr": 2025,
+          "jahr": 2026,
           "label": "Saison 2025/26",
           "betrag": 450,
           "referenzmonat": "2025-12",
@@ -4896,7 +5580,7 @@
         }
       ],
       "definition": "Sechs unmittelbar aufeinanderfolgende Tage, Erwachsener, Hauptsaison, inklusive USt.; rückzahlbares Kartendepot separat.",
-      "zeitbezug": "VPI: Dezember im Beginnjahr der Wintersaison, entsprechend dem dokumentierten Beginn der Hauptsaison. Jahresmarken bezeichnen die Saison, keine vollständigen Kalenderjahre.",
+      "zeitbezug": "Jahresmarke: Ende der Wintersaison, einheitlich mit der Jahresrunde. VPI der Einzelkurve: Dezember im Beginnjahr, entsprechend dem dokumentierten Hauptsaisonbeginn. Zum Beispiel steht 2025 für 2024/25 und verwendet Dezember 2024. Keine vollständigen Kalenderjahresausgaben.",
       "grenze": "Nur Skipass, kein Skiurlaub: ohne Hotel, Anreise, Verpflegung und Ausrüstung. Keine Annahme unveränderter Pistenkilometer oder Liftzahl. Veröffentlichte teils vorläufige Tarife, keine Transaktionen. 2026/27 ist angekündigt und ausgeschlossen.",
       "indexfreigabe": false
     },
@@ -5658,7 +6342,7 @@
     "schema_version": "1.0-pragmatische-auswahl",
     "stand": "2026-10-26",
     "status": "Experimenteller nominaler Neuner-Vergleich, keine amtliche Inflation oder produktive Indexfreigabe",
-    "quelle_daten": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+    "quelle_daten": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
     "nutzerentscheidung": "Datenlücken pragmatisch schließen und im Zweifel höchste Variante wählen.",
     "auswahlregel": "Höhere belegte Ausführung innerhalb gleicher Leistung, Einheit und Dauer vor der Rechnung festlegen. Keine jährliche Auswahl des höchsten Preises, keine Kombination inkompatibler Varianten, keine erfundenen Preise. Bereits eindeutig festgelegte Referenzmodelle behalten ihre Identität.",
     "jahre": [
@@ -5859,8 +6543,8 @@
         "rest": "Kein passender öffentlicher flexibler Tarif. Undatierter 265-EUR-Sondertarif und 2024er 250-EUR-Sondertarif werden nicht künstlich zu einer öffentlichen Reihe."
       }
     ],
-    "vorherige_version": "data/methodik/pragmatische-auswahl-2026-10-21.json",
-    "aenderung": "Nur Menü-II-Basisbeleg: Oktober-2025-Primärquelle zu 325 EUR statt März-2025-Menüfoto zu ebenfalls 325 EUR. Zeitlich besser passend zum Oktober-2026-Endpunkt; keine geänderten Preise, Gewichte oder Ergebnisse."
+    "vorherige_version": "data/methodik/pragmatische-auswahl-2026-10-26.json",
+    "aenderung": "Unveränderte historische Neuner-Rechenprobe mit erweitertem Forschungsarchiv; die neue Jahresrunde hat ein eigenes Rezept."
   },
   "premiumvergleich": {
     "version": "1.0",
@@ -6208,5 +6892,1585 @@
         }
       ]
     }
-  ]
+  ],
+  "herbstvergleich": {
+    "rezept": {
+      "schema_version": "1.0-jahresfenster",
+      "stand": "2026-10-26",
+      "status": "Nominale Jahresrunde mit geprüften Zeitregeln; keine produktive Gesamtindexfreigabe",
+      "quelle_daten": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "nutzerentscheidung": "Datenlücken pragmatisch schließen und im Zweifel höchste Variante wählen.",
+      "auswahlregel": "Höhere belegte Ausführung innerhalb gleicher Leistung, Einheit und Dauer vor der Rechnung festlegen. Keine jährliche Auswahl des höchsten Preises, keine Kombination inkompatibler Varianten, keine erfundenen Preise. Bereits eindeutig festgelegte Referenzmodelle behalten ihre Identität.",
+      "jahre": [
+        2025,
+        2026
+      ],
+      "gewichtung": "Jede der neun vorher festgelegten Positionen erhält 1/9. Vier ausgeschlossene Positionen gehören nicht zur Grundgesamtheit dieses Vergleichs; es wird kein Gewicht eines 13er-Index umverteilt.",
+      "vpi_anker": "Vollständiges Mittel aus September und Oktober desselben Jahres. Jahres-/Saisontarife folgen den festen Zuordnungsregeln. Der VPI ist ein gemeinsamer Herbstanker zur Einordnung, kein gleichzeitiger Transaktionsvergleich. Fehlende Monate bleiben leer.",
+      "positionen": [
+        {
+          "produkt_id": "porsche-cayenne",
+          "name": "Cayenne · Basis-Modellpreis",
+          "referenzentscheidung": "Basis-Benziner SUV 260 kW/353 PS; keine Umstellung auf Turbo/Hybrid ohne deren passende Historie.",
+          "grenze": "Nominaler deutscher Modell-Grundpreis ohne Extras/Pflichtnebenkosten; Serienausstattung nicht qualitätsbereinigt. Herbstbasis: Originalstand 12.09.2025; Preis am 26.10.2026 erneut unverändert bestätigt.",
+          "beobachtung_ids": {
+            "2025": [
+              "cayenne-herbst-2025"
+            ],
+            "2026": [
+              "cayenne-2026"
+            ]
+          },
+          "gewicht_bruch": {
+            "zaehler": 1,
+            "nenner": 9
+          },
+          "zeitregel": "herbst",
+          "einheit": "EUR je Modell-Grundpreis",
+          "zeitzuordnung": {
+            "2025": {
+              "jahr": 2025,
+              "label": "Herbst 2025",
+              "begruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt."
+            },
+            "2026": {
+              "jahr": 2026,
+              "label": "Herbst 2026",
+              "begruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt."
+            }
+          },
+          "kandidaten": {
+            "2025": [
+              "cayenne-archiv-2025",
+              "cayenne-herbst-2025"
+            ],
+            "2026": [
+              "cayenne-2026",
+              "cayenne-herbst-2026"
+            ]
+          }
+        },
+        {
+          "produkt_id": "salem",
+          "name": "Salem · regulärer Grundtarif",
+          "referenzentscheidung": "Klasse 8, regulärer voller Tarif, keine Ermäßigungen.",
+          "grenze": "Zwölf Monatsraten für Schuljahr 2025/26 beziehungsweise 2026/27; keine tatsächlichen Kalenderjahresausgaben.",
+          "beobachtung_ids": {
+            "2025": [
+              "salem-archiv-2025"
+            ],
+            "2026": [
+              "salem-2026"
+            ]
+          },
+          "gewicht_bruch": {
+            "zaehler": 1,
+            "nenner": 9
+          },
+          "zeitregel": "schuljahr",
+          "einheit": "EUR je Schuljahr (zwölf Monatsraten)",
+          "zeitzuordnung": {
+            "2025": {
+              "jahr": 2025,
+              "label": "Schuljahr 2025/26",
+              "begruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf."
+            },
+            "2026": {
+              "jahr": 2026,
+              "label": "Schuljahr 2026/27",
+              "begruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf."
+            }
+          }
+        },
+        {
+          "produkt_id": "saxonia-thin",
+          "name": "Saxonia Thin · 201.027-LB",
+          "referenzentscheidung": "Neue Händlerreferenz 201.027-LB; alte Referenz wird nicht angehängt.",
+          "grenze": "Händler-Angebotsstände 27.10.2025 und 16.10.2026. Keine Transaktionen; keine bestätigte Hersteller-UVP. Aktueller Händlerstand am 26.10.2026 erneut 27.000 EUR und temporär nicht verfügbar. Nominale Notierung, kein sofort verfügbarer Kauf.",
+          "beobachtung_ids": {
+            "2025": [
+              "saxonia-wempe-archiv-2025"
+            ],
+            "2026": [
+              "saxonia-wempe-2026"
+            ]
+          },
+          "gewicht_bruch": {
+            "zaehler": 1,
+            "nenner": 9
+          },
+          "zeitregel": "herbst",
+          "einheit": "EUR je Händler-Preisnotierung",
+          "zeitzuordnung": {
+            "2025": {
+              "jahr": 2025,
+              "label": "Herbst 2025",
+              "begruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt."
+            },
+            "2026": {
+              "jahr": 2026,
+              "label": "Herbst 2026",
+              "begruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt."
+            }
+          },
+          "kandidaten": {
+            "2025": [
+              "saxonia-wempe-archiv-2025"
+            ],
+            "2026": [
+              "saxonia-wempe-2026",
+              "saxonia-herbst-2026"
+            ]
+          }
+        },
+        {
+          "produkt_id": "lanserhof-sylt",
+          "name": "Lanserhof · Classic Plus, ohne Zimmer",
+          "referenzentscheidung": "Classic Plus statt Classic, eine Person, 7–8 Nächte; feste Dauer statt Auswahl des teuersten unterschiedlich langen Aufenthalts.",
+          "grenze": "Veröffentlichter Programmbetrag ohne Unterkunft, Medikamente und Ergänzungsmittel. Classic Plus direkt auf PDF-Seiten 7 (2025) und 4 (2026) abgeglichen. Bereitschaftsdienst Bestandteil der Programmbeschreibung, 2026 verbindlich mit 42 EUR/Nacht; kein unbelegter zusätzlicher Aufschlag auf den ausgewiesenen Gesamtpreis. Vollständige tatsächliche Aufenthaltsrechnung nicht behauptet.",
+          "beobachtung_ids": {
+            "2025": [
+              "lanserhof-2025-plus"
+            ],
+            "2026": [
+              "lanserhof-2026-classic-plus"
+            ]
+          },
+          "gewicht_bruch": {
+            "zaehler": 1,
+            "nenner": 9
+          },
+          "zeitregel": "jahresbroschuere",
+          "einheit": "EUR je veröffentlichtem Classic-Plus-Programmpreis, ohne Unterkunft",
+          "zeitzuordnung": {
+            "2025": {
+              "jahr": 2025,
+              "label": "Jahresbroschüre 2025",
+              "begruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt."
+            },
+            "2026": {
+              "jahr": 2026,
+              "label": "Jahresbroschüre 2026",
+              "begruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt."
+            }
+          }
+        },
+        {
+          "produkt_id": "rm-charger5",
+          "name": "Charger5 vario · Modellpreis",
+          "referenzentscheidung": "Charger5 vario Modell-Ab-Preis; keine erfundene Endkonfiguration aus optionalen Kits.",
+          "grenze": "Nominaler Modellpreis mit dokumentiertem Gabel-/Nabenwechsel; kein Preisvergleich identischer Ausstattung. Oktober-2025-Modellpreis direkt belegt; aktuelle Online-Shop-AGB § 5 bestätigen MwSt. und Fachhändlerversand. Historische Endkonfiguration bleibt unbestätigt.",
+          "beobachtung_ids": {
+            "2025": [
+              "rm-herbst-2025"
+            ],
+            "2026": [
+              "rm-2026"
+            ]
+          },
+          "gewicht_bruch": {
+            "zaehler": 1,
+            "nenner": 9
+          },
+          "zeitregel": "herbst",
+          "einheit": "EUR je Modell-Ab-Preis",
+          "zeitzuordnung": {
+            "2025": {
+              "jahr": 2025,
+              "label": "Herbst 2025",
+              "begruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt."
+            },
+            "2026": {
+              "jahr": 2026,
+              "label": "Herbst 2026",
+              "begruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt."
+            }
+          },
+          "kandidaten": {
+            "2025": [
+              "rm-archiv-2025-basis",
+              "rm-herbst-2025"
+            ],
+            "2026": [
+              "rm-2026",
+              "rm-herbst-2026"
+            ]
+          }
+        },
+        {
+          "produkt_id": "bayreuth-parsifal",
+          "name": "Bayreuth · Parsifal A1",
+          "referenzentscheidung": "Höchste belegte Kategorie A1, online/digital ohne AR; Pflichtgebühr je Ticket zusätzlich.",
+          "grenze": "352 EUR plus 6 EUR Pflichtgebühr; Verfügbarkeit und Warteliste bleiben unbepreist.",
+          "beobachtung_ids": {
+            "2025": [
+              "bayreuth-ticket-2025",
+              "bayreuth-gebühr-2025"
+            ],
+            "2026": [
+              "bayreuth-ticket-2026",
+              "bayreuth-gebühr-2026"
+            ]
+          },
+          "gewicht_bruch": {
+            "zaehler": 1,
+            "nenner": 9
+          },
+          "zeitregel": "festspieljahr",
+          "einheit": "EUR je A1-Ticket einschließlich Pflichtgebühr",
+          "zeitzuordnung": {
+            "2025": {
+              "jahr": 2025,
+              "label": "Festspielsaison 2025",
+              "begruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam."
+            },
+            "2026": {
+              "jahr": 2026,
+              "label": "Festspielsaison 2026",
+              "begruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam."
+            }
+          }
+        },
+        {
+          "produkt_id": "liegeplatz-ycl",
+          "name": "Bodensee · Sommer-Flächentarif",
+          "referenzentscheidung": "Segelboot, Sommersaison, brutto je m²; kein Wechsel zu einem anderen Bootstyp.",
+          "grenze": "Nur Flächentarif, kein Gesamtliegeplatz. Ohne angenommene Bootsfläche oder unbestätigte Pflichtbestandteile; 2023/24 für diesen 2025/26-Vergleich nicht nötig.",
+          "beobachtung_ids": {
+            "2025": [
+              "ycl-fläche-2025"
+            ],
+            "2026": [
+              "ycl-fläche-2026"
+            ]
+          },
+          "gewicht_bruch": {
+            "zaehler": 1,
+            "nenner": 9
+          },
+          "zeitregel": "sommersaison",
+          "einheit": "EUR je m² und Sommersaison",
+          "zeitzuordnung": {
+            "2025": {
+              "jahr": 2025,
+              "label": "Sommergebühr 2025",
+              "begruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis."
+            },
+            "2026": {
+              "jahr": 2026,
+              "label": "Sommergebühr 2026",
+              "begruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis."
+            }
+          }
+        },
+        {
+          "produkt_id": "skiurlaub-arlberg",
+          "name": "Arlberg · Hauptsaison-Skipass",
+          "referenzentscheidung": "Erwachsener, sechs aufeinanderfolgende Tage, Hauptsaison statt ermäßigter Saison.",
+          "grenze": "Saison 2024/25 wird dem Endjahr 2025, Saison 2025/26 dem Endjahr 2026 zugeordnet. Nur Skipass, kein Urlaub; 2026/27 ausgeschlossen.",
+          "beobachtung_ids": {
+            "2025": [
+              "ski-beleg-2024"
+            ],
+            "2026": [
+              "ski-2025"
+            ]
+          },
+          "gewicht_bruch": {
+            "zaehler": 1,
+            "nenner": 9
+          },
+          "zeitregel": "winterendjahr",
+          "einheit": "EUR je Sechstage-Hauptsaisonpass, Erwachsener",
+          "zeitzuordnung": {
+            "2025": {
+              "jahr": 2025,
+              "label": "Wintersaison 2024/25",
+              "begruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen."
+            },
+            "2026": {
+              "jahr": 2026,
+              "label": "Wintersaison 2025/26",
+              "begruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen."
+            }
+          }
+        },
+        {
+          "produkt_id": "schwarzwaldstube-menue-ii",
+          "name": "Schwarzwaldstube · Menü II",
+          "referenzentscheidung": "Großes siebenpositioniges Menü II, ohne Getränke; kein Wechsel zum günstigeren vegetarischen Menü.",
+          "grenze": "Nominaler Menüpreis gleicher Premiumstufe. Archivstand 14.10.2025 zu 325 EUR gegen Beobachtung 16.10.2026 zu 385 EUR; höherer Tarif bereits im Dezember-2025-Original belegt. Exaktes Wirksamkeitsdatum und Kostenursache offen; Gerichte und Steuerbedingungen ändern sich.",
+          "beobachtung_ids": {
+            "2025": [
+              "schwarzwald-original-archiv-2025-10"
+            ],
+            "2026": [
+              "schwarzwald-2026-menue"
+            ]
+          },
+          "gewicht_bruch": {
+            "zaehler": 1,
+            "nenner": 9
+          },
+          "zeitregel": "herbst",
+          "einheit": "EUR je Menü ohne Getränke",
+          "zeitzuordnung": {
+            "2025": {
+              "jahr": 2025,
+              "label": "Herbst 2025",
+              "begruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt."
+            },
+            "2026": {
+              "jahr": 2026,
+              "label": "Herbst 2026",
+              "begruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt."
+            }
+          },
+          "kandidaten": {
+            "2025": [
+              "schwarzwald-original-archiv-2025-06",
+              "schwarzwald-original-archiv-2025-10",
+              "schwarzwald-original-archiv-2025-12"
+            ],
+            "2026": [
+              "schwarzwald-2026-menue",
+              "schwarzwald-original-archiv-2026-04"
+            ]
+          }
+        }
+      ],
+      "nicht_im_vergleich": [
+        {
+          "produkt_id": "hermes-kelly",
+          "entscheidung": "Einpreis-Position",
+          "referenz": "Kelly 28 Togo Noir, Gold, ungetragen; höchster passender tatsächlich verfügbarer belegter Angebotspreis 21.800 EUR am 06.08.2024.",
+          "rest": "Zweiter passender verfügbarer Preis fehlt; kein Boutique-Markup berechenbar. Ausverkaufte oder gebrauchte Angebote werden nicht eingesetzt."
+        },
+        {
+          "produkt_id": "alarmaufschaltung",
+          "entscheidung": "Historische Tarif-/Ab-Angebotsposition",
+          "referenz": "Bei Privat/Pro-Alternative wird das höher ausgestattete Securando-Pro-Paket bevorzugt. Dessen aktueller identischer Tarif ist nicht belegt.",
+          "rest": "Ab 20 EUR, anderer Anbieter ab 35 EUR und zusätzliche Revierstreifenoption 49 EUR ergeben keine gemeinsame Reihe. Kein Nullinflationswert."
+        },
+        {
+          "produkt_id": "hausbetreuung-sylt",
+          "entscheidung": "Backlog bis Preisbeleg",
+          "referenz": "150 m² Westerland, 24 dokumentierte Kontrollgänge/Jahr, Schlüssel und Anfahrt.",
+          "rest": "Kein belegter Pauschalbetrag. Stundenlohn, Reinigung oder Vermietungsgebühr werden nicht als Ersatz verwendet."
+        },
+        {
+          "produkt_id": "hotel-adlon-deluxe",
+          "entscheidung": "Backlog bis datierter Tarif",
+          "referenz": "Adlon Deluxe ca. 40 m², zwei Erwachsene, öffentliche flexible Rate ohne Frühstück. Bei ansonsten identischen Bedingungen höhere belegte Tarifvariante; keine Umstellung auf eine andere Zimmerkategorie ohne deren Historie.",
+          "rest": "Kein passender öffentlicher flexibler Tarif. Undatierter 265-EUR-Sondertarif und 2024er 250-EUR-Sondertarif werden nicht künstlich zu einer öffentlichen Reihe."
+        }
+      ],
+      "vorherige_version": "data/methodik/pragmatische-auswahl-2026-10-26.json",
+      "aenderung": "Gemeinsame Herbst-Erhebung für freie Preise; feste Tarifjahresregeln für Jahres-/Saisonleistungen. Cayenne-Basis aus September und Charger5-Basis aus Oktober statt Juli/August 2025, unveränderte Beträge. VPI bezieht sich auf vollständiges September/Oktober-Mittel, kein August-Ersatz.",
+      "id": "herbst9",
+      "erhebungsfenster": {
+        "von_mm_tt": "09-01",
+        "bis_mm_tt": "10-31",
+        "ziel_mm_tt": "10-15",
+        "auswahl": "Beleg im Fenster mit kleinstem Tagesabstand zum 15. Oktober; bei Gleichstand früherer Tag, dann ID. Nur zuvor als dieselbe nominale Preisdefinition geprüfte Kandidaten. Verfügbarer geprüfter Quellenbestand bis Datenstand, keine Vollerfassung sämtlicher Archiv-Captures."
+      },
+      "referenz": {
+        "monate": [
+          9,
+          10
+        ],
+        "aggregation": "Arithmetisches Mittel beider offiziellen Bundesbank-Monatsindizes; erst ausgeben, wenn beide vorhanden. Fehlender Endjahresmonat sperrt VPI-Änderung und Abstand.",
+        "funktion": "Einordnung der jährlichen Tarifrunde, keine genaue Gleichzeitigkeit aller Konsumausgaben.",
+        "abstand_bezeichnung": "Abstand zum Herbst-VPI in Prozentpunkten, keine repräsentative Haushaltsinflation."
+      },
+      "freigabe": {
+        "zeitregeln": "geprüft",
+        "produktiver_gesamtindex": false,
+        "grund": "Nominale Teilpreise und Angebotsnotierungen; keine vollständigen Konsumausgaben. Noch fehlender Oktober-VPI 2026, Quellenrechte und einzelne Vollkostenfragen getrennt dokumentiert."
+      }
+    },
+    "reihen": [
+      {
+        "id": "porsche-cayenne",
+        "kurzname": "Cayenne · Basis-Modellpreis",
+        "einheit": "EUR je Modell-Grundpreis",
+        "definition": "Basis-Benziner SUV 260 kW/353 PS; keine Umstellung auf Turbo/Hybrid ohne deren passende Historie.",
+        "grenze": "Nominaler deutscher Modell-Grundpreis ohne Extras/Pflichtnebenkosten; Serienausstattung nicht qualitätsbereinigt. Herbstbasis: Originalstand 12.09.2025; Preis am 26.10.2026 erneut unverändert bestätigt.",
+        "zeitregel": "herbst",
+        "punkte": [
+          {
+            "jahr": 2025,
+            "betrag": 101500,
+            "beobachtung_ids": [
+              "cayenne-herbst-2025"
+            ],
+            "quelle_ids": [
+              "fenster26-porsche-sept25"
+            ],
+            "label": "Herbst 2025",
+            "zeitregel": "herbst",
+            "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+            "preisdatum": "2025-09-12",
+            "gueltigkeit": null,
+            "referenzmonate": [
+              "2025-09",
+              "2025-10"
+            ]
+          },
+          {
+            "jahr": 2026,
+            "betrag": 102700,
+            "beobachtung_ids": [
+              "cayenne-2026"
+            ],
+            "quelle_ids": [
+              "porsche-aktuell"
+            ],
+            "label": "Herbst 2026",
+            "zeitregel": "herbst",
+            "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+            "preisdatum": "2026-10-16",
+            "gueltigkeit": null,
+            "referenzmonate": [
+              "2026-09",
+              "2026-10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "salem",
+        "kurzname": "Salem · regulärer Grundtarif",
+        "einheit": "EUR je Schuljahr (zwölf Monatsraten)",
+        "definition": "Klasse 8, regulärer voller Tarif, keine Ermäßigungen.",
+        "grenze": "Zwölf Monatsraten für Schuljahr 2025/26 beziehungsweise 2026/27; keine tatsächlichen Kalenderjahresausgaben.",
+        "zeitregel": "schuljahr",
+        "punkte": [
+          {
+            "jahr": 2025,
+            "betrag": 50400,
+            "beobachtung_ids": [
+              "salem-archiv-2025"
+            ],
+            "quelle_ids": [
+              "ia-salem-20240912"
+            ],
+            "label": "Schuljahr 2025/26",
+            "zeitregel": "schuljahr",
+            "zeitbegruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "bezeichnung": "Schuljahr 2025/2026"
+            },
+            "referenzmonate": [
+              "2025-09",
+              "2025-10"
+            ]
+          },
+          {
+            "jahr": 2026,
+            "betrag": 53400,
+            "beobachtung_ids": [
+              "salem-2026"
+            ],
+            "quelle_ids": [
+              "salem-2026"
+            ],
+            "label": "Schuljahr 2026/27",
+            "zeitregel": "schuljahr",
+            "zeitbegruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "von": "2026-09-01",
+              "bis": "2027-08-31",
+              "bezeichnung": "2026/2027"
+            },
+            "referenzmonate": [
+              "2026-09",
+              "2026-10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "saxonia-thin",
+        "kurzname": "Saxonia Thin · 201.027-LB",
+        "einheit": "EUR je Händler-Preisnotierung",
+        "definition": "Neue Händlerreferenz 201.027-LB; alte Referenz wird nicht angehängt.",
+        "grenze": "Händler-Angebotsstände 27.10.2025 und 16.10.2026. Keine Transaktionen; keine bestätigte Hersteller-UVP. Aktueller Händlerstand am 26.10.2026 erneut 27.000 EUR und temporär nicht verfügbar. Nominale Notierung, kein sofort verfügbarer Kauf.",
+        "zeitregel": "herbst",
+        "punkte": [
+          {
+            "jahr": 2025,
+            "betrag": 25600,
+            "beobachtung_ids": [
+              "saxonia-wempe-archiv-2025"
+            ],
+            "quelle_ids": [
+              "ia-wempe-2025"
+            ],
+            "label": "Herbst 2025",
+            "zeitregel": "herbst",
+            "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+            "preisdatum": "2025-10-27",
+            "gueltigkeit": null,
+            "referenzmonate": [
+              "2025-09",
+              "2025-10"
+            ]
+          },
+          {
+            "jahr": 2026,
+            "betrag": 27000,
+            "beobachtung_ids": [
+              "saxonia-wempe-2026"
+            ],
+            "quelle_ids": [
+              "wempe-aktuell"
+            ],
+            "label": "Herbst 2026",
+            "zeitregel": "herbst",
+            "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+            "preisdatum": "2026-10-16",
+            "gueltigkeit": null,
+            "referenzmonate": [
+              "2026-09",
+              "2026-10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lanserhof-sylt",
+        "kurzname": "Lanserhof · Classic Plus, ohne Zimmer",
+        "einheit": "EUR je veröffentlichtem Classic-Plus-Programmpreis, ohne Unterkunft",
+        "definition": "Classic Plus statt Classic, eine Person, 7–8 Nächte; feste Dauer statt Auswahl des teuersten unterschiedlich langen Aufenthalts.",
+        "grenze": "Veröffentlichter Programmbetrag ohne Unterkunft, Medikamente und Ergänzungsmittel. Classic Plus direkt auf PDF-Seiten 7 (2025) und 4 (2026) abgeglichen. Bereitschaftsdienst Bestandteil der Programmbeschreibung, 2026 verbindlich mit 42 EUR/Nacht; kein unbelegter zusätzlicher Aufschlag auf den ausgewiesenen Gesamtpreis. Vollständige tatsächliche Aufenthaltsrechnung nicht behauptet.",
+        "zeitregel": "jahresbroschuere",
+        "punkte": [
+          {
+            "jahr": 2025,
+            "betrag": 4046,
+            "beobachtung_ids": [
+              "lanserhof-2025-plus"
+            ],
+            "quelle_ids": [
+              "lanserhof-2025"
+            ],
+            "label": "Jahresbroschüre 2025",
+            "zeitregel": "jahresbroschuere",
+            "zeitbegruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "bezeichnung": "Broschüre 2025"
+            },
+            "referenzmonate": [
+              "2025-09",
+              "2025-10"
+            ]
+          },
+          {
+            "jahr": 2026,
+            "betrag": 3990,
+            "beobachtung_ids": [
+              "lanserhof-2026-classic-plus"
+            ],
+            "quelle_ids": [
+              "lanserhof-2026"
+            ],
+            "label": "Jahresbroschüre 2026",
+            "zeitregel": "jahresbroschuere",
+            "zeitbegruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "bezeichnung": "2026",
+              "von": "2026-01-01",
+              "bis": "2026-12-31"
+            },
+            "referenzmonate": [
+              "2026-09",
+              "2026-10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rm-charger5",
+        "kurzname": "Charger5 vario · Modellpreis",
+        "einheit": "EUR je Modell-Ab-Preis",
+        "definition": "Charger5 vario Modell-Ab-Preis; keine erfundene Endkonfiguration aus optionalen Kits.",
+        "grenze": "Nominaler Modellpreis mit dokumentiertem Gabel-/Nabenwechsel; kein Preisvergleich identischer Ausstattung. Oktober-2025-Modellpreis direkt belegt; aktuelle Online-Shop-AGB § 5 bestätigen MwSt. und Fachhändlerversand. Historische Endkonfiguration bleibt unbestätigt.",
+        "zeitregel": "herbst",
+        "punkte": [
+          {
+            "jahr": 2025,
+            "betrag": 6199,
+            "beobachtung_ids": [
+              "rm-herbst-2025"
+            ],
+            "quelle_ids": [
+              "fenster26-pruefung-rm2025-okt"
+            ],
+            "label": "Herbst 2025",
+            "zeitregel": "herbst",
+            "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+            "preisdatum": "2025-10-16",
+            "gueltigkeit": null,
+            "referenzmonate": [
+              "2025-09",
+              "2025-10"
+            ]
+          },
+          {
+            "jahr": 2026,
+            "betrag": 6499,
+            "beobachtung_ids": [
+              "rm-2026"
+            ],
+            "quelle_ids": [
+              "rm-aktuell"
+            ],
+            "label": "Herbst 2026",
+            "zeitregel": "herbst",
+            "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+            "preisdatum": "2026-10-16",
+            "gueltigkeit": null,
+            "referenzmonate": [
+              "2026-09",
+              "2026-10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bayreuth-parsifal",
+        "kurzname": "Bayreuth · Parsifal A1",
+        "einheit": "EUR je A1-Ticket einschließlich Pflichtgebühr",
+        "definition": "Höchste belegte Kategorie A1, online/digital ohne AR; Pflichtgebühr je Ticket zusätzlich.",
+        "grenze": "352 EUR plus 6 EUR Pflichtgebühr; Verfügbarkeit und Warteliste bleiben unbepreist.",
+        "zeitregel": "festspieljahr",
+        "punkte": [
+          {
+            "jahr": 2025,
+            "betrag": 358,
+            "beobachtung_ids": [
+              "bayreuth-ticket-2025",
+              "bayreuth-gebühr-2025"
+            ],
+            "quelle_ids": [
+              "bayreuth-preise-2025",
+              "bayreuth-agb-2025"
+            ],
+            "label": "Festspielsaison 2025",
+            "zeitregel": "festspieljahr",
+            "zeitbegruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "bezeichnung": "Festspielsaison 2025"
+            },
+            "referenzmonate": [
+              "2025-09",
+              "2025-10"
+            ]
+          },
+          {
+            "jahr": 2026,
+            "betrag": 358,
+            "beobachtung_ids": [
+              "bayreuth-ticket-2026",
+              "bayreuth-gebühr-2026"
+            ],
+            "quelle_ids": [
+              "bayreuth-preise-2026",
+              "bayreuth-agb-2026"
+            ],
+            "label": "Festspielsaison 2026",
+            "zeitregel": "festspieljahr",
+            "zeitbegruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "bezeichnung": "Festspielsaison 2026"
+            },
+            "referenzmonate": [
+              "2026-09",
+              "2026-10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "liegeplatz-ycl",
+        "kurzname": "Bodensee · Sommer-Flächentarif",
+        "einheit": "EUR je m² und Sommersaison",
+        "definition": "Segelboot, Sommersaison, brutto je m²; kein Wechsel zu einem anderen Bootstyp.",
+        "grenze": "Nur Flächentarif, kein Gesamtliegeplatz. Ohne angenommene Bootsfläche oder unbestätigte Pflichtbestandteile; 2023/24 für diesen 2025/26-Vergleich nicht nötig.",
+        "zeitregel": "sommersaison",
+        "punkte": [
+          {
+            "jahr": 2025,
+            "betrag": 96,
+            "beobachtung_ids": [
+              "ycl-fläche-2025"
+            ],
+            "quelle_ids": [
+              "ycl-2025"
+            ],
+            "label": "Sommergebühr 2025",
+            "zeitregel": "sommersaison",
+            "zeitbegruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "bezeichnung": "2025",
+              "von": "2025-05-10"
+            },
+            "referenzmonate": [
+              "2025-09",
+              "2025-10"
+            ]
+          },
+          {
+            "jahr": 2026,
+            "betrag": 96.5,
+            "beobachtung_ids": [
+              "ycl-fläche-2026"
+            ],
+            "quelle_ids": [
+              "ycl-2026"
+            ],
+            "label": "Sommergebühr 2026",
+            "zeitregel": "sommersaison",
+            "zeitbegruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "bezeichnung": "2026",
+              "von": "2026-04-20"
+            },
+            "referenzmonate": [
+              "2026-09",
+              "2026-10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skiurlaub-arlberg",
+        "kurzname": "Arlberg · Hauptsaison-Skipass",
+        "einheit": "EUR je Sechstage-Hauptsaisonpass, Erwachsener",
+        "definition": "Erwachsener, sechs aufeinanderfolgende Tage, Hauptsaison statt ermäßigter Saison.",
+        "grenze": "Saison 2024/25 wird dem Endjahr 2025, Saison 2025/26 dem Endjahr 2026 zugeordnet. Nur Skipass, kein Urlaub; 2026/27 ausgeschlossen.",
+        "zeitregel": "winterendjahr",
+        "punkte": [
+          {
+            "jahr": 2025,
+            "betrag": 423,
+            "beobachtung_ids": [
+              "ski-beleg-2024"
+            ],
+            "quelle_ids": [
+              "ski202425-albona"
+            ],
+            "label": "Wintersaison 2024/25",
+            "zeitregel": "winterendjahr",
+            "zeitbegruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "bezeichnung": "Saison 2024/25",
+              "von": "2024-12-21",
+              "bis": "2025-04-04"
+            },
+            "referenzmonate": [
+              "2025-09",
+              "2025-10"
+            ]
+          },
+          {
+            "jahr": 2026,
+            "betrag": 450,
+            "beobachtung_ids": [
+              "ski-2025"
+            ],
+            "quelle_ids": [
+              "pruefung-ski2025-original"
+            ],
+            "label": "Wintersaison 2025/26",
+            "zeitregel": "winterendjahr",
+            "zeitbegruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen.",
+            "preisdatum": null,
+            "gueltigkeit": {
+              "bezeichnung": "2025/26",
+              "von": "2025-12-20",
+              "bis": "2026-04-06"
+            },
+            "referenzmonate": [
+              "2026-09",
+              "2026-10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "schwarzwaldstube-menue-ii",
+        "kurzname": "Schwarzwaldstube · Menü II",
+        "einheit": "EUR je Menü ohne Getränke",
+        "definition": "Großes siebenpositioniges Menü II, ohne Getränke; kein Wechsel zum günstigeren vegetarischen Menü.",
+        "grenze": "Nominaler Menüpreis gleicher Premiumstufe. Archivstand 14.10.2025 zu 325 EUR gegen Beobachtung 16.10.2026 zu 385 EUR; höherer Tarif bereits im Dezember-2025-Original belegt. Exaktes Wirksamkeitsdatum und Kostenursache offen; Gerichte und Steuerbedingungen ändern sich.",
+        "zeitregel": "herbst",
+        "punkte": [
+          {
+            "jahr": 2025,
+            "betrag": 325,
+            "beobachtung_ids": [
+              "schwarzwald-original-archiv-2025-10"
+            ],
+            "quelle_ids": [
+              "sw26-original-2025-10"
+            ],
+            "label": "Herbst 2025",
+            "zeitregel": "herbst",
+            "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+            "preisdatum": "2025-10-14",
+            "gueltigkeit": null,
+            "referenzmonate": [
+              "2025-09",
+              "2025-10"
+            ]
+          },
+          {
+            "jahr": 2026,
+            "betrag": 385,
+            "beobachtung_ids": [
+              "schwarzwald-2026-menue"
+            ],
+            "quelle_ids": [
+              "schwarzwald-karte"
+            ],
+            "label": "Herbst 2026",
+            "zeitregel": "herbst",
+            "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+            "preisdatum": "2026-10-16",
+            "gueltigkeit": null,
+            "referenzmonate": [
+              "2026-09",
+              "2026-10"
+            ]
+          }
+        ]
+      }
+    ],
+    "zeitpruefung": [
+      {
+        "produkt_id": "porsche-cayenne",
+        "jahr": 2025,
+        "betrag": 101500,
+        "beobachtung_ids": [
+          "cayenne-herbst-2025"
+        ],
+        "quelle_ids": [
+          "fenster26-porsche-sept25"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-09-12",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "porsche-cayenne",
+        "jahr": 2026,
+        "betrag": 102700,
+        "beobachtung_ids": [
+          "cayenne-2026"
+        ],
+        "quelle_ids": [
+          "porsche-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "salem",
+        "jahr": 2025,
+        "betrag": 50400,
+        "beobachtung_ids": [
+          "salem-archiv-2025"
+        ],
+        "quelle_ids": [
+          "ia-salem-20240912"
+        ],
+        "label": "Schuljahr 2025/26",
+        "zeitregel": "schuljahr",
+        "zeitbegruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Schuljahr 2025/2026"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "salem",
+        "jahr": 2026,
+        "betrag": 53400,
+        "beobachtung_ids": [
+          "salem-2026"
+        ],
+        "quelle_ids": [
+          "salem-2026"
+        ],
+        "label": "Schuljahr 2026/27",
+        "zeitregel": "schuljahr",
+        "zeitbegruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "von": "2026-09-01",
+          "bis": "2027-08-31",
+          "bezeichnung": "2026/2027"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "saxonia-thin",
+        "jahr": 2025,
+        "betrag": 25600,
+        "beobachtung_ids": [
+          "saxonia-wempe-archiv-2025"
+        ],
+        "quelle_ids": [
+          "ia-wempe-2025"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-10-27",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "saxonia-thin",
+        "jahr": 2026,
+        "betrag": 27000,
+        "beobachtung_ids": [
+          "saxonia-wempe-2026"
+        ],
+        "quelle_ids": [
+          "wempe-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "lanserhof-sylt",
+        "jahr": 2025,
+        "betrag": 4046,
+        "beobachtung_ids": [
+          "lanserhof-2025-plus"
+        ],
+        "quelle_ids": [
+          "lanserhof-2025"
+        ],
+        "label": "Jahresbroschüre 2025",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Broschüre 2025"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "lanserhof-sylt",
+        "jahr": 2026,
+        "betrag": 3990,
+        "beobachtung_ids": [
+          "lanserhof-2026-classic-plus"
+        ],
+        "quelle_ids": [
+          "lanserhof-2026"
+        ],
+        "label": "Jahresbroschüre 2026",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2026",
+          "von": "2026-01-01",
+          "bis": "2026-12-31"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "rm-charger5",
+        "jahr": 2025,
+        "betrag": 6199,
+        "beobachtung_ids": [
+          "rm-herbst-2025"
+        ],
+        "quelle_ids": [
+          "fenster26-pruefung-rm2025-okt"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "rm-charger5",
+        "jahr": 2026,
+        "betrag": 6499,
+        "beobachtung_ids": [
+          "rm-2026"
+        ],
+        "quelle_ids": [
+          "rm-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "bayreuth-parsifal",
+        "jahr": 2025,
+        "betrag": 358,
+        "beobachtung_ids": [
+          "bayreuth-ticket-2025",
+          "bayreuth-gebühr-2025"
+        ],
+        "quelle_ids": [
+          "bayreuth-preise-2025",
+          "bayreuth-agb-2025"
+        ],
+        "label": "Festspielsaison 2025",
+        "zeitregel": "festspieljahr",
+        "zeitbegruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Festspielsaison 2025"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "bayreuth-parsifal",
+        "jahr": 2026,
+        "betrag": 358,
+        "beobachtung_ids": [
+          "bayreuth-ticket-2026",
+          "bayreuth-gebühr-2026"
+        ],
+        "quelle_ids": [
+          "bayreuth-preise-2026",
+          "bayreuth-agb-2026"
+        ],
+        "label": "Festspielsaison 2026",
+        "zeitregel": "festspieljahr",
+        "zeitbegruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Festspielsaison 2026"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "liegeplatz-ycl",
+        "jahr": 2025,
+        "betrag": 96,
+        "beobachtung_ids": [
+          "ycl-fläche-2025"
+        ],
+        "quelle_ids": [
+          "ycl-2025"
+        ],
+        "label": "Sommergebühr 2025",
+        "zeitregel": "sommersaison",
+        "zeitbegruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2025",
+          "von": "2025-05-10"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "liegeplatz-ycl",
+        "jahr": 2026,
+        "betrag": 96.5,
+        "beobachtung_ids": [
+          "ycl-fläche-2026"
+        ],
+        "quelle_ids": [
+          "ycl-2026"
+        ],
+        "label": "Sommergebühr 2026",
+        "zeitregel": "sommersaison",
+        "zeitbegruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2026",
+          "von": "2026-04-20"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "skiurlaub-arlberg",
+        "jahr": 2025,
+        "betrag": 423,
+        "beobachtung_ids": [
+          "ski-beleg-2024"
+        ],
+        "quelle_ids": [
+          "ski202425-albona"
+        ],
+        "label": "Wintersaison 2024/25",
+        "zeitregel": "winterendjahr",
+        "zeitbegruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Saison 2024/25",
+          "von": "2024-12-21",
+          "bis": "2025-04-04"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "skiurlaub-arlberg",
+        "jahr": 2026,
+        "betrag": 450,
+        "beobachtung_ids": [
+          "ski-2025"
+        ],
+        "quelle_ids": [
+          "pruefung-ski2025-original"
+        ],
+        "label": "Wintersaison 2025/26",
+        "zeitregel": "winterendjahr",
+        "zeitbegruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2025/26",
+          "von": "2025-12-20",
+          "bis": "2026-04-06"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "schwarzwaldstube-menue-ii",
+        "jahr": 2025,
+        "betrag": 325,
+        "beobachtung_ids": [
+          "schwarzwald-original-archiv-2025-10"
+        ],
+        "quelle_ids": [
+          "sw26-original-2025-10"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-10-14",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ],
+        "zeitpruefung": "bestanden"
+      },
+      {
+        "produkt_id": "schwarzwaldstube-menue-ii",
+        "jahr": 2026,
+        "betrag": 385,
+        "beobachtung_ids": [
+          "schwarzwald-2026-menue"
+        ],
+        "quelle_ids": [
+          "schwarzwald-karte"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ],
+        "zeitpruefung": "bestanden"
+      }
+    ],
+    "zeitregeln_geprueft": true,
+    "indexfreigabe": false,
+    "hinweis": "Feste jährliche Angebots-/Tarifrunde, kein gleichzeitiges Preisniveau und kein Kalenderjahresbudget. Herbst-VPI dient der Einordnung."
+  },
+  "fachpruefung": {
+    "stand": "2026-10-26",
+    "belegprotokoll": "data/research/restbelege-protokoll-2026-10-26.json",
+    "recherche": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+    "pruefung": "Originalablesung und Gegenprüfung gegen bestehende Quellen durch denselben Bearbeiter; keine unabhängige Zweitredaktion behauptet.",
+    "positionen": [
+      {
+        "produkt_id": "porsche-cayenne",
+        "belegstatus": "Modell-Grundpreisfolge belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Herbstbasis 12.09.2025 zu 101.500 EUR gesichert; aktueller 102.700-EUR-Preis erneut bestätigt.",
+          "Basis-Benziner SUV, 260 kW/353 PS beiderseits abgeglichen. Keine Umstellung auf Black Edition/Hybrid.",
+          "Beobachtet wird ausdrücklich der Modell-Grundpreis; Extras, Überführung und Zulassung ausgeschlossen."
+        ],
+        "verbleibend": [
+          "Komplette Modelljahres-Serienausstattung nicht als identisch behauptet; vollständiger Anschaffungspreis erfordert konkrete Händlerrechnung."
+        ],
+        "naechste_aktion": "Keine weitere Hürde für die definierte nominale Modellpreisgeschichte. Vollkosten nur bei eigener Erweiterung.",
+        "beleg_ids": [
+          "porsche-sept25",
+          "porsche-aktuell"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "salem",
+        "belegstatus": "Regulärer Jahrestarif belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Klasse 8 gehört zu Klassen 5–10, 2026/27 4.450 EUR monatlich bzw. 53.400 jährlich.",
+          "Archivblatt benennt 2025/26 4.200 monatlich bzw. 50.400 jährlich; Archivdatum 2024 nicht als Tarifjahr verwendet.",
+          "AVB und Gebührenblatt bestätigen zwölf Monate, Schuljahrbeginn September und separate Nebenkosten."
+        ],
+        "verbleibend": [
+          "Keine Gesamtbildungsausgaben einschließlich sämtlicher Nebenkosten oder Messung der Bildungsqualität."
+        ],
+        "naechste_aktion": "Keine weitere Hürde für regulären Schul-/Internatsgrundtarif.",
+        "beleg_ids": [
+          "salem-vertrag",
+          "salem2026",
+          "salem25-archiv"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "saxonia-thin",
+        "belegstatus": "Getrennte Händler-Notierungssegmente belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "201.027-LB/LB100063 2025 und 2026 getrennt vom alten 201.027-Segment.",
+          "Aktuell 27.000 EUR inkl. MwSt. erneut bestätigt.",
+          "Temporäre Nichtverfügbarkeit ausdrücklich erfasst; keine Transaktion behauptet."
+        ],
+        "verbleibend": [
+          "Herstellerbedeutung des LB-Suffixes unbestätigt; kein Grund, zwei bereits getrennte Referenzen zu verketten."
+        ],
+        "naechste_aktion": "Keine weitere Hürde für nominale Notierungen derselben LB-Referenz; alte/neue Referenz getrennt halten.",
+        "beleg_ids": [
+          "wempe-2025-okt",
+          "wempe-aktuell",
+          "lange-definition"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "lanserhof-sylt",
+        "belegstatus": "Classic-Plus-Programmbeträge direkt abgeglichen",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Classic Plus 2025 PDF S. 7 und 2026 S. 4 geprüft, 4.046 → 3.990 EUR, 7–8 Nächte, ohne Unterkunft.",
+          "2026 zusätzlich/im Kern: Befundbesprechung Bioimpedanz/Handkraft 40 Min., Detox-Fußbad 30 Min., Facial 60 Min., Vo2Max/Besprechung 20 Min.; Stoffwechselmessung 20 → 30 Min.; telefonisches Dreimonats-Nachgespräch 2025 genannt, 2026 nicht genannt.",
+          "Bereitschaftsdienst in beiden Programmlisten. 2026 42 EUR/Nacht als fester Bestandteil; Gesamtpreis aus Einzelpreisen. Ohne Nachweis keine zusätzlichen 294 EUR auf 3.990 addieren.",
+          "Kopftext Classic/Plus widersprüchlich; für Auswahl zählen eindeutige Überschrift und Preiszeile. Gesetzliche MwSt. jeweils am Ende der Broschüre bestätigt."
+        ],
+        "verbleibend": [
+          "Aus Broschüren folgt keine identische Gesamtaufenthaltsrechnung; 2025 kein separater Tagesbetrag angegeben. Einbeziehung der Pauschale in tatsächlichen Rechnungen nicht unabhängig bestätigt.",
+          "Historische Zimmerkomponenten und gegenwärtige Ab-Raten ergeben ohne Saison-/Nachtdefinition keine vollständige Hotelreihe."
+        ],
+        "naechste_aktion": "Nominalen veröffentlichten Programmbetrag fortführen. Nur für einen vollständigen Aufenthalt Rechnung/Angebot mit expliziter Pauschalenbehandlung und festem Zimmer verlangen.",
+        "beleg_ids": [
+          "lanserhof-2025",
+          "lanserhof-2026",
+          "lanserhof2024"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "rm-charger5",
+        "belegstatus": "Oktober-Modellpreis und aktuelle Endpreisregel belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Originalhersteller Oktober 2025: Charger5 vario 6.199 EUR, 800 Wh/Kiox 500; CORE/HS/Pinion ausgeschlossen.",
+          "Aktueller Modell-/Basiskonfigurationspreis 6.499 EUR bestätigt, ohne optionale Kits.",
+          "Aktuelle Online-Shop-AGB § 5: gesetzliche MwSt. und Versand zum deutschen Fachhändler enthalten. Stand 02.07.2026 wird nicht rückdatiert.",
+          "SR Suntour Mobie 34/Enviolo Heavy Duty → Fox AWL 34/Enviolo Utility V1 dokumentiert. Nominale Premiumfortführung beschlossen."
+        ],
+        "verbleibend": [
+          "Vollständige historische pine/L-Endkonfiguration und historische Steuer-/Lieferbedingungen nicht separat bestätigt. Komponentenlisten enthalten auch Optionen."
+        ],
+        "naechste_aktion": "Modellpreisgeschichte ist verwendbar; identische Endkonfiguration ist nach Nutzerregel keine zusätzliche Voraussetzung. Erweiterte Rechnung nur für Konfigurations-/Vollkostenanspruch.",
+        "beleg_ids": [
+          "pruefung-rm2025-okt",
+          "rm-aktuell",
+          "rm-shopbedingungen"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "bayreuth-parsifal",
+        "belegstatus": "Tarif und Pflichtgebühr belegt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "352 EUR Parsifal A1 und 6 EUR je verkauftem Platz in Primärquellen geprüft.",
+          "Online/digital ohne schriftliche Bestell- oder Postgebühr definiert.",
+          "2024–2026 werden als Festspieljahre ausgewiesen."
+        ],
+        "verbleibend": [
+          "Verfügbarkeit/Wartezeit unbepreist; kein einzelner Steuersatz ohne expliziten Beleg unterstellt."
+        ],
+        "naechste_aktion": "Keine weitere Hürde für veröffentlichten 358-EUR-Zahlbetrag; keine bestätigte Verfügbarkeit behaupten.",
+        "beleg_ids": [
+          "bayreuth2025agb",
+          "bayreuth2026agb",
+          "bayreuth2026preise"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "liegeplatz-ycl",
+        "belegstatus": "2025/26-Flächentarif belegt; alte Jahre extern offen",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "96 → 96,50 EUR/m², 7 % MwSt., Beschluss-/Gültigkeitsdaten erneut am Original geprüft.",
+          "Aktuelles Downloadverzeichnis und gezielte alte/migrierte 2023/24-Pfade geprüft; direkte PDFs 404, CDX-Abfragen ohne passenden Tarif.",
+          "Hafen-/Wartelistenregeln bleiben getrennt vom nicht belegten Zugangspreis."
+        ],
+        "verbleibend": [
+          "Original-Gebührenordnungen 2023/24 und verbindliche Flächenformel nicht gewonnen."
+        ],
+        "naechste_aktion": "Für die bestehende €/m²-Reihe kein Zusatzbeleg nötig. Für Rückverlängerung/Bootsgesamtpreis Original-PDF bzw. bestätigte Abrechnungsformel beschaffen.",
+        "beleg_ids": [
+          "ycl2025",
+          "ycl-2026",
+          "ycl-formulare",
+          "ycl-hafen",
+          "ycl2023-original",
+          "ycl2024-original",
+          "ycl2024-wp",
+          "cdx-ycl-old",
+          "cdx-ycl-wp"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "skiurlaub-arlberg",
+        "belegstatus": "Sechstage-Skipass belegt; Hotel ist Erweiterung",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Saisonendjahr jetzt überall gleiche Jahresmarke; Einzel-VPI bleibt Dezember des Saisonbeginns, Jahresrunde nutzt eigenen Herbstanker.",
+          "2024/25 423 EUR → 2025/26 450 EUR, Erwachsener/Hauptsaison. Zukunftstarif 2026/27 bleibt ausgeschlossen.",
+          "Burg Vital aktuell: 3-Nächte-Ab-Pauschalen der Zukunftssaison 2026/27; kein standardisierter Sieben-Nächte-Hotelpreis."
+        ],
+        "verbleibend": [
+          "Keine identische Hotel-/Zimmer-/Verpflegungshistorie; bestehender Eintrag misst ausdrücklich Skipass, keinen gesamten Urlaub."
+        ],
+        "naechste_aktion": "Skipass weiterführen. Hotelkomponente als separate Erweiterung mit identischem 7-Nächte-Angebot aufbauen, keine beliebige Ab-Rate hinzufügen.",
+        "beleg_ids": [
+          "ski-hotel-offiziell"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "schwarzwaldstube-menue-ii",
+        "belegstatus": "Recherche bereits abgeschlossen",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": true,
+        "abgeschlossen": [
+          "Oktober-2025-Original 325 EUR gegen Oktober-2026-Original 385 EUR passt ins feste Herbstfenster.",
+          "Gleiche Premiumstufe; saisonale Speisen-/Steueränderungen dokumentiert. Keine erneute Kostenursachenrecherche."
+        ],
+        "verbleibend": [
+          "Oktober-2026-VPI im vorhandenen Bundesbank-Beleg noch nicht veröffentlicht."
+        ],
+        "naechste_aktion": "Auf nächsten offiziellen Referenzmonat warten; kein Anbieterbeleg zu Kostenursachen erforderlich.",
+        "beleg_ids": [],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "hermes-kelly",
+        "belegstatus": "Nur eine passende historische verfügbare Preisbeobachtung",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": false,
+        "abgeschlossen": [
+          "Zusätzlicher deutscher Händler Handbag Sense: exakte Kelly 28 Retourné Togo Schwarz/Gold, ungetragen und Zubehör, aber verkauft und ohne eigenen Preis.",
+          "PurseBop nennt 2026 10.100 EUR für Europa. Das bestätigt weder einen deutschen Boutique-Beleg noch exakte deutsche Steuer-/Variantenbedingungen.",
+          "Aktuelle SACLÀB-Übersicht und frühere Produktadresse geprüft; keine zweite passende verfügbare Preisbeobachtung."
+        ],
+        "verbleibend": [
+          "Deutscher datierter Boutique-Beleg und aktuelles verfügbares Zweitmarktangebot derselben Variante fehlen. Kein verifizierter Markup."
+        ],
+        "naechste_aktion": "Externes Boutique-Kassenblatt bzw. anonymisierte Rechnung und genau passendes verfügbares Angebot benötigt. Bis dahin außerhalb des Warenkorbs.",
+        "beleg_ids": [
+          "kelly-handbagsense",
+          "kelly-pursebop",
+          "saclab-kelly-uebersicht",
+          "saclab-kelly8-aktuell"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "alarmaufschaltung",
+        "belegstatus": "Historischer Premiumtarif ergänzt; heutiger Pro-Tarif fehlt",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": false,
+        "abgeschlossen": [
+          "Securando pro 2022 30 EUR/Monat brutto statt niedrigeren Privat-Tarif 20 EUR als Premiumreferenz gesichert.",
+          "Schlüsselverwahrung, mobile Bereitschaft, 15 Aktivitäten monatlich enthalten; Intervention extra. Einrichtung separat im Nebenpreisblatt mit Datumswiderspruch.",
+          "Aktuelles Ab-Angebot weiterhin kein identisches Pro-Paket. Preise-Ratgeber ist passwortgeschützt; keine Sperre umgangen."
+        ],
+        "verbleibend": [
+          "Heutiges identisches vollständiges Pro-Tarifblatt und Pflichtnebenkosten fehlen. Widersprüchliche historische Nebenpreis-Gültigkeit bleibt sichtbar."
+        ],
+        "naechste_aktion": "Aktuelles vollständiges Pro-Angebot/Vertragsblatt vom Anbieter bzw. Kundenbeleg nötig; keine Nullinflation aus unverändertem Ab-Preis ableiten.",
+        "beleg_ids": [
+          "alarm-2022",
+          "pruefung-securando-ajax",
+          "securando-preise",
+          "cdx-alarm-neu"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "hausbetreuung-sylt",
+        "belegstatus": "Kein öffentlicher Referenzpreis",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": false,
+        "abgeschlossen": [
+          "Enkelmann und Haus & Hand erneut geprüft. Zusätzlich Clean & Green, Silke Heer und Mein Haus auf Sylt geprüft.",
+          "Leistungen und individuelle Angebote, aber keine öffentliche Pauschale für 150 m² Westerland mit 24 Kontrollen/Schlüssel/Anfahrt.",
+          "Keine Stundenlöhne, Reinigung oder Vermietungsprovision als Ersatz eingetragen."
+        ],
+        "verbleibend": [
+          "Datiertes Angebot oder Rechnung für exakt definiertes Kontrollpaket sowie historische Gegenbelege fehlen."
+        ],
+        "naechste_aktion": "Zwei vergleichbare anonymisierte Angebote/Rechnungen beschaffen. Keine weitere allgemeine Anbietersuche; bis dahin Backlog.",
+        "beleg_ids": [
+          "sylt-enkelmann",
+          "sylt-haushand",
+          "clean-sylt",
+          "heer-sylt",
+          "sylt-neuer-anbieter"
+        ],
+        "unabhaengige_zweitredaktion": false
+      },
+      {
+        "produkt_id": "hotel-adlon-deluxe",
+        "belegstatus": "Keine historische öffentliche flexible Referenzrate",
+        "oeffentliche_nachrecherche": "abgeschlossen",
+        "nominale_jahresrunde": false,
+        "abgeschlossen": [
+          "Aktuelle Zimmerdefinition und Archivbestand gezielt geprüft.",
+          "Angeforderter Oktober-2025-Capture leitet auf 16.12.2025 um; tatsächliches Memento erfasst. Zimmerbeschreibung ohne vollständige datierte Rate. August-2024-Capture 503.",
+          "Ghorfa-Sondertarife bleiben von öffentlicher Direktbuchung getrennt."
+        ],
+        "verbleibend": [
+          "Zwei datierte öffentliche flexible Deluxe-King-Angebote mit gleichem Reise-/Vorlauf-/Steuer-/Stornoprofil fehlen."
+        ],
+        "naechste_aktion": "Festes Erhebungsprofil: zweite März-Woche, Dienstag, eine Nacht, zwei Erwachsene, Deluxe King, ohne Frühstück, 56 Tage Vorlauf, flexible Direktbuchung. Historische Belege müssen dieselben Bedingungen tragen.",
+        "beleg_ids": [
+          "adlon-zimmer",
+          "cdx-adlon-reservierung",
+          "adlon-herbst25-archiv",
+          "adlon-sommer24-archiv"
+        ],
+        "unabhaengige_zweitredaktion": false
+      }
+    ],
+    "offene_externe_kernbelege": [
+      "hermes-kelly",
+      "alarmaufschaltung",
+      "hausbetreuung-sylt",
+      "hotel-adlon-deluxe"
+    ],
+    "optionale_erweiterungen": [
+      "YCL 2023/24 und Flächenformel",
+      "Vollständige individuelle Aufenthalts-/Anschaffungs-/Urlaubsrechnungen"
+    ],
+    "nachrichten_versandt": false
+  }
 }

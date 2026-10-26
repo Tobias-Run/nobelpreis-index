@@ -1,5 +1,43 @@
 # A. Lange & Söhne Saxonia Thin
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Getrennte Händler-Notierungssegmente belegt.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/9 Gewicht; keine produktive Gesamtindexfreigabe.
+
+## Preisdefinition und Zeitbezug
+
+Neue Händlerreferenz 201.027-LB; alte Referenz wird nicht angehängt.
+
+EUR je Händler-Preisnotierung. Händler-Angebotsstände 27.10.2025 und 16.10.2026. Keine Transaktionen; keine bestätigte Hersteller-UVP. Aktueller Händlerstand am 26.10.2026 erneut 27.000 EUR und temporär nicht verfügbar. Nominale Notierung, kein sofort verfügbarer Kauf.
+
+| Jahresrunde | Gewählter Beleg / Tarif | Betrag | Originalquellen |
+|---|---|---:|---|
+| 2025 | 2025-10-27 | 25.600,00 € | [Wempe Deutschland: Saxonia Thin, Archivstand 2025-10-27](https://web.archive.org/web/20251027072022/https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027) |
+| 2026 | 2026-10-16 | 27.000,00 € | [Wempe: Saxonia Thin](https://www.wempe.com/de-de/uhren/a-lange-soehne/saxonia/saxonia-thin-201-027) |
+
+Nominale Veränderung: **+5,47 %**.
+
+Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.
+
+## Was jetzt geklärt ist
+
+- 201.027-LB/LB100063 2025 und 2026 getrennt vom alten 201.027-Segment.
+- Aktuell 27.000 EUR inkl. MwSt. erneut bestätigt.
+- Temporäre Nichtverfügbarkeit ausdrücklich erfasst; keine Transaktion behauptet.
+
+## Grenze und nächster Nachweis
+
+- Herstellerbedeutung des LB-Suffixes unbestätigt; kein Grund, zwei bereits getrennte Referenzen zu verketten.
+
+**Nächste Aktion:** Keine weitere Hürde für nominale Notierungen derselben LB-Referenz; alte/neue Referenz getrennt halten.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Uhren · Deutschland · Prüfstand 16.10.2026**  
 **Status:** aktueller Händler-Neupreis vorhanden; historische Reihe offen.
 
@@ -36,3 +74,5 @@ Einzelne Archivstichtage, keine Jahresmittel. Wechsel 201.027/LA100063 zu 201.02
 Bedeutung von -LB nicht aus Herstellerquelle geklärt; die Segmente werden nicht ungekennzeichnet verbunden. Neupreis, keine Transaktion oder bestätigte UVP.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+</details>

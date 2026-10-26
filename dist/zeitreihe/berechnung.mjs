@@ -1,4 +1,24 @@
 /** Preisverhältnisse mit fester Zusammensetzung, ohne Auffüllen fehlender Werte. */
+export function berechneJahresrunde(reihen, jahre, referenz) {
+  if(reihen.length!==9 || new Set(reihen.map(r=>r.id)).size!==9 || jahre.length<2 || jahre.some((y,i)=>!Number.isInteger(y)||(i&&y!==jahre[i-1]+1))) throw new Error('Ungültige feste Jahresrunde.');
+  const preise=reihen.map(r=>{
+    if(new Set(r.punkte.map(p=>p.jahr)).size!==r.punkte.length)throw new Error('Doppelte Preisbeobachtung.');
+    return jahre.map(j=>{const p=r.punkte.find(p=>p.jahr===j);if(!p||!Number.isFinite(p.betrag)||p.betrag<=0||JSON.stringify(p.referenzmonate)!==JSON.stringify([`${j}-09`,`${j}-10`]))throw new Error(`Preis oder Jahresfenster fehlt: ${r.id}/${j}.`);return p.betrag;});
+  });
+  const original=jahre.map(j=>{
+    const werte=[9,10].map(m=>{
+      const found=referenz.beobachtungen.filter(o=>o.monat===`${j}-${m===9?'09':'10'}`);
+      if(found.length>1||found.some(o=>!Number.isFinite(o.wert)||o.wert<=0))throw new Error('Ungültige VPI-Referenz.');
+      return found[0]?.wert??null;
+    });
+    return werte.some(v=>v===null)?null:(werte[0]+werte[1])/2;
+  });
+  const werte=jahre.map((jahr,i)=>({jahr,label:`Herbst ${jahr}`,zeitachse:`${jahr}-10-15`,referenzmonate:[`${jahr}-09`,`${jahr}-10`],index:100*preise.reduce((sum,p)=>sum+p[i]/p[0],0)/9,vpi:original[0]===null||original[i]===null?null:100*original[i]/original[0],vpi_original:original[i]}));
+  const beitraege=reihen.map((r,i)=>({id:r.id,name:r.kurzname,veraenderung:100*(preise[i].at(-1)/preise[i][0]-1),prozentpunkte:100*(preise[i].at(-1)/preise[i][0]-1)/9,gewicht:1/9}));
+  const ende=werte.at(-1),vpiAnstieg=ende.vpi===null?null:ende.vpi-100;
+  return {basisjahr:jahre[0],endjahr:jahre.at(-1),anzahl:9,werte,beitraege,anstieg:ende.index-100,vpiAnstieg,abstand:vpiAnstieg===null?null:ende.index-ende.vpi,vergleichshinweis:'Feste Jahres-/Saisonregeln und Herbst-Angebotsfenster; VPI-Mittel September/Oktober zur Einordnung. Kein gleichzeitiges Preisniveau oder repräsentatives Haushaltsbudget.'};
+}
+
 export function berechneEinzelreihe(reihe, start, referenz) {
   const alle=reihe.punkte;
   if(!alle.length || new Set(alle.map(p=>p.jahr)).size!==alle.length || alle.some((p,i)=>!Number.isInteger(p.jahr)||(i&&p.jahr<=alle[i-1].jahr))) throw new Error('Ungültige Einzelreihe.');

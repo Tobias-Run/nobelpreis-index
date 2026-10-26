@@ -64,6 +64,7 @@ def pruefen(roh, auswahl):
             for k in ['einheit', 'preisart', 'umsatzsteuer', 'zeitstatus', 'prüfstatus']:
                 text(o.get(k), f'{ort}.{k}')
             verlangen(o.get('quelle_id') in quellen, ort, 'unbekannte Quelle')
+            verlangen(all(q in quellen for q in o.get('zusatz_quelle_ids', [])), ort, 'unbekannte Zusatzquelle')
             abruf = datum(o.get('abgerufen_am'), f'{ort}.abgerufen_am')
             verlangen(abruf <= datum(roh['stand'], 'Recherche.stand'), ort, 'Abruf liegt nach dem Recherche-Stichtag')
             verlangen('preisdatum' in o and 'gültigkeit' in o, ort, 'Preisdatum und Gültigkeit explizit erfassen, gegebenenfalls null')

@@ -13,9 +13,11 @@ Ein unabhängiges Recherchewerkzeug für ausgewählte Premiumpreise in Deutschla
 
 ## Aktueller Stand
 
-Die Hauptseite zeigt recherchierte Preisgeschichten mit offiziellen Bundesbank-VPI-Monatswerten (Ursprungsquelle Destatis). Ausgangspunkt ist die mehrjährige Salem-Tarifreihe. Zehn Einzelkurven zu neun ausgewählten Positionen, 13 recherchierte Produkte und 67 Beobachtungen einschließlich Komponenten und Zukunftstarifen sind verfügbar. Teilpreise, fehlende Referenzmonate und unterschiedliche Leistungen bleiben sichtbar.
+Die Hauptseite zeigt die **jährliche Herbst-Tarifrunde mit neun Positionen**: gemeinsame Herbstfenster für freie Preise und feste Jahres-/Saisonregeln, je 1/9 Gewicht. Der nominale Anstieg 2025 → 2026 beträgt **4,60 %**. Referenz ist das vollständige Mittel der offiziellen Bundesbank-VPI-Indizes für September und Oktober; solange Oktober 2026 fehlt, bleiben VPI-Änderung und Abstand leer. Eine Jahresrunde misst keine gleichzeitig anfallenden Haushaltsausgaben.
 
-Der nominale Neuner-Warenkorb bleibt als **Rechenlabor** verfügbar: feste Gewichte von je 1/9, kein repräsentatives Haushaltsbudget. Wegen unterschiedlicher Beobachtungsfenster wird daraus kein zeitgleicher Inflationsabstand ausgegeben. Die gemeinsame Berechnung bleibt experimentell; es gibt keine produktive redaktionelle Indexfreigabe. Ein veröffentlichter Angebotspreis ist keine Transaktion oder Garantie der Verfügbarkeit.
+Alle **13 Positionen** sind gezielt nachgeprüft; **73 Beobachtungen** einschließlich Komponenten und Zukunftstarifen sowie acht zusätzliche Einzelkurven sind verfügbar. Sechs neue Beobachtungen sichern unter anderem passendere historische Herbststände und den historischen Alarm-Pro-Tarif. Vier Kernlücken benötigen konkrete externe Angebote/Rechnungen: Alarm, Sylt-Service, Kelly und Adlon. [Zeitregeln, Quellenprüfung und Ergebnisse](docs/jahresfenster-und-restbelege-2026-10-26.md).
+
+Der frühere Neuner-Versuch mit August-Referenz bleibt im Rechenlabor. Die gemeinsame Berechnung ist ein nominaler Tarifvergleich mit Teilpreisen; **keine produktive redaktionelle Gesamtindexfreigabe** und kein repräsentatives Haushaltsbudget. Ein veröffentlichter Angebotspreis ist keine Transaktion oder Garantie der Verfügbarkeit.
 
 Bei Modell-/Leistungswechseln wählen wir das [vergleichbarste belegte Premiumangebot](docs/premiumvergleich.md); bei gleicher Vergleichbarkeit die höhere Ausführung. Fortlaufende Weiterentwicklungen führen nicht automatisch zum Ausschluss.
 
@@ -23,6 +25,7 @@ Die frühere Startseite liegt im [**Designarchiv mit synthetischen Preisen**](ht
 
 ## Funktionen
 
+- Feste Herbst-/Jahreszuordnungen, prüfbare Zeitfenstertabelle und vollständige statt ersetzte Referenzfenster.
 - Einzelreihen mit dokumentiertem Zeitraum, Basisnormierung, Preisbelegen und passender monatlicher VPI-Referenz; fehlende Werte bleiben leer.
 - Exakte Diagrammwerte über Schaltflächen und Tabelle, auch mobil und mit Tastatur.
 - Suchbare Produktliste, stabile Produktlinks, funktionierendes Zurück/Vorwärts und Quellen auf Abruf.
@@ -59,6 +62,7 @@ Der Build verwendet lokale, versionierte Belege und benötigt keinen Live-Zugrif
 
 ## Recherche und Einordnung
 
+- [Jahresfenster und Restbelege: alle 13 Positionen geprüft](docs/jahresfenster-und-restbelege-2026-10-26.md).
 - [Schwarzwaldstube: abgeschlossener Deep Dive](docs/schwarzwaldstube-preisanstieg-2026-10-26.md) — 385 € bereits im Dezember 2025; neuer Oktober-2025-Primärbeleg zum unveränderten 325-€-Basispreis.
 - [Gesamtreview](docs/gesamtreview-2026-10-23.md) und [Roadmap](docs/roadmap.md).
 - [Julius Bär: Würdigung und Abgrenzung](docs/abgrenzung-julius-baer.md), [Gewichtungsprüfung](docs/methodik-gewichtung-2026-10-17.md).

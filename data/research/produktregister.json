@@ -8,130 +8,130 @@
       "name": "Porsche Cayenne",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/porsche-cayenne.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
-      "anzahl_beobachtungen": 4,
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "anzahl_beobachtungen": 6,
       "indexfreigabe": false,
-      "rechercheentscheidung": "teilpreis_abgegrenzt"
+      "rechercheentscheidung": "Modell-Grundpreisfolge belegt"
     },
     {
       "id": "salem",
       "name": "Schule Schloss Salem",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/schloss-salem.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
       "anzahl_beobachtungen": 7,
       "indexfreigabe": false,
-      "rechercheentscheidung": "tarifrahmen_geprueft"
+      "rechercheentscheidung": "Regulärer Jahrestarif belegt"
     },
     {
       "id": "saxonia-thin",
       "name": "A. Lange & Söhne Saxonia Thin",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/saxonia-thin.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
-      "anzahl_beobachtungen": 8,
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "anzahl_beobachtungen": 9,
       "indexfreigabe": false,
-      "rechercheentscheidung": "reihenbruch_festgelegt"
+      "rechercheentscheidung": "Getrennte Händler-Notierungssegmente belegt"
     },
     {
       "id": "hermes-kelly",
       "name": "Hermès Kelly",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/hermes-kelly.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
       "anzahl_beobachtungen": 1,
       "indexfreigabe": false,
-      "rechercheentscheidung": "anbieterbeleg_noetig"
+      "rechercheentscheidung": "Nur eine passende historische verfügbare Preisbeobachtung"
     },
     {
       "id": "lanserhof-sylt",
       "name": "Lanserhof Sylt",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/lanserhof-sylt.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
       "anzahl_beobachtungen": 8,
       "indexfreigabe": false,
-      "rechercheentscheidung": "leistungswechsel_belegt"
+      "rechercheentscheidung": "Classic-Plus-Programmbeträge direkt abgeglichen"
     },
     {
       "id": "rm-charger5",
       "name": "Riese & Müller Charger5 vario",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/riese-mueller-charger5.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
-      "anzahl_beobachtungen": 2,
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "anzahl_beobachtungen": 4,
       "indexfreigabe": false,
-      "rechercheentscheidung": "leistungswechsel_belegt"
+      "rechercheentscheidung": "Oktober-Modellpreis und aktuelle Endpreisregel belegt"
     },
     {
       "id": "bayreuth-parsifal",
       "name": "Bayreuther Festspiele Parsifal A1",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/bayreuther-festspiele.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
       "anzahl_beobachtungen": 6,
       "indexfreigabe": false,
-      "rechercheentscheidung": "teilpreis_abgegrenzt"
+      "rechercheentscheidung": "Tarif und Pflichtgebühr belegt"
     },
     {
       "id": "liegeplatz-ycl",
       "name": "Bodensee-Liegeplatz beim Yacht-Club Langenargen",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/liegeplatz-langenargen.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
       "anzahl_beobachtungen": 8,
       "indexfreigabe": false,
-      "rechercheentscheidung": "anbieterbeleg_noetig"
+      "rechercheentscheidung": "2025/26-Flächentarif belegt; alte Jahre extern offen"
     },
     {
       "id": "skiurlaub-arlberg",
       "name": "Skiurlaub Lech/Zürs – Teilpreis Ski Arlberg",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/skiurlaub-arlberg.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
       "anzahl_beobachtungen": 4,
       "indexfreigabe": false,
-      "rechercheentscheidung": "originalnachweis_ergänzt"
+      "rechercheentscheidung": "Sechstage-Skipass belegt; Hotel ist Erweiterung"
     },
     {
       "id": "alarmaufschaltung",
       "name": "Alarmaufschaltung Privathaus",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/alarmaufschaltung.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
-      "anzahl_beobachtungen": 9,
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "anzahl_beobachtungen": 10,
       "indexfreigabe": false,
-      "rechercheentscheidung": "anbieterbeleg_noetig"
+      "rechercheentscheidung": "Historischer Premiumtarif ergänzt; heutiger Pro-Tarif fehlt"
     },
     {
       "id": "hausbetreuung-sylt",
       "name": "Hausbetreuung privater Zweitwohnsitz Sylt",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/hausbetreuung-sylt.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
       "anzahl_beobachtungen": 0,
       "indexfreigabe": false,
-      "rechercheentscheidung": "anbieterbeleg_noetig"
+      "rechercheentscheidung": "Kein öffentlicher Referenzpreis"
     },
     {
       "id": "schwarzwaldstube-menue-ii",
       "name": "Schwarzwaldstube Degustationsmenü II",
       "auswahlstatus": "zusätzlicher_recherchevorschlag",
       "dossier": "docs/produkte/schwarzwaldstube.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
       "anzahl_beobachtungen": 10,
       "indexfreigabe": false,
-      "rechercheentscheidung": "premium_menustufe_und_preiswechsel_2025_belegt"
+      "rechercheentscheidung": "Recherche bereits abgeschlossen"
     },
     {
       "id": "hotel-adlon-deluxe",
       "name": "Hotel Adlon Deluxe Zimmer",
       "auswahlstatus": "zusätzlicher_recherchevorschlag",
       "dossier": "docs/produkte/hotel-adlon.md",
-      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
       "anzahl_beobachtungen": 0,
       "indexfreigabe": false,
-      "rechercheentscheidung": "anbieterbeleg_noetig"
+      "rechercheentscheidung": "Keine historische öffentliche flexible Referenzrate"
     }
   ],
   "zählregel": "beobachtungen plus zusätzliche_historische_beobachtungen; Komponenten und verschiedene Preisarten, keine Zahl freigegebener Indexwerte"

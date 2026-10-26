@@ -1,5 +1,43 @@
 # Porsche Cayenne: der deutsche Basis-Benziner
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Modell-Grundpreisfolge belegt.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/9 Gewicht; keine produktive Gesamtindexfreigabe.
+
+## Preisdefinition und Zeitbezug
+
+Basis-Benziner SUV 260 kW/353 PS; keine Umstellung auf Turbo/Hybrid ohne deren passende Historie.
+
+EUR je Modell-Grundpreis. Nominaler deutscher Modell-Grundpreis ohne Extras/Pflichtnebenkosten; Serienausstattung nicht qualitätsbereinigt. Herbstbasis: Originalstand 12.09.2025; Preis am 26.10.2026 erneut unverändert bestätigt.
+
+| Jahresrunde | Gewählter Beleg / Tarif | Betrag | Originalquellen |
+|---|---|---:|---|
+| 2025 | 2025-09-12 | 101.500,00 € | [Porsche Cayenne, archivierter deutscher Herstellerstand 12.09.2025](https://web.archive.org/web/20250912074139/https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/) |
+| 2026 | 2026-10-16 | 102.700,00 € | [Porsche Deutschland: Cayenne](https://www.porsche.com/germany/models/cayenne/cayenne-models/cayenne/) |
+
+Nominale Veränderung: **+1,18 %**.
+
+Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.
+
+## Was jetzt geklärt ist
+
+- Herbstbasis 12.09.2025 zu 101.500 EUR gesichert; aktueller 102.700-EUR-Preis erneut bestätigt.
+- Basis-Benziner SUV, 260 kW/353 PS beiderseits abgeglichen. Keine Umstellung auf Black Edition/Hybrid.
+- Beobachtet wird ausdrücklich der Modell-Grundpreis; Extras, Überführung und Zulassung ausgeschlossen.
+
+## Grenze und nächster Nachweis
+
+- Komplette Modelljahres-Serienausstattung nicht als identisch behauptet; vollständiger Anschaffungspreis erfordert konkrete Händlerrechnung.
+
+**Nächste Aktion:** Keine weitere Hürde für die definierte nominale Modellpreisgeschichte. Vollkosten nur bei eigener Erweiterung.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Mobilität · Deutschland · Prüfstand 16.10.2026**  
 **Status:** einzelne Herstellerpreise belegt; historische Serie nicht freigegeben.
 
@@ -37,3 +75,5 @@ Die alte ADAC-Suchdatierung bleibt unbrauchbar; neuer unabhängiger Wayback-Bele
 Keine Vollkosten-/qualitätsbereinigte Inflationsreihe. Komplette datierte Serienausstattungslisten und Pflichtnebenkosten je Modelljahr fehlen.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+</details>

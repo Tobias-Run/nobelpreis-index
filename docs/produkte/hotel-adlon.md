@@ -1,5 +1,28 @@
 # Hotel Adlon: ein standardisierter Aufenthalt
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Keine historische öffentliche flexible Referenzrate.** Öffentliche Nachrecherche abgeschlossen. Außerhalb der festen Neuner-Zusammensetzung, bis passende Belege vorliegen.
+
+## Was jetzt geklärt ist
+
+- Aktuelle Zimmerdefinition und Archivbestand gezielt geprüft.
+- Angeforderter Oktober-2025-Capture leitet auf 16.12.2025 um; tatsächliches Memento erfasst. Zimmerbeschreibung ohne vollständige datierte Rate. August-2024-Capture 503.
+- Ghorfa-Sondertarife bleiben von öffentlicher Direktbuchung getrennt.
+
+## Grenze und nächster Nachweis
+
+- Zwei datierte öffentliche flexible Deluxe-King-Angebote mit gleichem Reise-/Vorlauf-/Steuer-/Stornoprofil fehlen.
+
+**Nächste Aktion:** Festes Erhebungsprofil: zweite März-Woche, Dienstag, eine Nacht, zwei Erwachsene, Deluxe King, ohne Frühstück, 56 Tage Vorlauf, flexible Direktbuchung. Historische Belege müssen dieselben Bedingungen tragen.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Hotellerie · Berlin · Recherche vom 16.10.2026**  
 **Status:** zusätzlicher Recherchevorschlag für die Hotellerie; kein rekonstruierter Name der ursprünglichen Auswahl. Zimmer definiert, kein gültiger aktueller Referenzpreis. [Gesamtübersicht](../warenkorb-pruefstand-2026-10-16.md)
 
@@ -56,3 +79,5 @@ Datiertes öffentliches Angebot ohne Frühstück und mit Steuer-/Stornobedingung
 Keine neue passende öffentliche flexible Deluxe-Rate. Breite PDF-Archivsuche lief in einen Timeout, eingegrenzte Suche lieferte teils HTTP 503. Technische Prüflücke bleibt ausdrücklich offen.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>

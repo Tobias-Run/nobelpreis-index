@@ -1,5 +1,28 @@
 # Jemand schaut nach dem Rechten: Hausbetreuung auf Sylt
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Kein öffentlicher Referenzpreis.** Öffentliche Nachrecherche abgeschlossen. Außerhalb der festen Neuner-Zusammensetzung, bis passende Belege vorliegen.
+
+## Was jetzt geklärt ist
+
+- Enkelmann und Haus & Hand erneut geprüft. Zusätzlich Clean & Green, Silke Heer und Mein Haus auf Sylt geprüft.
+- Leistungen und individuelle Angebote, aber keine öffentliche Pauschale für 150 m² Westerland mit 24 Kontrollen/Schlüssel/Anfahrt.
+- Keine Stundenlöhne, Reinigung oder Vermietungsprovision als Ersatz eingetragen.
+
+## Grenze und nächster Nachweis
+
+- Datiertes Angebot oder Rechnung für exakt definiertes Kontrollpaket sowie historische Gegenbelege fehlen.
+
+**Nächste Aktion:** Zwei vergleichbare anonymisierte Angebote/Rechnungen beschaffen. Keine weitere allgemeine Anbietersuche; bis dahin Backlog.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Ferienwohnen · Sylt · Recherche vom 16.10.2026**  
 **Status:** Leistung öffentlich belegt; kein verwendbarer veröffentlichter Preis. [Rechercheübersicht](../produktrecherche-rest-2026-10-16.md)
 
@@ -70,3 +93,5 @@ Standardbetrag sowie passende historische Angebote/Rechnungen fehlen. Material, 
 D&A-Archivstände 2019, 2021, 2023 und 2025 gelesen: kein verwendbarer Betrag des definierten Kontrollpakets. Allgemeine Anbieterbeschreibungen ersetzen kein datiertes Angebot.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>

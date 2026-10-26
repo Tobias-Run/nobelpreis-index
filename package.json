@@ -1,8 +1,12 @@
 {
   "name": "nobelpreis-index",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": true,
   "description": "Entwicklungsprüfungen für den statischen deutschen Premiumpreistracker",
-  "scripts": {"test:browser": "node tests/browser.mjs"},
-  "devDependencies": {"playwright": "1.62.1"}
+  "scripts": {
+    "test:browser": "node tests/browser.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
 }

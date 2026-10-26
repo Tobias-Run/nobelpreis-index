@@ -31,6 +31,10 @@ Es gilt die [Auswahlregel vom 23.10.2026](docs/premiumvergleich.md): **Wir verwe
 
 Dokumentiere bisherige/neue Referenz, relevante Änderungen und die geprüften Alternativen. Normale Weiterentwicklungen verhindern die nominale Fortführung nicht automatisch; sie werden sichtbar ausgewiesen. Keine Auswahl nach stärkstem Preisanstieg und keine erfundenen Qualitätskorrekturen. Ohne belegten hinreichend vergleichbaren Nachfolger bleibt der Wert offen.
 
+## Jährliche Zeitfenster
+
+Für die feste Jahresrunde gilt [das versionierte Jahresfenster-Rezept](data/methodik/jahresfenster-2026-10-26.json). Freie Preise werden im September/Oktober-Fenster möglichst nah am 15. Oktober ausgewählt; Tarifjahre, Schuljahre und Winter-Endjahre folgen ausdrücklichen Regeln. Ein späterer Beleg ist kein automatischer Ersatz für einen näher am Zieltag liegenden. Der VPI-Herbstanker erfordert beide Monatswerte; fehlende Monate bleiben leer. Änderungen erhalten ein neues begründetes Rezept. [Ergebnisse und Grenzen](docs/jahresfenster-und-restbelege-2026-10-26.md).
+
 ## Methodische Änderungen und Korrekturen
 
 Änderungen an Auswahl, Basisjahr, Gewichtung oder Berechnung müssen begründet und reproduzierbar sein. Dokumentiere bei Korrekturen betroffene Werte, bisherigen und neuen Stand, Grund und Datum. Behaupte keine Repräsentativität ohne belastbare Grundlage.

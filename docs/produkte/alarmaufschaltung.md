@@ -1,5 +1,28 @@
 # Alarmaufschaltung für ein privates Wohnhaus
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Historischer Premiumtarif ergänzt; heutiger Pro-Tarif fehlt.** Öffentliche Nachrecherche abgeschlossen. Außerhalb der festen Neuner-Zusammensetzung, bis passende Belege vorliegen.
+
+## Was jetzt geklärt ist
+
+- Securando pro 2022 30 EUR/Monat brutto statt niedrigeren Privat-Tarif 20 EUR als Premiumreferenz gesichert.
+- Schlüsselverwahrung, mobile Bereitschaft, 15 Aktivitäten monatlich enthalten; Intervention extra. Einrichtung separat im Nebenpreisblatt mit Datumswiderspruch.
+- Aktuelles Ab-Angebot weiterhin kein identisches Pro-Paket. Preise-Ratgeber ist passwortgeschützt; keine Sperre umgangen.
+
+## Grenze und nächster Nachweis
+
+- Heutiges identisches vollständiges Pro-Tarifblatt und Pflichtnebenkosten fehlen. Widersprüchliche historische Nebenpreis-Gültigkeit bleibt sichtbar.
+
+**Nächste Aktion:** Aktuelles vollständiges Pro-Angebot/Vertragsblatt vom Anbieter bzw. Kundenbeleg nötig; keine Nullinflation aus unverändertem Ab-Preis ableiten.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Wohnen & Sicherheit · Deutschland · Recherche vom 16.10.2026**  
 **Status:** historischer Privattarif und aktuelle Preisansätze gefunden; keine durchgängige Anbieterreihe. [Rechercheübersicht](../produktrecherche-rest-2026-10-16.md)
 
@@ -65,3 +88,5 @@ Leistung, Übertragungsweg, Laufzeit, Einrichtung, inklusive Ereignisse und Pfli
 Fünf weitere historische Beobachtungen: vier datierte FAQ-Ab-Angebote ab 20 EUR/Monat (2023–April 2026) und eine zusätzliche klar datierte Privat-Tarifversion vom 24.05.2022, gültig bis 30.06.2022. Keine bestätigte Nullinflation eines identischen Komplettpakets.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>

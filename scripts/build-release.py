@@ -7,7 +7,7 @@ import subprocess
 import sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-for script in ['import-bundesbank-vpi.py','build-zeitreihe.py','build-site.py']:
+for script in ['import-bundesbank-vpi.py','build-zeitreihe.py','jahresvergleich-analyse.py','build-site.py']:
     subprocess.run([sys.executable,str(ROOT/'scripts'/script)],check=True,cwd=ROOT)
 config=json.loads((ROOT/'data/release.json').read_text())
 commit=os.environ.get('GITHUB_SHA') or subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()

@@ -37,3 +37,12 @@ Die [öffentliche Korrekturseite](../dist/korrekturen.html) dokumentiert bereits
 Bei einer Korrektur betroffene Beobachtungs-IDs, vorherigen/neuen Wert oder Zeitbezug, Grund, Datum und Auswirkung auf den Vergleich dokumentieren. Version erhöhen, Korrekturseite ergänzen, PR prüfen lassen und veröffentlichen. Eine unbelegte Zahl wird nicht durch eine Schätzung ersetzt.
 
 Rollback: Den fehlerhaften Merge durch einen Revert-PR zurücknehmen. Nach erfolgreichen Prüfungen veröffentlicht derselbe Ablauf den wiederhergestellten Stand und ein neues Manifest mit dem Revert-Commit. Für eine technische Wiederholung kann der Workflow auf `main` manuell gestartet werden. Vor Freigabe prüfen, dass der aktuelle Pages-Stand und sein Manifest die erwarteten Prüfsummen besitzen. Ein konkreter Produktionsrollback ist erst im Fehlerfall nötig; dieser Ablauf ist dokumentiert, noch kein absichtlich ausgeführter Rollback-Test.
+
+
+## Fachliche Jahresrunde ab Version 0.7
+
+`data/release.json` enthält zusätzlich `herbstvergleich`, `fachpruefung` und `belegprotokoll`. Der Build prüft die festen Jahresfenster, erzeugt die unabhängige Python-Nachrechnung und aktualisiert Produktregister/-matrix. Die vorhandenen Rohbelege werden offline verwendet; ein Build ruft keine Anbieter neu ab.
+
+Bei einem neuen VPI-Beleg müssen September und Oktober vollständig vorliegen, bevor die Herbstreferenz erscheint. Es gibt keinen Ersatzmonat und keine Hochrechnung eines fehlenden Werts. Die Monatsdaten und Metadaten werden als neue Quelldatei mit tatsächlichem Abrufdatum versioniert; `vpi_einzelreihen` verweist anschließend darauf. Alte Belege bleiben erhalten. Die Prüfung für fehlende Monate bleibt bestehen und prüft weiterhin mit explizit entfernten Monaten; feste Datenstand-Erwartungen sind für die neue Releaseversion zu aktualisieren.
+
+Neue Produktbelege müssen zusätzlich zur allgemeinen Datenprüfung die feste Zeitregel erfüllen. Bereits vorhandene näher am Zieltag liegende Beobachtungen werden nicht allein wegen eines späteren Abrufdatums ersetzt. Änderungen an Saisonzuordnung oder Erhebungsfenster erhalten ein neues Auswahlrezept mit Korrekturhinweis. [Aktuelle Regeln und externe Restnachweise](jahresfenster-und-restbelege-2026-10-26.md).

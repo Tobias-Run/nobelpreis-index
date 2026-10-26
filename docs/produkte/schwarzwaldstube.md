@@ -1,5 +1,42 @@
 # Schwarzwaldstube: sieben Gänge in Baiersbronn
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Recherche bereits abgeschlossen.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/9 Gewicht; keine produktive Gesamtindexfreigabe.
+
+## Preisdefinition und Zeitbezug
+
+Großes siebenpositioniges Menü II, ohne Getränke; kein Wechsel zum günstigeren vegetarischen Menü.
+
+EUR je Menü ohne Getränke. Nominaler Menüpreis gleicher Premiumstufe. Archivstand 14.10.2025 zu 325 EUR gegen Beobachtung 16.10.2026 zu 385 EUR; höherer Tarif bereits im Dezember-2025-Original belegt. Exaktes Wirksamkeitsdatum und Kostenursache offen; Gerichte und Steuerbedingungen ändern sich.
+
+| Jahresrunde | Gewählter Beleg / Tarif | Betrag | Originalquellen |
+|---|---|---:|---|
+| 2025 | 2025-10-14 | 325,00 € | [Schwarzwaldstube: Originalkarte, Archivstand 2025-10-14](https://web.archive.org/web/20251014224221/https://www.traube-tonbach.de/site/assets/files/22445/schwarzwaldstube_d_08-2025_04web.pdf) |
+| 2026 | 2026-10-16 | 385,00 € | [Schwarzwaldstube aktuelle Speisekarte](https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf) |
+
+Nominale Veränderung: **+18,46 %**.
+
+Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.
+
+## Was jetzt geklärt ist
+
+- Oktober-2025-Original 325 EUR gegen Oktober-2026-Original 385 EUR passt ins feste Herbstfenster.
+- Gleiche Premiumstufe; saisonale Speisen-/Steueränderungen dokumentiert. Keine erneute Kostenursachenrecherche.
+
+## Grenze und nächster Nachweis
+
+- Oktober-2026-VPI im vorhandenen Bundesbank-Beleg noch nicht veröffentlicht.
+
+**Nächste Aktion:** Auf nächsten offiziellen Referenzmonat warten; kein Anbieterbeleg zu Kostenursachen erforderlich.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Aktueller Deep Dive · 26.10.2026:** [Originalkarten, Menüumfang, Steuer und Indexwirkung](../schwarzwaldstube-preisanstieg-2026-10-26.md). Menü II kostet im Archivstand 14.10.2025 noch 325 €, am 01.12.2025 bereits 385 €, ebenso in den geprüften 2026er Karten. Der Anstieg war schon 2025 sichtbar. Gleiche Premium-Menüstufe mit sieben Positionen, wechselnde Gerichte. Aktuell verwenden wir den zeitlich passenderen Oktober-2025-Primärbeleg statt des Märzfotos zum identischen Preis. Die folgenden Abschnitte dokumentieren frühere Prüfstände.
 
 **Gastronomie · Deutschland · Recherche vom 16.10.2026**  
@@ -59,3 +96,5 @@ Exakte aktuelle Karten-URL ohne CDX-Treffer; breite und zeitlich eingegrenzte PD
 Zwei datierte Originalkarten gefunden und als zusätzliche Beobachtungen aufgenommen: großes Degustationsmenü am 24.10.2021 für 265 EUR und Menü II am 21.11.2024 für 325 EUR, jeweils sieben Positionen und inklusive MwSt. Die PDFs wurden visuell und als Text geprüft. Eine alte Arquivo.pt-Seite erschloss den 2021er Kartenpfad, die PDFs selbst sind bei Wayback abrufbar. Keine Umdeutung als Preisänderungstermin oder qualitätsbereinigte Inflation.
 
 [Fundstellen, Archivabdeckung und Grenzen](../weitere-archive-2026-10-21.md) · [Neuer Datenstand](../../data/research/archiverweiterung-2026-10-21.json).
+
+</details>

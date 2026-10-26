@@ -8,6 +8,7 @@ from pathlib import Path
 from datenpruefung import pruefen, zukunft
 from gewichtungsszenarien import erstellen
 from einzelzeitreihen import erstellen as einzelreihen_erstellen
+from jahresfenster import erstellen as jahresfenster_erstellen
 ROOT=Path(__file__).resolve().parents[1]
 RELEASE=json.loads((ROOT/'data/release.json').read_text())
 SRC=ROOT/RELEASE['vpi_pilot']
@@ -84,7 +85,12 @@ for entscheidung in premium['entscheidungen']:
  reihe['premiumauswahl']=entscheidung
  if reihe['id']=='lanserhof-sylt':
   reihe['grenze']='Programmpreis ohne Unterkunft. Gleiche Premium-Programmstufe; Anwendungsgleichheit für Classic Plus nicht vollständig geprüft. Keine qualitätsbereinigte Kurinflation, kein Gesamtaufenthalt.'
-payload.update({'version':RELEASE['version'],'ansicht_stand':RELEASE['ansicht_stand'],'standardansicht':RELEASE['standardansicht'],'einzel_reihen':extra,'einzel_referenz':new_ref,'pragmatische_auswahl':praxis,'premiumvergleich':premium,'praxis_reihen':praxis_reihen})
+herbstrezept=json.loads((ROOT/RELEASE['herbstvergleich']).read_text())
+if herbstrezept['quelle_daten']!=RELEASE['recherche']:raise ValueError('Jahresfenster und Release verwenden unterschiedliche Forschungsstände')
+herbst=jahresfenster_erstellen(x,herbstrezept)
+fachpruefung=json.loads((ROOT/RELEASE['fachpruefung']).read_text())
+if len(fachpruefung['positionen'])!=13 or {p['produkt_id'] for p in fachpruefung['positionen']}!={p['id'] for p in x['produkte']}:raise ValueError('Fachprüfung muss alle 13 Positionen genau einmal enthalten')
+payload.update({'version':RELEASE['version'],'ansicht_stand':RELEASE['ansicht_stand'],'standardansicht':RELEASE['standardansicht'],'einzel_reihen':extra,'einzel_referenz':new_ref,'pragmatische_auswahl':praxis,'premiumvergleich':premium,'praxis_reihen':praxis_reihen,'herbstvergleich':herbst,'fachpruefung':fachpruefung})
 payload['methodik']['geltungsbereich']='Dieser Block beschreibt den historischen Zweier-Pilot. Der neue nominale Neuner-Vergleich ist in pragmatische_auswahl mit eigenen Auswahlregeln und Grenzen dokumentiert.'
 (ROOT/'dist/zeitreihe/daten.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(x["produkte"])} Positionen, {len(allobs)} Einzelbeobachtungen, {len(series)} Pilot-Teilreihen, {len(rows)} VPI-Monate validiert.')

@@ -1,5 +1,45 @@
 # Lanserhof Sylt: Programme sind kein Gesamtaufenthalt
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Classic-Plus-Programmbeträge direkt abgeglichen.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/9 Gewicht; keine produktive Gesamtindexfreigabe.
+
+## Preisdefinition und Zeitbezug
+
+Classic Plus statt Classic, eine Person, 7–8 Nächte; feste Dauer statt Auswahl des teuersten unterschiedlich langen Aufenthalts.
+
+EUR je veröffentlichtem Classic-Plus-Programmpreis, ohne Unterkunft. Veröffentlichter Programmbetrag ohne Unterkunft, Medikamente und Ergänzungsmittel. Classic Plus direkt auf PDF-Seiten 7 (2025) und 4 (2026) abgeglichen. Bereitschaftsdienst Bestandteil der Programmbeschreibung, 2026 verbindlich mit 42 EUR/Nacht; kein unbelegter zusätzlicher Aufschlag auf den ausgewiesenen Gesamtpreis. Vollständige tatsächliche Aufenthaltsrechnung nicht behauptet.
+
+| Jahresrunde | Gewählter Beleg / Tarif | Betrag | Originalquellen |
+|---|---|---:|---|
+| 2025 | Jahresbroschüre 2025 | 4.046,00 € | [Lanserhof Sylt: Hotelpreisliste 2025](https://api.lanserhof.com/wp-content/uploads/2024/12/2025_LHS_Hotelpreisliste_DE_MitPreise.pdf) |
+| 2026 | Jahresbroschüre 2026 | 3.990,00 € | [Lanserhof Sylt Preisliste 2026](https://files.lanserhof.com/preisbroschure/2026_lhs_preisliste_de.pdf) |
+
+Nominale Veränderung: **-1,38 %**.
+
+Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt.
+
+## Was jetzt geklärt ist
+
+- Classic Plus 2025 PDF S. 7 und 2026 S. 4 geprüft, 4.046 → 3.990 EUR, 7–8 Nächte, ohne Unterkunft.
+- 2026 zusätzlich/im Kern: Befundbesprechung Bioimpedanz/Handkraft 40 Min., Detox-Fußbad 30 Min., Facial 60 Min., Vo2Max/Besprechung 20 Min.; Stoffwechselmessung 20 → 30 Min.; telefonisches Dreimonats-Nachgespräch 2025 genannt, 2026 nicht genannt.
+- Bereitschaftsdienst in beiden Programmlisten. 2026 42 EUR/Nacht als fester Bestandteil; Gesamtpreis aus Einzelpreisen. Ohne Nachweis keine zusätzlichen 294 EUR auf 3.990 addieren.
+- Kopftext Classic/Plus widersprüchlich; für Auswahl zählen eindeutige Überschrift und Preiszeile. Gesetzliche MwSt. jeweils am Ende der Broschüre bestätigt.
+
+## Grenze und nächster Nachweis
+
+- Aus Broschüren folgt keine identische Gesamtaufenthaltsrechnung; 2025 kein separater Tagesbetrag angegeben. Einbeziehung der Pauschale in tatsächlichen Rechnungen nicht unabhängig bestätigt.
+- Historische Zimmerkomponenten und gegenwärtige Ab-Raten ergeben ohne Saison-/Nachtdefinition keine vollständige Hotelreihe.
+
+**Nächste Aktion:** Nominalen veröffentlichten Programmbetrag fortführen. Nur für einen vollständigen Aufenthalt Rechnung/Angebot mit expliziter Pauschalenbehandlung und festem Zimmer verlangen.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Aktuelle Auswahlentscheidung · 23.10.2026:** Classic Plus 2025 → 2026, eine Person, 7–8 Nächte, ohne Zimmer, bleibt die vergleichbarste im Material belegte Premium-Programmstufe: 4.046 → 3.990 €. Die [Premium-Auswahlregel](../premiumvergleich.md) erlaubt die nominale Fortführung; vollständige Anwendungsgleichheit wird nicht behauptet. Der detaillierte ältere Anwendungsabgleich betrifft Classic, nicht Classic Plus. Unterkunft und ungeklärte Pflichtbestandteile bleiben getrennt. Die folgenden Abschnitte dokumentieren die früheren Prüfstände.
 
 **Gesundheit & Reisen · Deutschland · Prüfstand 16.10.2026**  
@@ -39,3 +79,5 @@ Programmreihe nicht als unveränderte Kur verketten. Sieben Nächte: Gebührenko
 Zwei historische Zimmerkomponenten aufgenommen: Village, Zimmer mit Loggia 29 m², 1 Person, jeweils 649 EUR in Broschüren 2024 und 2025. Der 2024er Tarif wurde erst 2025 archiviert. Zeiteinheit ist in der Tabelle nicht ausdrücklich ausgewiesen; nur mit medizinischem Programm buchbar. Keine Multiplikation mit sieben Nächten oder vollständige Kurinflation.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>
