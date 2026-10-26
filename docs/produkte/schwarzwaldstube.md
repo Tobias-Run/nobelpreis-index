@@ -1,5 +1,7 @@
 # Schwarzwaldstube: sieben Gänge in Baiersbronn
 
+**Aktueller Deep Dive · 26.10.2026:** [Originalkarten, Menüumfang, Steuer und Indexwirkung](../schwarzwaldstube-preisanstieg-2026-10-26.md). Menü II kostet im Archivstand 14.10.2025 noch 325 €, am 01.12.2025 bereits 385 €, ebenso in den geprüften 2026er Karten. Der Anstieg war schon 2025 sichtbar. Gleiche Premium-Menüstufe mit sieben Positionen, wechselnde Gerichte. Aktuell verwenden wir den zeitlich passenderen Oktober-2025-Primärbeleg statt des Märzfotos zum identischen Preis. Die folgenden Abschnitte dokumentieren frühere Prüfstände.
+
 **Gastronomie · Deutschland · Recherche vom 16.10.2026**  
 **Status:** zusätzlicher Recherchevorschlag für die Gastronomie; kein rekonstruierter Name der ursprünglichen Auswahl und keine Indexfreigabe. [Gesamtübersicht](../warenkorb-pruefstand-2026-10-16.md)
 

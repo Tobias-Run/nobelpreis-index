@@ -26,6 +26,8 @@ Die [priorisierte Roadmap](docs/roadmap.md) empfiehlt zuerst eine gemeinsame öf
 
 ## Historische Preise und Forschungs-PoC
 
+[**Schwarzwaldstube: Deep Dive · 26.10.2026**](docs/schwarzwaldstube-preisanstieg-2026-10-26.md): Vier zusätzliche Originalkarten zeigen Menü II noch im Oktober 2025 zu 325 €, bereits im Dezember 2025 zu 385 €. Sieben Positionen bleiben erhalten; Ursachen und genaues Wirksamkeitsdatum sind offen. Der Oktober-2025-Primärbeleg ersetzt das zeitlich weiter entfernte Märzfoto zum selben Preis. Jetzt 67 Beobachtungen; nominales Neuner-Ergebnis unverändert.
+
 [**Pragmatischer Startwarenkorb**](docs/pragmatischer-warenkorb-2026-10-21.md): Neun festgelegte Positionen, höhere belegte Grundvarianten und ausdrücklich benannte Teilpreise. Nominaler Vergleich der 2025er/2026er Belege: **+4,60 %**, Bundesbank-VPI August: **+2,86 %**. Unterschiedliche Beobachtungstermine und Leistungswechsel; keine qualitätsbereinigte Haushaltsinflation. Vier unzureichend belegte Positionen stehen mit festen Referenzen im Backlog.
 
 [**Weitere Archive geprüft**](docs/weitere-archive-2026-10-21.md): Arquivo.pt, Common Crawl und historische Dokumentablagen erschließen zwei Originalkarten der Schwarzwaldstube: 265 € im Archivstand 2021 und 325 € im Archivstand 2024, jeweils inklusive MwSt. Jetzt 63 Recherchebeobachtungen; keine automatische Verkettung oder Indexfreigabe.
@@ -40,7 +42,7 @@ Die [priorisierte Roadmap](docs/roadmap.md) empfiehlt zuerst eine gemeinsame öf
 
 [**Echte Zeitreihen ansehen**](https://tobias-run.github.io/nobelpreis-index/zeitreihe/) · [Historienprüfung aller 13 Positionen](docs/historische-preise-und-poc-2026-10-16.md) · [19 neue Preisbelege aus der Archivrecherche](docs/archivrecherche-2026-10-17.md)
 
-Die separate Forschungsansicht enthält 63 recherchierte Einzelbeobachtungen einschließlich Komponenten und Zukunftstarifen. Standardmäßig ist der nominale Neuner-Vergleich geöffnet. Der bisherige Zweier-Pilot mit Bayreuth und einer Liegeplatz-Tarifeinheit bleibt separat verfügbar. Beide verwenden einen ausdrücklich groben August-Anker aus dem offiziellen monatlichen Bundesbank-VPI; Einzelkurven zeigen ihre jeweils dokumentierten Vergleichsmonate. Keine redaktionelle Indexfreigabe. Historische Lücken und Leistungswechsel bleiben sichtbar; keine Auffüllung. Die bisherige Startseite bleibt eine klar gekennzeichnete Design-Demo mit synthetischen Produktpreisen.
+Die separate Forschungsansicht enthält 67 recherchierte Einzelbeobachtungen einschließlich Komponenten und Zukunftstarifen. Standardmäßig ist der nominale Neuner-Vergleich geöffnet. Der bisherige Zweier-Pilot mit Bayreuth und einer Liegeplatz-Tarifeinheit bleibt separat verfügbar. Beide verwenden einen ausdrücklich groben August-Anker aus dem offiziellen monatlichen Bundesbank-VPI; Einzelkurven zeigen ihre jeweils dokumentierten Vergleichsmonate. Keine redaktionelle Indexfreigabe. Historische Lücken und Leistungswechsel bleiben sichtbar; keine Auffüllung. Die bisherige Startseite bleibt eine klar gekennzeichnete Design-Demo mit synthetischen Produktpreisen.
 
 ```bash
 python3 scripts/build-zeitreihe.py

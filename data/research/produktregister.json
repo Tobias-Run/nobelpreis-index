@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "stand": "2026-10-21",
+  "stand": "2026-10-26",
   "hinweis": "Elf rekonstruierbare Kandidaten plus zwei zusätzliche Vorschläge; keine Rekonstruktion der zwei fehlenden ursprünglichen Namen.",
   "produkte": [
     {
@@ -8,7 +8,7 @@
       "name": "Porsche Cayenne",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/porsche-cayenne.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 4,
       "indexfreigabe": false,
       "rechercheentscheidung": "teilpreis_abgegrenzt"
@@ -18,7 +18,7 @@
       "name": "Schule Schloss Salem",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/schloss-salem.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 7,
       "indexfreigabe": false,
       "rechercheentscheidung": "tarifrahmen_geprueft"
@@ -28,7 +28,7 @@
       "name": "A. Lange & Söhne Saxonia Thin",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/saxonia-thin.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 8,
       "indexfreigabe": false,
       "rechercheentscheidung": "reihenbruch_festgelegt"
@@ -38,7 +38,7 @@
       "name": "Hermès Kelly",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/hermes-kelly.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 1,
       "indexfreigabe": false,
       "rechercheentscheidung": "anbieterbeleg_noetig"
@@ -48,7 +48,7 @@
       "name": "Lanserhof Sylt",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/lanserhof-sylt.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 8,
       "indexfreigabe": false,
       "rechercheentscheidung": "leistungswechsel_belegt"
@@ -58,7 +58,7 @@
       "name": "Riese & Müller Charger5 vario",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/riese-mueller-charger5.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 2,
       "indexfreigabe": false,
       "rechercheentscheidung": "leistungswechsel_belegt"
@@ -68,7 +68,7 @@
       "name": "Bayreuther Festspiele Parsifal A1",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/bayreuther-festspiele.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 6,
       "indexfreigabe": false,
       "rechercheentscheidung": "teilpreis_abgegrenzt"
@@ -78,7 +78,7 @@
       "name": "Bodensee-Liegeplatz beim Yacht-Club Langenargen",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/liegeplatz-langenargen.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 8,
       "indexfreigabe": false,
       "rechercheentscheidung": "anbieterbeleg_noetig"
@@ -88,7 +88,7 @@
       "name": "Skiurlaub Lech/Zürs – Teilpreis Ski Arlberg",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/skiurlaub-arlberg.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 4,
       "indexfreigabe": false,
       "rechercheentscheidung": "originalnachweis_ergänzt"
@@ -98,7 +98,7 @@
       "name": "Alarmaufschaltung Privathaus",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/alarmaufschaltung.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 9,
       "indexfreigabe": false,
       "rechercheentscheidung": "anbieterbeleg_noetig"
@@ -108,7 +108,7 @@
       "name": "Hausbetreuung privater Zweitwohnsitz Sylt",
       "auswahlstatus": "dokumentierter_recherchekandidat",
       "dossier": "docs/produkte/hausbetreuung-sylt.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 0,
       "indexfreigabe": false,
       "rechercheentscheidung": "anbieterbeleg_noetig"
@@ -118,17 +118,17 @@
       "name": "Schwarzwaldstube Degustationsmenü II",
       "auswahlstatus": "zusätzlicher_recherchevorschlag",
       "dossier": "docs/produkte/schwarzwaldstube.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
-      "anzahl_beobachtungen": 6,
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "anzahl_beobachtungen": 10,
       "indexfreigabe": false,
-      "rechercheentscheidung": "leistungswechsel_belegt"
+      "rechercheentscheidung": "premium_menustufe_und_preiswechsel_2025_belegt"
     },
     {
       "id": "hotel-adlon-deluxe",
       "name": "Hotel Adlon Deluxe Zimmer",
       "auswahlstatus": "zusätzlicher_recherchevorschlag",
       "dossier": "docs/produkte/hotel-adlon.md",
-      "datendatei": "data/research/archiverweiterung-2026-10-21.json",
+      "datendatei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
       "anzahl_beobachtungen": 0,
       "indexfreigabe": false,
       "rechercheentscheidung": "anbieterbeleg_noetig"

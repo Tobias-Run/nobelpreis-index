@@ -30,12 +30,12 @@ test('Pragmatischer Neuner-Vergleich: feste Auswahl, höhere Grundvarianten, nur
  assert.deepEqual(data.praxis_reihen.find(r=>r.id==='bayreuth-parsifal').punkte.map(p=>p.betrag),[358,358]);
  assert.ok(!chosen.has('alarmaufschaltung'));assert.ok(!chosen.has('hermes-kelly'));
 });
-test('Weitere Archive: Originalkarten korrekt datiert, 61 alte Beobachtungen erhalten und kein erfundener 2022er Wert',()=>{
+test('Weitere Archive: Originalkarten korrekt datiert, ältere Beobachtungen erhalten und kein erfundener 2022er Wert',()=>{
  const before=JSON.parse(readFileSync(new URL('../data/research/archivnachrecherche-2026-10-21.json',import.meta.url),'utf8'));
  const flatten=d=>d.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
  const current=new Map(flatten(data).map(o=>[o.id,o]));
  for(const o of flatten(before))assert.deepEqual(current.get(o.id),o);
- assert.equal(flatten(data).length-flatten(before).length,2);
+ assert.equal(flatten(data).length-flatten(before).length,6);
  for(const [year,amount,date] of [[2021,265,'2021-10-24'],[2024,325,'2024-11-21']]){
   const o=current.get(`schwarzwald-original-archiv-${year}`);
   assert.equal(o.betrag,amount);assert.equal(o.preisdatum,date);assert.match(o.datumstyp,/Archivierter Angebotsstand/);
@@ -47,7 +47,30 @@ test('Weitere Archive: Originalkarten korrekt datiert, 61 alte Beobachtungen erh
  assert.ok(![...s.beobachtungen,...s.zusätzliche_historische_beobachtungen].some(o=>o.preisdatum?.startsWith('2022')));
  assert.equal(data.weitere_archive.gesamt_beobachtungen,63);
 });
-test('Archivrecherchen: neun neue Fakten seit 17.10., alte Beobachtungen und Quellen unverändert',()=>{
+test('Schwarzwaldstube: vier Primärbelege erhalten den Preiswechsel 2025 und verbessern den Oktobervergleich',()=>{
+ const previous=JSON.parse(readFileSync(new URL('../data/research/archiverweiterung-2026-10-21.json',import.meta.url),'utf8'));
+ const flatten=x=>x.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
+ const obs=new Map(flatten(data).map(o=>[o.id,o]));
+ for(const o of flatten(previous))assert.deepEqual(obs.get(o.id),o);
+ assert.equal(flatten(data).length-flatten(previous).length,4);
+ for(const [suffix,date,price] of [['2025-06','2025-06-14',325],['2025-10','2025-10-14',325],['2025-12','2025-12-01',385],['2026-04','2026-04-08',385]]){
+  const o=obs.get('schwarzwald-original-archiv-'+suffix),s=data.quellen.find(s=>s.id===o.quelle_id);
+  assert.equal(o.preisdatum,date);assert.equal(o.betrag,price);assert.equal(o.gültigkeit,null);
+  assert.equal(new Date(s.memento_datetime).toISOString().slice(0,10),date);
+  assert.ok(s.archiv_timestamp.startsWith(date.replaceAll('-','')));assert.match(s.sha256,/^[a-f0-9]{64}$/);
+ }
+ const row=data.praxis_reihen.find(r=>r.id==='schwarzwaldstube-menue-ii');
+ assert.deepEqual(row.punkte.map(p=>p.beobachtung_ids),[['schwarzwald-original-archiv-2025-10'],['schwarzwald-2026-menue']]);
+ assert.deepEqual(row.punkte.map(p=>p.betrag),[325,385]);
+ const single=data.einzel_reihen.find(r=>r.id==='schwarzwaldstube-menue-ii');
+ assert.equal(single.punkte[1].preisdatum,'2025-10-14');assert.equal(single.punkte[1].referenzmonat,'2025-10');
+ assert.equal(berechneEinzelreihe(single,2025,data.einzel_referenz).abstand,null);
+ const analysis=JSON.parse(readFileSync(new URL('../data/analysen/schwarzwaldstube-2026-10-26.json',import.meta.url),'utf8'));
+ assert.equal(analysis.paare[1].tage,367);assert.equal(analysis.paare[2].brutto_aenderung_prozent,0);
+ close(analysis.nettoaenderung_modell_385_zu385_prozent,100*(1.19/1.07-1));
+ close(analysis.neuner_experiment.anstieg_prozent,berechne(data.praxis_reihen,[2025,2026],data.referenz).anstieg);
+});
+test('Archivrecherchen: alte Beobachtungen und Quellen unverändert, neue Primärbelege hinzugefügt',()=>{
  const previous=JSON.parse(readFileSync(new URL('../data/research/produktpruefung-2026-10-17.json',import.meta.url),'utf8'));
  const flatten=d=>d.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
  const obs=new Map(flatten(data).map(o=>[o.id,o]));
@@ -55,7 +78,7 @@ test('Archivrecherchen: neun neue Fakten seit 17.10., alte Beobachtungen und Que
  for(const s of previous.quellen)assert.deepEqual(data.quellen.find(q=>q.id===s.id),s);
  assert.equal(data.archivnachrecherche.neue_beobachtungen,7);
  assert.equal(data.archivnachrecherche.neue_beobachtung_ids.length,7);
- assert.equal(flatten(data).length-flatten(previous).length,9);
+ assert.equal(flatten(data).length-flatten(previous).length,13);
  const tariff=obs.get('alarm-securando-archiv-20220524');
  assert.equal(tariff.betrag,20);assert.equal(tariff.gültigkeit.bis,'2022-06-30');assert.match(tariff.umsatzsteuer,/19/);
  for(const year of [2023,2024,2025,2026]){
@@ -71,7 +94,7 @@ test('Archivrecherchen: neun neue Fakten seit 17.10., alte Beobachtungen und Que
  const allowed=new Set(data.archivnachrecherche.neue_beobachtung_ids);
  assert.ok([...data.pilot_reihen,...data.einzel_reihen].flatMap(s=>s.punkte).every(p=>p.beobachtung_ids.every(id=>!allowed.has(id))));
  const registry=JSON.parse(readFileSync(new URL('../data/research/produktregister.json',import.meta.url),'utf8'));
- assert.equal(registry.produkte.reduce((n,p)=>n+p.anzahl_beobachtungen,0),63);
+ assert.equal(registry.produkte.reduce((n,p)=>n+p.anzahl_beobachtungen,0),67);
 });
 test('Zusätzliche Zeitreihen: 28 Originalbelege, keine Zukunftstarife oder Referenzverkettung',()=>{
  assert.equal(data.einzel_reihen.length,8);
@@ -212,7 +235,7 @@ test('Alle 13 recherchiert; Quellen auflösbar und Zukunft bleibt außerhalb des
 });
 
 test('Archivstand ersetzt keine Tarifgültigkeit und kein neuerliches VPI-Abrufdatum',()=>{
- assert.equal(data.stand,'2026-10-21');assert.equal(data.referenz.abgerufen_am,'2026-10-16');
+ assert.equal(data.stand,'2026-10-26');assert.equal(data.referenz.abgerufen_am,'2026-10-16');
  const obs=data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
  const ycl=obs.find(o=>o.id==='ycl-archiv-fläche-2022');
  assert.equal(ycl.gültigkeit.von,'2022-05-14');assert.equal(ycl.betrag,74.5);assert.equal(ycl.preisdatum,null);
@@ -220,7 +243,7 @@ test('Archivstand ersetzt keine Tarifgültigkeit und kein neuerliches VPI-Abrufd
  const salem=obs.find(o=>o.id==='salem-archiv-2025');assert.equal(salem.betrag,50400);
  assert.ok(data.quellen.find(s=>s.id===salem.quelle_id).archiv_timestamp.startsWith('2024'));
  const kelly=obs.find(o=>o.id==='kelly-saclab-archiv-2024');assert.equal(kelly.betrag,21800);assert.match(kelly.preisart,/Sekundärmarkt/);assert.equal(kelly.indexfreigabe,false);
- assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),63);
+ assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),67);
 });
 
 test('Julius-Bär-Schema: 20 Komponenten und exakte 20/10/70-Verteilung',()=>{

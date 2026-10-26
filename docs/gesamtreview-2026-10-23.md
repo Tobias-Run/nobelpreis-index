@@ -1,5 +1,7 @@
 # Kritischer Gesamtreview · 23. Oktober 2026
 
+**Nachrecherche 26.10.2026:** Der [Schwarzwaldstube-Deep-Dive](schwarzwaldstube-preisanstieg-2026-10-26.md) erschließt einen Oktober-2025-Primärbeleg zu 325 € und einen Dezember-2025-Beleg zu bereits 385 €. Die in Abschnitt 1 kritisierte 19-Monats-Lücke ist für diese Position inzwischen auf einen Oktobervergleich eingegrenzt. Der alte Review und seine Diagnose bleiben als Prüfung des damaligen Stands erhalten; die übrigen Zeit-/VPI-Probleme sind dadurch nicht gelöst.
+
 **Nobelpreis hat eine brauchbare Recherchebasis und einen funktionierenden Prototyp. Für die Veröffentlichung einer belastbaren Inflationsdifferenz reicht der jetzige Neuner-Vergleich noch nicht.** Der nächste sinnvolle Meilenstein ist eine gemeinsame öffentliche Forschungsbeta mit überprüfbaren Produktgeschichten. Ein gemeinsamer nominaler Index folgt nach fachlicher Freigabe.
 
 Die [Roadmap](roadmap.md) übersetzt die Befunde in Arbeitspakete und Abnahmen. Umsetzungstracking: [Issue #26](https://github.com/Tobias-Run/nobelpreis-index/issues/26).
