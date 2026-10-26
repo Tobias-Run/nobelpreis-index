@@ -1,0 +1,523 @@
+{
+  "stand": "2026-10-26",
+  "version": "poc-0.7.0",
+  "eingaben": {
+    "data/research/herbstfenster-und-restbelege-2026-10-26.json": "bc3b65b39ab981ddc167d1a6882bf1918da776043d2d34973b6cccf62c7bf241",
+    "data/methodik/jahresfenster-2026-10-26.json": "8a6a9164cee8401c573aaf3a4bace857120453918c01061da4977addb0aa847c",
+    "data/sources/bundesbank-vpi-monatlich-2019-2026-2026-10-20.csv": "b0f3f692007959a54585d21b06c2748cfee5fe2c27d75016ca263730fe00d018"
+  },
+  "zeitregeln_geprueft": true,
+  "produktive_indexfreigabe": false,
+  "nominale_aenderung_prozent": 4.602683852876428,
+  "vpi_herbstmittel": [
+    {
+      "jahr": 2025,
+      "monate": [
+        "2025-09",
+        "2025-10"
+      ],
+      "werte": [
+        122.6,
+        123.0
+      ],
+      "mittel": 122.8
+    },
+    {
+      "jahr": 2026,
+      "monate": [
+        "2026-09",
+        "2026-10"
+      ],
+      "werte": [
+        126.6,
+        null
+      ],
+      "mittel": null
+    }
+  ],
+  "vpi_aenderung_prozent": null,
+  "abstand_prozentpunkte": null,
+  "positionen": [
+    {
+      "produkt_id": "porsche-cayenne",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 101500,
+        "beobachtung_ids": [
+          "cayenne-herbst-2025"
+        ],
+        "quelle_ids": [
+          "fenster26-porsche-sept25"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-09-12",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 102700,
+        "beobachtung_ids": [
+          "cayenne-2026"
+        ],
+        "quelle_ids": [
+          "porsche-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 1.1822660098522064,
+      "gewicht": 0.1111111111111111,
+      "beitrag_prozentpunkte": 0.13136288998357848,
+      "belegabstand_tage": 399
+    },
+    {
+      "produkt_id": "salem",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 50400,
+        "beobachtung_ids": [
+          "salem-archiv-2025"
+        ],
+        "quelle_ids": [
+          "ia-salem-20240912"
+        ],
+        "label": "Schuljahr 2025/26",
+        "zeitregel": "schuljahr",
+        "zeitbegruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Schuljahr 2025/2026"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 53400,
+        "beobachtung_ids": [
+          "salem-2026"
+        ],
+        "quelle_ids": [
+          "salem-2026"
+        ],
+        "label": "Schuljahr 2026/27",
+        "zeitregel": "schuljahr",
+        "zeitbegruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "von": "2026-09-01",
+          "bis": "2027-08-31",
+          "bezeichnung": "2026/2027"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 5.952380952380953,
+      "gewicht": 0.1111111111111111,
+      "beitrag_prozentpunkte": 0.6613756613756615,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "saxonia-thin",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 25600,
+        "beobachtung_ids": [
+          "saxonia-wempe-archiv-2025"
+        ],
+        "quelle_ids": [
+          "ia-wempe-2025"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-10-27",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 27000,
+        "beobachtung_ids": [
+          "saxonia-wempe-2026"
+        ],
+        "quelle_ids": [
+          "wempe-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 5.46875,
+      "gewicht": 0.1111111111111111,
+      "beitrag_prozentpunkte": 0.6076388888888888,
+      "belegabstand_tage": 354
+    },
+    {
+      "produkt_id": "lanserhof-sylt",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 4046,
+        "beobachtung_ids": [
+          "lanserhof-2025-plus"
+        ],
+        "quelle_ids": [
+          "lanserhof-2025"
+        ],
+        "label": "Jahresbroschüre 2025",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Broschüre 2025"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 3990,
+        "beobachtung_ids": [
+          "lanserhof-2026-classic-plus"
+        ],
+        "quelle_ids": [
+          "lanserhof-2026"
+        ],
+        "label": "Jahresbroschüre 2026",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2026",
+          "von": "2026-01-01",
+          "bis": "2026-12-31"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": -1.384083044982698,
+      "gewicht": 0.1111111111111111,
+      "beitrag_prozentpunkte": -0.15378700499807754,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "rm-charger5",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 6199,
+        "beobachtung_ids": [
+          "rm-herbst-2025"
+        ],
+        "quelle_ids": [
+          "fenster26-pruefung-rm2025-okt"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 6499,
+        "beobachtung_ids": [
+          "rm-2026"
+        ],
+        "quelle_ids": [
+          "rm-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 4.839490240361344,
+      "gewicht": 0.1111111111111111,
+      "beitrag_prozentpunkte": 0.5377211378179271,
+      "belegabstand_tage": 365
+    },
+    {
+      "produkt_id": "bayreuth-parsifal",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 358,
+        "beobachtung_ids": [
+          "bayreuth-ticket-2025",
+          "bayreuth-gebühr-2025"
+        ],
+        "quelle_ids": [
+          "bayreuth-preise-2025",
+          "bayreuth-agb-2025"
+        ],
+        "label": "Festspielsaison 2025",
+        "zeitregel": "festspieljahr",
+        "zeitbegruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Festspielsaison 2025"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 358,
+        "beobachtung_ids": [
+          "bayreuth-ticket-2026",
+          "bayreuth-gebühr-2026"
+        ],
+        "quelle_ids": [
+          "bayreuth-preise-2026",
+          "bayreuth-agb-2026"
+        ],
+        "label": "Festspielsaison 2026",
+        "zeitregel": "festspieljahr",
+        "zeitbegruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Festspielsaison 2026"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 0.0,
+      "gewicht": 0.1111111111111111,
+      "beitrag_prozentpunkte": 0.0,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "liegeplatz-ycl",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 96,
+        "beobachtung_ids": [
+          "ycl-fläche-2025"
+        ],
+        "quelle_ids": [
+          "ycl-2025"
+        ],
+        "label": "Sommergebühr 2025",
+        "zeitregel": "sommersaison",
+        "zeitbegruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2025",
+          "von": "2025-05-10"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 96.5,
+        "beobachtung_ids": [
+          "ycl-fläche-2026"
+        ],
+        "quelle_ids": [
+          "ycl-2026"
+        ],
+        "label": "Sommergebühr 2026",
+        "zeitregel": "sommersaison",
+        "zeitbegruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2026",
+          "von": "2026-04-20"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 0.5208333333333259,
+      "gewicht": 0.1111111111111111,
+      "beitrag_prozentpunkte": 0.057870370370369545,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "skiurlaub-arlberg",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 423,
+        "beobachtung_ids": [
+          "ski-beleg-2024"
+        ],
+        "quelle_ids": [
+          "ski202425-albona"
+        ],
+        "label": "Wintersaison 2024/25",
+        "zeitregel": "winterendjahr",
+        "zeitbegruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Saison 2024/25",
+          "von": "2024-12-21",
+          "bis": "2025-04-04"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 450,
+        "beobachtung_ids": [
+          "ski-2025"
+        ],
+        "quelle_ids": [
+          "pruefung-ski2025-original"
+        ],
+        "label": "Wintersaison 2025/26",
+        "zeitregel": "winterendjahr",
+        "zeitbegruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2025/26",
+          "von": "2025-12-20",
+          "bis": "2026-04-06"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 6.382978723404253,
+      "gewicht": 0.1111111111111111,
+      "beitrag_prozentpunkte": 0.7092198581560282,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "schwarzwaldstube-menue-ii",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 325,
+        "beobachtung_ids": [
+          "schwarzwald-original-archiv-2025-10"
+        ],
+        "quelle_ids": [
+          "sw26-original-2025-10"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-10-14",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 385,
+        "beobachtung_ids": [
+          "schwarzwald-2026-menue"
+        ],
+        "quelle_ids": [
+          "schwarzwald-karte"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 18.461538461538463,
+      "gewicht": 0.1111111111111111,
+      "beitrag_prozentpunkte": 2.0512820512820515,
+      "belegabstand_tage": 367
+    }
+  ],
+  "diagnostik": {
+    "hinweis": "Weglassproben sind Sensitivitätsdiagnosen mit neu normierten Gewichten, keine weiteren veröffentlichten Indizes oder Auswahlgründe.",
+    "weglassproben": [
+      {
+        "ohne": "porsche-cayenne",
+        "mittel_der_anderen_prozent": 5.030236083254455
+      },
+      {
+        "ohne": "salem",
+        "mittel_der_anderen_prozent": 4.4339717154383615
+      },
+      {
+        "ohne": "saxonia-thin",
+        "mittel_der_anderen_prozent": 4.494425584485981
+      },
+      {
+        "ohne": "lanserhof-sylt",
+        "mittel_der_anderen_prozent": 5.351029715108818
+      },
+      {
+        "ohne": "rm-charger5",
+        "mittel_der_anderen_prozent": 4.573083054440813
+      },
+      {
+        "ohne": "bayreuth-parsifal",
+        "mittel_der_anderen_prozent": 5.178019334485981
+      },
+      {
+        "ohne": "liegeplatz-ycl",
+        "mittel_der_anderen_prozent": 5.112915167819315
+      },
+      {
+        "ohne": "skiurlaub-arlberg",
+        "mittel_der_anderen_prozent": 4.38014699406045
+      },
+      {
+        "ohne": "schwarzwaldstube-menue-ii",
+        "mittel_der_anderen_prozent": 2.870327026793673
+      }
+    ]
+  },
+  "grenzen": "Feste jährliche Angebots-/Tarifrunde, kein gleichzeitiges Preisniveau und kein Kalenderjahresbudget. Herbst-VPI dient der Einordnung."
+}

@@ -17,7 +17,19 @@ Stand: 26.10.2026. Grundlage: [kritischer Gesamtreview](gesamtreview-2026-10-23.
 - [x] Stabile Produktlinks, Browser-Verlauf, verlinkte Treiber/Kategoriebeiträge und nachrechenbarer Vergleichs-CSV.
 - [x] Dauerhafte Browserprüfungen bei vier Breiten, aktuelle [Produktmatrix](produktstatus.md) sowie öffentliche Korrekturseite.
 
-Noch offen: konkrete zusätzliche Anbieterbelege für die Backlog-Positionen, fachliche Freigabe eines gemeinsamen zeitlich konsistenten Index, reguläre redaktionelle Verantwortungs-/Rechtsangaben und Nutzungsrechte. Personalisierung, Echtzeitdaten und weitere Körbe bleiben nachrangig. Die folgende Phasenplanung dokumentiert Herleitung und weiterhin offene Teilabnahmen.
+Aktualisierung: Die Zeitkonvention ist inzwischen festgelegt (siehe Anschlussauftrag unten). Noch offen sind konkrete externe Belege für vier Backlog-Positionen, die produktive redaktionelle Indexfreigabe, reguläre redaktionelle Verantwortungs-/Rechtsangaben und Nutzungsrechte. Personalisierung, Echtzeitdaten und weitere Körbe bleiben nachrangig. Die folgende Phasenplanung dokumentiert Herleitung und weiterhin offene Teilabnahmen.
+
+## Fachlicher Anschlussauftrag · 26.10.2026
+
+- [x] Einheitliche jährliche Erhebungs-/Saisonregeln für alle neun Positionen, maschinengeprüft und in Hauptansicht/CSV sichtbar.
+- [x] Historische Herbststände für Cayenne und Charger5 ergänzt; gleiche Preise, besserer Zeitbezug. Skipass-Jahresmarke überall Saisonendjahr.
+- [x] Gemeinsamer vollständiger September/Oktober-VPI-Anker. Fehlender Oktober 2026 bleibt leer; keine August-/September-Ersatzwerte.
+- [x] Alle 13 Positionen gezielt nachgeprüft, Classic Plus direkt abgeglichen, aktuelle Riese-&-Müller-Endpreisregel geklärt, historischer Alarm-Pro-Tarif ergänzt.
+- [x] Vier externe Kernlücken konkret abgegrenzt; allgemeine Wiederholungsrecherche beendet. Belege fehlen weiterhin, keine Anbieter angeschrieben.
+- [ ] Offiziellen Oktober-VPI aufnehmen, sobald verfügbar.
+- [ ] Konkrete Angebote/Rechnungen für Alarm-Pro, Sylt-Kontrollpaket, deutsche Kelly-Preise und flexible Adlon-Referenzrate erhalten.
+
+[Ergebnisse, Grenzen und sämtliche Nachweise](jahresfenster-und-restbelege-2026-10-26.md). Zeitregel-Freigabe bedeutet keine produktive Gesamtindexfreigabe: nominale Teilpreise, individuelle Vollkosten, unabhängige redaktionelle Prüfung und erforderliche Rechte-/Verantwortungsangaben bleiben getrennte Fragen. YCL 2023/24 und eine vollständige Ski-Hotelkomponente sind optionale Erweiterungen, keine pauschalen Aufnahmehürden für die vorhandenen definierten Tarife.
 
 ## Reihenfolge und Aufwand
 

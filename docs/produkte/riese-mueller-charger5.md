@@ -1,5 +1,44 @@
 # Riese & Müller Charger5 vario
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Oktober-Modellpreis und aktuelle Endpreisregel belegt.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/9 Gewicht; keine produktive Gesamtindexfreigabe.
+
+## Preisdefinition und Zeitbezug
+
+Charger5 vario Modell-Ab-Preis; keine erfundene Endkonfiguration aus optionalen Kits.
+
+EUR je Modell-Ab-Preis. Nominaler Modellpreis mit dokumentiertem Gabel-/Nabenwechsel; kein Preisvergleich identischer Ausstattung. Oktober-2025-Modellpreis direkt belegt; aktuelle Online-Shop-AGB § 5 bestätigen MwSt. und Fachhändlerversand. Historische Endkonfiguration bleibt unbestätigt.
+
+| Jahresrunde | Gewählter Beleg / Tarif | Betrag | Originalquellen |
+|---|---|---:|---|
+| 2025 | 2025-10-16 | 6.199,00 € | [Charger5 vario, archivierter deutscher Herstellerstand 16.10.2025](https://web.archive.org/web/20251016003952/https://www.r-m.de/de/bikes/charger5/) |
+| 2026 | 2026-10-16 | 6.499,00 € | [Riese & Müller Charger5 vario](https://www.r-m.de/de/bikes/charger5/charger5-vario/) |
+
+Nominale Veränderung: **+4,84 %**.
+
+Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.
+
+## Was jetzt geklärt ist
+
+- Originalhersteller Oktober 2025: Charger5 vario 6.199 EUR, 800 Wh/Kiox 500; CORE/HS/Pinion ausgeschlossen.
+- Aktueller Modell-/Basiskonfigurationspreis 6.499 EUR bestätigt, ohne optionale Kits.
+- Aktuelle Online-Shop-AGB § 5: gesetzliche MwSt. und Versand zum deutschen Fachhändler enthalten. Stand 02.07.2026 wird nicht rückdatiert.
+- SR Suntour Mobie 34/Enviolo Heavy Duty → Fox AWL 34/Enviolo Utility V1 dokumentiert. Nominale Premiumfortführung beschlossen.
+
+## Grenze und nächster Nachweis
+
+- Vollständige historische pine/L-Endkonfiguration und historische Steuer-/Lieferbedingungen nicht separat bestätigt. Komponentenlisten enthalten auch Optionen.
+
+**Nächste Aktion:** Modellpreisgeschichte ist verwendbar; identische Endkonfiguration ist nach Nutzerregel keine zusätzliche Voraussetzung. Erweiterte Rechnung nur für Konfigurations-/Vollkostenanspruch.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Aktuelle Auswahlentscheidung · 23.10.2026:** Charger5 vario 2025 → 2026 bleibt das vergleichbarste im Material belegte Premiumangebot derselben Modellfamilie und vario-Stufe, mit 800 Wh und Kiox 500. Die [Premium-Auswahlregel](../premiumvergleich.md) erlaubt die nominale Fortführung trotz dokumentiertem Gabel-/Nabenwechsel. 6.199 → 6.499 € sind Modell-Ab-Preise; die vollständige identische pine/L-Endkonfiguration ist nicht nachgewiesen. Die folgenden Abschnitte dokumentieren die früheren Prüfstände.
 
 **Premium-Mobilität · Deutschland · Recherche vom 16.10.2026**  
@@ -56,3 +95,5 @@ Kein abschließend nachgewiesener Endpreis der festgelegten Farbe pine/Rahmengr�
 6.199→6.499 EUR nicht als reine Inflation ausweisen. Historische Endkonfiguration und Bewertung des Ausstattungswechsels fehlen.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+</details>

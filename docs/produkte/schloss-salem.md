@@ -1,5 +1,43 @@
 # Schloss Salem: Schul- und Internatsgeld
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Regulärer Jahrestarif belegt.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/9 Gewicht; keine produktive Gesamtindexfreigabe.
+
+## Preisdefinition und Zeitbezug
+
+Klasse 8, regulärer voller Tarif, keine Ermäßigungen.
+
+EUR je Schuljahr (zwölf Monatsraten). Zwölf Monatsraten für Schuljahr 2025/26 beziehungsweise 2026/27; keine tatsächlichen Kalenderjahresausgaben.
+
+| Jahresrunde | Gewählter Beleg / Tarif | Betrag | Originalquellen |
+|---|---|---:|---|
+| 2025 | Schuljahr 2025/26 | 50.400,00 € | [Salem: Schul- und Internatsgeld 2025/2026 im Internet Archive](https://web.archive.org/web/20240912170039/https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem-Aufnahme.pdf) |
+| 2026 | Schuljahr 2026/27 | 53.400,00 € | [Salem Schul- und Internatsgeld 2026/27](https://www.schule-schloss-salem.de/fileadmin/02_Aufnahme_und_Stipendien/Aufnahme/Salem_Schul_und_Internatsgeld_2026_2027.pdf) |
+
+Nominale Veränderung: **+5,95 %**.
+
+Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf.
+
+## Was jetzt geklärt ist
+
+- Klasse 8 gehört zu Klassen 5–10, 2026/27 4.450 EUR monatlich bzw. 53.400 jährlich.
+- Archivblatt benennt 2025/26 4.200 monatlich bzw. 50.400 jährlich; Archivdatum 2024 nicht als Tarifjahr verwendet.
+- AVB und Gebührenblatt bestätigen zwölf Monate, Schuljahrbeginn September und separate Nebenkosten.
+
+## Grenze und nächster Nachweis
+
+- Keine Gesamtbildungsausgaben einschließlich sämtlicher Nebenkosten oder Messung der Bildungsqualität.
+
+**Nächste Aktion:** Keine weitere Hürde für regulären Schul-/Internatsgrundtarif.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Bildung · Deutschland · Prüfstand 16.10.2026**  
 **Status:** eindeutig datierte Gebührentabellen; ältere Schuljahre fehlen.
 
@@ -37,3 +75,5 @@ Keine Jahresdurchschnitte; festes Klassenprofil statt mitwachsendem Schüler. Ra
 Gebührenreihe als abgegrenzte Tarifreihe nutzbar. Faktische Lehrqualität und individuelle Zusatzkosten sind nicht gemessen; keine vollständigen Ausbildungskosten.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+</details>

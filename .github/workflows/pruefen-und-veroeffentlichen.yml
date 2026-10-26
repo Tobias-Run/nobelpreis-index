@@ -29,7 +29,7 @@ jobs:
       - name: Daten und Website bauen
         run: python3 scripts/build-release.py
       - name: Erzeugte Dateien müssen zum Commit passen
-        run: git diff --exit-code -- dist data/methodik docs/produktstatus.md
+        run: git diff --exit-code -- dist data/methodik data/analysen data/research/produktregister.json docs/produktstatus.md
       - name: Eingabedaten und Berechnung prüfen
         run: |
           python3 -m unittest discover -s tests -p 'test_*.py'

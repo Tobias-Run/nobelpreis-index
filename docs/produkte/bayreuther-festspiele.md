@@ -1,5 +1,43 @@
 # Bayreuther Festspiele: Parsifal im Parkett
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Tarif und Pflichtgebühr belegt.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/9 Gewicht; keine produktive Gesamtindexfreigabe.
+
+## Preisdefinition und Zeitbezug
+
+Höchste belegte Kategorie A1, online/digital ohne AR; Pflichtgebühr je Ticket zusätzlich.
+
+EUR je A1-Ticket einschließlich Pflichtgebühr. 352 EUR plus 6 EUR Pflichtgebühr; Verfügbarkeit und Warteliste bleiben unbepreist.
+
+| Jahresrunde | Gewählter Beleg / Tarif | Betrag | Originalquellen |
+|---|---|---:|---|
+| 2025 | Festspielsaison 2025 | 358,00 € | [Bayreuth Preistabelle 2025](https://www.bayreuther-festspiele.de/wp-content/uploads/2025/05/bayreuther-festspiele-saalplan-preise-2025-de.pdf) · [Bayreuth AGB 2025](https://ticketshop.bayreuther-festspiele.de/static/files/AGB_2025_DE.pdf) |
+| 2026 | Festspielsaison 2026 | 358,00 € | [Bayreuth Preistabelle 2026](https://www.bayreuther-festspiele.de/wp-content/uploads/2025/07/bayreuther-festspiele-magazin-2026-en-small.pdf) · [Bayreuth AGB 2026](https://ticketshop.bayreuther-festspiele.de/static/files/AGB_2026_DE.pdf) |
+
+Nominale Veränderung: **+0,00 %**.
+
+Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam.
+
+## Was jetzt geklärt ist
+
+- 352 EUR Parsifal A1 und 6 EUR je verkauftem Platz in Primärquellen geprüft.
+- Online/digital ohne schriftliche Bestell- oder Postgebühr definiert.
+- 2024–2026 werden als Festspieljahre ausgewiesen.
+
+## Grenze und nächster Nachweis
+
+- Verfügbarkeit/Wartezeit unbepreist; kein einzelner Steuersatz ohne expliziten Beleg unterstellt.
+
+**Nächste Aktion:** Keine weitere Hürde für veröffentlichten 358-EUR-Zahlbetrag; keine bestätigte Verfügbarkeit behaupten.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Kultur · Bayreuth · Recherche vom 16.10.2026**  
 **Status:** zwei offizielle Saisonbelege einschließlich Pflichtgebühr. [Rechercheübersicht](../produktrecherche-rest-2026-10-16.md)
 
@@ -45,3 +83,5 @@ Abruf aller Quellen: 16.10.2026. PDF-Prüfsummen und Einzelbeträge stehen in de
 Gesetzlichen Einzel-Steuersatz nicht aus Endbetrag erfinden. Bestehende Pilot-Teilreihe unverändert; keine Aussage über freie Verfügbarkeit.
 
 [Prüfbericht und detaillierter Abgleich](../rechercheabschluss-und-gewichtung-2026-10-17.md) · [Neuer Datenstand](../../data/research/produktpruefung-2026-10-17.json) · [Konkrete Beleganforderungen](../anbieteranfragen-2026-10-17.md). Keine automatische Indexfreigabe.
+
+</details>

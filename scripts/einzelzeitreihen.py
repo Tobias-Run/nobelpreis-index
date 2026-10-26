@@ -13,7 +13,7 @@ def erstellen(beobachtungen):
     salem = [punkt(f'salem-archiv-{y}' if y < 2026 else 'salem-2026', y,
                    f'Schuljahr {y}/{str(y+1)[2:]}', f'{y}-09', f'{y}-09-01')
              for y in range(2021, 2027)]
-    ski = [punkt(oid, y, f'Saison {y}/{str(y+1)[2:]}', f'{y}-12',
+    ski = [punkt(oid, y+1, f'Saison {y}/{str(y+1)[2:]}', f'{y}-12',
                  beobachtungen[oid]['gültigkeit']['von'])
            for y, oid in [(2023, 'ski-archiv-2023'), (2024, 'ski-beleg-2024'), (2025, 'ski-2025')]]
     reihen = [
@@ -25,7 +25,7 @@ def erstellen(beobachtungen):
         {'id': 'arlberg-skipass', 'produkt_id': 'skiurlaub-arlberg', 'kurzname': 'Arlberg · Sechstage-Skipass',
          'einheit': 'EUR je erwachsener Person und Sechstagepass', 'punkte': ski,
          'definition': 'Sechs unmittelbar aufeinanderfolgende Tage, Erwachsener, Hauptsaison, inklusive USt.; rückzahlbares Kartendepot separat.',
-         'zeitbezug': 'VPI: Dezember im Beginnjahr der Wintersaison, entsprechend dem dokumentierten Beginn der Hauptsaison. Jahresmarken bezeichnen die Saison, keine vollständigen Kalenderjahre.',
+         'zeitbezug': 'Jahresmarke: Ende der Wintersaison, einheitlich mit der Jahresrunde. VPI der Einzelkurve: Dezember im Beginnjahr, entsprechend dem dokumentierten Hauptsaisonbeginn. Zum Beispiel steht 2025 für 2024/25 und verwendet Dezember 2024. Keine vollständigen Kalenderjahresausgaben.',
          'grenze': 'Nur Skipass, kein Skiurlaub: ohne Hotel, Anreise, Verpflegung und Ausrüstung. Keine Annahme unveränderter Pistenkilometer oder Liftzahl. Veröffentlichte teils vorläufige Tarife, keine Transaktionen. 2026/27 ist angekündigt und ausgeschlossen.'},
     ]
     for start, end, suffix, ref in [(2019, 2023, '2019-2023', '201.027 / LA100063'), (2024, 2026, '2024-2026', '201.027-LB / LB100063')]:

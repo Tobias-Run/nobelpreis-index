@@ -1,5 +1,43 @@
 # Ein Sommerliegeplatz am Bodensee
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**2025/26-Flächentarif belegt; alte Jahre extern offen.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/9 Gewicht; keine produktive Gesamtindexfreigabe.
+
+## Preisdefinition und Zeitbezug
+
+Segelboot, Sommersaison, brutto je m²; kein Wechsel zu einem anderen Bootstyp.
+
+EUR je m² und Sommersaison. Nur Flächentarif, kein Gesamtliegeplatz. Ohne angenommene Bootsfläche oder unbestätigte Pflichtbestandteile; 2023/24 für diesen 2025/26-Vergleich nicht nötig.
+
+| Jahresrunde | Gewählter Beleg / Tarif | Betrag | Originalquellen |
+|---|---|---:|---|
+| 2025 | Sommergebühr 2025 | 96,00 € | [YCL Gebührenordnung 2025](https://ycla.de/wp-content/uploads/2025/08/2025-Gebuehrenordnung-Mitglied-Wasser-unterschrieben.pdf) |
+| 2026 | Sommergebühr 2026 | 96,50 € | [YCL Gebührenordnung 2026](https://ycla.de/wp-content/uploads/2026/05/2026-Gebuehrenordnung-Verein-Liegeplaetze.pdf) |
+
+Nominale Veränderung: **+0,52 %**.
+
+Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis.
+
+## Was jetzt geklärt ist
+
+- 96 → 96,50 EUR/m², 7 % MwSt., Beschluss-/Gültigkeitsdaten erneut am Original geprüft.
+- Aktuelles Downloadverzeichnis und gezielte alte/migrierte 2023/24-Pfade geprüft; direkte PDFs 404, CDX-Abfragen ohne passenden Tarif.
+- Hafen-/Wartelistenregeln bleiben getrennt vom nicht belegten Zugangspreis.
+
+## Grenze und nächster Nachweis
+
+- Original-Gebührenordnungen 2023/24 und verbindliche Flächenformel nicht gewonnen.
+
+**Nächste Aktion:** Für die bestehende €/m²-Reihe kein Zusatzbeleg nötig. Für Rückverlängerung/Bootsgesamtpreis Original-PDF bzw. bestätigte Abrechnungsformel beschaffen.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Segeln · Yacht-Club Langenargen · Recherche vom 16.10.2026**  
 **Status:** offizielle Gebühren 2025/26 belegt; standardisierter Gesamtpreis noch offen. [Rechercheübersicht](../produktrecherche-rest-2026-10-16.md)
 
@@ -64,3 +102,5 @@ Die 2022-Liste wurde 2023 archiviert. Fehlende Jahreswerte 2023/2024 werden nich
 Domain- und exakte PDF-Abfragen erneut geprüft; Gebührenordnungen 2023/2024 weiterhin nicht abrufbar. Satzung und Vergabekriterien ersetzen keine Tarife. Keine Preise aus Linknamen oder benachbarten Jahren abgeleitet.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>

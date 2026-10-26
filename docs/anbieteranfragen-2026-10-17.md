@@ -1,5 +1,8 @@
 # Vorbereitete Beleganforderungen
 
+**Aktualisierung 26.10.2026:** Die öffentliche Nachrecherche ist abgeschlossen; [Ergebnis und Grenzen](jahresfenster-und-restbelege-2026-10-26.md). Für die bestehende nominale Preisdefinition sind keine identischen Charger5-Komponenten, keine Erklärung des Saxonia-LB-Suffixes und keine vollständige Lanserhof-Aufenthaltsrechnung mehr pauschale Voraussetzungen. Die vergleichbarste Premiumstufe gilt. Verbindlich offen sind konkrete Belege für **Alarm-Pro, Sylt-Kontrollpaket, deutsche Kelly-Preise und flexible Adlon-Referenzrate**. YCL 2023/24 und die Flächenformel betreffen Rückverlängerung/Gesamtliegeplatzkosten. Ein vollständiger Skiurlaub ist eine Erweiterung des derzeit ausdrücklich beobachteten Skipasses. Die folgenden älteren Vorlagen bleiben als Arbeitsmaterial erhalten; **keine Anfrage wurde versandt**.
+
+
 Stand: 17.10.2026. **Recherchevorlagen, nicht versandt.** Absender-/Kontaktdaten sind vor Versand einzusetzen. Keine Buchungs- oder Kaufanfrage, keine Behauptung einer tatsächlichen Kundenbeziehung. Ziel ist eine redaktionelle Preisrecherche für Nobelpreis.
 
 Für alle Anfragen: Bitte um genaue Variante/Leistung, deutschen Markt-/Steuerbezug, Preisart, Gültigkeitsdatum, sämtliche Pflichtkosten, historische Änderungen sowie Erlaubnis zur Veröffentlichung der einzelnen Preisfakten und einer Quellenangabe. Vollständige Rechnungen/Unterlagen nur mit geklärten Rechten und ohne personenbezogene Kundendaten veröffentlichen.

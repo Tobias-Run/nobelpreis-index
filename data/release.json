@@ -1,13 +1,17 @@
 {
-  "version": "poc-0.6.0",
+  "version": "poc-0.7.0",
   "ansicht_stand": "2026-10-26",
-  "recherche": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
-  "auswahl": "data/methodik/pragmatische-auswahl-2026-10-26.json",
+  "recherche": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+  "auswahl": "data/methodik/pragmatische-auswahl-forschungsstand-2026-10-26.json",
   "premiumregel": "data/methodik/premiumvergleich-2026-10-23.json",
   "gewichtung": "data/methodik/gewichtung-2026-10-17.json",
   "vpi_pilot": "data/sources/bundesbank-vpi-monatlich-2024-2026-2026-10-16.csv",
   "vpi_pilot_abruf": "2026-10-16",
   "vpi_einzelreihen": "data/sources/bundesbank-vpi-monatlich-2019-2026-2026-10-20.csv",
-  "standardansicht": "salem-grundtarif",
-  "status": "Forschungsstand: nominale Premiumangebote, keine repräsentative Haushaltsinflation"
+  "standardansicht": "herbst9",
+  "status": "Forschungsstand: nominale Premiumangebote, keine repräsentative Haushaltsinflation",
+  "herbstvergleich": "data/methodik/jahresfenster-2026-10-26.json",
+  "fachpruefung": "data/reviews/fachpruefung-2026-10-26.json",
+  "belegprotokoll": "data/research/restbelege-protokoll-2026-10-26.json",
+  "jahresanalyse": "data/analysen/herbstvergleich-2026-10-26.json"
 }

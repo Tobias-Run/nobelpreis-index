@@ -1,5 +1,28 @@
 # Hermès Kelly: Preis und Zugang getrennt
 
+**Aktueller Prüfstand · 26.10.2026**
+
+**Nur eine passende historische verfügbare Preisbeobachtung.** Öffentliche Nachrecherche abgeschlossen. Außerhalb der festen Neuner-Zusammensetzung, bis passende Belege vorliegen.
+
+## Was jetzt geklärt ist
+
+- Zusätzlicher deutscher Händler Handbag Sense: exakte Kelly 28 Retourné Togo Schwarz/Gold, ungetragen und Zubehör, aber verkauft und ohne eigenen Preis.
+- PurseBop nennt 2026 10.100 EUR für Europa. Das bestätigt weder einen deutschen Boutique-Beleg noch exakte deutsche Steuer-/Variantenbedingungen.
+- Aktuelle SACLÀB-Übersicht und frühere Produktadresse geprüft; keine zweite passende verfügbare Preisbeobachtung.
+
+## Grenze und nächster Nachweis
+
+- Deutscher datierter Boutique-Beleg und aktuelles verfügbares Zweitmarktangebot derselben Variante fehlen. Kein verifizierter Markup.
+
+**Nächste Aktion:** Externes Boutique-Kassenblatt bzw. anonymisierte Rechnung und genau passendes verfügbares Angebot benötigt. Bis dahin außerhalb des Warenkorbs.
+
+[Gemeinsame Zeitregeln, Rechnung und Restbelege](../jahresfenster-und-restbelege-2026-10-26.md) · [Strukturierte Fachprüfung](../../data/reviews/fachpruefung-2026-10-26.json) · [Abrufprotokoll und Prüfsummen](../../data/research/restbelege-protokoll-2026-10-26.json)
+
+Geprüft wurden öffentlich zugängliche Quellen; keine Anbieter angeschrieben. Preise und eigene Auswertungen werden veröffentlicht, keine vollständigen Fremdbelege. Die Prüfung ist keine unabhängige Zweitredaktion.
+
+<details>
+<summary>Frühere Recherche- und Prüfstände</summary>
+
 **Lederwaren · Deutschland · Prüfstand 16.10.2026**  
 **Status:** kein ausreichend belegter deutscher Boutique-Preis.
 
@@ -40,3 +63,5 @@ Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Ve
 Drei weitere archivierte SACLÀB-Angebote 2023/2024 gelesen und wegen ausverkauftem Status und/oder abweichendem Zustand bzw. Beschlägen ausgeschlossen. Keine zweite passende verfügbare Beobachtung und kein deutscher Boutique-Beleg.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>
