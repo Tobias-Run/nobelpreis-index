@@ -1,5 +1,7 @@
 # Pragmatischer Startwarenkorb · Entscheidung vom 21.10.2026
 
+**Nachtrag 26.10.2026:** Für Menü II verwendet die [neue Auswahlversion](../data/methodik/pragmatische-auswahl-2026-10-26.json) einen Oktober-2025-Primärbeleg zu ebenfalls 325 € statt des Märzfotos. Der [Deep Dive](schwarzwaldstube-preisanstieg-2026-10-26.md) belegt außerdem 385 € bereits im Dezember 2025. Preise, Gewichte und nominales Ergebnis bleiben unverändert; der folgende Text hält die ursprüngliche Entscheidung fest.
+
 Der Startumfang wird auf **neun belegte Positionen** festgelegt. Für 2025/2026 liegen zu jeder Position zwei tatsächlich dokumentierte Werte vor. Wir zeigen daraus einen **experimentellen nominalen Preisvergleich**, gleich gewichtet mit je 1/9. Das löst Auswahlfragen und nicht notwendige historische Lücken, ohne Preise zu erfinden. Die vier Positionen ohne zwei geeignete Werte bleiben außerhalb dieses Warenkorbs.
 
 Auftrag: Datenlücken pragmatisch schließen und im Zweifel die höchste Variante wählen. **Die höhere belegte Ausführung wird innerhalb gleicher Leistung, Einheit und Dauer vorab festgelegt.** Kein jährlicher Wechsel auf den jeweils höchsten Preis, keine Auswahl nach größtem Anstieg. Ein teureres Produkt anderer Art, eine längere Behandlungsdauer, zwei statt einer Person oder ein anderer Anbieter ist kein stillschweigender Ersatz. Bereits eindeutig festgelegte Referenzmodelle behalten ihre Identität. Ein hypothetisch höher ausgestattetes Modell ohne belegte Historie bekommt keine erfundenen Preise.

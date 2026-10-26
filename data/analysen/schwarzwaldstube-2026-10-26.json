@@ -1,0 +1,92 @@
+{
+  "stand": "2026-10-26",
+  "annahme": "Steuermodell für Speisen ohne Getränke: 19 Prozent im Jahr 2025, 7 Prozent ab Januar 2026. Keine Restaurantrechnung oder Buchhaltung geprüft. Nettoangaben sind eigene Ableitungen, keine beobachteten Nettoangebote.",
+  "paare": [
+    {
+      "von_id": "schwarzwald-2025-menue",
+      "bis_id": "schwarzwald-2026-menue",
+      "von": "2025-03-16",
+      "bis": "2026-10-16",
+      "tage": 579,
+      "brutto_aenderung_prozent": 18.46153846153846,
+      "annualisiert_prozent": 11.279146469230872
+    },
+    {
+      "von_id": "schwarzwald-original-archiv-2025-10",
+      "bis_id": "schwarzwald-2026-menue",
+      "von": "2025-10-14",
+      "bis": "2026-10-16",
+      "tage": 367,
+      "brutto_aenderung_prozent": 18.46153846153846,
+      "annualisiert_prozent": 18.365467880959898
+    },
+    {
+      "von_id": "schwarzwald-original-archiv-2025-12",
+      "bis_id": "schwarzwald-2026-menue",
+      "von": "2025-12-01",
+      "bis": "2026-10-16",
+      "tage": 319,
+      "brutto_aenderung_prozent": 0.0,
+      "annualisiert_prozent": 0.0
+    }
+  ],
+  "annualisierung_hinweis": "Geometrische Zeitnormalisierung mit 365,2425 Tagen pro Jahr, keine gemessene Kalenderjahresinflation und kein unterstellter Verlauf zwischen Belegen.",
+  "steuerstufen": [
+    {
+      "beobachtung_id": "schwarzwald-original-archiv-2025-10",
+      "brutto_eur": 325.0,
+      "ust_prozent_modell": 19,
+      "ohne_ust_eur_modell": 273.109243697479
+    },
+    {
+      "beobachtung_id": "schwarzwald-original-archiv-2025-12",
+      "brutto_eur": 385.0,
+      "ust_prozent_modell": 19,
+      "ohne_ust_eur_modell": 323.52941176470586
+    },
+    {
+      "beobachtung_id": "schwarzwald-2026-menue",
+      "brutto_eur": 385.0,
+      "ust_prozent_modell": 7,
+      "ohne_ust_eur_modell": 359.8130841121495
+    }
+  ],
+  "nettoaenderung_modell_325_zu385_prozent": 31.746944644140907,
+  "nettoaenderung_modell_385_zu385_prozent": 11.214953271028037,
+  "gegenfaktisch_konstantes_netto": {
+    "brutto_bei_7_prozent_aus_325_eur_2025": 292.2268907563025,
+    "brutto_bei_7_prozent_aus_385_eur_ende2025": 346.1764705882353,
+    "hinweis": "Reine Rechenfälle. Kein Beleg einer zugesagten oder unterlassenen Preisweitergabe, keine Erklärung von Kosten oder Gewinnmarge."
+  },
+  "vpi": {
+    "passender_zeitraum": "2025-10 bis 2026-10",
+    "startwert": 123.0,
+    "endwert": null,
+    "hinweis": "Oktober 2026 im verwendeten Bundesbank-Beleg nicht vorhanden; kein Ersatz durch September und kein zeitgleicher Inflationsabstand."
+  },
+  "neuner_experiment": {
+    "anstieg_prozent": 4.60268385287643,
+    "menuegewicht": 0.1111111111111111,
+    "menuebeitrag_prozentpunkte": 2.051282051282051,
+    "menueanteil_am_nettoanstieg_prozent": 44.5670855711741,
+    "andere_basis_nur_als_diagnose": {
+      "menuepaar": "Dezember 2025 385 EUR gegen Oktober 2026 385 EUR",
+      "anstieg_neuner_prozent": 2.5514018015943787,
+      "hinweis": "Alle anderen Preisverhältnisse unverändert. Anderes Beobachtungsfenster, kein Ersatzindex und keine neue Auswahlentscheidung."
+    }
+  },
+  "eingaben": [
+    {
+      "datei": "data/research/schwarzwaldstube-vertiefung-2026-10-26.json",
+      "sha256": "a79a3eb811fbe77d2713f8653e286f759ed975e74ff4e37241134abfc32a4c90"
+    },
+    {
+      "datei": "data/methodik/pragmatische-auswahl-2026-10-26.json",
+      "sha256": "687c08670d2c5891acf347736009cfd76761e0facd8e41a732ae4b518d76c038"
+    },
+    {
+      "datei": "data/sources/bundesbank-vpi-monatlich-2019-2026-2026-10-20.csv",
+      "sha256": "b0f3f692007959a54585d21b06c2748cfee5fe2c27d75016ca263730fe00d018"
+    }
+  ]
+}

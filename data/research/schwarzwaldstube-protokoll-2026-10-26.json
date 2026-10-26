@@ -1,0 +1,696 @@
+{
+  "stand": "2026-10-26",
+  "aufgabe": "Unabhängige Chronologieprüfung Schwarzwaldstube Menü II 325→385",
+  "methodik": [
+    "Nur gelesene Originalkarten ergeben konkrete Menü-II-Beobachtungen.",
+    "Archivcapture ist Angebotsbeobachtung; keine Rückdatierung auf Dateinamen oder PDF-Metadatum.",
+    "Zeitgenössische Sekundärberichte ergänzen, ersetzen aber nicht den genauen Menü-II-Beleg.",
+    "Vier neue historische Originalkarten-Beobachtungen in den Forschungsstand 26.10.2026 aufgenommen; bestehende Preisbelege unverändert erhalten."
+  ],
+  "ergebnis": {
+    "eingangspreise_bestaetigt": true,
+    "menue_ii_325_archiv_belegt_bis": "2025-10-14",
+    "menue_ii_385_archiv_belegt_spaetestens": "2025-12-01",
+    "genaues_preisaenderungsdatum": null,
+    "zwischenpreis_menue_ii_gefunden": false,
+    "bewertung": "325→385 ist bereits zwischen 2025er Karten belegt. Kein Nachweis eines erst 2026 erfolgten Preissprungs oder einer konsistenten Kalenderjahresinflation."
+  },
+  "menue_ii_beobachtungen": [
+    {
+      "id": "menu-juni2025",
+      "produkt": "Schwarzwaldstube Degustationsmenü II",
+      "betrag_eur": 325,
+      "preisart": "Veröffentlichter Menüpreis",
+      "steuer": "inklusive MwSt. laut Originalkarte",
+      "menuepositionen": 7,
+      "datumstyp": "Archivierter Angebotsstand",
+      "archiv_capture_utc": "2025-06-14T11:03:57Z",
+      "beobachtet_am": "2026-10-26",
+      "gueltigkeit_beginn": null,
+      "beleg_url": "https://web.archive.org/web/20250614110357id_/https://www.traube-tonbach.de/site/assets/files/22445/schwarzwaldstube_d_06-2025_rz-web.pdf",
+      "sha256": "c5ed1b204a393bebbc1ff630b3aaf48601fc1086edca1a929bbe633ebe8ba965",
+      "memento_datetime": "Sat, 14 Jun 2025 11:03:57 GMT",
+      "pdf_metadaten": {
+        "Title": "Schwarzwaldstube_D_06-2025_RZ.indd",
+        "CreationDate": "Wed Jun  4 14:49:29 2025 UTC",
+        "ModDate": "Thu Jun  5 06:21:36 2025 UTC"
+      },
+      "preise_andere_menues_eur": {
+        "I": 325,
+        "II": 325
+      },
+      "hinweise": [
+        "Capture, PDF-Erstellung und HTTP-Änderung sind kein belegtes Wirksamkeitsdatum des Preises.",
+        "Speisen ändern sich; sieben Positionen allein beweisen keine konstante Qualität."
+      ],
+      "indexfreigabe": false
+    },
+    {
+      "id": "menu-august2025",
+      "produkt": "Schwarzwaldstube Degustationsmenü II",
+      "betrag_eur": 325,
+      "preisart": "Veröffentlichter Menüpreis",
+      "steuer": "inklusive MwSt. laut Originalkarte",
+      "menuepositionen": 7,
+      "datumstyp": "Archivierter Angebotsstand",
+      "archiv_capture_utc": "2025-10-14T22:42:21Z",
+      "beobachtet_am": "2026-10-26",
+      "gueltigkeit_beginn": null,
+      "beleg_url": "https://web.archive.org/web/20251014224221id_/https://www.traube-tonbach.de/site/assets/files/22445/schwarzwaldstube_d_08-2025_04web.pdf",
+      "sha256": "e6b28c93320ce40335e89abcdcbcd5e2f7716fd76243c2853697973a8c28193a",
+      "memento_datetime": "Tue, 14 Oct 2025 22:42:21 GMT",
+      "pdf_metadaten": {
+        "CreationDate": "Mon Aug  4 07:45:39 2025 UTC",
+        "ModDate": "Mon Aug  4 07:45:39 2025 UTC"
+      },
+      "preise_andere_menues_eur": {
+        "I": 325,
+        "II": 325,
+        "vegetarisch": 295
+      },
+      "hinweise": [
+        "Capture, PDF-Erstellung und HTTP-Änderung sind kein belegtes Wirksamkeitsdatum des Preises.",
+        "Speisen ändern sich; sieben Positionen allein beweisen keine konstante Qualität."
+      ],
+      "indexfreigabe": false
+    },
+    {
+      "id": "menu-20251201",
+      "produkt": "Schwarzwaldstube Degustationsmenü II",
+      "betrag_eur": 385,
+      "preisart": "Veröffentlichter Menüpreis",
+      "steuer": "inklusive MwSt. laut Originalkarte",
+      "menuepositionen": 7,
+      "datumstyp": "Archivierter Angebotsstand",
+      "archiv_capture_utc": "2025-12-01T12:19:23Z",
+      "beobachtet_am": "2026-10-26",
+      "gueltigkeit_beginn": null,
+      "beleg_url": "https://web.archive.org/web/20251201121923id_/https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_D_11-2025_02.pdf",
+      "sha256": "cb7da8a54990a7fff2bee8eab20b20497d0e729b07e70b3794e66aca810bbb2e",
+      "memento_datetime": "Mon, 01 Dec 2025 12:19:23 GMT",
+      "pdf_metadaten": {
+        "CreationDate": "Thu Nov 13 16:40:23 2025 UTC",
+        "ModDate": "Thu Nov 13 16:40:23 2025 UTC"
+      },
+      "preise_andere_menues_eur": {
+        "I": 355,
+        "II": 385,
+        "vegetarisch": 355
+      },
+      "hinweise": [
+        "Capture, PDF-Erstellung und HTTP-Änderung sind kein belegtes Wirksamkeitsdatum des Preises.",
+        "Speisen ändern sich; sieben Positionen allein beweisen keine konstante Qualität."
+      ],
+      "indexfreigabe": false
+    },
+    {
+      "id": "menu-20260408",
+      "produkt": "Schwarzwaldstube Degustationsmenü II",
+      "betrag_eur": 385,
+      "preisart": "Veröffentlichter Menüpreis",
+      "steuer": "inklusive MwSt. laut Originalkarte",
+      "menuepositionen": 7,
+      "datumstyp": "Archivierter Angebotsstand",
+      "archiv_capture_utc": "2026-04-08T00:07:29Z",
+      "beobachtet_am": "2026-10-26",
+      "gueltigkeit_beginn": null,
+      "beleg_url": "https://web.archive.org/web/20260408000729id_/https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_D_01-2026_RZ-WEB.pdf",
+      "sha256": "37ce448e5932789e302d9001cf9aecaa2b2eece59983545aa941358d87c189d1",
+      "memento_datetime": "Wed, 08 Apr 2026 00:07:29 GMT",
+      "pdf_metadaten": {
+        "CreationDate": "Fri Jan 16 07:28:56 2026 UTC",
+        "ModDate": "Tue Feb  3 12:17:50 2026 UTC"
+      },
+      "preise_andere_menues_eur": {
+        "I": 355,
+        "II": 385,
+        "vegetarisch": 355
+      },
+      "hinweise": [
+        "Capture, PDF-Erstellung und HTTP-Änderung sind kein belegtes Wirksamkeitsdatum des Preises.",
+        "Speisen ändern sich; sieben Positionen allein beweisen keine konstante Qualität."
+      ],
+      "indexfreigabe": false
+    },
+    {
+      "id": "current-menu",
+      "produkt": "Schwarzwaldstube Degustationsmenü II",
+      "betrag_eur": 385,
+      "preisart": "Veröffentlichter Menüpreis",
+      "steuer": "inklusive MwSt. laut Originalkarte",
+      "menuepositionen": 7,
+      "datumstyp": "Aktuelles Beobachtungsdatum",
+      "archiv_capture_utc": null,
+      "beobachtet_am": "2026-10-26",
+      "gueltigkeit_beginn": null,
+      "beleg_url": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+      "sha256": "cca024ce53309649441d7894fcdd5cf151b7669014ea9a404dfbaafec48424b1",
+      "memento_datetime": null,
+      "pdf_metadaten": {
+        "Title": "Schwarzwaldstube_D_08-2026_03.indd",
+        "CreationDate": "Mon Aug 24 06:33:48 2026 UTC",
+        "ModDate": "Fri Oct  9 12:56:40 2026 UTC"
+      },
+      "preise_andere_menues_eur": {
+        "I": 385,
+        "II": 385,
+        "vegetarisch": 355
+      },
+      "hinweise": [
+        "Capture, PDF-Erstellung und HTTP-Änderung sind kein belegtes Wirksamkeitsdatum des Preises.",
+        "Speisen ändern sich; sieben Positionen allein beweisen keine konstante Qualität."
+      ],
+      "indexfreigabe": false
+    }
+  ],
+  "sekundaerbeleg_swp": {
+    "url": "https://web.archive.org/web/20251125085733id_/https://www.swp.de/lokales/horb/bestes-restaurant-der-welt-die-schwarzwaldstube-verkoerpert-was-grosse-kueche-in-deutschland-ausmacht-78473035.html",
+    "archiv_capture_utc": "2025-11-25T08:57:33Z",
+    "memento_datetime": "Tue, 25 Nov 2025 08:57:33 GMT",
+    "sha256": "965ac5ebd905ff461ca40ee708bb475251644986d51aee84cb0476c6a6180c89",
+    "publiziert_laut_seite": "2025-11-25T09:22:14+01:00",
+    "dateModified_laut_seite": "2025-11-25T09:22:14+01:00",
+    "preisband_eur": [
+      355,
+      385
+    ],
+    "belegart": "Zeitgenössisch archivierter redaktioneller Fließtext",
+    "grenze": "Preisband für Degustationsmenüs; keine direkte Menü-II-Einzelpreiszuordnung. Kein exaktes Änderungsdatum."
+  },
+  "weitere_sekundaerquellen": [
+    {
+      "id": "pudlowski2025",
+      "publiziert": "2025-05-22",
+      "preisband_eur": [
+        295,
+        325
+      ],
+      "grenze": "Publikationsdatum, kein eigenständiger exakter Preisstichtag; keine unveränderliche Archivfassung in dieser Prüfrunde gelesen."
+    },
+    {
+      "id": "gusto",
+      "aktualisiert_laut_seite": "2026-07",
+      "preisband_eur": [
+        355,
+        385
+      ]
+    },
+    {
+      "id": "new-review",
+      "publiziert": "2026-10-05T18:57:00.000Z",
+      "besuch_laut_bericht": "Oktober 2026",
+      "menue_ii_eur": 385
+    }
+  ],
+  "abrufe": [
+    {
+      "id": "cdx-22445-prefix",
+      "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22445%2F%2A&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "retrieved_at_utc": "2026-10-26T07:40:39.349600+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22445%2F%2A&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "content_type": "application/json",
+      "last_modified_http": null,
+      "memento_datetime": null,
+      "x_archive_src": null,
+      "x_archive_orig_last_modified": null,
+      "sha256": "9bc90aedb137edf380b4c5071f14c4a04d7e3dd7dc9a79944f5b1078f884e57c",
+      "bytes": 405
+    },
+    {
+      "id": "cdx-aug2025",
+      "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22445%2Fschwarzwaldstube_d_08-2025_04web.pdf&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest",
+      "retrieved_at_utc": "2026-10-26T07:40:39.348985+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22445%2Fschwarzwaldstube_d_08-2025_04web.pdf&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest",
+      "content_type": "application/json",
+      "last_modified_http": null,
+      "memento_datetime": null,
+      "x_archive_src": null,
+      "x_archive_orig_last_modified": null,
+      "sha256": "d9e1efba4108629421ce4d85463fdc40b5776aa57aaff17caf581ae458bca884",
+      "bytes": 232
+    },
+    {
+      "id": "cdx-new-pdf-prefix",
+      "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fassets%2Flocal%2Fmedia%2Fbrand%2FSpeisekarten%2FSchwarzwaldstube%2F%2A&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "retrieved_at_utc": "2026-10-26T07:39:18.094801+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fassets%2Flocal%2Fmedia%2Fbrand%2FSpeisekarten%2FSchwarzwaldstube%2F%2A&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "content_type": "application/json",
+      "last_modified_http": null,
+      "sha256": "b7a388f2a4d2afaddd0536c6e65ada6bc189b3eadf5e14aeeebf636cbbb98566",
+      "bytes": 464
+    },
+    {
+      "id": "cdx-new-restaurant",
+      "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fkulinarik%2Fschwarzwaldstube%2F&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "retrieved_at_utc": "2026-10-26T07:39:18.093775+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fkulinarik%2Fschwarzwaldstube%2F&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "content_type": "application/json",
+      "last_modified_http": null,
+      "sha256": "903d1d1bf6b266fd6b8b952dcb7accf913bfca4d329e39d63d491b953de6711a",
+      "bytes": 1523
+    },
+    {
+      "id": "cdx-new",
+      "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fassets%2Flocal%2Fmedia%2Fbrand%2FSpeisekarten%2FSchwarzwaldstube%2FSchwarzwaldstube_Speisekarte_DE.pdf&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest",
+      "retrieved_at_utc": "2026-10-26T07:37:03.145265+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fassets%2Flocal%2Fmedia%2Fbrand%2FSpeisekarten%2FSchwarzwaldstube%2FSchwarzwaldstube_Speisekarte_DE.pdf&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest",
+      "content_type": "application/json",
+      "last_modified_http": null,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "id": "cdx-old-restaurant",
+      "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Frestaurants-bar%2Fschwarzwaldstube%2F&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "retrieved_at_utc": "2026-10-26T07:39:18.093110+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Frestaurants-bar%2Fschwarzwaldstube%2F&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "content_type": "application/json",
+      "last_modified_http": null,
+      "sha256": "58da8a0660f92ce8d97c44c6ee44db22ef04aaf8b7ca64c30f7b77087db6bf0f",
+      "bytes": 2421
+    },
+    {
+      "id": "cdx-old",
+      "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22043%2Fschwarzwaldstube_web_d.pdf&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest",
+      "retrieved_at_utc": "2026-10-26T07:37:03.145577+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22043%2Fschwarzwaldstube_web_d.pdf&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest",
+      "content_type": "application/json",
+      "last_modified_http": null,
+      "sha256": "f9e8221c8c6f04841ed97464b5a556e16e5574ea62d6f7b6dfc1e1c03a9442d6",
+      "bytes": 222
+    },
+    {
+      "id": "cdx-pdf-prefix",
+      "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22043%2F%2A&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "retrieved_at_utc": "2026-10-26T07:39:18.094112+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.traube-tonbach.de%2Fsite%2Fassets%2Ffiles%2F22043%2F%2A&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest&limit=100",
+      "content_type": "application/json",
+      "last_modified_http": null,
+      "sha256": "f9e8221c8c6f04841ed97464b5a556e16e5574ea62d6f7b6dfc1e1c03a9442d6",
+      "bytes": 222
+    },
+    {
+      "id": "cdx-swp",
+      "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.swp.de%2Flokales%2Fhorb%2Fbestes-restaurant-der-welt-die-schwarzwaldstube-verkoerpert-was-grosse-kueche-in-deutschland-ausmacht-78473035.html&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest",
+      "retrieved_at_utc": "2026-10-26T07:38:08.297754+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.swp.de%2Flokales%2Fhorb%2Fbestes-restaurant-der-welt-die-schwarzwaldstube-verkoerpert-was-grosse-kueche-in-deutschland-ausmacht-78473035.html&output=json&filter=statuscode%3A200&from=2025&to=2026&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest%2Cmimetype&collapse=digest",
+      "content_type": "application/json",
+      "last_modified_http": null,
+      "sha256": "9e412db0952d7aed5571cf767fcf79ff598bf18a7d024ff6c487d8e2ddeb232f",
+      "bytes": 729
+    },
+    {
+      "id": "current-menu",
+      "requested_url": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+      "retrieved_at_utc": "2026-10-26T07:37:03.132048+00:00",
+      "status": 200,
+      "final_url": "https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_Speisekarte_DE.pdf",
+      "content_type": "application/pdf",
+      "last_modified_http": "Fri, 09 Oct 2026 12:59:48 GMT",
+      "sha256": "cca024ce53309649441d7894fcdd5cf151b7669014ea9a404dfbaafec48424b1",
+      "bytes": 521984
+    },
+    {
+      "id": "gusto",
+      "requested_url": "https://www.gusto-online.de/schwarzwaldstube.html",
+      "retrieved_at_utc": "2026-10-26T07:37:03.133730+00:00",
+      "status": 200,
+      "final_url": "https://www.gusto-online.de/schwarzwaldstube.html",
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified_http": null,
+      "sha256": "d8ec028691442d3be294e1e8e7f100a9438a41e16eadfb02d911c8076a23d971",
+      "bytes": 39198
+    },
+    {
+      "id": "menu-20250614",
+      "requested_url": "https://web.archive.org/web/20250614101335id_/https://www.traube-tonbach.de/site/assets/files/22043/schwarzwaldstube_web_d.pdf",
+      "retrieved_at_utc": "2026-10-26T07:40:07.525689+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20250614101335id_/https://www.traube-tonbach.de/site/assets/files/22043/schwarzwaldstube_web_d.pdf",
+      "content_type": "application/pdf",
+      "last_modified_http": null,
+      "memento_datetime": "Sat, 14 Jun 2025 10:13:35 GMT",
+      "x_archive_src": "CC-MAIN-2025-26-1749709481319.12-0029/CC-MAIN-20250614095824-20250614125824-00595.warc.gz",
+      "x_archive_orig_last_modified": "Tue, 05 Nov 2024 14:01:37 GMT",
+      "sha256": "a39068d4e551792b996dc3f022239628f8fff3ecd5fcfaa842ca4fe3023e788f",
+      "bytes": 18955
+    },
+    {
+      "id": "menu-20251201",
+      "requested_url": "https://web.archive.org/web/20251201121923id_/https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_D_11-2025_02.pdf",
+      "retrieved_at_utc": "2026-10-26T07:40:07.526779+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20251201121923id_/https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_D_11-2025_02.pdf",
+      "content_type": "application/pdf",
+      "last_modified_http": null,
+      "memento_datetime": "Mon, 01 Dec 2025 12:19:23 GMT",
+      "x_archive_src": "archiveteam_urls_20251201122144_9ce2c151/urls_20251201122144_9ce2c151.1762161290.megawarc.warc.zst",
+      "x_archive_orig_last_modified": "Fri, 14 Nov 2025 15:05:58 GMT",
+      "sha256": "cb7da8a54990a7fff2bee8eab20b20497d0e729b07e70b3794e66aca810bbb2e",
+      "bytes": 22965
+    },
+    {
+      "id": "menu-20260408",
+      "requested_url": "https://web.archive.org/web/20260408000729id_/https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_D_01-2026_RZ-WEB.pdf",
+      "retrieved_at_utc": "2026-10-26T07:40:07.527192+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20260408000729id_/https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_D_01-2026_RZ-WEB.pdf",
+      "content_type": "application/pdf",
+      "last_modified_http": null,
+      "memento_datetime": "Wed, 08 Apr 2026 00:07:29 GMT",
+      "x_archive_src": "archiveteam_urls_20260408000845_05e973cc/urls_20260408000845_05e973cc.1762161290.megawarc.warc.zst",
+      "x_archive_orig_last_modified": "Thu, 05 Feb 2026 10:37:49 GMT",
+      "sha256": "37ce448e5932789e302d9001cf9aecaa2b2eece59983545aa941358d87c189d1",
+      "bytes": 20365
+    },
+    {
+      "id": "menu-august2025",
+      "requested_url": "https://web.archive.org/web/20251014224221id_/https://www.traube-tonbach.de/site/assets/files/22445/schwarzwaldstube_d_08-2025_04web.pdf",
+      "retrieved_at_utc": "2026-10-26T07:41:13.612958+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20251014224221id_/https://www.traube-tonbach.de/site/assets/files/22445/schwarzwaldstube_d_08-2025_04web.pdf",
+      "content_type": "application/pdf",
+      "last_modified_http": null,
+      "memento_datetime": "Tue, 14 Oct 2025 22:42:21 GMT",
+      "x_archive_src": "CC-MAIN-2025-43-1759648359293.23-0026/CC-MAIN-20251014214924-20251015004924-00520.warc.gz",
+      "x_archive_orig_last_modified": "Wed, 06 Aug 2025 05:23:45 GMT",
+      "sha256": "e6b28c93320ce40335e89abcdcbcd5e2f7716fd76243c2853697973a8c28193a",
+      "bytes": 15937
+    },
+    {
+      "id": "menu-juni2025",
+      "requested_url": "https://web.archive.org/web/20250614110357id_/https://www.traube-tonbach.de/site/assets/files/22445/schwarzwaldstube_d_06-2025_rz-web.pdf",
+      "retrieved_at_utc": "2026-10-26T07:41:13.612176+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20250614110357id_/https://www.traube-tonbach.de/site/assets/files/22445/schwarzwaldstube_d_06-2025_rz-web.pdf",
+      "content_type": "application/pdf",
+      "last_modified_http": null,
+      "memento_datetime": "Sat, 14 Jun 2025 11:03:57 GMT",
+      "x_archive_src": "CC-MAIN-2025-26-1749709481319.12-0014/CC-MAIN-20250614095824-20250614125824-00293.warc.gz",
+      "x_archive_orig_last_modified": "Fri, 06 Jun 2025 06:54:49 GMT",
+      "sha256": "c5ed1b204a393bebbc1ff630b3aaf48601fc1086edca1a929bbe633ebe8ba965",
+      "bytes": 513963
+    },
+    {
+      "id": "new-review",
+      "requested_url": "https://thefinediningjournal.com/schwarzwaldstube-baiersbronn-review/",
+      "retrieved_at_utc": "2026-10-26T07:37:03.134026+00:00",
+      "status": 200,
+      "final_url": "https://thefinediningjournal.com/schwarzwaldstube-baiersbronn-review/",
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_http": null,
+      "sha256": "47736e548675c20c4c1888e5ecac7cdd3f474320b4db8dfb8ca165305ce95828",
+      "bytes": 37553
+    },
+    {
+      "id": "official-news",
+      "requested_url": "https://www.traube-tonbach.de/news/",
+      "retrieved_at_utc": "2026-10-26T07:38:36.174980+00:00",
+      "status": 200,
+      "final_url": "https://www.traube-tonbach.de/news/",
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified_http": null,
+      "sha256": "e959de2c25fb31ddc77e6b085cc283e51448d4e9c074dd7372553b1e4634f992",
+      "bytes": 194497
+    },
+    {
+      "id": "official-press",
+      "requested_url": "https://www.traube-tonbach.de/presse/",
+      "retrieved_at_utc": "2026-10-26T07:38:08.298113+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "official-restaurant",
+      "requested_url": "https://www.traube-tonbach.de/kulinarik/schwarzwaldstube/",
+      "retrieved_at_utc": "2026-10-26T07:37:03.132793+00:00",
+      "status": 200,
+      "final_url": "https://www.traube-tonbach.de/kulinarik/schwarzwaldstube/",
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified_http": null,
+      "sha256": "7d94764efb2a4452cbe44f76524d78c17d6588803a2d29af2aa8645562791a69",
+      "bytes": 292207
+    },
+    {
+      "id": "official-sitemap",
+      "requested_url": "https://www.traube-tonbach.de/sitemap.xml",
+      "retrieved_at_utc": "2026-10-26T07:38:08.298465+00:00",
+      "status": 200,
+      "final_url": "https://www.traube-tonbach.de/sitemap.xml",
+      "content_type": "text/xml; charset=utf-8",
+      "last_modified_http": null,
+      "sha256": "0679faa81ed2d5ccc9bc6edf4cf05c5b3a2d0a2b8c7b1a0b0912444765ef2552",
+      "bytes": 10008
+    },
+    {
+      "id": "pudlowski2025",
+      "requested_url": "https://www.gillespudlowski.com/399374/restaurants/baiersbronn-une-schwarzwaldstube-2-0",
+      "retrieved_at_utc": "2026-10-26T07:37:03.140978+00:00",
+      "status": 200,
+      "final_url": "https://www.gillespudlowski.com/399374/restaurants/baiersbronn-une-schwarzwaldstube-2-0",
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified_http": "Sun, 25 Oct 2026 23:40:02 GMT",
+      "sha256": "c6b1702811510fb75526ec40983f5bd9c063f458ee297c2fc3e0cd1d7e47693a",
+      "bytes": 174027
+    },
+    {
+      "id": "restaurant-20250913130801",
+      "requested_url": "https://web.archive.org/web/20250913130801id_/https://www.traube-tonbach.de/restaurants-bar/schwarzwaldstube/",
+      "retrieved_at_utc": "2026-10-26T07:39:39.482968+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20250913130801id_/https://www.traube-tonbach.de/restaurants-bar/schwarzwaldstube/",
+      "content_type": "text/html",
+      "last_modified_http": null,
+      "sha256": "c0835a71c5f8e20c6020b778698800f70bbd69fe56da28cc07152286476d863b",
+      "bytes": 220775
+    },
+    {
+      "id": "restaurant-20251025195602",
+      "requested_url": "https://web.archive.org/web/20251025195602id_/https://www.traube-tonbach.de/restaurants-bar/schwarzwaldstube/",
+      "retrieved_at_utc": "2026-10-26T07:39:39.483326+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20251025195602id_/https://www.traube-tonbach.de/restaurants-bar/schwarzwaldstube/",
+      "content_type": "text/html",
+      "last_modified_http": null,
+      "sha256": "a4d79bdee312f54ceb0efe0c7fef1c252d15c8a0b0e38b1ea56526274336bba0",
+      "bytes": 219749
+    },
+    {
+      "id": "restaurant-20251107084207",
+      "requested_url": "https://web.archive.org/web/20251107084207id_/https://www.traube-tonbach.de/restaurants-bar/schwarzwaldstube/",
+      "retrieved_at_utc": "2026-10-26T07:39:39.483746+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20251107084207id_/https://www.traube-tonbach.de/restaurants-bar/schwarzwaldstube/",
+      "content_type": "text/html",
+      "last_modified_http": null,
+      "sha256": "e724820d8f3ed1e66bf9b534636f53c83d7f11f55827cd22af903d4ada4e93b0",
+      "bytes": 220253
+    },
+    {
+      "id": "swp-archiv-20251125",
+      "requested_url": "https://web.archive.org/web/20251125085733id_/https://www.swp.de/lokales/horb/bestes-restaurant-der-welt-die-schwarzwaldstube-verkoerpert-was-grosse-kueche-in-deutschland-ausmacht-78473035.html",
+      "retrieved_at_utc": "2026-10-26T07:40:07.526314+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20251125085733id_/https://www.swp.de/lokales/horb/bestes-restaurant-der-welt-die-schwarzwaldstube-verkoerpert-was-grosse-kueche-in-deutschland-ausmacht-78473035.html",
+      "content_type": "text/html;charset=utf-8",
+      "last_modified_http": null,
+      "memento_datetime": "Tue, 25 Nov 2025 08:57:33 GMT",
+      "x_archive_src": "archiveteam_urls_20251125085835_7446da26/urls_20251125085835_7446da26.1762161290.megawarc.warc.zst",
+      "x_archive_orig_last_modified": null,
+      "sha256": "965ac5ebd905ff461ca40ee708bb475251644986d51aee84cb0476c6a6180c89",
+      "bytes": 321290
+    },
+    {
+      "id": "swp-article",
+      "requested_url": "https://www.swp.de/lokales/horb/bestes-restaurant-der-welt-die-schwarzwaldstube-verkoerpert-was-grosse-kueche-in-deutschland-ausmacht-78473035.html",
+      "retrieved_at_utc": "2026-10-26T07:37:03.133400+00:00",
+      "status": 200,
+      "final_url": "https://www.swp.de/lokales/horb/bestes-restaurant-der-welt-die-schwarzwaldstube-verkoerpert-was-grosse-kueche-in-deutschland-ausmacht-78473035.html",
+      "content_type": "text/html;charset=utf-8",
+      "last_modified_http": null,
+      "sha256": "92dcad6685b01c777f9f56a73443e559a7d8c06dbf9b7c0d898f3b7ef3ea5c50",
+      "bytes": 366547
+    }
+  ],
+  "digest_pruefung": [
+    {
+      "cdx_file": "cdx-aug2025.json",
+      "source_id": "menu-august2025",
+      "timestamp": "20251014224221",
+      "cdx_digest": "UBSQQRRBYDKQZMNSQRRKWGCF6OKKBJTM",
+      "actual_sha1_base32": "UBSQQRRBYDKQZMNSQRRKWGCF6OKKBJTM",
+      "matches": true,
+      "memento_datetime": "Tue, 14 Oct 2025 22:42:21 GMT"
+    },
+    {
+      "cdx_file": "cdx-22445-prefix.json",
+      "source_id": "menu-juni2025",
+      "timestamp": "20250614110357",
+      "cdx_digest": "TRUBF7WY4ZWSON6LYSDQG44O536FRMEL",
+      "actual_sha1_base32": "TRUBF7WY4ZWSON6LYSDQG44O536FRMEL",
+      "matches": true,
+      "memento_datetime": "Sat, 14 Jun 2025 11:03:57 GMT"
+    },
+    {
+      "cdx_file": "cdx-22445-prefix.json",
+      "source_id": "menu-august2025",
+      "timestamp": "20251014224221",
+      "cdx_digest": "UBSQQRRBYDKQZMNSQRRKWGCF6OKKBJTM",
+      "actual_sha1_base32": "UBSQQRRBYDKQZMNSQRRKWGCF6OKKBJTM",
+      "matches": true,
+      "memento_datetime": "Tue, 14 Oct 2025 22:42:21 GMT"
+    },
+    {
+      "cdx_file": "cdx-new-pdf-prefix.json",
+      "source_id": "menu-20260408",
+      "timestamp": "20260408000729",
+      "cdx_digest": "63MCJOG74AYZLWKPLIJDH3G5KW5NZ5PC",
+      "actual_sha1_base32": "63MCJOG74AYZLWKPLIJDH3G5KW5NZ5PC",
+      "matches": true,
+      "memento_datetime": "Wed, 08 Apr 2026 00:07:29 GMT"
+    },
+    {
+      "cdx_file": "cdx-new-pdf-prefix.json",
+      "source_id": "menu-20251201",
+      "timestamp": "20251201121923",
+      "cdx_digest": "CRYO5MVECLLHBLJ3AUR2WMUPZJJDHZ7F",
+      "actual_sha1_base32": "CRYO5MVECLLHBLJ3AUR2WMUPZJJDHZ7F",
+      "matches": true,
+      "memento_datetime": "Mon, 01 Dec 2025 12:19:23 GMT"
+    },
+    {
+      "cdx_file": "cdx-old-restaurant.json",
+      "source_id": "restaurant-20250913130801",
+      "timestamp": "20250913130801",
+      "cdx_digest": "6Z6MXIHQD4L6JCGUCGI4QXCNIQEIJH6S",
+      "actual_sha1_base32": "6Z6MXIHQD4L6JCGUCGI4QXCNIQEIJH6S",
+      "matches": true,
+      "memento_datetime": null
+    },
+    {
+      "cdx_file": "cdx-old-restaurant.json",
+      "source_id": "restaurant-20251025195602",
+      "timestamp": "20251025195602",
+      "cdx_digest": "YLCKWDBLLD576H3OONYY5KDKGSGZMHTB",
+      "actual_sha1_base32": "YLCKWDBLLD576H3OONYY5KDKGSGZMHTB",
+      "matches": true,
+      "memento_datetime": null
+    },
+    {
+      "cdx_file": "cdx-old-restaurant.json",
+      "source_id": "restaurant-20251107084207",
+      "timestamp": "20251107084207",
+      "cdx_digest": "ZPLSDW2DYP7WVE6XHERXZKAP3UOKFQR5",
+      "actual_sha1_base32": "ZPLSDW2DYP7WVE6XHERXZKAP3UOKFQR5",
+      "matches": true,
+      "memento_datetime": null
+    },
+    {
+      "cdx_file": "cdx-pdf-prefix.json",
+      "source_id": "menu-20250614",
+      "timestamp": "20250614101335",
+      "cdx_digest": "HRLKIUN5T2UI44FQNZOOLJJGH4REBYSC",
+      "actual_sha1_base32": "HRLKIUN5T2UI44FQNZOOLJJGH4REBYSC",
+      "matches": true,
+      "memento_datetime": "Sat, 14 Jun 2025 10:13:35 GMT"
+    },
+    {
+      "cdx_file": "cdx-swp.json",
+      "source_id": "swp-archiv-20251125",
+      "timestamp": "20251125085733",
+      "cdx_digest": "H2N6YDZMWKIARZ3LJJJBUCD3A36PPXEX",
+      "actual_sha1_base32": "H2N6YDZMWKIARZ3LJJJBUCD3A36PPXEX",
+      "matches": true,
+      "memento_datetime": "Tue, 25 Nov 2025 08:57:33 GMT"
+    },
+    {
+      "cdx_file": "cdx-old.json",
+      "source_id": "menu-20250614",
+      "timestamp": "20250614101335",
+      "cdx_digest": "HRLKIUN5T2UI44FQNZOOLJJGH4REBYSC",
+      "actual_sha1_base32": "HRLKIUN5T2UI44FQNZOOLJJGH4REBYSC",
+      "matches": true,
+      "memento_datetime": "Sat, 14 Jun 2025 10:13:35 GMT"
+    }
+  ],
+  "steuer_referenzpruefung": [
+    {
+      "id": "ustg12",
+      "url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+      "abgerufen_am": "2026-10-26",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "e8753b36595e445e776716ce43ec8d01633d9c548aec77d776105ae9484d09d0",
+      "bytes": 15219
+    },
+    {
+      "id": "bmf2023",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/2023-12-21-auslaufen-ermaessigte-besteuerung-von-restaurant-und-verpflegungsdienstleistungen.pdf?__blob=publicationFile&v=2",
+      "abgerufen_am": "2026-10-26",
+      "error": "HTTP Error 503: Service Unavailable",
+      "verification": "Official indexed web source text read with web tool; no successful local download claimed"
+    },
+    {
+      "id": "bmf2025",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/2025-12-22-verpflegungsdienstleistungen.pdf?__blob=publicationFile&v=5",
+      "abgerufen_am": "2026-10-26",
+      "error": "HTTP Error 503: Service Unavailable",
+      "verification": "Official indexed web source text read with web tool; no successful local download claimed"
+    },
+    {
+      "id": "destatis-aug2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_320_611.html",
+      "abgerufen_am": "2026-10-26",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "sha256": "6681f4fcf60a89028ceaae0f93575ba1d3b2af0f9df8df0ed298b7033ad095dd",
+      "bytes": 100647
+    },
+    {
+      "id": "destatis-jan2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_051_611.html",
+      "abgerufen_am": "2026-10-26",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "sha256": "f5c0924ce68be4cc1495a4f221b8c99192a0cb5e13a4c0a4442bbd07148441ea",
+      "bytes": 103187
+    },
+    {
+      "id": "destatis-12abteilungen",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Tabellen/Verbraucherpreise-12Kategorien.html",
+      "abgerufen_am": "2026-10-26",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "sha256": "2de37c8dcb51ec7a2dfe772900ac34fc522fd0c82521bc209f285301f5b03c01",
+      "bytes": 208789
+    },
+    {
+      "id": "chronik-menu-20251201",
+      "url": "https://web.archive.org/web/20251201121923id_/https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_D_11-2025_02.pdf",
+      "abgerufen_am": "2026-10-26",
+      "http_status": 200,
+      "memento_datetime": "Mon, 01 Dec 2025 12:19:23 GMT",
+      "sha256": "cb7da8a54990a7fff2bee8eab20b20497d0e729b07e70b3794e66aca810bbb2e",
+      "bytes": 22965,
+      "verification": "Original-PDF und Text aus unabhängiger Chronikrecherche im gemeinsamen Workspace geprüft; Menü II385EUR und MwSt-Hinweis gelesen."
+    },
+    {
+      "id": "chronik-menu-20260408",
+      "url": "https://web.archive.org/web/20260408000729id_/https://www.traube-tonbach.de/assets/local/media/brand/Speisekarten/Schwarzwaldstube/Schwarzwaldstube_D_01-2026_RZ-WEB.pdf",
+      "abgerufen_am": "2026-10-26",
+      "http_status": 200,
+      "memento_datetime": "Wed, 08 Apr 2026 00:07:29 GMT",
+      "sha256": "37ce448e5932789e302d9001cf9aecaa2b2eece59983545aa941358d87c189d1",
+      "bytes": 20365,
+      "verification": "Original-PDF und Text aus unabhängiger Chronikrecherche im gemeinsamen Workspace geprüft; Menü II385EUR und MwSt-Hinweis gelesen."
+    }
+  ]
+}

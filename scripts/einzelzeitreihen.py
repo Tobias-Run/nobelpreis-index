@@ -53,9 +53,9 @@ def erstellen(beobachtungen):
          'Höhere Grundprogramm-Variante Classic Plus, eine Person, 7–8 Nächte, ohne Unterkunft.',
          'Gleiche Premium-Programmstufe; Anwendungsgleichheit für Classic Plus nicht vollständig geprüft. Nominaler Paketpreis; keine vollständige Kur oder Qualitätsbereinigung. Keine Auffüllung für 2024.'),
         ('schwarzwaldstube-menue-ii', 'schwarzwaldstube-menue-ii', 'Schwarzwaldstube · nominaler Menü-II-Preis',
-         [(2024,'schwarzwald-original-archiv-2024'),(2025,'schwarzwald-2025-menue'),(2026,'schwarzwald-2026-menue')],
-         'Menü II mit sieben Positionen ohne Getränke; 2024 archivierte Originalkarte, 2025 fotografierte Karte, 2026 Originalkarte.',
-         'Gerichte und steuerliche Bedingungen ändern sich. Nominale Menüpreisgeschichte; keine qualitätsbereinigte Gastronomieinflation. Großes Menü 2021 wird nicht angehängt.'),
+         [(2024,'schwarzwald-original-archiv-2024'),(2025,'schwarzwald-original-archiv-2025-10'),(2026,'schwarzwald-2026-menue')],
+         'Menü II mit sieben Positionen ohne Getränke; 2024 und Oktober 2025 archivierte Originalkarten, Oktober 2026 aktuelle Originalkarte.',
+         '325 EUR im Oktober-2025-Archiv, bereits 385 EUR im Dezember-2025-Original. Kein erst 2026 erfolgter Preissprung. Gerichte und Steuerbedingungen ändern sich; nominale Premium-Menüstufe, keine Qualitätsbereinigung. Großes Menü 2021 wird nicht angehängt.'),
     ]
     for sid,pid,name,auswahl,definition,grenze in neu:
         punkte=[]

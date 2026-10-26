@@ -42,7 +42,7 @@ Die fertige Oberfläche aus Phase 2 wird als Forschungsbeta veröffentlicht, sob
 | 4 | **Saxonia neu** | Angebotspreise der `201.027-LB` fortführen; alte Referenz separat. Passenden Oktober-VPI erst nach Verfügbarkeit ergänzen. |
 | 5 | **YCL** | €/m² als eigenständige Tarifeinheit freigeben. Flächenformel/Pflichtkosten nur für einen späteren Gesamtliegeplatzpreis verlangen. |
 | 6 | **Cayenne** | Nominale Modellstufe mit Ausstattungs-/Modellwechselregel festlegen; Pflichtkosten eindeutig abgrenzen. |
-| 7 | **Menü II** | Großes Menü als definierte Tarifstufe entscheiden; zeitlich passende jährliche Belege und Steuer-/Pflichtbestandteile prüfen. Hohen Anstieg offen erklären. |
+| 7 | **Menü II** | [Deep Dive 26.10.](schwarzwaldstube-preisanstieg-2026-10-26.md): gleiche Premiumstufe, neuer Oktober-2025-Primärbeleg zum selben 325-EUR-Preis. 385 EUR bereits im Dezember 2025. Preiswechsel dokumentiert; genauer Beginn/Kostenursache bleiben offen, Oktober-2026-VPI abwarten. |
 | 8 | **Charger5 und Lanserhof** | Auswahl entschieden: Charger5 vario beziehungsweise Classic Plus als vergleichbarste belegte Premiumstufe fortführen. Komponenten-/Leistungsunterschiede dokumentieren; Preisdefinition, Pflichtbestandteile und Zeitbezug eigenständig prüfen. |
 
 Parallel einen gemeinsamen Validator für Rohdaten und Auswahlrezept bauen: gültige Daten, Pflichtfelder, Quellzuordnung, Produkt-/Variantenbezug, Verwendbarkeit zum Stichtag und fachlicher Freigabestatus. Zukunftstarife dürfen im Archiv stehen, aber nicht unbemerkt im laufenden Vergleich.
