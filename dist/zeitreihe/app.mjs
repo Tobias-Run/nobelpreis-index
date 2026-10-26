@@ -19,7 +19,7 @@ function revealProduct(){
  if(!activeProduct)return;const card=$(activeProduct);if(!card)return;
  card.open=true;requestAnimationFrame(()=>{card.scrollIntoView({block:'start'});card.querySelector('summary').focus({preventScroll:true});});
 }
-function openProduct(id){activeProduct=activeProduct===id?null:id;renderResearch();writeURL();revealProduct();}
+function openProduct(id){const closing=activeProduct===id;activeProduct=closing?null:id;renderResearch();writeURL();if(closing)$(id)?.querySelector('summary').focus({preventScroll:true});else revealProduct();}
 function availableYears(){
  const mode=$('auswahl').value,one=extra(),rs=one?[one]:mode==='praxis9'?data.praxis_reihen:mode==='pilot'?data.pilot_reihen:data.pilot_reihen.filter(r=>r.id===mode);
  return rs[0].punkte.map(p=>p.jahr).filter(y=>rs.every(r=>r.punkte.some(p=>p.jahr===y))).sort((a,b)=>a-b);
@@ -34,10 +34,11 @@ function stateURL(){
 }
 function writeURL(push=true){history[push?'pushState':'replaceState'](null,'',stateURL());}
 function restore(){
+ const previousProduct=activeProduct;
  const p=new URLSearchParams(location.search);const mode=p.get('auswahl');
  $('auswahl').value=['praxis9','pilot',...data.pilot_reihen.map(r=>r.id),...data.einzel_reihen.map(r=>r.id)].includes(mode)?mode:data.standardansicht;
  activeProduct=[p.get('produkt'),location.hash.slice(1)].find(id=>data.produkte.some(p=>p.id===id))||null;
- fillPeriods(p.get('von'));pointYear=Number(p.get('punkt'))||0;$('suche').value=p.get('suche')||'';render();renderResearch();revealProduct();
+ fillPeriods(p.get('von'));pointYear=Number(p.get('punkt'))||0;$('suche').value=p.get('suche')||'';render();renderResearch();if(activeProduct)revealProduct();else if(previousProduct)$(previousProduct)?.querySelector('summary').focus({preventScroll:true});
 }
 function fillPeriods(wanted){
  const s=extra(),years=availableYears(),starts=years.slice(0,-1),end=years.at(-1);
@@ -56,7 +57,7 @@ function render(){
   if(!years.includes(pointYear))pointYear=last.jahr;
   $('umfang').textContent=praxis?'9 festgelegte Positionen · je 1/9 Gewicht · nominale Angebots-/Tarifpreise. Teilpreise und Leistungswechsel enthalten. Die Produktbelege stammen aus unterschiedlichen Monaten und Schul-/Wintersaisons; August-VPI ist nur ein grober Vergleichsanker.':selected.length===2?'2 von 13 Positionen · feste Zusammensetzung · je 50 % Gewicht · ein Ticketpreis und ein Teilpreis je m².':'Einzelreihe · '+selected[0].definition;
   const refPeriod=s?month(first.referenzmonat)+' → '+month(last.referenzmonat):'August '+start+' → August '+end;
-  $('metrics').innerHTML=[[praxis?'Nominaler Warenkorb':'Preisvergleich',result.anstieg,praxis?start+'er → '+end+'er Belege':'Kumuliert · '+(s?label(first)+' → '+label(last):start+'–'+end)],['Deutscher VPI',result.vpiAnstieg,result.vpiAnstieg===null?'Vergleichsmonat '+month(last.referenzmonat)+' fehlt':refPeriod],['Abstand zum VPI',result.abstand,result.abstand===null?(s?'Kein Abstand ohne passenden VPI':'Zeitfenster nicht identisch'):praxis?'Prozentpunkte · grober Jahresanker':'Prozentpunkte · Preise minus VPI']].map(([t,v,sub],i)=>`<article class="metric"><small>${t}</small><strong>${v===null?'—':signed(v)+(i<2?' %':'')}</strong><p>${esc(sub)}</p></article>`).join('');
+  $('metrics').innerHTML=[[praxis?'Nominaler Warenkorb':'Preisvergleich',result.anstieg,praxis?start+'er → '+end+'er Belege':'Kumuliert · '+(s?label(first)+' → '+label(last):start+'–'+end)],['VPI · Bundesbank',result.vpiAnstieg,result.vpiAnstieg===null?'Vergleichsmonat '+month(last.referenzmonat)+' fehlt':refPeriod],['Abstand zum VPI',result.abstand,result.abstand===null?(s?'Kein Abstand ohne passenden VPI':'Zeitfenster nicht identisch'):praxis?'Prozentpunkte · grober Jahresanker':'Prozentpunkte · Preise minus VPI']].map(([t,v,sub],i)=>`<article class="metric"><small>${t}</small><strong>${v===null?'—':signed(v)+(i<2?' %':'')}</strong><p>${esc(sub)}</p></article>`).join('');
   $('basis').textContent=`Beide Reihen: ${start} = 100 · ${praxis?'Nominaler Neuner-Vergleich':selected.length===2?'Zweier-Pilot':selected[0].kurzname}`;
   $('wertetabelle').innerHTML=result.werte.map(v=>`<tr><th scope="row">${esc(label(v))}${v.referenzmonat?`<small>VPI ${month(v.referenzmonat)}</small>`:''}</th><td>${fmt(v.index,3)}</td><td>${v.vpi===null?'Nicht verfügbar':fmt(v.vpi,3)}</td><td>${v.vpi_original===null?'Nicht verfügbar':fmt(v.vpi_original,1)}</td></tr>`).join('');
   $('treiber').innerHTML=[...result.beitraege].sort((a,b)=>b.prozentpunkte-a.prozentpunkte).map(b=>`<div class="driver"><span><a href="${esc(productURL(productId(b.id)))}" data-product="${esc(productId(b.id))}">${esc(b.name)}</a><small>${fmt(b.gewicht*100,praxis?2:0)} % Gewicht · Preisänderung ${signed(b.veraenderung)} %</small></span><strong>${signed(b.prozentpunkte,3)} Pp.</strong></div>`).join('');

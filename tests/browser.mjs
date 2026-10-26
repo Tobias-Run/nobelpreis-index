@@ -34,6 +34,7 @@ try{
   assert.match(page.url(),/produkt=schwarzwaldstube-menue-ii/);
   assert.equal(new URL(await page.locator('#schwarzwaldstube-menue-ii [data-product-link]').getAttribute('href')).searchParams.get('auswahl'),'praxis9');
   await page.goBack();assert.equal(await page.locator('#schwarzwaldstube-menue-ii').getAttribute('open'),null);
+  assert.equal(await page.locator('#schwarzwaldstube-menue-ii summary').evaluate(e=>e===document.activeElement),true);
   await page.goForward();assert.equal(await page.locator('#schwarzwaldstube-menue-ii').getAttribute('open'),'');
   await page.reload();await page.waitForSelector('#metrics strong');assert.equal(await page.locator('#schwarzwaldstube-menue-ii').getAttribute('open'),'');
   assert.match(await page.locator('#schwarzwaldstube-menue-ii').innerText(),/2025-12-01/);
@@ -45,6 +46,7 @@ try{
   assert.ok(records.every(r=>r['Beobachtung-IDs']&&r['Quellen-URLs']&&r['Version']==='poc-0.6.0'));
   await page.goto(base+'/zeitreihe/?auswahl=schwarzwaldstube-menue-ii&von=2025#rm-charger5');await page.waitForSelector('#metrics strong');assert.equal(await page.locator('#rm-charger5').getAttribute('open'),'');assert.match(await page.locator('#metrics').innerText(),/18,46/);assert.match(await page.locator('#metrics').innerText(),/fehlt/);
   await page.locator('#rm-charger5 summary').click();assert.equal(await page.locator('#rm-charger5').getAttribute('open'),null);
+  assert.equal(await page.locator('#rm-charger5 summary').evaluate(e=>e===document.activeElement),true);
   await page.goto(base+'/design-demo/');await page.waitForSelector('#premium');assert.match(await page.locator('body').innerText(),/DEMODATEN/);
   await page.close();
  }
