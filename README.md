@@ -55,7 +55,7 @@ npx playwright install --with-deps chromium
 npm run test:browser
 ```
 
-Der Build verwendet lokale, versionierte Belege und benötigt keinen Live-Zugriff auf Preisquellen. Nur die Entwicklungswerkzeuge und der Browser werden installiert. Der Workflow prüft PRs und veröffentlicht `main` erst nach erfolgreicher Daten-, Rechen- und Browserprüfung. Details einschließlich Rollback: [Betrieb](docs/betrieb.md).
+Der Build verwendet lokale, versionierte Belege und benötigt keinen Live-Zugriff auf Preisquellen. Nur die Entwicklungswerkzeuge und der Browser werden installiert. Der Workflow prüft PRs und `main` automatisch. Die Veröffentlichung per GitHub Actions ist vorbereitet, benötigt aber einmalig die Pages-/Umgebungseinstellung durch den Repository-Inhaber. Bis dahin wird das erfolgreich geprüfte Artefakt über den bestehenden Pages-Branch veröffentlicht. Details einschließlich Rollback: [Betrieb](docs/betrieb.md).
 
 ## Recherche und Einordnung
 

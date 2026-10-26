@@ -6,12 +6,15 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  pages: read
 concurrency:
   group: nobelpreis-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 jobs:
   pruefen:
     runs-on: ubuntu-latest
+    outputs:
+      pages_mode: ${{ steps.pages.outputs.mode }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -36,12 +39,27 @@ jobs:
           node --check dist/zeitreihe/app.mjs
           node --check dist/zeitreihe/berechnung.mjs
       - run: npm run test:browser
-      - uses: actions/upload-pages-artifact@v3
+      - name: Pages-Modus prüfen
+        id: pages
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NOBELPREIS_REPO: ${{ github.repository }}
+        run: |
+          nobelpreis_pages_mode="$(gh api "repos/$NOBELPREIS_REPO/pages" --jq '.build_type')"
+          printf 'mode=%s\n' "$nobelpreis_pages_mode" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        with:
+          name: website-geprueft
+          path: dist
+          include-hidden-files: true
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && steps.pages.outputs.mode == 'workflow'
         with:
           path: dist
   veroeffentlichen:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.pruefen.outputs.pages_mode == 'workflow'
     needs: pruefen
     runs-on: ubuntu-latest
     permissions:

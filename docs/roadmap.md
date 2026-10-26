@@ -11,7 +11,8 @@ Stand: 26.10.2026. Grundlage: [kritischer Gesamtreview](gesamtreview-2026-10-23.
 
 - [x] Schwarzwaldstube als Recherchepunkt abgeschlossen; vorhandene Premiumtarifgeschichte wird genutzt. Keine weitere Kostengrundrecherche als Voraussetzung.
 - [x] Strenge Eingangsprüfung einschließlich der drei Negativfälle aus dem Review, weiterhin zulässige Zukunftstarife im Archiv.
-- [x] Zentrale Release-Eingänge, PR-Prüfworkflow und Veröffentlichung des geprüften Artefakts; Version/Commit/Hashes im Manifest.
+- [x] Zentrale Release-Eingänge, automatische PR-Prüfungen und geprüftes Artefakt mit Version/Commit/Hashes.
+- [ ] Vollautomatischen Pages-Deploy aktivieren: einmalig `main` in der Pages-Umgebung zulassen und Source auf GitHub Actions stellen. Integration erhält hierfür HTTP 403; der fertige Workflow erkennt den Modus und veröffentlicht danach automatisch.
 - [x] Echte Recherche als Hauptseite, synthetische Demo im Designarchiv; kompakter Einstieg und Quellen auf Abruf.
 - [x] Stabile Produktlinks, Browser-Verlauf, verlinkte Treiber/Kategoriebeiträge und nachrechenbarer Vergleichs-CSV.
 - [x] Dauerhafte Browserprüfungen bei vier Breiten, aktuelle [Produktmatrix](produktstatus.md) sowie öffentliche Korrekturseite.

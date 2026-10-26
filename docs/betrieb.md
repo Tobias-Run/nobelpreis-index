@@ -13,7 +13,14 @@ Der Workflow `.github/workflows/pruefen-und-veroeffentlichen.yml` läuft für Pu
 3. Negative Datentests, vorhandene Berechnungs- und Bundesbank-Tests sowie Syntax.
 4. Browserbedienung bei vier Breiten: Kernwerte im ersten Bildschirm, zwölf Ansichten, Direktlinks, Verlauf, fehlender VPI und CSV-Nachrechnung.
 
-Erst anschließend wird derselbe `dist/`-Stand als Pages-Artefakt veröffentlicht. Keine manuelle Kopie aus einer abweichenden Arbeitskopie. Pages muss unter Settings → Pages als **GitHub Actions** konfiguriert sein. Der historische `gh-pages`-Branch bleibt für frühere Stände erhalten und ist anschließend kein Veröffentlichungseingang mehr.
+Nach erfolgreicher Prüfung steht das Artefakt `website-geprueft` bereit. Die automatische Pages-Veröffentlichung wird nur gestartet, wenn Pages bereits den Modus `workflow` verwendet. Im bisherigen Branch-Modus bleiben die Prüfungen grün, der automatische Deploy wird übersprungen.
+
+Die aktuelle Integration erhielt bei beiden nötigen Konfigurationsänderungen HTTP 403. Einmalig muss der Repository-Inhaber einstellen:
+
+1. Settings → Environments → github-pages → Deployment branches and tags: `main` zusätzlich zulassen.
+2. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+
+Bis dahin wird ausschließlich das Artefakt eines erfolgreich geprüften `main`-Runs in `gh-pages` übernommen. Keine Kopie aus einer abweichenden Arbeitskopie. Nach der Umstellung veröffentlicht der Workflow direkt dasselbe geprüfte Artefakt; der historische `gh-pages`-Branch wird dann nicht mehr benötigt.
 
 ## Aktualisierung und Freigabe
 
@@ -29,4 +36,4 @@ Die [öffentliche Korrekturseite](../dist/korrekturen.html) dokumentiert bereits
 
 Bei einer Korrektur betroffene Beobachtungs-IDs, vorherigen/neuen Wert oder Zeitbezug, Grund, Datum und Auswirkung auf den Vergleich dokumentieren. Version erhöhen, Korrekturseite ergänzen, PR prüfen lassen und veröffentlichen. Eine unbelegte Zahl wird nicht durch eine Schätzung ersetzt.
 
-Rollback: Den fehlerhaften Merge durch einen Revert-PR zurücknehmen. Nach erfolgreichen Prüfungen veröffentlicht derselbe Workflow den wiederhergestellten Stand und ein neues Manifest mit dem Revert-Commit. Für eine technische Wiederholung kann der Workflow auf `main` manuell gestartet werden. Vor Freigabe prüfen, dass der aktuelle Pages-Stand und sein Manifest die erwarteten Prüfsummen besitzen. Ein konkreter Produktionsrollback ist erst im Fehlerfall nötig; dieser Ablauf ist dokumentiert, noch kein absichtlich ausgeführter Rollback-Test.
+Rollback: Den fehlerhaften Merge durch einen Revert-PR zurücknehmen. Nach erfolgreichen Prüfungen veröffentlicht derselbe Ablauf den wiederhergestellten Stand und ein neues Manifest mit dem Revert-Commit. Für eine technische Wiederholung kann der Workflow auf `main` manuell gestartet werden. Vor Freigabe prüfen, dass der aktuelle Pages-Stand und sein Manifest die erwarteten Prüfsummen besitzen. Ein konkreter Produktionsrollback ist erst im Fehlerfall nötig; dieser Ablauf ist dokumentiert, noch kein absichtlich ausgeführter Rollback-Test.
