@@ -7,7 +7,7 @@ Vielen Dank für dein Interesse! Die Projektsprache ist Deutsch. Bitte verfasse 
 1. Beschreibe bei größeren Änderungen zuerst das Problem in einem Issue.
 2. Arbeite in einem eigenen Branch und öffne einen Pull Request gegen `main`.
 3. Erkläre die Änderung und die durchgeführten Prüfungen kurz und konkret.
-4. Prüfe JavaScript mit `node --check dist/app.js`. Bei Änderungen an der Oberfläche prüfe Desktop und Smartphone sowie die betroffenen Interaktionen.
+4. Prüfe JavaScript mit `node --check dist/zeitreihe/app.mjs` und den Build `python3 scripts/build-release.py`. Bei Änderungen an der Oberfläche prüfe Desktop und Smartphone sowie die betroffenen Interaktionen.
 
 Behalte die sichtbare Kennzeichnung synthetischer Daten bei. Ersetze Beispiele erst durch echte Daten, wenn Quelle, Variante, Marktbezug und Vergleichbarkeit dokumentiert und redaktionell geprüft sind. Zugangsdaten und lokale Hosting-Konfiguration gehören nicht ins Repository.
 
@@ -34,3 +34,7 @@ Dokumentiere bisherige/neue Referenz, relevante Änderungen und die geprüften A
 ## Methodische Änderungen und Korrekturen
 
 Änderungen an Auswahl, Basisjahr, Gewichtung oder Berechnung müssen begründet und reproduzierbar sein. Dokumentiere bei Korrekturen betroffene Werte, bisherigen und neuen Stand, Grund und Datum. Behaupte keine Repräsentativität ohne belastbare Grundlage.
+
+## Veröffentlichung
+
+HTML-Einstieg in `site/index.html` bearbeiten; der Build erzeugt Hauptseite und `/zeitreihe/` aus derselben Vorlage. Aktive Eingänge stehen in `data/release.json`. PRs müssen Daten-, Rechen- und Browserprüfungen bestehen. Pages veröffentlicht anschließend das geprüfte Artefakt von `main`. [Betriebsablauf und Rollback](docs/betrieb.md).

@@ -1,10 +1,22 @@
 # Roadmap · Nobelpreis
 
-Stand: 23.10.2026. Grundlage: [kritischer Gesamtreview](gesamtreview-2026-10-23.md). Umsetzungstracking: [#26](https://github.com/Tobias-Run/nobelpreis-index/issues/26).
+Stand: 26.10.2026. Grundlage: [kritischer Gesamtreview](gesamtreview-2026-10-23.md). Umsetzungstracking: [#26](https://github.com/Tobias-Run/nobelpreis-index/issues/26).
 
 **Entschieden am 23.10.2026:** Bei Modell-/Leistungswechseln nehmen wir das [vergleichbarste belegte Premiummodell oder Premiumpaket](premiumvergleich.md). Dokumentierte Weiterentwicklungen verhindern die nominale Fortführung nicht automatisch. Charger5 vario und Lanserhof Classic Plus werden nach dieser Regel fortgeführt. Die Auswahlregel ist damit festgelegt; die verbleibenden Preis-/Zeit- und Belegprüfungen bleiben eigene Aufgaben.
 
-**Nächstes Produktziel: eine öffentliche Forschungsbeta für neun kuratierte Preisgeschichten.** Der gemeinsame nominale Index ist ein eigener, nachgelagerter Freigabeschritt. Die bestehende Website und Berechnung wurden im Rahmen des Reviews nicht verändert; die folgenden Punkte sind der empfohlene Arbeitsplan.
+**Nächstes Produktziel: eine öffentliche Forschungsbeta für neun kuratierte Preisgeschichten.** Der gemeinsame nominale Index ist ein eigener, nachgelagerter Freigabeschritt. Die Hauptseite zeigt inzwischen echte Einzelreihen; der experimentelle Warenkorb bleibt separat zugänglich. Die folgenden Phasen zeigen den Arbeitsplan mit offenen fachlichen Teilabnahmen.
+
+
+## Umgesetzt am 26.10.2026
+
+- [x] Schwarzwaldstube als Recherchepunkt abgeschlossen; vorhandene Premiumtarifgeschichte wird genutzt. Keine weitere Kostengrundrecherche als Voraussetzung.
+- [x] Strenge Eingangsprüfung einschließlich der drei Negativfälle aus dem Review, weiterhin zulässige Zukunftstarife im Archiv.
+- [x] Zentrale Release-Eingänge, PR-Prüfworkflow und Veröffentlichung des geprüften Artefakts; Version/Commit/Hashes im Manifest.
+- [x] Echte Recherche als Hauptseite, synthetische Demo im Designarchiv; kompakter Einstieg und Quellen auf Abruf.
+- [x] Stabile Produktlinks, Browser-Verlauf, verlinkte Treiber/Kategoriebeiträge und nachrechenbarer Vergleichs-CSV.
+- [x] Dauerhafte Browserprüfungen bei vier Breiten, aktuelle [Produktmatrix](produktstatus.md) sowie öffentliche Korrekturseite.
+
+Noch offen: konkrete zusätzliche Anbieterbelege für die Backlog-Positionen, fachliche Freigabe eines gemeinsamen zeitlich konsistenten Index, reguläre redaktionelle Verantwortungs-/Rechtsangaben und Nutzungsrechte. Personalisierung, Echtzeitdaten und weitere Körbe bleiben nachrangig. Die folgende Phasenplanung dokumentiert Herleitung und weiterhin offene Teilabnahmen.
 
 ## Reihenfolge und Aufwand
 
