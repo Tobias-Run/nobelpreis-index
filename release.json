@@ -1,17 +1,21 @@
 {
   "arbeitskopie": false,
-  "version": "poc-0.6.0",
+  "version": "poc-0.7.0",
   "datenstand": "2026-10-26",
-  "commit": "476fc16e9ffb386ad7b12949ef18d166209a3dbf",
+  "commit": "d1d5afcf4e522e2aa7e8fb9612b68e396c43e8ac",
   "status": "Forschungsstand: nominale Premiumangebote, keine repräsentative Haushaltsinflation",
   "eingaben": {
-    "data/release.json": "047fa9bf2cc32638a010d0638b1537c18df9fd4865e4a649b9bfe6883fcbf0ff",
-    "data/research/schwarzwaldstube-vertiefung-2026-10-26.json": "a79a3eb811fbe77d2713f8653e286f759ed975e74ff4e37241134abfc32a4c90",
-    "data/methodik/pragmatische-auswahl-2026-10-26.json": "687c08670d2c5891acf347736009cfd76761e0facd8e41a732ae4b518d76c038",
+    "data/release.json": "298056e3e5cd0e3744ba4021bb37a6250031904eb004a4e995846509adcf4e79",
+    "data/research/herbstfenster-und-restbelege-2026-10-26.json": "bc3b65b39ab981ddc167d1a6882bf1918da776043d2d34973b6cccf62c7bf241",
+    "data/methodik/pragmatische-auswahl-forschungsstand-2026-10-26.json": "c56d5c91d2cd0748cf569d5a97201ccc3cea0f3c7ae685ba8106126e9c735cc0",
     "data/methodik/premiumvergleich-2026-10-23.json": "23d012f3709e28f02506029765631b7a9b2a1b2c93433011e47c591897bc62ea",
     "data/methodik/gewichtung-2026-10-17.json": "b876b300d56ce4a3d461779db7ba036f2fe3229844ca4771737f6ba4525f29cf",
     "data/sources/bundesbank-vpi-monatlich-2024-2026-2026-10-16.csv": "92d5ba6fa698fe4deee5d4ee239f015ad27122ab3daaad9c8b833196864e42e7",
-    "data/sources/bundesbank-vpi-monatlich-2019-2026-2026-10-20.csv": "b0f3f692007959a54585d21b06c2748cfee5fe2c27d75016ca263730fe00d018"
+    "data/sources/bundesbank-vpi-monatlich-2019-2026-2026-10-20.csv": "b0f3f692007959a54585d21b06c2748cfee5fe2c27d75016ca263730fe00d018",
+    "data/methodik/jahresfenster-2026-10-26.json": "8a6a9164cee8401c573aaf3a4bace857120453918c01061da4977addb0aa847c",
+    "data/reviews/fachpruefung-2026-10-26.json": "bc4888c46de591985221c78d1d8917344b56b41d8598ef95bfd92162e88dde12",
+    "data/research/restbelege-protokoll-2026-10-26.json": "b82eacc0d51e65c05139e7c30b046d5f497d9b06ed6ebc6a7ab76bdc775ed6e2",
+    "data/analysen/herbstvergleich-2026-10-26.json": "03db148a9245a25538178ad56f7a9758f6350590d84306da1232a1ab7c7cfb78"
   },
   "dateien": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -19,12 +23,12 @@
     "design-demo/data/bundesbank-vpi.js": "d17c18371113930e0a5fc164c36e6ce8e921d7a0ca287dc79cbd500ceb8c59d8",
     "design-demo/index.html": "a9db2524ad06f671d7b0f139da3c1b934f56d3fb9e1c128cbd4de3364147e33a",
     "design-demo/style.css": "2a655f6795b93023316af1ee912f4eeec5fd4bfbe3d8d21b1bcc1771a8a5ad8f",
-    "index.html": "567fc022414e5dff4c1e6b146de3aa9b58974ac31954cd1802e945c89ab54c06",
-    "korrekturen.html": "76464f245f48610d110cde2bb797816060ebb31f7341a9303799f4ac175e7785",
-    "zeitreihe/app.mjs": "eccf3e4be0f2a60214a764a775a540c0deb0385228298552c8e9d6582e06804b",
-    "zeitreihe/berechnung.mjs": "238d795e4bef1b49c6d07adfc0547fd03b1b72757fc5f1c3e3fff12a77d8288b",
-    "zeitreihe/daten.json": "427d1e08086c9298c7d5f65381d38492862f108da41999132d18a409ef71c633",
-    "zeitreihe/index.html": "a533fb77d1a4fecaf8c96138a11240caae21561593d1a6f3b80aff9410742509",
-    "zeitreihe/style.css": "c84ee0c502c004bf1954bae544c9ae5f111d964ce06409145755d9c4198ffd9c"
+    "index.html": "9ed0b895de9ca37e878e14ea3f7437e7c7e2a1165e7b9ff4dba72183728a0177",
+    "korrekturen.html": "206ec0125d434b87fa990a19cef582bfd29b0d1ac95888b139a261bd9246b65e",
+    "zeitreihe/app.mjs": "968df2505ff3601d4f8922d0185e7d8f6b3e4600891e8ed41f3dcd37854d5f67",
+    "zeitreihe/berechnung.mjs": "268fbafdb9b4f1485ff95d5cce7e34930e98b53fa674c89da1192a679f0bccdc",
+    "zeitreihe/daten.json": "6dbc7833300fd3f339ac6b2a5427eb44b395c5d7983da1c0eee6840e9687f9c1",
+    "zeitreihe/index.html": "3adcf7588d3644f906aab03b8ca8841053abcabc42ebf27736580e23c5f89927",
+    "zeitreihe/style.css": "280a6caa67e9c49a042166cc383e3a1cf656858fadc3e248e070df5631536ce1"
   }
 }
