@@ -20,7 +20,7 @@ Die aktuelle Integration erhielt bei beiden nötigen Konfigurationsänderungen H
 1. Settings → Environments → github-pages → Deployment branches and tags: `main` zusätzlich zulassen.
 2. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 
-Bis dahin wird ausschließlich das Artefakt eines erfolgreich geprüften `main`-Runs in `gh-pages` übernommen. Keine Kopie aus einer abweichenden Arbeitskopie. Nach der Umstellung veröffentlicht der Workflow direkt dasselbe geprüfte Artefakt; der historische `gh-pages`-Branch wird dann nicht mehr benötigt.
+Bis dahin wird das Artefakt eines erfolgreich geprüften `main`-Runs in `gh-pages` übernommen. Falls der Artefaktdownload für die Integration nicht verfügbar ist, ist ein reproduzierbarer Offline-Neubuild exakt dieses erfolgreichen Commits in einer sauberen separaten Arbeitskopie zulässig. Der Build muss einen leeren Diff ergeben und das Manifest den geprüften Commit ohne Arbeitskopie-Markierung ausweisen. Keine Kopie aus einem abweichenden oder ungetesteten Stand. Nach der Umstellung veröffentlicht der Workflow direkt dasselbe geprüfte Artefakt; der historische `gh-pages`-Branch wird dann nicht mehr benötigt.
 
 ## Aktualisierung und Freigabe
 
