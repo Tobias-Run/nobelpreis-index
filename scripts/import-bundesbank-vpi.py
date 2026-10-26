@@ -51,7 +51,7 @@ reference = {
     'sourceSha256': hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
     'observations': observations,
 }
-(ROOT / 'dist/data/bundesbank-vpi.js').write_text(
+(ROOT / 'dist/design-demo/data/bundesbank-vpi.js').write_text(
     '// Erzeugt durch scripts/import-bundesbank-vpi.py. Nicht von Hand bearbeiten.\n'
     'const bundesbankVpi = Object.freeze(' + json.dumps(reference, ensure_ascii=False, indent=2) + ');\n', encoding='utf-8')
 print(f'{len(observations)} Bundesbank-Jahreswerte validiert und bereitgestellt.')

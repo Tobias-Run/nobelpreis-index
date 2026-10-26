@@ -1,0 +1,73 @@
+name: Prüfen und veröffentlichen
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: read
+concurrency:
+  group: nobelpreis-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    outputs:
+      pages_mode: ${{ steps.pages.outputs.mode }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npx playwright install --with-deps --only-shell chromium
+      - name: Daten und Website bauen
+        run: python3 scripts/build-release.py
+      - name: Erzeugte Dateien müssen zum Commit passen
+        run: git diff --exit-code -- dist data/methodik docs/produktstatus.md
+      - name: Eingabedaten und Berechnung prüfen
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py'
+          node tests/reference.test.cjs
+          node tests/zeitreihe.test.mjs
+          node --check dist/design-demo/app.js
+          node --check dist/zeitreihe/app.mjs
+          node --check dist/zeitreihe/berechnung.mjs
+      - run: npm run test:browser
+      - name: Pages-Modus prüfen
+        id: pages
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NOBELPREIS_REPO: ${{ github.repository }}
+        run: |
+          nobelpreis_pages_mode="$(gh api "repos/$NOBELPREIS_REPO/pages" --jq '.build_type')"
+          printf 'mode=%s\n' "$nobelpreis_pages_mode" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        with:
+          name: website-geprueft
+          path: dist
+          include-hidden-files: true
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && steps.pages.outputs.mode == 'workflow'
+        with:
+          path: dist
+  veroeffentlichen:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.pruefen.outputs.pages_mode == 'workflow'
+    needs: pruefen
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

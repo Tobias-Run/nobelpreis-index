@@ -6,7 +6,7 @@ const path = require('node:path');
 const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
 const context = vm.createContext({});
-vm.runInContext(fs.readFileSync(path.join(root, 'dist/data/bundesbank-vpi.js'), 'utf8') + ';globalThis.reference = bundesbankVpi;', context);
+vm.runInContext(fs.readFileSync(path.join(root, 'dist/design-demo/data/bundesbank-vpi.js'), 'utf8') + ';globalThis.reference = bundesbankVpi;', context);
 const reference = JSON.parse(JSON.stringify(context.reference));
 
 test('Offizielle Jahreswerte entsprechen dem versionierten CSV-Beleg', () => {
@@ -27,7 +27,7 @@ test('Offizielle Jahreswerte entsprechen dem versionierten CSV-Beleg', () => {
 
 test('Anwendung verwendet die offizielle Referenz; alle Zeiträume werden korrekt umbasiert', () => {
   // Nur Daten und Rechenfunktionen vor der SVG-Darstellung laden, ohne DOM-Mock.
-  const app = fs.readFileSync(path.join(root, 'dist/app.js'), 'utf8').split('const shapes=')[0];
+  const app = fs.readFileSync(path.join(root, 'dist/design-demo/app.js'), 'utf8').split('const shapes=')[0];
   vm.runInContext(app + ';globalThis.values = vpi;globalThis.basket = series();', context);
   const values = Array.from(context.values);
   assert.deepEqual(values, reference.observations.map(point => point.value));
@@ -44,7 +44,7 @@ test('Provenienz und Referenzskript sind vollständig eingebunden', () => {
   assert.equal(reference.provider, 'Deutsche Bundesbank');
   assert.match(reference.originalSource, /Statistisches Bundesamt/);
   assert.equal(reference.frequency, 'Jahresdurchschnitt');
-  const html = fs.readFileSync(path.join(root, 'dist/index.html'), 'utf8');
+  const html = fs.readFileSync(path.join(root, 'dist/design-demo/index.html'), 'utf8');
   assert.ok(html.indexOf('src="data/bundesbank-vpi.js"') < html.indexOf('src="app.js"'));
   assert.ok(html.includes(reference.sourceUrl));
   for (const point of reference.observations) {

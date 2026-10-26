@@ -4471,7 +4471,7 @@
     "impulshinweis": "Rein synthetisch: Cayenne +10 %, alle anderen Preise unverändert. Keine historische Beobachtung oder Prognose.",
     "lueckenhinweis": "Pilotabdeckung bezeichnet geplantes Gewicht der zwei vorhandenen Teilreihen, keine redaktionelle Freigabe oder Vollpreisabdeckung. Fehlende Gewichte werden im Gesamtindex nicht umverteilt."
   },
-  "version": "poc-0.5.0",
+  "version": "poc-0.6.0",
   "recherche_sha256": "a79a3eb811fbe77d2713f8653e286f759ed975e74ff4e37241134abfc32a4c90",
   "pilot_reihen": [
     {
@@ -4705,6 +4705,7 @@
     "geltungsbereich": "Dieser Block beschreibt den historischen Zweier-Pilot. Der neue nominale Neuner-Vergleich ist in pragmatische_auswahl mit eigenen Auswahlregeln und Grenzen dokumentiert."
   },
   "ansicht_stand": "2026-10-26",
+  "standardansicht": "salem-grundtarif",
   "einzel_reihen": [
     {
       "id": "salem-grundtarif",
