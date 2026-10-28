@@ -5,6 +5,7 @@ const signed=(n,d=2)=>(n>0?'+':n<0?'−':'')+fmt(Math.abs(n),d);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let data,result,selected,pointYear,sourceMap,activeProduct=null;
 const extra=()=>data.einzel_reihen.find(r=>r.id===$('auswahl').value);
+const korb=()=>$('auswahl').value==='jahresrunde'?data.jahresvergleich:$('auswahl').value==='herbst9'?data.herbstvergleich:null;
 const label=p=>p.label||String(p.jahr);
 const month=m=>m.slice(5)+'.'+m.slice(0,4);
 const vpiLabel=p=>p.referenzmonate?`September/Oktober ${p.jahr}`:p.referenzmonat?month(p.referenzmonat):`August ${p.jahr}`;
@@ -18,11 +19,12 @@ function curveURL(id){
 }
 function revealProduct(){
  if(!activeProduct)return;const card=$(activeProduct);if(!card)return;
+ const archiv=card.closest('#archivfach');if(archiv)archiv.open=true;
  card.open=true;requestAnimationFrame(()=>{card.scrollIntoView({block:'start'});card.querySelector('summary').focus({preventScroll:true});});
 }
 function openProduct(id){const closing=activeProduct===id;activeProduct=closing?null:id;renderResearch();writeURL();if(closing)$(id)?.querySelector('summary').focus({preventScroll:true});else revealProduct();}
 function availableYears(){
- const mode=$('auswahl').value,one=extra(),rs=one?[one]:mode==='herbst9'?data.herbstvergleich.reihen:mode==='praxis9'?data.praxis_reihen:mode==='pilot'?data.pilot_reihen:data.pilot_reihen.filter(r=>r.id===mode);
+ const mode=$('auswahl').value,one=extra(),k=korb(),rs=one?[one]:k?k.reihen:mode==='praxis9'?data.praxis_reihen:mode==='pilot'?data.pilot_reihen:data.pilot_reihen.filter(r=>r.id===mode);
  return rs[0].punkte.map(p=>p.jahr).filter(y=>rs.every(r=>r.punkte.some(p=>p.jahr===y))).sort((a,b)=>a-b);
 }
 function stateURL(){
@@ -37,41 +39,42 @@ function writeURL(push=true){history[push?'pushState':'replaceState'](null,'',st
 function restore(){
  const previousProduct=activeProduct;
  const p=new URLSearchParams(location.search);const mode=p.get('auswahl');
- $('auswahl').value=['herbst9','praxis9','pilot',...data.pilot_reihen.map(r=>r.id),...data.einzel_reihen.map(r=>r.id)].includes(mode)?mode:data.standardansicht;
+ $('auswahl').value=['jahresrunde','herbst9','praxis9','pilot',...data.pilot_reihen.map(r=>r.id),...data.einzel_reihen.map(r=>r.id)].includes(mode)?mode:data.standardansicht;
  activeProduct=[p.get('produkt'),location.hash.slice(1)].find(id=>data.produkte.some(p=>p.id===id))||null;
  fillPeriods(p.get('von'));pointYear=Number(p.get('punkt'))||0;$('suche').value=p.get('suche')||'';render();renderResearch();if(activeProduct)revealProduct();else if(previousProduct)$(previousProduct)?.querySelector('summary').focus({preventScroll:true});
 }
 function fillPeriods(wanted){
  const s=extra(),years=availableYears(),starts=years.slice(0,-1),end=years.at(-1);
- $('zeitraum').innerHTML=starts.map(y=>`<option value="${y}">${s?esc(label(s.punkte.find(p=>p.jahr===y))+' → '+label(s.punkte.at(-1))):$('auswahl').value==='herbst9'?`Herbst ${y} → ${end}`:y+'–'+end}</option>`).join('');
+ $('zeitraum').innerHTML=starts.map(y=>`<option value="${y}">${s?esc(label(s.punkte.find(p=>p.jahr===y))+' → '+label(s.punkte.at(-1))):korb()?`Herbst ${y} → ${end}`:y+'–'+end}</option>`).join('');
  $('zeitraum').value=starts.includes(Number(wanted))?String(wanted):String(starts[0]);
 }
 function sourceLink(id,label){const s=sourceMap.get(id);return s?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(label||s.titel)} ↗</a>`:'Quelle fehlt';}
 function render(){
  try{
-  const s=extra(),herbst=$('auswahl').value==='herbst9',praxis=$('auswahl').value==='praxis9';selected=s?[s]:herbst?data.herbstvergleich.reihen:praxis?data.praxis_reihen:$('auswahl').value==='pilot'?data.pilot_reihen:data.pilot_reihen.filter(r=>r.id===$('auswahl').value);
+  const s=extra(),k=korb(),herbst=Boolean(k)||s?.vergleichsart==='herbstfenster',praxis=$('auswahl').value==='praxis9';selected=s?[s]:k?k.reihen:praxis?data.praxis_reihen:$('auswahl').value==='pilot'?data.pilot_reihen:data.pilot_reihen.filter(r=>r.id===$('auswahl').value);
   const start=Number($('zeitraum').value),end=availableYears().at(-1);
-  result=s?berechneEinzelreihe(s,start,data.einzel_referenz):herbst?berechneJahresrunde(selected,Array.from({length:end-start+1},(_,i)=>start+i),data.einzel_referenz):berechne(selected,Array.from({length:end-start+1},(_,i)=>start+i),data.referenz);
+  const erwarteteIds=k?(k.rezept.soll_produkt_ids||k.rezept.positionen.map(p=>p.produkt_id)):s?[s.id]:[];
+  result=herbst?berechneJahresrunde(selected,Array.from({length:end-start+1},(_,i)=>start+i),data.einzel_referenz,erwarteteIds):s?berechneEinzelreihe(s,start,data.einzel_referenz):berechne(selected,Array.from({length:end-start+1},(_,i)=>start+i),data.referenz);
   if(!s&&!herbst)result={...result,abstand:null,vergleichshinweis:'Unterschiedliche Beobachtungsfenster; August-VPI dient nur der Einordnung.'};
   $('fehler').hidden=true;
   const years=result.werte.map(p=>p.jahr),first=result.werte[0],last=result.werte.at(-1);
   if(!years.includes(pointYear))pointYear=last.jahr;
-  $('umfang').textContent=herbst?'9 Positionen · je 1/9 Gewicht. Feste Herbst-, Jahres- und Saisonregeln; nominale Teilpreise, kein Haushaltsbudget.':praxis?'9 festgelegte Positionen · je 1/9 Gewicht · nominale Angebots-/Tarifpreise. Teilpreise und Leistungswechsel enthalten. Die Produktbelege stammen aus unterschiedlichen Monaten und Schul-/Wintersaisons; August-VPI ist nur ein grober Vergleichsanker.':selected.length===2?'2 von 13 Positionen · feste Zusammensetzung · je 50 % Gewicht · ein Ticketpreis und ein Teilpreis je m².':'Einzelreihe · '+selected[0].definition;
+  $('umfang').textContent=k?`${selected.length} Positionen · je 1/${selected.length} Gewicht. Feste Herbst-, Jahres- und Saisonregeln; nominale Tarife, kein Haushaltsbudget.`:praxis?'Historischer Neuner-Vergleich · je 1/9 Gewicht · Teilpreise und Leistungswechsel. August-VPI bleibt ein grober Jahresanker.':selected.length===2?'Historischer Zweier-Pilot · feste Zusammensetzung · je 50 % Gewicht · ein Ticketpreis und ein Teilpreis je m².':'Einzelreihe · '+selected[0].definition;
   const refPeriod=herbst?`Herbstmittel ${start} → ${end}`:s?month(first.referenzmonat)+' → '+month(last.referenzmonat):'August '+start+' → August '+end;
-  $('metrics').innerHTML=[[herbst?'Nominale Jahresrunde':praxis?'Nominaler Warenkorb':'Preisvergleich',result.anstieg,herbst?`Tarifrunde ${start} → ${end}`:praxis?start+'er → '+end+'er Belege':'Kumuliert · '+(s?label(first)+' → '+label(last):start+'–'+end)],['VPI · Bundesbank',result.vpiAnstieg,result.vpiAnstieg===null?herbst?'Herbstmittel noch unvollständig':'Vergleichsmonat '+month(last.referenzmonat)+' fehlt':refPeriod],[herbst?'Abstand zum Herbst-VPI':'Abstand zum VPI',result.abstand,result.abstand===null?(s||herbst?'Kein Abstand ohne passenden VPI':'Zeitfenster nicht identisch'):praxis?'Prozentpunkte · grober Jahresanker':'Prozentpunkte · Preise minus VPI']].map(([t,v,sub],i)=>`<article class="metric"><small>${t}</small><strong>${v===null?'—':signed(v)+(i<2?' %':'')}</strong><p>${esc(sub)}</p></article>`).join('');
+  $('metrics').innerHTML=[[k?'Nominale Jahresrunde':praxis?'Nominaler Warenkorb':'Preisvergleich',result.anstieg,herbst?`Tarifrunde ${start} → ${end}`:praxis?start+'er → '+end+'er Belege':'Kumuliert · '+(s?label(first)+' → '+label(last):start+'–'+end)],['VPI · Bundesbank',result.vpiAnstieg,result.vpiAnstieg===null?herbst?'Herbstmittel noch unvollständig':'Vergleichsmonat '+month(last.referenzmonat)+' fehlt':refPeriod],[herbst?'Abstand zum Herbst-VPI':'Abstand zum VPI',result.abstand,result.abstand===null?(s||herbst?'Kein Abstand ohne passenden VPI':'Zeitfenster nicht identisch'):praxis?'Prozentpunkte · grober Jahresanker':'Prozentpunkte · Preise minus VPI']].map(([t,v,sub],i)=>`<article class="metric"><small>${t}</small><strong>${v===null?'—':signed(v)+(i<2?' %':'')}</strong><p>${esc(sub)}</p></article>`).join('');
   $('basis').textContent=`Beide Reihen: ${start} = 100 · ${herbst?'Jahresrunde mit festen Zeitregeln':praxis?'Nominaler Neuner-Vergleich':selected.length===2?'Zweier-Pilot':selected[0].kurzname}`;
   $('wertetabelle').innerHTML=result.werte.map(v=>`<tr><th scope="row">${esc(label(v))}${v.referenzmonat||v.referenzmonate?`<small>VPI ${esc(vpiLabel(v))}</small>`:''}</th><td>${fmt(v.index,3)}</td><td>${v.vpi===null?'Nicht verfügbar':fmt(v.vpi,3)}</td><td>${v.vpi_original===null?'Nicht verfügbar':fmt(v.vpi_original,herbst?2:1)}</td></tr>`).join('');
   $('zeitfensterfach').hidden=!herbst;
   const missingMonths=herbst?result.werte.flatMap(p=>p.referenzmonate.filter(m=>!data.einzel_referenz.beobachtungen.some(o=>o.monat===m))):[];
-  $('zeitfensterstatus').textContent=herbst?`9 von 9 Positionen zeitlich zugeordnet und geprüft. Herbstpreise: 1. September–31. Oktober, möglichst nah am 15. Oktober. Jahres-/Saisontarife folgen der festen Regel in der Tabelle. ${missingMonths.length?'Fehlende Bundesbank-Monate: '+missingMonths.map(month).join(', ')+'; kein Ersatz durch andere Monate.':''} Keine produktive Gesamtindexfreigabe.`:'';
+  $('zeitfensterstatus').textContent=herbst?`${selected.length} von ${selected.length} Positionen zeitlich zugeordnet und geprüft. Herbstpreise: 1. September–31. Oktober, möglichst nah am 15. Oktober. Jahres-/Saisontarife folgen der festen Regel in der Tabelle. ${missingMonths.length?'Fehlende Bundesbank-Monate: '+[...new Set(missingMonths)].map(month).join(', ')+'; kein Ersatz durch andere Monate.':''} Keine produktive Gesamtindexfreigabe.`:'';
   $('zeitfensterkopf').innerHTML=herbst?'<th>Position</th>'+result.werte.map(p=>`<th>Jahresrunde ${p.jahr}</th>`).join(''):'';
   $('zeitfenstertabelle').innerHTML=herbst?selected.map(r=>`<tr><th scope="row">${esc(r.kurzname)}</th>${r.punkte.filter(p=>p.jahr>=start).map(p=>`<td>${fmt(p.betrag)} €<small>${esc(p.label)}${p.preisdatum?' · '+esc(p.preisdatum):''}</small><small>${esc(p.zeitbegruendung)}</small></td>`).join('')}</tr>`).join(''):'';
-  $('treiber').innerHTML=[...result.beitraege].sort((a,b)=>b.prozentpunkte-a.prozentpunkte).map(b=>`<div class="driver"><span><a href="${esc(productURL(productId(b.id)))}" data-product="${esc(productId(b.id))}">${esc(b.name)}</a><small>${fmt(b.gewicht*100,praxis?2:0)} % Gewicht · Preisänderung ${signed(b.veraenderung)} %</small></span><strong>${signed(b.prozentpunkte,3)} Pp.</strong></div>`).join('');
+  $('treiber').innerHTML=[...result.beitraege].sort((a,b)=>b.prozentpunkte-a.prozentpunkte).map(b=>`<div class="driver"><span><a href="${esc(productURL(productId(b.id)))}" data-product="${esc(productId(b.id))}">${esc(b.name)}</a><small>${fmt(b.gewicht*100,selected.length>2?2:0)} % Gewicht · Preisänderung ${signed(b.veraenderung)} %</small></span><strong>${signed(b.prozentpunkte,3)} Pp.</strong></div>`).join('');
   const categories=new Map();for(const b of result.beitraege){const cat=data.produkte.find(p=>p.id===productId(b.id)).kategorie;categories.set(cat,(categories.get(cat)||0)+b.prozentpunkte);}
   $('kategorien').innerHTML=[...categories].sort((a,b)=>b[1]-a[1]).map(([c,v])=>`<div class="driver"><span>${esc(c)}</span><strong>${signed(v,3)} Pp.</strong></div>`).join('');
   $('pilotquellen').innerHTML=selected.map(s=>`<article class="pilot-source"><h4>${esc(s.kurzname)}</h4><p>${esc(s.definition)}</p><ul>${s.punkte.filter(p=>p.jahr>=start).map(p=>`<li><strong>${esc(label(p))}: ${fmt(p.betrag)} ${esc(s.einheit)}</strong><br>${p.quelle_ids.map(id=>sourceLink(id)).join(' · ')}</li>`).join('')}</ul><p>${esc(s.grenze)}</p>${s.id==='schwarzwaldstube-menue-ii'?'<p><a href="https://github.com/Tobias-Run/nobelpreis-index/blob/main/docs/schwarzwaldstube-preisanstieg-2026-10-26.md">Deep Dive: Preiswechsel 2025, Menüvergleich und Steuer ↗</a></p>':''}</article>`).join('');
   $('punktwahl').innerHTML=result.werte.map(p=>`<button type="button" data-year="${p.jahr}" aria-pressed="${p.jahr===pointYear}">${esc(label(p))}</button>`).join('');
-  $('zeitbezug').textContent=herbst?data.herbstvergleich.rezept.vpi_anker+' Linien verbinden zwei belegte Jahresrunden, keinen Verlauf zwischen den Beobachtungen.':praxis?data.pragmatische_auswahl.vpi_anker+' Enthalten sind nominale Modell-/Paketpreise mit Leistungswechseln; kein qualitätsbereinigter oder repräsentativer Haushaltsindex.':s?s.zeitbezug+' Linien verbinden ausschließlich belegte Punkte; der Zwischenverlauf ist unbekannt.':'Linien verbinden belegte Saisonwerte. Sie zeigen keinen Preisverlauf innerhalb eines Jahres. VPI: August-Monatswerte, keine Jahresdurchschnitte.';
+  $('zeitbezug').textContent=herbst?(k?k.rezept.vpi_anker:s.zeitbezug)+' Linien verbinden belegte Jahresrunden, keinen Verlauf zwischen den Beobachtungen.':praxis?data.pragmatische_auswahl.vpi_anker+' Enthalten sind nominale Modell-/Paketpreise mit Leistungswechseln; kein qualitätsbereinigter oder repräsentativer Haushaltsindex.':s?s.zeitbezug+' Linien verbinden ausschließlich belegte Punkte; der Zwischenverlauf ist unbekannt.':'Linien verbinden belegte Saisonwerte. Sie zeigen keinen Preisverlauf innerhalb eines Jahres. VPI: August-Monatswerte, keine Jahresdurchschnitte.';
   $('vpilegende').textContent=herbst?'VPI · September/Oktober':s?'VPI · zugeordneter Monat':'VPI · August';
   const ref=s||herbst?data.einzel_referenz:data.referenz;
   $('referenzhinweis').textContent=`Ursprungsquelle: ${ref.ursprungsquelle} Ursprungswerte, 2020 = 100. Abruf: ${ref.abgerufen_am}. ${herbst?'Arithmetisches Mittel der September-/Oktober-Indizes; nur vollständig ausgeben, keine gemittelte Inflationsrate.':s?'Referenzmonate stehen in der Tabelle; Monatsdurchschnitte sind keine Tageswerte.':'Saisonaler Vergleichsanker: August; keine taggenaue Entsprechung zu den Tarifbeschlüssen.'}`;
@@ -101,8 +104,9 @@ function drawChart(){
 }
 function renderResearch(){
  const q=$('suche').value.toLocaleLowerCase('de-DE');const products=data.produkte.filter(p=>(p.id===activeProduct||(p.name+' '+p.kategorie+' '+p.historienprüfung.status).toLocaleLowerCase('de-DE').includes(q)));
- $('treffer').textContent=`${products.length} von 13 Positionen · alle ohne redaktionelle Indexfreigabe`;
- $('positionen').innerHTML=products.map(p=>{
+ const aktuelle=products.filter(p=>p.auswahlstatus!=='archiviert_ersetzt'),archiv=products.filter(p=>p.auswahlstatus==='archiviert_ersetzt');
+ $('treffer').textContent=`${aktuelle.length} von ${data.jahresvergleich.reihen.length} aktuellen Positionen · ${archiv.length} frühere Kandidaten im Archiv · nominale Recherche`;
+ const karte=p=>{
   const dateKey=o=>o.preisdatum||o.gültigkeit?.von||o.gültigkeit?.bezeichnung?.match(/20\d{2}/)?.[0]||o.id.match(/20\d{2}/)?.[0]||'';
   const h=p.historienprüfung,obs=[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen].sort((a,b)=>dateKey(a).localeCompare(dateKey(b)));
   const rows=obs.map(o=>{
@@ -110,10 +114,15 @@ function renderResearch(){
    const date=o.gültigkeit?.bezeichnung||o.preisdatum||'Datierung offen';
    return `<tr><td>${esc(date)}<small>${o.preisdatum?'Datumsbezug: '+esc(o.preisdatum):'Kein einzelner Preisstichtag belegt'}</small><small class="tag ${future?'future':''}">${future?'ZUKUNFTSTARIF':esc(o.zeitstatus)}</small></td><td><strong>${fmt(o.betrag)} €</strong><small>${esc(o.einheit)}${o.variante?' · '+esc(o.variante):''}</small></td><td>${esc(o.preisart)}<small>${esc(o.umsatzsteuer)}</small></td><td>${sourceLink(o.quelle_id)}<small>Abruf: ${esc(o.abgerufen_am||data.stand)}</small></td></tr>`;
   }).join('');
-  const choice=data.herbstvergleich.rezept.positionen.find(c=>c.produkt_id===p.id),outside=data.herbstvergleich.rezept.nicht_im_vergleich.find(c=>c.produkt_id===p.id);
+  const choice=data.jahresvergleich.rezept.positionen.find(c=>c.produkt_id===p.id),outside=data.jahresvergleich.rezept.nicht_im_vergleich.find(c=>c.produkt_id===p.id);
   const decision=choice?'In der nominalen Jahresrunde: '+choice.referenzentscheidung+' '+choice.grenze:'Außerhalb der Jahresrunde: '+outside.entscheidung+'. '+outside.referenz+' '+outside.rest;
-  return `<details class="research-card" id="${esc(p.id)}" ${p.id===activeProduct?'open':''}><summary><div><h3>${esc(p.name)}</h3><p>${esc(p.kategorie)} · ${esc(h.status)}</p></div><span aria-hidden="true">+</span></summary><p class="product-actions">${curveURL(p.id)?`<a href="${esc(curveURL(p.id))}">Preisverlauf ansehen ↗</a>`:''}<a href="${esc(productURL(p.id))}" data-product-link="${esc(p.id)}">Produktlink zum Teilen ↗</a></p><p class="definition">${esc(p.definition)}</p><p class="finding">${esc(h.ergebnis)}</p><p class="gap">${esc(decision)}</p><p class="fine">${esc(h.grenze)}</p>${obs.length?`<div class="tablewrap"><table><caption>Einzelbeobachtungen und Komponenten · keine Jahresdurchschnitte · nicht für den produktiven Gesamtindex freigegeben</caption><thead><tr><th>Datierung</th><th>Preis / Einheit</th><th>Preisart / Steuer</th><th>Beleg</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<p class="no-data">Keine zulässige Preisbeobachtung vorhanden. Es wird kein Preis geschätzt.</p>'}<p class="fine">Zugang: ${esc(p.zugang)}</p><p class="dossier">${sourceLink(h.quelle_id,'Beleg zur Historienprüfung')} · <a href="https://github.com/Tobias-Run/nobelpreis-index/blob/main/${esc(p.dossier)}">Vollständiges Produktdossier ↗</a></p></details>`;
- }).join('');
+  const nachfolger=p.ersetzt_durch?data.produkte.find(n=>n.id===p.ersetzt_durch):null;
+  const ersatz=nachfolger?`<p class="finding">Aktuelle Referenz: <a href="${esc(productURL(nachfolger.id))}" data-product="${esc(nachfolger.id)}">${esc(nachfolger.name)} ↗</a>. Eigenständige Preisreihe; keine Verkettung mit den alten Preisen.</p>`:'';
+  return `<details class="research-card" id="${esc(p.id)}" ${p.id===activeProduct?'open':''}><summary><div><h3>${esc(p.name)}</h3><p>${esc(p.kategorie)} · ${esc(h.status)}</p></div><span aria-hidden="true">+</span></summary>${ersatz}<p class="product-actions">${curveURL(p.id)?`<a href="${esc(curveURL(p.id))}">Preisverlauf ansehen ↗</a>`:''}<a href="${esc(productURL(p.id))}" data-product-link="${esc(p.id)}">Produktlink zum Teilen ↗</a></p><p class="definition">${esc(p.definition)}</p><p class="finding">${esc(h.ergebnis)}</p><p class="gap">${esc(decision)}</p><p class="fine">${esc(h.grenze)}</p>${obs.length?`<div class="tablewrap"><table><caption>Einzelbeobachtungen und Komponenten · keine Jahresdurchschnitte · nicht für den produktiven Gesamtindex freigegeben</caption><thead><tr><th>Datierung</th><th>Preis / Einheit</th><th>Preisart / Steuer</th><th>Beleg</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<p class="no-data">Keine zulässige Preisbeobachtung vorhanden. Es wird kein Preis geschätzt.</p>'}<p class="fine">Zugang: ${esc(p.zugang)}</p><p class="dossier">${sourceLink(h.quelle_id,'Beleg zur Historienprüfung')} · <a href="https://github.com/Tobias-Run/nobelpreis-index/blob/main/${esc(p.dossier)}">Vollständiges Produktdossier ↗</a></p></details>`;
+ };
+ $('positionen').innerHTML=aktuelle.map(karte).join('');
+ $('archivpositionen').innerHTML=archiv.map(karte).join('');
+ $('archivfach').hidden=!archiv.length;if(q&&archiv.length)$('archivfach').open=true;
 }
 function download(name,text,type){const url=URL.createObjectURL(new Blob([type.startsWith('text/csv')?'\ufeff'+text:text],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function renderWeights(){
@@ -134,29 +143,29 @@ function renderWeights(){
 }
 function exportComparison(){
  if(!result){$('status').textContent='Kein gültiger Vergleich für den Export.';return;}
- const head=['Produkt-ID','Produkt','Beobachtung-IDs','Jahr','Preis EUR','Einheit','Preisdatum / Gültigkeit','Quellen-IDs','Quellen-URLs','Basispreis EUR','Gewicht','Preisindex','Beitrag Prozentpunkte','VPI-Monat','VPI Referenzwert (2020=100)','VPI normiert','Vergleichsindex','Version','Datenstand','Einordnung','Zeitregel','Zeitbegründung','Preisdefinition','Belegpreise EUR','Preisart und Steuer','VPI-Rohwerte','VPI-Quelle','VPI-Beleg SHA256'];
- const reference=extra()||$('auswahl').value==='herbst9'?data.einzel_referenz:data.referenz;
+ const head=['Produkt-ID','Produkt','Beobachtung-IDs','Jahr','Preis EUR','Einheit','Preisdatum / Gültigkeit','Quellen-IDs','Quellen-URLs','Basispreis EUR','Gewicht','Preisindex','Beitrag Prozentpunkte','VPI-Monat','VPI Referenzwert (2020=100)','VPI normiert','Vergleichsindex','Version','Datenstand','Einordnung','Zeitregel','Zeitbegründung','Preisdefinition','Belegpreise EUR','Preisart und Steuer','VPI-Rohwerte','VPI-Quelle','VPI-Beleg SHA256','Belegmengen','Auswahlversion'];
+ const reference=extra()||korb()?data.einzel_referenz:data.referenz;
  const observations=new Map(data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]).map(o=>[o.id,o]));
  const rows=selected.flatMap(r=>{
   const base=r.punkte.find(p=>p.jahr===result.basisjahr).betrag,b=result.beitraege.find(b=>b.id===r.id);
   return r.punkte.filter(p=>p.jahr>=result.basisjahr).map(p=>{
    const v=result.werte.find(v=>v.jahr===p.jahr),months=p.referenzmonate||[p.referenzmonat||p.jahr+'-08'];
-   return [productId(r.id),r.kurzname,p.beobachtung_ids.join('|'),p.jahr,p.betrag,r.einheit,p.preisdatum||p.gueltigkeit?.bezeichnung||p.label||p.jahr,p.quelle_ids.join('|'),p.quelle_ids.map(id=>sourceMap.get(id).url).join('|'),base,b.gewicht,100*p.betrag/base,(p.betrag/base-1)*b.gewicht*100,months.join('|'),v.vpi_original,v.vpi,v.index,data.version,data.stand,result.vergleichshinweis||r.zeitbezug||'Nominaler Preisvergleich',p.zeitregel||'Einzelreihe / historischer Pilot',p.zeitbegruendung||r.zeitbezug||data.methodik.zeitbezug,r.definition,p.beobachtung_ids.map(id=>id+'='+observations.get(id).betrag).join('|'),p.beobachtung_ids.map(id=>observations.get(id).preisart+'; '+observations.get(id).umsatzsteuer).join('|'),months.map(m=>m+'='+(reference.beobachtungen.find(o=>o.monat===m)?.wert??'fehlt')).join('|'),reference.url,reference.sha256];
+   return [productId(r.id),r.kurzname,p.beobachtung_ids.join('|'),p.jahr,p.betrag,r.einheit,p.preisdatum||p.gueltigkeit?.bezeichnung||p.label||p.jahr,p.quelle_ids.join('|'),p.quelle_ids.map(id=>sourceMap.get(id).url).join('|'),base,b.gewicht,100*p.betrag/base,(p.betrag/base-1)*b.gewicht*100,months.join('|'),v.vpi_original,v.vpi,v.index,data.version,data.stand,result.vergleichshinweis||r.zeitbezug||'Nominaler Preisvergleich',p.zeitregel||'Einzelreihe / historischer Pilot',p.zeitbegruendung||r.zeitbezug||data.methodik.zeitbezug,r.definition,p.beobachtung_ids.map(id=>id+'='+observations.get(id).betrag).join('|'),p.beobachtung_ids.map(id=>observations.get(id).preisart+'; '+observations.get(id).umsatzsteuer).join('|'),months.map(m=>m+'='+(reference.beobachtungen.find(o=>o.monat===m)?.wert??'fehlt')).join('|'),reference.url,reference.sha256,p.beobachtung_ids.map(id=>id+'='+(p.komponenten?.find(c=>c.beobachtung_id===id)?.menge??1)).join('|'),korb()?.rezept.id||$('auswahl').value];
   });
  });
  const cell=v=>'"'+String(typeof v==='number'?String(v).replace('.',','):v??'').replaceAll('"','""')+'"';
  download(`nobelpreis-vergleich-${$('auswahl').value}-${data.stand}.csv`,[head,...rows].map(r=>r.map(cell).join(';')).join('\r\n'),'text/csv;charset=utf-8');
 }
 function exportCSV(){
- const head=['Produkt-ID','Produkt','Beobachtung-ID','Betrag EUR','Einheit','Preisdatum','Gültigkeit','Zeitstatus','Preisart','Umsatzsteuer','Quelle','Abruf','Indexfreigabe'];
- const rows=data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen].map(o=>[p.id,p.name,o.id,String(o.betrag).replace('.',','),o.einheit,o.preisdatum||'',o.gültigkeit?.bezeichnung||'',o.zeitstatus,o.preisart,o.umsatzsteuer,sourceMap.get(o.quelle_id)?.url||'',o.abgerufen_am||data.stand,'nein']));
+ const head=['Produkt-ID','Produkt','Beobachtung-ID','Betrag EUR','Einheit','Preisdatum','Gültigkeit','Zeitstatus','Preisart','Umsatzsteuer','Quelle','Abruf','Indexfreigabe','Auswahlstatus','Ersetzt durch','Eigenständiger Ersatz für'];
+ const rows=data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen].map(o=>[p.id,p.name,o.id,String(o.betrag).replace('.',','),o.einheit,o.preisdatum||'',o.gültigkeit?.bezeichnung||'',o.zeitstatus,o.preisart,o.umsatzsteuer,sourceMap.get(o.quelle_id)?.url||'',o.abgerufen_am||data.stand,'nein',p.auswahlstatus||'aktiv',p.ersetzt_durch||'',p.ersetzt||'']));
  download(`nobelpreis-preisbeobachtungen-${data.stand}.csv`,[head,...rows].map(r=>r.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(';')).join('\r\n'),'text/csv;charset=utf-8');
 }
 try{
  const response=await fetch(new URL('./daten.json',import.meta.url));if(!response.ok)throw new Error('Daten nicht verfügbar.');data=await response.json();sourceMap=new Map(data.quellen.map(s=>[s.id,s]));
  $('einzeloptionen').innerHTML=`${data.einzel_reihen.map(s=>`<option value="${esc(s.id)}">${esc(s.kurzname)}</option>`).join('')}`;
  restore();renderWeights();
- document.addEventListener('click',e=>{const a=e.target.closest('[data-product]');if(a){e.preventDefault();openProduct(a.dataset.product);return;}const summary=e.target.closest('#positionen summary');if(summary){e.preventDefault();openProduct(summary.parentElement.id);}});
+ document.addEventListener('click',e=>{const a=e.target.closest('[data-product]');if(a){e.preventDefault();openProduct(a.dataset.product);return;}const summary=e.target.closest('.research-card > summary');if(summary){e.preventDefault();openProduct(summary.parentElement.id);}});
  window.addEventListener('hashchange',restore);
  $('auswahl').addEventListener('change',()=>{fillPeriods($('zeitraum').value);render();writeURL();});
  $('zeitraum').addEventListener('change',()=>{render();writeURL();});
