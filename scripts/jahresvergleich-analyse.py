@@ -9,18 +9,19 @@ from jahresfenster import erstellen
 
 ROOT = Path(__file__).resolve().parents[1]
 release = json.loads((ROOT/'data/release.json').read_text())
-paths = [release[k] for k in ['recherche', 'herbstvergleich', 'vpi_einzelreihen']]
+paths = [release[k] for k in ['recherche', 'jahresvergleich', 'vpi_einzelreihen']]
 raw, recipe = [json.loads((ROOT/p).read_text()) for p in paths[:2]]
 data = erstellen(raw, recipe)
+n = len(data['reihen'])
 reference = {r['TIME_PERIOD']: float(r['OBS_VALUE']) for r in csv.DictReader((ROOT/paths[2]).read_text(encoding='utf-8-sig').splitlines(), delimiter=';')}
 prices = []
 for r in data['reihen']:
-    a, b = r['punkte']
+    a, b = r['punkte'][0], r['punkte'][-1]
     change = (b['betrag']/a['betrag']-1)*100
     prices.append({'produkt_id': r['id'], 'basis': a, 'ende': b, 'aenderung_prozent': change,
-                   'gewicht': 1/9, 'beitrag_prozentpunkte': change/9,
+                   'gewicht': 1/n, 'beitrag_prozentpunkte': change/n,
                    'belegabstand_tage': (dt.date.fromisoformat(b['preisdatum'])-dt.date.fromisoformat(a['preisdatum'])).days if a['preisdatum'] and b['preisdatum'] else None})
-mean = sum(p['aenderung_prozent'] for p in prices)/9
+mean = sum(p['aenderung_prozent'] for p in prices)/n
 vpi = []
 for y in recipe['jahre']:
     months = [f'{y}-09', f'{y}-10']
@@ -33,7 +34,7 @@ result = {'stand': release['ansicht_stand'], 'version': release['version'], 'ein
           'abstand_prozentpunkte': None if vpi_change is None else mean-vpi_change,
           'positionen': prices,
           'diagnostik': {'hinweis': 'Weglassproben sind Sensitivitätsdiagnosen mit neu normierten Gewichten, keine weiteren veröffentlichten Indizes oder Auswahlgründe.',
-                        'weglassproben': [{'ohne': p['produkt_id'], 'mittel_der_anderen_prozent': sum(q['aenderung_prozent'] for q in prices if q is not p)/8} for p in prices]},
+                        'weglassproben': [{'ohne': p['produkt_id'], 'mittel_der_anderen_prozent': sum(q['aenderung_prozent'] for q in prices if q is not p)/(n-1)} for p in prices] if n>1 else []},
           'grenzen': data['hinweis']}
 output = ROOT/release['jahresanalyse']
 output.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n')

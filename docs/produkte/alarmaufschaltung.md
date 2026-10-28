@@ -1,5 +1,11 @@
 # Alarmaufschaltung für ein privates Wohnhaus
 
+**Archiviert und ersetzt · 27.10.2026.** Diese frühere Rechercheidee gehört nicht mehr zur aktiven Auswahl. Die neue Position ist [hier dokumentiert](gfw-alarm-premium.md); sie hat eine eigene Identität und wird nicht mit diesen Preisen verkettet. Für den aktuellen Projektumfang sind keine weiteren externen Belege dieser alten Position erforderlich. [Gemeinsame Ersatzentscheidung](../belegte-alternativen-2026-10-27.md).
+
+<details>
+<summary>Historischer Prüfstand und damals offene Anforderungen</summary>
+
+
 **Aktueller Prüfstand · 26.10.2026**
 
 **Historischer Premiumtarif ergänzt; heutiger Pro-Tarif fehlt.** Öffentliche Nachrecherche abgeschlossen. Außerhalb der festen Neuner-Zusammensetzung, bis passende Belege vorliegen.
@@ -88,5 +94,7 @@ Leistung, Übertragungsweg, Laufzeit, Einrichtung, inklusive Ereignisse und Pfli
 Fünf weitere historische Beobachtungen: vier datierte FAQ-Ab-Angebote ab 20 EUR/Monat (2023–April 2026) und eine zusätzliche klar datierte Privat-Tarifversion vom 24.05.2022, gültig bis 30.06.2022. Keine bestätigte Nullinflation eines identischen Komplettpakets.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>
 
 </details>

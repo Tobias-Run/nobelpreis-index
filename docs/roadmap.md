@@ -1,11 +1,26 @@
 # Roadmap · Nobelpreis
 
-Stand: 26.10.2026. Grundlage: [kritischer Gesamtreview](gesamtreview-2026-10-23.md). Umsetzungstracking: [#26](https://github.com/Tobias-Run/nobelpreis-index/issues/26).
+Stand: 28.10.2026. Grundlage: [kritischer Gesamtreview](gesamtreview-2026-10-23.md). Umsetzungstracking: [#26](https://github.com/Tobias-Run/nobelpreis-index/issues/26).
 
 **Entschieden am 23.10.2026:** Bei Modell-/Leistungswechseln nehmen wir das [vergleichbarste belegte Premiummodell oder Premiumpaket](premiumvergleich.md). Dokumentierte Weiterentwicklungen verhindern die nominale Fortführung nicht automatisch. Charger5 vario und Lanserhof Classic Plus werden nach dieser Regel fortgeführt. Die Auswahlregel ist damit festgelegt; die verbleibenden Preis-/Zeit- und Belegprüfungen bleiben eigene Aufgaben.
 
-**Nächstes Produktziel: eine öffentliche Forschungsbeta für neun kuratierte Preisgeschichten.** Der gemeinsame nominale Index ist ein eigener, nachgelagerter Freigabeschritt. Die Hauptseite zeigt inzwischen echte Einzelreihen; der experimentelle Warenkorb bleibt separat zugänglich. Die folgenden Phasen zeigen den Arbeitsplan mit offenen fachlichen Teilabnahmen.
+**Aktuelles Produktziel:** den belegten nominalen 13er-Vergleich betreiben und schrittweise längere gemeinsame Historien aufbauen. Der Forschungsprototyp ist veröffentlicht; die produktive redaktionelle Gesamtindexfreigabe bleibt ein eigener Schritt.
 
+## Abgeschlossen · Ersatzentscheidung 27./28.10.2026
+
+- [x] Die vier schwer recherchierbaren Kandidaten durch GfW Premium, Große Lady Dior, Budersand-Premiumrunde und Dolomitengolf-Penthousewoche ersetzt; Originalpaare 2025/2026 belegt.
+- [x] Neue Identitäten und Auswahlversion mit 13 festen Positionen zu je 1/13. Ergebnis +3,39 %; beide Neuner-Vergleiche und historische Julius-Bär-Szenarien bleiben erhalten.
+- [x] Vier alte Kandidaten archiviert. Keine weiteren Angebote/Rechnungen für Alarm-Pro, Sylt-Service, Kelly und Adlon als Voraussetzung dieses Umfangs; keine Anbieter angeschrieben.
+- [x] Hotelmengen, feste Zusammensetzung, Zeitregeln, Quellen, Exporte und Ersatz-Direktlinks geprüft.
+
+[Entscheidungen, Quellen und Grenzen](belegte-alternativen-2026-10-27.md). Die nachfolgenden Abschnitte dokumentieren den bisherigen Arbeitsplan; ihre ursprünglichen Neuner-/Vier-Backlog-Ziele sind durch diese neue Auswahl ersetzt.
+
+## Nächste fachliche Schritte
+
+1. Offiziellen Oktober-VPI ergänzen, sobald als dokumentierter Bundesbank-Beleg verfügbar. Bis dahin kein Inflationsabstand für die Jahresrunde.
+2. Weitere zulässige Jahresanker gezielt je aktiver Reihe ergänzen; zwei belegte Zeitpunkte tragen einen Paarvergleich, noch keine lange gemeinsame Zeitreihe.
+3. Menschliche redaktionelle Freigabe, Verantwortungs-/Rechtsangaben und Nutzungsrechte für einen regulären Publikationsbetrieb klären. Die KI-gestützte Gegenprüfung behauptet diese Freigabe nicht.
+4. Optional den automatischen Actions-Deploy aktivieren ([#33](https://github.com/Tobias-Run/nobelpreis-index/issues/33)); der geprüfte bestehende Pages-Branch bleibt nutzbar.
 
 ## Umgesetzt am 26.10.2026
 
@@ -17,7 +32,7 @@ Stand: 26.10.2026. Grundlage: [kritischer Gesamtreview](gesamtreview-2026-10-23.
 - [x] Stabile Produktlinks, Browser-Verlauf, verlinkte Treiber/Kategoriebeiträge und nachrechenbarer Vergleichs-CSV.
 - [x] Dauerhafte Browserprüfungen bei vier Breiten, aktuelle [Produktmatrix](produktstatus.md) sowie öffentliche Korrekturseite.
 
-Aktualisierung: Die Zeitkonvention ist inzwischen festgelegt (siehe Anschlussauftrag unten). Noch offen sind konkrete externe Belege für vier Backlog-Positionen, die produktive redaktionelle Indexfreigabe, reguläre redaktionelle Verantwortungs-/Rechtsangaben und Nutzungsrechte. Personalisierung, Echtzeitdaten und weitere Körbe bleiben nachrangig. Die folgende Phasenplanung dokumentiert Herleitung und weiterhin offene Teilabnahmen.
+Aktualisierung: Die Zeitkonvention ist inzwischen festgelegt (siehe Anschlussauftrag unten). Die früheren vier externen Kernlücken sind durch die Ersatzentscheidung erledigt. Offen bleiben die produktive redaktionelle Indexfreigabe, reguläre redaktionelle Verantwortungs-/Rechtsangaben und Nutzungsrechte. Personalisierung, Echtzeitdaten und weitere Körbe bleiben nachrangig. Die folgende Phasenplanung dokumentiert Herleitung und weiterhin offene Teilabnahmen.
 
 ## Fachlicher Anschlussauftrag · 26.10.2026
 
@@ -27,7 +42,7 @@ Aktualisierung: Die Zeitkonvention ist inzwischen festgelegt (siehe Anschlussauf
 - [x] Alle 13 Positionen gezielt nachgeprüft, Classic Plus direkt abgeglichen, aktuelle Riese-&-Müller-Endpreisregel geklärt, historischer Alarm-Pro-Tarif ergänzt.
 - [x] Vier externe Kernlücken konkret abgegrenzt; allgemeine Wiederholungsrecherche beendet. Belege fehlen weiterhin, keine Anbieter angeschrieben.
 - [ ] Offiziellen Oktober-VPI aufnehmen, sobald verfügbar.
-- [ ] Konkrete Angebote/Rechnungen für Alarm-Pro, Sylt-Kontrollpaket, deutsche Kelly-Preise und flexible Adlon-Referenzrate erhalten.
+- [x] Frühere Anforderung an vier externe Belege durch neue, öffentlich belegte Premiumpositionen ersetzt; siehe Stand 27./28.10. oben.
 
 [Ergebnisse, Grenzen und sämtliche Nachweise](jahresfenster-und-restbelege-2026-10-26.md). Zeitregel-Freigabe bedeutet keine produktive Gesamtindexfreigabe: nominale Teilpreise, individuelle Vollkosten, unabhängige redaktionelle Prüfung und erforderliche Rechte-/Verantwortungsangaben bleiben getrennte Fragen. YCL 2023/24 und eine vollständige Ski-Hotelkomponente sind optionale Erweiterungen, keine pauschalen Aufnahmehürden für die vorhandenen definierten Tarife.
 
@@ -116,5 +131,5 @@ Zwei Zeitpunkte reichen für einen Paarvergleich. Für das Versprechen eines **m
 ## Danach und bewusst später
 
 - **Sinnvolle Erweiterungen:** zwei bis drei Produkte über tatsächlich gemeinsame Zeiträume vergleichen; optional amtliche Kerninflation als zusätzliche, sauber definierte Referenz; eigene Referenz für Wohnen nur bei neuer klarer Forschungsfrage.
-- **Datenbacklog:** Kelly mit passendem zweitem Preis/Boutique-Beleg, aktueller identischer Alarm-Pro-Tarif, standardisiertes Sylt-Angebot, tatsächlich vergleichbare öffentliche Adlon-Raten. Erst nach konkretem Beleggewinn aufnehmen; [#13](https://github.com/Tobias-Run/nobelpreis-index/issues/13), [#9](https://github.com/Tobias-Run/nobelpreis-index/issues/9), [#1](https://github.com/Tobias-Run/nobelpreis-index/issues/1).
+- **Erledigter früherer Datenbacklog:** Kelly, Alarm-Pro, Sylt-Service und Adlon sind archiviert und durch belegte neue Positionen ersetzt; keine weiteren externen Kernbelege für diesen Umfang erforderlich. Historisches Tracking: [#13](https://github.com/Tobias-Run/nobelpreis-index/issues/13), [#9](https://github.com/Tobias-Run/nobelpreis-index/issues/9), [#1](https://github.com/Tobias-Run/nobelpreis-index/issues/1).
 - **Vorerst zurückstellen:** 15–25 Positionen als Mengenziel, zweiter Luxuskorb, weitere pauschale Archivrunden, Personalisierung, Konten, Echtzeitpreise, automatische Scraper und Frameworkmigration. Gewichtsmodelle erst nach der Zeit-/Leistungsfrage vertiefen; Julius-Bär-Gewichte bleiben ein Szenario.

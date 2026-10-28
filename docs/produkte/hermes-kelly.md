@@ -1,5 +1,11 @@
 # Hermès Kelly: Preis und Zugang getrennt
 
+**Archiviert und ersetzt · 27.10.2026.** Diese frühere Rechercheidee gehört nicht mehr zur aktiven Auswahl. Die neue Position ist [hier dokumentiert](lady-dior-gross.md); sie hat eine eigene Identität und wird nicht mit diesen Preisen verkettet. Für den aktuellen Projektumfang sind keine weiteren externen Belege dieser alten Position erforderlich. [Gemeinsame Ersatzentscheidung](../belegte-alternativen-2026-10-27.md).
+
+<details>
+<summary>Historischer Prüfstand und damals offene Anforderungen</summary>
+
+
 **Aktueller Prüfstand · 26.10.2026**
 
 **Nur eine passende historische verfügbare Preisbeobachtung.** Öffentliche Nachrecherche abgeschlossen. Außerhalb der festen Neuner-Zusammensetzung, bis passende Belege vorliegen.
@@ -63,5 +69,7 @@ Deutscher Boutique-Beleg zur genauen Variante, Retourné-Nachweis und Steuer-/Ve
 Drei weitere archivierte SACLÀB-Angebote 2023/2024 gelesen und wegen ausverkauftem Status und/oder abweichendem Zustand bzw. Beschlägen ausgeschlossen. Keine zweite passende verfügbare Beobachtung und kein deutscher Boutique-Beleg.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>
 
 </details>

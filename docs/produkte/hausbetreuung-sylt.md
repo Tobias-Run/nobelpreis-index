@@ -1,5 +1,11 @@
 # Jemand schaut nach dem Rechten: Hausbetreuung auf Sylt
 
+**Archiviert und ersetzt · 27.10.2026.** Diese frühere Rechercheidee gehört nicht mehr zur aktiven Auswahl. Die neue Position ist [hier dokumentiert](budersand-premiumrunde.md); sie hat eine eigene Identität und wird nicht mit diesen Preisen verkettet. Für den aktuellen Projektumfang sind keine weiteren externen Belege dieser alten Position erforderlich. [Gemeinsame Ersatzentscheidung](../belegte-alternativen-2026-10-27.md).
+
+<details>
+<summary>Historischer Prüfstand und damals offene Anforderungen</summary>
+
+
 **Aktueller Prüfstand · 26.10.2026**
 
 **Kein öffentlicher Referenzpreis.** Öffentliche Nachrecherche abgeschlossen. Außerhalb der festen Neuner-Zusammensetzung, bis passende Belege vorliegen.
@@ -93,5 +99,7 @@ Standardbetrag sowie passende historische Angebote/Rechnungen fehlen. Material, 
 D&A-Archivstände 2019, 2021, 2023 und 2025 gelesen: kein verwendbarer Betrag des definierten Kontrollpakets. Allgemeine Anbieterbeschreibungen ersetzen kein datiertes Angebot.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>
 
 </details>

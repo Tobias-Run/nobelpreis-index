@@ -1,5 +1,6 @@
 """Feste Jahresrunden mit belegten Herbstständen und ausdrücklichen Saisonregeln."""
 import datetime as dt
+import math
 import re
 from datenpruefung import datum, verlangen, pruefen
 
@@ -8,7 +9,13 @@ def erstellen(roh, rezept):
     beobachtungen = pruefen(roh, rezept)
     verlangen(rezept['jahre'] == sorted(set(rezept['jahre'])) and len(rezept['jahre']) >= 2,
               'Jahresfenster', 'mindestens zwei geordnete Jahre erforderlich')
-    verlangen(len(rezept['positionen']) == 9, 'Jahresfenster', 'feste Neuner-Zusammensetzung erforderlich')
+    soll = rezept.get('soll_produkt_ids')
+    if soll is None:
+        verlangen(len(rezept['positionen']) == 9, 'Jahresfenster', 'historische Neuner-Zusammensetzung erforderlich')
+    else:
+        verlangen(bool(soll) and len(soll) == len(set(soll)) and
+                  set(soll) == {p['produkt_id'] for p in rezept['positionen']},
+                  'Jahresfenster', 'vollständige festgelegte Zusammensetzung erforderlich; fehlende Position nicht neu gewichten')
     verlangen(rezept['referenz']['monate'] == [9, 10], 'Jahresfenster', 'Referenz ist das vollständige September/Oktober-Mittel')
     verlangen({k: rezept['erhebungsfenster'][k] for k in ['von_mm_tt', 'bis_mm_tt', 'ziel_mm_tt']} ==
               {'von_mm_tt': '09-01', 'bis_mm_tt': '10-31', 'ziel_mm_tt': '10-15'},
@@ -26,6 +33,23 @@ def erstellen(roh, rezept):
             zuordnung = p['zeitzuordnung'][str(jahr)]
             ids = p['beobachtung_ids'][str(jahr)]
             os = [beobachtungen[i] for i in ids]
+            spezifikation = p.get('berechnung', {}).get('komponenten')
+            mengen = [1] * len(os)
+            if spezifikation is not None:
+                verlangen(len(spezifikation) == len(os), pid, 'alle festgelegten Tarifkomponenten erforderlich')
+                for i, (teil, o) in enumerate(zip(spezifikation, os)):
+                    menge = teil.get('menge')
+                    verlangen(isinstance(menge, int) and not isinstance(menge, bool) and menge > 0,
+                              pid, 'feste positive ganzzahlige Komponentenmenge erforderlich')
+                    verlangen(teil.get('einheit') == o['einheit'], pid, 'Tarifeinheit passt nicht zur festgelegten Komponentenmenge')
+                    if teil.get('faktoren'):
+                        parameter = p['berechnung'].get('parameter', {})
+                        verlangen(all(k in parameter and isinstance(parameter[k], int) and
+                                      not isinstance(parameter[k], bool) and parameter[k] > 0
+                                      for k in teil['faktoren']), pid, 'positive feste Personen-/Nächteparameter erforderlich')
+                        verlangen(menge == math.prod(parameter[k] for k in teil['faktoren']), pid,
+                                  'Komponentenmenge entspricht nicht dem festen Personen-/Nächteprofil')
+                    mengen[i] = menge
             verlangen(zuordnung['jahr'] == jahr, pid, 'abweichendes Tarifjahr')
             verlangen(bool(zuordnung.get('begruendung')), pid, 'belegte Zeitbegründung erforderlich')
             for o in os:
@@ -57,7 +81,12 @@ def erstellen(roh, rezept):
                 else:
                     verlangen(bool(g.get('von')) and bool(g.get('bis')) and g['von'][:4] == str(jahr-1) and g['bis'][:4] == str(jahr), ort, 'Wintersaison muss im Indexjahr enden')
                 verlangen(o.get('preisdatum', roh['stand']) is None or o.get('preisdatum', roh['stand']) <= roh['stand'], ort, 'Beobachtung liegt nach dem Datenstand')
-            punkt = {'jahr': jahr, 'betrag': sum(o['betrag'] for o in os), 'beobachtung_ids': ids,
+            betrag = sum(o['betrag']*menge for o, menge in zip(os, mengen))
+            verlangen(math.isfinite(betrag) and betrag > 0, pid, 'ungültiger berechneter Tarifbetrag')
+            punkt = {'jahr': jahr, 'betrag': betrag, 'beobachtung_ids': ids,
+                     'komponenten': [{'beobachtung_id': o['id'], 'betrag_eur': o['betrag'], 'menge': menge,
+                                      'einheit': o['einheit'], 'summe_eur': o['betrag']*menge}
+                                     for o, menge in zip(os, mengen)],
                      'quelle_ids': list(dict.fromkeys(o['quelle_id'] for o in os)),
                      'label': zuordnung['label'], 'zeitregel': regel,
                      'zeitbegruendung': zuordnung['begruendung'],

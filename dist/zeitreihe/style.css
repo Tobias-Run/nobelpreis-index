@@ -9,3 +9,5 @@
 #zeitfenstertabelle small{display:block;font-size:11px;color:var(--muted);margin-top:6px}#zeitfenstertabelle td{min-width:185px}#zeitfensterfach[hidden]{display:none}
 
 .twocol>div,.metric{min-width:0}.metric p{overflow-wrap:anywhere}
+
+#archivfach[hidden]{display:none}

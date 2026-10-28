@@ -3,13 +3,14 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {berechne,berechneEinzelreihe,berechneJahresrunde} from '../dist/zeitreihe/berechnung.mjs';
 const data=JSON.parse(readFileSync(new URL('../dist/zeitreihe/daten.json',import.meta.url),'utf8'));
+const historisch=JSON.parse(readFileSync(new URL('../data/research/herbstfenster-und-restbelege-2026-10-26.json',import.meta.url),'utf8'));
 const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} ≠ ${b}`);
 test('Pragmatischer Neuner-Vergleich: feste Auswahl, höhere Grundvarianten, nur echte Belege',()=>{
  const choice=data.pragmatische_auswahl;
  assert.equal(choice.positionen.length,9);assert.equal(data.praxis_reihen.length,9);
  const chosen=new Set(choice.positionen.map(p=>p.produkt_id));
  const outside=new Set(choice.nicht_im_vergleich.map(p=>p.produkt_id));
- assert.equal(chosen.size,9);assert.equal(outside.size,4);
+ assert.equal(chosen.size,9);assert.equal(outside.size,8);
  assert.equal([...chosen].filter(id=>outside.has(id)).length,0);
  assert.deepEqual([...chosen,...outside].sort(),data.produkte.map(p=>p.id).sort());
  const all=new Map(data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]).map(o=>[o.id,o]));
@@ -97,13 +98,14 @@ test('Archivrecherchen: alte Beobachtungen und Quellen unverändert, neue Primä
  const allowed=new Set(data.archivnachrecherche.neue_beobachtung_ids);
  assert.ok([...data.pilot_reihen,...data.einzel_reihen].flatMap(s=>s.punkte).every(p=>p.beobachtung_ids.every(id=>!allowed.has(id))));
  const registry=JSON.parse(readFileSync(new URL('../data/research/produktregister.json',import.meta.url),'utf8'));
- assert.equal(registry.produkte.reduce((n,p)=>n+p.anzahl_beobachtungen,0),73);
+ assert.equal(registry.produkte.reduce((n,p)=>n+p.anzahl_beobachtungen,0),86);
 });
 test('Zusätzliche Zeitreihen: 28 Originalbelege, keine Zukunftstarife oder Referenzverkettung',()=>{
- assert.equal(data.einzel_reihen.length,8);
+ const urspruenglicheReihen=data.einzel_reihen.filter(r=>r.vergleichsart!=='herbstfenster');
+ assert.equal(urspruenglicheReihen.length,8);
  const obs=new Map(data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]).map(o=>[o.id,o]));
- assert.equal(data.einzel_reihen.flatMap(s=>s.punkte).length,28);
- for(const s of data.einzel_reihen){
+ assert.equal(urspruenglicheReihen.flatMap(s=>s.punkte).length,28);
+ for(const s of urspruenglicheReihen){
   assert.equal(s.indexfreigabe,false);
   for(const p of s.punkte){
    const o=obs.get(p.beobachtung_ids[0]);assert.ok(o);assert.equal(p.betrag,o.betrag);
@@ -161,7 +163,7 @@ test('Erweiterter VPI-Beleg: 93 Monatswerte ab 2019, alter Pilot-Beleg unveränd
 test('Gewichtungsszenarien: vollständige feste Gewichte, richtige 13er-Adaption und keine Auffüllung',()=>{
  const x=data.gewichtungsszenarien;
  assert.equal(x.stand,'2026-10-18');assert.equal(x.szenarien.length,3);
- const ids=data.produkte.map(p=>p.id).sort();
+ const ids=historisch.produkte.map(p=>p.id).sort();
  for(const s of x.szenarien){
   assert.deepEqual(s.gewichte.map(w=>w.produkt_id).sort(),ids);
   const exact=w=>w.anteil_bruch.zaehler/w.anteil_bruch.nenner;
@@ -188,7 +190,7 @@ test('Komponentenabgleich: 6 Kategorien, 2 bedingt, 11 Lücken, 1 bewusster Auss
  for(const [status,n] of Object.entries({kategorisch:6,bedingt:2,nicht_abgedeckt:11,bewusst_ausgeschlossen:1}))assert.equal(x.abgleich_julius_baer.filter(c=>c.status===status).length,n);
  assert.equal(x.abgleich_julius_baer.find(c=>c.status==='bewusst_ausgeschlossen').komponente_id,'residential_property');
  assert.equal(x.zusaetzliche_positionen.length,5);
- assert.deepEqual(Object.values(x.gruppen).flat().sort(),data.produkte.map(p=>p.id).sort());
+ assert.deepEqual(Object.values(x.gruppen).flat().sort(),historisch.produkte.map(p=>p.id).sort());
  assert.deepEqual(JSON.parse(readFileSync(new URL('../data/methodik/gewichtungsszenarien-2026-10-18.json',import.meta.url),'utf8')),x);
 });
 test('Pilot: Preisverhältnisse statt Addition ungleicher Euro-Einheiten',()=>{
@@ -223,8 +225,8 @@ test('Ungültige Werte, Duplikate und fehlende Referenzen werden abgewiesen',()=
  for(const bad of [0,-10,NaN,Infinity])assert.throws(()=>berechne([{id:'test',punkte:[{jahr:2025,betrag:bad}]}],[2025],data.referenz));
  assert.throws(()=>berechne([s],[2025,2026],{beobachtungen:[]}));
 });
-test('Alle 13 recherchiert; Quellen auflösbar und Zukunft bleibt außerhalb des Piloten',()=>{
- assert.equal(data.produkte.length,13);assert.equal(data.indexfreigabe,false);
+test('Alle 17 dokumentiert; Quellen auflösbar und Zukunft bleibt außerhalb des Piloten',()=>{
+ assert.equal(data.produkte.length,17);assert.equal(data.indexfreigabe,false);
  const sources=new Set(data.quellen.map(s=>s.id));
  const obs=data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
  assert.equal(new Set(obs.map(o=>o.id)).size,obs.length);
@@ -238,7 +240,7 @@ test('Alle 13 recherchiert; Quellen auflösbar und Zukunft bleibt außerhalb des
 });
 
 test('Archivstand ersetzt keine Tarifgültigkeit und kein neuerliches VPI-Abrufdatum',()=>{
- assert.equal(data.stand,'2026-10-26');assert.equal(data.referenz.abgerufen_am,'2026-10-16');
+ assert.equal(data.stand,'2026-10-27');assert.equal(data.referenz.abgerufen_am,'2026-10-16');
  const obs=data.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
  const ycl=obs.find(o=>o.id==='ycl-archiv-fläche-2022');
  assert.equal(ycl.gültigkeit.von,'2022-05-14');assert.equal(ycl.betrag,74.5);assert.equal(ycl.preisdatum,null);
@@ -246,7 +248,7 @@ test('Archivstand ersetzt keine Tarifgültigkeit und kein neuerliches VPI-Abrufd
  const salem=obs.find(o=>o.id==='salem-archiv-2025');assert.equal(salem.betrag,50400);
  assert.ok(data.quellen.find(s=>s.id===salem.quelle_id).archiv_timestamp.startsWith('2024'));
  const kelly=obs.find(o=>o.id==='kelly-saclab-archiv-2024');assert.equal(kelly.betrag,21800);assert.match(kelly.preisart,/Sekundärmarkt/);assert.equal(kelly.indexfreigabe,false);
- assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),73);
+ assert.equal(data.produkte.reduce((n,p)=>n+p.beobachtungen.length+p.zusätzliche_historische_beobachtungen.length,0),86);
 });
 
 test('Julius-Bär-Schema: 20 Komponenten und exakte 20/10/70-Verteilung',()=>{
@@ -297,18 +299,20 @@ test('Herbst-VPI: vollständige Monatsindizes mitteln, keine fehlenden Monate au
  const wrong=structuredClone(rows);wrong[0].punkte[0].referenzmonate=['2025-08'];
  assert.throws(()=>berechneJahresrunde(wrong,[2025,2026],ref));
 });
-test('Restbelege: sechs echte Ergänzungen, alte Belege unverändert, vier externe Lücken bleiben offen',()=>{
+test('Früherer Rechercheabschluss bleibt reproduzierbar; seine sechs Ergänzungen und damaligen Lücken bleiben erhalten',()=>{
  const previous=JSON.parse(readFileSync(new URL('../data/research/schwarzwaldstube-vertiefung-2026-10-26.json',import.meta.url),'utf8'));
  const flatten=x=>x.produkte.flatMap(p=>[...p.beobachtungen,...p.zusätzliche_historische_beobachtungen]);
  const obs=new Map(flatten(data).map(o=>[o.id,o]));for(const o of flatten(previous))assert.deepEqual(obs.get(o.id),o);
  for(const q of previous.quellen)assert.deepEqual(data.quellen.find(s=>s.id===q.id),q);
- assert.equal(flatten(data).length-flatten(previous).length,6);
+ assert.equal(flatten(historisch).length-flatten(previous).length,6);
  assert.equal(obs.get('alarm-securando-pro-2022').betrag,30);
  assert.equal(data.produkte.find(p=>p.id==='hausbetreuung-sylt').beobachtungen.length,0);
  assert.equal(data.produkte.find(p=>p.id==='hotel-adlon-deluxe').beobachtungen.length,0);
- assert.equal(data.fachpruefung.positionen.length,13);assert.equal(data.fachpruefung.nachrichten_versandt,false);
- assert.deepEqual(data.fachpruefung.offene_externe_kernbelege,['hermes-kelly','alarmaufschaltung','hausbetreuung-sylt','hotel-adlon-deluxe']);
+ assert.equal(data.fachpruefung.positionen.length,17);assert.equal(data.fachpruefung.nachrichten_versandt,false);
+ const altePruefung=JSON.parse(readFileSync(new URL('../data/reviews/fachpruefung-2026-10-26.json',import.meta.url),'utf8'));
+ assert.deepEqual(altePruefung.offene_externe_kernbelege,['hermes-kelly','alarmaufschaltung','hausbetreuung-sylt','hotel-adlon-deluxe']);
+ assert.deepEqual(data.fachpruefung.offene_externe_kernbelege,[]);
  const prot=JSON.parse(readFileSync(new URL('../data/research/restbelege-protokoll-2026-10-26.json',import.meta.url),'utf8'));
  const moved=prot.abrufe.find(a=>a.id==='adlon-herbst25-archiv');assert.match(moved.end_url,/20251216/);assert.match(moved.memento_datetime,/16 Dec 2025/);
- for(const p of data.fachpruefung.positionen)for(const id of p.beleg_ids)assert.ok(prot.abrufe.some(a=>a.id===id),id);
+ for(const p of altePruefung.positionen)for(const id of p.beleg_ids)assert.ok(prot.abrufe.some(a=>a.id===id),id);
 });

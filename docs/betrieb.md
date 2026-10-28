@@ -1,6 +1,6 @@
 # Betrieb und Veröffentlichung
 
-Stand: 26.10.2026. Betreiber des Projekt-Repositories: Tobias-Run. Meldestelle für Fehler: GitHub-Issues; Projektsprache Deutsch. Der Stand bleibt ein öffentlich gekennzeichneter Forschungsprototyp. Vollständige redaktionelle Verantwortungs-/Rechtsangaben für einen späteren regulären Publikationsbetrieb und eine Code-/Datenlizenz sind noch zu entscheiden.
+Stand: 28.10.2026. Betreiber des Projekt-Repositories: Tobias-Run. Meldestelle für Fehler: GitHub-Issues; Projektsprache Deutsch. Der Stand bleibt ein öffentlich gekennzeichneter Forschungsprototyp. Vollständige redaktionelle Verantwortungs-/Rechtsangaben für einen späteren regulären Publikationsbetrieb und eine Code-/Datenlizenz sind noch zu entscheiden.
 
 ## Ein Datenstand, ein geprüfter Release
 
@@ -11,7 +11,7 @@ Der Workflow `.github/workflows/pruefen-und-veroeffentlichen.yml` läuft für Pu
 1. Den Offline-Build und einen leeren Diff der erzeugten, versionierten Dateien.
 2. Pflichtfelder, Kalenderdaten, Quellreferenzen und Auswahl zum Recherche-Stichtag; Zukunftstarife dürfen im Archiv stehen, aber nicht im laufenden Vergleich.
 3. Negative Datentests, vorhandene Berechnungs- und Bundesbank-Tests sowie Syntax.
-4. Browserbedienung bei vier Breiten: Kernwerte im ersten Bildschirm, zwölf Ansichten, Direktlinks, Verlauf, fehlender VPI und CSV-Nachrechnung.
+4. Browserbedienung bei vier Breiten: Kernwerte im ersten Bildschirm, 18 Ansichten mit 13 aktiven und vier archivierten Positionen, Direktlinks, Verlauf, fehlender VPI und CSV-Nachrechnung.
 
 Nach erfolgreicher Prüfung steht das Artefakt `website-geprueft` bereit. Die automatische Pages-Veröffentlichung wird nur gestartet, wenn Pages bereits den Modus `workflow` verwendet. Im bisherigen Branch-Modus bleiben die Prüfungen grün, der automatische Deploy wird übersprungen.
 
@@ -28,7 +28,7 @@ Produktbeobachtungen werden jährlich beziehungsweise zum festgelegten Saison-/T
 
 Vor einer Änderung: neue Quelldatei beziehungsweise Forschungsversion erstellen, Preisdatum/Gültigkeit/Abruf getrennt erfassen, Beleg und Fundstelle prüfen, anschließend Release-Konfiguration aktualisieren. Die automatische Eingangsprüfung ersetzt keine fachliche Quellenprüfung. Unbekannter einzelner Steuersatz ist bei dokumentiertem Brutto-Endpreis ausdrücklich zulässig; fehlende Steuerangabe als ganzes Feld nicht.
 
-Die [Produktmatrix](produktstatus.md) zeigt vorhandene Belege und nominale Auswahl. Sie behauptet keine automatische redaktionelle Gesamtindexfreigabe. Kelly, Alarm, Adlon und Sylt-Service bleiben Backlog. Die Schwarzwaldstube-Recherche ist abgeschlossen; unbekannte Kostenursachen blockieren die nominale Tarifgeschichte nicht.
+Die [Produktmatrix](produktstatus.md) zeigt vorhandene Belege und nominale Auswahl. Sie behauptet keine automatische redaktionelle Gesamtindexfreigabe. Kelly, alte Alarmreferenz, Adlon und Sylt-Service sind seit Version 0.8 archiviert und durch vier separat definierte Premiumleistungen ersetzt; für diesen Umfang besteht keine offene Anbieterbeleg-Anforderung mehr. Die Schwarzwaldstube-Recherche ist abgeschlossen; unbekannte Kostenursachen blockieren die nominale Tarifgeschichte nicht.
 
 ## Korrekturen und Rollback
 
@@ -39,10 +39,12 @@ Bei einer Korrektur betroffene Beobachtungs-IDs, vorherigen/neuen Wert oder Zeit
 Rollback: Den fehlerhaften Merge durch einen Revert-PR zurücknehmen. Nach erfolgreichen Prüfungen veröffentlicht derselbe Ablauf den wiederhergestellten Stand und ein neues Manifest mit dem Revert-Commit. Für eine technische Wiederholung kann der Workflow auf `main` manuell gestartet werden. Vor Freigabe prüfen, dass der aktuelle Pages-Stand und sein Manifest die erwarteten Prüfsummen besitzen. Ein konkreter Produktionsrollback ist erst im Fehlerfall nötig; dieser Ablauf ist dokumentiert, noch kein absichtlich ausgeführter Rollback-Test.
 
 
-## Fachliche Jahresrunde ab Version 0.7
+## Fachliche Jahresrunde ab Version 0.8
 
-`data/release.json` enthält zusätzlich `herbstvergleich`, `fachpruefung` und `belegprotokoll`. Der Build prüft die festen Jahresfenster, erzeugt die unabhängige Python-Nachrechnung und aktualisiert Produktregister/-matrix. Die vorhandenen Rohbelege werden offline verwendet; ein Build ruft keine Anbieter neu ab.
+`data/release.json` enthält `jahresvergleich` für den neuen 13er-Korb, `herbstvergleich` und `historische_recherche` für den unveränderten Neuner-Stand sowie `fachpruefung` und `belegprotokoll`. Die Julius-Bär-Szenarien laden weiterhin ihre eingefrorene ursprüngliche Auswahl. Historische Dateien werden nicht aus der neuen Produktliste regeneriert. Der Build prüft die festen Jahresfenster, erzeugt die unabhängige Python-Nachrechnung und aktualisiert Produktregister/-matrix. Die vorhandenen Rohbelege werden offline verwendet; ein Build ruft keine Anbieter neu ab.
 
 Bei einem neuen VPI-Beleg müssen September und Oktober vollständig vorliegen, bevor die Herbstreferenz erscheint. Es gibt keinen Ersatzmonat und keine Hochrechnung eines fehlenden Werts. Die Monatsdaten und Metadaten werden als neue Quelldatei mit tatsächlichem Abrufdatum versioniert; `vpi_einzelreihen` verweist anschließend darauf. Alte Belege bleiben erhalten. Die Prüfung für fehlende Monate bleibt bestehen und prüft weiterhin mit explizit entfernten Monaten; feste Datenstand-Erwartungen sind für die neue Releaseversion zu aktualisieren.
 
-Neue Produktbelege müssen zusätzlich zur allgemeinen Datenprüfung die feste Zeitregel erfüllen. Bereits vorhandene näher am Zieltag liegende Beobachtungen werden nicht allein wegen eines späteren Abrufdatums ersetzt. Änderungen an Saisonzuordnung oder Erhebungsfenster erhalten ein neues Auswahlrezept mit Korrekturhinweis. [Aktuelle Regeln und externe Restnachweise](jahresfenster-und-restbelege-2026-10-26.md).
+Neue Produktbelege müssen zusätzlich zur allgemeinen Datenprüfung die feste Zeitregel erfüllen. Bereits vorhandene näher am Zieltag liegende Beobachtungen werden nicht allein wegen eines späteren Abrufdatums ersetzt. Änderungen an Saisonzuordnung oder Erhebungsfenster erhalten ein neues Auswahlrezept mit Korrekturhinweis. [Aktuelle Regeln und Ersatzentscheidungen](belegte-alternativen-2026-10-27.md).
+
+Zusätzlich wird die vollständige feste ID-Menge des 13er-Korbs geprüft. Ein Ausfall darf nicht zu einem 12er-Korb mit neuen Gewichten führen. Komponenten haben positive ganzzahlige Mengen und exakt passende Einheiten; Parameter wie zwei Erwachsene und sieben Nächte müssen zur Menge 14 der Ortstaxe passen. Die aktuellen Daten werden in Python, JavaScript und anhand des Browser-CSV unabhängig nachgerechnet. Zum lokalen Prüfablauf gehören neben den bisherigen Tests `node tests/ersatzkorb.test.mjs` und `node tests/alternativen.test.mjs`.
