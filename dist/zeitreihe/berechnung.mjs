@@ -1,6 +1,14 @@
 /** Preisverhältnisse mit fester Zusammensetzung, ohne Auffüllen fehlender Werte. */
-export function berechneJahresrunde(reihen, jahre, referenz) {
-  if(reihen.length!==9 || new Set(reihen.map(r=>r.id)).size!==9 || jahre.length<2 || jahre.some((y,i)=>!Number.isInteger(y)||(i&&y!==jahre[i-1]+1))) throw new Error('Ungültige feste Jahresrunde.');
+export function berechneJahresrunde(reihen, jahre, referenz, erwarteteIds=[
+  'porsche-cayenne','salem','saxonia-thin','lanserhof-sylt','rm-charger5',
+  'bayreuth-parsifal','liegeplatz-ycl','skiurlaub-arlberg','schwarzwaldstube-menue-ii'
+]) {
+  // Neue Auswahlversionen übergeben ausdrücklich ihre Rezept-IDs. Ohne vierten
+  // Parameter gilt ausschließlich die historische Neuner-Zusammensetzung.
+  if(!Array.isArray(reihen)||!Array.isArray(jahre)||jahre.length<2||jahre.some((y,i)=>!Number.isInteger(y)||(i&&y!==jahre[i-1]+1))||!Array.isArray(referenz?.beobachtungen)) throw new Error('Ungültige feste Jahresrunde.');
+  if(!Array.isArray(erwarteteIds)||!erwarteteIds.length||erwarteteIds.some(id=>typeof id!=='string'||!id.trim())||new Set(erwarteteIds).size!==erwarteteIds.length) throw new Error('Ungültige erwartete Rezept-IDs.');
+  const n=erwarteteIds.length,sollIds=new Set(erwarteteIds);
+  if(reihen.length!==n||reihen.some(r=>!r||!sollIds.has(r.id)||!Array.isArray(r.punkte))||new Set(reihen.map(r=>r.id)).size!==n) throw new Error('Zusammensetzung stimmt nicht mit den erwarteten Rezept-IDs überein.');
   const preise=reihen.map(r=>{
     if(new Set(r.punkte.map(p=>p.jahr)).size!==r.punkte.length)throw new Error('Doppelte Preisbeobachtung.');
     return jahre.map(j=>{const p=r.punkte.find(p=>p.jahr===j);if(!p||!Number.isFinite(p.betrag)||p.betrag<=0||JSON.stringify(p.referenzmonate)!==JSON.stringify([`${j}-09`,`${j}-10`]))throw new Error(`Preis oder Jahresfenster fehlt: ${r.id}/${j}.`);return p.betrag;});
@@ -13,10 +21,10 @@ export function berechneJahresrunde(reihen, jahre, referenz) {
     });
     return werte.some(v=>v===null)?null:(werte[0]+werte[1])/2;
   });
-  const werte=jahre.map((jahr,i)=>({jahr,label:`Herbst ${jahr}`,zeitachse:`${jahr}-10-15`,referenzmonate:[`${jahr}-09`,`${jahr}-10`],index:100*preise.reduce((sum,p)=>sum+p[i]/p[0],0)/9,vpi:original[0]===null||original[i]===null?null:100*original[i]/original[0],vpi_original:original[i]}));
-  const beitraege=reihen.map((r,i)=>({id:r.id,name:r.kurzname,veraenderung:100*(preise[i].at(-1)/preise[i][0]-1),prozentpunkte:100*(preise[i].at(-1)/preise[i][0]-1)/9,gewicht:1/9}));
+  const werte=jahre.map((jahr,i)=>({jahr,label:`Herbst ${jahr}`,zeitachse:`${jahr}-10-15`,referenzmonate:[`${jahr}-09`,`${jahr}-10`],index:100*preise.reduce((sum,p)=>sum+p[i]/p[0],0)/n,vpi:original[0]===null||original[i]===null?null:100*original[i]/original[0],vpi_original:original[i]}));
+  const beitraege=reihen.map((r,i)=>({id:r.id,name:r.kurzname,veraenderung:100*(preise[i].at(-1)/preise[i][0]-1),prozentpunkte:100*(preise[i].at(-1)/preise[i][0]-1)/n,gewicht:1/n}));
   const ende=werte.at(-1),vpiAnstieg=ende.vpi===null?null:ende.vpi-100;
-  return {basisjahr:jahre[0],endjahr:jahre.at(-1),anzahl:9,werte,beitraege,anstieg:ende.index-100,vpiAnstieg,abstand:vpiAnstieg===null?null:ende.index-ende.vpi,vergleichshinweis:'Feste Jahres-/Saisonregeln und Herbst-Angebotsfenster; VPI-Mittel September/Oktober zur Einordnung. Kein gleichzeitiges Preisniveau oder repräsentatives Haushaltsbudget.'};
+  return {basisjahr:jahre[0],endjahr:jahre.at(-1),anzahl:n,werte,beitraege,anstieg:ende.index-100,vpiAnstieg,abstand:vpiAnstieg===null?null:ende.index-ende.vpi,vergleichshinweis:'Feste Jahres-/Saisonregeln und Herbst-Angebotsfenster; VPI-Mittel September/Oktober zur Einordnung. Kein gleichzeitiges Preisniveau oder repräsentatives Haushaltsbudget.'};
 }
 
 export function berechneEinzelreihe(reihe, start, referenz) {

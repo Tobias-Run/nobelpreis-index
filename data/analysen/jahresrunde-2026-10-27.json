@@ -1,0 +1,1015 @@
+{
+  "stand": "2026-10-27",
+  "version": "poc-0.8.0",
+  "eingaben": {
+    "data/research/premiumalternativen-2026-10-27.json": "7c203e23331d3e7c813266d8b0fbc463a59b3c879028cd53321c89d01475c65b",
+    "data/methodik/jahresrunde-2026-10-27.json": "fc987fd5217d81adf91919320940d506d7a8b93d1a2132dd23292345ce6a76b9",
+    "data/sources/bundesbank-vpi-monatlich-2019-2026-2026-10-20.csv": "b0f3f692007959a54585d21b06c2748cfee5fe2c27d75016ca263730fe00d018"
+  },
+  "zeitregeln_geprueft": true,
+  "produktive_indexfreigabe": false,
+  "nominale_aenderung_prozent": 3.394373644506965,
+  "vpi_herbstmittel": [
+    {
+      "jahr": 2025,
+      "monate": [
+        "2025-09",
+        "2025-10"
+      ],
+      "werte": [
+        122.6,
+        123.0
+      ],
+      "mittel": 122.8
+    },
+    {
+      "jahr": 2026,
+      "monate": [
+        "2026-09",
+        "2026-10"
+      ],
+      "werte": [
+        126.6,
+        null
+      ],
+      "mittel": null
+    }
+  ],
+  "vpi_aenderung_prozent": null,
+  "abstand_prozentpunkte": null,
+  "positionen": [
+    {
+      "produkt_id": "porsche-cayenne",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 101500,
+        "beobachtung_ids": [
+          "cayenne-herbst-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "cayenne-herbst-2025",
+            "betrag_eur": 101500,
+            "menge": 1,
+            "einheit": "Fahrzeug",
+            "summe_eur": 101500
+          }
+        ],
+        "quelle_ids": [
+          "fenster26-porsche-sept25"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-09-12",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 102700,
+        "beobachtung_ids": [
+          "cayenne-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "cayenne-2026",
+            "betrag_eur": 102700,
+            "menge": 1,
+            "einheit": "Fahrzeug",
+            "summe_eur": 102700
+          }
+        ],
+        "quelle_ids": [
+          "porsche-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 1.1822660098522064,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.09094353921940049,
+      "belegabstand_tage": 399
+    },
+    {
+      "produkt_id": "salem",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 50400,
+        "beobachtung_ids": [
+          "salem-archiv-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "salem-archiv-2025",
+            "betrag_eur": 50400,
+            "menge": 1,
+            "einheit": "Schuljahr",
+            "summe_eur": 50400
+          }
+        ],
+        "quelle_ids": [
+          "ia-salem-20240912"
+        ],
+        "label": "Schuljahr 2025/26",
+        "zeitregel": "schuljahr",
+        "zeitbegruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Schuljahr 2025/2026"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 53400,
+        "beobachtung_ids": [
+          "salem-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "salem-2026",
+            "betrag_eur": 53400,
+            "menge": 1,
+            "einheit": "Schuljahr",
+            "summe_eur": 53400
+          }
+        ],
+        "quelle_ids": [
+          "salem-2026"
+        ],
+        "label": "Schuljahr 2026/27",
+        "zeitregel": "schuljahr",
+        "zeitbegruendung": "Reguläres Schuljahr, das im Indexjahr beginnt; Klasse 8 und zwölf Monatsraten. September ist der Schuljahresanker, kein behaupteter aktueller Abruf.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "von": "2026-09-01",
+          "bis": "2027-08-31",
+          "bezeichnung": "2026/2027"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 5.952380952380953,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.45787545787545797,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "saxonia-thin",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 25600,
+        "beobachtung_ids": [
+          "saxonia-wempe-archiv-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "saxonia-wempe-archiv-2025",
+            "betrag_eur": 25600,
+            "menge": 1,
+            "einheit": "Uhr",
+            "summe_eur": 25600
+          }
+        ],
+        "quelle_ids": [
+          "ia-wempe-2025"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-10-27",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 27000,
+        "beobachtung_ids": [
+          "saxonia-wempe-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "saxonia-wempe-2026",
+            "betrag_eur": 27000,
+            "menge": 1,
+            "einheit": "Uhr",
+            "summe_eur": 27000
+          }
+        ],
+        "quelle_ids": [
+          "wempe-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 5.46875,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.4206730769230769,
+      "belegabstand_tage": 354
+    },
+    {
+      "produkt_id": "lanserhof-sylt",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 4046,
+        "beobachtung_ids": [
+          "lanserhof-2025-plus"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "lanserhof-2025-plus",
+            "betrag_eur": 4046,
+            "menge": 1,
+            "einheit": "Person und Programm für 7–8 Nächte",
+            "summe_eur": 4046
+          }
+        ],
+        "quelle_ids": [
+          "lanserhof-2025"
+        ],
+        "label": "Jahresbroschüre 2025",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Broschüre 2025"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 3990,
+        "beobachtung_ids": [
+          "lanserhof-2026-classic-plus"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "lanserhof-2026-classic-plus",
+            "betrag_eur": 3990,
+            "menge": 1,
+            "einheit": "Person und Programm für 7–8 Nächte",
+            "summe_eur": 3990
+          }
+        ],
+        "quelle_ids": [
+          "lanserhof-2026"
+        ],
+        "label": "Jahresbroschüre 2026",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Vom Anbieter bezeichnete Jahresbroschüre des Indexjahres. Kein fingierter Preisstichtag innerhalb des Jahres, kein Gesamtaufenthalt.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2026",
+          "von": "2026-01-01",
+          "bis": "2026-12-31"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": -1.384083044982698,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": -0.10646792653713061,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "rm-charger5",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 6199,
+        "beobachtung_ids": [
+          "rm-herbst-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "rm-herbst-2025",
+            "betrag_eur": 6199,
+            "menge": 1,
+            "einheit": "Fahrrad",
+            "summe_eur": 6199
+          }
+        ],
+        "quelle_ids": [
+          "fenster26-pruefung-rm2025-okt"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 6499,
+        "beobachtung_ids": [
+          "rm-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "rm-2026",
+            "betrag_eur": 6499,
+            "menge": 1,
+            "einheit": "Fahrrad",
+            "summe_eur": 6499
+          }
+        ],
+        "quelle_ids": [
+          "rm-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 4.839490240361344,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.37226848002779567,
+      "belegabstand_tage": 365
+    },
+    {
+      "produkt_id": "bayreuth-parsifal",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 358,
+        "beobachtung_ids": [
+          "bayreuth-ticket-2025",
+          "bayreuth-gebühr-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "bayreuth-ticket-2025",
+            "betrag_eur": 352,
+            "menge": 1,
+            "einheit": "Ticket",
+            "summe_eur": 352
+          },
+          {
+            "beobachtung_id": "bayreuth-gebühr-2025",
+            "betrag_eur": 6,
+            "menge": 1,
+            "einheit": "Platz",
+            "summe_eur": 6
+          }
+        ],
+        "quelle_ids": [
+          "bayreuth-preise-2025",
+          "bayreuth-agb-2025"
+        ],
+        "label": "Festspielsaison 2025",
+        "zeitregel": "festspieljahr",
+        "zeitbegruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Festspielsaison 2025"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 358,
+        "beobachtung_ids": [
+          "bayreuth-ticket-2026",
+          "bayreuth-gebühr-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "bayreuth-ticket-2026",
+            "betrag_eur": 352,
+            "menge": 1,
+            "einheit": "Ticket",
+            "summe_eur": 352
+          },
+          {
+            "beobachtung_id": "bayreuth-gebühr-2026",
+            "betrag_eur": 6,
+            "menge": 1,
+            "einheit": "Platz",
+            "summe_eur": 6
+          }
+        ],
+        "quelle_ids": [
+          "bayreuth-preise-2026",
+          "bayreuth-agb-2026"
+        ],
+        "label": "Festspielsaison 2026",
+        "zeitregel": "festspieljahr",
+        "zeitbegruendung": "Offizieller Tarif der Festspielsaison des Indexjahres, online/digital. Kartenpreis und je Platz verpflichtende Gebühr gemeinsam.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Festspielsaison 2026"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 0.0,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.0,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "liegeplatz-ycl",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 96,
+        "beobachtung_ids": [
+          "ycl-fläche-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "ycl-fläche-2025",
+            "betrag_eur": 96,
+            "menge": 1,
+            "einheit": "m² und Sommersaison",
+            "summe_eur": 96
+          }
+        ],
+        "quelle_ids": [
+          "ycl-2025"
+        ],
+        "label": "Sommergebühr 2025",
+        "zeitregel": "sommersaison",
+        "zeitbegruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2025",
+          "von": "2025-05-10"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 96.5,
+        "beobachtung_ids": [
+          "ycl-fläche-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "ycl-fläche-2026",
+            "betrag_eur": 96.5,
+            "menge": 1,
+            "einheit": "m² und Sommersaison",
+            "summe_eur": 96.5
+          }
+        ],
+        "quelle_ids": [
+          "ycl-2026"
+        ],
+        "label": "Sommergebühr 2026",
+        "zeitregel": "sommersaison",
+        "zeitbegruendung": "Gebührenbeschluss für die Sommersaison des Indexjahres, wirksam seit dokumentiertem Beschlussdatum. Kein Januar-Jahresdurchschnitt und kein vollständiger Bootsliegeplatzpreis.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2026",
+          "von": "2026-04-20"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 0.5208333333333259,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.04006410256410199,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "skiurlaub-arlberg",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 423,
+        "beobachtung_ids": [
+          "ski-beleg-2024"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "ski-beleg-2024",
+            "betrag_eur": 423,
+            "menge": 1,
+            "einheit": "6-Tage-Skipass",
+            "summe_eur": 423
+          }
+        ],
+        "quelle_ids": [
+          "ski202425-albona"
+        ],
+        "label": "Wintersaison 2024/25",
+        "zeitregel": "winterendjahr",
+        "zeitbegruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Saison 2024/25",
+          "von": "2024-12-21",
+          "bis": "2025-04-04"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 450,
+        "beobachtung_ids": [
+          "ski-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "ski-2025",
+            "betrag_eur": 450,
+            "menge": 1,
+            "einheit": "6-Tage-Skipass",
+            "summe_eur": 450
+          }
+        ],
+        "quelle_ids": [
+          "pruefung-ski2025-original"
+        ],
+        "label": "Wintersaison 2025/26",
+        "zeitregel": "winterendjahr",
+        "zeitbegruendung": "Die im Indexjahr endende Wintersaison; Preis des Sechstagepasses für Erwachsene in der Hauptsaison. 2026/27 gehört zu 2027 und bleibt am Datenstand als Zukunftstarif ausgeschlossen.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "2025/26",
+          "von": "2025-12-20",
+          "bis": "2026-04-06"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 6.382978723404253,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.4909983633387887,
+      "belegabstand_tage": null
+    },
+    {
+      "produkt_id": "schwarzwaldstube-menue-ii",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 325,
+        "beobachtung_ids": [
+          "schwarzwald-original-archiv-2025-10"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "schwarzwald-original-archiv-2025-10",
+            "betrag_eur": 325,
+            "menge": 1,
+            "einheit": "Menü pro Person",
+            "summe_eur": 325
+          }
+        ],
+        "quelle_ids": [
+          "sw26-original-2025-10"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2025-10-14",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 385,
+        "beobachtung_ids": [
+          "schwarzwald-2026-menue"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "schwarzwald-2026-menue",
+            "betrag_eur": 385,
+            "menge": 1,
+            "einheit": "Menü pro Person",
+            "summe_eur": 385
+          }
+        ],
+        "quelle_ids": [
+          "schwarzwald-karte"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Angebotsstand im festen Fenster 1. September bis 31. Oktober verwenden; vorhandenen passenden Beleg am nächsten zum 15. Oktober wählen. Kein Gültigkeitsbeginn oder kontinuierlicher Preisverlauf unterstellt.",
+        "preisdatum": "2026-10-16",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 18.461538461538463,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 1.4201183431952664,
+      "belegabstand_tage": 367
+    },
+    {
+      "produkt_id": "gfw-alarm-premium",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 29.99,
+        "beobachtung_ids": [
+          "gfw-premium-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "gfw-premium-2025",
+            "betrag_eur": 29.99,
+            "menge": 1,
+            "einheit": "Monat laufende private Alarmaufschaltung, Paket L",
+            "summe_eur": 29.99
+          }
+        ],
+        "quelle_ids": [
+          "ersatz27-gfw-archiv-2025"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Originalstand im festen September/Oktober-Fenster verwenden; nächster passender geprüfter Beleg zum 15. Oktober. Keine Jahresdurchschnitte oder erfundenen Gültigkeitsbeginne.",
+        "preisdatum": "2025-09-09",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 29.99,
+        "beobachtung_ids": [
+          "gfw-premium-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "gfw-premium-2026",
+            "betrag_eur": 29.99,
+            "menge": 1,
+            "einheit": "Monat laufende private Alarmaufschaltung, Paket L",
+            "summe_eur": 29.99
+          }
+        ],
+        "quelle_ids": [
+          "ersatz27-gfw-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Originalstand im festen September/Oktober-Fenster verwenden; nächster passender geprüfter Beleg zum 15. Oktober. Keine Jahresdurchschnitte oder erfundenen Gültigkeitsbeginne.",
+        "preisdatum": "2026-10-27",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 0.0,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.0,
+      "belegabstand_tage": 413
+    },
+    {
+      "produkt_id": "lady-dior-gross",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 6200,
+        "beobachtung_ids": [
+          "lady-dior-gross-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "lady-dior-gross-2025",
+            "betrag_eur": 6200,
+            "menge": 1,
+            "einheit": "Neue Tasche, Große Lady Dior M0566ONGE_M900",
+            "summe_eur": 6200
+          }
+        ],
+        "quelle_ids": [
+          "ersatz27-dior-gross-archiv2025"
+        ],
+        "label": "Herbst 2025",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Originalstand im festen September/Oktober-Fenster verwenden; nächster passender geprüfter Beleg zum 15. Oktober. Keine Jahresdurchschnitte oder erfundenen Gültigkeitsbeginne.",
+        "preisdatum": "2025-09-06",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 6200,
+        "beobachtung_ids": [
+          "lady-dior-gross-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "lady-dior-gross-2026",
+            "betrag_eur": 6200,
+            "menge": 1,
+            "einheit": "Neue Tasche, Große Lady Dior M0566ONGE_M900",
+            "summe_eur": 6200
+          }
+        ],
+        "quelle_ids": [
+          "ersatz27-dior-gross-aktuell"
+        ],
+        "label": "Herbst 2026",
+        "zeitregel": "herbst",
+        "zeitbegruendung": "Datierten Originalstand im festen September/Oktober-Fenster verwenden; nächster passender geprüfter Beleg zum 15. Oktober. Keine Jahresdurchschnitte oder erfundenen Gültigkeitsbeginne.",
+        "preisdatum": "2026-10-27",
+        "gueltigkeit": null,
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 0.0,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.0,
+      "belegabstand_tage": 416
+    },
+    {
+      "produkt_id": "budersand-premiumrunde",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 185,
+        "beobachtung_ids": [
+          "budersand-greenfee-2025",
+          "budersand-cart-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "budersand-greenfee-2025",
+            "betrag_eur": 130,
+            "menge": 1,
+            "einheit": "18-Loch-Hauptsaison-Greenfee je regulärem erwachsenem Gast, Startzeit 09.00–11.48 Uhr",
+            "summe_eur": 130
+          },
+          {
+            "beobachtung_id": "budersand-cart-2025",
+            "betrag_eur": 55,
+            "menge": 1,
+            "einheit": "ein Golfcart für 18 Loch; keine Teilung des Cartpreises zwischen Mitfahrern",
+            "summe_eur": 55
+          }
+        ],
+        "quelle_ids": [
+          "ersatz27-budersand-2025"
+        ],
+        "label": "Sommerpreisliste 2025",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Ausdrücklich bezeichneten Sommer-Saisontarif des Jahres verwenden; kein behaupteter Herbst-Tagespreis. Saison, Dauer und Personen bleiben vorab festgelegt.",
+        "preisdatum": "2025-07-08",
+        "gueltigkeit": {
+          "bezeichnung": "Preisliste 2025 · Hauptsaison, 18 Loch, Startzeit 10.00 Uhr",
+          "von": "2025-04-16",
+          "bis": "2025-10-10"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 190,
+        "beobachtung_ids": [
+          "budersand-greenfee-2026",
+          "budersand-cart-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "budersand-greenfee-2026",
+            "betrag_eur": 130,
+            "menge": 1,
+            "einheit": "18-Loch-Hauptsaison-Greenfee je regulärem erwachsenem Gast, Startzeit 09.00–11.48 Uhr",
+            "summe_eur": 130
+          },
+          {
+            "beobachtung_id": "budersand-cart-2026",
+            "betrag_eur": 60,
+            "menge": 1,
+            "einheit": "ein Golfcart für 18 Loch; keine Teilung des Cartpreises zwischen Mitfahrern",
+            "summe_eur": 60
+          }
+        ],
+        "quelle_ids": [
+          "ersatz27-budersand-2026"
+        ],
+        "label": "Sommerpreisliste 2026",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Ausdrücklich bezeichneten Sommer-Saisontarif des Jahres verwenden; kein behaupteter Herbst-Tagespreis. Saison, Dauer und Personen bleiben vorab festgelegt.",
+        "preisdatum": "2026-07-11",
+        "gueltigkeit": {
+          "bezeichnung": "Preisliste 2026 · Hauptsaison, 18 Loch, Startzeit 10.00 Uhr",
+          "von": "2026-04-13",
+          "bis": "2026-10-11"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 2.7027027027026973,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.2079002079002075,
+      "belegabstand_tage": 368
+    },
+    {
+      "produkt_id": "hotel-dolomitengolf-penthouse",
+      "basis": {
+        "jahr": 2025,
+        "betrag": 6000.4,
+        "beobachtung_ids": [
+          "dolomitengolf-pws-woche-2025",
+          "dolomitengolf-ortstaxe-2025"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "dolomitengolf-pws-woche-2025",
+            "betrag_eur": 2982,
+            "menge": 2,
+            "einheit": "EUR pro erstem bzw. zweitem Erwachsenen für sieben Nächte",
+            "summe_eur": 5964
+          },
+          {
+            "beobachtung_id": "dolomitengolf-ortstaxe-2025",
+            "betrag_eur": 2.6,
+            "menge": 14,
+            "einheit": "EUR pro Erwachsenem und Nacht",
+            "summe_eur": 36.4
+          }
+        ],
+        "quelle_ids": [
+          "dg-pdf-sommer2025-archiv"
+        ],
+        "label": "Sommerpreisliste 2025",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Ausdrücklich bezeichneten Sommer-Saisontarif des Jahres verwenden; kein behaupteter Herbst-Tagespreis. Saison, Dauer und Personen bleiben vorab festgelegt.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Sommersaison C 2025",
+          "von": "2025-06-29",
+          "bis": "2025-08-31"
+        },
+        "referenzmonate": [
+          "2025-09",
+          "2025-10"
+        ]
+      },
+      "ende": {
+        "jahr": 2026,
+        "betrag": 6000.4,
+        "beobachtung_ids": [
+          "dolomitengolf-pws-woche-2026",
+          "dolomitengolf-ortstaxe-2026"
+        ],
+        "komponenten": [
+          {
+            "beobachtung_id": "dolomitengolf-pws-woche-2026",
+            "betrag_eur": 2982,
+            "menge": 2,
+            "einheit": "EUR pro erstem bzw. zweitem Erwachsenen für sieben Nächte",
+            "summe_eur": 5964
+          },
+          {
+            "beobachtung_id": "dolomitengolf-ortstaxe-2026",
+            "betrag_eur": 2.6,
+            "menge": 14,
+            "einheit": "EUR pro Erwachsenem und Nacht",
+            "summe_eur": 36.4
+          }
+        ],
+        "quelle_ids": [
+          "dg-pdf-sommer2026"
+        ],
+        "label": "Sommerpreisliste 2026",
+        "zeitregel": "jahresbroschuere",
+        "zeitbegruendung": "Ausdrücklich bezeichneten Sommer-Saisontarif des Jahres verwenden; kein behaupteter Herbst-Tagespreis. Saison, Dauer und Personen bleiben vorab festgelegt.",
+        "preisdatum": null,
+        "gueltigkeit": {
+          "bezeichnung": "Sommersaison C 2026",
+          "von": "2026-06-28",
+          "bis": "2026-08-30"
+        },
+        "referenzmonate": [
+          "2026-09",
+          "2026-10"
+        ]
+      },
+      "aenderung_prozent": 0.0,
+      "gewicht": 0.07692307692307693,
+      "beitrag_prozentpunkte": 0.0,
+      "belegabstand_tage": null
+    }
+  ],
+  "diagnostik": {
+    "hinweis": "Weglassproben sind Sensitivitätsdiagnosen mit neu normierten Gewichten, keine weiteren veröffentlichten Indizes oder Auswahlgründe.",
+    "weglassproben": [
+      {
+        "ohne": "porsche-cayenne",
+        "mittel_der_anderen_prozent": 3.5787159473948615
+      },
+      {
+        "ohne": "salem",
+        "mittel_der_anderen_prozent": 3.1812063688507997
+      },
+      {
+        "ohne": "saxonia-thin",
+        "mittel_der_anderen_prozent": 3.2215089482158787
+      },
+      {
+        "ohne": "lanserhof-sylt",
+        "mittel_der_anderen_prozent": 3.7925783686311036
+      },
+      {
+        "ohne": "rm-charger5",
+        "mittel_der_anderen_prozent": 3.2739472615191
+      },
+      {
+        "ohne": "bayreuth-parsifal",
+        "mittel_der_anderen_prozent": 3.6772381148825453
+      },
+      {
+        "ohne": "liegeplatz-ycl",
+        "mittel_der_anderen_prozent": 3.6338353371047685
+      },
+      {
+        "ohne": "skiurlaub-arlberg",
+        "mittel_der_anderen_prozent": 3.1453232212655244
+      },
+      {
+        "ohne": "schwarzwaldstube-menue-ii",
+        "mittel_der_anderen_prozent": 2.138776576421007
+      },
+      {
+        "ohne": "gfw-alarm-premium",
+        "mittel_der_anderen_prozent": 3.6772381148825453
+      },
+      {
+        "ohne": "lady-dior-gross",
+        "mittel_der_anderen_prozent": 3.6772381148825453
+      },
+      {
+        "ohne": "budersand-premiumrunde",
+        "mittel_der_anderen_prozent": 3.4520128896573206
+      },
+      {
+        "ohne": "hotel-dolomitengolf-penthouse",
+        "mittel_der_anderen_prozent": 3.6772381148825453
+      }
+    ]
+  },
+  "grenzen": "Feste jährliche Angebots-/Tarifrunde, kein gleichzeitiges Preisniveau und kein Kalenderjahresbudget. Herbst-VPI dient der Einordnung."
+}

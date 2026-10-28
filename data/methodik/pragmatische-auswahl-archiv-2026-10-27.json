@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0-pragmatische-auswahl",
+  "stand": "2026-10-27",
+  "status": "Experimenteller nominaler Neuner-Vergleich, keine amtliche Inflation oder produktive Indexfreigabe",
+  "quelle_daten": "data/research/premiumalternativen-2026-10-27.json",
+  "nutzerentscheidung": "Datenlücken pragmatisch schließen und im Zweifel höchste Variante wählen.",
+  "auswahlregel": "Höhere belegte Ausführung innerhalb gleicher Leistung, Einheit und Dauer vor der Rechnung festlegen. Keine jährliche Auswahl des höchsten Preises, keine Kombination inkompatibler Varianten, keine erfundenen Preise. Bereits eindeutig festgelegte Referenzmodelle behalten ihre Identität.",
+  "jahre": [
+    2025,
+    2026
+  ],
+  "gewichtung": "Jede der neun vorher festgelegten Positionen erhält 1/9. Vier ausgeschlossene Positionen gehören nicht zur Grundgesamtheit dieses Vergleichs; es wird kein Gewicht eines 13er-Index umverteilt.",
+  "vpi_anker": "August 2025 und August 2026, offizielle Bundesbank-Monatswerte aus dem Beleg vom 16.10.2026. Grober Jahres-/Saisonanker, kein exakt zeitgleicher Vergleich der verschiedenen Produktbeobachtungen. Die monatsgenauen Einzelkurven behalten ihren eigenen Bezug.",
+  "positionen": [
+    {
+      "produkt_id": "porsche-cayenne",
+      "name": "Cayenne · Basis-Modellpreis",
+      "referenzentscheidung": "Basis-Benziner SUV 260 kW/353 PS; keine Umstellung auf Turbo/Hybrid ohne deren passende Historie.",
+      "grenze": "Nominaler deutscher Modell-Grundpreis ohne Extras/Pflichtnebenkosten; Serienausstattung nicht qualitätsbereinigt.",
+      "beobachtung_ids": {
+        "2025": [
+          "cayenne-archiv-2025"
+        ],
+        "2026": [
+          "cayenne-2026"
+        ]
+      },
+      "gewicht_bruch": {
+        "zaehler": 1,
+        "nenner": 9
+      }
+    },
+    {
+      "produkt_id": "salem",
+      "name": "Salem · regulärer Grundtarif",
+      "referenzentscheidung": "Klasse 8, regulärer voller Tarif, keine Ermäßigungen.",
+      "grenze": "Zwölf Monatsraten für Schuljahr 2025/26 beziehungsweise 2026/27; keine tatsächlichen Kalenderjahresausgaben.",
+      "beobachtung_ids": {
+        "2025": [
+          "salem-archiv-2025"
+        ],
+        "2026": [
+          "salem-2026"
+        ]
+      },
+      "gewicht_bruch": {
+        "zaehler": 1,
+        "nenner": 9
+      }
+    },
+    {
+      "produkt_id": "saxonia-thin",
+      "name": "Saxonia Thin · 201.027-LB",
+      "referenzentscheidung": "Neue Händlerreferenz 201.027-LB; alte Referenz wird nicht angehängt.",
+      "grenze": "Händler-Angebotsstände 27.10.2025 und 16.10.2026. Keine Transaktionen; keine bestätigte Hersteller-UVP.",
+      "beobachtung_ids": {
+        "2025": [
+          "saxonia-wempe-archiv-2025"
+        ],
+        "2026": [
+          "saxonia-wempe-2026"
+        ]
+      },
+      "gewicht_bruch": {
+        "zaehler": 1,
+        "nenner": 9
+      }
+    },
+    {
+      "produkt_id": "lanserhof-sylt",
+      "name": "Lanserhof · Classic Plus, ohne Zimmer",
+      "referenzentscheidung": "Classic Plus statt Classic, eine Person, 7–8 Nächte; feste Dauer statt Auswahl des teuersten unterschiedlich langen Aufenthalts.",
+      "grenze": "Programmpreis ohne Unterkunft. Enthaltene Anwendungen ändern sich; keine qualitätsbereinigte Kurinflation, kein Gesamtaufenthalt.",
+      "beobachtung_ids": {
+        "2025": [
+          "lanserhof-2025-plus"
+        ],
+        "2026": [
+          "lanserhof-2026-classic-plus"
+        ]
+      },
+      "gewicht_bruch": {
+        "zaehler": 1,
+        "nenner": 9
+      }
+    },
+    {
+      "produkt_id": "rm-charger5",
+      "name": "Charger5 vario · Modellpreis",
+      "referenzentscheidung": "Charger5 vario Modell-Ab-Preis; keine erfundene Endkonfiguration aus optionalen Kits.",
+      "grenze": "Nominaler Modellpreis mit dokumentiertem Gabel-/Nabenwechsel; kein Preisvergleich identischer Ausstattung.",
+      "beobachtung_ids": {
+        "2025": [
+          "rm-archiv-2025-basis"
+        ],
+        "2026": [
+          "rm-2026"
+        ]
+      },
+      "gewicht_bruch": {
+        "zaehler": 1,
+        "nenner": 9
+      }
+    },
+    {
+      "produkt_id": "bayreuth-parsifal",
+      "name": "Bayreuth · Parsifal A1",
+      "referenzentscheidung": "Höchste belegte Kategorie A1, online/digital ohne AR; Pflichtgebühr je Ticket zusätzlich.",
+      "grenze": "352 EUR plus 6 EUR Pflichtgebühr; Verfügbarkeit und Warteliste bleiben unbepreist.",
+      "beobachtung_ids": {
+        "2025": [
+          "bayreuth-ticket-2025",
+          "bayreuth-gebühr-2025"
+        ],
+        "2026": [
+          "bayreuth-ticket-2026",
+          "bayreuth-gebühr-2026"
+        ]
+      },
+      "gewicht_bruch": {
+        "zaehler": 1,
+        "nenner": 9
+      }
+    },
+    {
+      "produkt_id": "liegeplatz-ycl",
+      "name": "Bodensee · Sommer-Flächentarif",
+      "referenzentscheidung": "Segelboot, Sommersaison, brutto je m²; kein Wechsel zu einem anderen Bootstyp.",
+      "grenze": "Nur Flächentarif, kein Gesamtliegeplatz. Ohne angenommene Bootsfläche oder unbestätigte Pflichtbestandteile; 2023/24 für diesen 2025/26-Vergleich nicht nötig.",
+      "beobachtung_ids": {
+        "2025": [
+          "ycl-fläche-2025"
+        ],
+        "2026": [
+          "ycl-fläche-2026"
+        ]
+      },
+      "gewicht_bruch": {
+        "zaehler": 1,
+        "nenner": 9
+      }
+    },
+    {
+      "produkt_id": "skiurlaub-arlberg",
+      "name": "Arlberg · Hauptsaison-Skipass",
+      "referenzentscheidung": "Erwachsener, sechs aufeinanderfolgende Tage, Hauptsaison statt ermäßigter Saison.",
+      "grenze": "Saison 2024/25 wird dem Endjahr 2025, Saison 2025/26 dem Endjahr 2026 zugeordnet. Nur Skipass, kein Urlaub; 2026/27 ausgeschlossen.",
+      "beobachtung_ids": {
+        "2025": [
+          "ski-beleg-2024"
+        ],
+        "2026": [
+          "ski-2025"
+        ]
+      },
+      "gewicht_bruch": {
+        "zaehler": 1,
+        "nenner": 9
+      }
+    },
+    {
+      "produkt_id": "schwarzwaldstube-menue-ii",
+      "name": "Schwarzwaldstube · Menü II",
+      "referenzentscheidung": "Großes siebenpositioniges Menü II, ohne Getränke; kein Wechsel zum günstigeren vegetarischen Menü.",
+      "grenze": "Nominaler Menüpreis gleicher Premiumstufe. Archivstand 14.10.2025 zu 325 EUR gegen Beobachtung 16.10.2026 zu 385 EUR; höherer Tarif bereits im Dezember-2025-Original belegt. Exaktes Wirksamkeitsdatum und Kostenursache offen; Gerichte und Steuerbedingungen ändern sich.",
+      "beobachtung_ids": {
+        "2025": [
+          "schwarzwald-original-archiv-2025-10"
+        ],
+        "2026": [
+          "schwarzwald-2026-menue"
+        ]
+      },
+      "gewicht_bruch": {
+        "zaehler": 1,
+        "nenner": 9
+      }
+    }
+  ],
+  "nicht_im_vergleich": [
+    {
+      "produkt_id": "hermes-kelly",
+      "entscheidung": "Einpreis-Position",
+      "referenz": "Kelly 28 Togo Noir, Gold, ungetragen; höchster passender tatsächlich verfügbarer belegter Angebotspreis 21.800 EUR am 06.08.2024.",
+      "rest": "Zweiter passender verfügbarer Preis fehlt; kein Boutique-Markup berechenbar. Ausverkaufte oder gebrauchte Angebote werden nicht eingesetzt."
+    },
+    {
+      "produkt_id": "alarmaufschaltung",
+      "entscheidung": "Historische Tarif-/Ab-Angebotsposition",
+      "referenz": "Bei Privat/Pro-Alternative wird das höher ausgestattete Securando-Pro-Paket bevorzugt. Dessen aktueller identischer Tarif ist nicht belegt.",
+      "rest": "Ab 20 EUR, anderer Anbieter ab 35 EUR und zusätzliche Revierstreifenoption 49 EUR ergeben keine gemeinsame Reihe. Kein Nullinflationswert."
+    },
+    {
+      "produkt_id": "hausbetreuung-sylt",
+      "entscheidung": "Backlog bis Preisbeleg",
+      "referenz": "150 m² Westerland, 24 dokumentierte Kontrollgänge/Jahr, Schlüssel und Anfahrt.",
+      "rest": "Kein belegter Pauschalbetrag. Stundenlohn, Reinigung oder Vermietungsgebühr werden nicht als Ersatz verwendet."
+    },
+    {
+      "produkt_id": "hotel-adlon-deluxe",
+      "entscheidung": "Backlog bis datierter Tarif",
+      "referenz": "Adlon Deluxe ca. 40 m², zwei Erwachsene, öffentliche flexible Rate ohne Frühstück. Bei ansonsten identischen Bedingungen höhere belegte Tarifvariante; keine Umstellung auf eine andere Zimmerkategorie ohne deren Historie.",
+      "rest": "Kein passender öffentlicher flexibler Tarif. Undatierter 265-EUR-Sondertarif und 2024er 250-EUR-Sondertarif werden nicht künstlich zu einer öffentlichen Reihe."
+    },
+    {
+      "produkt_id": "gfw-alarm-premium",
+      "entscheidung": "Neue Ersatzposition, nicht Teil des historischen Neuner-Experiments",
+      "referenz": "Laufende Aufschaltung einer vorhandenen privaten Gefahrenmeldeanlage im GfW Paket L (Premium), acht Linien/Merkmale, 24/7-Leitstellenreaktion. Schlüsselaufbewahrung, Interventionsbereitschaft und ein privater Interventionseinsatz pro Jahr laut Paket enthalten. Keine Neuinstallation oder zusätzliche optionale SIM.",
+      "rest": "In eigener neuer Jahresrunde berücksichtigt; kein rückwirkender Einbau."
+    },
+    {
+      "produkt_id": "lady-dior-gross",
+      "entscheidung": "Neue Ersatzposition, nicht Teil des historischen Neuner-Experiments",
+      "referenz": "Neue Große Lady Dior, Referenz M0566ONGE_M900, schwarzes Cannage-Lammleder, helles Gold-Finish, 32 × 25 × 12 cm; schmaler abnehmbarer Lederriemen und Schutzbeutel enthalten. Öffentlicher deutscher Herstellerpreis.",
+      "rest": "In eigener neuer Jahresrunde berücksichtigt; kein rückwirkender Einbau."
+    },
+    {
+      "produkt_id": "budersand-premiumrunde",
+      "entscheidung": "Neue Ersatzposition, nicht Teil des historischen Neuner-Experiments",
+      "referenz": "Eine 18 Loch-Golfrunde eines regulären nicht ermäßigten erwachsenen Gastes zur Hauptsaison um 10.00 Uhr einschließlich eines ausschließlich für diese Runde berechneten 18 Loch-Golfcarts. Eigene Schläger und eigenes Bag; keine Unterbringung, Verpflegung oder Anreise. Cart ist eine von uns fest gewählte Premiumoption, keine Pflichtgebühr.",
+      "rest": "In eigener neuer Jahresrunde berücksichtigt; kein rückwirkender Einbau."
+    },
+    {
+      "produkt_id": "hotel-dolomitengolf-penthouse",
+      "entscheidung": "Neue Ersatzposition, nicht Teil des historischen Neuner-Experiments",
+      "referenz": "Penthouse Wellness Suite PWS, ca. 205 m², zwei Erwachsene, sieben Nächte in der höchsten regulären Sommersaison C, inklusive Halbpension; kein Golfkurs-/Trainingsarrangement, keine Fernmitglieder- oder Stammgästerabatte. Veröffentlichten Wochenpreis verwenden, nicht siebenmal den abweichenden Tagespreis.",
+      "rest": "In eigener neuer Jahresrunde berücksichtigt; kein rückwirkender Einbau."
+    }
+  ],
+  "vorherige_version": "data/methodik/pragmatische-auswahl-forschungsstand-2026-10-26.json",
+  "aenderung": "Unveränderte historische Neuner-Preise/Gewichte, nur zusätzliche neue Produkte als außerhalb dieses historischen Versuchs zugeordnet."
+}

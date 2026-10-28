@@ -13,11 +13,13 @@ Ein unabhängiges Recherchewerkzeug für ausgewählte Premiumpreise in Deutschla
 
 ## Aktueller Stand
 
-Die Hauptseite zeigt die **jährliche Herbst-Tarifrunde mit neun Positionen**: gemeinsame Herbstfenster für freie Preise und feste Jahres-/Saisonregeln, je 1/9 Gewicht. Der nominale Anstieg 2025 → 2026 beträgt **4,60 %**. Referenz ist das vollständige Mittel der offiziellen Bundesbank-VPI-Indizes für September und Oktober; solange Oktober 2026 fehlt, bleiben VPI-Änderung und Abstand leer. Eine Jahresrunde misst keine gleichzeitig anfallenden Haushaltsausgaben.
+Die Hauptseite zeigt die **jährliche Tarifrunde mit 13 Positionen**, je **1/13 Gewicht**. Der nominale Anstieg 2025 → 2026 beträgt **3,39 %**. Freie Preise folgen einem gemeinsamen Herbstfenster, Jahres- und Saisontarife festen Regeln. Referenz ist das vollständige Mittel der offiziellen Bundesbank-VPI-Indizes für September und Oktober; solange Oktober 2026 im verwendeten Beleg fehlt, bleiben VPI-Änderung und Abstand leer. Eine Jahresrunde misst keine gleichzeitig anfallenden Haushaltsausgaben.
 
-Alle **13 Positionen** sind gezielt nachgeprüft; **73 Beobachtungen** einschließlich Komponenten und Zukunftstarifen sowie acht zusätzliche Einzelkurven sind verfügbar. Sechs neue Beobachtungen sichern unter anderem passendere historische Herbststände und den historischen Alarm-Pro-Tarif. Vier Kernlücken benötigen konkrete externe Angebote/Rechnungen: Alarm, Sylt-Service, Kelly und Adlon. [Zeitregeln, Quellenprüfung und Ergebnisse](docs/jahresfenster-und-restbelege-2026-10-26.md).
+Vier schwer belegbare Kandidaten wurden durch recherchierbare Premiumalternativen ersetzt: **GfW Premium, Große Lady Dior, Budersand-Golfrunde mit Cart und Dolomitengolf-Penthousewoche**. Für alle vier liegen Originalpreise 2025/2026 vor. Die alte Alarmreferenz, Kelly, Sylt-Hausbetreuung und Adlon bleiben mit ihren bisherigen Belegen im Archiv. Golf ist eine neue Sylt-Ausgabe, keine fortgesetzte Hausbetreuung. [Entscheidungen, Quellen und Grenzen](docs/belegte-alternativen-2026-10-27.md).
 
-Der frühere Neuner-Versuch mit August-Referenz bleibt im Rechenlabor. Die gemeinsame Berechnung ist ein nominaler Tarifvergleich mit Teilpreisen; **keine produktive redaktionelle Gesamtindexfreigabe** und kein repräsentatives Haushaltsbudget. Ein veröffentlichter Angebotspreis ist keine Transaktion oder Garantie der Verfügbarkeit.
+Release **0.8.0** umfasst **17 dokumentierte Positionen, davon 13 aktiv und vier ersetzt**, **86 Rohbeobachtungen** einschließlich Komponenten und Zukunftstarifen sowie zwölf zusätzliche Einzelkurven. Die frühere Herbst-Jahresrunde mit neun Positionen bleibt bei **4,60 %** und 1/9 Gewicht; auch der August-Versuch bleibt abrufbar. Das neue Ergebnis beruht auf einer neuen Zusammensetzung und Gewichtung, nicht auf korrigierten Preisen der alten neun Positionen.
+
+Die Berechnung bleibt ein nominaler Tarifvergleich mit Teilpreisen; **keine produktive redaktionelle Gesamtindexfreigabe** und kein repräsentatives Haushaltsbudget. Ein veröffentlichter Angebotspreis ist keine Transaktion oder Garantie der Verfügbarkeit.
 
 Bei Modell-/Leistungswechseln wählen wir das [vergleichbarste belegte Premiumangebot](docs/premiumvergleich.md); bei gleicher Vergleichbarkeit die höhere Ausführung. Fortlaufende Weiterentwicklungen führen nicht automatisch zum Ausschluss.
 
@@ -48,6 +50,8 @@ python3 scripts/build-release.py
 python3 -m unittest discover -s tests -p 'test_*.py'
 node tests/reference.test.cjs
 node tests/zeitreihe.test.mjs
+node tests/ersatzkorb.test.mjs
+node tests/alternativen.test.mjs
 ```
 
 Browserprüfungen mit Node 24:
@@ -62,7 +66,8 @@ Der Build verwendet lokale, versionierte Belege und benötigt keinen Live-Zugrif
 
 ## Recherche und Einordnung
 
-- [Jahresfenster und Restbelege: alle 13 Positionen geprüft](docs/jahresfenster-und-restbelege-2026-10-26.md).
+- [Belegte Premiumalternativen und neue 13er-Jahresrunde](docs/belegte-alternativen-2026-10-27.md).
+- [Historischer Stand: Jahresfenster und Restbelege der ursprünglichen 13 Kandidaten](docs/jahresfenster-und-restbelege-2026-10-26.md).
 - [Schwarzwaldstube: abgeschlossener Deep Dive](docs/schwarzwaldstube-preisanstieg-2026-10-26.md) — 385 € bereits im Dezember 2025; neuer Oktober-2025-Primärbeleg zum unveränderten 325-€-Basispreis.
 - [Gesamtreview](docs/gesamtreview-2026-10-23.md) und [Roadmap](docs/roadmap.md).
 - [Julius Bär: Würdigung und Abgrenzung](docs/abgrenzung-julius-baer.md), [Gewichtungsprüfung](docs/methodik-gewichtung-2026-10-17.md).

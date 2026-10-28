@@ -33,7 +33,9 @@ Dokumentiere bisherige/neue Referenz, relevante Änderungen und die geprüften A
 
 ## Jährliche Zeitfenster
 
-Für die feste Jahresrunde gilt [das versionierte Jahresfenster-Rezept](data/methodik/jahresfenster-2026-10-26.json). Freie Preise werden im September/Oktober-Fenster möglichst nah am 15. Oktober ausgewählt; Tarifjahre, Schuljahre und Winter-Endjahre folgen ausdrücklichen Regeln. Ein späterer Beleg ist kein automatischer Ersatz für einen näher am Zieltag liegenden. Der VPI-Herbstanker erfordert beide Monatswerte; fehlende Monate bleiben leer. Änderungen erhalten ein neues begründetes Rezept. [Ergebnisse und Grenzen](docs/jahresfenster-und-restbelege-2026-10-26.md).
+Für die aktuelle 13er-Jahresrunde gilt [das versionierte Rezept](data/methodik/jahresrunde-2026-10-27.json). Das [Neuner-Rezept](data/methodik/jahresfenster-2026-10-26.json) bleibt historisch erhalten. Freie Preise werden im September/Oktober-Fenster möglichst nah am 15. Oktober ausgewählt; Tarifjahre, Schuljahre und Winter-Endjahre folgen ausdrücklichen Regeln. Ein späterer Beleg ist kein automatischer Ersatz für einen näher am Zieltag liegenden. Der VPI-Herbstanker erfordert beide Monatswerte; fehlende Monate bleiben leer. Änderungen erhalten ein neues begründetes Rezept. [Ergebnisse und Grenzen](docs/jahresfenster-und-restbelege-2026-10-26.md).
+
+Das Rezept enthält eine feste vollständige Produkt-ID-Menge. Fehlende Positionen dürfen nicht automatisch die Gewichte verändern. Bei Komponentenpreisen Einheit und Menge ausdrücklich dokumentieren und prüfen; die Hotelwoche enthält beispielsweise zwei Erwachsenen-Wochentarife und 14 Personen-Nächte Ortstaxe. Nicht recherchierbare Produkte erhalten bei Ersatz eine neue Identität und Auswahlversion; keine Verkettung verschiedener Leistungen. [Ersatzentscheidung 0.8](docs/belegte-alternativen-2026-10-27.md).
 
 ## Methodische Änderungen und Korrekturen
 

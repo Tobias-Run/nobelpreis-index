@@ -1,14 +1,14 @@
 {
-  "schema_version": "1.0",
-  "stand": "2026-10-26",
-  "hinweis": "Elf rekonstruierbare Kandidaten plus zwei zusätzliche Vorschläge; keine Rekonstruktion der zwei fehlenden ursprünglichen Namen.",
+  "schema_version": "1.1-aktive-und-archivierte-positionen",
+  "stand": "2026-10-27",
+  "hinweis": "13 aktive Referenzen, 4 ersetzte Kandidaten als Archiv. Historische Gewichtungsszenarien bleiben eingefroren.",
   "produkte": [
     {
       "id": "porsche-cayenne",
       "name": "Porsche Cayenne",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "aktiv",
       "dossier": "docs/produkte/porsche-cayenne.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 6,
       "indexfreigabe": false,
       "rechercheentscheidung": "Modell-Grundpreisfolge belegt"
@@ -16,9 +16,9 @@
     {
       "id": "salem",
       "name": "Schule Schloss Salem",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "aktiv",
       "dossier": "docs/produkte/schloss-salem.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 7,
       "indexfreigabe": false,
       "rechercheentscheidung": "Regulärer Jahrestarif belegt"
@@ -26,9 +26,9 @@
     {
       "id": "saxonia-thin",
       "name": "A. Lange & Söhne Saxonia Thin",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "aktiv",
       "dossier": "docs/produkte/saxonia-thin.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 9,
       "indexfreigabe": false,
       "rechercheentscheidung": "Getrennte Händler-Notierungssegmente belegt"
@@ -36,19 +36,20 @@
     {
       "id": "hermes-kelly",
       "name": "Hermès Kelly",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "archiviert_ersetzt",
       "dossier": "docs/produkte/hermes-kelly.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 1,
       "indexfreigabe": false,
-      "rechercheentscheidung": "Nur eine passende historische verfügbare Preisbeobachtung"
+      "rechercheentscheidung": "Archiviert; durch belegbare Alternative ersetzt",
+      "ersetzt_durch": "lady-dior-gross"
     },
     {
       "id": "lanserhof-sylt",
       "name": "Lanserhof Sylt",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "aktiv",
       "dossier": "docs/produkte/lanserhof-sylt.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 8,
       "indexfreigabe": false,
       "rechercheentscheidung": "Classic-Plus-Programmbeträge direkt abgeglichen"
@@ -56,9 +57,9 @@
     {
       "id": "rm-charger5",
       "name": "Riese & Müller Charger5 vario",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "aktiv",
       "dossier": "docs/produkte/riese-mueller-charger5.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 4,
       "indexfreigabe": false,
       "rechercheentscheidung": "Oktober-Modellpreis und aktuelle Endpreisregel belegt"
@@ -66,9 +67,9 @@
     {
       "id": "bayreuth-parsifal",
       "name": "Bayreuther Festspiele Parsifal A1",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "aktiv",
       "dossier": "docs/produkte/bayreuther-festspiele.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 6,
       "indexfreigabe": false,
       "rechercheentscheidung": "Tarif und Pflichtgebühr belegt"
@@ -76,9 +77,9 @@
     {
       "id": "liegeplatz-ycl",
       "name": "Bodensee-Liegeplatz beim Yacht-Club Langenargen",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "aktiv",
       "dossier": "docs/produkte/liegeplatz-langenargen.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 8,
       "indexfreigabe": false,
       "rechercheentscheidung": "2025/26-Flächentarif belegt; alte Jahre extern offen"
@@ -86,9 +87,9 @@
     {
       "id": "skiurlaub-arlberg",
       "name": "Skiurlaub Lech/Zürs – Teilpreis Ski Arlberg",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "aktiv",
       "dossier": "docs/produkte/skiurlaub-arlberg.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 4,
       "indexfreigabe": false,
       "rechercheentscheidung": "Sechstage-Skipass belegt; Hotel ist Erweiterung"
@@ -96,29 +97,31 @@
     {
       "id": "alarmaufschaltung",
       "name": "Alarmaufschaltung Privathaus",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "archiviert_ersetzt",
       "dossier": "docs/produkte/alarmaufschaltung.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 10,
       "indexfreigabe": false,
-      "rechercheentscheidung": "Historischer Premiumtarif ergänzt; heutiger Pro-Tarif fehlt"
+      "rechercheentscheidung": "Archiviert; durch belegbare Alternative ersetzt",
+      "ersetzt_durch": "gfw-alarm-premium"
     },
     {
       "id": "hausbetreuung-sylt",
       "name": "Hausbetreuung privater Zweitwohnsitz Sylt",
-      "auswahlstatus": "dokumentierter_recherchekandidat",
+      "auswahlstatus": "archiviert_ersetzt",
       "dossier": "docs/produkte/hausbetreuung-sylt.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 0,
       "indexfreigabe": false,
-      "rechercheentscheidung": "Kein öffentlicher Referenzpreis"
+      "rechercheentscheidung": "Archiviert; durch belegbare Alternative ersetzt",
+      "ersetzt_durch": "budersand-premiumrunde"
     },
     {
       "id": "schwarzwaldstube-menue-ii",
       "name": "Schwarzwaldstube Degustationsmenü II",
-      "auswahlstatus": "zusätzlicher_recherchevorschlag",
+      "auswahlstatus": "aktiv",
       "dossier": "docs/produkte/schwarzwaldstube.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 10,
       "indexfreigabe": false,
       "rechercheentscheidung": "Recherche bereits abgeschlossen"
@@ -126,13 +129,57 @@
     {
       "id": "hotel-adlon-deluxe",
       "name": "Hotel Adlon Deluxe Zimmer",
-      "auswahlstatus": "zusätzlicher_recherchevorschlag",
+      "auswahlstatus": "archiviert_ersetzt",
       "dossier": "docs/produkte/hotel-adlon.md",
-      "datendatei": "data/research/herbstfenster-und-restbelege-2026-10-26.json",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
       "anzahl_beobachtungen": 0,
       "indexfreigabe": false,
-      "rechercheentscheidung": "Keine historische öffentliche flexible Referenzrate"
+      "rechercheentscheidung": "Archiviert; durch belegbare Alternative ersetzt",
+      "ersetzt_durch": "hotel-dolomitengolf-penthouse"
+    },
+    {
+      "id": "gfw-alarm-premium",
+      "name": "GfW Alarmaufschaltung Premium · Paket L privat",
+      "auswahlstatus": "aktiv",
+      "dossier": "docs/produkte/gfw-alarm-premium.md",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
+      "anzahl_beobachtungen": 3,
+      "indexfreigabe": false,
+      "rechercheentscheidung": "GfW-Premiumtarif 2024–2026 belegt",
+      "ersetzt": "alarmaufschaltung"
+    },
+    {
+      "id": "lady-dior-gross",
+      "name": "Dior Große Lady Dior",
+      "auswahlstatus": "aktiv",
+      "dossier": "docs/produkte/lady-dior-gross.md",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
+      "anzahl_beobachtungen": 2,
+      "indexfreigabe": false,
+      "rechercheentscheidung": "Identischer deutscher Dior-Herstellerpreis belegt",
+      "ersetzt": "hermes-kelly"
+    },
+    {
+      "id": "budersand-premiumrunde",
+      "name": "GC Budersand Sylt · 18-Loch-Runde mit eigenem Cart",
+      "auswahlstatus": "aktiv",
+      "dossier": "docs/produkte/budersand-premiumrunde.md",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
+      "anzahl_beobachtungen": 4,
+      "indexfreigabe": false,
+      "rechercheentscheidung": "Budersand-Sommertarif und Cart im Original belegt",
+      "ersetzt": "hausbetreuung-sylt"
+    },
+    {
+      "id": "hotel-dolomitengolf-penthouse",
+      "name": "Dolomitengolf Suites · Penthouse-Wellnesswoche",
+      "auswahlstatus": "aktiv",
+      "dossier": "docs/produkte/hotel-dolomitengolf-penthouse.md",
+      "datendatei": "data/research/premiumalternativen-2026-10-27.json",
+      "anzahl_beobachtungen": 4,
+      "indexfreigabe": false,
+      "rechercheentscheidung": "Fester Premium-Wochentarif einschließlich Ortstaxe belegt",
+      "ersetzt": "hotel-adlon-deluxe"
     }
-  ],
-  "zählregel": "beobachtungen plus zusätzliche_historische_beobachtungen; Komponenten und verschiedene Preisarten, keine Zahl freigegebener Indexwerte"
+  ]
 }

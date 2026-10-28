@@ -1,5 +1,8 @@
 # Vorbereitete Beleganforderungen
 
+**Aktueller Status · 28.10.2026:** Die vier früheren Kernanfragen zu Alarm-Pro, Sylt-Hausbetreuung, Kelly und Adlon sind durch [belegte Premiumalternativen](belegte-alternativen-2026-10-27.md) erledigt. Sie sind keine offenen Voraussetzungen der aktuellen 13er-Jahresrunde. Die folgenden Texte sind historische, nicht versandte Entwürfe; keine Anbieter wurden angeschrieben. Weitere Anfragen zu Vollkosten oder längeren Historien sind optionale Erweiterungen.
+
+
 **Aktualisierung 26.10.2026:** Die öffentliche Nachrecherche ist abgeschlossen; [Ergebnis und Grenzen](jahresfenster-und-restbelege-2026-10-26.md). Für die bestehende nominale Preisdefinition sind keine identischen Charger5-Komponenten, keine Erklärung des Saxonia-LB-Suffixes und keine vollständige Lanserhof-Aufenthaltsrechnung mehr pauschale Voraussetzungen. Die vergleichbarste Premiumstufe gilt. Verbindlich offen sind konkrete Belege für **Alarm-Pro, Sylt-Kontrollpaket, deutsche Kelly-Preise und flexible Adlon-Referenzrate**. YCL 2023/24 und die Flächenformel betreffen Rückverlängerung/Gesamtliegeplatzkosten. Ein vollständiger Skiurlaub ist eine Erweiterung des derzeit ausdrücklich beobachteten Skipasses. Die folgenden älteren Vorlagen bleiben als Arbeitsmaterial erhalten; **keine Anfrage wurde versandt**.
 
 

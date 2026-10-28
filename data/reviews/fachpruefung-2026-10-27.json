@@ -1,0 +1,382 @@
+{
+  "stand": "2026-10-27",
+  "belegprotokoll": "data/research/ersatzentscheidungen-2026-10-27.json",
+  "recherche": "data/research/premiumalternativen-2026-10-27.json",
+  "pruefung": "Neue Ersatzpaare recherchiert und separat durch einen anderen KI-Agenten am Original gegengeprüft; keine unabhängige menschliche Redaktionsfreigabe behauptet.",
+  "positionen": [
+    {
+      "produkt_id": "porsche-cayenne",
+      "belegstatus": "Modell-Grundpreisfolge belegt",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": true,
+      "abgeschlossen": [
+        "Herbstbasis 12.09.2025 zu 101.500 EUR gesichert; aktueller 102.700-EUR-Preis erneut bestätigt.",
+        "Basis-Benziner SUV, 260 kW/353 PS beiderseits abgeglichen. Keine Umstellung auf Black Edition/Hybrid.",
+        "Beobachtet wird ausdrücklich der Modell-Grundpreis; Extras, Überführung und Zulassung ausgeschlossen."
+      ],
+      "verbleibend": [
+        "Komplette Modelljahres-Serienausstattung nicht als identisch behauptet; vollständiger Anschaffungspreis erfordert konkrete Händlerrechnung."
+      ],
+      "naechste_aktion": "Keine weitere Hürde für die definierte nominale Modellpreisgeschichte. Vollkosten nur bei eigener Erweiterung.",
+      "beleg_ids": [
+        "porsche-sept25",
+        "porsche-aktuell"
+      ],
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "salem",
+      "belegstatus": "Regulärer Jahrestarif belegt",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": true,
+      "abgeschlossen": [
+        "Klasse 8 gehört zu Klassen 5–10, 2026/27 4.450 EUR monatlich bzw. 53.400 jährlich.",
+        "Archivblatt benennt 2025/26 4.200 monatlich bzw. 50.400 jährlich; Archivdatum 2024 nicht als Tarifjahr verwendet.",
+        "AVB und Gebührenblatt bestätigen zwölf Monate, Schuljahrbeginn September und separate Nebenkosten."
+      ],
+      "verbleibend": [
+        "Keine Gesamtbildungsausgaben einschließlich sämtlicher Nebenkosten oder Messung der Bildungsqualität."
+      ],
+      "naechste_aktion": "Keine weitere Hürde für regulären Schul-/Internatsgrundtarif.",
+      "beleg_ids": [
+        "salem-vertrag",
+        "salem2026",
+        "salem25-archiv"
+      ],
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "saxonia-thin",
+      "belegstatus": "Getrennte Händler-Notierungssegmente belegt",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": true,
+      "abgeschlossen": [
+        "201.027-LB/LB100063 2025 und 2026 getrennt vom alten 201.027-Segment.",
+        "Aktuell 27.000 EUR inkl. MwSt. erneut bestätigt.",
+        "Temporäre Nichtverfügbarkeit ausdrücklich erfasst; keine Transaktion behauptet."
+      ],
+      "verbleibend": [
+        "Herstellerbedeutung des LB-Suffixes unbestätigt; kein Grund, zwei bereits getrennte Referenzen zu verketten."
+      ],
+      "naechste_aktion": "Keine weitere Hürde für nominale Notierungen derselben LB-Referenz; alte/neue Referenz getrennt halten.",
+      "beleg_ids": [
+        "wempe-2025-okt",
+        "wempe-aktuell",
+        "lange-definition"
+      ],
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "lanserhof-sylt",
+      "belegstatus": "Classic-Plus-Programmbeträge direkt abgeglichen",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": true,
+      "abgeschlossen": [
+        "Classic Plus 2025 PDF S. 7 und 2026 S. 4 geprüft, 4.046 → 3.990 EUR, 7–8 Nächte, ohne Unterkunft.",
+        "2026 zusätzlich/im Kern: Befundbesprechung Bioimpedanz/Handkraft 40 Min., Detox-Fußbad 30 Min., Facial 60 Min., Vo2Max/Besprechung 20 Min.; Stoffwechselmessung 20 → 30 Min.; telefonisches Dreimonats-Nachgespräch 2025 genannt, 2026 nicht genannt.",
+        "Bereitschaftsdienst in beiden Programmlisten. 2026 42 EUR/Nacht als fester Bestandteil; Gesamtpreis aus Einzelpreisen. Ohne Nachweis keine zusätzlichen 294 EUR auf 3.990 addieren.",
+        "Kopftext Classic/Plus widersprüchlich; für Auswahl zählen eindeutige Überschrift und Preiszeile. Gesetzliche MwSt. jeweils am Ende der Broschüre bestätigt."
+      ],
+      "verbleibend": [
+        "Aus Broschüren folgt keine identische Gesamtaufenthaltsrechnung; 2025 kein separater Tagesbetrag angegeben. Einbeziehung der Pauschale in tatsächlichen Rechnungen nicht unabhängig bestätigt.",
+        "Historische Zimmerkomponenten und gegenwärtige Ab-Raten ergeben ohne Saison-/Nachtdefinition keine vollständige Hotelreihe."
+      ],
+      "naechste_aktion": "Nominalen veröffentlichten Programmbetrag fortführen. Nur für einen vollständigen Aufenthalt Rechnung/Angebot mit expliziter Pauschalenbehandlung und festem Zimmer verlangen.",
+      "beleg_ids": [
+        "lanserhof-2025",
+        "lanserhof-2026",
+        "lanserhof2024"
+      ],
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "rm-charger5",
+      "belegstatus": "Oktober-Modellpreis und aktuelle Endpreisregel belegt",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": true,
+      "abgeschlossen": [
+        "Originalhersteller Oktober 2025: Charger5 vario 6.199 EUR, 800 Wh/Kiox 500; CORE/HS/Pinion ausgeschlossen.",
+        "Aktueller Modell-/Basiskonfigurationspreis 6.499 EUR bestätigt, ohne optionale Kits.",
+        "Aktuelle Online-Shop-AGB § 5: gesetzliche MwSt. und Versand zum deutschen Fachhändler enthalten. Stand 02.07.2026 wird nicht rückdatiert.",
+        "SR Suntour Mobie 34/Enviolo Heavy Duty → Fox AWL 34/Enviolo Utility V1 dokumentiert. Nominale Premiumfortführung beschlossen."
+      ],
+      "verbleibend": [
+        "Vollständige historische pine/L-Endkonfiguration und historische Steuer-/Lieferbedingungen nicht separat bestätigt. Komponentenlisten enthalten auch Optionen."
+      ],
+      "naechste_aktion": "Modellpreisgeschichte ist verwendbar; identische Endkonfiguration ist nach Nutzerregel keine zusätzliche Voraussetzung. Erweiterte Rechnung nur für Konfigurations-/Vollkostenanspruch.",
+      "beleg_ids": [
+        "pruefung-rm2025-okt",
+        "rm-aktuell",
+        "rm-shopbedingungen"
+      ],
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "bayreuth-parsifal",
+      "belegstatus": "Tarif und Pflichtgebühr belegt",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": true,
+      "abgeschlossen": [
+        "352 EUR Parsifal A1 und 6 EUR je verkauftem Platz in Primärquellen geprüft.",
+        "Online/digital ohne schriftliche Bestell- oder Postgebühr definiert.",
+        "2024–2026 werden als Festspieljahre ausgewiesen."
+      ],
+      "verbleibend": [
+        "Verfügbarkeit/Wartezeit unbepreist; kein einzelner Steuersatz ohne expliziten Beleg unterstellt."
+      ],
+      "naechste_aktion": "Keine weitere Hürde für veröffentlichten 358-EUR-Zahlbetrag; keine bestätigte Verfügbarkeit behaupten.",
+      "beleg_ids": [
+        "bayreuth2025agb",
+        "bayreuth2026agb",
+        "bayreuth2026preise"
+      ],
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "liegeplatz-ycl",
+      "belegstatus": "2025/26-Flächentarif belegt; alte Jahre extern offen",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": true,
+      "abgeschlossen": [
+        "96 → 96,50 EUR/m², 7 % MwSt., Beschluss-/Gültigkeitsdaten erneut am Original geprüft.",
+        "Aktuelles Downloadverzeichnis und gezielte alte/migrierte 2023/24-Pfade geprüft; direkte PDFs 404, CDX-Abfragen ohne passenden Tarif.",
+        "Hafen-/Wartelistenregeln bleiben getrennt vom nicht belegten Zugangspreis."
+      ],
+      "verbleibend": [
+        "Original-Gebührenordnungen 2023/24 und verbindliche Flächenformel nicht gewonnen."
+      ],
+      "naechste_aktion": "Für die bestehende €/m²-Reihe kein Zusatzbeleg nötig. Für Rückverlängerung/Bootsgesamtpreis Original-PDF bzw. bestätigte Abrechnungsformel beschaffen.",
+      "beleg_ids": [
+        "ycl2025",
+        "ycl-2026",
+        "ycl-formulare",
+        "ycl-hafen",
+        "ycl2023-original",
+        "ycl2024-original",
+        "ycl2024-wp",
+        "cdx-ycl-old",
+        "cdx-ycl-wp"
+      ],
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "skiurlaub-arlberg",
+      "belegstatus": "Sechstage-Skipass belegt; Hotel ist Erweiterung",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": true,
+      "abgeschlossen": [
+        "Saisonendjahr jetzt überall gleiche Jahresmarke; Einzel-VPI bleibt Dezember des Saisonbeginns, Jahresrunde nutzt eigenen Herbstanker.",
+        "2024/25 423 EUR → 2025/26 450 EUR, Erwachsener/Hauptsaison. Zukunftstarif 2026/27 bleibt ausgeschlossen.",
+        "Burg Vital aktuell: 3-Nächte-Ab-Pauschalen der Zukunftssaison 2026/27; kein standardisierter Sieben-Nächte-Hotelpreis."
+      ],
+      "verbleibend": [
+        "Keine identische Hotel-/Zimmer-/Verpflegungshistorie; bestehender Eintrag misst ausdrücklich Skipass, keinen gesamten Urlaub."
+      ],
+      "naechste_aktion": "Skipass weiterführen. Hotelkomponente als separate Erweiterung mit identischem 7-Nächte-Angebot aufbauen, keine beliebige Ab-Rate hinzufügen.",
+      "beleg_ids": [
+        "ski-hotel-offiziell"
+      ],
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "schwarzwaldstube-menue-ii",
+      "belegstatus": "Recherche bereits abgeschlossen",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": true,
+      "abgeschlossen": [
+        "Oktober-2025-Original 325 EUR gegen Oktober-2026-Original 385 EUR passt ins feste Herbstfenster.",
+        "Gleiche Premiumstufe; saisonale Speisen-/Steueränderungen dokumentiert. Keine erneute Kostenursachenrecherche."
+      ],
+      "verbleibend": [
+        "Oktober-2026-VPI im vorhandenen Bundesbank-Beleg noch nicht veröffentlicht."
+      ],
+      "naechste_aktion": "Auf nächsten offiziellen Referenzmonat warten; kein Anbieterbeleg zu Kostenursachen erforderlich.",
+      "beleg_ids": [],
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "hermes-kelly",
+      "belegstatus": "Archiviert; durch belegbare Alternative ersetzt",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": false,
+      "abgeschlossen": [
+        "Zusätzlicher deutscher Händler Handbag Sense: exakte Kelly 28 Retourné Togo Schwarz/Gold, ungetragen und Zubehör, aber verkauft und ohne eigenen Preis.",
+        "PurseBop nennt 2026 10.100 EUR für Europa. Das bestätigt weder einen deutschen Boutique-Beleg noch exakte deutsche Steuer-/Variantenbedingungen.",
+        "Aktuelle SACLÀB-Übersicht und frühere Produktadresse geprüft; keine zweite passende verfügbare Preisbeobachtung."
+      ],
+      "verbleibend": [
+        "Deutscher datierter Boutique-Beleg und aktuelles verfügbares Zweitmarktangebot derselben Variante fehlen. Kein verifizierter Markup."
+      ],
+      "naechste_aktion": "Neue Referenz lady-dior-gross verwenden; kein weiterer Rechercheauftrag zum alten Kandidaten.",
+      "beleg_ids": [
+        "kelly-handbagsense",
+        "kelly-pursebop",
+        "saclab-kelly-uebersicht",
+        "saclab-kelly8-aktuell"
+      ],
+      "unabhaengige_zweitredaktion": false,
+      "ersetzt_durch": "lady-dior-gross"
+    },
+    {
+      "produkt_id": "alarmaufschaltung",
+      "belegstatus": "Archiviert; durch belegbare Alternative ersetzt",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": false,
+      "abgeschlossen": [
+        "Securando pro 2022 30 EUR/Monat brutto statt niedrigeren Privat-Tarif 20 EUR als Premiumreferenz gesichert.",
+        "Schlüsselverwahrung, mobile Bereitschaft, 15 Aktivitäten monatlich enthalten; Intervention extra. Einrichtung separat im Nebenpreisblatt mit Datumswiderspruch.",
+        "Aktuelles Ab-Angebot weiterhin kein identisches Pro-Paket. Preise-Ratgeber ist passwortgeschützt; keine Sperre umgangen."
+      ],
+      "verbleibend": [
+        "Heutiges identisches vollständiges Pro-Tarifblatt und Pflichtnebenkosten fehlen. Widersprüchliche historische Nebenpreis-Gültigkeit bleibt sichtbar."
+      ],
+      "naechste_aktion": "Neue Referenz gfw-alarm-premium verwenden; kein weiterer Rechercheauftrag zum alten Kandidaten.",
+      "beleg_ids": [
+        "alarm-2022",
+        "pruefung-securando-ajax",
+        "securando-preise",
+        "cdx-alarm-neu"
+      ],
+      "unabhaengige_zweitredaktion": false,
+      "ersetzt_durch": "gfw-alarm-premium"
+    },
+    {
+      "produkt_id": "hausbetreuung-sylt",
+      "belegstatus": "Archiviert; durch belegbare Alternative ersetzt",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": false,
+      "abgeschlossen": [
+        "Enkelmann und Haus & Hand erneut geprüft. Zusätzlich Clean & Green, Silke Heer und Mein Haus auf Sylt geprüft.",
+        "Leistungen und individuelle Angebote, aber keine öffentliche Pauschale für 150 m² Westerland mit 24 Kontrollen/Schlüssel/Anfahrt.",
+        "Keine Stundenlöhne, Reinigung oder Vermietungsprovision als Ersatz eingetragen."
+      ],
+      "verbleibend": [
+        "Datiertes Angebot oder Rechnung für exakt definiertes Kontrollpaket sowie historische Gegenbelege fehlen."
+      ],
+      "naechste_aktion": "Neue Referenz budersand-premiumrunde verwenden; kein weiterer Rechercheauftrag zum alten Kandidaten.",
+      "beleg_ids": [
+        "sylt-enkelmann",
+        "sylt-haushand",
+        "clean-sylt",
+        "heer-sylt",
+        "sylt-neuer-anbieter"
+      ],
+      "unabhaengige_zweitredaktion": false,
+      "ersetzt_durch": "budersand-premiumrunde"
+    },
+    {
+      "produkt_id": "hotel-adlon-deluxe",
+      "belegstatus": "Archiviert; durch belegbare Alternative ersetzt",
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "nominale_jahresrunde": false,
+      "abgeschlossen": [
+        "Aktuelle Zimmerdefinition und Archivbestand gezielt geprüft.",
+        "Angeforderter Oktober-2025-Capture leitet auf 16.12.2025 um; tatsächliches Memento erfasst. Zimmerbeschreibung ohne vollständige datierte Rate. August-2024-Capture 503.",
+        "Ghorfa-Sondertarife bleiben von öffentlicher Direktbuchung getrennt."
+      ],
+      "verbleibend": [
+        "Zwei datierte öffentliche flexible Deluxe-King-Angebote mit gleichem Reise-/Vorlauf-/Steuer-/Stornoprofil fehlen."
+      ],
+      "naechste_aktion": "Neue Referenz hotel-dolomitengolf-penthouse verwenden; kein weiterer Rechercheauftrag zum alten Kandidaten.",
+      "beleg_ids": [
+        "adlon-zimmer",
+        "cdx-adlon-reservierung",
+        "adlon-herbst25-archiv",
+        "adlon-sommer24-archiv"
+      ],
+      "unabhaengige_zweitredaktion": false,
+      "ersetzt_durch": "hotel-dolomitengolf-penthouse"
+    },
+    {
+      "produkt_id": "gfw-alarm-premium",
+      "belegstatus": "GfW-Premiumtarif 2024–2026 belegt",
+      "nominale_jahresrunde": true,
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "abgeschlossen": [
+        "Paket L privat zu 29,99 EUR monatlich in drei Originalständen, einschließlich 2025/26-Herbstpaar. Neue Reihe statt Securando-Verkettung."
+      ],
+      "verbleibend": [
+        "Laufender Bestands-Grundtarif, keine vollständige Erstinstallation. Acht Linien, Extras/Erstprogrammierung und Objektannahme gesondert."
+      ],
+      "naechste_aktion": "In neuer fester Jahresrunde verwenden und im nächsten jährlichen Fenster erneut beobachten.",
+      "beleg_ids": [
+        "ersatz27-gfw-archiv-2024",
+        "ersatz27-gfw-archiv-2025",
+        "ersatz27-gfw-aktuell",
+        "ersatz27-gfw-privatseite",
+        "ersatz27-gfw-preisliste"
+      ],
+      "getrennte_ki_gegenpruefung": true,
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "lady-dior-gross",
+      "belegstatus": "Identischer deutscher Dior-Herstellerpreis belegt",
+      "nominale_jahresrunde": true,
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "abgeschlossen": [
+        "Große Lady Dior M0566ONGE_M900, 6.200 EUR am 06.09.2025 und 27.10.2026, zwei tatsächliche deutsche Originalbeobachtungen."
+      ],
+      "verbleibend": [
+        "Hersteller-Preisnotierung; keine garantierte Sofortverfügbarkeit, historische separate AGB technisch nicht gesichert. Keine Kelly-/Dior-Verkettung."
+      ],
+      "naechste_aktion": "In neuer fester Jahresrunde verwenden und im nächsten jährlichen Fenster erneut beobachten.",
+      "beleg_ids": [
+        "ersatz27-dior-gross-archiv2025",
+        "ersatz27-dior-gross-aktuell",
+        "ersatz27-dior-couture-agb"
+      ],
+      "getrennte_ki_gegenpruefung": true,
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "budersand-premiumrunde",
+      "belegstatus": "Budersand-Sommertarif und Cart im Original belegt",
+      "nominale_jahresrunde": true,
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "abgeschlossen": [
+        "18-Loch-Runde Hauptsaison 10 Uhr plus eigener Cart: 130+55=185 EUR 2025, 130+60=190 EUR 2026. Beide Juli-Captures bestätigt."
+      ],
+      "verbleibend": [
+        "Neue Premium-Freizeitausgabe statt Hausbetreuung. Cart bewusst gewählte Option; Beginn der 60-EUR-Fassung offen, alte 55-EUR-Fassung bleibt dokumentiert. Kein privater Flight."
+      ],
+      "naechste_aktion": "In neuer fester Jahresrunde verwenden und im nächsten jährlichen Fenster erneut beobachten.",
+      "beleg_ids": [
+        "ersatz27-budersand-2025",
+        "ersatz27-budersand-2026",
+        "ersatz27-bud-faq",
+        "ersatz27-bud-greenfee",
+        "ersatz27-bud2026-frueh",
+        "ersatz27-budersand-relevanz"
+      ],
+      "getrennte_ki_gegenpruefung": true,
+      "unabhaengige_zweitredaktion": false
+    },
+    {
+      "produkt_id": "hotel-dolomitengolf-penthouse",
+      "belegstatus": "Fester Premium-Wochentarif einschließlich Ortstaxe belegt",
+      "nominale_jahresrunde": true,
+      "oeffentliche_nachrecherche": "abgeschlossen",
+      "abgeschlossen": [
+        "PWS-Penthouse, zwei Erwachsene, sieben Nächte Halbpension, höchste Sommersaison C: je Jahr 2×2.982+14×2,60=6.000,40 EUR. Identische Komponententarife in beiden Originalpreislisten."
+      ],
+      "verbleibend": [
+        "Österreichische Hotel-Leistung statt Berliner Einzelnacht. Errechneter Listen-Zahlbetrag, keine bestätigte Buchung oder garantierte Verfügbarkeit. Einzelne Mehrwertsteuersätze nicht hinzugerechnet."
+      ],
+      "naechste_aktion": "In neuer fester Jahresrunde verwenden und im nächsten jährlichen Fenster erneut beobachten.",
+      "beleg_ids": [
+        "dg-pdf-sommer2025-archiv",
+        "dg-pdf-sommer2026",
+        "dg-luxus-relevanz"
+      ],
+      "getrennte_ki_gegenpruefung": true,
+      "unabhaengige_zweitredaktion": false
+    }
+  ],
+  "offene_externe_kernbelege": [],
+  "optionale_erweiterungen": [
+    "YCL 2023/24 und Flächenformel",
+    "Vollständige individuelle Aufenthalts-/Anschaffungs-/Urlaubsrechnungen"
+  ],
+  "nachrichten_versandt": false
+}

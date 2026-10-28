@@ -14,8 +14,8 @@ class Jahresfenster(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         release = json.loads((ROOT/'data/release.json').read_text())
-        cls.raw = json.loads((ROOT/release['recherche']).read_text())
         cls.recipe = json.loads((ROOT/release['herbstvergleich']).read_text())
+        cls.raw = json.loads((ROOT/cls.recipe['quelle_daten']).read_text())
 
     def changed(self, pid):
         recipe = copy.deepcopy(self.recipe)
@@ -65,6 +65,59 @@ class Jahresfenster(unittest.TestCase):
         r, p = self.changed('rm-charger5'); p['kandidaten']['2025'].append('cayenne-herbst-2025')
         with self.assertRaisesRegex(Datenfehler, 'zu Produkt und Tarifeinheit'):
             erstellen(self.raw, r)
+
+
+class ErsatzJahresrunde(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        release = json.loads((ROOT/'data/release.json').read_text())
+        cls.raw = json.loads((ROOT/release['recherche']).read_text())
+        cls.recipe = json.loads((ROOT/release['jahresvergleich']).read_text())
+
+    def test_vollstaendiger_korb_und_richtige_hotelmengen(self):
+        result = erstellen(self.raw, self.recipe)
+        self.assertEqual(len(result['reihen']), 13)
+        self.assertEqual(len(result['zeitpruefung']), 26)
+        hotel = next(r for r in result['reihen'] if r['id']=='hotel-dolomitengolf-penthouse')
+        for p in hotel['punkte']:
+            self.assertEqual([c['menge'] for c in p['komponenten']], [2,14])
+            self.assertAlmostEqual(p['betrag'], 6000.4)
+            self.assertNotAlmostEqual(p['betrag'], 2982+2.6)
+
+    def test_gekuerzten_korb_nicht_still_auf_zwoelf_neu_gewichten(self):
+        r = copy.deepcopy(self.recipe)
+        missing = r['positionen'].pop()
+        r['nicht_im_vergleich'].append({'produkt_id':missing['produkt_id']})
+        for p in r['positionen']: p['gewicht_bruch']={'zaehler':1,'nenner':12}
+        with self.assertRaisesRegex(Datenfehler, 'vollständige festgelegte Zusammensetzung'):
+            erstellen(self.raw,r)
+
+    def test_altkandidat_ist_keine_preisbeobachtung_des_ersatzprodukts(self):
+        r=copy.deepcopy(self.recipe)
+        p=next(p for p in r['positionen'] if p['produkt_id']=='gfw-alarm-premium')
+        p['produkt_id']='alarmaufschaltung'
+        p['beobachtung_ids']={'2025':['alarm-securando-ab-archiv-2025'],'2026':['alarm-securando-ab-2026']}
+        r['nicht_im_vergleich']=[p for p in r['nicht_im_vergleich'] if p['produkt_id']!='alarmaufschaltung']+[{'produkt_id':'gfw-alarm-premium'}]
+        with self.assertRaisesRegex(Datenfehler, 'vollständige festgelegte Zusammensetzung'):
+            erstellen(self.raw,r)
+
+    def test_ortstaxe_nicht_pro_aufenthalt_statt_pro_personnacht(self):
+        for menge in [1,'14',True]:
+            with self.subTest(menge=menge):
+                r=copy.deepcopy(self.recipe)
+                p=next(p for p in r['positionen'] if p['produkt_id']=='hotel-dolomitengolf-penthouse')
+                p['berechnung']['komponenten'][1]['menge']=menge
+                with self.assertRaisesRegex(Datenfehler, 'Komponentenmenge|Komponentenmengen|ganzzahlige Komponentenmenge'):
+                    erstellen(self.raw,r)
+
+    def test_alle_pflichtbestandteile_in_richtiger_einheit(self):
+        for fehler in ['fehlt','vertauscht']:
+            with self.subTest(fehler=fehler):
+                r=copy.deepcopy(self.recipe)
+                p=next(p for p in r['positionen'] if p['produkt_id']=='hotel-dolomitengolf-penthouse')
+                p['beobachtung_ids']['2025']=p['beobachtung_ids']['2025'][:1] if fehler=='fehlt' else list(reversed(p['beobachtung_ids']['2025']))
+                with self.assertRaisesRegex(Datenfehler, 'Tarifkomponenten|Tarifeinheit'):
+                    erstellen(self.raw,r)
 
 
 if __name__ == '__main__':

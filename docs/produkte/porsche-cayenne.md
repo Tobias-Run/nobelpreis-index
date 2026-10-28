@@ -1,8 +1,10 @@
 # Porsche Cayenne: der deutsche Basis-Benziner
 
-**Aktueller Prüfstand · 26.10.2026**
+**Aktueller Auswahlstand · 27.10.2026; Preisbelege zuletzt geprüft 26.10.2026**
 
-**Modell-Grundpreisfolge belegt.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/9 Gewicht; keine produktive Gesamtindexfreigabe.
+**Modell-Grundpreisfolge belegt.** Öffentliche Nachrecherche abgeschlossen. Die feste Jahresrunde enthält diese nominale Position mit 1/13 Gewicht; keine produktive Gesamtindexfreigabe.
+
+Seit Version 0.8 Teil der [neuen 13er-Auswahl](../belegte-alternativen-2026-10-27.md). Die bisherigen Preise und Zeitregeln bleiben unverändert; der frühere Neuner-Vergleich mit 1/9 Gewicht bleibt separat erhalten.
 
 ## Preisdefinition und Zeitbezug
 

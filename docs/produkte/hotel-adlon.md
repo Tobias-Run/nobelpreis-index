@@ -1,5 +1,11 @@
 # Hotel Adlon: ein standardisierter Aufenthalt
 
+**Archiviert und ersetzt · 27.10.2026.** Diese frühere Rechercheidee gehört nicht mehr zur aktiven Auswahl. Die neue Position ist [hier dokumentiert](hotel-dolomitengolf-penthouse.md); sie hat eine eigene Identität und wird nicht mit diesen Preisen verkettet. Für den aktuellen Projektumfang sind keine weiteren externen Belege dieser alten Position erforderlich. [Gemeinsame Ersatzentscheidung](../belegte-alternativen-2026-10-27.md).
+
+<details>
+<summary>Historischer Prüfstand und damals offene Anforderungen</summary>
+
+
 **Aktueller Prüfstand · 26.10.2026**
 
 **Keine historische öffentliche flexible Referenzrate.** Öffentliche Nachrecherche abgeschlossen. Außerhalb der festen Neuner-Zusammensetzung, bis passende Belege vorliegen.
@@ -79,5 +85,7 @@ Datiertes öffentliches Angebot ohne Frühstück und mit Steuer-/Stornobedingung
 Keine neue passende öffentliche flexible Deluxe-Rate. Breite PDF-Archivsuche lief in einen Timeout, eingegrenzte Suche lieferte teils HTTP 503. Technische Prüflücke bleibt ausdrücklich offen.
 
 [Fundstellen, ausgeschlossene Angebote und Grenzen](../archivluecken-2026-10-21.md) · [Neuer Datenstand](../../data/research/archivnachrecherche-2026-10-21.json). Keine automatische Indexfreigabe.
+
+</details>
 
 </details>

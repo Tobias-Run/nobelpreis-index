@@ -35,6 +35,8 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_*.py'
           node tests/reference.test.cjs
           node tests/zeitreihe.test.mjs
+          node tests/ersatzkorb.test.mjs
+          node tests/alternativen.test.mjs
           node --check dist/design-demo/app.js
           node --check dist/zeitreihe/app.mjs
           node --check dist/zeitreihe/berechnung.mjs

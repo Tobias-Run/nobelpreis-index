@@ -1,0 +1,242 @@
+{
+  "stand": "2026-10-27",
+  "auftragsentscheidung": "Nicht recherchierbare Kandidaten durch wiederholt öffentlich belegte Premiumleistungen ersetzen. Keine Fortsetzung unterschiedlicher Produkte behaupten.",
+  "gegenpruefung": "docs/ersatz-gegenpruefung-2026-10-27.md",
+  "ersetzungen": [
+    {
+      "alt_id": "alarmaufschaltung",
+      "neu_id": "gfw-alarm-premium",
+      "name": "GfW Alarmaufschaltung Premium · Paket L privat",
+      "entscheidung": {
+        "belegstatus": "GfW-Premiumtarif 2024–2026 belegt",
+        "ergebnis": "Paket L privat zu 29,99 EUR monatlich in drei Originalständen, einschließlich 2025/26-Herbstpaar. Neue Reihe statt Securando-Verkettung.",
+        "grenze": "Laufender Bestands-Grundtarif, keine vollständige Erstinstallation. Acht Linien, Extras/Erstprogrammierung und Objektannahme gesondert.",
+        "quellen_id": "ersatz27-gfw-archiv-2024"
+      },
+      "vergleich": {
+        "jahre": [
+          2025,
+          2026
+        ],
+        "beobachtung_ids": {
+          "2025": [
+            "gfw-premium-2025"
+          ],
+          "2026": [
+            "gfw-premium-2026"
+          ]
+        },
+        "aenderung_prozent": 0,
+        "herbstfenster_beide_erfuellt": true,
+        "zeitregel": "herbst",
+        "weitere_historie": {
+          "2024": "gfw-premium-2024"
+        },
+        "zwoelf_monatsraten_eur": "359.88"
+      },
+      "grenzen": [
+        "Mindestvertragslaufzeit, vollständige individuelle Einrichtungs-/Objektaufnahmebedingungen öffentlich nicht abschließend bestätigt. Bestehende laufende Aufschaltung ist die eng definierte beobachtete Einheit.",
+        "Paket-L-Featureliste ist beim Zeilenumfang widersprüchlich aufgebaut: allgemeine linke Vergleichsliste sagt unbegrenzte Linien, konkrete Paket-L-Karte sagt acht. Daher konservativ auf acht Linien fixieren.",
+        "Programmierungs-Kostenerstattung wird im Vergleichstext mit bis 150 EUR netto/178,50 brutto, in der Karte nur bis 150 EUR genannt. Keine kostenpflichtige Erstprogrammierung in das Referenzobjekt aufnehmen; bei Erstjahreskosten müsste das geklärt werden.",
+        "Verfügbarkeit und konkrete Objektannahme sind nicht garantiert. Ein veröffentlichter Tarif ist keine Transaktion.",
+        "Private Haussicherheit ist passend zum Nutzungsthema, aber keine statistisch nachgewiesene 1%-Repräsentativität."
+      ],
+      "alternativen": [],
+      "quellen_ids": [
+        "ersatz27-gfw-archiv-2024",
+        "ersatz27-gfw-archiv-2025",
+        "ersatz27-gfw-aktuell",
+        "ersatz27-gfw-privatseite",
+        "ersatz27-gfw-preisliste"
+      ]
+    },
+    {
+      "alt_id": "hermes-kelly",
+      "neu_id": "lady-dior-gross",
+      "name": "Dior Große Lady Dior",
+      "entscheidung": {
+        "belegstatus": "Identischer deutscher Dior-Herstellerpreis belegt",
+        "ergebnis": "Große Lady Dior M0566ONGE_M900, 6.200 EUR am 06.09.2025 und 27.10.2026, zwei tatsächliche deutsche Originalbeobachtungen.",
+        "grenze": "Hersteller-Preisnotierung; keine garantierte Sofortverfügbarkeit, historische separate AGB technisch nicht gesichert. Keine Kelly-/Dior-Verkettung.",
+        "quellen_id": "ersatz27-dior-gross-archiv2025"
+      },
+      "vergleich": {
+        "jahre": [
+          2025,
+          2026
+        ],
+        "preispaare": [
+          6200,
+          6200
+        ],
+        "aenderung_prozent": 0,
+        "belegabstand_tage": 416,
+        "zeitregel": "herbst",
+        "beobachtung_ids": {
+          "2025": [
+            "lady-dior-gross-2025"
+          ],
+          "2026": [
+            "lady-dior-gross-2026"
+          ]
+        },
+        "kandidaten": {
+          "2025": [
+            "lady-dior-gross-2025"
+          ],
+          "2026": [
+            "lady-dior-gross-2026"
+          ]
+        },
+        "zeitzuordnung": {
+          "2025": {
+            "jahr": 2025,
+            "label": "Herbst 2025",
+            "begruendung": "Datierten deutschen Originalstand 06.09.2025 im festen September/Oktober-Fenster verwenden; einziger passender Herbstbeleg im geprüften Quellenbestand."
+          },
+          "2026": {
+            "jahr": 2026,
+            "label": "Herbst 2026",
+            "begruendung": "Deutscher Originalpreis am 27.10.2026 beobachtet, im festen September/Oktober-Fenster; keine Rückdatierung aus dem Such-Crawldatum."
+          }
+        }
+      },
+      "grenzen": [
+        "0 % gilt ausschließlich für zwei nominale Preisnotierungen, keine Feststellung unveränderter Transaktionspreise über 416 Tage.",
+        "Aktuelle Bestellbarkeit/Bestände können abweichen; eine garantiert verfügbare Tasche wird nicht behauptet.",
+        "Aktuelle deutsche Steuer-/Versandbedingungen sind explizit belegt. Historische Produktseite zeigt kostenlosen Standardversand; separate 2025-Couture-AGB-Abfrage scheiterte technisch (503).",
+        "Keine neue Gesamtindexfreigabe; Bundesbank-Referenz der Jahresrunde bleibt separat."
+      ],
+      "alternativen": [
+        {
+          "name": "Chanel klassische 11.12 A01112-Y01295-94305",
+          "grund": "Aktueller deutscher Herstellerpreis 10.500 EUR verifiziert. Historischer Originalbeleg 14.10.2025 zu 10.300 EUR ist jedoch Italien. Kein unmarkierter Ländermix. Deutsche CDX-Präfixabfragen lieferten keine passende 2025-Fassung."
+        },
+        {
+          "name": "Mittelgroße Lady Dior M0565ONGE_M900",
+          "grund": "Deutscher Original-Capture 18.07.2025 zu 5.900 EUR und aktueller deutscher Preis gleich hoch. Juli-Basis liegt außerhalb des Herbstfensters; Große Lady Dior hat passendere Herbstbelege."
+        },
+        {
+          "name": "Louis Vuitton Capucines BB",
+          "grund": "Mehrere derzeitige deutsche Herstellerseiten zeigen nur Kundenservice ohne konkreten Preis; nicht besser als die gewählte Dior-Reihe."
+        }
+      ],
+      "quellen_ids": [
+        "ersatz27-dior-gross-archiv2025",
+        "ersatz27-dior-gross-aktuell",
+        "ersatz27-dior-couture-agb"
+      ]
+    },
+    {
+      "alt_id": "hausbetreuung-sylt",
+      "neu_id": "budersand-premiumrunde",
+      "name": "GC Budersand Sylt · 18-Loch-Runde mit eigenem Cart",
+      "entscheidung": {
+        "belegstatus": "Budersand-Sommertarif und Cart im Original belegt",
+        "ergebnis": "18-Loch-Runde Hauptsaison 10 Uhr plus eigener Cart: 130+55=185 EUR 2025, 130+60=190 EUR 2026. Beide Juli-Captures bestätigt.",
+        "grenze": "Neue Premium-Freizeitausgabe statt Hausbetreuung. Cart bewusst gewählte Option; Beginn der 60-EUR-Fassung offen, alte 55-EUR-Fassung bleibt dokumentiert. Kein privater Flight.",
+        "quellen_id": "ersatz27-budersand-2025"
+      },
+      "vergleich": [
+        {
+          "jahr": 2025,
+          "betrag": 185,
+          "beobachtung_ids": [
+            "budersand-greenfee-2025",
+            "budersand-cart-2025"
+          ]
+        },
+        {
+          "jahr": 2026,
+          "betrag": 190,
+          "beobachtung_ids": [
+            "budersand-greenfee-2026",
+            "budersand-cart-2026"
+          ]
+        }
+      ],
+      "grenzen": [
+        "Andere Konsumausgabe als der frühere Sylt-Hausbetreuungsservice; alte Daten nicht verketten.",
+        "Die Saisonabgrenzungen unterscheiden sich um einige Tage; Referenz-Sommertag 15. Juli/Startzeit 10 Uhr liegt in beiden Hauptsaisons.",
+        "Eine weitere offizielle 2026-Fassung nennt 55 EURCartpreis; maßgeblich gewählte Fassung ist am Abrufdatum aktuell verlinkt und bereits am 11. Juli 2026 mit 60 EUR archiviert. Der genaue Umstellungs-/Gültigkeitsbeginn ist nicht belegt.",
+        "Die PDF-Preislisten weisen Umsatzsteuer nicht separat aus. Endkundentarife werden ohne erfundenen Steueraufschlag oder Netto-Korrektur verwendet.",
+        "Das Hinzufügen des Cart ist eine vor der Indexrechnung festgelegte Premium-Leistungsdefinition; daraus folgt keine Behauptung, alle Golfspieler müssten einen Cart bezahlen.",
+        "Keine statistische Repräsentativität für Deutschlands reichstes Prozent."
+      ],
+      "alternativen": [
+        {
+          "name": "Marine Golf Club Sylt Vollmitgliedschaft",
+          "ergebnis": "1.200 EURjährlich bzw 12×105 EUR, rückzahlbare 4.000 EURGenossenschaftsanteile getrennt. Expliziter Zweitwohnungsbezug und Tarifstand 01.01.2025 vorhanden; keine auswertbare 2025/26-Archivreihe in diesem Durchlauf gewonnen. Daher nicht vor dem besseren Budersand-Paar wählen.",
+          "quellen": [
+            "https://sylt-golf.de/mitglied-werden/",
+            "https://sylt-golf.de/wp-content/uploads/2022/10/Marine-Golf-Club-Sylt-Aufnahmeantrag.pdf"
+          ]
+        }
+      ],
+      "quellen_ids": [
+        "ersatz27-budersand-2025",
+        "ersatz27-budersand-2026",
+        "ersatz27-bud-faq",
+        "ersatz27-bud-greenfee",
+        "ersatz27-bud2026-frueh",
+        "ersatz27-budersand-relevanz"
+      ]
+    },
+    {
+      "alt_id": "hotel-adlon-deluxe",
+      "neu_id": "hotel-dolomitengolf-penthouse",
+      "name": "Dolomitengolf Suites · Penthouse-Wellnesswoche",
+      "entscheidung": {
+        "belegstatus": "Fester Premium-Wochentarif einschließlich Ortstaxe belegt",
+        "ergebnis": "PWS-Penthouse, zwei Erwachsene, sieben Nächte Halbpension, höchste Sommersaison C: je Jahr 2×2.982+14×2,60=6.000,40 EUR. Identische Komponententarife in beiden Originalpreislisten.",
+        "grenze": "Österreichische Hotel-Leistung statt Berliner Einzelnacht. Errechneter Listen-Zahlbetrag, keine bestätigte Buchung oder garantierte Verfügbarkeit. Einzelne Mehrwertsteuersätze nicht hinzugerechnet.",
+        "quellen_id": "dg-pdf-sommer2025-archiv"
+      },
+      "vergleich": {
+        "keine_transaktionsbeobachtung": true,
+        "formel": "2 × veröffentlichter Wochenpreis je Person + 2 × 7 × Ortstaxe je Person/Nacht",
+        "parameter": {
+          "erwachsene": 2,
+          "naechte": 7
+        },
+        "2025": {
+          "tarif": 2982,
+          "ortstaxe": 2.6,
+          "berechneter_zahlbetrag": 6000.4
+        },
+        "2026": {
+          "tarif": 2982,
+          "ortstaxe": 2.6,
+          "berechneter_zahlbetrag": 6000.4
+        },
+        "nominale_aenderung_prozent": 0,
+        "hinweis": "Keine angenommene Nullinflation wegen fehlender Daten: beide veröffentlichten Tarife und beide Ortstaxen sind tatsächlich gleich. Nicht die andere Wellness Suite (WS) oder den Nachtpreis 460 statt Wochenpreis 2982 einsetzen."
+      },
+      "grenzen": [
+        "Einzelner Umsatzsteuersatz bzw. Verteilung auf Logis/Halbpension wird im Preisblatt nicht ausdrücklich separat genannt. Keine 10/13/20-Prozent-Annahme addieren.",
+        "Listenpreis und Saison-C-Leistung, keine garantierte freie Suite oder tatsächlich gebuchte Hotelrechnung.",
+        "Nominales Premiumangebot gleicher benannter Kategorie; kein Qualitätsbereinigungsanspruch.",
+        "Vor Publikation bei Übernahme in den Korb neue Zusammensetzungs-/Gewichtsversion und neue feste Saisonregel dokumentieren. Adlon-Altdaten als historische Recherche erhalten, nicht rückwirkend mit Osttirol verketten."
+      ],
+      "alternativen": [
+        {
+          "name": "Bareiss Zimmer",
+          "grund": "Originalpreisliste 2026 ausdrücklich dynamisches Preissystem, daher kein verlässlicher Ersatz desselben Problems.",
+          "url": "https://www.bareiss.com/fileadmin/images/DOWNLOADS/Prospektbestellung/Bareiss_Preisliste_2026_D.pdf",
+          "fundstelle": "PDF-Seite 49 (0-index 48), Preisberechnung"
+        },
+        {
+          "name": "Traube Tonbach Zimmer",
+          "grund": "Offizielle Zimmerseite erklärt Umstellung auf nachfragebasiertes Preissystem; bloße Preisband-Obergrenzen werden nicht als feste Unterkunftspreise genommen.",
+          "url": "https://www.traube-tonbach.de/uebernachtung/zimmer/"
+        }
+      ],
+      "quellen_ids": [
+        "dg-pdf-sommer2025-archiv",
+        "dg-pdf-sommer2026",
+        "dg-luxus-relevanz"
+      ]
+    }
+  ],
+  "nachrichten_versandt": false
+}
